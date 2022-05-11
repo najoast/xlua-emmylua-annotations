@@ -1,0 +1,2 @@
+---@class Playables.ScriptPlayableBinding @A PlayableBinding that contains information representing a ScriptingPlayableOutput.
+---@field Create fun() @Creates a PlayableBinding that contains information representing a ScriptPlayableOutput.

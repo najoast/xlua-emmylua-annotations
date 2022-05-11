@@ -1,0 +1,3 @@
+---@class LightProbeProxyVolume.ProbePositionMode @The mode in which the interpolated Light Probe positions are generated.
+---@field CellCorner fun() @Divide the volume in cells based on resolution, and generate interpolated Light Probes positions in the corner/edge of the cells.
+---@field CellCenter fun() @Divide the volume in cells based on resolution, and generate interpolated Light Probe positions in the center of the cells.

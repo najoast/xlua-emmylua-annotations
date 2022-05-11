@@ -1,0 +1,14 @@
+---@class Build.Reporting.BuildSummary @Contains overall summary information about a build.
+---@field outputPath fun() @The output path for the build, as provided to BuildPipeline.BuildPlayer.
+---@field GetSubtarget fun() @The subtarget that the build was created for.
+---@field options fun() @The BuildOptions used for the build, as passed to BuildPipeline.BuildPlayer.
+---@field buildEndedAt fun() @The time the build ended.
+---@field platformGroup fun() @The platform group the build was created for.
+---@field result fun() @The outcome of the build.
+---@field buildStartedAt fun() @The time the build was started.
+---@field guid fun() @The Application.buildGUID of the build.
+---@field totalSize fun() @The total size of the build output, in bytes.
+---@field totalErrors fun() @The total number of errors and exceptions recorded during the build process.
+---@field platform fun() @The platform that the build was created for.
+---@field totalWarnings fun() @The total number of warnings recorded during the build process.
+---@field totalTime fun() @The total time taken by the build process.

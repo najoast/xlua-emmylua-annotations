@@ -1,0 +1,41 @@
+---@class Profiling.FrameDataView @Base funtionality for accessing the Profiler data.
+---@field frameFps fun() @The current frames per second (FPS) for the frame.
+---@field frameStartTimeNs fun() @The start time of CPU frame in nanoseconds.
+---@field invalidThreadIndex fun() @This constant defines a thread index that does not match any valid thread's index.
+---@field HasCounterValue fun() @Returns true for a marker that includes a counter in the active frame.
+---@field GetFrameMetaDataCount fun() @Gets the total number of metadata chunks for each id and tag pair in the frame.
+---@field GetMarkerFlags fun() @Gets Profiler marker flags for the specific marker identifier.
+---@field threadIndex fun() @The index of the thread in the current frame.
+---@field threadGroupName fun() @The name of the group that the thread belongs to.
+---@field sampleCount fun() @The amount of samples in the frame for the thread.
+---@field valid fun() @True after the frame data for the thread is processed and ready for retrieval.
+---@field GetMarkerCategoryIndex fun() @Gets Profiler marker category for the specific marker identifier.
+---@field frameGpuTimeMs fun() @The amount of GPU frame time in milliseconds.
+---@field GetFrameMetaData fun() @Retrieves metadata associated with the frame.
+---@field frameTimeNs fun() @The amount of CPU frame time in nanoseconds.
+---@field GetCounterValueAsLong fun() @Gets the last value of a counter marker in the frame as a long data type.
+---@field frameGpuTimeNs fun() @The amount of GPU frame time in nanoseconds.
+---@field ResolveMethodInfo fun() @Returns method name and location information for the specified method address.
+---@field MethodInfo Profiling.FrameDataView.MethodInfo @Managed method descriptor structure.
+---@field GetMarkers fun() @Gets all available markers for the current profiling session.
+---@field GetMarkerId fun() @Get Profiler marker identifier for a specific name.
+---@field GetCounterValueAsFloat fun() @Gets the last value of a counter marker in the frame as a float data type'.
+---@field frameIndex fun() @The frame index for the FrameDataView.
+---@field invalidThreadId fun() @This constant defines a thread id that does not match any valid thread's id.
+---@field threadId fun() @Persistent identifier associated with the thread.
+---@field GetSessionMetaData fun() @Retrieves the metadata of the session this frame occurred in as a NativeArray.
+---@field MarkerInfo Profiling.FrameDataView.MarkerInfo @Marker descriptor structure.
+---@field GetCounterValuePtr fun() @Gets unsafe pointer to the last value of a counter marker in the frame.
+---@field GetCategoryInfo fun() @Gets the Profiler category information for a given category ID.
+---@field MarkerMetadataInfo Profiling.FrameDataView.MarkerMetadataInfo @Marker metadata descriptor.
+---@field threadName fun() @Name of the thread.
+---@field GetCounterValueAsInt fun() @Gets the last value of a counter marker in the frame as an int data type'.
+---@field GetMarkerName fun() @Gets Profiler marker name for the specific marker identifier.
+---@field maxDepth fun() @Maximum child samples levels in the thread data.
+---@field GetCounterValueAsDouble fun() @Gets the last value of a counter marker in the frame as a double data type'.
+---@field frameTimeMs fun() @The amount of CPU frame time in milliseconds.
+---@field invalidMarkerId fun() @Identifier of the invalid marker.
+---@field GetMarkerMetadataInfo fun() @Gets Profiler marker metadata information for the specific marker identifier.
+---@field GetAllCategories fun() @Gets all the available Profiler Categories for the current profiling session.
+---@field GetSessionMetaDataCount fun() @Gets the total number of metadata chunks for each id and tag pair in the Profiler session.
+---@field frameStartTimeMs fun() @The start time of CPU frame in milliseconds.

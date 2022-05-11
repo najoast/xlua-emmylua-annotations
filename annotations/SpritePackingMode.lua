@@ -1,0 +1,3 @@
+---@class SpritePackingMode @Sprite packing modes for the Sprite Packer.
+---@field Rectangle fun() @Alpha-cropped ractangle packing.
+---@field Tight fun() @Tight mesh based packing.

@@ -1,0 +1,2 @@
+---@class Search.IQueryHandler_2 @Interface for query handlers.
+---@field Eval fun() @Implement this function to evaluate the query on a single element.

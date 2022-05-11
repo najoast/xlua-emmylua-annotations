@@ -1,0 +1,5 @@
+---@class AssetBundleBuild @AssetBundle building map entry.
+---@field assetBundleName fun() @AssetBundle name.
+---@field assetBundleVariant fun() @AssetBundle variant.
+---@field assetNames fun() @Asset names which belong to the given AssetBundle.
+---@field addressableNames fun() @Addressable name used to load an asset.

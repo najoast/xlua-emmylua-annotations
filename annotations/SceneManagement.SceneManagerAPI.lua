@@ -1,0 +1,7 @@
+---@class SceneManagement.SceneManagerAPI @Derive from this base class to provide alternative implementations to the C# behavior of specific SceneManagement.SceneManager methods.
+---@field overrideAPI fun() @The specific SceneManagement.SceneManagerAPI instance to use to handle overridden SceneManagement.SceneManager methods.
+---@field UnloadSceneAsyncByNameOrIndex fun() @Override for customizing the behavior of the SceneManagement.SceneManager.UnloadSceneAsync function.
+---@field LoadSceneAsyncByNameOrIndex fun() @Override for customizing the behavior of the SceneManagement.SceneManager.LoadScene and SceneManagement.SceneManager.LoadSceneAsync functions.
+---@field GetNumScenesInBuildSettings fun() @Override for customizing the behavior of the SceneManagement.SceneManager.sceneCountInBuildSettings function.
+---@field LoadFirstScene fun() @Override for customizing the behavior of loading the first Scene in a stub player build.
+---@field GetSceneByBuildIndex fun() @Override for customizing the behavior of the SceneManagement.SceneManager.GetSceneByBuildIndex function.

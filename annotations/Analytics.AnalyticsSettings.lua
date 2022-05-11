@@ -1,0 +1,10 @@
+---@class Analytics.AnalyticsSettings @Editor API for the Unity Services editor feature. Normally Analytics is enabled from the Services window, but if writing your own editor extension, this API can be used.
+---@field testMode fun() @Set to true for testing Analytics integration only within the Editor.
+---@field eventUrl fun() @Set the Analytics event end point.
+---@field RequireInBuildDelegate fun() @Defines the delegate signature to handle AnalyticsSettings.RequireInBuildDelegate events.
+---@field OnRequireInBuildHandler fun() @Dispatches whenever a platform build starts. Use this event to enable Analytics in a platform build.
+---@field deviceStatsEnabledInBuild fun() @Reports whether device stats are enabled at runtime.
+---@field enabled fun() @If set to true, this Boolean field enables the Analytics feature in Unity. It disables the feature if it is set to false.
+---@field initializeOnStartup fun() @Controls whether Unity initializes Analytics immediately on startup.
+---@field configUrl fun() @Set the Analytics config end point.
+---@field dashboardUrl fun() @Get the Analytics dashboard endpoint.

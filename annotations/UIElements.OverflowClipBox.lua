@@ -1,0 +1,3 @@
+---@class UIElements.OverflowClipBox @Boxes against which the VisualElement content is clipped.
+---@field ContentBox fun() @Clip the content against the box inside the padding areas.
+---@field PaddingBox fun() @Clip the content against the box outside the padding areas but inside the borders.

@@ -1,0 +1,8 @@
+---@class TypeCache @Provides methods for fast type extraction from asssemblies loaded into the Unity Domain.
+---@field GetTypesDerivedFrom fun() @Retrieves a collection of types derived from the T type.
+---@field GetMethodsWithAttribute fun() @Retrieves a collection of methods marked with the T attribute.
+---@field GetFieldsWithAttribute fun() @Retrieves a collection of fields marked with the T attribute.
+---@field GetTypesWithAttribute fun() @Retrieves a collection of types marked with the T attribute.
+---@field TypeCollection TypeCache.TypeCollection @Represents a read-only collection of Type and implements an IList interface.
+---@field MethodCollection TypeCache.MethodCollection @Represents a read-only collection of MethodInfo and implements an IList interface.
+---@field FieldInfoCollection TypeCache.FieldInfoCollection @Represents a read-only collection of FieldInfo and implements an IList interface.

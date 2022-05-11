@@ -1,0 +1,2 @@
+---@class UIElements.Foldout.UxmlTraits @Defines UxmlTraits for the Foldout.
+---@field Init fun() @Initializes Foldout properties using values from the attribute bag.

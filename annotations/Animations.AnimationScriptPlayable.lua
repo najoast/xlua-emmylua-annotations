@@ -1,0 +1,6 @@
+---@class Animations.AnimationScriptPlayable @A Playable that can run a custom, multi-threaded animation job.
+---@field Create fun() @Creates an AnimationScriptPlayable in the PlayableGraph.
+---@field SetProcessInputs fun() @Sets the new value for processing the inputs or not.
+---@field GetProcessInputs fun() @Returns whether the playable inputs will be processed or not.
+---@field SetJobData fun() @Sets a new job data in the playable.
+---@field GetJobData fun() @Gets the job data contained in the playable.

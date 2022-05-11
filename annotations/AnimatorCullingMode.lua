@@ -1,0 +1,4 @@
+---@class AnimatorCullingMode @Culling mode for the Animator.
+---@field AlwaysAnimate fun() @Always animate the entire character. Object is animated even when offscreen.
+---@field CullCompletely fun() @Animation is completely disabled when renderers are not visible.
+---@field CullUpdateTransforms fun() @Retarget, IK and write of Transforms are disabled when renderers are not visible.

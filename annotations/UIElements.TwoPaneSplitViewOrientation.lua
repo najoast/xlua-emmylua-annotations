@@ -1,0 +1,3 @@
+---@class UIElements.TwoPaneSplitViewOrientation @Determines the orientation of the two resizable panes.
+---@field Vertical fun() @Split view panes layout is top/bottom with horizontal resizable split.
+---@field Horizontal fun() @Split view panes layout is left/right with vertical resizable split.

@@ -1,0 +1,2 @@
+---@class AI.NavMeshBuildDebugSettings @Specify which of the temporary data generated while building the NavMesh should be retained in memory after the process has completed.
+---@field flags fun() @Specify which types of debug data to collect when building the NavMesh.

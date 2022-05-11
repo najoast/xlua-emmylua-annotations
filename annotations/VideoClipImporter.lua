@@ -1,0 +1,30 @@
+---@class VideoClipImporter @VideoClipImporter lets you modify Video.VideoClip import settings from Editor scripts.
+---@field GetTargetSettings fun() @Returns the platform-specific import settings for the specified platform.
+---@field outputFileSize fun() @Size in bytes of the file once imported.
+---@field defaultTargetSettings fun() @Default values for the platform-specific import settings.
+---@field GetResizeHeight fun() @Get the resulting height of the resize operation for the specified resize mode.
+---@field deinterlaceMode fun() @Images are deinterlaced during transcode.  This tells the importer how to interpret fields in the source, if any.
+---@field PlayPreview fun() @Starts preview playback.
+---@field StopPreview fun() @Stops preview playback.
+---@field GetResizeModeName fun() @Get the full name of the resize operation for the specified resize mode.
+---@field sRGBClip fun() @Whether the imported clip contains sRGB color data.
+---@field GetPreviewTexture fun() @Returns a texture with the transcoded clip's current frame.Returns frame 0 when not playing, and frame at current time when playing.
+---@field GetSourceAudioSampleRate fun() @Sample rate of the specified audio track.
+---@field flipVertical fun() @Apply a vertical flip during import.
+---@field Equals fun() @Performs a value comparison with another VideoClipImporter.
+---@field GetSourceAudioChannelCount fun() @Number of audio channels in the specified source track.
+---@field flipHorizontal fun() @Apply a horizontal flip during import.
+---@field transcodeSkipped fun() @Returns true if transcoding was skipped during import, false otherwise. (Read Only)When VideoImporterTargetSettings.enableTranscoding is set to true, the resulting transcoding operation done at import time may be quite long, up to many hours depending on source resolution and content duration. An option to skip this process is offered in the asset import progress bar. When skipped, the transcoding instead provides a non-transcoded verision of the asset. However, the importer settings stay intact so this property can be inspected to detect the incoherence with the generated artifact.Re-importing without stopping the transcode process, or with transcode turned off, causes this property to become false.
+---@field frameCount fun() @Number of frames in the clip.
+---@field SetTargetSettings fun() @Sets the platform-specific import settings for the specified platform.
+---@field isPlayingPreview fun() @Whether the preview is currently playing.
+---@field GetResizeWidth fun() @Get the resulting width of the resize operation for the specified resize mode.
+---@field importAudio fun() @Import audio tracks from source file.
+---@field frameRate fun() @Frame rate of the clip.
+---@field sourceAudioTrackCount fun() @Number of audio tracks in the source file.
+---@field pixelAspectRatioDenominator fun() @Denominator of the pixel aspect ratio (num:den).
+---@field pixelAspectRatioNumerator fun() @Numerator of the pixel aspect ratio (num:den).
+---@field sourceHasAlpha fun() @True if the source file has a channel for per-pixel transparency.
+---@field keepAlpha fun() @Whether to keep the alpha from the source into the transcoded clip.
+---@field sourceFileSize fun() @Size in bytes of the file before importing.
+---@field ClearTargetSettings fun() @Clear the platform-specific import settings for the specified platform, causing them to go back to the default settings.

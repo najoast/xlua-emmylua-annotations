@@ -1,0 +1,4 @@
+---@class LightmapEditorSettings.FilterMode @This enum is now obsolete. Use LightingSettings.FilterMode.
+---@field None fun() @This type is now obsolete. Use LightingSettings.FilterMode.
+---@field Advanced fun() @This type is now obsolete. Use LightingSettings.FilterMode.
+---@field Auto fun() @This type is now obsolete. Use LightingSettings.FilterMode.

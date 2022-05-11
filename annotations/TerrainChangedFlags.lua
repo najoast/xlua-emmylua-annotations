@@ -1,0 +1,10 @@
+---@class TerrainChangedFlags @Indicate the types of changes to the terrain in OnTerrainChanged callback.
+---@field HeightmapResolution fun() @Indicates a change to the heightmap resolution.
+---@field RemoveDirtyDetailsImmediately fun() @Indicates a change to the detail data.
+---@field Holes fun() @Indicates a change to the Terrain holes data.
+---@field WillBeDestroyed fun() @Indicates that the TerrainData object is about to be destroyed.
+---@field Heightmap fun() @Indicates a change to the heightmap data.
+---@field TreeInstances fun() @Indicates a change to the tree data.
+---@field DelayedHolesUpdate fun() @Indicates a change to the Terrain holes data, which doesn't include LOD calculations and tree/vegetation updates.
+---@field FlushEverythingImmediately fun() @Indicates that a change was made to the terrain that was so significant that the internal rendering data need to be flushed and recreated.
+---@field DelayedHeightmapUpdate fun() @Indicates a change to the heightmap data without computing LOD.

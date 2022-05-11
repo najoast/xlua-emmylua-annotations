@@ -1,0 +1,78 @@
+---@class iOS.Xcode.PBXProject @Represents an Xcode project (pbxproj file).
+---@field AddFileToBuildWithFlags fun() @Configures file for building for the given target with specific compiler flags.
+---@field BuildConfigNames fun() @Returns the names of the build configurations available in the project.
+---@field AddFileToBuild fun() @Configures file for building for the given native target.
+---@field SetTeamId fun() @Set the Team ID of an Xcode project.
+---@field GetShellScriptBuildPhaseForTarget fun() @Returns the GUID of matching copy shell script build phase for the given target.
+---@field GetUnityFrameworkTargetGuid fun() @Returns GUID of the framework target in Unity project.
+---@field SetBaseReferenceForConfig fun() @Sets the base configuration reference for the specified build configuration.
+---@field AddBuildProperty fun() @Adds a value to build property list in all build configurations for the specified target(s).
+---@field AddBuildConfig fun() @Creates a new set of build configurations for all targets in the project.
+---@field AddAssetTagToDefaultInstall fun() @Adds the asset tag to the list of tags to download during initial installation.
+---@field GetPBXProjectPath fun() @Returns the path to PBX project in the given Unity build path.
+---@field ReadFromStream fun() @Reads the project from the given text reader.
+---@field AddTarget fun() @Creates a new native target.
+---@field RemoveAssetTagForFile fun() @Removes an asset tag for the given file.
+---@field GetCompileFlagsForFile fun() @Returns compile flags set for the specific file on a given target.
+---@field AddFrameworksBuildPhase fun() @Creates a new frameworks build phase for given target.
+---@field GetAllBuildPhasesForTarget fun() @Returns all build phases for the specified target.
+---@field GetBuildPropertyForConfig fun() @Gets a build property value for the given name in the specified build configuration(s). If a property has multiple values they are delimited by a space.
+---@field RemoveFrameworkFromProject fun() @Removes a system framework dependency for the specified target.
+---@field GetRealPathsOfAllFiles fun() @Gets the list of all known files.
+---@field AddFile fun() @Adds a new file reference to the list of known files.
+---@field GetUnityTargetName fun() @Deprecated. Returns the default main target name in Unity project.
+---@field IsBuildable fun() @Checks if a file with the given extension can be built by Xcode.
+---@field IsKnownExtension fun() @Checks if files with the given extension are known to PBXProject.
+---@field TargetGuidByName fun() @Returns the GUID of the native target with the given name.
+---@field AddSourcesBuildPhase fun() @Creates a new sources build phase for given target.
+---@field AddAssetTagForFile fun() @Adds an asset tag for the given file.
+---@field GetUnityTestTargetName fun() @Returns the default test target name.
+---@field AddFrameworkToProject fun() @Adds a system framework dependency for the specified target.
+---@field AddCopyFilesBuildPhase fun() @Creates a new copy files build phase for given target.
+---@field GetSourcesBuildPhaseByTarget fun() @Returns the GUID of sources build phase for the given target.
+---@field BuildConfigByName fun() @Returns the GUID of build configuration with the given name for the specific target.
+---@field GetCopyFilesBuildPhaseByTarget fun() @Returns the GUID of matching copy files build phase for the given target.
+---@field ReadFromFile fun() @Reads the project from a file identified by the given path.
+---@field RemoveBuildConfig fun() @Removes all build configurations with the given name from all targets in the project.
+---@field AddFileToBuildSection fun() @Configures file for building for the given native target on specific build section.
+---@field ProjectGuid fun() @Returns the GUID of the project.
+---@field InsertCopyFilesBuildPhase fun() @Creates a new copy files build phase for given target.
+---@field GetResourcesBuildPhaseByTarget fun() @Returns the GUID of resources build phase for the given target.
+---@field WriteToString fun() @Writes the contents of the project to string.
+---@field SetBuildProperty fun() @Sets a build property to the given value in all build configurations for the specified target(s).
+---@field WriteToStream fun() @Writes the project contents to the specified text writer.
+---@field RemoveFile fun() @Removes the given file from project.
+---@field UpdateBuildPropertyForConfig fun() @Adds and removes values from build property in the given build configuration.
+---@field AddHeadersBuildPhase fun() @Creates a new headers build phase (PBXHeadersBuildPhase) for given target.
+---@field UpdateBuildProperty fun() @Adds and removes values from build property in all build configurations for the specified target(s).
+---@field FindFileGuidByRealPath fun() @Finds a file with the given physical path in the project, if any.
+---@field ctor fun() @Creates a new instance of PBXProject class.
+---@field SetCompileFlagsForFile fun() @Sets the compilation flags for the given file in the given target.
+---@field SetBuildPropertyForConfig fun() @Sets a build property to the given value in the specified build configuration(s).
+---@field ContainsFileByProjectPath fun() @Checks if the project contains a file with the given project path.
+---@field FindFileGuidByProjectPath fun() @Finds a file with the given project path in the project, if any.
+---@field ContainsFileByRealPath fun() @Checks if the project contains a file with the given physical path.
+---@field RemoveFileFromBuild fun() @Removes given file from the list of files to build for the given target.
+---@field AddTargetDependency fun() @Creates a dependency between this target and another target. The other target may be in a different project.
+---@field GetEntitlementFilePathForTarget fun() @Returns the relative path to the entitlement file for the specified build target.
+---@field WriteToFile fun() @Writes the project contents to the specified file.
+---@field AddFolderReference fun() @Adds a new folder reference to the list of known files.
+---@field AddShellScriptBuildPhase fun() @Creates a new copy shell script phase for given target.
+---@field GetBuildPhaseType fun() @Returns the type of the build phase with the specified GUID.
+---@field ReplaceFile fun() @Replaces the file with given GUID with the specified file.
+---@field AddCapability fun() @Add a target capability to the Xcode project. This enables behavior based on the capability type. Some capabilities will require additional setup within Xcode. For more control over the specific settings of capability use the iOS.Xcode.ProjectCapabilityManager class.
+---@field GetBaseReferenceForConfig fun() @Gets the base configuration reference Guid for the specified build configuration.
+---@field GetBuildPropertyForAnyConfig fun() @Gets a build property value for the given name in all build configurations for the specified target(s). If a property has multiple values they are delimited by a space.
+---@field AddResourcesBuildPhase fun() @Creates a new resources build phase for given target.
+---@field GetTargetProductFileRef fun() @Returns the file reference of the artifact created by building target.
+---@field RemoveAssetTag fun() @Removes an asset tag.
+---@field ReadFromString fun() @Reads the project from the given string.
+---@field AddPublicHeaderToBuild fun() @Configures file for building for the given native target as a public header.
+---@field GetBuildPhaseName fun() @Returns the name of the build phase with the specified GUID.
+---@field GetHeadersBuildPhaseByTarget fun() @Returns the GUID of headers build phase (PBXHeadersBuildPhase) for the given target.
+---@field ContainsFramework fun() @Checks whether the given system framework is a dependency of a target.
+---@field InsertShellScriptBuildPhase fun() @Creates a new shell script build phase for given target.
+---@field RemoveAssetTagFromDefaultInstall fun() @Removes the asset tag from the list of tags to download during initial installation.
+---@field GetUnityMainTargetGuid fun() @Returns GUID of the main target in Unity project.
+---@field AddBuildPropertyForConfig fun() @Adds a value to build property list of the given build configuration(s).
+---@field GetFrameworksBuildPhaseByTarget fun() @Returns the GUID of frameworks build phase for the given target.

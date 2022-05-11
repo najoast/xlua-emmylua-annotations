@@ -1,0 +1,6 @@
+---@class ContactPoint @Describes a contact point where the collision occurs.
+---@field separation fun() @The distance between the colliders at the contact point.
+---@field otherCollider fun() @The other collider in contact at the point.
+---@field normal fun() @Normal of the contact point.
+---@field thisCollider fun() @The first collider in contact at the point.
+---@field point fun() @The point of contact.

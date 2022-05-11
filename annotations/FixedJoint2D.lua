@@ -1,0 +1,4 @@
+---@class FixedJoint2D @Connects two Rigidbody2D together at their anchor points using a configurable spring.
+---@field frequency fun() @The frequency at which the spring oscillates around the distance between the objects.
+---@field referenceAngle fun() @The angle referenced between the two bodies used as the constraint for the joint.
+---@field dampingRatio fun() @The amount by which the spring force is reduced in proportion to the movement speed.

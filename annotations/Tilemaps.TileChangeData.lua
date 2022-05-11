@@ -1,0 +1,5 @@
+---@class Tilemaps.TileChangeData @Represents the position and Tile information to change in a Tilemap.
+---@field tile fun() @The Tile to set on the Tilemap.
+---@field color fun() @The color to set the Tile to.
+---@field transform fun() @The transform matrix to set the Tile to.
+---@field position fun() @The position to change Tile properties at.

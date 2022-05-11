@@ -1,0 +1,3 @@
+---@class UIElements.PointerCancelEvent @This event is sent when pointer interaction is cancelled.
+---@field ctor fun() @Constructor. Avoid creating new event instances. Instead, use GetPooled() to get an instance from a pool of reusable event instances.
+---@field Init fun() @Resets the event members to their initial values.

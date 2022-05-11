@@ -1,0 +1,3 @@
+---@class GridBrushBase.FlipAxis @Axis to flip tiles in the GridBrushBase by.
+---@field Y fun() @Flip the brush in the Y Axis.
+---@field X fun() @Flip the brush in the X Axis.

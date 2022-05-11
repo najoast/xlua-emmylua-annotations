@@ -1,0 +1,5 @@
+---@class Networking.Types.NetworkAccessLevel @Describes the access levels granted to this client.
+---@field Owner fun() @Access level Owner, generally granting access for operations key to the peer host server performing it's work.
+---@field User fun() @User access level. This means you can do operations which affect yourself only, like disconnect yourself from the match.
+---@field Admin fun() @Administration access level, generally describing clearence to perform game altering actions against anyone inside a particular match.
+---@field Invalid fun() @Invalid access level, signifying no access level has been granted/specified.

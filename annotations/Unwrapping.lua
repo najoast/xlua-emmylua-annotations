@@ -1,0 +1,3 @@
+---@class Unwrapping @This class holds everything you may need in regard to uv-unwrapping.
+---@field GeneratePerTriangleUV fun() @Will generate per-triangle uv (3 UVs for each triangle) with default settings.
+---@field GenerateSecondaryUVSet fun() @Will auto generate uv2 with default settings for provided mesh, and fill them in.

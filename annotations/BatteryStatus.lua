@@ -1,0 +1,6 @@
+---@class BatteryStatus @Enumeration for SystemInfo.batteryStatus which represents the current status of the device's battery.
+---@field NotCharging fun() @Device is plugged in, but is not charging.
+---@field Unknown fun() @The device's battery status cannot be determined. If battery status is not available on your target platform, SystemInfo.batteryStatus will return this value.
+---@field Charging fun() @Device is plugged in and charging.
+---@field Discharging fun() @Device is unplugged and discharging.
+---@field Full fun() @Device is plugged in and the battery is full.

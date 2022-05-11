@@ -1,0 +1,18 @@
+---@class XR.XRSettings @Global XR related settings.
+---@field supportedDevices fun() @Returns a list of supported XR devices that were included at build time.
+---@field stereoRenderingMode fun() @The stereo rendering mode that is currently in use.
+---@field eyeTextureHeight fun() @The current height of an eye texture for the loaded device.
+---@field isDeviceActive fun() @Read-only value that can be used to determine if the XR device is active.
+---@field eyeTextureWidth fun() @The current width of an eye texture for the loaded device.
+---@field eyeTextureResolutionScale fun() @Controls the actual size of eye textures as a multiplier of the device's default resolution.
+---@field occlusionMaskScale fun() @A scale applied to the standard occulsion mask for each platform.
+---@field renderViewportScale fun() @Controls how much of the allocated eye texture should be used for rendering.
+---@field deviceEyeTextureDimension fun() @Fetch the device eye texture dimension from the active stereo device.
+---@field showDeviceView fun() @This property has been deprecated. Use XRSettings.gameViewRenderMode instead.
+---@field StereoRenderingMode XR.XRSettings.StereoRenderingMode @Enum type signifying the different stereo rendering modes available.
+---@field LoadDeviceByName fun() @Loads the requested device at the beginning of the next frame.
+---@field enabled fun() @Globally enables or disables XR for the application.
+---@field eyeTextureDesc fun() @Fetch the eye texture RenderTextureDescriptor from the active stereo device.
+---@field gameViewRenderMode fun() @Sets the render mode for the XR device. The render mode controls how the view of the XR device renders in the Game view and in the main window on a host PC.
+---@field useOcclusionMesh fun() @Specifies whether or not the occlusion mesh should be used when rendering. Enabled by default.
+---@field loadedDeviceName fun() @Type of XR device that is currently loaded.

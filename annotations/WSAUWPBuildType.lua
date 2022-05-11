@@ -1,0 +1,4 @@
+---@class WSAUWPBuildType @Determines the output build type when building to Universal Windows Platform.
+---@field D3D fun() @D3D Project
+---@field XAML fun() @XAML Project
+---@field ExecutableOnly fun() @Executable Only

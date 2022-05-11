@@ -1,0 +1,141 @@
+---@class Rendering @nil
+---@field RenderStateBlock Rendering.RenderStateBlock @A set of values that Unity uses to override the GPU's render state.
+---@field LightEvent Rendering.LightEvent @Defines a place in light's rendering to attach Rendering.CommandBuffer objects to.
+---@field ScopedSubPass Rendering.ScopedSubPass @Represents an active sub pass until disposed.
+---@field EditorCameraUtils Rendering.EditorCameraUtils @Utilities for Camera rendering in the Editor.
+---@field ShaderPropertyType Rendering.ShaderPropertyType @Type of a given shader property.
+---@field SortingGroup Rendering.SortingGroup @Adding a SortingGroup component to a GameObject will ensure that all Renderers within the GameObject's descendants will be sorted and rendered together.
+---@field PassType Rendering.PassType @Shader pass type for Unity's lighting pipeline.
+---@field PlatformKeywordSet Rendering.PlatformKeywordSet @A collection of Rendering.ShaderKeyword that represents a specific platform variant.
+---@field ShaderKeywordType Rendering.ShaderKeywordType @Type of a shader keyword, eg: built-in or user defined.
+---@field GraphicsSettings Rendering.GraphicsSettings @Script interface for Graphics Settings.
+---@field ShaderPropertyFlags Rendering.ShaderPropertyFlags @Flags that control how a shader property behaves.
+---@field AsyncGPUReadbackRequest Rendering.AsyncGPUReadbackRequest @Represents an asynchronous request for a GPU resource.
+---@field GraphicsDeviceType Rendering.GraphicsDeviceType @Graphics device API type.
+---@field RenderBufferStoreAction Rendering.RenderBufferStoreAction @This enum describes what should be done on the render target when the GPU is done rendering into it.
+---@field RenderQueue Rendering.RenderQueue @Determine in which order objects are renderered.
+---@field SortingSettings Rendering.SortingSettings @This struct describes the methods to sort objects during rendering.
+---@field SortingLayerRange Rendering.SortingLayerRange @Describes a renderer's sorting layer range.
+---@field CameraProperties Rendering.CameraProperties @Camera related properties in CullingParameters.
+---@field GraphicsFence Rendering.GraphicsFence @Used to manage synchronisation between tasks on async compute queues and the graphics queue.
+---@field ShaderParamType Rendering.ShaderParamType @Options for the data type of a shader constant's members.
+---@field CameraHDRMode Rendering.CameraHDRMode @The HDR mode to use for rendering.
+---@field DefaultReflectionMode Rendering.DefaultReflectionMode @Default reflection mode.
+---@field ReflectionProbeSortingCriteria Rendering.ReflectionProbeSortingCriteria @Visible reflection probes sorting options.
+---@field ReflectionProbeMode Rendering.ReflectionProbeMode @Reflection probe's update mode.
+---@field RenderTargetBlendState Rendering.RenderTargetBlendState @Values for the blend state.
+---@field CommandBufferExtensions Rendering.CommandBufferExtensions @Static class providing extension methods for CommandBuffer.
+---@field OnDemandRendering Rendering.OnDemandRendering @Use the OnDemandRendering class to control and query information about your application's rendering speed independent from all other subsystems (such as physics, input, or animation).
+---@field CommandBufferExecutionFlags Rendering.CommandBufferExecutionFlags @Flags describing the intention for how the command buffer will be executed. Set these via CommandBuffer.SetExecutionFlags.
+---@field GizmoSubset Rendering.GizmoSubset @Gizmo subsets.
+---@field BuiltinRenderTextureType Rendering.BuiltinRenderTextureType @Built-in temporary render textures produced during camera's rendering.
+---@field DrawingSettings Rendering.DrawingSettings @Settings for ScriptableRenderContext.DrawRenderers.
+---@field VertexAttributeDescriptor Rendering.VertexAttributeDescriptor @Information about a single VertexAttribute of a Mesh vertex.
+---@field ReflectionProbeRefreshMode Rendering.ReflectionProbeRefreshMode @An enum describing the way a real-time reflection probe refreshes in the Player.
+---@field TierSettings Rendering.TierSettings @A struct that represents graphics settings for a given build target and graphics tier.
+---@field RenderPipelineAsset Rendering.RenderPipelineAsset @An asset that produces a specific IRenderPipeline.
+---@field ShaderRequirements Rendering.ShaderRequirements @Shader features required by a specific shader. Features are bit flags.
+---@field AlbedoSwatchInfo Rendering.AlbedoSwatchInfo @Contains the custom albedo swatch data.
+---@field ScriptableRenderPipelineExtensionAttribute Rendering.ScriptableRenderPipelineExtensionAttribute @Use this attribute to apply a condition to a filter that finds the class based on which ScriptableRenderPipeline you are currently using.
+---@field RenderStateMask Rendering.RenderStateMask @Specifies which parts of the render state that is overriden.
+---@field ShadowMapPass Rendering.ShadowMapPass @Allows precise control over which shadow map passes to execute Rendering.CommandBuffer objects attached using Light.AddCommandBuffer.
+---@field RenderQueueRange Rendering.RenderQueueRange @Describes a material render queue range.
+---@field RenderTargetIdentifier Rendering.RenderTargetIdentifier @Identifies a RenderTexture for a Rendering.CommandBuffer.
+---@field SupportedRenderingFeatures Rendering.SupportedRenderingFeatures @Describes the rendering features supported by a given render pipeline.
+---@field BlendOp Rendering.BlendOp @Blend operation.
+---@field BuiltinShaderMode Rendering.BuiltinShaderMode @Built-in shader modes used by Rendering.GraphicsSettings.
+---@field ScriptableRenderContext Rendering.ScriptableRenderContext @Defines state and drawing commands that custom render pipelines use.
+---@field PassIdentifier Rendering.PassIdentifier @Represents an opaque identifier of a specific Pass in a Shader.
+---@field FormatSwizzle Rendering.FormatSwizzle @Graphics Format Swizzle.
+---@field ScopedRenderPass Rendering.ScopedRenderPass @Represents an active render pass until disposed.
+---@field RenderBufferLoadAction Rendering.RenderBufferLoadAction @This enum describes what should be done on the render target when it is activated (loaded).
+---@field ShadowDrawingSettings Rendering.ShadowDrawingSettings @Settings for ScriptableRenderContext.DrawShadows.
+---@field CompareFunction Rendering.CompareFunction @Depth or stencil comparison function.
+---@field OpenGLESVersion Rendering.OpenGLESVersion @Specifies the OpenGL ES version.
+---@field ShaderTagId Rendering.ShaderTagId @Shader tag ids are used to refer to various names in shaders.
+---@field LightShadowResolution Rendering.LightShadowResolution @Shadow resolution options for a Light.
+---@field RenderTextureSubElement Rendering.RenderTextureSubElement @Types of data that you can encapsulate within a render texture.
+---@field RenderPipelineManager Rendering.RenderPipelineManager @Render Pipeline manager.
+---@field FastMemoryFlags Rendering.FastMemoryFlags @Control Fast Memory render target layout.
+---@field RenderTargetBinding Rendering.RenderTargetBinding @Describes a render target with one or more color buffers, a depth/stencil buffer and the associated load/store-actions that are applied when the render target is active.
+---@field UVChannelFlags Rendering.UVChannelFlags @A flag representing each UV channel.
+---@field RenderTargetFlags Rendering.RenderTargetFlags @This enum describes optional flags for the RenderTargetBinding structure.
+---@field ReflectionProbeClearFlags Rendering.ReflectionProbeClearFlags @Values for ReflectionProbe.clearFlags, determining what to clear when rendering a ReflectionProbe.
+---@field GraphicsFenceType Rendering.GraphicsFenceType @The type of the GraphicsFence. Currently the only supported fence type is AsyncQueueSynchronization.
+---@field VertexAttribute Rendering.VertexAttribute @Possible attribute types that describe a vertex in a Mesh.
+---@field LODParameters Rendering.LODParameters @LODGroup culling parameters.
+---@field LightProbeUsage Rendering.LightProbeUsage @Light probe interpolation type.
+---@field BuiltinShaderDefine Rendering.BuiltinShaderDefine @Defines set by editor when compiling shaders, based on the target platform and GraphicsTier.
+---@field ShaderCompilerPlatform Rendering.ShaderCompilerPlatform @Shader compiler used to generate player data shader variants.
+---@field BatchVisibility Rendering.BatchVisibility @Describes the visibility for a batch.
+---@field AttachmentDescriptor Rendering.AttachmentDescriptor @A declaration of a single color or depth rendering surface to be attached into a RenderPass.
+---@field ShaderKeyword Rendering.ShaderKeyword @Represents an identifier for a specific code path in a shader.
+---@field RenderingThreadingMode Rendering.RenderingThreadingMode @Options for the application's actual rendering threading mode.
+---@field GraphicsTier Rendering.GraphicsTier @An enum that represents graphics tiers.
+---@field ShaderCompilerData Rendering.ShaderCompilerData @Collection of data used for shader variants generation, including targeted platform data and the keyword set representing a specific shader variant.
+---@field RenderPipelineGlobalSettings fun() @A ScriptableObject to associate with a RenderPipeline and store project-wide settings for that Pipeline.
+---@field PIX Rendering.PIX @Provides an interface to control GPU frame capture in Microsoft's PIX software.
+---@field VisibleReflectionProbe Rendering.VisibleReflectionProbe @Holds data of a visible reflection reflectionProbe.
+---@field RealtimeGICPUUsage Rendering.RealtimeGICPUUsage @How much CPU usage to assign to the final lighting calculations at runtime.
+---@field ShaderQuality Rendering.ShaderQuality @Shader quality preset.
+---@field FilteringSettings Rendering.FilteringSettings @A struct that represents filtering settings for ScriptableRenderContext.DrawRenderers.
+---@field CullMode Rendering.CullMode @Backface culling mode.
+---@field BlendMode Rendering.BlendMode @Blend mode for controlling the blending.
+---@field CullingOptions Rendering.CullingOptions @Flags used by ScriptableCullingParameters.cullingOptions to configure a culling operation.
+---@field ShadowSamplingMode Rendering.ShadowSamplingMode @Used by CommandBuffer.SetShadowSamplingMode.
+---@field ShaderKeywordSet Rendering.ShaderKeywordSet @A collection of Rendering.ShaderKeyword that represents a specific shader variant.
+---@field StencilOp Rendering.StencilOp @Specifies the operation that's performed on the stencil buffer when rendering.
+---@field RendererUtils Rendering.RendererUtils @nil
+---@field ShaderSnippetData Rendering.ShaderSnippetData @Collection of properties about the specific shader code being compiled.
+---@field ShaderType Rendering.ShaderType @Identifies the stage in the rendering pipeline.
+---@field CommandBuffer Rendering.CommandBuffer @List of graphics commands to execute.
+---@field ReflectionCubemapCompression Rendering.ReflectionCubemapCompression @Determines how Unity will compress baked reflection cubemap.
+---@field VirtualTexturing Rendering.VirtualTexturing @nil
+---@field CameraLateLatchMatrixType Rendering.CameraLateLatchMatrixType @The types of camera matrices that support late latching.
+---@field VideoShadersIncludeMode Rendering.VideoShadersIncludeMode @Video shaders mode used by Rendering.GraphicsSettings.
+---@field DistanceMetric Rendering.DistanceMetric @Type of sorting to use while rendering.
+---@field ColorWriteMask Rendering.ColorWriteMask @Specifies which color components will get written into the target framebuffer.
+---@field TextureDimension Rendering.TextureDimension @Texture dimension (type).
+---@field CullingResults Rendering.CullingResults @A struct containing the results of a culling operation.
+---@field ShaderCompilerMessageSeverity Rendering.ShaderCompilerMessageSeverity @Indicates the severity of a message returned by the Unity Shader Compiler.
+---@field ScriptableCullingParameters Rendering.ScriptableCullingParameters @Parameters that configure a culling operation in the Scriptable Render Pipeline.
+---@field SynchronisationStage Rendering.SynchronisationStage @Broadly describes the stages of processing a draw call on the GPU.
+---@field ShaderConstantType Rendering.ShaderConstantType @Options for the shader constant value type.
+---@field IndexFormat Rendering.IndexFormat @Format of the mesh index buffer data.
+---@field BuiltinShaderType Rendering.BuiltinShaderType @Built-in shader types used by Rendering.GraphicsSettings.
+---@field SubMeshDescriptor Rendering.SubMeshDescriptor @Contains information about a single sub-mesh of a Mesh.
+---@field StencilState Rendering.StencilState @Values for the stencil state.
+---@field CopyTextureSupport Rendering.CopyTextureSupport @Support for various Graphics.CopyTexture cases.
+---@field ShadowCastingMode Rendering.ShadowCastingMode @How shadows are cast from this object.
+---@field SplashScreen Rendering.SplashScreen @Provides an interface to the Unity splash screen.
+---@field SphericalHarmonicsL2 Rendering.SphericalHarmonicsL2 @Spherical harmonics up to the second order (3 bands, 9 coefficients).
+---@field EditorGraphicsSettings Rendering.EditorGraphicsSettings @Editor-specific script interface for Graphics Settings.
+---@field VisibleLight Rendering.VisibleLight @Holds data of a visible light.
+---@field MeshUpdateFlags Rendering.MeshUpdateFlags @Mesh data update flags.
+---@field PlatformShaderSettings Rendering.PlatformShaderSettings @Used to set up shader settings, per-platform and per-shader-hardware-tier.
+---@field SortingCriteria Rendering.SortingCriteria @How to sort objects during rendering.
+---@field LocalKeywordSpace Rendering.LocalKeywordSpace @Represents the local keyword space of a Shader or ComputeShader.
+---@field GlobalKeyword Rendering.GlobalKeyword @Represents a global shader keyword.
+---@field ComputeQueueType Rendering.ComputeQueueType @Describes the desired characteristics with respect to prioritisation and load balancing of the queue that a command buffer being submitted via Graphics.ExecuteCommandBufferAsync or [[ScriptableRenderContext.ExecuteCommandBufferAsync] should be sent to.
+---@field SinglePassStereoMode Rendering.SinglePassStereoMode @Enum type defines the different stereo rendering modes available.
+---@field ShadowSplitData Rendering.ShadowSplitData @Describes the culling information for a given shadow split (e.g. directional cascade).
+---@field AmbientMode Rendering.AmbientMode @Ambient lighting mode.
+---@field BatchRendererGroup Rendering.BatchRendererGroup @A group of batches.
+---@field RasterState Rendering.RasterState @Values for the raster state.
+---@field RenderPipelineEditorUtility Rendering.RenderPipelineEditorUtility @Helper class that contains a utility function on ScriptableRenderPipeline for Editor.
+---@field RenderPipeline Rendering.RenderPipeline @Defines a series of commands and settings that describes how Unity renders a frame.
+---@field BlendState Rendering.BlendState @Values for the blend state.
+---@field PerObjectData Rendering.PerObjectData @What kind of per-object data to setup during rendering.
+---@field ReflectionProbeUsage Rendering.ReflectionProbeUsage @Reflection Probe usage.
+---@field SynchronisationStageFlags Rendering.SynchronisationStageFlags @Describes the various stages of GPU processing against which the GraphicsFence can be set and waited against.
+---@field GPUFence Rendering.GPUFence @This functionality is deprecated, and should no longer be used. Please use GraphicsFence.
+---@field OpaqueSortMode Rendering.OpaqueSortMode @Opaque object sorting mode of a Camera.
+---@field CameraEvent Rendering.CameraEvent @Defines a place in camera's rendering to attach Rendering.CommandBuffer objects to.
+---@field ReflectionProbeBlendInfo Rendering.ReflectionProbeBlendInfo @ReflectionProbeBlendInfo contains information required for blending probes.
+---@field LocalKeyword Rendering.LocalKeyword @Represents a shader keyword declared in a shader source file.
+---@field RTClearFlags Rendering.RTClearFlags @Flags that determine which render targets Unity clears when you use CommandBuffer.ClearRenderTarget.
+---@field VertexAttributeFormat Rendering.VertexAttributeFormat @Data type of a VertexAttribute.
+---@field DepthState Rendering.DepthState @Values for the depth state.
+---@field ReflectionProbeTimeSlicingMode Rendering.ReflectionProbeTimeSlicingMode @When a probe's ReflectionProbe.refreshMode is set to ReflectionProbeRefreshMode.EveryFrame, this enum specify whether or not Unity should update the probe's cubemap over several frames or update the whole cubemap in one frame.Updating a probe's cubemap is a costly operation. Unity needs to render the entire Scene for each face of the cubemap, as well as perform special blurring in order to get glossy reflections. The impact on frame rate can be significant. Time-slicing helps maintaning a more constant frame rate during these updates by performing the rendering over several frames.
+---@field BatchCullingContext Rendering.BatchCullingContext @Culling context for a batch.
+---@field AsyncGPUReadback Rendering.AsyncGPUReadback @Allows the asynchronous read back of GPU resources.

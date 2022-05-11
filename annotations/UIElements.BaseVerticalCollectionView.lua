@@ -1,0 +1,49 @@
+---@class UIElements.BaseVerticalCollectionView @Base class for controls that display virtualized vertical content inside a scroll view.
+---@field showAlternatingRowBackgrounds fun() @This property controls whether the background colors of collection view rows alternate. Takes a value from the AlternatingRowBackground enum.
+---@field makeItem fun() @Callback for constructing the VisualElement that is the template for each recycled and re-bound element in the list.
+---@field itemsSource fun() @The data source for collection items.
+---@field itemsSourceChanged fun() @Called when the itemsSource is reassigned or changes size.
+---@field itemDragHoverUssClassName fun() @The USS class name applied to an item element on drag hover.
+---@field selectedItems fun() @Returns the selected items from the data source. Always returns an enumerable, even if no item is selected, or a single item is selected.
+---@field listScrollViewUssClassName fun() @The USS class name of the scroll view in the BaseVerticalCollectionView.
+---@field selectedIndex fun() @Returns or sets the selected item's index in the data source. If multiple items are selected, returns the first selected item's index. If multiple items are provided, sets them all as selected.
+---@field AddToSelection fun() @Adds an item to the collection of selected items.
+---@field bindItem fun() @Callback for binding a data item to the visual element.
+---@field onSelectionChange fun() @Callback triggered when the selection changes.
+---@field onSelectedIndicesChange fun() @Callback triggered when the selection changes.
+---@field onSelectionChanged fun() @Callback triggered when the selection changes.
+---@field reorderable fun() @Gets or sets a value that indicates whether the user can drag list items to reorder them.
+---@field itemAlternativeBackgroundUssClassName fun() @The USS class name for odd rows in the BaseVerticalCollectionView.
+---@field ScrollTo fun() @Scrolls to a specific VisualElement.
+---@field onItemsChosen fun() @Callback triggered when the user acts on a selection of one or more items, for example by double-clicking or pressing Enter.
+---@field GetRootElementForIndex fun() @Gets the root element the specified collection view item.
+---@field ctor fun() @Creates a BaseVerticalCollectionView with all default properties. The BaseVerticalCollectionView.itemSource must all be set for the BaseVerticalCollectionView to function properly.
+---@field SetSelection fun() @Sets the currently selected item.
+---@field fixedItemHeight fun() @The height of a single item in the list, in pixels.
+---@field ScrollToId fun() @Scrolls to a specific item id and makes it visible.
+---@field SetSelectionWithoutNotify fun() @Sets a collection of selected items without triggering a selection change callback.
+---@field itemHeight fun() @The height of a single item in the list, in pixels.
+---@field resolvedItemHeight fun() @The computed pixel-aligned height for the list elements.
+---@field RemoveFromSelection fun() @Removes an item from the collection of selected items.
+---@field selectedItem fun() @Returns the selected item from the data source. If multiple items are selected, returns the first selected item.
+---@field selectedIndices fun() @Returns the indices of selected items in the data source. Always returns an enumerable, even if no item  is selected, or a single item is selected.
+---@field dragHoverBarUssClassName fun() @The USS class name of the drag hover bar.
+---@field showBorder fun() @Enable this property to display a border around the collection view.
+---@field virtualizationMethod fun() @The virtualization method to use for this collection when a scroll bar is visible. Takes a value from the CollectionVirtualizationMethod enum.
+---@field RefreshItem fun() @Rebinds a single item if it is currently visible in the collection view.
+---@field Rebuild fun() @Clears the collection view, recreates all visible visual elements, and rebinds all items.
+---@field contentContainer fun() @Returns the content container for the BaseVerticalCollectionView. Because the BaseVerticalCollectionView control automatically manages its content, this always returns null.
+---@field borderUssClassName fun() @The USS class name for BaseVerticalCollectionView elements with a border.
+---@field RefreshItems fun() @Rebinds all items currently visible.
+---@field ussClassName fun() @The USS class name for BaseVerticalCollectionView elements.
+---@field onItemChosen fun() @Callback triggered when a user double-clicks an item to activate it. This is different from selecting the item.
+---@field itemIndexChanged fun() @Called when an item is moved in the itemsSource.
+---@field selectionType fun() @Controls the selection type.
+---@field ClearSelection fun() @Deselects any selected items.
+---@field GetRootElementForId fun() @Gets the root element the specified TreeView item.
+---@field unbindItem fun() @Callback for unbinding a data item from the VisualElement.
+---@field destroyItem fun() @Callback invoked when a VisualElement created via makeItem is no longer needed and will be destroyed.
+---@field itemSelectedVariantUssClassName fun() @The USS class name of selected item elements in the BaseVerticalCollectionView.
+---@field itemUssClassName fun() @The USS class name of item elements in BaseVerticalCollectionView elements.
+---@field ScrollToItem fun() @Scrolls to a specific item index and makes it visible.
+---@field horizontalScrollingEnabled fun() @This property controls whether the collection view shows a horizontal scroll bar when its content does not fit in the visible area.

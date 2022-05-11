@@ -1,0 +1,48 @@
+---@class Network @The network class is at the heart of the network implementation and provides the core functions.
+---@field GetLastPing fun() @The last ping time to the given player in milliseconds.
+---@field OnNetworkInstantiate fun() @Called on objects which have been network instantiated with Network.Instantiate.
+---@field logLevel fun() @Set the log level for network messages (default is Off).
+---@field OnFailedToConnect fun() @Called on the client when a connection attempt fails for some reason.
+---@field Disconnect fun() @Close all open connections and shuts down the network interface.
+---@field DestroyPlayerObjects fun() @Destroy all the objects based on view IDs belonging to this player.
+---@field OnServerInitialized fun() @Called on the server whenever a Network.InitializeServer was invoked and has completed.
+---@field OnDisconnectedFromServer fun() @Called on client during disconnection from server, but also on the server when the connection has disconnected.
+---@field peerType fun() @The status of the peer type, i.e. if it is disconnected, connecting, server or client.
+---@field SetSendingEnabled fun() @Enables or disables transmission of messages and RPC calls on a specific network group number.
+---@field SetReceivingEnabled fun() @Enable or disables the reception of messages in a specific group number from a specific player.
+---@field proxyPassword fun() @Set the proxy server password.
+---@field OnConnectedToServer fun() @Called on the client when you have successfully connected to a server.
+---@field SetLevelPrefix fun() @Set the level prefix which will then be prefixed to all network ViewID numbers.
+---@field InitializeServer fun() @Initialize the server.
+---@field natFacilitatorPort fun() @The port of the NAT punchthrough facilitator.
+---@field OnPlayerDisconnected fun() @Called on the server whenever a player is disconnected from the server.
+---@field isClient fun() @Returns true if your peer type is client.
+---@field OnSerializeNetworkView fun() @Used to customize synchronization of variables in a script watched by a network view.
+---@field player fun() @Get the local NetworkPlayer instance.
+---@field proxyPort fun() @The port of the proxy server.
+---@field TestConnectionNAT fun() @Test the connection specifically for NAT punch-through connectivity.
+---@field isServer fun() @Returns true if your peer type is server.
+---@field TestConnection fun() @Test this machines network connection.
+---@field GetAveragePing fun() @The last average ping time to the given player in milliseconds.
+---@field InitializeSecurity fun() @Initializes security layer.
+---@field isMessageQueueRunning fun() @Enable or disable the processing of network messages.
+---@field HavePublicAddress fun() @Check if this machine has a public IP address.
+---@field connections fun() @All connected players.
+---@field Connect fun() @Connect to the specified host (ip or domain name) and server port.
+---@field RemoveRPCsInGroup fun() @Remove all RPC functions which belong to given group number.
+---@field RemoveRPCs fun() @Remove all RPC functions which belong to this player ID.
+---@field maxConnections fun() @Set the maximum amount of connections/players allowed.
+---@field OnPlayerConnected fun() @Called on the server whenever a new player has successfully connected.
+---@field AllocateViewID fun() @Query for the next available network view ID number and allocate it (reserve).
+---@field sendRate fun() @The default send rate of network updates for all Network Views.
+---@field time fun() @Get the current network time (seconds).
+---@field connectionTesterPort fun() @The port of the connection tester used in Network.TestConnection.
+---@field Destroy fun() @Destroy the object associated with this view ID across the network.
+---@field useProxy fun() @Indicate if proxy support is needed, in which case traffic is relayed through the proxy server.
+---@field incomingPassword fun() @Set the password for the server (for incoming connections).
+---@field proxyIP fun() @The IP address of the proxy server.
+---@field natFacilitatorIP fun() @The IP address of the NAT punchthrough facilitator.
+---@field Instantiate fun() @Network instantiate a Prefab.
+---@field minimumAllocatableViewIDs fun() @Get or set the minimum number of ViewID numbers in the ViewID pool given to clients by the server.
+---@field CloseConnection fun() @Close the connection to another system.
+---@field connectionTesterIP fun() @The IP address of the connection tester used in Network.TestConnection.

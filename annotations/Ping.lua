@@ -1,0 +1,5 @@
+---@class Ping @Ping any given IP address (given in dot notation).
+---@field isDone fun() @Has the ping function completed?
+---@field ip fun() @The IP target of the ping.
+---@field ctor fun() @Perform a ping to the supplied target IP address.
+---@field time fun() @This property contains the ping time result after isDone returns true.

@@ -1,0 +1,3 @@
+---@class Experimental.GraphView.Placemat.MinSizePolicy @Determines the behavior of the CalculateSelectedNodeBounds method.
+---@field EnsureMinSize fun() @Enforce the placemat minimum size when calculating the bounds.
+---@field DoNotEnsureMinSize fun() @Ignore the placemat minimum size when calculating the bounds.

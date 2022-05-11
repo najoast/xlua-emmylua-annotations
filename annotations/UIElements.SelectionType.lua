@@ -1,0 +1,4 @@
+---@class UIElements.SelectionType @Controls how many items can be selected at once.
+---@field None fun() @Selections are disabled.
+---@field Single fun() @Only one item is selectable.
+---@field Multiple fun() @Multiple items are selectable at once.

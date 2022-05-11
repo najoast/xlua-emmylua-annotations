@@ -1,0 +1,3 @@
+---@class Experimental.GraphView.BlackboardRow @Collapsible GraphElement that represents a row in a BlackboardSection.
+---@field ctor fun() @Constructs a BlackboardRow from a VisualElement and its associated property view. The VisualElement is usually a BlackboardField.
+---@field expanded fun() @Indicates whether the BlackboardRow is expanded.

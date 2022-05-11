@@ -1,0 +1,13 @@
+---@class SceneManagement.StageUtility @Utility methods related to stages.
+---@field GoToStage fun() @Navigates the Editor to the specified stage.
+---@field IsGameObjectRenderedByCameraAndPartOfEditableScene fun() @Specifies whether the given Camera currently renders the given GameObject and the GameObject is also part of an editable scene.
+---@field GetCurrentStageHandle fun() @Get the current stage being edited.
+---@field GoBackToPreviousStage fun() @Navigate the Editor to the previous stage.
+---@field GetCurrentStage fun() @The current Stage can either be the MainStage or any other opened Stage, visualized in the Scene view as the last breadcrumb in the breadcrumb bar.
+---@field PlaceGameObjectInCurrentStage fun() @Place the given GameObject in the current stage being edited.
+---@field GoToMainStage fun() @Navigate the Editor to the main stage.
+---@field GetStageHandle fun() @Get the stage in which the given GameObject exists.
+---@field GetMainStageHandle fun() @Get the main stage which contains all the currently open regular Scenes.
+---@field GetStage fun() @Get the Stage object that contains the input GameObject or Scene.
+---@field GetMainStage fun() @Get the MainStage object. This object is always available.
+---@field IsGameObjectRenderedByCamera fun() @Is the given GameObject rendered by the given Camera?

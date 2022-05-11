@@ -1,0 +1,5 @@
+---@class PropertyModification @Defines a single modified property.
+---@field propertyPath fun() @Property path of the property being modified (Matches as SerializedProperty.propertyPath).
+---@field objectReference fun() @The value being applied when it is an object reference (which can not be represented as a string).
+---@field value fun() @The value being applied.
+---@field target fun() @Object that will be modified.

@@ -1,0 +1,4 @@
+---@class UIElements.StyleTransformOrigin @Represents a style value that can be either a TransformOrigin or a StyleKeyword.
+---@field value fun() @The TransformOrigin value.
+---@field ctor fun() @Creates a new StyleTransformOrigin from either a TransformOrigin or a StyleKeyword.
+---@field keyword fun() @The style keyword.

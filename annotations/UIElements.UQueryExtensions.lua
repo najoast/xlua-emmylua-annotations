@@ -1,0 +1,3 @@
+---@class UIElements.UQueryExtensions @UQuery is a set of extension methods allowing you to select individual or collection of visualElements inside a complex hierarchy.
+---@field Q fun() @Convenience overload, shorthand for Query&amp;lt;T&amp;gt;.Build().First().
+---@field Query fun() @Initializes a QueryBuilder with the specified selection rules.

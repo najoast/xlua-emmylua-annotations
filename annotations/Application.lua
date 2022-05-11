@@ -1,0 +1,74 @@
+---@class Application @Access to application run-time data.
+---@field AdvertisingIdentifierCallback fun() @Delegate method for fetching advertising ID.
+---@field version fun() @Returns application version number  (Read Only).
+---@field focusChanged fun() @Defines the delegate to use to register for events in which the focus gained or lost.
+---@field companyName fun() @Return application company name (Read Only).
+---@field unloading fun() @Unity raises this event when Player is unloading.
+---@field deepLinkActivated fun() @This event is raised when an application running on Android, iOS, or the Universal Windows Platform (UWP) is activated using a deep link URL.
+---@field cloudProjectId fun() @A unique cloud project identifier. It is unique for every project (Read Only).
+---@field webSecurityEnabled fun() @Indicates whether Unity's webplayer security model is enabled.
+---@field productName fun() @Returns application product name (Read Only).
+---@field LoadLevelAsync fun() @Loads the level asynchronously in the background.
+---@field dataPath fun() @Contains the path to the game data folder on the target device (Read Only).
+---@field genuineCheckAvailable fun() @Returns true if application integrity can be confirmed.
+---@field ExternalEval fun() @Execution of a script function in the contained web page.
+---@field LoadLevelAdditiveAsync fun() @Loads the level additively and asynchronously in the background.
+---@field HasProLicense fun() @Is Unity activated with the Pro license?
+---@field streamingAssetsPath fun() @The path to the StreamingAssets folder (Read Only).
+---@field GetStreamProgressForLevel fun() @How far has the download progressed? [0...1].
+---@field onBeforeRender fun() @Delegate method used to register for Just Before Render input updates for VR devices.
+---@field buildGUID fun() @Returns a GUID for this build (Read Only).
+---@field LoadLevel fun() @Note: This is now obsolete. Use SceneManager.LoadScene instead.
+---@field wantsToQuit fun() @Unity raises this event when the player application wants to quit.
+---@field LowMemoryCallback fun() @This is the delegate function when a mobile device notifies of low memory.
+---@field internetReachability fun() @Returns the type of Internet reachability currently possible on the device.
+---@field isConsolePlatform fun() @Is the current Runtime platform a known console platform.
+---@field CanStreamedLevelBeLoaded fun() @Can the streamed level be loaded?
+---@field IsPlaying fun() @Returns true if the given object is part of the playing world either in any kind of built Player or in Play Mode.
+---@field isLoadingLevel fun() @Is some level being loaded? (Read Only) (Obsolete).
+---@field isFocused fun() @Whether the player currently has focus. Read-only.
+---@field GetStackTraceLogType fun() @Get stack trace logging options. The default value is StackTraceLogType.ScriptOnly.
+---@field RequestUserAuthorization fun() @Request authorization to use the webcam or microphone on iOS.
+---@field CaptureScreenshot fun() @Captures a screenshot at path filename as a PNG file.
+---@field isEditor fun() @Are we running inside the Unity editor? (Read Only)
+---@field quitting fun() @Unity raises this event when the player application is qutting.
+---@field consoleLogPath fun() @Returns the path to the console log file, or an empty string if the current platform does not support log files.
+---@field Unload fun() @Unloads the Unity Player.
+---@field Quit fun() @Quits the player application.
+---@field loadedLevel fun() @Note: This is now obsolete. Use SceneManager.GetActiveScene instead. (Read Only).
+---@field installMode fun() @Returns application install mode (Read Only).
+---@field isPlaying fun() @Returns true when called in any kind of built Player, or when called in the Editor in Play Mode (Read Only).
+---@field targetFrameRate fun() @Specifies the frame rate at which Unity tries to render your game.
+---@field genuine fun() @Returns false if application is altered in any way after it was built.
+---@field UnloadLevel fun() @Unloads all GameObject associated with the given Scene. Note that assets are currently not unloaded, in order to free up asset memory call Resources.UnloadAllUnusedAssets.
+---@field isShowingSplashScreen fun() @Checks whether splash screen is being shown.
+---@field LoadLevelAdditive fun() @Loads a level additively.
+---@field SetStackTraceLogType fun() @Set stack trace logging options. The default value is StackTraceLogType.ScriptOnly.
+---@field SetBuildTags fun() @Set an array of feature tags for this build.
+---@field RequestAdvertisingIdentifierAsync fun() @Request advertising ID for iOS and Windows Store.
+---@field OpenURL fun() @Opens the URL specified, subject to the permissions and limitations of your app’s current platform and environment. This is handled in different ways depending on the nature of the URL, and with different security restrictions, depending on the runtime platform.
+---@field unityVersion fun() @The version of the Unity runtime used to play the content.
+---@field identifier fun() @Returns application identifier at runtime. On Apple platforms this is the 'bundleIdentifier' saved in the info.plist file, on Android it's the 'package' from the AndroidManifest.xml.
+---@field levelCount fun() @The total number of levels available (Read Only).
+---@field isBatchMode fun() @Returns true when Unity is launched with the -batchmode flag from the command line (Read Only).
+---@field runInBackground fun() @Should the player be running when the application is in the background?
+---@field persistentDataPath fun() @(Read Only) Contains the path to a persistent data directory.
+---@field streamedBytes fun() @How many bytes have we downloaded from the main unity web stream (Read Only).
+---@field isMobilePlatform fun() @Is the current Runtime platform a known mobile platform.
+---@field logMessageReceivedThreaded fun() @Event that is fired if a log message is received.
+---@field lowMemory fun() @This event occurs when your app receives a low-memory notification from the device it is running on. This only occurs when your app is running in the foreground. You can release non-critical assets from memory (such as, textures or audio clips) in response to this in order to avoid the app being terminated. You can also load smaller versions of such assets.  Furthermore, you should serialize any transient data to permanent storage to avoid data loss if the app is terminated.This event is supported on iOS, Android, and Universal Windows Platform (UWP).This event corresponds to the following callbacks on the different platforms:- iOS: [UIApplicationDelegate applicationDidReceiveMemoryWarning]- Android: onLowMemory() and onTrimMemory(level == TRIM_MEMORY_RUNNING_CRITICAL)- UWP: MemoryManager.AppMemoryUsageIncreased (AppMemoryUsageLevel == OverLimit)Note: For UWP, this event will not occur on Desktop and only works on memory constrained devices, such as HoloLens and Xbox One. The OverLimit threshold specified by the OS in this case is so high it is not reasonably possible to reach it and trigger the event.Here is an example of handling the callback:
+---@field loadedLevelName fun() @The name of the level that was last loaded (Read Only).
+---@field sandboxType fun() @Returns application running in sandbox (Read Only).
+---@field installerName fun() @Returns the name of the store or package that installed the application (Read Only).
+---@field LogCallback fun() @Use this delegate type with Application.logMessageReceived or Application.logMessageReceivedThreaded to monitor what gets logged.
+---@field HasUserAuthorization fun() @Check if the user has authorized use of the webcam or microphone in the Web Player.
+---@field ExternalCall fun() @Calls a function in the web page that contains the WebGL Player.
+---@field CancelQuit fun() @Cancels quitting the application. This is useful for showing a splash screen at the end of a game.
+---@field backgroundLoadingPriority fun() @Priority of background loading thread.
+---@field GetBuildTags fun() @Returns an array of feature tags in use for this build.
+---@field systemLanguage fun() @The language the user's operating system is running in.
+---@field logMessageReceived fun() @Event that is fired if a log message is received.
+---@field temporaryCachePath fun() @Contains the path to a temporary data / cache directory (Read Only).
+---@field absoluteURL fun() @The URL of the document. For WebGL, this a web URL. For Android, iOS, or Universal Windows Platform (UWP) this is a deep link URL. (Read Only)
+---@field stackTraceLogType fun() @Obsolete. Use Application.SetStackTraceLogType.
+---@field platform fun() @Returns the platform the game is running on (Read Only).

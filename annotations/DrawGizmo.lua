@@ -1,0 +1,2 @@
+---@class DrawGizmo @The DrawGizmo attribute allows you to supply a gizmo renderer for any Component.
+---@field ctor fun() @Defines when the gizmo should be invoked for drawing.

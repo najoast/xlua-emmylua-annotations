@@ -1,0 +1,3 @@
+---@class BoneWeight1 @Describes a bone weight that affects a vertex in a mesh.
+---@field boneIndex fun() @Index of bone.
+---@field weight fun() @Skinning weight for bone.

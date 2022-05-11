@@ -1,0 +1,7 @@
+---@class Rendering.SortingSettings @This struct describes the methods to sort objects during rendering.
+---@field criteria fun() @What kind of sorting to do while rendering.
+---@field ctor fun() @Create a sorting settings struct.
+---@field worldToCameraMatrix fun() @Used to calculate the distance to objects.
+---@field cameraPosition fun() @Used to calculate the distance to objects.
+---@field distanceMetric fun() @Type of sorting to use while rendering.
+---@field customAxis fun() @Used to calculate distance to objects, by comparing the positions of objects to this axis.

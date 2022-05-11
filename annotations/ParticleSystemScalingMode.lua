@@ -1,0 +1,4 @@
+---@class ParticleSystemScalingMode @Control how particle systems apply transform scale.
+---@field Shape fun() @Only apply transform scale to the shape component, which controls where        particles are spawned, but does not affect their size or movement.
+---@field Local fun() @Scale the Particle System using only its own transform scale. (Ignores parent scale).
+---@field Hierarchy fun() @Scale the Particle System using the entire transform hierarchy.

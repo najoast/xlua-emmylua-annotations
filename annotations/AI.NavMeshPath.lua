@@ -1,0 +1,6 @@
+---@class AI.NavMeshPath @A path as calculated by the navigation system.
+---@field ClearCorners fun() @Erase all corner points from path.
+---@field GetCornersNonAlloc fun() @Calculate the corners for the path.
+---@field corners fun() @Corner points of the path. (Read Only)
+---@field status fun() @Status of the path. (Read Only)
+---@field ctor fun() @NavMeshPath constructor.

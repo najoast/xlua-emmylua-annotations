@@ -1,0 +1,23 @@
+---@class Sprite @Represents a Sprite object for use in 2D gameplay.
+---@field spriteAtlasTextureScale fun() @The Variant scale of texture used by the Sprite. This is useful to check when a Variant SpriteAtlas is being used by Sprites.
+---@field pixelsPerUnit fun() @The number of pixels in the sprite that correspond to one unit in world space. (Read Only)
+---@field border fun() @Returns the border sizes of the sprite.
+---@field GetPhysicsShapeCount fun() @The number of physics shapes for the Sprite.
+---@field packed fun() @Returns true if this Sprite is packed in an atlas.
+---@field textureRect fun() @Get the rectangle this sprite uses on its texture. Raises an exception if this sprite is tightly packed in an atlas.
+---@field textureRectOffset fun() @Gets the offset of the rectangle this sprite uses on its texture to the original sprite bounds. If sprite mesh type is FullRect, offset is zero.
+---@field packingRotation fun() @If Sprite is packed (see Sprite.packed), returns its SpritePackingRotation.
+---@field texture fun() @Get the reference to the used texture. If packed this will point to the atlas, if not packed will point to the source sprite.
+---@field associatedAlphaSplitTexture fun() @Returns the texture that contains the alpha channel from the source texture. Unity generates this texture under the hood for sprites that have alpha in the source, and need to be compressed using techniques like ETC1.Returns NULL if there is no associated alpha texture for the source sprite. This is the case if the sprite has not been setup to use ETC1 compression.
+---@field vertices fun() @Returns a copy of the array containing sprite mesh vertex positions.
+---@field OverridePhysicsShape fun() @Sets up a new Sprite physics shape.
+---@field OverrideGeometry fun() @Sets up new Sprite geometry.
+---@field GetPhysicsShapePointCount fun() @The number of points in the selected physics shape for the Sprite.
+---@field uv fun() @The base texture coordinates of the sprite mesh.
+---@field GetPhysicsShape fun() @Gets a physics shape from the Sprite by its index.
+---@field Create fun() @Create a new Sprite object.
+---@field bounds fun() @Bounds of the Sprite, specified by its center and extents in world space units.
+---@field packingMode fun() @If Sprite is packed (see Sprite.packed), returns its SpritePackingMode.
+---@field triangles fun() @Returns a copy of the array containing sprite mesh triangles.
+---@field rect fun() @Location of the Sprite on the original Texture, specified in pixels.
+---@field pivot fun() @Location of the Sprite's center point in the Rect on the original Texture, specified in pixels.

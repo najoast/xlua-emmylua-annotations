@@ -1,0 +1,2 @@
+---@class Networking.Types.NodeID @The NodeID is the ID used in Relay matches to track nodes in a network.
+---@field Invalid fun() @The invalid case of a NodeID.

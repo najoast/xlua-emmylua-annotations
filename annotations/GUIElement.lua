@@ -1,0 +1,3 @@
+---@class GUIElement @Base class for images &amp; text strings displayed in a GUI.
+---@field HitTest fun() @Is a point on screen inside the element?
+---@field GetScreenRect fun() @Returns bounding rectangle of GUIElement in screen coordinates.

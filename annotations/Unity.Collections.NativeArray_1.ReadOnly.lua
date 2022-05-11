@@ -1,0 +1,7 @@
+---@class Unity.Collections.NativeArray_1.ReadOnly @NativeArray interface constrained to read-only operation.
+---@field ToArray fun() @Convert the data in this NativeArray.ReadOnly to a managed array.
+---@field CopyTo fun() @Copy all elements to a NativeArray or managed array of the same length.
+---@field Index_operator fun() @Read-only access to NativeArray.ReadOnly elements by index.
+---@field Reinterpret fun() @Reinterpret the array as having a different data type (type punning).
+---@field Length fun() @Number of elements in the NativeArray.ReadOnly.
+---@field GetEnumerator fun() @Get enumerator.

@@ -1,0 +1,71 @@
+---@class TextureFormat @Format used when creating textures from scripts.
+---@field RHalf fun() @Scalar (R)  texture format, 16 bit floating point.
+---@field RGFloat fun() @Two color (RG)  texture format, 32 bit floating point per channel.
+---@field ETC_RGB4Crunched fun() @Compressed color texture format with Crunch compression for smaller storage sizes.
+---@field PVRTC_RGBA2 fun() @PowerVR (iOS) 2 bits/pixel compressed with alpha channel texture format.
+---@field ASTC_12x12 fun() @ASTC (12x12 pixel block in 128 bits) compressed RGB(A) texture format.
+---@field RGHalf fun() @Two color (RG)  texture format, 16 bit floating point per channel.
+---@field ARGB32 fun() @Color with alpha texture format, 8-bits per channel.
+---@field PVRTC_RGB4 fun() @PowerVR (iOS) 4 bits/pixel compressed color texture format.
+---@field ETC_RGB4_3DS fun() @ETC 4 bits/pixel compressed RGB texture format.
+---@field RGBAHalf fun() @RGB color and alpha texture format, 16 bit floating point per channel.
+---@field BC6H fun() @HDR compressed color texture format.
+---@field ASTC_RGB_8x8 fun() @ASTC (8x8 pixel block in 128 bits) compressed RGB texture format.
+---@field ASTC_RGB_12x12 fun() @ASTC (12x12 pixel block in 128 bits) compressed RGB texture format.
+---@field DXT5Crunched fun() @Compressed color with alpha channel texture format with Crunch compression for smaller storage sizes.
+---@field EAC_RG_SIGNED fun() @ETC2 / EAC (GL ES 3.0) 8 bits/pixel compressed signed dual-channel (RG) texture format.
+---@field ASTC_HDR_12x12 fun() @ASTC (12x12 pixel block in 128 bits) compressed RGB(A) HDR texture format.
+---@field ARGB4444 fun() @A 16 bits/pixel texture format. Texture stores color with an alpha channel.
+---@field ASTC_RGB_5x5 fun() @ASTC (5x5 pixel block in 128 bits) compressed RGB texture format.
+---@field ASTC_HDR_4x4 fun() @ASTC (4x4 pixel block in 128 bits) compressed RGB(A) HDR texture format.
+---@field DXT1Crunched fun() @Compressed color texture format with Crunch compression for smaller storage sizes.
+---@field EAC_R_SIGNED fun() @ETC2 / EAC (GL ES 3.0) 4 bits/pixel compressed signed single-channel texture format.
+---@field PVRTC_RGB2 fun() @PowerVR (iOS) 2 bits/pixel compressed color texture format.
+---@field ASTC_RGB_10x10 fun() @ASTC (10x10 pixel block in 128 bits) compressed RGB texture format.
+---@field ETC2_RGB fun() @ETC2 (GL ES 3.0) 4 bits/pixel compressed RGB texture format.
+---@field RGB565 fun() @A 16 bit color texture format.
+---@field RGBA32 fun() @Color with alpha texture format, 8-bits per channel.
+---@field ASTC_RGBA_8x8 fun() @ASTC (8x8 pixel block in 128 bits) compressed RGBA texture format.
+---@field ASTC_RGB_6x6 fun() @ASTC (6x6 pixel block in 128 bits) compressed RGB texture format.
+---@field ASTC_10x10 fun() @ASTC (10x10 pixel block in 128 bits) compressed RGB(A) texture format.
+---@field ETC2_RGBA8Crunched fun() @Compressed color with alpha channel texture format using Crunch compression for smaller storage sizes.
+---@field BC5 fun() @Compressed two-channel (RG) texture format.
+---@field DXT5 fun() @Compressed color with alpha channel texture format.
+---@field Alpha8 fun() @Alpha-only texture format, 8 bit integer.
+---@field ASTC_5x5 fun() @ASTC (5x5 pixel block in 128 bits) compressed RGB(A) texture format.
+---@field ASTC_RGBA_12x12 fun() @ASTC (12x12 pixel block in 128 bits) compressed RGBA texture format.
+---@field RFloat fun() @Scalar (R) texture format, 32 bit floating point.
+---@field BC7 fun() @High quality compressed color texture format.
+---@field EAC_R fun() @ETC2 / EAC (GL ES 3.0) 4 bits/pixel compressed unsigned single-channel texture format.
+---@field ASTC_HDR_5x5 fun() @ASTC (5x5 pixel block in 128 bits) compressed RGB(A) HDR texture format.
+---@field ASTC_RGBA_6x6 fun() @ASTC (6x6 pixel block in 128 bits) compressed RGBA texture format.
+---@field RGBA4444 fun() @Color and alpha  texture format, 4 bit per channel.
+---@field ASTC_RGBA_10x10 fun() @ASTC (10x10 pixel block in 128 bits) compressed RGBA texture format.
+---@field RGB24 fun() @Color texture format, 8-bits per channel.
+---@field ASTC_RGBA_5x5 fun() @ASTC (5x5 pixel block in 128 bits) compressed RGBA texture format.
+---@field YUY2 fun() @A format that uses the YUV color space and is often used for video encoding or playback.
+---@field RGBAFloat fun() @RGB color and alpha texture format,  32-bit floats per channel.
+---@field RGBA64 fun() @Four channel (RGBA) texture format, 16 bit integer per channel.
+---@field RGB9e5Float fun() @RGB HDR format, with 9 bit mantissa per channel and a 5 bit shared exponent.
+---@field ASTC_4x4 fun() @ASTC (4x4 pixel block in 128 bits) compressed RGB(A) texture format.
+---@field RGB48 fun() @Three channel (RGB) texture format, 16 bit integer per channel.
+---@field ETC_RGB4 fun() @ETC (GLES2.0) 4 bits/pixel compressed RGB texture format.
+---@field ASTC_8x8 fun() @ASTC (8x8 pixel block in 128 bits) compressed RGB(A) texture format.
+---@field ASTC_HDR_6x6 fun() @ASTC (6x6 pixel block in 128 bits) compressed RGB(A) HDR texture format.
+---@field BC4 fun() @Compressed one channel (R) texture format.
+---@field ETC2_RGBA1 fun() @ETC2 (GL ES 3.0) 4 bits/pixel RGB+1-bit alpha texture format.
+---@field RG32 fun() @Two channel (RG) texture format, 16 bit integer per channel.
+---@field ASTC_RGB_4x4 fun() @ASTC (4x4 pixel block in 128 bits) compressed RGB texture format.
+---@field BGRA32 fun() @Color with alpha texture format, 8-bits per channel.
+---@field RG16 fun() @Two color (RG) texture format, 8-bits per channel.
+---@field R8 fun() @Single channel (R) texture format, 8 bit integer.
+---@field ASTC_6x6 fun() @ASTC (6x6 pixel block in 128 bits) compressed RGB(A) texture format.
+---@field ASTC_HDR_10x10 fun() @ASTC (10x10 pixel block in 128 bits) compressed RGB(A) HDR texture format.
+---@field ASTC_HDR_8x8 fun() @ASTC (8x8 pixel block in 128 bits) compressed RGB(A) texture format.
+---@field ASTC_RGBA_4x4 fun() @ASTC (4x4 pixel block in 128 bits) compressed RGBA texture format.
+---@field R16 fun() @Single channel (R) texture format, 16 bit integer.
+---@field PVRTC_RGBA4 fun() @PowerVR (iOS) 4 bits/pixel compressed with alpha channel texture format.
+---@field ETC2_RGBA8 fun() @ETC2 (GL ES 3.0) 8 bits/pixel compressed RGBA texture format.
+---@field DXT1 fun() @Compressed color texture format.
+---@field ETC_RGBA8_3DS fun() @ETC 4 bits/pixel RGB + 4 bits/pixel Alpha compressed texture format.
+---@field EAC_RG fun() @ETC2 / EAC (GL ES 3.0) 8 bits/pixel compressed unsigned dual-channel (RG) texture format.

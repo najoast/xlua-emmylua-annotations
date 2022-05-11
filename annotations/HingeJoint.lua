@@ -1,0 +1,9 @@
+---@class HingeJoint @The HingeJoint groups together 2 rigid bodies, constraining them to move like connected by a hinge.
+---@field useSpring fun() @Enables the joint's spring. Disabled by default.
+---@field angle fun() @The current angle in degrees of the joint relative to its rest position. (Read Only)
+---@field useLimits fun() @Enables the joint's limits. Disabled by default.
+---@field motor fun() @The motor will apply a force up to a maximum force to achieve the target velocity in degrees per second.
+---@field velocity fun() @The angular velocity of the joint in degrees per second. (Read Only)
+---@field useMotor fun() @Enables the joint's motor. Disabled by default.
+---@field spring fun() @The spring attempts to reach a target angle by adding spring and damping forces.
+---@field limits fun() @Limit of angular rotation (in degrees) on the hinge joint.

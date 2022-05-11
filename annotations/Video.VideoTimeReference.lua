@@ -1,0 +1,4 @@
+---@class Video.VideoTimeReference @The clock that the Video.VideoPlayer observes to detect and correct drift.
+---@field Freerun fun() @Disables the drift detection.
+---@field InternalTime fun() @Internal reference clock the Video.VideoPlayer observes to detect and correct drift.
+---@field ExternalTime fun() @External reference clock the Video.VideoPlayer observes to detect and correct drift.

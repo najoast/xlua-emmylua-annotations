@@ -1,0 +1,3 @@
+---@class MPE.EventDataSerialization @The Serialization type for sending a message, with arguments, using the EventService. For more information about argument serialization, see ChannelService.Broadcast and ChannelService.Emit.
+---@field StandardJson fun() @Use normal JSON to send a message using the [[EventService]. The receiving handler gets JSON objects (Dictionary&lt;string, object&gt;, List&lt;object&gt;, primitive types) as arguments of his ChannelHandler.
+---@field JsonUtility fun() @Use JsonUtility.ToJson to serialize a message argument. Additional metadata is added to the message to specify which type to convert the JSON to when it is received.

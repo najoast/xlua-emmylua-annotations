@@ -1,0 +1,2 @@
+---@class VersionControl.IPopupMenuExtension @Version control system extension that allows displaying VCS specific context menu.
+---@field DisplayPopupMenu fun() @Displays a version control system context menu.

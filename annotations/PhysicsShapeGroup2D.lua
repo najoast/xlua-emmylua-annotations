@@ -1,0 +1,20 @@
+---@class PhysicsShapeGroup2D @Represents a group of PhysicsShape2D and their geometry.
+---@field AddCircle fun() @Adds a circle shape (PhysicsShapeType2D.Circle) to the shape group.
+---@field ctor fun() @Initializes and returns an instance of PhysicsShapeGroup2D. The shape group will be empty and ready for use by Collider2D.GetShapes, Rigidbody2D.GetShapes or manually adding shapes.
+---@field vertexCount fun() @The total number of vertices in the shape group used to represent all PhysicsShape2D within it. (Read Only)
+---@field SetShapeRadius fun() @Sets the radius of a shape.
+---@field SetShapeVertex fun() @Sets a single vertex of a shape.
+---@field AddBox fun() @Adds a box shape (PhysicsShapeType2D.Polygon) to the shape group.
+---@field AddEdges fun() @Adds an edges shape (PhysicsShapeType2D.Edges) to the shape group.
+---@field GetShape fun() @Gets the PhysicsShape2D stored at the specified shapeIndex.
+---@field Add fun() @Adds a copy of all the PhysicsShape2D and their geometry from the specified physicsShapeGroup into this shape group. The specified physicsShapeGroup is not modified.
+---@field SetShapeAdjacentVertices fun() @Sets the adjacent vertices of a shape.
+---@field GetShapeVertex fun() @Gets a single vertex of a shape. The vertex index is zero-based with the shape having a quantity of vertex specified by PhysicsShape2D.vertexCount.
+---@field localToWorldMatrix fun() @Gets or sets a matrix that transforms the PhysicsShapeGroup2D vertices from local space into world space.
+---@field AddPolygon fun() @Adds a polygon shape (PhysicsShapeType2D.Polygon) to the shape group.
+---@field GetShapeVertices fun() @Gets a copy of the shape vertices in the PhysicsShapeGroup2D.
+---@field shapeCount fun() @The total number of  PhysicsShape2D in the shape group. (Read Only)
+---@field Clear fun() @Clears all the vertices and shapes from the PhysicsShapeGroup.
+---@field GetShapeData fun() @Gets a copy of both the shapes and vertices in the PhysicsShapeGroup2D.
+---@field AddCapsule fun() @Adds a capsule shape (PhysicsShapeType2D.Capsule) to the shape group.
+---@field DeleteShape fun() @When destroying a shape at the specified shapeIndex, all other shapes that exist above the specified shapeIndex will have their shape indices updated appropriately.

@@ -1,0 +1,13 @@
+---@class ArrayUtility @Helpers for builtin arrays.
+---@field IndexOf fun() @Index of first element with value value.
+---@field Clear fun() @Clears the array.
+---@field Add fun() @Appends item to the end of array.
+---@field RemoveAt fun() @Remove element at position index.
+---@field Remove fun() @Removes item from array.
+---@field LastIndexOf fun() @Index of the last element with value value.
+---@field Contains fun() @Determines if the array contains the item.
+---@field FindIndex fun() @Find the index of the first element that satisfies the predicate.
+---@field AddRange fun() @Appends items to the end of array.
+---@field ArrayEquals fun() @Compares two arrays.
+---@field Insert fun() @Inserts item item at position index.
+---@field ArrayReferenceEquals fun() @Compares two array references.

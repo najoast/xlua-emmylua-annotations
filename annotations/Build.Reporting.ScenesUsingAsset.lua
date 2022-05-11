@@ -1,0 +1,3 @@
+---@class Build.Reporting.ScenesUsingAsset @Contains information about which scenes in a build have references to an Asset in the build.
+---@field assetPath fun() @The asset path.
+---@field scenePaths fun() @The list of scenes in the build referring to the asset, identified by a string containing the scene index in the BuildPlayerOptions.scenes list, as well as the scene path.

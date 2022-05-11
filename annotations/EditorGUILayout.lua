@@ -1,0 +1,73 @@
+---@class EditorGUILayout @Auto laid out version of EditorGUI.
+---@field TagField fun() @Make a tag selection field.
+---@field GradientField fun() @Make a field for editing a Gradient.
+---@field EndVertical fun() @Close a group started with BeginVertical.
+---@field EndFadeGroup fun() @Closes a group started with BeginFadeGroup.
+---@field BeginBuildTargetSelectionGrouping fun() @Begin a build target grouping and get the selected BuildTargetGroup back.
+---@field PropertyField fun() @Make a field for SerializedProperty.
+---@field FloatField fun() @Make a text field for entering float values.
+---@field EnumPopup fun() @Make an enum popup selection field.
+---@field FadeGroupScope EditorGUILayout.FadeGroupScope @Begins a group that can be be hidden/shown and the transition will be animated.
+---@field EndBuildTargetSelectionGrouping fun() @Close a group started with BeginBuildTargetSelectionGrouping.
+---@field BeginVertical fun() @Begin a vertical group and get its rect back.
+---@field EndHorizontal fun() @Close a group started with BeginHorizontal.
+---@field BoundsField fun() @Make Center &amp; Extents field for entering a Bounds.
+---@field BeginFadeGroup fun() @Begins a group that can be be hidden/shown and the transition will be animated.
+---@field EnumFlagsField fun() @Displays a menu with an option for every value of the enum type when clicked.
+---@field ColorField fun() @Make a field for selecting a Color.
+---@field PasswordField fun() @Make a text field where the user can enter a password.
+---@field Vector4Field fun() @Make an X, Y, Z &amp; W field for entering a Vector4.
+---@field LabelField fun() @Make a label field. (Useful for showing read-only info.)
+---@field ToolContextToolbar fun() @Makes a toolbar populated with the specified collection of editor tool contexts.
+---@field DoubleField fun() @Make a text field for entering double values.
+---@field Slider fun() @Make a slider the user can drag to change a value between a min and a max.
+---@field DelayedDoubleField fun() @Make a delayed text field for entering doubles.
+---@field InspectorTitlebar fun() @Make an inspector-window-like titlebar.
+---@field EndFoldoutHeaderGroup fun() @Closes a group started with BeginFoldoutHeaderGroup.
+---@field HelpBox fun() @Make a help box with a message to the user.
+---@field ObjectField fun() @Make a field to receive any object type.
+---@field DelayedFloatField fun() @Make a delayed text field for entering floats.
+---@field LinkButton fun() @Make a clickable link label.
+---@field Vector2IntField fun() @Make an X &amp; Y integer field for entering a Vector2Int.
+---@field Popup fun() @Make a generic popup selection field.
+---@field LongField fun() @Make a text field for entering long integers.
+---@field ToggleGroupScope EditorGUILayout.ToggleGroupScope @Begin a vertical group with a toggle to enable or disable all the controls within at once.
+---@field BeginScrollView fun() @Begin an automatically laid out scrollview.
+---@field Foldout fun() @Make a label with a foldout arrow to the left of it.
+---@field BeginHorizontal fun() @Begin a horizontal group and get its rect back.
+---@field ToggleLeft fun() @Make a toggle field where the toggle is to the left and the label immediately to the right of it.
+---@field EnumMaskField fun() @This method is obsolete. Use EditorGUILayout.EnumFlagsField instead.Make a field for enum based masks.
+---@field DelayedIntField fun() @Make a delayed text field for entering integers.
+---@field DelayedTextField fun() @Make a delayed text field.
+---@field BeginFoldoutHeaderGroup fun() @Make a label with a foldout arrow to the left of it.
+---@field PrefixLabel fun() @Make a label in front of some control.
+---@field TextArea fun() @Make a text area.
+---@field RectIntField fun() @Make an X, Y, W &amp; H field for entering a RectInt.
+---@field EditorToolbarForTarget fun() @Makes a toolbar populated with the collection of editor tools that match the EditorToolAttribute of the target object.
+---@field BeginToggleGroup fun() @Begin a vertical group with a toggle to enable or disable all the controls within at once.
+---@field HorizontalScope EditorGUILayout.HorizontalScope @Disposable helper class for managing BeginHorizontal / EndHorizontal.
+---@field SelectableLabel fun() @Make a selectable label field. (Useful for showing read-only info that can be copy-pasted.)
+---@field VerticalScope EditorGUILayout.VerticalScope @Disposable helper class for managing BeginVertical / EndVertical.
+---@field Vector3IntField fun() @Make an X, Y &amp; Z integer field for entering a Vector3Int.
+---@field Vector3Field fun() @Make an X, Y &amp; Z field for entering a Vector3.
+---@field Vector2Field fun() @Make an X &amp; Y field for entering a Vector2.
+---@field TextField fun() @Make a text field.
+---@field IntField fun() @Make a text field for entering integers.
+---@field ToolContextToolbarForTarget fun() @Makes a toolbar populated with the collection of EditorToolContext that match the EditorToolContextAttribute.targetType of the target object.
+---@field LayerField fun() @Make a layer selection field.
+---@field EndToggleGroup fun() @Close a group started with BeginToggleGroup.
+---@field Space fun() @Make a small space between the previous control and the following.
+---@field MaskField fun() @Make a field for masks.
+---@field EndScrollView fun() @Ends a scrollview started with a call to BeginScrollView.
+---@field DropdownButton fun() @Make a button that reacts to mouse down, for displaying your own dropdown content.
+---@field IntPopup fun() @Make an integer popup selection field.
+---@field GetControlRect fun() @Get a rect for an Editor control.
+---@field ScrollViewScope EditorGUILayout.ScrollViewScope @Disposable helper class for managing BeginScrollView / EndScrollView.
+---@field RectField fun() @Make an X, Y, W &amp; H field for entering a Rect.
+---@field MinMaxSlider fun() @Make a special slider the user can use to specify a range between a min and a max.
+---@field IntSlider fun() @Make a slider the user can drag to change an integer value between a min and a max.
+---@field EnumMaskPopup fun() @This method is obsolete. Use EditorGUILayout.EnumFlagsField instead.Make an enum popup selection field for a bitmask.
+---@field BoundsIntField fun() @Make Position &amp; Size field for entering a BoundsInt.
+---@field Toggle fun() @Make a toggle.
+---@field EditorToolbar fun() @Makes a toolbar populated with the specified collection of editor tools.
+---@field CurveField fun() @Make a field for editing an AnimationCurve.

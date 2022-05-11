@@ -1,0 +1,5 @@
+---@class JointDriveMode @The ConfigurableJoint attempts to attain position / velocity targets based on this flag.
+---@field None fun() @Don't apply any forces to reach the target.
+---@field Velocity fun() @Try to reach the specified target velocity.
+---@field PositionAndVelocity fun() @Try to reach the specified target position and velocity.
+---@field Position fun() @Try to reach the specified target position.

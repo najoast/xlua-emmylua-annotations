@@ -1,0 +1,4 @@
+---@class UIElements.ContextualMenuManipulator @Manipulator that displays a contextual menu when the user clicks the right mouse button or presses the menu key on the keyboard.
+---@field RegisterCallbacksOnTarget fun() @Register the event callbacks on the manipulator target.
+---@field ctor fun() @Constructor.
+---@field UnregisterCallbacksFromTarget fun() @Unregister the event callbacks from the manipulator target.

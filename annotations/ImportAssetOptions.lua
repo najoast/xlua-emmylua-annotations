@@ -1,0 +1,7 @@
+---@class ImportAssetOptions @Asset importing options.
+---@field ForceUncompressedImport fun() @Forces asset import as uncompressed for edition facilities.
+---@field DontDownloadFromCacheServer fun() @Force a full reimport but don't download the assets from the cache server.
+---@field ForceSynchronousImport fun() @Import all assets synchronously.
+---@field Default fun() @Default import options.
+---@field ImportRecursive fun() @When a folder is imported, import all its contents as well.
+---@field ForceUpdate fun() @User initiated asset import.

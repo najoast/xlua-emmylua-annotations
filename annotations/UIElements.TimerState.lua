@@ -1,0 +1,5 @@
+---@class UIElements.TimerState @Contains timing information of scheduler events.
+---@field deltaTime fun() @Time difference in milliseconds between now and the previous callback.
+---@field Equals fun() @Compare this object with another object and return true if they are equal.
+---@field now fun() @Current time in milliseconds.
+---@field start fun() @Start time in milliseconds, or last callback time for repeatable IScheduledItem.

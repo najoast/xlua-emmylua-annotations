@@ -1,0 +1,3 @@
+---@class HeaderAttribute @Use this PropertyAttribute to add a header above some fields in the Inspector.
+---@field ctor fun() @Add a header above some fields in the Inspector.
+---@field header fun() @The header text.

@@ -1,0 +1,15 @@
+---@class Networking.DownloadHandler @Manage and process HTTP response body data received from a remote server.
+---@field ReceiveData fun() @Callback, invoked as data is received from the remote server.
+---@field ReceiveContentLengthHeader fun() @Callback, invoked with a Content-Length header is received.
+---@field isDone fun() @Returns true if this DownloadHandler has been informed by its parent UnityWebRequest that all data has been received, and this DownloadHandler has completed any necessary post-download processing. (Read Only)
+---@field ReceiveContentLength fun() @Callback, invoked with a Content-Length header is received.
+---@field GetData fun() @Callback, invoked when the data property is accessed.
+---@field GetProgress fun() @Callback, invoked when UnityWebRequest.downloadProgress is accessed.
+---@field CompleteContent fun() @Callback, invoked when all data has been received from the remote server.
+---@field error fun() @Error message describing a failure that occurred inside the download handler.
+---@field GetText fun() @Callback, invoked when the text property is accessed.
+---@field GetNativeData fun() @Provides allocation-free access to the downloaded data as a NativeArray.
+---@field data fun() @Returns the raw bytes downloaded from the remote server, or null. (Read Only)
+---@field Dispose fun() @Signals that this DownloadHandler is no longer being used, and should clean up any resources it is using.
+---@field nativeData fun() @Provides direct access to downloaded data.
+---@field text fun() @Convenience property. Returns the bytes from data interpreted as a UTF8 string. (Read Only)

@@ -1,0 +1,8 @@
+---@class ArticulationDrive @Drive applies forces and torques to the connected bodies.
+---@field targetVelocity fun() @The velocity of the body this drive will try to reach.
+---@field upperLimit fun() @The upper limit of motion for a particular degree of freedom.
+---@field forceLimit fun() @The maximum force this drive can apply to a body.
+---@field target fun() @The target value the drive will try to reach.
+---@field lowerLimit fun() @The lower limit of motion for a particular degree of freedom.
+---@field damping fun() @The damping of the spring attached to this drive.
+---@field stiffness fun() @The stiffness of the spring connected to this drive.

@@ -1,0 +1,6 @@
+---@class Presets.DefaultPreset @This structure defines a default Preset.See Preset.GetDefaultListForType and Preset.SetDefaultListForType for usage.
+---@field m_Preset fun() @The Preset applied to an object instance when it matches the search filter defined by DefaultPreset.m_Filter.
+---@field enabled fun() @Set this value to false to disable this DefaultPreset setting from the default preset list without removing it.
+---@field preset fun() @The Preset applied to an object instance when it matches the search filter defined by DefaultPreset.m_Filter.
+---@field filter fun() @The search filter that is compared against the object instance. The DefaultPreset.m_Preset is applied to the object instance if it matches the search filter.
+---@field m_Filter fun() @The search filter that is compared against the object instance. The DefaultPreset.m_Preset is applied to the object instance if it matches the search filter.

@@ -1,0 +1,2 @@
+---@class AI.NavMeshVisualizationSettings @Represents the visualization state of the navigation debug graphics.
+---@field showNavigation fun() @A count of how many users requesting navigation debug graphics to be enabled.

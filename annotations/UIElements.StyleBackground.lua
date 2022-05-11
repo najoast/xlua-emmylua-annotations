@@ -1,0 +1,4 @@
+---@class UIElements.StyleBackground @Style value that can be either a Background or a StyleKeyword.
+---@field value fun() @The Background value.
+---@field ctor fun() @Creates from either a Background or a StyleKeyword.
+---@field keyword fun() @The style keyword.

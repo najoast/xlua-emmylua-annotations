@@ -1,0 +1,3 @@
+---@class ParticleSystemCustomData @Which stream of custom particle data to set.
+---@field Custom1 fun() @The first stream of custom per-particle data.
+---@field Custom2 fun() @The second stream of custom per-particle data.

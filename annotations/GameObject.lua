@@ -1,0 +1,40 @@
+---@class GameObject @Base class for all entities in Unity Scenes.
+---@field collider fun() @The Collider attached to this GameObject (Read Only). (Null if there is none attached).
+---@field GetComponentsInParent fun() @Returns all components of Type type in the GameObject or any of its parents.
+---@field FindWithTag fun() @Returns one active GameObject tagged tag. Returns null if no GameObject was found.
+---@field constantForce fun() @The ConstantForce attached to this GameObject (Read Only). (Null if there is none attached).
+---@field AddComponent fun() @Adds a component class named className to the game object.
+---@field layer fun() @The layer the GameObject is in.
+---@field isStatic fun() @Gets and sets the GameObject's StaticEditorFlags.
+---@field SendMessageUpwards fun() @Calls the method named methodName on every MonoBehaviour in this game object and on every ancestor of the behaviour.
+---@field networkView fun() @The NetworkView attached to this GameObject (Read Only). (Null if there is none attached).
+---@field hingeJoint fun() @The HingeJoint attached to this GameObject (Read Only). (Null if there is none attached).
+---@field SetActive fun() @Activates/Deactivates the GameObject, depending on the given true or false value.
+---@field GetComponentsInChildren fun() @Returns all components of Type type in the GameObject or any of its children children using depth first search. Works recursively.
+---@field CreatePrimitive fun() @Creates a game object with a primitive mesh renderer and appropriate collider.
+---@field SendMessage fun() @Calls the method named methodName on every MonoBehaviour in this game object.
+---@field FindGameObjectsWithTag fun() @Returns an array of active GameObjects tagged tag. Returns empty array if no GameObject was found.
+---@field scene fun() @Scene that the GameObject is part of.
+---@field tag fun() @The tag of this game object.
+---@field ctor fun() @Creates a new game object, named name.
+---@field CompareTag fun() @Is this game object tagged with tag ?
+---@field rigidbody fun() @The Rigidbody attached to this GameObject (Read Only). (Null if there is none attached).
+---@field transform fun() @The Transform attached to this GameObject.
+---@field BroadcastMessage fun() @Calls the method named methodName on every MonoBehaviour in this game object or any of its children.
+---@field TryGetComponent fun() @Gets the component of the specified type, if it exists.
+---@field light fun() @The Light attached to this GameObject (Read Only). (Null if there is none attached).
+---@field rigidbody2D fun() @The Rigidbody2D component attached to this GameObject. (Read Only)
+---@field activeInHierarchy fun() @Defines whether the GameObject is active in the Scene.
+---@field collider2D fun() @The Collider2D component attached to this object.
+---@field sceneCullingMask fun() @Scene culling mask Unity uses to determine which scene to render the GameObject in.
+---@field GetComponents fun() @Returns all components of Type type in the GameObject.
+---@field GetComponentInParent fun() @Retrieves the component of Type type in the GameObject or any of its parents.
+---@field activeSelf fun() @The local active state of this GameObject. (Read Only)
+---@field camera fun() @The Camera attached to this GameObject (Read Only). (Null if there is none attached).
+---@field GetComponentInChildren fun() @Returns the component of Type type in the GameObject or any of its children using depth first search.
+---@field audio fun() @The AudioSource attached to this GameObject (Read Only). (Null if there is none attached).
+---@field particleSystem fun() @The ParticleSystem attached to this GameObject (Read Only). (Null if there is none attached).
+---@field GetComponent fun() @Returns the component of Type type if the game object has one attached, null if it doesn't.
+---@field animation fun() @The Animation attached to this GameObject (Read Only). (Null if there is none attached).
+---@field Find fun() @Finds a GameObject by name and returns it.
+---@field renderer fun() @The Renderer attached to this GameObject (Read Only). (Null if there is none attached).

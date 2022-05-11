@@ -1,0 +1,22 @@
+---@class Animation @The animation component is used to play back animations.
+---@field animatePhysics fun() @When turned on, animations will be executed in the physics loop. This is only useful in conjunction with kinematic rigidbodies.
+---@field CrossFadeQueued fun() @Cross fades an animation after previous animations has finished playing.
+---@field AddClip fun() @Adds a clip to the animation with name newName.
+---@field wrapMode fun() @How should time beyond the playback range of the clip be treated?
+---@field localBounds fun() @AABB of this Animation animation component in local space.
+---@field Blend fun() @Blends the animation named animation towards targetWeight over the next time seconds.
+---@field RemoveClip fun() @Remove clip from the animation list.
+---@field Index_operator fun() @Returns the animation state named name.
+---@field Stop fun() @Stops all playing animations that were started with this Animation.
+---@field Play fun() @Plays an animation without blending.
+---@field Rewind fun() @Rewinds the animation named name.
+---@field Sample fun() @Samples animations at the current state.
+---@field cullingType fun() @Controls culling of this Animation component.
+---@field playAutomatically fun() @Should the default animation clip (the Animation.clip property) automatically start playing on startup?
+---@field animateOnlyIfVisible fun() @When turned on, Unity might stop animating if it thinks that the results of the animation won't be visible to the user.
+---@field clip fun() @The default animation.
+---@field GetClipCount fun() @Get the number of clips currently assigned to this animation.
+---@field isPlaying fun() @Is an animation currently being played?
+---@field CrossFade fun() @Fades the animation with name animation in over a period of time seconds and fades other animations out.
+---@field IsPlaying fun() @Is the animation named name playing?
+---@field PlayQueued fun() @Plays an animation after previous animations has finished playing.

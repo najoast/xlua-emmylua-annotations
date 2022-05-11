@@ -1,0 +1,2 @@
+---@class AndroidJavaClass @AndroidJavaClass is the Unity representation of a generic instance of java.lang.Class.
+---@field ctor fun() @Construct an AndroidJavaClass from the class name.

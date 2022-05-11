@@ -1,0 +1,2 @@
+---@class UIElements.MinMaxSlider.UxmlTraits @Defines UxmlTraits for the MinMaxSlider.
+---@field Init fun() @Initialize MinMaxSlider properties using values from the attribute bag.

@@ -1,0 +1,4 @@
+---@class ParticleSystemGameObjectFilter @The particle GameObject filtering mode that specifies which objects are used by specific Particle System modules.
+---@field LayerMaskAndList fun() @Include objects based on both a layer mask and an explicitly provided list.
+---@field List fun() @Include objects based on an explicitly provided list.
+---@field LayerMask fun() @Include objects based on a layer mask, where all objects that match the mask are included.

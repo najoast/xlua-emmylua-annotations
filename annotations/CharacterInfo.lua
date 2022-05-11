@@ -1,0 +1,20 @@
+---@class CharacterInfo @Specification for how to render a character from the font texture. See Font.characterInfo.
+---@field maxX fun() @The maximum extend of the glyph image in the x-axis.
+---@field advance fun() @The horizontal distance, rounded to the nearest integer, from the origin of this character to the origin of the next character.
+---@field width fun() @How far to advance between the beginning of this charcater and the next.
+---@field bearing fun() @The horizontal distance from the origin of this glyph to the begining of the glyph image.
+---@field size fun() @The size of the character or 0 if it is the default font size.
+---@field glyphWidth fun() @The width of the glyph image.
+---@field uvBottomRight fun() @The uv coordinate matching the bottom right of the glyph image in the font texture.
+---@field uvTopLeft fun() @The uv coordinate matching the top left of the glyph image in the font texture.
+---@field flipped fun() @Is the character flipped?
+---@field style fun() @The style of the character.
+---@field glyphHeight fun() @The height of the glyph image.
+---@field maxY fun() @The maximum extend of the glyph image in the y-axis.
+---@field vert fun() @Screen coordinates for the character in generated text meshes.
+---@field minX fun() @The minium extend of the glyph image in the x-axis.
+---@field uvBottomLeft fun() @The uv coordinate matching the bottom left of the glyph image in the font texture.
+---@field uvTopRight fun() @The uv coordinate matching the top right of the glyph image in the font texture.
+---@field uv fun() @UV coordinates for the character in the texture.
+---@field index fun() @Unicode value of the character.
+---@field minY fun() @The minimum extend of the glyph image in the y-axis.

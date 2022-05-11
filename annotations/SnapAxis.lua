@@ -1,0 +1,6 @@
+---@class SnapAxis @Defines the axes that can be snapped.
+---@field Y fun() @Snapping is available only on the y axis.
+---@field X fun() @Snapping is available only on the x axis.
+---@field Z fun() @Snapping is available only on the z axis.
+---@field All fun() @Snapping is available on all axes: x, y, and z.
+---@field None fun() @No axes support snapping.

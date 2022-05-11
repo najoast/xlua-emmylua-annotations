@@ -1,0 +1,7 @@
+---@class AudioSettings.Mobile @This class encapsulates properties and methods to handle audio output thread on iOS/Android.
+---@field OnMuteStateChanged fun() @A delegate called whenever the device mute state is changed.
+---@field audioOutputStarted fun() @Returns true if audio output thread is working.
+---@field StopAudioOutput fun() @Stops audio thread on Android/iOS.
+---@field stopAudioOutputOnMute fun() @Set this property to true to make audio output thread automatically stop when device media volume is set to 0 and to start it again when volume is not 0.
+---@field StartAudioOutput fun() @Starts audio output thread on Android/iOS.
+---@field muteState fun() @Returns true if current device media volume is 0.

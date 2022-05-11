@@ -1,0 +1,5 @@
+---@class Build.Content.CompressionType @Enum containing the types of compression supported for built content.
+---@field None fun() @Uncompressed content.
+---@field Lz4 fun() @Chunk-based content compression.
+---@field Lz4HC fun() @Chunk-based content compression using the high compression variant.
+---@field Lzma fun() @Single stream content compression.

@@ -1,0 +1,5 @@
+---@class HashUtilities @Utilities to compute hashes.
+---@field AppendHash fun() @Append inHash in outHash.
+---@field ComputeHash128 fun() @Compute a 128 bit hash based on a value. the type of the value must be a value type.
+---@field QuantisedMatrixHash fun() @Compute a Hash128 of a Matrix4x4.
+---@field QuantisedVectorHash fun() @Compute a Hash128 of a Vector3.

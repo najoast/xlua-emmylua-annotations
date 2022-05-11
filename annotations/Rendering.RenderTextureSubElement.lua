@@ -1,0 +1,5 @@
+---@class Rendering.RenderTextureSubElement @Types of data that you can encapsulate within a render texture.
+---@field Stencil fun() @The stencil element of a RenderTexture.
+---@field Color fun() @Color element of a RenderTexture.
+---@field Default fun() @The Default element of a RenderTexture.
+---@field Depth fun() @The depth element of a RenderTexture.

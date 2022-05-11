@@ -1,0 +1,22 @@
+---@class Rendering.BuiltinRenderTextureType @Built-in temporary render textures produced during camera's rendering.
+---@field MotionVectors fun() @Motion Vectors generated when the camera has motion vectors enabled.
+---@field PrepassNormalsSpec fun() @Deferred lighting (normals+specular) G-buffer.
+---@field GBuffer2 fun() @Deferred shading G-buffer #2 (typically normals).
+---@field GBuffer5 fun() @G-buffer #5 Available.
+---@field PrepassLightSpec fun() @Deferred lighting HDR specular light buffer (Xbox 360 only).
+---@field Reflections fun() @Reflections gathered from default reflection and reflections probes.
+---@field CurrentActive fun() @Currently active render target.
+---@field GBuffer1 fun() @Deferred shading G-buffer #1 (typically specular + roughness).
+---@field Depth fun() @Camera's depth texture.
+---@field PropertyName fun() @A globally set property name.
+---@field DepthNormals fun() @Camera's depth+normals texture.
+---@field GBuffer3 fun() @Deferred shading G-buffer #3 (typically emission/lighting).
+---@field ResolvedDepth fun() @Resolved depth buffer from deferred.
+---@field GBuffer0 fun() @Deferred shading G-buffer #0 (typically diffuse color).
+---@field GBuffer6 fun() @G-buffer #6 Available.
+---@field BufferPtr fun() @The raw RenderBuffer pointer to be used.
+---@field RenderTexture fun() @The given RenderTexture.
+---@field GBuffer7 fun() @G-buffer #7 Available.
+---@field PrepassLight fun() @Deferred lighting light buffer.
+---@field CameraTarget fun() @Target texture of currently rendering camera.
+---@field GBuffer4 fun() @Deferred shading G-buffer #4 (typically occlusion mask for static lights if any).

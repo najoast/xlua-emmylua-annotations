@@ -1,0 +1,4 @@
+---@class ParticleSystemAnimationTimeMode @Control how animation frames are selected.
+---@field Speed fun() @Select animation frames based on the particle speeds.
+---@field FPS fun() @Select animation frames sequentially at a constant rate of the specified frames per second.
+---@field Lifetime fun() @Select animation frames based on the particle ages.

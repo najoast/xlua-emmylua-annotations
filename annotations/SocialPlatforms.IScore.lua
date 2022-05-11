@@ -1,0 +1,8 @@
+---@class SocialPlatforms.IScore @A game score.
+---@field rank fun() @The rank or position of the score in the leaderboard.
+---@field userID fun() @The user who owns this score.
+---@field date fun() @The date the score was achieved.
+---@field ReportScore fun() @Report this score instance.
+---@field value fun() @The score value achieved.
+---@field leaderboardID fun() @The ID of the leaderboard this score belongs to.
+---@field formattedValue fun() @The correctly formatted value of the score, like X points or X kills.

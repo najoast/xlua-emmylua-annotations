@@ -1,0 +1,3 @@
+---@class CursorMode @Determines whether the mouse cursor is rendered using software rendering or, on supported platforms, hardware rendering.
+---@field ForceSoftware fun() @Force the use of software cursors.
+---@field Auto fun() @Use hardware cursors on supported platforms.

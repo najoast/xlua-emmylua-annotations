@@ -1,0 +1,5 @@
+---@class Search.IFilterNode @Interface representing a filter node.
+---@field filterValue fun() @The filter value. This can be null or empty if the value has not been written yet.
+---@field operatorId fun() @The operator identifier. This can be null or empty if the operator has not been written yet.
+---@field paramValue fun() @The parameter value. This can be null or empty if the filter is not a filter function, or there is no parameter written yet.
+---@field filterId fun() @The filter identifier.

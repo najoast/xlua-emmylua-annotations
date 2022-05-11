@@ -1,0 +1,12 @@
+---@class UIElements.HelpBox @Makes a help box with a message to the user.
+---@field iconInfoUssClassName fun() @The USS class name for the HelpBoxMessageType.Info state in Elements of this type.
+---@field labelUssClassName fun() @The USS class name for labels in Elements of this type.
+---@field ctor fun() @Creates a new HelpBox.
+---@field iconUssClassName fun() @The USS class name for images in Elements of this type.
+---@field UxmlFactory fun() @Instantiates a HelpBox with data from a UXML file.
+---@field UxmlTraits UIElements.HelpBox.UxmlTraits @Defines UxmlTraits for the HelpBox.
+---@field iconwarningUssClassName fun() @The USS class name for the HelpBoxMessageType.Warning state in Elements of this type.
+---@field text fun() @The message text.
+---@field ussClassName fun() @The USS class name for Elements of this type.
+---@field messageType fun() @The type of message.
+---@field iconErrorUssClassName fun() @The USS class name for the HelpBoxMessageType.Error state in Elements of this type.

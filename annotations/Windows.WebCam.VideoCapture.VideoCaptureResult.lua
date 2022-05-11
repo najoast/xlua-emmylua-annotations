@@ -1,0 +1,4 @@
+---@class Windows.WebCam.VideoCapture.VideoCaptureResult @A data container that contains the result information of a video recording operation.
+---@field success fun() @Indicates whether or not the operation was successful.
+---@field resultType fun() @A generic result that indicates whether or not the VideoCapture operation succeeded.
+---@field hResult fun() @The specific Windows HRESULT code.

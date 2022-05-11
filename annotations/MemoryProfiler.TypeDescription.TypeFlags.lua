@@ -1,0 +1,4 @@
+---@class MemoryProfiler.TypeDescription.TypeFlags @Equivalent of Profiling.TypeFlags in the old memory profiler API.
+---@field kArrayRankMask fun() @Equivalent of Profiling.TypeFlags.kArrayRankMask in the old memory profiler API.
+---@field kArray fun() @Equivalent of Profiling.TypeFlags.kArray in the old memory profiler API.
+---@field kValueType fun() @Equivalent of Profiling.TypeFlags.kValueType in the old memory profiler API.

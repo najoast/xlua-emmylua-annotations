@@ -1,0 +1,5 @@
+---@class Experimental.Rendering.RayTracingAccelerationStructure.RASSettings @Defines whether a RayTracingAccelerationStructure is updated by the user or by the Engine, and whether to mask certain object layers or RayTracingModes.
+---@field layerMask fun() @A 32-bit mask that controls which layers a GameObject must be on in order to be added to the RayTracingAccelerationStructure.
+---@field rayTracingModeMask fun() @An enum controlling which RayTracingModes a Renderer must have in order to be added to the RayTracingAccelerationStructure.
+---@field ctor fun() @Creates a RayTracingAccelerationStructure.RASSettings from the given configuration.
+---@field managementMode fun() @An enum that selects whether a RayTracingAccelerationStructure is automatically or manually updated.

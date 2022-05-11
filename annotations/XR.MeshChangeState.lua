@@ -1,0 +1,5 @@
+---@class XR.MeshChangeState @The state of a tracked mesh since the last query.
+---@field Removed fun() @The mesh has been removed since the last call to XRMeshSubsystem.TryGetMeshInfos.
+---@field Updated fun() @The mesh has been updated since the last call to XRMeshSubsystem.TryGetMeshInfos.
+---@field Unchanged fun() @The mesh has not changed since the last call to XRMeshSubsystem.TryGetMeshInfos.
+---@field Added fun() @The mesh has been added since the last call to XRMeshSubsystem.TryGetMeshInfos.

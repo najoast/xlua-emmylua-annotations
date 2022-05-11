@@ -1,0 +1,5 @@
+---@class UIElements.SerializedObjectChangeEvent @An event sent when any value in a SerializedObject changes
+---@field Init fun() @Sets the event to its initial state.
+---@field GetPooled fun() @Gets an event from the event pool and initializes it with the values provided. Use this function instead of creating new events. Events obtained using this method need to be released back to the pool. You can use Dispose() to release them.
+---@field ctor fun() @Constructor. Use GetPooled instead.
+---@field changedObject fun() @The SerializedObject whose value changed.

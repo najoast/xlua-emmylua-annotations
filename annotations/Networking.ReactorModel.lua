@@ -1,0 +1,4 @@
+---@class Networking.ReactorModel @Define how unet will handle network io operation.
+---@field FixRateReactor fun() @Network thread will sleep up to threadawake timeout, after that it will try receive up to maxpoolsize amount of messages and then will try perform send operation for connection whihc ready to send.
+---@field PollReactor fun() @Network layer should be updated from main thread by using NetworkUpdate function.
+---@field SelectReactor fun() @Network thread will sleep up to threadawake timeout, or up to receive event on socket will happened. Awaked thread will try to read up to maxpoolsize packets from socket and will try update connections ready to send (with fixing awaketimeout rate).

@@ -1,0 +1,4 @@
+---@class Compilation.AssemblyBuilderStatus @Status of the AssemblyBuilder build.
+---@field IsCompiling fun() @Indicates the AssemblyBuilder build is compiling.
+---@field NotStarted fun() @Indicates the AssemblyBuilder build has not been started.
+---@field Finished fun() @Indicates the AssemblyBuilder build has finished.

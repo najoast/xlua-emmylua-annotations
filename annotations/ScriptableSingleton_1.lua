@@ -1,0 +1,4 @@
+---@class ScriptableSingleton_1 @Generic class for storing Editor state.
+---@field instance fun() @Gets the instance of the Singleton. Unity creates the Singleton instance when this property is accessed for the first time. If you use the FilePathAttribute, then Unity loads the data on the first access as well.
+---@field GetFilePath fun() @Get the file path where this ScriptableSingleton is saved to.
+---@field Save fun() @Saves the current state of the ScriptableSingleton.

@@ -1,0 +1,7 @@
+---@class XR.MeshTransform @Contains transform information related to a tracked mesh.
+---@field MeshId fun() @The session-unique identifier of the tracked mesh.
+---@field ctor fun() @Creates a new MeshTransform.
+---@field Position fun() @The position of the mesh, relative to the session origin.
+---@field Rotation fun() @The rotation of the mesh, relative to the session origin.
+---@field Timestamp fun() @The timestamp associated with this transform.
+---@field Scale fun() @The scale of the mesh, relative to the session origin.

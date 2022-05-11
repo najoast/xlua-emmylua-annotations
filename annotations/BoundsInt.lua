@@ -1,0 +1,21 @@
+---@class BoundsInt @Represents an axis aligned bounding box with all values as integers.
+---@field min fun() @The minimal point of the box.
+---@field x fun() @X value of the minimal point of the box.
+---@field xMax fun() @The maximal x point of the box.
+---@field z fun() @Z value of the minimal point of the box.
+---@field max fun() @The maximal point of the box.
+---@field SetMinMax fun() @Sets the bounds to the min and max value of the box.
+---@field position fun() @The position of the bounding box.
+---@field size fun() @The total size of the box.
+---@field center fun() @The center of the bounding box.
+---@field allPositionsWithin fun() @A BoundsInt.PositionCollection that contains all positions within the BoundsInt.
+---@field yMin fun() @The minimal y point of the box.
+---@field zMin fun() @The minimal z point of the box.
+---@field ToString fun() @Returns a formatted string for the bounds.
+---@field Contains fun() @Is point contained in the bounding box?
+---@field PositionEnumerator BoundsInt.PositionEnumerator @An iterator that allows you to iterate over all positions within the BoundsInt.
+---@field xMin fun() @The minimal x point of the box.
+---@field zMax fun() @The maximal z point of the box.
+---@field yMax fun() @The maximal y point of the box.
+---@field ClampToBounds fun() @Clamps the position and size of this bounding box to the given bounds.
+---@field y fun() @Y value of the minimal point of the box.

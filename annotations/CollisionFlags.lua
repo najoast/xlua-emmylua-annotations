@@ -1,0 +1,5 @@
+---@class CollisionFlags @CollisionFlags is a bitmask returned by CharacterController.Move.
+---@field Below fun() @CollisionFlags is a bitmask returned by CharacterController.Move.
+---@field Above fun() @CollisionFlags is a bitmask returned by CharacterController.Move.
+---@field Sides fun() @CollisionFlags is a bitmask returned by CharacterController.Move.
+---@field None fun() @CollisionFlags is a bitmask returned by CharacterController.Move.

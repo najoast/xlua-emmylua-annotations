@@ -1,0 +1,28 @@
+---@class UIElements.UQueryBuilder_1 @Utility Object that contructs a set of selection rules to be ran on a root visual element.
+---@field ForEach fun() @Convenience overload, shorthand for Build().ForEach().
+---@field Where fun() @Selects all elements satifying the predicate.
+---@field ctor fun() @Initializes a QueryBuilder.
+---@field Build fun() @Compiles the selection rules into a QueryState object.
+---@field Selected fun() @Selects all elements that are not selected.
+---@field NotSelected fun() @Selects all elements that are not selected.
+---@field ToList fun() @Convenience method. shorthand for Build().ToList.
+---@field OfType fun() @Selects all elements of the specified Type (eg: Label, Button, ScrollView, etc).
+---@field Descendents fun() @Selects all elements that are descendants of currently matching ancestors.
+---@field Children fun() @Selects all direct child elements of elements matching the previous rules.
+---@field Active fun() @Selects all elements that are active.
+---@field Hovered fun() @Selects all elements that are hovered.
+---@field Visible fun() @Selects all elements that are not visible.
+---@field First fun() @Convenience overload, shorthand for Build().First().
+---@field NotEnabled fun() @Selects all elements that are not enabled.
+---@field NotChecked fun() @Selects all elements that npot checked.
+---@field Enabled fun() @Selects all elements that are enabled.
+---@field Class fun() @Selects all elements with the specified class in the class list, as specified with the class attribute in a UXML file or added with VisualElement.AddToClassList(string) method.
+---@field Focused fun() @Selects all elements that are enabled.
+---@field NotVisible fun() @Selects all elements that are not visible.
+---@field Name fun() @Selects element with this name.
+---@field Checked fun() @Selects all elements that are checked.
+---@field AtIndex fun() @Convenience overload, shorthand for Build().AtIndex().
+---@field NotHovered fun() @Selects all elements that are not hovered.
+---@field NotFocused fun() @Selects all elements that don't currently own the focus.
+---@field NotActive fun() @Selects all elements that are not active.
+---@field Last fun() @Convenience overload, shorthand for Build().Last().

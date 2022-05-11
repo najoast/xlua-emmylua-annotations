@@ -1,0 +1,5 @@
+---@class Rendering.SortingGroup @Adding a SortingGroup component to a GameObject will ensure that all Renderers within the GameObject's descendants will be sorted and rendered together.
+---@field UpdateAllSortingGroups fun() @Updates all Sorting Group immediately.
+---@field sortingOrder fun() @Renderer's order within a sorting layer.
+---@field sortingLayerName fun() @Name of the Renderer's sorting layer.
+---@field sortingLayerID fun() @Unique ID of the Renderer's sorting layer.

@@ -1,0 +1,3 @@
+---@class ParticleSystem.ColorOverLifetimeModule @Script interface for the ColorOverLifetimeModule of a Particle System.
+---@field enabled fun() @Specifies whether the ColorOverLifetimeModule is enabled or disabled.
+---@field color fun() @The gradient that controls the particle colors.

@@ -1,0 +1,4 @@
+---@class UIElements.StyleFontDefinition @Style value that can be either a FontDefinition or a StyleKeyword.
+---@field value fun() @The actual value of the definition.
+---@field ctor fun() @Creates from either a FontDefinition or a StyleKeyword.
+---@field keyword fun() @The style keyword.

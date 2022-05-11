@@ -1,0 +1,10 @@
+---@class HingeJoint2D @Joint that allows a Rigidbody2D object to rotate around a point in space or a point on another object.
+---@field referenceAngle fun() @The angle (in degrees) referenced between the two bodies used as the constraint for the joint.
+---@field limitState fun() @Gets the state of the joint limit.
+---@field limits fun() @Limit of angular rotation (in degrees) on the joint.
+---@field jointAngle fun() @The current joint angle (in degrees) with respect to the reference angle.
+---@field useLimits fun() @Should limits be placed on the range of rotation?
+---@field motor fun() @Parameters for the motor force applied to the joint.
+---@field GetMotorTorque fun() @Gets the motor torque of the joint given the specified timestep.
+---@field jointSpeed fun() @The current joint speed.
+---@field useMotor fun() @Should the joint be rotated automatically by a motor torque?

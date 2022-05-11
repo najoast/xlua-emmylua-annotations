@@ -1,0 +1,2 @@
+---@class MaterialEditorExtensions @Extension methods for the Material asset type in the editor.
+---@field PerformBumpMapCheck fun() @Iterates over all the Material properties with the MaterialProperty.PropFlags.Normal flag and checks that the textures referenced by these properties are imported as TextureImporterType.NormalMap.

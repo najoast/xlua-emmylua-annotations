@@ -1,0 +1,47 @@
+---@class EditorUtility @Editor utility functions.
+---@field GetDirtyCount fun() @Returns an integer that indicates the number of times the specified object's serialized properties have changed.
+---@field SetObjectEnabled fun() @Set the enabled state of the object.
+---@field scriptCompilationFailed fun() @True if there are any compilation error messages in the log.
+---@field SetDirty fun() @Marks target object as dirty.
+---@field OpenPropertyEditor fun() @Open properties editor for an Object.
+---@field UnloadUnusedAssetsImmediate fun() @Unloads assets that are not used.
+---@field IsPersistent fun() @Determines if an object is stored on disk.
+---@field CopySerializedIfDifferent fun() @Copy all settings of a Unity Object to a second Object if they differ.
+---@field GetObjectEnabled fun() @Is the object enabled (0 disabled, 1 enabled, -1 has no enabled button).
+---@field SetSelectedRenderState fun() @Set the Scene View selected display mode for this Renderer.
+---@field NaturalCompare fun() @Human-like sorting.
+---@field FormatBytes fun() @Returns a text for a number of bytes.
+---@field UpdateGlobalShaderProperties fun() @Updates the global shader properties to use when rendering.
+---@field SetSelectedWireframeHidden fun() @Sets whether the selected Renderer's wireframe will be hidden when the GameObject it is attached to is selected.
+---@field RequestScriptReload fun() @The Unity Editor reloads script assemblies asynchronously on the next frame. This resets the state of all the scripts, but Unity does not compile any code that has changed since the previous compilation.
+---@field CollectDependencies fun() @Calculates and returns a list of all assets the assets listed in roots depend on.
+---@field DisplayProgressBar fun() @Displays or updates a progress bar.
+---@field SaveFilePanelInProject fun() @Displays the save file dialog in the Assets folder of the project and returns the selected path name.
+---@field SetDefaultParentObject fun() @Sets the default parent object for the active Scene.
+---@field SetDialogOptOutDecision fun() @This method displays a modal dialog that lets the user opt-out of being shown the current dialog box again.
+---@field DisplayDialog fun() @This method displays a modal dialog.
+---@field CompressCubemapTexture fun() @Compress a cubemap texture.
+---@field SetCameraAnimateMaterialsTime fun() @Sets the global time for this camera to use when rendering.
+---@field DisplayPopupMenu fun() @Displays a popup menu.
+---@field SetCameraAnimateMaterials fun() @Sets this camera to allow animation of materials in the Editor.
+---@field IsRunningUnderCPUEmulation fun() @Gets a boolean value. This value indicates whether your CPU is unable to execute Unity natively and is running an emulated version.
+---@field DisplayCancelableProgressBar fun() @Displays or updates a progress bar that has a cancel button.
+---@field SaveFolderPanel fun() @Displays the save folder dialog and returns the selected path name.
+---@field SaveFilePanel fun() @Displays the save file dialog and returns the selected path name.
+---@field ClearProgressBar fun() @Removes the progress bar.
+---@field GetDialogOptOutDecision fun() @This method displays a modal dialog that lets the user opt-out of being shown the current dialog box again.
+---@field CopySerializedManagedFieldsOnly fun() @Copies the serializable fields from one managed object to another.
+---@field ClearDefaultParentObject fun() @Clears the default parent GameObject from either a specific Scene or the active Scene.
+---@field ClearDirty fun() @Clear target's dirty flag.
+---@field CopySerialized fun() @Copy all settings of a Unity Object.
+---@field OpenFilePanelWithFilters fun() @Displays the open file dialog and returns the selected path name.
+---@field SetCustomDiffTool fun() @Set custom diff tool settings.
+---@field DisplayDialogComplex fun() @Displays a modal dialog with three buttons.
+---@field OpenFilePanel fun() @Displays the open file dialog and returns the selected path name.
+---@field IsDirty fun() @Gets a boolean value that indicates whether the specified object has changed since the last time it was saved.
+---@field CompressTexture fun() @Compress a texture.
+---@field CreateGameObjectWithHideFlags fun() @Creates a game object with HideFlags and specified components.
+---@field OpenFolderPanel fun() @Displays the open folder dialog and returns the selected path name.
+---@field FocusProjectWindow fun() @Brings the project window to the front and focuses it.
+---@field InstanceIDToObject fun() @Translates an instance ID to a reference to an object.
+---@field CollectDeepHierarchy fun() @Collect all objects in the hierarchy rooted at each of the given objects.

@@ -1,0 +1,6 @@
+---@class Rendering.LODParameters @LODGroup culling parameters.
+---@field orthoSize fun() @Orhographic camera size.
+---@field cameraPixelHeight fun() @Rendering view height in pixels.
+---@field fieldOfView fun() @Camera's field of view.
+---@field cameraPosition fun() @Camera position.
+---@field isOrthographic fun() @Indicates whether camera is orthographic.

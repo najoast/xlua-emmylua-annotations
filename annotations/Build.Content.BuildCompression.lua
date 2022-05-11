@@ -1,0 +1,7 @@
+---@class Build.Content.BuildCompression @Struct containing settings that control the compression method of content.
+---@field blockSize fun() @Block size to use for chunk based compression.
+---@field compression fun() @Compression type to use.
+---@field DefaultUncompressed fun() @Returns a BuildCompression struct set with the default values used for uncompressed.
+---@field level fun() @Compression level to use.
+---@field DefaultLZMA fun() @Returns a BuildCompression struct set with the default values used for LZMA compression.
+---@field DefaultLZ4 fun() @Returns a BuildCompression struct set with the default values used for Lz4HC compression.

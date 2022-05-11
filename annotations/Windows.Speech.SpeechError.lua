@@ -1,0 +1,9 @@
+---@class Windows.Speech.SpeechError @Represents an error in a speech recognition system.
+---@field MicrophoneUnavailable fun() @Speech error occurred because a microphone was not available.
+---@field UnknownError fun() @A speech recognition system has encountered an unknown error.
+---@field NetworkFailure fun() @Speech error occurred due to a network failure.
+---@field GrammarCompilationFailure fun() @Speech recognition engine failed to compiled specified grammar.
+---@field NoError fun() @No error occurred.
+---@field TimeoutExceeded fun() @A speech recognition system has timed out.
+---@field AudioQualityFailure fun() @Speech recognition engine failed because the audio quality was too low.
+---@field TopicLanguageNotSupported fun() @Supplied grammar file language is not supported.

@@ -1,0 +1,11 @@
+---@class UIElements.ObjectField @Makes a field to receive any object type.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field ctor fun() @Constructor.
+---@field allowSceneObjects fun() @Allows scene objects to be assigned to the field.
+---@field UxmlFactory fun() @Instantiates an ObjectField using the data read from a UXML file.
+---@field UxmlTraits UIElements.ObjectField.UxmlTraits @Defines UxmlTraits for the ObjectField.
+---@field objectUssClassName fun() @USS class name of object elements in elements of this type.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field selectorUssClassName fun() @USS class name of selector elements in elements of this type.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field objectType fun() @The type of the objects that can be assigned.

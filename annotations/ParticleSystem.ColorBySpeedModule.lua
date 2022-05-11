@@ -1,0 +1,4 @@
+---@class ParticleSystem.ColorBySpeedModule @Script interface for the ColorBySpeedModule of a Particle System.
+---@field color fun() @The gradient that controls the particle colors.
+---@field range fun() @Apply the color gradient between these minimum and maximum speeds.
+---@field enabled fun() @Specifies whether the ColorBySpeedModule is enabled or disabled.

@@ -1,0 +1,9 @@
+---@class TerrainTools.IOnSceneGUI @Interface that provides parameters and utility functions for the OnSceneGUI event of the terrain paint tools.
+---@field sceneView fun() @Read only. SceneView object.
+---@field Repaint fun() @Instructs the Editor to repaint the tool UI, the Scene view, or both.
+---@field brushTexture fun() @Read only. Current selected brush texture.
+---@field raycastHit fun() @Read only. The raycast result for the current mouse position.  This is valid when hitValidTerrain is true.
+---@field controlId fun() @The control ID for the current Terrain Inspector. (Read Only)
+---@field brushStrength fun() @Read only. Current brush strength.
+---@field hitValidTerrain fun() @Read only. True if the mouse is over a valid Terrain object; otherwise false.
+---@field brushSize fun() @Read only. Current brush size in terrain units (equivalent size to world units).

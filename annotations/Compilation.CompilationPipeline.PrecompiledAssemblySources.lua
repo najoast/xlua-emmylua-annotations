@@ -1,0 +1,7 @@
+---@class Compilation.CompilationPipeline.PrecompiledAssemblySources @Specifies the sources of precompiled assemblies referenced during compilation.
+---@field UnityAssembly fun() @Matches any Unity assemblies.
+---@field SystemAssembly fun() @Matches assemblies supplied by the target framework.
+---@field UnityEngine fun() @Matches UnityEngine and runtime module assemblies.
+---@field All fun() @Matches all assembly sources.
+---@field UnityEditor fun() @Matches UnityEditor and editor module assemblies.
+---@field UserAssembly fun() @Matches precompiled assemblies present in the project and packages.

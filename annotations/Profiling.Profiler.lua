@@ -1,0 +1,39 @@
+---@class Profiling.Profiler @Controls the Profiler from script.
+---@field logFile fun() @Specifies the file to use when writing profiling data.
+---@field areaCount fun() @The number of Profiler Areas that you can profile.
+---@field GetTotalUnusedReservedMemory fun() @Returns the amount of reserved but not used system memory.
+---@field BeginSample fun() @Begin profiling a piece of code with a custom label.
+---@field GetRuntimeMemorySizeLong fun() @Gathers the native-memory used by a Unity object.
+---@field AddFramesFromFile fun() @Displays the recorded profile data in the profiler.
+---@field GetTempAllocatorSize fun() @Returns the size of the temp allocator.
+---@field GetTotalFragmentationInfo fun() @Returns heap memory fragmentation information.
+---@field GetMonoHeapSizeLong fun() @Returns the size of the reserved space for managed-memory.
+---@field SetAreaEnabled fun() @Enable or disable a given ProfilerArea.
+---@field EndThreadProfiling fun() @Frees the internal resources used by the Profiler for the thread.
+---@field EmitSessionMetaData fun() @Write metadata associated with the whole Profiler session capture.
+---@field usedHeapSizeLong fun() @Returns the number of bytes that Unity has allocated. This does not include bytes allocated by external libraries or drivers.
+---@field enabled fun() @Enables the Profiler.
+---@field SetTempAllocatorRequestedSize fun() @Sets the size of the temp allocator.
+---@field GetTotalReservedMemory fun() @Returns the amount of reserved system memory.
+---@field enableBinaryLog fun() @Enables the logging of profiling data to a file.
+---@field GetAllocatedMemoryForGraphicsDriver fun() @Returns the amount of allocated memory for the graphics driver, in bytes.Only available in development players and editor.
+---@field BeginThreadProfiling fun() @Enables profiling on the thread from which you call this method.
+---@field IsCategoryEnabled fun() @Returns whether or not a given ProfilerCategory is currently enabled.
+---@field GetAreaEnabled fun() @Returns whether or not a given ProfilerArea is currently enabled.
+---@field enableAllocationCallstacks fun() @Enables the recording of callstacks for managed allocations.
+---@field usedHeapSize fun() @Heap size used by the program.
+---@field EndSample fun() @Ends the current profiling sample.
+---@field GetTotalAllocatedMemory fun() @Returns the amount of allocated and used system memory.
+---@field GetMonoHeapSize fun() @Returns the size of the mono heap.
+---@field SetCategoryEnabled fun() @Enable or disable a given ProfilerCategory.
+---@field maxUsedMemory fun() @Sets the maximum amount of memory that Profiler uses for buffering data. This property is expressed in bytes.
+---@field GetRuntimeMemorySize fun() @Returns the runtime memory usage of the resource.
+---@field GetMonoUsedSizeLong fun() @Gets the allocated managed memory for live objects and non-collected objects.
+---@field maxNumberOfSamplesPerFrame fun() @Resize the profiler sample buffers to allow the desired amount of samples per thread.
+---@field GetTotalReservedMemoryLong fun() @The total memory Unity has reserved.
+---@field GetMonoUsedSize fun() @Returns the used size from mono.
+---@field GetTotalAllocatedMemoryLong fun() @The total memory allocated by the internal allocators in Unity. Unity reserves large pools of memory from the system. This function returns the amount of used memory in those pools.
+---@field GetCategoriesCount fun() @Returns number of ProfilerCategory registered in Profiler.
+---@field GetAllCategories fun() @Returns all ProfilerCategory registered in Profiler.
+---@field GetTotalUnusedReservedMemoryLong fun() @Unity allocates memory in pools for usage when unity needs to allocate memory. This function returns the amount of unused memory in these pools.
+---@field EmitFrameMetaData fun() @Write metadata associated with the current frame to the Profiler stream.

@@ -1,0 +1,2 @@
+---@class Lumin.UsesLuminPlatformLevelAttribute @This attribute provides a way to declaratively define a Lumin platform level requirement that is automatically added to the manifest at build time.
+---@field ctor fun() @Minimum platform level that is required.

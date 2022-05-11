@@ -1,0 +1,2 @@
+---@class Experimental.GlobalIllumination.RenderSettings @Experimental render settings features.
+---@field useRadianceAmbientProbe fun() @If enabled, ambient trilight will be sampled using the old radiance sampling method.

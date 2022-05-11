@@ -1,0 +1,30 @@
+---@class DrivenTransformProperties @An enumeration of transform properties that can be driven on a RectTransform by an object.
+---@field ScaleX fun() @Selects driven property Transform.localScale.x.
+---@field AnchorMaxX fun() @Selects driven property RectTransform.anchorMax.x.
+---@field AnchoredPositionY fun() @Selects driven property RectTransform.anchoredPosition.y.
+---@field AnchorMinY fun() @Selects driven property RectTransform.anchorMin.y.
+---@field Scale fun() @Selects driven property combining ScaleX, ScaleY &amp;&amp; ScaleZ.
+---@field SizeDeltaX fun() @Selects driven property RectTransform.sizeDelta.x.
+---@field SizeDelta fun() @Selects driven property combining SizeDeltaX and SizeDeltaY.
+---@field AnchorMinX fun() @Selects driven property RectTransform.anchorMin.x.
+---@field Position fun() @Selects driven property combining PositionX, PositionY and PositionZ.
+---@field ScaleY fun() @Selects driven property Transform.localScale.y.
+---@field SizeDeltaY fun() @Selects driven property RectTransform.sizeDelta.y.
+---@field Rotation fun() @Selects driven property Transform.localRotation.
+---@field AnchorMax fun() @Selects driven property combining AnchorMaxX and AnchorMaxY.
+---@field PositionZ fun() @Selects driven property Transform.localPosition.z.
+---@field PivotY fun() @Selects driven property RectTransform.pivot.y.
+---@field AnchorMin fun() @Selects driven property combining AnchorMinX and AnchorMinY.
+---@field AnchorMaxY fun() @Selects driven property RectTransform.anchorMax.y.
+---@field None fun() @Deselects all driven properties.
+---@field Anchors fun() @Selects driven property combining AnchorMinX, AnchorMinY, AnchorMaxX and AnchorMaxY.
+---@field AnchoredPosition3D fun() @Selects driven property RectTransform.anchoredPosition3D.
+---@field ScaleZ fun() @Selects driven property Transform.localScale.z.
+---@field PositionX fun() @Selects driven property RectTransform.anchoredPosition.x.
+---@field PivotX fun() @Selects driven property RectTransform.pivot.x.
+---@field AnchoredPosition fun() @Selects driven property RectTransform.anchoredPosition.
+---@field AnchoredPositionX fun() @Selects driven property RectTransform.anchoredPosition.x.
+---@field All fun() @Selects all driven properties.
+---@field AnchoredPositionZ fun() @Selects driven property RectTransform.anchoredPosition3D.z.
+---@field PositionY fun() @Selects driven property RectTransform.anchoredPosition.y.
+---@field Pivot fun() @Selects driven property combining PivotX and PivotY.

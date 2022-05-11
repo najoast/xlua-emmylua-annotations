@@ -1,0 +1,5 @@
+---@class UIElements.PointerType @A static class that holds pointer type values.
+---@field pen fun() @The pointer type for pen events.
+---@field unknown fun() @The pointer type for events created by unknown devices.
+---@field mouse fun() @The pointer type for mouse events.
+---@field touch fun() @The pointer type for touch events.

@@ -1,0 +1,3 @@
+---@class NormalMapEncoding @Describes the encoding of normal maps.
+---@field XYZ fun() @Three-component normal map encoding.
+---@field DXT5nm fun() @Two-component DXT5nm-style normal map encoding.

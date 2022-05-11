@@ -1,0 +1,13 @@
+---@class Animations.GameObjectRecorder @Records the changing properties of a GameObject as the Scene runs and saves the information into an AnimationClip.
+---@field BindAll fun() @Adds bindings for all of target's properties, and also for all the target's children if recursive is true.
+---@field ctor fun() @Create a new GameObjectRecorder.
+---@field BindComponent fun() @Adds bindings for all the properties of component.
+---@field GetBindings fun() @Returns an array of all the bindings added to the recorder.
+---@field Bind fun() @Binds a GameObject's property as defined by EditorCurveBinding.
+---@field isRecording fun() @Returns true when the recorder is recording. (Read Only)
+---@field ResetRecording fun() @Reset the recording.
+---@field SaveToClip fun() @Saves recorded animation to a destination clip.
+---@field root fun() @The GameObject root of the animated hierarchy. (Read Only)
+---@field BindComponentsOfType fun() @Adds bindings for all the properties of the first component of type T found in target, and also for all the target's children if recursive is true.
+---@field currentTime fun() @Returns the current time of the recording. (Read Only)
+---@field TakeSnapshot fun() @Forwards the animation by dt seconds, then record the values of the added bindings.

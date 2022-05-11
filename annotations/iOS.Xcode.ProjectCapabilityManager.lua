@@ -1,0 +1,23 @@
+---@class iOS.Xcode.ProjectCapabilityManager @This class allows you to add and modify the specifics of Xcode project capabilities. If you wish to simply enable a capability and edit the capabilities options in Xcode use iOS.Xcode instead.
+---@field ctor fun() @Creates a new ProjectCapabilityManager object.
+---@field AddiCloud fun() @iCloud Storage APIs enable your apps to store data and documents in iCloud.
+---@field AddSignInWithApple fun() @Add the Sign in with Apple capability.
+---@field AddHomeKit fun() @Add the HomeKit capability.
+---@field AddGameCenter fun() @Add the GameCenter capability.
+---@field AddWirelessAccessoryConfiguration fun() @Add the Wireless Accessory Configuration capability.
+---@field AddBackgroundModes fun() @Add the Background Modes capability.
+---@field WriteToFile fun() @Saves the project file to disk.
+---@field AddAppGroups fun() @Add the App Groups capability.
+---@field AddWallet fun() @Add the Wallet capability.
+---@field AddInAppPurchase fun() @Add the In-App Purchase capability.
+---@field AddSiri fun() @Add the Siri capability.
+---@field AddPersonalVPN fun() @Add the Personal VPN capability.
+---@field AddPushNotifications fun() @Add the Apple Push Notifications capability.
+---@field AddInterAppAudio fun() @Add the Inter-App Audio capability.
+---@field AddMaps fun() @Add the Maps capability.
+---@field AddDataProtection fun() @Add the Data Protection capability.
+---@field AddAssociatedDomains fun() @Add the Associated Domains capability.
+---@field AddHealthKit fun() @Add the HealthKit capability.
+---@field AddKeychainSharing fun() @Add the Keychain Sharing capability.
+---@field AddAccessWiFiInformation fun() @Adds the Access WiFi Information capability.
+---@field AddApplePay fun() @Add the Apple Pay capability.

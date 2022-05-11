@@ -1,0 +1,8 @@
+---@class Hashtable @You can use a Hashtable to store key+value pairs.
+---@field Contains fun() @Determines whether the Hashtable contains a specific key.
+---@field Clear fun() @Count is set to zero, and references to other objects from elements of the collection are also released.
+---@field Add fun() @Adds an element with the specified key and value into the Hashtable.
+---@field Remove fun() @Removes the element with the specified key from the Hashtable.
+---@field Count fun() @Returns how many elements are in the hashtable.
+---@field ContainsKey fun() @Determines whether the Hashtable contains a specific key.
+---@field ContainsValue fun() @Determines whether the Hashtable contains a specific value.

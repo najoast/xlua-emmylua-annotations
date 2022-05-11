@@ -1,0 +1,3 @@
+---@class XR.MeshId @A session-unique identifier for trackables in the environment, e.g., planes and feature points.
+---@field InvalidId fun() @Represents an invalid id.
+---@field ToString fun() @Generates a nicely formatted version of the id.

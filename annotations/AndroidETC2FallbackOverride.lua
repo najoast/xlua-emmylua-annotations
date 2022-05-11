@@ -1,0 +1,5 @@
+---@class AndroidETC2FallbackOverride @This enumeration has values for different qualities to decompress an ETC2 texture on Android devices that don't support the ETC2 texture format.
+---@field Quality16Bit fun() @Texture is decompressed to a suitable 16-bit format.
+---@field Quality32Bit fun() @Texture is decompressed to the RGBA32 format.
+---@field UseBuildSettings fun() @Use the value defined in Player build settings.
+---@field Quality32BitDownscaled fun() @Texture is decompressed to the RGBA32 format and downscaled to half of the original texture width and height.

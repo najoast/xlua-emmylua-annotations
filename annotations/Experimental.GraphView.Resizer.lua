@@ -1,0 +1,3 @@
+---@class Experimental.GraphView.Resizer @Resizer manipulator element.
+---@field activateButton fun() @Mouse button to activate the resizer.
+---@field ctor fun() @Resizer's constructor.

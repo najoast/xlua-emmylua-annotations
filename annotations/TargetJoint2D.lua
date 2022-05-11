@@ -1,0 +1,7 @@
+---@class TargetJoint2D @The joint attempts to move a Rigidbody2D to a specific target position.
+---@field maxForce fun() @The maximum force that can be generated when trying to maintain the target joint constraint.
+---@field frequency fun() @The frequency at which the target spring oscillates around the target position.
+---@field dampingRatio fun() @The amount by which the target spring force is reduced in proportion to the movement speed.
+---@field anchor fun() @The local-space anchor on the rigid-body the joint is attached to.
+---@field target fun() @The world-space position that the joint will attempt to move the body to.
+---@field autoConfigureTarget fun() @Should the target be calculated automatically?

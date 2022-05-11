@@ -1,0 +1,3 @@
+---@class MemoryProfiler.PackedNativeType @A description of a C++ unity type.
+---@field nativeBaseTypeArrayIndex fun() @The index used to obtain the native C++ base class description from the PackedMemorySnapshot.nativeTypes array.
+---@field name fun() @Name of this C++ unity type.

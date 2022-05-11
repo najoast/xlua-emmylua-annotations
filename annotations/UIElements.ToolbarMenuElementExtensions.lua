@@ -1,0 +1,2 @@
+---@class UIElements.ToolbarMenuElementExtensions @An extension class that handles menu management for elements that are implemented with the IToolbarMenuElement interface, but are identical to DropdownMenu.
+---@field ShowMenu fun() @Display the menu for the element.

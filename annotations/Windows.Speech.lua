@@ -1,0 +1,13 @@
+---@class Windows.Speech @nil
+---@field GrammarRecognizer Windows.Speech.GrammarRecognizer @The GrammarRecognizer is a complement to the KeywordRecognizer. In many cases developers will find the KeywordRecognizer fills all their development needs. However, in some cases, more complex grammars will be better expressed in the form of an xml file on disk.The GrammarRecognizer uses Extensible Markup Language (XML) elements and attributes, as specified in the World Wide Web Consortium (W3C) Speech Recognition Grammar Specification (SRGS) Version 1.0. These XML elements and attributes represent the rule structures that define the words or phrases (commands) recognized by speech recognition engines.
+---@field SpeechSystemStatus Windows.Speech.SpeechSystemStatus @Represents the current status of the speech recognition system or a dictation recognizer.
+---@field DictationCompletionCause Windows.Speech.DictationCompletionCause @Represents the reason why dictation session has completed.
+---@field SpeechError Windows.Speech.SpeechError @Represents an error in a speech recognition system.
+---@field DictationRecognizer Windows.Speech.DictationRecognizer @DictationRecognizer listens to speech input and attempts to determine what phrase was uttered.
+---@field KeywordRecognizer Windows.Speech.KeywordRecognizer @KeywordRecognizer listens to speech input and attempts to match uttered phrases to a list of registered keywords.
+---@field SemanticMeaning Windows.Speech.SemanticMeaning @Semantic meaning is a collection of semantic properties of a recognized phrase. These semantic properties can be specified in SRGS grammar files.
+---@field ConfidenceLevel Windows.Speech.ConfidenceLevel @Used by KeywordRecognizer, GrammarRecognizer, DictationRecognizer. Phrases under the specified minimum level will be ignored.
+---@field PhraseRecognizer Windows.Speech.PhraseRecognizer @A common base class for both keyword recognizer and grammar recognizer.
+---@field PhraseRecognitionSystem Windows.Speech.PhraseRecognitionSystem @Phrase recognition system is responsible for managing phrase recognizers and dispatching recognition events to them.
+---@field PhraseRecognizedEventArgs Windows.Speech.PhraseRecognizedEventArgs @Provides information about a phrase recognized event.
+---@field DictationTopicConstraint Windows.Speech.DictationTopicConstraint @DictationTopicConstraint enum specifies the scenario for which a specific dictation recognizer should optimize.

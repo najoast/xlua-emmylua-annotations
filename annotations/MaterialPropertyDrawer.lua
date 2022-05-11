@@ -1,0 +1,4 @@
+---@class MaterialPropertyDrawer @Base class to derive custom material property drawers from.
+---@field Apply fun() @Apply extra initial values to the material.
+---@field GetPropertyHeight fun() @Override this method to specify how tall the GUI for this property is in pixels.
+---@field OnGUI fun() @Override this method to make your own GUI for the property.

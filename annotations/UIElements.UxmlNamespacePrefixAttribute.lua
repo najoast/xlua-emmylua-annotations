@@ -1,0 +1,4 @@
+---@class UIElements.UxmlNamespacePrefixAttribute @Attribute that can be used on an assembly to define an XML namespace prefix for a namespace.
+---@field ns fun() @The namespace name.
+---@field ctor fun() @Constructor.
+---@field prefix fun() @The namespace prefix.

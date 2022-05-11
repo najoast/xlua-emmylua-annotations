@@ -1,0 +1,14 @@
+---@class UIElements.ToolbarSearchField @A search field for the toolbar.
+---@field textUssClassName fun() @USS class name of text elements in elements of this type.
+---@field ctor fun() @Constructor.
+---@field searchButtonUssClassName fun() @USS class name of search buttons in elements of this type.
+---@field UxmlFactory fun() @Instantiates a ToolbarSearchField using the data read from a UXML file.
+---@field popupVariantUssClassName fun() @USS class name of elements of this type, when they are using a popup menu.
+---@field SetValueWithoutNotify fun() @Sets the value for the toolbar search field without sending a change event.
+---@field searchButton fun() @The search button.
+---@field cancelButtonOffVariantUssClassName fun() @USS class name of cancel buttons in elements of this type, when they are off.
+---@field FieldIsEmpty fun() @Tells if the string is null or empty.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field value fun() @The object currently being exposed by the field.
+---@field cancelButtonUssClassName fun() @USS class name of cancel buttons in elements of this type.
+---@field ClearTextField fun() @Removes the text when clearing the field.

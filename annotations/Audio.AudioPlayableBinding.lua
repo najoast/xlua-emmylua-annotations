@@ -1,0 +1,2 @@
+---@class Audio.AudioPlayableBinding @A PlayableBinding that contains information representing an AudioPlayableOutput.
+---@field Create fun() @Creates a PlayableBinding that contains information representing an AudioPlayableOutput.

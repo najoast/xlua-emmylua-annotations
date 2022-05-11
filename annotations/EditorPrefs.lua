@@ -1,0 +1,12 @@
+---@class EditorPrefs @Stores and accesses Unity editor preferences.
+---@field GetInt fun() @Returns the value corresponding to key in the preference file if it exists.
+---@field DeleteKey fun() @Removes key and its corresponding value from the preferences.
+---@field SetString fun() @Sets the value of the preference identified by key. Note that EditorPrefs does not support null strings and will store an empty string instead.
+---@field SetInt fun() @Sets the value of the preference identified by key as an integer.
+---@field HasKey fun() @Returns true if key exists in the preferences file.
+---@field SetFloat fun() @Sets the float value of the preference identified by key.
+---@field SetBool fun() @Sets the value of the preference identified by key.
+---@field GetBool fun() @Returns the value corresponding to key in the preference file if it exists.
+---@field GetString fun() @Returns the value corresponding to key in the preference file if it exists.
+---@field DeleteAll fun() @Removes all keys and values from the preferences. Use with caution.
+---@field GetFloat fun() @Returns the float value corresponding to key if it exists in the preference file.

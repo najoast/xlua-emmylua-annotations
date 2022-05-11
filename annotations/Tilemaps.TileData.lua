@@ -1,0 +1,6 @@
+---@class Tilemaps.TileData @A Struct for the required data for rendering a Tile.
+---@field sprite fun() @Sprite to be rendered at the Tile.
+---@field flags fun() @TileFlags of the Tile.
+---@field transform fun() @Transform matrix of the Tile.
+---@field color fun() @Color of the Tile.
+---@field gameObject fun() @GameObject of the Tile.

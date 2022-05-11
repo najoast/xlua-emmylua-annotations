@@ -1,0 +1,15 @@
+---@class Touch @Structure describing the status of a finger touching the screen.
+---@field pressure fun() @The current amount of pressure being applied to a touch.  1.0f is considered to be the pressure of an average touch.  If Input.touchPressureSupported returns false, the value of this property will always be 1.0f.
+---@field type fun() @A value that indicates whether a touch was of Direct, Indirect (or remote), or Stylus type.
+---@field tapCount fun() @Number of taps.
+---@field altitudeAngle fun() @Value of 0 radians indicates that the stylus is parallel to the surface, pi/2 indicates that it is perpendicular.
+---@field rawPosition fun() @The first position of the touch contact in screen space pixel coordinates.
+---@field fingerId fun() @The unique index for the touch.
+---@field deltaTime fun() @Amount of time that has passed since the last recorded change in Touch values.
+---@field radiusVariance fun() @This value determines the accuracy of the touch radius. Add this value to the radius to get the maximum touch size, subtract it to get the minimum touch size.
+---@field radius fun() @An estimated value of the radius of a touch.  Add radiusVariance to get the maximum touch size, subtract it to get the minimum touch size.
+---@field deltaPosition fun() @The position delta since last change in pixel coordinates.
+---@field position fun() @The position of the touch in screen space pixel coordinates.
+---@field azimuthAngle fun() @Value of 0 radians indicates that the stylus is pointed along the x-axis of the device.
+---@field phase fun() @Describes the phase of the touch.
+---@field maximumPossiblePressure fun() @The maximum possible pressure value for a platform.  If Input.touchPressureSupported returns false, the value of this property will always be 1.0f.

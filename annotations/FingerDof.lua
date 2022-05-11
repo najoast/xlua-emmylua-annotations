@@ -1,0 +1,6 @@
+---@class FingerDof @Enumeration of all the muscles in a finger.
+---@field ProximalDownUp fun() @The proximal down-up muscle.
+---@field IntermediateCloseOpen fun() @The intermediate close-open muscle.
+---@field DistalCloseOpen fun() @The distal close-open muscle.
+---@field ProximalInOut fun() @The proximal in-out muscle.
+---@field LastFingerDof fun() @The last value of the FingerDof enum.

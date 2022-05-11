@@ -1,0 +1,28 @@
+---@class Canvas @Element that can be used for screen rendering.
+---@field rootCanvas fun() @Returns the Canvas closest to root, by checking through each parent and returning the last canvas found. If no other canvas is found then the canvas will return itself.
+---@field ForceUpdateCanvases fun() @Force all canvases to update their content.
+---@field renderingDisplaySize fun() @Returns the canvas display size based on the selected render mode and target display.
+---@field GetETC1SupportedCanvasMaterial fun() @Gets or generates the ETC1 Material.
+---@field willRenderCanvases fun() @Event that is called just before Canvas rendering happens.
+---@field sortingLayerName fun() @Name of the Canvas' sorting layer.
+---@field preWillRenderCanvases fun() @Event that is called just before Canvas rendering happens.
+---@field GetDefaultCanvasTextMaterial fun() @Returns the default material that can be used for rendering text elements on the Canvas.
+---@field targetDisplay fun() @For Overlay mode, display index on which the UI canvas will appear.
+---@field GetDefaultCanvasMaterial fun() @Returns the default material that can be used for rendering normal elements on the Canvas.
+---@field planeDistance fun() @How far away from the camera is the Canvas generated.
+---@field renderOrder fun() @The render order in which the canvas is being emitted to the Scene. (Read Only)
+---@field sortingLayerID fun() @Unique ID of the Canvas' sorting layer.
+---@field sortingOrder fun() @Canvas' order within a sorting layer.
+---@field worldCamera fun() @Camera used for sizing the Canvas when in Screen Space - Camera. Also used as the Camera that events will be sent through for a World Space [[Canvas].
+---@field sortingGridNormalizedSize fun() @The normalized grid size that the canvas will split the renderable area into.
+---@field pixelPerfect fun() @Force elements in the canvas to be aligned with pixels. Only applies with renderMode is Screen Space.
+---@field overrideSorting fun() @Override the sorting of canvas.
+---@field scaleFactor fun() @Used to scale the entire canvas, while still making it fit the screen. Only applies with renderMode is Screen Space.
+---@field renderMode fun() @Is the Canvas in World or Overlay mode?
+---@field normalizedSortingGridSize fun() @The normalized grid size that the canvas will split the renderable area into.
+---@field referencePixelsPerUnit fun() @The number of pixels per unit that is considered the default.
+---@field overridePixelPerfect fun() @Allows for nested canvases to override pixelPerfect settings inherited from parent canvases.
+---@field pixelRect fun() @Get the render rect for the Canvas.
+---@field additionalShaderChannels fun() @Get or set the mask of additional shader channels to be used when creating the Canvas mesh.
+---@field isRootCanvas fun() @Is this the root Canvas?
+---@field cachedSortingLayerValue fun() @Cached calculated value based upon SortingLayerID.

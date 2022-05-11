@@ -1,0 +1,15 @@
+---@class VFX @nil
+---@field VFXManager VFX.VFXManager @Use this class to set a number of properties that control VisualEffect behavior within your Unity Project.
+---@field VFXOutputEventArgs VFX.VFXOutputEventArgs @This struct holds information about an output event.
+---@field VFXSpawnerLoopState VFX.VFXSpawnerLoopState @This enum describes the state of VFXSpawner.
+---@field VisualEffect VFX.VisualEffect @The visual effect class that references an VFX.VisualEffectAsset instance within the Scene.
+---@field VFXSpawnerCallbacks VFX.VFXSpawnerCallbacks @This abstract class provides a way to implement custom spawner block in C#.
+---@field VisualEffectAsset VFX.VisualEffectAsset @This class contains a graph of the elements needed to describe a visual effect. These include: the visual effects system, generated shaders, and compiled data.
+---@field VFXExpressionValues VFX.VFXExpressionValues @This class is a wrapper to the set of expression values.
+---@field VFXSpawnerState VFX.VFXSpawnerState @The spawn state of a Spawn system.
+---@field VisualEffectObject fun() @This class is the base for VFX.VisualEffectAsset and VFX.VisualEffectSubgraph.
+---@field VFXCameraXRSettings VFX.VFXCameraXRSettings @Represents settings that specify how the Visual Effect Graph should handle an XR Camera.
+---@field VFXEventAttribute VFX.VFXEventAttribute @This class handles the properties that you transmit to a system using a VFX.VisualEffect.SendEvent.
+---@field VFXParticleSystemInfo VFX.VFXParticleSystemInfo @This structure provides information data on a particle system.
+---@field VFXExposedProperty VFX.VFXExposedProperty @This structure describes an exposed property on a VisualEffectAsset.
+---@field VFXCameraBufferTypes VFX.VFXCameraBufferTypes @This enumeration describes Camera buffer types.

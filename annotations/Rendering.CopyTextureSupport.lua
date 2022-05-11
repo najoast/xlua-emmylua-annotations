@@ -1,0 +1,7 @@
+---@class Rendering.CopyTextureSupport @Support for various Graphics.CopyTexture cases.
+---@field Basic fun() @Basic Graphics.CopyTexture support.
+---@field TextureToRT fun() @Support for Texture to RenderTexture copies in Graphics.CopyTexture.
+---@field None fun() @No support for Graphics.CopyTexture.
+---@field RTToTexture fun() @Support for RenderTexture to Texture copies in Graphics.CopyTexture.
+---@field Copy3D fun() @Support for Texture3D in Graphics.CopyTexture.
+---@field DifferentTypes fun() @Support for Graphics.CopyTexture between different texture types.

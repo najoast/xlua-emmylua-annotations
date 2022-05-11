@@ -1,0 +1,3 @@
+---@class CapsuleDirection2D @The direction that the capsule sides can extend.
+---@field Vertical fun() @The capsule sides extend vertically.
+---@field Horizontal fun() @The capsule sides extend horizontally.

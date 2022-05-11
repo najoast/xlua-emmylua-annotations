@@ -1,0 +1,9 @@
+---@class Overlays.EditorToolbarDropdownToggle @A control that is both a toggle and a dropdown used with EditorToolbarElementAttribute.
+---@field SetValueWithoutNotify fun() @Allow to set a value without being notified of the change, if any.
+---@field dropdownClickable fun() @Clickable object for this dropdown.
+---@field ctor fun() @Constructor.
+---@field clicked fun() @Action triggered when the dropdown is clicked. Usually opens a window or a dropdown menu through the use of GenericMenu.
+---@field text fun() @The icon associated with the element.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field icon fun() @The text associated with the element.
+---@field dropdownClicked fun() @Action triggered when the dropdown is clicked.

@@ -1,0 +1,6 @@
+---@class Diagnostics.ForcedCrashCategory @Specifies the category of crash to cause when calling ForceCrash().
+---@field FatalError fun() @Cause a crash using Unity's native fatal error implementation.
+---@field MonoAbort fun() @Cause a crash by calling the abort() function within the Mono dynamic library.
+---@field Abort fun() @Cause a crash by calling the abort() function.
+---@field AccessViolation fun() @Cause a crash by performing an invalid memory access.The invalid memory access is performed on each platform as follows:
+---@field PureVirtualFunction fun() @Cause a crash by calling a pure virtual function to raise an exception.

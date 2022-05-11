@@ -1,0 +1,19 @@
+---@class TerrainTools.TerrainPaintUtility @A set of utility functions for custom terrain paint tools.
+---@field CalculateBrushTransform fun() @Creates a BrushTransform from the input parameters.
+---@field GetTerrainAlphaMapChecked fun() @Returns the alphamap texture at mapIndex.
+---@field GetBrushWorldSizeLimits fun() @Calculates the minimum and maximum Brush size limits, in world space.
+---@field BeginPaintTexture fun() @Helper function to set up a PaintContext for modifying the alphamap of one or more Terrain tiles.
+---@field BuildTransformPaintContextUVToPaintContextUV fun() @Builds a Scale &amp; Offset transform to convert between one PaintContext's UV space and another PaintContext's UV space.
+---@field GetBuiltinPaintMaterial fun() @Returns the built-in in paint material used by the built-in tools.
+---@field CollectNormals fun() @Helper function to set up a PaintContext that collects mesh normal data from one or more Terrain tiles.
+---@field EndPaintHeightmap fun() @Helper function to complete a heightmap modification.
+---@field GetHeightBlitMaterial fun() @Returns the Material to use when copying the Terrain heightmap.
+---@field BeginPaintHoles fun() @Helper function to set up a PaintContext for modifying the Terrain holes of one or more Terrain tiles.
+---@field SetupTerrainToolMaterialProperties fun() @Sets up all of the material properties used by functions in TerrainTool.cginc.
+---@field BeginPaintHeightmap fun() @Helper function to set up a PaintContext for modifying the heightmap of one or more Terrain tiles.
+---@field EndPaintHoles fun() @Helper function to complete a Terrain holes modification.
+---@field ReleaseContextResources fun() @Releases the allocated resources of the specified PaintContext.
+---@field FindTerrainLayerIndex fun() @Finds the index of a TerrainLayer in a Terrain tile.
+---@field GetCopyTerrainLayerMaterial fun() @Returns the default copy terrain layer material.
+---@field EndPaintTexture fun() @Helper function to complete a texture alphamap modification.
+---@field GetBlitMaterial fun() @Returns the default material for blitting operations.

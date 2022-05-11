@@ -1,0 +1,8 @@
+---@class Search.SearchAction @Defines an action that can be applied on a SearchItem of a specific search provider type.
+---@field closeWindowAfterExecution fun() @Indicates if the search view should be closed after the action execution.
+---@field id fun() @Action unique identifier.
+---@field enabled fun() @Callback used to check if the action is enabled based on the current context.
+---@field execute fun() @Executes an action on a set of items.
+---@field displayName fun() @Display name for the search action.
+---@field ctor fun() @Default constructor to build a search action.
+---@field handler fun() @This handler is used for actions that do not support multi-selection.

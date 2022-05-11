@@ -1,0 +1,7 @@
+---@class Rendering.VirtualTexturing @nil
+---@field System Rendering.VirtualTexturing.System @The virtual texturing system.
+---@field Procedural Rendering.VirtualTexturing.Procedural @Static class representing the Procedural Virtual Texturing system.
+---@field GPUCacheSetting Rendering.VirtualTexturing.GPUCacheSetting @Settings for a virtual texturing GPU cache.
+---@field FilterMode Rendering.VirtualTexturing.FilterMode @Filtering modes available in the virtual texturing system.
+---@field Streaming Rendering.VirtualTexturing.Streaming @Static class representing the Streaming Virtual Texturing system.
+---@field Resolver Rendering.VirtualTexturing.Resolver @Class responsable for virtual texturing feedback analysis.

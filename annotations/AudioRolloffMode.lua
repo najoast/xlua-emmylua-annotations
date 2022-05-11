@@ -1,0 +1,4 @@
+---@class AudioRolloffMode @Rolloff modes that a 3D sound can have in an audio source.
+---@field Custom fun() @Use this when you want to use a custom rolloff.
+---@field Logarithmic fun() @Use this mode when you want a real-world rolloff.
+---@field Linear fun() @Use this mode when you want to lower the volume of your sound over the distance.

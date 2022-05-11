@@ -1,0 +1,13 @@
+---@class Unity.Collections @nil
+---@field ReadOnlyAttribute fun() @The ReadOnly attribute lets you mark a member of a struct used in a job as read-only.
+---@field Allocator Unity.Collections.Allocator @Used to specify allocation type for NativeArray.
+---@field DeallocateOnJobCompletionAttribute fun() @DeallocateOnJobCompletionAttribute.
+---@field LowLevel fun() @nil
+---@field NativeArrayOptions Unity.Collections.NativeArrayOptions @NativeArrayOptions lets you control if memory should be cleared on allocation or left uninitialized.
+---@field NativeSlice_1 Unity.Collections.NativeSlice_1 @Native Slice.
+---@field NativeDisableParallelForRestrictionAttribute fun() @NativeDisableParallelForRestrictionAttribute.
+---@field NativeFixedLengthAttribute Unity.Collections.NativeFixedLengthAttribute @The container has from start a size that will never change.
+---@field WriteOnlyAttribute fun() @The WriteOnly attribute lets you mark a member of a struct used in a job as write-only.
+---@field NativeLeakDetection Unity.Collections.NativeLeakDetection @Static class for native leak detection settings.
+---@field NativeArray_1 Unity.Collections.NativeArray_1 @A NativeArray exposes a buffer of native memory to managed code, making it possible to share data between managed and native without marshalling costs.
+---@field NativeLeakDetectionMode Unity.Collections.NativeLeakDetectionMode @Native leak memory leak detection mode enum.

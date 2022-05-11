@@ -1,0 +1,10 @@
+---@class PlayerLoop.PreUpdate @Update phase in the native player loop.
+---@field Physics2DUpdate fun() @A native engine system that the native player loop updates.
+---@field IMGUISendQueuedEvents fun() @A native engine system that the native player loop updates.
+---@field SendMouseEvents fun() @A native engine system that the native player loop updates.
+---@field NewInputUpdate fun() @A native engine system that the native player loop updates.
+---@field WindUpdate fun() @A native engine system that the native player loop updates.
+---@field UpdateVideo fun() @A native engine system that the native player loop updates.
+---@field AIUpdate fun() @A native engine system that the native player loop updates.
+---@field PhysicsUpdate fun() @A native engine system that the native player loop updates.
+---@field CheckTexFieldInput fun() @A native engine system that the native player loop updates.

@@ -1,0 +1,10 @@
+---@class Windows.WebCam.PhotoCaptureFrame @Contains information captured from the web camera.
+---@field dataLength fun() @The length of the raw IMFMediaBuffer which contains the image captured.
+---@field TryGetProjectionMatrix fun() @This method will return the projection matrix at the time the photo was captured if location data if available.
+---@field TryGetCameraToWorldMatrix fun() @This method will return the camera to world matrix at the time the photo was captured if location data if available.
+---@field GetUnsafePointerToBuffer fun() @Provides a COM pointer to the native IMFMediaBuffer that contains the image data.
+---@field CopyRawImageDataIntoBuffer fun() @Will copy the raw IMFMediaBuffer image data into a byte list.
+---@field pixelFormat fun() @The raw image data pixel format.
+---@field Dispose fun() @Disposes the PhotoCaptureFrame and any resources it uses.
+---@field UploadImageDataToTexture fun() @This method will copy the captured image data into a user supplied texture for use in Unity.
+---@field hasLocationData fun() @Specifies whether or not spatial data was captured.

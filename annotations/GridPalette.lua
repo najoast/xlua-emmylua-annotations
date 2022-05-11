@@ -1,0 +1,5 @@
+---@class GridPalette @GridPalette stores settings for Palette assets when shown in the Palette window.
+---@field transparencySortMode fun() @Determines the Transparency Sorting Mode of Renderers in the Palette.
+---@field cellSizing fun() @Determines the sizing of cells for a Palette.
+---@field transparencySortAxis fun() @Determines the sorting axis if the Transparency Sort Mode is set to Custom Axis.
+---@field CellSizing GridPalette.CellSizing @Controls the sizing of cells for a Palette.

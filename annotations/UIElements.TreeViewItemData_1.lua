@@ -1,0 +1,6 @@
+---@class UIElements.TreeViewItemData_1 @Item structure provided to a TreeView using the default implementation.
+---@field hasChildren fun() @Whether this item has children or not.
+---@field id fun() @Id of the item.
+---@field data fun() @Data for this item.
+---@field children fun() @Children of this tree item.
+---@field ctor fun() @Creates a TreeViewItemData_1 with all required parameters.

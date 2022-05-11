@@ -1,0 +1,3 @@
+---@class Search.ISearchNode @Interface representing a query node.
+---@field exact fun() @True if the word or text should match exactly, false if it is a contains operation.
+---@field searchValue fun() @Word or text used for the search.

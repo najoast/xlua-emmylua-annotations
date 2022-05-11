@@ -1,0 +1,35 @@
+---@class Texture @Base class for Texture handling.
+---@field streamingTextureDiscardUnusedMips fun() @This property forces the streaming Texture system to discard all unused mipmaps instead of caching them until the Texture memory budget is exceeded. This is useful when you profile or write tests to keep a predictable set of Textures in memory.
+---@field streamingTexturePendingLoadCount fun() @Number of streaming Textures with outstanding mipmaps to be loaded.
+---@field streamingTextureLoadingCount fun() @Number of streaming Textures with mipmaps currently loading.
+---@field streamingMipmapUploadCount fun() @How many times has a Texture been uploaded due to Texture mipmap streaming.
+---@field imageContentsHash fun() @The hash value of the Texture.
+---@field wrapModeW fun() @Texture W coordinate wrapping mode for Texture3D.
+---@field streamingTextureCount fun() @Number of streaming Textures.
+---@field isReadable fun() @Whether Unity stores an additional copy of this texture's pixel data in CPU-addressable memory.
+---@field dimension fun() @Dimensionality (type) of the Texture (Read Only).
+---@field mipMapBias fun() @The mipmap bias of the Texture.
+---@field filterMode fun() @Filtering mode of the Texture.
+---@field graphicsFormat fun() @Returns the GraphicsFormat format or color format of a Texture object.
+---@field desiredTextureMemory fun() @The total size of the Textures, in bytes, that Unity loads if there were no other constraints. Before Unity loads any Textures, it applies the memory budget which reduces the loaded Texture resolution if the Texture sizes exceed its value. The `desiredTextureMemory` value takes into account the mipmap levels that Unity has requested or that you have set manually.For example, if Unity does not load a Texture at full resolution because it is far away or its requested mipmap level is greater than 0,  Unity reduces the `desiredTextureMemory` value to match the total memory needed.The `desiredTextureMemory` value can be greater than the `targetTextureMemory` value.
+---@field streamingTextureForceLoadAll fun() @Force streaming Textures to load all mipmap levels.
+---@field width fun() @Width of the Texture in pixels. (Read Only)
+---@field wrapMode fun() @Texture coordinate wrapping mode.
+---@field targetTextureMemory fun() @The total amount of Texture memory that Unity allocates to the Textures in the scene after it applies the memory budget and finishes loading Textures. `targetTextureMemory`also takes mipmap streaming settings into account. This value only includes instances of Texture2D and CubeMap Textures. It does not include any other Texture types, or 2D and CubeMap Textures that Unity creates internally.
+---@field currentTextureMemory fun() @The amount of memory that all Textures in the scene use.
+---@field nonStreamingTextureCount fun() @The number of non-streaming Textures in the scene. This includes instances of Texture2D and CubeMap Textures. This does not include any other Texture types, or 2D and CubeMap Textures that Unity creates internally.
+---@field allowThreadedTextureCreation fun() @Allow Unity internals to perform Texture creation on any thread (rather than the dedicated render thread).
+---@field GetNativeTexturePtr fun() @Retrieve a native (underlying graphics API) pointer to the Texture resource.
+---@field updateCount fun() @This counter is incremented when the Texture is updated.
+---@field streamingRendererCount fun() @Number of renderers registered with the Texture streaming system.
+---@field SetStreamingTextureMaterialDebugProperties fun() @This function sets mipmap streaming debug properties on any materials that use this Texture through the mipmap streaming system.
+---@field wrapModeU fun() @Texture U coordinate wrapping mode.
+---@field SetGlobalAnisotropicFilteringLimits fun() @Sets Anisotropic limits.
+---@field anisoLevel fun() @Defines the anisotropic filtering level of the Texture.
+---@field totalTextureMemory fun() @The total amount of Texture memory that Unity would use if it loads all Textures at mipmap level 0.This is a theoretical value that does not take into account any input from the streaming system or any other input, for example when you set the`Texture2D.requestedMipmapLevel` manually.To see a Texture memory value that takes inputs into account, use `desiredTextureMemory`.`totalTextureMemory` only includes instances of Texture2D and CubeMap Textures. It does not include any other Texture types, or 2D and CubeMap Textures that Unity creates internally.
+---@field GenerateAllMips fun() @Can be used with Texture constructors that take a mip count to indicate that all mips should be generated.  The value of this field is -1.
+---@field wrapModeV fun() @Texture V coordinate wrapping mode.
+---@field nonStreamingTextureMemory fun() @The amount of memory Unity allocates for non-streaming Textures in the scene. This only includes instances of Texture2D and CubeMap Textures. This does not include any other Texture types, or 2D and CubeMap Textures that Unity creates internally.
+---@field IncrementUpdateCount fun() @Increment the update counter.
+---@field height fun() @Height of the Texture in pixels. (Read Only)
+---@field mipmapCount fun() @How many mipmap levels are in this Texture (Read Only).

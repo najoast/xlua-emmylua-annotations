@@ -1,0 +1,3 @@
+---@class RemoveAssetOptions @Options for removing assets
+---@field DeleteAssets fun() @Delete the asset without moving it to the trash.
+---@field MoveAssetToTrash fun() @The asset should be moved to trash.

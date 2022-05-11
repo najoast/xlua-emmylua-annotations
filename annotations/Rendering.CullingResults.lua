@@ -1,0 +1,16 @@
+---@class Rendering.CullingResults @A struct containing the results of a culling operation.
+---@field GetReflectionProbeIndexMap fun() @If a RenderPipeline sorts or otherwise modifies the VisibleReflectionProbe list, an index remap will be necessary to properly make use of per-object reflection probe lists.
+---@field SetReflectionProbeIndexMap fun() @If a RenderPipeline sorts or otherwise modifies the VisibleReflectionProbe list, an index remap will be necessary to properly make use of per-object reflection probe lists.
+---@field reflectionProbeIndexCount fun() @Gets the number of per-object reflection probe indices.
+---@field SetLightIndexMap fun() @If a RenderPipeline sorts or otherwise modifies the VisibleLight list, an index remap will be necessary to properly make use of per-object light lists.
+---@field GetShadowCasterBounds fun() @Returns the bounding box that encapsulates the visible shadow casters.  Can be used to, for instance, dynamically adjust cascade ranges.
+---@field lightAndReflectionProbeIndexCount fun() @Gets the number of per-object light and reflection probe indices.
+---@field visibleOffscreenVertexLights fun() @Off-screen lights that still affect visible vertices.
+---@field visibleLights fun() @Array of visible lights.
+---@field FillLightAndReflectionProbeIndices fun() @Fills a buffer with per-object light indices.
+---@field visibleReflectionProbes fun() @Array of visible reflection probes.
+---@field GetLightIndexMap fun() @If a RenderPipeline sorts or otherwise modifies the VisibleLight list, an index remap will be necessary to properly make use of per-object light lists.
+---@field lightIndexCount fun() @Gets the number of per-object light indices.
+---@field ComputeSpotShadowMatricesAndCullingPrimitives fun() @Calculates the view and projection matrices and shadow split data for a spot light.
+---@field ComputePointShadowMatricesAndCullingPrimitives fun() @Calculates the view and projection matrices and shadow split data for a point light.
+---@field ComputeDirectionalShadowMatricesAndCullingPrimitives fun() @Calculates the view and projection matrices and shadow split data for a directional light.

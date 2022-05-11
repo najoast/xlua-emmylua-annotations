@@ -1,0 +1,4 @@
+---@class EditorSelectedRenderState @The editor selected render mode for Scene View selection.
+---@field Wireframe fun() @The Renderer has wireframe but not selection highlight in the Editor.
+---@field Highlight fun() @The Renderer has selection highlight but no wireframe in the Editor.
+---@field Hidden fun() @The Renderer has no selection highlight or wireframe in the Editor.

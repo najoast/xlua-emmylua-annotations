@@ -1,0 +1,4 @@
+---@class ModelImporterNormals @Normal generation options for ModelImporter.
+---@field None fun() @Do not import vertex normals.
+---@field Calculate fun() @Calculate vertex normals.
+---@field Import fun() @Import vertex normals from model file (default).

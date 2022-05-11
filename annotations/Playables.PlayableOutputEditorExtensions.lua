@@ -1,0 +1,2 @@
+---@class Playables.PlayableOutputEditorExtensions @Editor extensions for all types that implement IPlayableOutput.
+---@field GetEditorName fun() @Returns the name of the PlayableOutput.

@@ -1,0 +1,13 @@
+---@class Build.Reporting @nil
+---@field BuildStepMessage Build.Reporting.BuildStepMessage @Contains information about a single log message recorded during the build process.
+---@field BuildReport Build.Reporting.BuildReport @The BuildReport API gives you information about the Unity build process.
+---@field BuildStep Build.Reporting.BuildStep @Contains information about a single step in the build process.
+---@field StrippingInfo Build.Reporting.StrippingInfo @The StrippingInfo object contains information about which native code modules in the engine are still present in the build, and the reasons why they are still present.
+---@field PackedAssetInfo Build.Reporting.PackedAssetInfo @Contains information about a single packed Asset.
+---@field ScenesUsingAssets Build.Reporting.ScenesUsingAssets @An extension to the BuildReport class that tracks which scenes in the build have references to a specific asset in the build.
+---@field BuildFile Build.Reporting.BuildFile @Contains information about a single file produced by the build process.
+---@field BuildResult Build.Reporting.BuildResult @Describes the outcome of the build process.
+---@field ScenesUsingAsset Build.Reporting.ScenesUsingAsset @Contains information about which scenes in a build have references to an Asset in the build.
+---@field PackedAssets Build.Reporting.PackedAssets @An extension to the BuildReport class that tracks how Assets contribute to the size of the build.
+---@field BuildSummary Build.Reporting.BuildSummary @Contains overall summary information about a build.
+---@field CommonRoles Build.Reporting.CommonRoles @This class provides constant values for some of the common roles used by files in the build. The role of each file in the build is available in BuildFile.role.

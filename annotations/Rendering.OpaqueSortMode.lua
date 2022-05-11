@@ -1,0 +1,4 @@
+---@class Rendering.OpaqueSortMode @Opaque object sorting mode of a Camera.
+---@field NoDistanceSort fun() @Do not sort opaque objects by distance.
+---@field Default fun() @Default opaque sorting mode.
+---@field FrontToBack fun() @Do rough front-to-back sorting of opaque objects.

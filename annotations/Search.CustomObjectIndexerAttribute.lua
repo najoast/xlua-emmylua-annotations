@@ -1,0 +1,4 @@
+---@class Search.CustomObjectIndexerAttribute @Allows a user to register a custom Indexing function for a specific type.
+---@field ctor fun() @Register a new Indexing function bound to the specific type.
+---@field version fun() @Version of the custom indexer. Increment this number to have the indexer re-index the indexes.
+---@field type fun() @Each time an object of a specific type is indexed, the registered function is called.

@@ -1,0 +1,19 @@
+---@class UIElements.Experimental.ValueAnimation_1 @Implementation object for transition animations.
+---@field ctor fun() @Constructor.
+---@field autoRecycle fun() @Returns true if this animation object will be automatically returned to the instance pool after the animation has completed.
+---@field onAnimationCompleted fun() @Callback invoked when this animation has completed.
+---@field valueUpdated fun() @Callback invoked after every value interpolation.
+---@field KeepAlive fun() @Will not return the object to the instance pool when the animation has completed.
+---@field easingCurve fun() @Smoothing function related to this animation. Default value is Easing.OutQuad.
+---@field OnCompleted fun() @Sets a callback invoked when this animation has completed.
+---@field isRunning fun() @Tells if the animation is currently active.
+---@field initialValue fun() @Callback invoked when the from field has not been set, in order to retrieve the starting state of this animation.
+---@field Ease fun() @Sets the easing function.
+---@field to fun() @The animation end value.
+---@field from fun() @The animation start value.
+---@field durationMs fun() @Duration of the animation in milliseconds.
+---@field Recycle fun() @Returns this animation object into its object pool.
+---@field Create fun() @Creates a new ValueAnimation object or returns an available one from it's instance pool.
+---@field Stop fun() @Stops this animation.
+---@field Start fun() @Starts the animation using this object's values.
+---@field interpolator fun() @Value interpolation method.

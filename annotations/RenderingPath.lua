@@ -1,0 +1,6 @@
+---@class RenderingPath @Rendering path of a Camera.
+---@field UsePlayerSettings fun() @Use Player Settings.
+---@field Forward fun() @Forward Rendering.
+---@field DeferredShading fun() @Deferred Shading.
+---@field DeferredLighting fun() @Deferred Lighting (Legacy).
+---@field VertexLit fun() @Vertex Lit.

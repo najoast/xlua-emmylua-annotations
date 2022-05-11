@@ -1,0 +1,9 @@
+---@class Search.QueryEngineFilterAttribute @Base attribute class used to define a custom filter on a QueryEngine.All filter types supported by QueryEngine.AddFilter are supported by this attribute.
+---@field token fun() @The identifier of the filter. Typically what precedes the operator in a filter (i.e. id in id&gt;=2).
+---@field paramTransformerFunction fun() @Name of the parameter transformer function to use with this filter.Tag the parameter transformer function with the appropriate ParameterTransformer attribute.
+---@field ctor fun() @Create a filter with the corresponding token and supported operators.
+---@field useParamTransformer fun() @Flag indicating if this filter uses a parameter transformer function.Set to true when paramTransformerFunction is used.
+---@field useRegularExpressionToken fun() @Indicates if the filter uses a regular expression token or not.
+---@field comparisonOptions fun() @String comparison options.
+---@field overridesStringComparison fun() @Flag indicating if the filter overrides the global string comparison options.Set to true when the comparisonOptions are used.
+---@field supportedOperators fun() @List of supported operator tokens. Null for all operators.

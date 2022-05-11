@@ -1,0 +1,22 @@
+---@class ParticleSystemShapeType @The emission shape.
+---@field HemisphereShell fun() @Emit from the surface of a half-sphere.
+---@field Cone fun() @Emit from the base of a cone.
+---@field Mesh fun() @Emit from a mesh.
+---@field MeshRenderer fun() @Emit from a mesh renderer.
+---@field BoxShell fun() @Emit from the surface of a box.
+---@field CircleEdge fun() @Emit from the edge of a circle.
+---@field ConeVolume fun() @Emit from a cone.
+---@field SpriteRenderer fun() @Emit from a sprite renderer.
+---@field Hemisphere fun() @Emit from a half-sphere.
+---@field ConeShell fun() @Emit from the base surface of a cone.
+---@field SkinnedMeshRenderer fun() @Emit from a skinned mesh renderer.
+---@field Donut fun() @Emit from a Donut.
+---@field SphereShell fun() @Emit from the surface of a sphere.
+---@field Circle fun() @Emit from a circle.
+---@field Sprite fun() @Emit from a sprite.
+---@field ConeVolumeShell fun() @Emit from the surface of a cone.
+---@field Sphere fun() @Emit from a sphere.
+---@field SingleSidedEdge fun() @Emit from an edge.
+---@field Rectangle fun() @Emit from a rectangle.
+---@field BoxEdge fun() @Emit from the edges of a box.
+---@field Box fun() @Emit from the volume of a box.

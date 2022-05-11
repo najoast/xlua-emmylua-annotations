@@ -1,0 +1,3 @@
+---@class DialogOptOutDecisionType @The type of opt-out decision a user can make.
+---@field ForThisMachine fun() @The decision to opt out of seeing a dialog box for all time on the user's current machine.
+---@field ForThisSession fun() @The decision to opt out of seeing a dialog box for the duration of the current Editor session.

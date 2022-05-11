@@ -1,0 +1,19 @@
+---@class Collider @A base class of all colliders.
+---@field material fun() @The material used by the collider.
+---@field OnCollisionEnter fun() @OnCollisionEnter is called when this collider/rigidbody has begun touching another rigidbody/collider.
+---@field attachedRigidbody fun() @The rigidbody the collider is attached to.
+---@field contactOffset fun() @Contact offset value of this collider.
+---@field OnCollisionStay fun() @OnCollisionStay is called once per frame for every Collider or Rigidbody that touches another Collider or Rigidbody.
+---@field sharedMaterial fun() @The shared physic material of this collider.
+---@field attachedArticulationBody fun() @The articulation body the collider is attached to.
+---@field hasModifiableContacts fun() @Specify whether this Collider's contacts are modifiable or not.
+---@field OnTriggerStay fun() @OnTriggerStay is called almost all the frames for every Collider other that is touching the trigger. The function is on the physics timer so it won't necessarily run every frame.
+---@field ClosestPoint fun() @Returns a point on the collider that is closest to a given location.
+---@field OnCollisionExit fun() @OnCollisionExit is called when this collider/rigidbody has stopped touching another rigidbody/collider.
+---@field isTrigger fun() @Is the collider a trigger?
+---@field OnTriggerExit fun() @OnTriggerExit is called when the Collider other has stopped touching the trigger.
+---@field enabled fun() @Enabled Colliders will collide with other Colliders, disabled Colliders won't.
+---@field Raycast fun() @Casts a Ray that ignores all Colliders except this one.
+---@field ClosestPointOnBounds fun() @The closest point to the bounding box of the attached collider.
+---@field OnTriggerEnter fun() @When a GameObject collides with another GameObject, Unity calls OnTriggerEnter.
+---@field bounds fun() @The world space bounding volume of the collider (Read Only).

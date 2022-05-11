@@ -1,0 +1,3 @@
+---@class EditorGUI.PropertyScope @Create a Property wrapper, useful for making regular GUI controls work with SerializedProperty.
+---@field content fun() @The actual label to use for the control.
+---@field ctor fun() @Create a new PropertyScope and begin the corresponding property.

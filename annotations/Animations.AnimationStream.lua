@@ -1,0 +1,13 @@
+---@class Animations.AnimationStream @The stream of animation data passed from one Playable to another.
+---@field velocity fun() @Gets or sets the avatar velocity for the evaluated frame.
+---@field GetInputWeight fun() @Gets the weight of the Playable connected at a specific input index.
+---@field angularVelocity fun() @Gets or sets the avatar angular velocity for the evaluated frame.
+---@field CopyAnimationStreamMotion fun() @Deep copies motion from a source animation stream to the current animation stream.
+---@field rootMotionPosition fun() @Gets the root motion position for the evaluated frame. (Read Only)
+---@field deltaTime fun() @Gets the delta time for the evaluated frame. (Read Only)
+---@field isValid fun() @Returns true if the stream is valid; false otherwise. (Read Only)
+---@field GetInputStream fun() @Gets the AnimationStream of the playable input at index.
+---@field AsHuman fun() @Gets the same stream, but as an AnimationHumanStream.
+---@field isHumanStream fun() @Returns true if the stream is from a humanoid avatar; false otherwise. (Read Only)
+---@field inputStreamCount fun() @Gets the number of input streams. (Read Only)
+---@field rootMotionRotation fun() @Gets the root motion rotation for the evaluated frame. (Read Only)

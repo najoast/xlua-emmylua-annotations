@@ -1,0 +1,10 @@
+---@class DynamicGI @Allows to control the dynamic Global Illumination.
+---@field updateThreshold fun() @Determines the percentage change in lighting intensity that triggers Unity to recalculate the real-time lightmap.
+---@field synchronousMode fun() @When enabled, new dynamic Global Illumination output is shown in each frame.
+---@field indirectScale fun() @Allows for scaling the contribution coming from real-time &amp; baked lightmaps.Note: this value can be set in the Lighting Window UI and it is serialized, that is not the case for other properties in this class.
+---@field SetEnvironmentData fun() @Allows overriding the distant environment lighting for Enlighten Realtime Global Illumination, without changing the Skybox Material.
+---@field UpdateMaterials fun() @Schedules an update of the albedo and emissive textures of a system that contains the renderer or the terrain.
+---@field SetEmissive fun() @Allows to set an emissive color for a given renderer quickly, without the need to render the emissive input for the entire system.
+---@field materialUpdateTimeSlice fun() @The number of milliseconds that can be spent on material updates.
+---@field isConverged fun() @Is precomputed Enlighten Realtime Global Illumination output converged?
+---@field UpdateEnvironment fun() @Schedules an update of the environment cubemap.

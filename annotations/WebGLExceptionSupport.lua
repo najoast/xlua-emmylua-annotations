@@ -1,0 +1,5 @@
+---@class WebGLExceptionSupport @Options for Exception support in WebGL.
+---@field None fun() @Disable exception support.
+---@field FullWithStacktrace fun() @Enable exception support for all exceptions, including stack trace information.
+---@field FullWithoutStacktrace fun() @Enable exception support for all exceptions, without stack trace information.
+---@field ExplicitlyThrownExceptionsOnly fun() @Enable throw support.

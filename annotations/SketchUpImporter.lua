@@ -1,0 +1,6 @@
+---@class SketchUpImporter @Derives from AssetImporter to handle importing of SketchUp files.
+---@field GetDefaultCamera fun() @The default camera or the camera of the active Scene which the SketchUp file was saved with.
+---@field GetScenes fun() @The method returns an array of SketchUpImportScene which represents SketchUp scenes.
+---@field longitude fun() @Retrieves the longitude Geo Coordinate imported from the SketchUp file.
+---@field northCorrection fun() @Retrieves the north correction value imported from the SketchUp file.
+---@field latitude fun() @Retrieves the latitude Geo Coordinate imported from the SketchUp file.

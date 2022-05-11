@@ -1,0 +1,4 @@
+---@class PackageManager.RegistryInfo @Provides information about a package registry.
+---@field name fun() @The registry name.
+---@field isDefault fun() @Whether this is the default, Unity registry or one of the scoped registries configured in the project manifest.
+---@field url fun() @The registry URL.

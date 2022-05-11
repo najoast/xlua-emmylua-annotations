@@ -1,0 +1,3 @@
+---@class FocusType @Used by GUIUtility.GetControlID to inform the IMGUI system if a given control can get keyboard focus. This allows the IMGUI system to give focus appropriately when a user presses tab for cycling between controls.
+---@field Keyboard fun() @This control can receive keyboard focus.
+---@field Passive fun() @This control can not receive keyboard focus.

@@ -1,0 +1,3 @@
+---@class UIElements.LengthUnit @Describes how to interpret a Length value.
+---@field Percent fun() @Interprets length as a percentage.
+---@field Pixel fun() @Interprets length as pixel.

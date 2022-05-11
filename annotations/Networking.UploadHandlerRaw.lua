@@ -1,0 +1,2 @@
+---@class Networking.UploadHandlerRaw @A general-purpose UploadHandler subclass, using a native-code memory buffer.
+---@field ctor fun() @General constructor. Contents of the input argument are copied into a native buffer.

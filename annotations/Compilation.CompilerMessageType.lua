@@ -1,0 +1,4 @@
+---@class Compilation.CompilerMessageType @Compiler message type.
+---@field Warning fun() @Warning message.
+---@field Error fun() @Error message.
+---@field Info fun() @Info message.

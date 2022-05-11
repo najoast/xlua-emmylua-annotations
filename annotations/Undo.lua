@@ -1,0 +1,30 @@
+---@class Undo @Lets you register undo operations on specific objects you are about to perform changes on.
+---@field RecordObjects fun() @Records multiple undoable objects in a single call. This is the same as calling Undo.RecordObject multiple times.
+---@field willFlushUndoRecord fun() @Invoked before the Undo system performs a flush.
+---@field MoveGameObjectToScene fun() @Move a GameObject from its current Scene to a new Scene.It is required that the GameObject is at the root of its current Scene.
+---@field AddComponent fun() @Adds a component to the game object and registers an undo operation for this action.
+---@field WillFlushUndoRecord fun() @Delegate used for willFlushUndoRecord.
+---@field RevertAllInCurrentGroup fun() @Performs the last undo operation but does not record a redo operation.
+---@field SetTransformParent fun() @Sets the parent of transform to the new parent and records an undo operation.
+---@field IncrementCurrentGroup fun() @Unity automatically groups undo operations by the current group index.
+---@field RecordObject fun() @Records any changes done on the object after the RecordObject function.
+---@field RevertAllDownToGroup fun() @Performs all undo operations up to the group index without storing a redo operation in the process.
+---@field UndoRedoCallback fun() @Delegate used for undoRedoPerformed.
+---@field undoRedoPerformed fun() @Callback that is triggered after an undo or redo was executed.
+---@field SetCurrentGroupName fun() @Set the name of the current undo group.
+---@field PerformUndo fun() @Perform an Undo operation.
+---@field RegisterImporterUndo fun() @Copies the state of the importer for the given asset path.
+---@field RegisterFullObjectHierarchyUndo fun() @Copy the states of a hierarchy of objects onto the undo stack.
+---@field GetCurrentGroupName fun() @Get the name that will be shown in the UI for the current undo group.
+---@field RegisterCreatedObjectUndo fun() @Registers an undo operation to undo the creation of an object.
+---@field RegisterCompleteObjectUndo fun() @Stores a copy of the object states on the undo stack.
+---@field RegisterChildrenOrderUndo fun() @Stores a copy of the order of the object's children on the undo stack.
+---@field GetCurrentGroup fun() @Unity automatically groups undo operations by the current group index.
+---@field PostprocessModifications fun() @Delegate used for postprocessModifications.
+---@field ClearUndo fun() @Removes all Undo operation for the identifier object registered using Undo.RegisterCompleteObjectUndo from the undo stack.
+---@field PerformRedo fun() @Perform an Redo operation.
+---@field FlushUndoRecordObjects fun() @Ensure objects recorded using RecordObject or ::ref:RecordObjects are registered as an undoable action. In most cases there is no reason to invoke FlushUndoRecordObjects since it's automatically done right after mouse-up and certain other events that conventionally marks the end of an action.
+---@field CollapseUndoOperations fun() @Collapses all undo operation up to group index together into one step.
+---@field DestroyObjectImmediate fun() @Destroys the object and records an undo operation so that it can be recreated.
+---@field postprocessModifications fun() @Callback that is triggered whenever a new set of property modifications is created.
+---@field ClearAll fun() @Removes all undo and redo operations from  respectively the undo and redo stacks.

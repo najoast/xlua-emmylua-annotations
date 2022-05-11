@@ -1,0 +1,3 @@
+---@class DurationUnit @Describe the unit of a duration.
+---@field Fixed fun() @A fixed duration is a duration expressed in seconds.
+---@field Normalized fun() @A normalized duration is a duration expressed in percentage.

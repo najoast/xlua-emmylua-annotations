@@ -1,0 +1,9 @@
+---@class EditorTools @nil
+---@field GameObjectToolContext fun() @This class represents the default context for manipulation tools. When GameObjectToolContext is active, manipulation tools affect the transform property of GameObjects in the SceneView Selection.
+---@field EditorToolContext EditorTools.EditorToolContext @Use this class to implement specialized versions of the built-in transform tools. Built-in transform tools include Move, Rotate, Scale, Rect, and Transform.
+---@field EditorTool EditorTools.EditorTool @Use this class to implement editor tools. This is the base class from which all editor tools are inherited.
+---@field ToolManager EditorTools.ToolManager @This class manipulates editor tools in the Scene view.
+---@field IDrawSelectedHandles EditorTools.IDrawSelectedHandles @Implement this interface to draw handles when the selection contains a type targeted by an EditorTool.
+---@field EditorToolContextAttribute EditorTools.EditorToolContextAttribute @Registers an EditorToolContext as either a global context or a Component context  for a specific target type.
+---@field EditorToolAttribute EditorTools.EditorToolAttribute @Registers an EditorTool as either a Global tool or a Component tool for a specific target type.
+---@field ToolAttribute EditorTools.ToolAttribute @Base class from which EditorToolAttribute and EditorToolContextAttribute inherit.

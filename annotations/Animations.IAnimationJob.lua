@@ -1,0 +1,3 @@
+---@class Animations.IAnimationJob @The interface defining an animation job to use with an IAnimationJobPlayable.
+---@field ProcessRootMotion fun() @Defines what to do when processing the root motion.
+---@field ProcessAnimation fun() @Defines what to do when processing the animation.

@@ -1,0 +1,7 @@
+---@class Unity.Jobs.JobHandle @JobHandle.
+---@field CombineDependencies fun() @Combines multiple dependencies into a single one.
+---@field CompleteAll fun() @Ensures that all jobs have completed.
+---@field Complete fun() @Ensures that the job has completed.
+---@field IsCompleted fun() @Returns false if the task is currently running. Returns true if the task has completed.
+---@field ScheduleBatchedJobs fun() @By default jobs are only put on a local queue when using Job Schedule functions, this actually makes them available to the worker threads to execute them.
+---@field CheckFenceIsDependencyOrDidSyncFence fun() @CheckFenceIsDependencyOrDidSyncFence.

@@ -1,0 +1,4 @@
+---@class AI.NavMeshLinkInstance @An instance representing a link available for pathfinding.
+---@field Remove fun() @Removes this instance from the game.
+---@field owner fun() @Get or set the owning Object.
+---@field valid fun() @True if the NavMesh link is added to the navigation system - otherwise false (Read Only).

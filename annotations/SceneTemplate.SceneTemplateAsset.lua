@@ -1,0 +1,9 @@
+---@class SceneTemplate.SceneTemplateAsset @An Asset that stores everything required to instantiate a new Scene from a templated Scene.
+---@field templateScene fun() @The Scene that is copied when the Scene template is instantiated.
+---@field isValid fun() @Specifies whether the Scene template is valid. Invalid templates do not appear in the New Scene dialog.
+---@field templateName fun() @A user-defined name for the Scene template Asset. By default, this is the template's file name.
+---@field dependencies fun() @Lists Scene dependencies, and specifies whether to clone or reference each one.
+---@field addToDefaults fun() @Use this field to add this template to the list of default templates in the New scene dialog.
+---@field preview fun() @The Scene template's preview image or icon.
+---@field templatePipeline fun() @A script that derives from ISceneTemplatePipeline. It allows you to execute custom code when a template is instantiated.
+---@field description fun() @A description of the Scene template. This description can be long. In the Unity editor, it appears on multiple lines.

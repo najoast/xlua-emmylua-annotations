@@ -1,0 +1,3 @@
+---@class SplashScreenStyle @The style of builtin splash screen to use.
+---@field Light fun() @White background with dark logo and text.
+---@field Dark fun() @Dark background with light logo and text.

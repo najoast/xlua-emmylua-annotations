@@ -1,0 +1,4 @@
+---@class UIElements.ScrollerVisibility @Options for controlling the visibility of scroll bars in the ScrollView.
+---@field Auto fun() @Displays a scroll bar only if the content does not fit in the scroll view. Otherwise, hides the scroll bar.
+---@field AlwaysVisible fun() @The scroll bar is always visible.
+---@field Hidden fun() @The scroll bar is always hidden.

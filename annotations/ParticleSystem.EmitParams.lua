@@ -1,0 +1,26 @@
+---@class ParticleSystem.EmitParams @Script interface for Particle System emission parameters.
+---@field startLifetime fun() @Override the lifetime of particles this system emits.
+---@field velocity fun() @Override the velocity of particles this system emits.
+---@field meshIndex fun() @Set the index that specifies which Mesh to emit.
+---@field ResetAxisOfRotation fun() @Revert the axis of rotation back to the value specified in the Inspector.
+---@field startColor fun() @Override the initial color of particles this system emits.
+---@field angularVelocity fun() @Override the angular velocity of particles this system emits.
+---@field position fun() @Override the position of particles this system emits.
+---@field particle fun() @Override all the properties of particles this system emits.
+---@field randomSeed fun() @Override the random seed of particles this system emits.
+---@field ResetVelocity fun() @Revert the velocity back to the value specified in the Inspector.
+---@field applyShapeToPosition fun() @When overriding the position of particles, setting this flag to true allows you to retain the influence of the shape module.
+---@field ResetStartSize fun() @Revert the initial size back to the value specified in the Inspector.
+---@field ResetAngularVelocity fun() @Reverts angularVelocity and angularVelocity3D back to the values specified in the Inspector.
+---@field ResetStartLifetime fun() @Revert the lifetime back to the value specified in the Inspector.
+---@field ResetStartColor fun() @Revert the initial color back to the value specified in the Inspector.
+---@field ResetRotation fun() @Reverts rotation and rotation3D back to the values specified in the Inspector.
+---@field rotation3D fun() @Override the 3D rotation of particles this system emits.
+---@field startSize3D fun() @Override the initial 3D size of particles this system emits.
+---@field ResetPosition fun() @Revert the position back to the value specified in the Inspector.
+---@field ResetRandomSeed fun() @Revert the random seed back to the value specified in the Inspector.
+---@field axisOfRotation fun() @Override the axis of rotation of particles this system emits.
+---@field angularVelocity3D fun() @Override the 3D angular velocity of particles this system emits.
+---@field rotation fun() @Override the rotation of particles this system emits.
+---@field startSize fun() @Override the initial size of particles this system emits.
+---@field ResetMeshIndex fun() @Revert the Mesh selection back to the default randomized behavior.

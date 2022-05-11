@@ -1,0 +1,4 @@
+---@class Windows.Speech.DictationTopicConstraint @DictationTopicConstraint enum specifies the scenario for which a specific dictation recognizer should optimize.
+---@field Dictation fun() @Dictation recognizer will optimize for dictation scenario.
+---@field Form fun() @Dictation recognizer will optimize for form-filling scenario.
+---@field WebSearch fun() @Dictation recognizer will optimize for web search scenario.

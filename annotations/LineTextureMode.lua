@@ -1,0 +1,5 @@
+---@class LineTextureMode @Choose how textures are applied to Lines and Trails.
+---@field RepeatPerSegment fun() @Repeat the texture along the line, repeating at a rate of once per line segment. To adjust the tiling rate, use Material.SetTextureScale.
+---@field DistributePerSegment fun() @Map the texture once along the entire length of the line, assuming all vertices are evenly spaced.
+---@field Tile fun() @Repeat the texture along the line, based on its length in world units. To set the tiling rate, use Material.SetTextureScale.
+---@field Stretch fun() @Map the texture once along the entire length of the line.

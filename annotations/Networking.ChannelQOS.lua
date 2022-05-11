@@ -1,0 +1,4 @@
+---@class Networking.ChannelQOS @Defines parameters of channels.
+---@field BelongsToSharedOrderChannel fun() @Returns true if the channel belongs to a shared group.
+---@field ctor fun() @UnderlyingModel.MemDoc.MemDocModel.
+---@field QOS fun() @Channel quality of service.

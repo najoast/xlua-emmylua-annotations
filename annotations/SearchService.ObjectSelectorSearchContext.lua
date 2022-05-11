@@ -1,0 +1,10 @@
+---@class SearchService.ObjectSelectorSearchContext @A search context implementation for ObjectSelector search engines. All methods that are called on an ObjectSelector search engine, and expect a SearchService.ISearchContext, receive an object of this type.
+---@field requiredTypes fun() @An IEnumerable of types that contains the type constraints for this search.
+---@field allowedInstanceIds fun() @IEnumerable of integers that contains the instanceIds of objects that the search can include in its results.
+---@field editedObjects fun() @When the object selector is opened from an Inspector, this property indicates which objects are currently being edited.
+---@field selectorConstraint fun() @A function that, when called, indicates whether the object selector should show an item.
+---@field engineScope fun() @An enum that identifies the scope of the current search. This property is automatically set to SearchService.ObjectSelector.EngineScope.
+---@field visibleObjects fun() @Indicates which categories of objects are visible in the window. For example, GameObjects, Assets, or both.
+---@field guid fun() @A unique identifier for this search context.
+---@field requiredTypeNames fun() @An IEnumerable of strings that contains the type name constraints for this search.
+---@field currentObject fun() @Identifies the currently selected object.

@@ -1,0 +1,3 @@
+---@class Build.BuildPlayerContext @Get a BuildPlayerContext object from a Build.BuildPlayerProcessor.PrepareForBuild callback.
+---@field AddAdditionalPathToStreamingAssets fun() @Add additional streaming assets to the built player data. For example, you can include AssetBundles or other streaming assets without first putting them in the project StreamingAssets folder.
+---@field BuildPlayerOptions fun() @The player build options associated with this build.

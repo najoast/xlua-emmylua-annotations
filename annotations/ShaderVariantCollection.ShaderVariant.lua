@@ -1,0 +1,5 @@
+---@class ShaderVariantCollection.ShaderVariant @Identifies a specific variant of a shader.
+---@field keywords fun() @Array of shader keywords to use in this variant.
+---@field shader fun() @Shader to use in this variant.
+---@field passType fun() @Pass type to use in this variant.
+---@field ctor fun() @Creates a ShaderVariant structure.

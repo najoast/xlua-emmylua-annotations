@@ -1,0 +1,4 @@
+---@class Playables.PlayableAsset @A base class for assets that can be used to instantiate a Playable at runtime.
+---@field CreatePlayable fun() @Implement this method to have your asset inject playables into the given graph.
+---@field outputs fun() @A description of the outputs of the instantiated Playable.
+---@field duration fun() @The playback duration in seconds of the instantiated Playable.

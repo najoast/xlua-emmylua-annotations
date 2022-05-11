@@ -1,0 +1,15 @@
+---@class ImageConversion @This class provides utility and extension methods to convert image data from or to PNG, EXR, TGA, and JPEG formats.
+---@field EncodeArrayToEXR fun() @Encodes this array into the EXR format.
+---@field EncodeArrayToPNG fun() @Encodes this array into PNG format.
+---@field LoadImage fun() @Loads PNG/JPG (or supported format) image byte array into a texture.
+---@field EncodeToTGA fun() @Encodes the specified texture in TGA format.
+---@field EncodeToPNG fun() @Encodes this texture into PNG format.
+---@field EncodeNativeArrayToEXR fun() @Encodes this native array into the EXR format.
+---@field EncodeArrayToJPG fun() @Encodes this array into JPG format.
+---@field EnableLegacyPngGammaRuntimeLoadBehavior fun() @Enables legacy PNG runtime import behavior.
+---@field EncodeNativeArrayToTGA fun() @Encodes this native array into TGA format.
+---@field EncodeArrayToTGA fun() @Encodes this array into TGA format.
+---@field EncodeNativeArrayToPNG fun() @Encodes this native array into PNG format.
+---@field EncodeToJPG fun() @Encodes this texture into JPG format.
+---@field EncodeNativeArrayToJPG fun() @Encodes this native array into JPG format.
+---@field EncodeToEXR fun() @Encodes this texture into the EXR format.

@@ -1,0 +1,5 @@
+---@class FullScreenMovieControlMode @Describes options for displaying movie playback controls.
+---@field CancelOnInput fun() @Do not display any controls, but cancel movie playback if input occurs.
+---@field Minimal fun() @Display minimal set of controls controlling movie playback.
+---@field Full fun() @Display the standard controls for controlling movie playback.
+---@field Hidden fun() @Do not display any controls.

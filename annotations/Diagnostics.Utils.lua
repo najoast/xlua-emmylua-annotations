@@ -1,0 +1,5 @@
+---@class Diagnostics.Utils @A utility class that you can use for diagnostic purposes.
+---@field NativeWarning fun() @Manually causes a warning that outputs the specified message to the log and registers an error.
+---@field ForceCrash fun() @Manually causes an application crash in the specified category.
+---@field NativeAssert fun() @Manually causes an assert that outputs the specified message to the log and registers an error.
+---@field NativeError fun() @Manually causes a native error that outputs the specified message to the log and registers an error.

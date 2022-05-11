@@ -1,0 +1,4 @@
+---@class UIElements.DragExitedEvent @The event sent to a dragged element when the drag and drop process ends.
+---@field GetPooled fun() @Gets an event from the event pool and initializes it with the given values. Use this function instead of creating new events. Events obtained using this method need to be released back to the pool. You can use Dispose() to release them.
+---@field ctor fun() @Constructor.
+---@field Init fun() @Resets the event members to their initial values.

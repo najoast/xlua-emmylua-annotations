@@ -1,0 +1,3 @@
+---@class Playables.ScriptPlayableOutput @A IPlayableOutput implementation that contains a script output for the a PlayableGraph.
+---@field Create fun() @Creates a new ScriptPlayableOutput in the associated PlayableGraph.
+---@field Null fun() @Returns an invalid ScriptPlayableOutput.

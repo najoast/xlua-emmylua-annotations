@@ -1,0 +1,11 @@
+---@class AssetImporters.CameraDescription @Represents camera information from an imported file.
+---@field ctor fun() @Initializes and returns an instance of CameraDescription.
+---@field GetStringPropertyNames fun() @Retrieves the property names of type string for this camera.
+---@field TryGetProperty fun() @Retrieves the value of a specified camera property.
+---@field GetIntPropertyNames fun() @Retrieves the property names of type int for this camera.
+---@field TryGetAnimationCurve fun() @Retrieves the AnimationCurve for an animated camera property in a specific AnimationClip.
+---@field HasAnimationCurveInClip fun() @Checks if a camera property is animated in a specific AnimationClip.
+---@field GetVector4PropertyNames fun() @Retrieves the property names of type Vector4 for this camera.
+---@field Dispose fun() @Disposes of the CameraDescription instance. This clears any resources that the instance was using.
+---@field HasAnimationCurve fun() @Checks if a camera property is animated in a any AnimationClip.
+---@field GetFloatPropertyNames fun() @Retrieves the property names of type float for this camera.

@@ -1,0 +1,7 @@
+---@class Rendering.ShaderKeywordType @Type of a shader keyword, eg: built-in or user defined.
+---@field Plugin fun() @The keyword is created by a shader compiler plugin.
+---@field UserDefined fun() @The keyword is defined by the user.
+---@field None fun() @No type is assigned.
+---@field BuiltinExtra fun() @The keyword is built-in the runtime and it is optionally reserved depending on the features used.
+---@field BuiltinAutoStripped fun() @The keyword is built-in the runtime and can be automatically stripped if unusued.
+---@field BuiltinDefault fun() @The keyword is built-in the runtime and it is systematically reserved.

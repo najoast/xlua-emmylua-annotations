@@ -1,0 +1,3 @@
+---@class PackageManager.Events @An Interface for accessing the package manager events.
+---@field registeringPackages fun() @Event raised before applying changes to the registered packages list.
+---@field registeredPackages fun() @Event raised after applying changes to the registered packages list.

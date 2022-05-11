@@ -1,0 +1,74 @@
+---@class TerrainData @The TerrainData class stores heightmaps, detail mesh positions, tree instances, and terrain texture alpha maps.
+---@field wavingGrassAmount fun() @Amount of waving grass in the terrain.
+---@field GetInterpolatedHeight fun() @Gets an interpolated height at a point x,y. The x and y coordinates are clamped to [0, 1].
+---@field detailResolutionPerPatch fun() @Detail Resolution of each patch. A larger value will decrease the number of batches used by detail objects.
+---@field wavingGrassSpeed fun() @Speed of the waving grass.
+---@field heightmapResolution fun() @The size of the heightmap in texels for either the width or the height.
+---@field alphamapResolution fun() @The size of the alpha map in texels for either the width or the height.
+---@field treeInstanceCount fun() @Returns the number of tree instances.
+---@field heightmapHeight fun() @Height of the terrain in samples (Read Only).
+---@field bounds fun() @The local bounding box of the TerrainData object.
+---@field baseMapResolution fun() @Resolution of the base map used for rendering far patches on the terrain.
+---@field alphamapHeight fun() @Height of the alpha map. (Read only.)
+---@field DirtyHeightmapRegion fun() @Marks the specified part of the heightmap as dirty.
+---@field OverrideMinMaxPatchHeights fun() @Override the minimum and maximum patch heights for every renderable terrain patch.  Note that the overriden values get reset when the terrain resolution is changed and stays unchanged when the terrain heightmap is painted or changed via script.
+---@field wavingGrassStrength fun() @Strength of the waving grass in the terrain.
+---@field OverrideMaximumHeightError fun() @Override the maximum tessellation height error with user provided values.  Note that the overriden values get reset when the terrain resolution is changed and stays unchanged when the terrain heightmap is painted or changed via script.
+---@field GetDetailLayer fun() @Returns a 2D array of the detail object density (i.e. the number of detail objects for this layer) in the specific location.
+---@field SetHeights fun() @Sets an array of heightmap samples.
+---@field detailResolution fun() @Detail Resolution of the TerrainData.
+---@field heightmapTexture fun() @Returns the heightmap texture.
+---@field splatPrototypes fun() @Splat texture used by the terrain.
+---@field size fun() @The total size in world units of the terrain.
+---@field alphamapWidth fun() @Width of the alpha map.
+---@field CopyActiveRenderTextureToTexture fun() @Copies the specified part of the active RenderTexture to the Terrain texture.
+---@field GetMaximumHeightError fun() @Returns an array of tesselation maximum height error values per renderable terrain patch.  The returned array can be modified and passed to OverrideMaximumHeightError.
+---@field SetHolesDelayLOD fun() @Sets an array of Terrain holes samples.
+---@field wavingGrassTint fun() @Color of the waving grass that the terrain has.
+---@field SetHoles fun() @Sets an array of Terrain holes samples.
+---@field GetClampedDetailPatches fun() @Returns an array of detail patches, which are each identified by X-Z coordinates. Detail objects in the patches are clamped to the maximum count.
+---@field GetHoles fun() @Gets an array of Terrain holes samples.
+---@field terrainLayers fun() @Retrieves the terrain layers used by the current terrain.
+---@field treePrototypes fun() @The list of tree prototypes this are the ones available in the inspector.
+---@field treeInstances fun() @Contains the current trees placed in the terrain.
+---@field SetTreeInstances fun() @Sets the Tree Instance array, and optionally snaps Trees onto the surface of the Terrain heightmap.
+---@field ComputeDetailInstanceTransforms fun() @This function computes and returns an array of detail object transforms for the specified patch and the specified prototype. You can use this function to retrieve the exact same transform data the Unity engine uses for detail rendering.
+---@field alphamapLayers fun() @Number of alpha map layers.
+---@field heightmapScale fun() @Returns a Vector3 where the x and z components are the size of each heightmap sample (i.e. the space between two neighboring heightmap samples), and the y component is the entire Terrain's height range in world space.
+---@field SetDetailResolution fun() @Sets the resolution of the detail map.
+---@field holesResolution fun() @Returns the Terrain holes resolution for both the data and the Texture.
+---@field GetAlphamaps fun() @Returns the alpha map at a position x, y given a width and height.
+---@field GetHeights fun() @Gets an array of heightmap samples.
+---@field detailPrototypes fun() @Contains the detail texture/meshes that the Terrain has.
+---@field SetAlphamaps fun() @Assign all splat values in the given map area.
+---@field UpdateDirtyRegion fun() @Triggers an update to integrate modifications done to the heightmap outside of unity.
+---@field GetSteepness fun() @Gets the gradient of the terrain at point (x,y).
+---@field alphamapTextures fun() @Alpha map textures used by the Terrain. Used by Terrain Inspector for undo.
+---@field SetTerrainLayersRegisterUndo fun() @This function sets the terrainLayers property, and in addition, registers the action to the Editor's undo stack.
+---@field SetTreeInstance fun() @Sets the tree instance with new parameters at the specified index. However, you cannot change TreeInstance.prototypeIndex and TreeInstance.position. If you change them, the method throws an ArgumentException.
+---@field detailWidth fun() @The resolution of the detail data stored in TerrainData.
+---@field SyncHeightmap fun() @Performs synchronization queued by previous calls to CopyActiveRenderTextureToHeightmap and DirtyHeightmapRegion, which makes the height data and LOD data used for tessellation up to date.
+---@field detailPatchCount fun() @The number of patches along a terrain tile edge. This is squared to make a grid of patches.
+---@field SetHeightsDelayLOD fun() @Sets an array of heightmap samples.
+---@field heightmapWidth fun() @Width of the terrain in samples (Read Only).
+---@field thickness fun() @The thickness of the terrain used for collision detection.
+---@field DirtyTextureRegion fun() @Marks the specified part of the Terrain texture as dirty.
+---@field GetAlphamapTexture fun() @Returns the alphamap texture at the specified index.
+---@field SetDetailLayer fun() @Sets the detail layer density map.
+---@field GetSupportedLayers fun() @Returns an array of all supported detail layer indices in the area.
+---@field detailHeight fun() @The resolution of the detail data stored in TerrainData.
+---@field alphamapTextureCount fun() @Returns the number of alphamap textures.
+---@field GetPatchMinMaxHeights fun() @Returns an array of min max height values for all the renderable patches in a terrain.  The returned array can be modified and then passed to OverrideMinMaxPatchHeights.
+---@field GetHeight fun() @Gets the world space height of the Terrain at a certain point x,y without adding the Terrain's world position y.
+---@field CopyActiveRenderTextureToHeightmap fun() @Copies the specified part of the active RenderTexture to the Terrain heightmap texture.
+---@field holesTexture fun() @Returns the Terrain holes Texture.
+---@field AlphamapTextureName fun() @The name for the Terrain alpha map textures.
+---@field RefreshPrototypes fun() @Reloads all the values of the available prototypes (ie, detail mesh assets) in the TerrainData Object.
+---@field SetBaseMapDirty fun() @Marks the terrain data as dirty to trigger an update of the terrain basemap texture.
+---@field IsHole fun() @Gets whether a certain point at x,y is a hole.
+---@field HolesTextureName fun() @The name for the Terrain holes Texture.
+---@field GetTreeInstance fun() @Gets the tree instance at the specified index. It is used as a faster version of treeInstances[index] as this function doesn't create the entire tree instances array.
+---@field SyncTexture fun() @Performs synchronization queued by previous calls to CopyActiveRenderTextureToTexture and DirtyTextureRegion, which makes CPU data of the Terrain textures up to date.
+---@field enableHolesTextureCompression fun() @Enable the Terrain holes Texture compression.
+---@field GetInterpolatedNormal fun() @Get an interpolated normal at a given location.
+---@field GetInterpolatedHeights fun() @Gets an array of terrain height values using the normalized x,y coordinates.

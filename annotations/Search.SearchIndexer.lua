@@ -1,0 +1,26 @@
+---@class Search.SearchIndexer @Base class for a document Indexer which provides methods for retrieving a document given a specific pattern in roughly log(n). This allows you to search a large index more quickly.
+---@field documentCount fun() @Returns the number of documents in the index.
+---@field ctor fun() @Creates a new default SearchIndexer.
+---@field AddDocument fun() @Adds a new document to be indexed.
+---@field Read fun() @Reads a stream and populates the index from it.
+---@field IsReady fun() @Indicates if the index is fully built, up to date, and ready for search.
+---@field skipEntryHandler fun() @Handler used to skip entries.
+---@field AddExactWord fun() @Adds a new word coming from a document to the index. The word is added with multiple variations allowing partial search.
+---@field GetMetaInfo fun() @Get metadata of a specific document.
+---@field IndexDocument fun() @Function to override in a concrete SearchIndexer to index the content of a document.
+---@field resolveDocumentHandler fun() @Handler used to resolve a document ID to some other data string.
+---@field SkipEntry fun() @Called when the index is built to see if a specified document needs to be indexed. See SearchIndexer.skipEntryHandler.
+---@field GetDocument fun() @Returns a search document by its index.
+---@field Start fun() @Starts indexing entries.
+---@field SetMetaInfo fun() @Set arbiraty metadata on a specific document.
+---@field keywordCount fun() @Returns the number keywords in the index.
+---@field AddNumber fun() @Adds a key-number value pair to the index. The key won't be added with variations.
+---@field SaveBytes fun() @Get the bytes representation of this index. See SearchIndexer.Write.
+---@field AddWord fun() @Adds a new word coming from a document to the index. The word is added with multiple variations allowing partial search.
+---@field name fun() @Name of the index. Generally this name is set by a user from SearchDatabase.Settings.
+---@field LoadBytes fun() @Loads the index asynchronously (in another thread) from a binary buffer.
+---@field Search fun() @Runs a search query in the index.
+---@field minWordIndexationLength fun() @Minimal indexed word size. Default is 2.
+---@field Write fun() @Writes a binary representation of the index on a stream.
+---@field AddProperty fun() @Adds a property value to the index. A property is specified with a key and a string value. The value will be stored with multiple variations.
+---@field Finish fun() @Finalizes the current index, sorting and compiling of all the indexes.

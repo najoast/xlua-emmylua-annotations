@@ -1,0 +1,76 @@
+---@class TextureImporterFormat @Imported texture format for TextureImporter.
+---@field RHalf fun() @RHalf half-precision floating point texture format.
+---@field RGFloat fun() @RGFloat floating point texture format.
+---@field ETC_RGB4Crunched fun() @ETC_RGB4 compressed texture format using Crunch compression for smaller storage sizes.
+---@field PVRTC_RGBA2 fun() @PowerVR/iOS PVRTC_RGBA2 compressed texture format.
+---@field ASTC_12x12 fun() @ASTC compressed RGB(A) texture format, 12x12 block size.
+---@field RGHalf fun() @RGHalf half-precision floating point texture format.
+---@field AutomaticHDR fun() @Choose an HDR format automatically.
+---@field ASTC_RGBA_4x4 fun() @ASTC compressed RGBA texture format, 4x4 block size.
+---@field PVRTC_RGB4 fun() @PowerVR/iOS PVRTC_RGB4 compressed texture format.
+---@field ETC_RGB4_3DS fun() @ETC (Nintendo 3DS) 4 bits/pixel compressed RGB texture format.
+---@field RGBAHalf fun() @RGBAHalf half-precision floating point texture format.
+---@field BC6H fun() @BC6H compressed HDR texture format.
+---@field ASTC_RGB_8x8 fun() @ASTC compressed RGB texture format, 8x8 block size.
+---@field ASTC_RGB_12x12 fun() @ASTC compressed RGB texture format, 12x12 block size.
+---@field ETC2_RGB4_PUNCHTHROUGH_ALPHA fun() @ETC2 compressed 4 bits / pixel RGB + 1-bit alpha texture format.
+---@field DXT5Crunched fun() @DXT5 (BC3) compressed texture format using Crunch compression for smaller storage sizes.
+---@field EAC_RG_SIGNED fun() @ETC2/EAC compressed 4 bits / pixel signed RG texture format.
+---@field AutomaticCrunched fun() @Choose a crunched format automatically.
+---@field ASTC_HDR_12x12 fun() @ASTC compressed RGB(A) HDR texture format, 12x12 block size.
+---@field ASTC_RGB_5x5 fun() @ASTC compressed RGB texture format, 5x5 block size.
+---@field ASTC_HDR_4x4 fun() @ASTC compressed RGB(A) HDR texture format, 4x4 block size.
+---@field DXT1Crunched fun() @DXT1 (BC1) compressed texture format using Crunch compression for smaller storage sizes.
+---@field Automatic fun() @Choose texture format automatically based on the texture parameters.
+---@field EAC_R_SIGNED fun() @ETC2/EAC compressed 4 bits / pixel signed R texture format.
+---@field PVRTC_RGB2 fun() @PowerVR/iOS PVRTC_RGB2 compressed texture format.
+---@field Automatic16bit fun() @Choose a 16 bit format automatically.
+---@field ASTC_RGB_10x10 fun() @ASTC compressed RGB texture format, 10x10 block size.
+---@field RGBAFloat fun() @RGBAFloat floating point RGBA texture format.
+---@field RGBA32 fun() @RGBA32 texture format.
+---@field ASTC_RGBA_8x8 fun() @ASTC compressed RGBA texture format, 8x8 block size.
+---@field ASTC_RGB_6x6 fun() @ASTC compressed RGB texture format, 6x6 block size.
+---@field AutomaticCompressed fun() @Choose a compressed format automatically.
+---@field ETC2_RGBA8Crunched fun() @ETC2_RGBA8 compressed color with alpha channel texture format using Crunch compression for smaller storage sizes.
+---@field BC5 fun() @BC5 compressed texture format.
+---@field DXT5 fun() @DXT5 (BC3) compressed texture format.
+---@field ASTC_HDR_8x8 fun() @ASTC compressed RGB(A) HDR texture format, 8x8 block size.
+---@field AutomaticTruecolor fun() @Choose a Truecolor format automatically.
+---@field BC4 fun() @BC4 compressed texture format.
+---@field ASTC_RGBA_12x12 fun() @ASTC compressed RGBA texture format, 12x12 block size.
+---@field RFloat fun() @RFloat floating point texture format.
+---@field BC7 fun() @BC7 compressed texture format.
+---@field EAC_R fun() @ETC2/EAC compressed 4 bits / pixel unsigned R texture format.
+---@field ASTC_HDR_5x5 fun() @ASTC compressed RGB(A) HDR texture format, 5x5 block size.
+---@field ASTC_RGBA_6x6 fun() @ASTC compressed RGBA texture format, 6x6 block size.
+---@field ASTC_RGBA_10x10 fun() @ASTC compressed RGBA texture format, 10x10 block size.
+---@field RGBA64 fun() @RGBA64 texture format.
+---@field RGB24 fun() @RGB24 texture format.
+---@field ASTC_RGBA_5x5 fun() @ASTC compressed RGBA texture format, 5x5 block size.
+---@field RGB16 fun() @RGB565 texture format.
+---@field RGBA16 fun() @RGBA4444 texture format.
+---@field RGB9E5 fun() @TextureFormat.RGB9e5Float packed unsigned floating point texture format with shared exponent.
+---@field RGB48 fun() @RGB48 texture format.
+---@field RG32 fun() @RG32 texture format.
+---@field ARGB16 fun() @ARGB4444 texture format.
+---@field ASTC_10x10 fun() @ASTC compressed RGB(A) texture format, 10x10 block size.
+---@field DXT1 fun() @DXT1 (BC1) compressed texture format.
+---@field ASTC_8x8 fun() @ASTC compressed RGB(A) texture format, 8x8 block size.
+---@field RG16 fun() @RG16 texture format.
+---@field R8 fun() @R8 texture format.
+---@field ASTC_4x4 fun() @ASTC compressed RGB(A) texture format, 4x4 block size.
+---@field ASTC_HDR_6x6 fun() @ASTC compressed RGB(A) HDR texture format, 6x6 block size.
+---@field ASTC_RGB_4x4 fun() @ASTC compressed RGB texture format, 4x4 block size.
+---@field ETC2_RGBA8 fun() @ETC2 compressed 8 bits / pixel RGBA texture format.
+---@field ASTC_5x5 fun() @ASTC compressed RGB(A) texture format, 5x5 block size.
+---@field AutomaticCompressedHDR fun() @Choose a compressed HDR format automatically.
+---@field ASTC_6x6 fun() @ASTC compressed RGB(A) texture format, 6x6 block size.
+---@field ASTC_HDR_10x10 fun() @ASTC compressed RGB(A) HDR texture format, 10x10 block size.
+---@field EAC_RG fun() @ETC2/EAC compressed 8 bits / pixel unsigned RG texture format.
+---@field ETC2_RGB4 fun() @ETC2 compressed 4 bits / pixel RGB texture format.
+---@field R16 fun() @R16 texture format.
+---@field PVRTC_RGBA4 fun() @PowerVR/iOS PVRTC_RGBA4 compressed texture format.
+---@field ETC_RGBA8_3DS fun() @ETC (Nintendo 3DS) 8 bits/pixel compressed RGBA texture format.
+---@field ETC_RGB4 fun() @ETC (GLES2.0) 4 bits/pixel compressed RGB texture format.
+---@field Alpha8 fun() @Alpha8 texture format.
+---@field ARGB32 fun() @ARGB32 texture format.

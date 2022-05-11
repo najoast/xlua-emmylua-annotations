@@ -1,0 +1,3 @@
+---@class ClipAnimationInfoCurve @Stores a curve and its name that will be used to create additionnal curves during the import process.
+---@field curve fun() @The animation curve.
+---@field name fun() @The name of the animation curve.

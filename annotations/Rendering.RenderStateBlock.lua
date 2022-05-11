@@ -1,0 +1,8 @@
+---@class Rendering.RenderStateBlock @A set of values that Unity uses to override the GPU's render state.
+---@field mask fun() @Specifies which parts of the GPU's render state to override.
+---@field ctor fun() @Creates a new render state block with the specified mask.
+---@field blendState fun() @Specifies the new blend state.
+---@field stencilState fun() @Specifies the new stencil state.
+---@field rasterState fun() @Specifies the new raster state.
+---@field depthState fun() @Specifies the new depth state.
+---@field stencilReference fun() @The value to be compared against and/or the value to be written to the buffer, based on the stencil state.

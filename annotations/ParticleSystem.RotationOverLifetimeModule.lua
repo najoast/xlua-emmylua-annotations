@@ -1,0 +1,9 @@
+---@class ParticleSystem.RotationOverLifetimeModule @Script interface for the RotationOverLifetimeModule.
+---@field xMultiplier fun() @Rotation multiplier around the x-axis.
+---@field x fun() @Rotation over lifetime curve for the x-axis.
+---@field zMultiplier fun() @Rotation multiplier around the z-axis.
+---@field enabled fun() @Specifies whether the RotationOverLifetimeModule is enabled or disabled.
+---@field separateAxes fun() @Set the rotation over lifetime on each axis separately.
+---@field z fun() @Rotation over lifetime curve for the z-axis.
+---@field yMultiplier fun() @Rotation multiplier around the y-axis.
+---@field y fun() @Rotation over lifetime curve for the y-axis.

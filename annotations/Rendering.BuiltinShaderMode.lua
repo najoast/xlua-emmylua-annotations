@@ -1,0 +1,4 @@
+---@class Rendering.BuiltinShaderMode @Built-in shader modes used by Rendering.GraphicsSettings.
+---@field UseBuiltin fun() @Use built-in shader (default).
+---@field UseCustom fun() @Use custom shader instead of built-in one.
+---@field Disabled fun() @Don't use any shader, effectively disabling the functionality.

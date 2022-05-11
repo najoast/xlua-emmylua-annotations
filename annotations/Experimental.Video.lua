@@ -1,0 +1,3 @@
+---@class Experimental.Video @nil
+---@field VideoClipPlayable Experimental.Video.VideoClipPlayable @An implementation of IPlayable that controls playback of a VideoClip.
+---@field VideoPlayerExtensions Experimental.Video.VideoPlayerExtensions @Extension methods for the Video.VideoPlayer class.

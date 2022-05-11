@@ -1,0 +1,20 @@
+---@class UIElements.BaseSlider_1 @This is a base class for the Slider fields.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field draggerUssClassName fun() @USS class name of dragger elements in elements of this type.
+---@field lowValue fun() @This is the minimum value that the slider encodes.
+---@field AdjustDragElement fun() @Method used to adjust the dragelement. Mainly used in a scroller.
+---@field verticalVariantUssClassName fun() @USS class name of elements of this type, when they are displayed vertically.
+---@field trackerUssClassName fun() @USS class name of tracker elements in elements of this type.
+---@field pageSize fun() @This is a generic page size used to change the value when clicking in the slider.
+---@field direction fun() @This is the actual property to contain the direction of the slider.
+---@field horizontalVariantUssClassName fun() @USS class name of elements of this type, when they are displayed horizontally.
+---@field highValue fun() @This is the maximum value that the slider encodes.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field textFieldClassName fun() @USS class name of the text field element in elements of this type.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field dragContainerUssClassName fun() @USS class name of container elements in elements of this type.
+---@field range fun() @This is the range from the minimum value to the maximum value of the slider.
+---@field value fun() @The actual value of the slider.
+---@field draggerBorderUssClassName fun() @USS class name of the dragger border element in elements of this type.
+---@field inverted fun() @This indicates whether or not this slider is inverted. For an inverted horizontal slider, high value is located to the left, low value is located to the right For an inverted vertical slider, high value is located to the bottom, low value is located to the top.
+---@field showInputField fun() @The visibility of the optional field inside the slider control.

@@ -1,0 +1,7 @@
+---@class MobileTextureSubtarget @Compressed texture format for target build platform.
+---@field ASTC fun() @ASTC texture compression.
+---@field DXT fun() @S3 texture compression. Supported on devices with NVidia Tegra, Vivante and Intel GPUs.
+---@field ETC fun() @ETC1 texture compression (or ETC2 for textures with alpha). ETC1 is supported by all devices. ETC2 is available on devices which support OpenGL ES 3.0; on OpenGL ES 2 devices the texture is decompressed on CPU.
+---@field PVRTC fun() @PowerVR texture compression. Available on devices with PowerVR GPU.
+---@field Generic fun() @Don't override texture compression.
+---@field ETC2 fun() @ETC2 texture compression. Available on devices which support OpenGL ES 3.0; on OpenGL ES 2 devices the texture is decompressed on CPU.

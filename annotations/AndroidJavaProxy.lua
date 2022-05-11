@@ -1,0 +1,7 @@
+---@class AndroidJavaProxy @This class can be used to implement any java interface. Any java vm method invocation matching the interface on the proxy object will automatically be passed to the c# implementation.
+---@field toString fun() @The equivalent of the java.lang.Object toString() method.
+---@field javaInterface fun() @Java interface implemented by the proxy.
+---@field ctor fun() @
+---@field Invoke fun() @Called by the java vm whenever a method is invoked on the java proxy interface. You can override this to run special code on method invokation, or you can leave the implementation as is, and leave the default behavior which is to look for c# methods matching the signature of the java method.
+---@field hashCode fun() @The equivalent of the java.lang.Object hashCode() method.
+---@field equals fun() @The equivalent of the java.lang.Object equals() method.

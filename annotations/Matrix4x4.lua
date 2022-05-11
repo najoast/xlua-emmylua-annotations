@@ -1,0 +1,33 @@
+---@class Matrix4x4 @A standard 4x4 transformation matrix.
+---@field Frustum fun() @This function returns a projection matrix with viewing frustum that has a near plane defined by the coordinates that were passed in.
+---@field ValidTRS fun() @Checks if this matrix is a valid transform matrix.
+---@field Ortho fun() @Create an orthogonal projection matrix.
+---@field MultiplyPoint3x4 fun() @Transforms a position by this matrix (fast).
+---@field GetColumn fun() @Get a column of the matrix.
+---@field transpose fun() @Returns the transpose of this matrix (Read Only).
+---@field TRS fun() @Creates a translation, rotation and scaling matrix.
+---@field Translate fun() @Creates a translation matrix.
+---@field LookAt fun() @Create a look at matrix.
+---@field determinant fun() @The determinant of the matrix. (Read Only)
+---@field TransformPlane fun() @Returns a plane that is transformed in space.
+---@field MultiplyPoint fun() @Transforms a position by this matrix (generic).
+---@field GetPosition fun() @Get position vector from the matrix.
+---@field Inverse3DAffine fun() @Computes the inverse of a 3D affine matrix.
+---@field inverse fun() @The inverse of this matrix. (Read Only)
+---@field ToString fun() @Returns a formatted string for this matrix.
+---@field identity fun() @Returns the identity matrix (Read Only).
+---@field Index_operator fun() @Access element at [row, column].
+---@field zero fun() @Returns a matrix with all elements set to zero (Read Only).
+---@field SetTRS fun() @Sets this matrix to a translation, rotation and scaling matrix.
+---@field SetRow fun() @Sets a row of the matrix.
+---@field SetColumn fun() @Sets a column of the matrix.
+---@field decomposeProjection fun() @This property takes a projection matrix and returns the six plane coordinates that define a projection frustum.
+---@field GetRow fun() @Returns a row of the matrix.
+---@field lossyScale fun() @Attempts to get a scale value from the matrix. (Read Only)
+---@field Rotate fun() @Creates a rotation matrix.
+---@field operator_multiply fun() @Multiplies two matrices.
+---@field isIdentity fun() @Checks whether this is an identity matrix. (Read Only)
+---@field Perspective fun() @Create a perspective projection matrix.
+---@field rotation fun() @Attempts to get a rotation quaternion from this matrix.
+---@field MultiplyVector fun() @Transforms a direction by this matrix.
+---@field Scale fun() @Creates a scaling matrix.

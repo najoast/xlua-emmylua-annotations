@@ -1,0 +1,3 @@
+---@class TextClipping @Different methods for how the GUI system handles text being too large to fit the rectangle allocated.
+---@field Clip fun() @Text gets clipped to be inside the element.
+---@field Overflow fun() @Text flows freely outside the element.

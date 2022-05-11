@@ -1,0 +1,14 @@
+---@class GlobalObjectId @Struct providing an API for stable, project-global object identifiers.
+---@field targetObjectId fun() @The local file ID of the object.
+---@field TryParse fun() @Parses the string representation of a GlobalObjectId into a GlobalObjectId struct.
+---@field targetPrefabId fun() @The prefab instance id of the object.
+---@field assetGUID fun() @The GUID for the asset to which this object belongs.
+---@field GlobalObjectIdentifiersToInstanceIDsSlow fun() @Creates an array of InstanceIDs based on an array of GlobalObjectIds.
+---@field ToString fun() @Get the string representation of the GlobalObjectId.
+---@field GlobalObjectIdentifierToInstanceIDSlow fun() @Converts a GlobalObjectId to an InstanceID.
+---@field GetGlobalObjectIdSlow fun() @Converts an Object reference or InstanceID to a GlobalObjectId.
+---@field GlobalObjectIdentifierToObjectSlow fun() @Converts a GlobalObjectId to an Object reference.
+---@field GlobalObjectIdentifiersToObjectsSlow fun() @Creates an array of Objects based on an array of GlobalObjectIds.
+---@field GetGlobalObjectIdsSlow fun() @Creates an array of GlobalObjectIds based on an array of Objects or InstanceIDs.
+---@field Equals fun() @Check equality between two GlobalObjectIds.
+---@field identifierType fun() @The identifier type represented as an integer.

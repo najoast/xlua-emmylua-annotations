@@ -1,0 +1,12 @@
+---@class PackageManager.Client @Use the Unity Package Manager Client class to manage the packages used in a project.
+---@field Resolve fun() @Forces the Package Manager to resolve the project's packages, reinstalling any altered or missing package and removing extraneous packages.
+---@field LogLevel fun() @Gets or sets the log level that the Package Manager uses when logging to the Editor.log and upm.log files. Defaults to LogLevel.Info.
+---@field Remove fun() @Removes a package dependency from the project. Removing a dependency often leads to changing installed packages, but only after the Package Manager constructs a dependency graph to solve any version conflicts. For more information, see Dependency and resolution.
+---@field SearchAll fun() @Searches the Unity package registry for all packages compatible with the current Unity version.
+---@field List fun() @Lists the packages the project depends on.
+---@field Pack fun() @Creates a GZip tarball file from a package folder. The format and content of the file is the same as if the package was published to a package registry.
+---@field Search fun() @Searches the Unity package registry for the given package.
+---@field AddAndRemove fun() @Adds package dependencies to the project and removes package dependencies from the project. Requesting different dependencies often leads to changing installed packages, but only after the Package Manager constructs a dependency graph to solve any version conflicts. For more information, see Dependency and resolution.                                Calling this function is much more efficient than calling the Add and Remove functions several times because for this function, the Package Manager only has to solve the dependency list once, instead of constructing a new dependency graph after each call.
+---@field Add fun() @Adds a package dependency to the project. Requesting a new or different dependency often leads to changing installed packages, but only after the Package Manager constructs a dependency graph to solve any version conflicts. For more information, see Dependency and resolution.
+---@field ResetToEditorDefaults fun() @Resets the list of packages installed for this project to the editor's default configuration. This operation clears all packages added to the project and keeps only the packages set for the current editor's default configuration.
+---@field Embed fun() @Embeds a package inside the project.

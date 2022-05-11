@@ -1,0 +1,3 @@
+---@class SceneManagement.SceneUtility @Scene and Build Settings related utilities.
+---@field GetBuildIndexByScenePath fun() @Get the build index from a Scene path.
+---@field GetScenePathByBuildIndex fun() @Get the Scene path from a build index.

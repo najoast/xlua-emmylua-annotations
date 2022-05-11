@@ -1,0 +1,3 @@
+---@class Networking.DownloadHandlerFile @Download handler for saving the downloaded data to file.
+---@field removeFileOnAbort fun() @Should the created file be removed if download is aborted (manually or due to an error). Default: false.
+---@field ctor fun() @Creates a new instance and a file on disk where downloaded data will be written to.

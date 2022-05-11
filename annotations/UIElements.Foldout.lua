@@ -1,0 +1,14 @@
+---@class UIElements.Foldout @A Foldout control is a collapsible section of a user interface. When toggled, it expands or collapses, which hides or reveals the elements it contains.
+---@field inputUssClassName fun() @The USS class name for the Label element in a Foldout.
+---@field ctor fun() @Constructs a Foldout element.
+---@field ussClassName fun() @The USS class name for Foldout elements.
+---@field checkmarkUssClassName fun() @The USS class name for the Label element in a Foldout.
+---@field UxmlTraits UIElements.Foldout.UxmlTraits @Defines UxmlTraits for the Foldout.
+---@field UxmlFactory fun() @Instantiates a Foldout using the data from a UXML file.
+---@field contentContainer fun() @This element contains the elements that are shown or hidden when you toggle the Foldout.
+---@field value fun() @This is the state of the Foldout's toggle. It is true if the Foldout is open and its contents are visible, and false if the Foldout is closed, and its contents are hidden.
+---@field SetValueWithoutNotify fun() @Sets the value of the Foldout's Toggle sub-element, but does not notify the rest of the hierarchy of the change.
+---@field text fun() @This is the text of the toggle's label.
+---@field contentUssClassName fun() @The USS class name for the content element in a Foldout.
+---@field toggleUssClassName fun() @The USS class name of Toggle sub-elements in Foldout elements.
+---@field textUssClassName fun() @The USS class name for the Label element in a Foldout.

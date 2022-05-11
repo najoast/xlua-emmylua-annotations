@@ -1,0 +1,14 @@
+---@class UIElements.SearchFieldBase_2 @The base class for a search field.
+---@field textUssClassName fun() @USS class name of text elements in elements of this type.
+---@field searchButtonUssClassName fun() @USS class name of search buttons in elements of this type.
+---@field SetValueWithoutNotify fun() @Sets the value for the toolbar search field without sending a change event.
+---@field textInputField fun() @The text field used by the search field to draw and modify the search string.
+---@field popupVariantUssClassName fun() @USS class name of elements of this type, when they are using a popup menu.
+---@field cancelButtonUssClassName fun() @USS class name of cancel buttons in elements of this type.
+---@field searchButton fun() @The search button.
+---@field cancelButtonOffVariantUssClassName fun() @USS class name of cancel buttons in elements of this type, when they are off.
+---@field FieldIsEmpty fun() @Tells if the field is empty. That meaning depends on the type of T.
+---@field textInputUssClassName fun() @USS class name of text input elements in elements of this type.
+---@field value fun() @The object currently being exposed by the field.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field ClearTextField fun() @Method used when clearing the text field. You should usually clear the value when overriding the method.

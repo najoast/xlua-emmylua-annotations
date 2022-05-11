@@ -1,0 +1,4 @@
+---@class MotionVectorGenerationMode @The type of motion vectors that should be generated.
+---@field ForceNoMotion fun() @Do not track motion. Motion vectors will be 0.
+---@field Object fun() @Use a specific pass (if required) to track motion.
+---@field Camera fun() @Use only camera movement to track motion.

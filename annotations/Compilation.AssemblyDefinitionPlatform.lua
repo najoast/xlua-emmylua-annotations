@@ -1,0 +1,4 @@
+---@class Compilation.AssemblyDefinitionPlatform @Contains information about a platform supported by the assembly definition files.
+---@field BuildTarget fun() @BuildTarget for the AssemblyDefinitionPlatform.
+---@field DisplayName fun() @Display name for the platform.
+---@field Name fun() @Name used in assembly definition files.

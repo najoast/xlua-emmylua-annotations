@@ -1,0 +1,4 @@
+---@class AI.NavMeshPathStatus @Status of path.
+---@field PathComplete fun() @The path terminates at the destination.
+---@field PathInvalid fun() @The path is invalid.
+---@field PathPartial fun() @The path cannot reach the destination.

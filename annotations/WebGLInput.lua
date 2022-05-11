@@ -1,0 +1,2 @@
+---@class WebGLInput @WebGLInput provides support for WebGL-specific functionalities.
+---@field captureAllKeyboardInput fun() @Capture all keyboard inputs.

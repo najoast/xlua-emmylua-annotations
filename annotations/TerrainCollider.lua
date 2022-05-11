@@ -1,0 +1,2 @@
+---@class TerrainCollider @A heightmap based collider.
+---@field terrainData fun() @The terrain that stores the heightmap.

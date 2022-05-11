@@ -1,0 +1,6 @@
+---@class AnimationUtility.TangentMode @Tangent constraints on Keyframe.
+---@field Free fun() @The tangent can be freely set by dragging the tangent handle.
+---@field ClampedAuto fun() @The tangents are automatically set to make the curve go smoothly through the key.
+---@field Auto fun() @The tangents are automatically set to make the curve go smoothly through the key.
+---@field Constant fun() @The curve retains a constant value between two keys.
+---@field Linear fun() @The tangent points towards the neighboring key.

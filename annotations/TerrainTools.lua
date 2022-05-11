@@ -1,0 +1,15 @@
+---@class TerrainTools @nil
+---@field BrushGUIEditFlags TerrainTools.BrushGUIEditFlags @Flags that specify which brush controls the [IOnInspectorGUI.ShowBrushesGUI] method displays.
+---@field TerrainBuiltinPaintMaterialPasses TerrainTools.TerrainBuiltinPaintMaterialPasses @Built-in render passes for paint material.
+---@field TerrainPaintTool_1 TerrainTools.TerrainPaintTool_1 @Base class for terrain painting tools.
+---@field IOnSceneGUI TerrainTools.IOnSceneGUI @Interface that provides parameters and utility functions for the OnSceneGUI event of the terrain paint tools.
+---@field PaintContext TerrainTools.PaintContext @The context for a paint operation that may span multiple connected Terrain tiles.
+---@field TerrainPaintUtilityEditor TerrainTools.TerrainPaintUtilityEditor @Terrain paint utility editor helper functions.
+---@field TerrainPaintUtility TerrainTools.TerrainPaintUtility @A set of utility functions for custom terrain paint tools.
+---@field TerrainInspectorUtility TerrainTools.TerrainInspectorUtility @Utility class for Terrain Inspector GUI.
+---@field TerrainBrushPreviewMode TerrainTools.TerrainBrushPreviewMode @Enum to specify whether DrawBrushPreview previews the source render texture or the destination render texture of a PaintContext.
+---@field RepaintFlags TerrainTools.RepaintFlags @Flags that indicate what to repaint on the Terrain tools.
+---@field TerrainToolShortcutContext TerrainTools.TerrainToolShortcutContext @The shortcut context that is active while editing Terrain.
+---@field IOnInspectorGUI TerrainTools.IOnInspectorGUI @Interface that provides parameters and utility functions for the OnInspectorGUI event in the terrain paint tools.
+---@field IOnPaint TerrainTools.IOnPaint @Interface that provides parameters and utility functions for the OnPaint event of the terrain paint tools.
+---@field BrushTransform TerrainTools.BrushTransform @Represents a linear 2D transformation between brush UV space and a target XY space (typically this is a Terrain-local object space.)

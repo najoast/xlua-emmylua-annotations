@@ -1,0 +1,19 @@
+---@class ParticleSystem.SubEmittersModule @Script interface for the SubEmittersModule.
+---@field birth0 fun() @Sub-Particle System which spawns at the locations of the birth of the particles from the parent system.
+---@field GetSubEmitterProperties fun() @Gets the properties of the sub-emitter at the given index.
+---@field GetSubEmitterEmitProbability fun() @Gets the probability that the sub-emitter emits particles.
+---@field SetSubEmitterSystem fun() @Sets the Particle System to use as the sub-emitter at the given index.
+---@field collision1 fun() @Sub-Particle System which spawns at the locations of the collision of the particles from the parent system.
+---@field GetSubEmitterType fun() @Gets the type of the sub-emitter at the given index.
+---@field RemoveSubEmitter fun() @Removes a sub-emitter from the given index in the array.
+---@field SetSubEmitterProperties fun() @Sets the properties of the sub-emitter at the given index.
+---@field collision0 fun() @Sub-Particle System which spawns at the locations of the collision of the particles from the parent system.
+---@field death1 fun() @Sub-Particle System to spawn on death of the parent system's particles.
+---@field GetSubEmitterSystem fun() @Gets the sub-emitter Particle System at the given index.
+---@field SetSubEmitterType fun() @Sets the type of the sub-emitter at the given index.
+---@field birth1 fun() @Sub-Particle System which spawns at the locations of the birth of the particles from the parent system.
+---@field enabled fun() @Specifies whether the SubEmittersModule is enabled or disabled.
+---@field death0 fun() @Sub-Particle System which spawns at the locations of the death of the particles from the parent system.
+---@field subEmittersCount fun() @The total number of sub-emitters.
+---@field SetSubEmitterEmitProbability fun() @Sets the probability that the sub-emitter emits particles.
+---@field AddSubEmitter fun() @Add a new sub-emitter.

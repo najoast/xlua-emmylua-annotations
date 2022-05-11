@@ -1,0 +1,2 @@
+---@class AudioDistortionFilter @The Audio Distortion Filter distorts the sound from an AudioSource or sounds reaching the AudioListener.
+---@field distortionLevel fun() @Distortion value. 0.0 to 1.0. Default = 0.5.

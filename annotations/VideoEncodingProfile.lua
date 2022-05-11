@@ -1,0 +1,4 @@
+---@class VideoEncodingProfile @Options for the encoder profile.
+---@field H264Baseline fun() @Encode video with the baseline profile.
+---@field H264High fun() @Encode video with the high profile.
+---@field H264Main fun() @Encode video using the main profile.

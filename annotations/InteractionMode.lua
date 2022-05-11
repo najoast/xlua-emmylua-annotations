@@ -1,0 +1,3 @@
+---@class InteractionMode @The mode of interaction, user or automated, that an API method is called with.
+---@field AutomatedAction fun() @Use this setting to prevent a method from showing any dialog boxes to the user, and to prevent it recording to the undo history.
+---@field UserAction fun() @Use this setting to allow a method to show dialog boxes to the user, and to allow it to record to the undo history.

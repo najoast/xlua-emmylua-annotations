@@ -1,0 +1,4 @@
+---@class Build.Content.ResourceFile @Details about a specific file written by the ContentBuildInterface.WriteSerializedFile or ContentBuildInterface.WriteSceneSerializedFile APIs.
+---@field serializedFile fun() @Bool to determine if this resource file represents serialized Unity objects (serialized file) or binary resource data.
+---@field fileName fun() @Path to the resource file on disk.
+---@field fileAlias fun() @Internal name used by the loading system for a resource file.

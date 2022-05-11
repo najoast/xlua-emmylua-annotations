@@ -1,0 +1,6 @@
+---@class Animations.BlendTreeType @The type of blending algorithm that the blend tree uses.
+---@field Simple1D fun() @Basic blending using a single parameter.
+---@field FreeformDirectional2D fun() @This blend type is used when your motions represent different directions, however you can have multiple motions in the same direction, for example walk forward and run forward.
+---@field SimpleDirectional2D fun() @Best used when your motions represent different directions, such as walk forward, walk backward, walk left, and walk right, or aim up, aim down, aim left, and aim right.
+---@field FreeformCartesian2D fun() @Best used when your motions do not represent different directions.
+---@field Direct fun() @Direct control of blending weight for each node.

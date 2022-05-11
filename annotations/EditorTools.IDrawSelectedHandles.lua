@@ -1,0 +1,2 @@
+---@class EditorTools.IDrawSelectedHandles @Implement this interface to draw handles when the selection contains a type targeted by an EditorTool.
+---@field OnDrawHandles fun() @Implement this method to draw non-interactive handles when a custom editor tool is available.

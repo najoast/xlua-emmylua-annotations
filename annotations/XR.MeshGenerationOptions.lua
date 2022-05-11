@@ -1,0 +1,3 @@
+---@class XR.MeshGenerationOptions @Options for generating meshes.
+---@field None fun() @No options are specified.
+---@field ConsumeTransform fun() @Indicates you plan to consume the resulting mesh's transform.

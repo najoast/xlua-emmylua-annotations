@@ -1,0 +1,4 @@
+---@class LightingWindowEnvironmentSection @Base class for the Inspector that overrides the Environment section of the Lighting window.
+---@field OnEnable fun() @OnEnable is called when this Inspector override is used.
+---@field OnDisable fun() @OnDisable is called when this Inspector override is not used anymore.
+---@field OnInspectorGUI fun() @A callback that is called when drawing the Environment section in the Lighting window.

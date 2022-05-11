@@ -1,0 +1,4 @@
+---@class UIElements.ScrollViewMode @Configurations of the ScrollView to influence the layout of its contents and how scrollbars appear. ScrollView.mode
+---@field Horizontal fun() @Configure ScrollView for horizontal scrolling.
+---@field Vertical fun() @Configure ScrollView for vertical scrolling.
+---@field VerticalAndHorizontal fun() @Configure ScrollView for vertical and horizontal scrolling.

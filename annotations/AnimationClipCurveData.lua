@@ -1,0 +1,5 @@
+---@class AnimationClipCurveData @An AnimationClipCurveData object contains all the information needed to identify a specific curve in an AnimationClip. The curve animates a specific property of a component / material attached to a game object / animated bone.
+---@field curve fun() @The actual animation curve.
+---@field path fun() @The path of the game object / bone being animated.
+---@field propertyName fun() @The name of the property being animated.
+---@field type fun() @The type of the component / material being animated.

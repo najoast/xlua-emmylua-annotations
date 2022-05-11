@@ -1,0 +1,5 @@
+---@class TerrainCallbacks @This static class provides events that Unity triggers when Terrain data changes.
+---@field HeightmapChangedCallback fun() @Use this delegate type with heightmapChanged to monitor all changes to the Terrain heightmap.
+---@field TextureChangedCallback fun() @Use this delegate type with textureChanged to monitor all the changes to Terrain textures.
+---@field textureChanged fun() @This event is triggered after there are changes to Terrain textures.
+---@field heightmapChanged fun() @This event is triggered after there are changes to Terrain height data.

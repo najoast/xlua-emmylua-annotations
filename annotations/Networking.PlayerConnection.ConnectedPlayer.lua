@@ -1,0 +1,3 @@
+---@class Networking.PlayerConnection.ConnectedPlayer @Information of the connected player.
+---@field playerId fun() @The ID of the player connected.
+---@field name fun() @The name of the connected player.

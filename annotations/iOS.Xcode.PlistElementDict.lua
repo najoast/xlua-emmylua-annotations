@@ -1,0 +1,11 @@
+---@class iOS.Xcode.PlistElementDict @Represents a dictionary element in plist document.
+---@field CreateArray fun() @Convenience method to set a property to a new array element.
+---@field Index_operator fun() @Convenience method to access the stored values.
+---@field values fun() @The values stored in the dictionary element.
+---@field SetString fun() @Convenience method to set a string property.
+---@field SetReal fun() @Convenience method to set an real property.
+---@field SetDate fun() @Convenience method to set a date property.
+---@field SetBoolean fun() @Convenience method to set a boolean property.
+---@field CreateDict fun() @Convenience method to set a property to a new dictionary element.
+---@field SetInteger fun() @Convenience method to set an integer property.
+---@field ctor fun() @Creates new dictionary element.

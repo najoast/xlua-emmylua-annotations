@@ -1,0 +1,4 @@
+---@class Cursor @Cursor API for setting the cursor (mouse pointer).
+---@field visible fun() @Determines whether the hardware pointer is visible or not.
+---@field SetCursor fun() @Sets the mouse cursor to the given texture.
+---@field lockState fun() @Determines whether the hardware pointer is locked to the center of the view, constrained to the window, or not constrained at all.

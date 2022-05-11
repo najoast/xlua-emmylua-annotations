@@ -1,0 +1,3 @@
+---@class SceneManagement.LoadSceneMode @Used when loading a Scene in a player.
+---@field Single fun() @Closes all current loaded Scenes                and loads a Scene.
+---@field Additive fun() @Adds the Scene to the current loaded Scenes.

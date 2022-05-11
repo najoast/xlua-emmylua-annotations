@@ -1,0 +1,29 @@
+---@class EventType @Types of UnityGUI input and processing events.
+---@field DragPerform fun() @Editor only: drag &amp; drop operation performed.
+---@field MouseDown fun() @Mouse button was pressed.
+---@field ScrollWheel fun() @The scroll wheel was moved.
+---@field MouseLeaveWindow fun() @Mouse left a window (Editor views only).
+---@field Ignore fun() @Event should be ignored.
+---@field DragUpdated fun() @Editor only: drag &amp; drop operation updated.
+---@field mouseUp fun() @An event that is called when the mouse is no longer being clicked.
+---@field Layout fun() @A layout event.
+---@field TouchUp fun() @Direct manipulation device (finger, pen) left the screen.
+---@field ContextClick fun() @User has right-clicked (or control-clicked on the mac).
+---@field MouseMove fun() @Mouse was moved (Editor views only).
+---@field ValidateCommand fun() @Validates a special command (e.g. copy &amp; paste).
+---@field Used fun() @Already processed event.
+---@field TouchDown fun() @Direct manipulation device (finger, pen) touched the screen.
+---@field MouseDrag fun() @Mouse was dragged.
+---@field TouchMove fun() @Direct manipulation device (finger, pen) moved on the screen (drag).
+---@field ExecuteCommand fun() @Execute a special command (eg. copy &amp; paste).
+---@field mouseDown fun() @An event that is called when the mouse is clicked.
+---@field TouchStationary fun() @Direct manipulation device (finger, pen) stationary event (long touch down).
+---@field TouchEnter fun() @Direct manipulation device (finger, pen) moving into the window (drag).
+---@field mouseDrag fun() @An event that is called when the mouse is clicked and dragged.
+---@field MouseUp fun() @Mouse button was released.
+---@field DragExited fun() @Editor only: drag &amp; drop operation exited.
+---@field TouchLeave fun() @Direct manipulation device (finger, pen) moved out of the window (drag).
+---@field KeyUp fun() @A keyboard key was released.
+---@field Repaint fun() @A repaint event. One is sent every frame.
+---@field KeyDown fun() @A keyboard key was pressed.
+---@field MouseEnterWindow fun() @Mouse entered a window (Editor views only).

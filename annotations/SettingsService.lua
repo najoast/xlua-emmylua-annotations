@@ -1,0 +1,5 @@
+---@class SettingsService @This class provides global APIs to interact with the Settings window.
+---@field NotifySettingsProviderChanged fun() @Use this function to notify the SettingsService that a SettingsProvider changed.
+---@field RepaintAllSettingsWindow fun() @Notifies the SettingsService that all open Settings windows must be repainted.
+---@field OpenProjectSettings fun() @Open the Project Settings window with the specified settings item already selected.
+---@field OpenUserPreferences fun() @Open the Preferences window with the specified settings item already selected.

@@ -1,0 +1,9 @@
+---@class PointEffector2D @Applies forces to attract/repulse against a point.
+---@field forceTarget fun() @The target for where the effector applies any force.
+---@field forceVariation fun() @The variation of the magnitude of the force to be applied.
+---@field forceMode fun() @The mode used to apply the effector force.
+---@field drag fun() @The linear drag to apply to rigid-bodies.
+---@field forceSource fun() @The source which is used to calculate the centroid point of the effector.  The distance from the target is defined from this point.
+---@field forceMagnitude fun() @The magnitude of the force to be applied.
+---@field distanceScale fun() @The scale applied to the calculated distance between source and target.
+---@field angularDrag fun() @The angular drag to apply to rigid-bodies.

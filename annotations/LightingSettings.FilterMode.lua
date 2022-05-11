@@ -1,0 +1,4 @@
+---@class LightingSettings.FilterMode @The available filtering modes for the Progressive Lightmapper.
+---@field None fun() @No filtering.
+---@field Advanced fun() @When enabled, you can configure the filtering settings for the Progressive Lightmapper. When disabled, the default filtering settings apply.
+---@field Auto fun() @The filtering is configured automatically.

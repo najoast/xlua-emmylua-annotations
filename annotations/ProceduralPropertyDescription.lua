@@ -1,0 +1,11 @@
+---@class ProceduralPropertyDescription @Deprecated feature, no longer available
+---@field maximum fun() @Deprecated feature, no longer available
+---@field componentLabels fun() @Deprecated feature, no longer available
+---@field group fun() @Deprecated feature, no longer available
+---@field minimum fun() @Deprecated feature, no longer available
+---@field hasRange fun() @Deprecated feature, no longer available
+---@field name fun() @Deprecated feature, no longer available
+---@field step fun() @Deprecated feature, no longer available
+---@field enumOptions fun() @Deprecated feature, no longer available
+---@field type fun() @Deprecated feature, no longer available
+---@field label fun() @Deprecated feature, no longer available

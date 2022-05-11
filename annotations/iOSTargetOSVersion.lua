@@ -1,0 +1,13 @@
+---@class iOSTargetOSVersion @Supported iOS deployment versions.
+---@field iOS_5_1 fun() @iOS 5.1.
+---@field iOS_4_3 fun() @iOS 4.3.
+---@field iOS_6_0 fun() @iOS 6.0.
+---@field iOS_7_0 fun() @iOS 7.0.
+---@field iOS_5_0 fun() @iOS 5.0.
+---@field iOS_8_0 fun() @iOS 8.0.
+---@field iOS_4_1 fun() @iOS 4.1.
+---@field iOS_7_1 fun() @iOS 7.1.
+---@field iOS_4_0 fun() @iOS 4.0.
+---@field iOS_4_2 fun() @iOS 4.2.
+---@field Unknown fun() @Unknown iOS version, managed by user.
+---@field iOS_8_1 fun() @iOS 8.1.

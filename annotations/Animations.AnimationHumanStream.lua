@@ -1,0 +1,38 @@
+---@class Animations.AnimationHumanStream @The humanoid stream of animation data passed from one Playable to another.
+---@field SetGoalLocalPosition fun() @Sets the position of this IK goal relative to the root.
+---@field GetGoalWeightRotation fun() @Returns the rotation weight of the IK goal.
+---@field GetHintWeightPosition fun() @Returns the position weight of the IK Hint.
+---@field bodyLocalPosition fun() @The position of the body center of mass relative to the root.
+---@field GetGoalPositionFromPose fun() @Returns the position of this IK goal in world space computed from the stream current pose.
+---@field SetLookAtPosition fun() @Sets the look at position in world space.
+---@field GetGoalWeightPosition fun() @Returns the position weight of the IK goal.
+---@field leftFootHeight fun() @The left foot height from the floor. (Read Only)
+---@field rightFootVelocity fun() @The right foot velocity from the last evaluated frame. (Read Only)
+---@field GetMuscle fun() @Returns the muscle value.
+---@field GetGoalLocalPosition fun() @Returns the position of this IK goal relative to the root.
+---@field SetGoalWeightPosition fun() @Sets the position weight of the IK goal.
+---@field isValid fun() @Returns true if the stream is valid; false otherwise. (Read Only)
+---@field bodyRotation fun() @The rotation of the body center of mass in world space.
+---@field SetHintPosition fun() @Sets the position of this IK hint in world space.
+---@field GetGoalPosition fun() @Returns the position of this IK goal in world space.
+---@field GetGoalRotation fun() @Returns the rotation of this IK goal in world space.
+---@field SetGoalPosition fun() @Sets the position of this IK goal in world space.
+---@field ResetToStancePose fun() @Reset the current pose to the stance pose (T Pose).
+---@field GetHintPosition fun() @Returns the position of this IK Hint in world space.
+---@field bodyPosition fun() @The position of the body center of mass in world space.
+---@field SetGoalRotation fun() @Sets the rotation of this IK goal in world space.
+---@field humanScale fun() @The scale of the Avatar. (Read Only)
+---@field SetLookAtClampWeight fun() @Sets the LookAt clamp weight.
+---@field SetMuscle fun() @Sets the muscle value.
+---@field SetLookAtHeadWeight fun() @Sets the LookAt head weight.
+---@field SetLookAtEyesWeight fun() @Sets the LookAt eyes weight.
+---@field GetGoalLocalRotation fun() @Returns the rotation of this IK goal relative to the root.
+---@field SetGoalWeightRotation fun() @Sets the rotation weight of the IK goal.
+---@field rightFootHeight fun() @The right foot height from the floor. (Read Only)
+---@field bodyLocalRotation fun() @The rotation of the body center of mass relative to the root.
+---@field SetLookAtBodyWeight fun() @Sets the LookAt body weight.
+---@field SetHintWeightPosition fun() @Sets the position weight of the IK Hint.
+---@field GetGoalRotationFromPose fun() @Returns the rotation of this IK goal in world space computed from the stream current pose.
+---@field SetGoalLocalRotation fun() @Sets the rotation of this IK goal relative to the root.
+---@field leftFootVelocity fun() @The left foot velocity from the last evaluated frame. (Read Only)
+---@field SolveIK fun() @Execute the IK solver.

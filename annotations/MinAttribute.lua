@@ -1,0 +1,3 @@
+---@class MinAttribute @Attribute used to make a float or int variable in a script be restricted to a specific minimum value.
+---@field min fun() @The minimum allowed value.
+---@field ctor fun() @Attribute used to make a float or int variable in a script be restricted to a specific minimum value.

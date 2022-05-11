@@ -1,0 +1,4 @@
+---@class IMECompositionMode @Controls IME input.
+---@field Off fun() @Disable IME input.
+---@field Auto fun() @Enable IME input only when a text field is selected (default).
+---@field On fun() @Enable IME input.

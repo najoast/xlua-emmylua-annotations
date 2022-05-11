@@ -1,0 +1,7 @@
+---@class ColliderDistance2D @Represents the separation or overlap of two Collider2D.
+---@field isValid fun() @Gets whether the distance is valid or not.
+---@field pointA fun() @A point on a Collider2D that is a specific distance away from pointB.
+---@field normal fun() @A normalized vector that points from pointB to pointA.
+---@field distance fun() @Gets the distance between two colliders.
+---@field isOverlapped fun() @Gets whether the distance represents an overlap or not.
+---@field pointB fun() @A point on a Collider2D that is a specific distance away from pointA.

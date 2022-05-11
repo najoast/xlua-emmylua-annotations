@@ -1,0 +1,3 @@
+---@class LightmapEditorSettings.Sampling @This enum is now obsolete. Use LightingSettings.Sampling.
+---@field Fixed fun() @This type is now obsolete. Use LightingSettings.Sampling.
+---@field Auto fun() @This type is now obsolete. Use LightingSettings.Sampling.

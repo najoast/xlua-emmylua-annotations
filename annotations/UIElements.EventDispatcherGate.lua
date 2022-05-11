@@ -1,0 +1,3 @@
+---@class UIElements.EventDispatcherGate @Gates control when the dispatcher processes events.
+---@field ctor fun() @Constructor.
+---@field Dispose fun() @Implementation of IDisposable.Dispose. Opens the gate. If all gates are open, events in the queue are processed.

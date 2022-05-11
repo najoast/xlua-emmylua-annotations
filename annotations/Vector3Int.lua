@@ -1,0 +1,36 @@
+---@class Vector3Int @Representation of 3D vectors and points using integers.
+---@field operator_Vector3Int fun() @Converts a Vector3Int to a Vector3.
+---@field forward fun() @Shorthand for writing Vector3Int(0, 0, 1).
+---@field Max fun() @Returns a vector that is made from the largest components of two vectors.
+---@field CeilToInt fun() @Converts a  Vector3 to a Vector3Int by doing a Ceiling to each value.
+---@field down fun() @Shorthand for writing Vector3Int(0, -1, 0).
+---@field GetHashCode fun() @Gets the hash code for the Vector3Int.
+---@field ToString fun() @Returns a formatted string for this vector.
+---@field one fun() @Shorthand for writing Vector3Int(1, 1, 1).
+---@field operator_add fun() @Adds two vectors.
+---@field Set fun() @Set x, y and z components of an existing Vector3Int.
+---@field Clamp fun() @Clamps the Vector3Int to the bounds given by min and max.
+---@field operator_ fun() @Converts a Vector3Int to a Vector2Int.
+---@field Scale fun() @Multiplies two vectors component-wise.
+---@field Min fun() @Returns a vector that is made from the smallest components of two vectors.
+---@field x fun() @X component of the vector.
+---@field ctor fun() @Initializes and returns an instance of a new Vector3Int with x, y, z components.
+---@field z fun() @Z component of the vector.
+---@field RoundToInt fun() @Converts a  Vector3 to a Vector3Int by doing a Round to each value.
+---@field right fun() @Shorthand for writing Vector3Int(1, 0, 0).
+---@field back fun() @Shorthand for writing Vector3Int(0, 0, -1).
+---@field Equals fun() @Returns true if the objects are equal.
+---@field zero fun() @Shorthand for writing Vector3Int(0, 0, 0).
+---@field Index_operator fun() @Access the x, y or z component using [0], [1] or [2] respectively.
+---@field operator_eq fun() @Returns true if the vectors are equal.
+---@field operator_divide fun() @Divides a vector by a number.
+---@field y fun() @Y component of the vector.
+---@field sqrMagnitude fun() @Returns the squared length of this vector (Read Only).
+---@field Distance fun() @Returns the distance between a and b.
+---@field operator_ne fun() @Returns true if vectors different.
+---@field operator_multiply fun() @Multiplies a vector by a number.
+---@field FloorToInt fun() @Converts a  Vector3 to a Vector3Int by doing a Floor to each value.
+---@field magnitude fun() @Returns the length of this vector (Read Only).
+---@field operator_subtract fun() @Subtracts one vector from another.
+---@field up fun() @Shorthand for writing Vector3Int(0, 1, 0).
+---@field left fun() @Shorthand for writing Vector3Int(-1, 0, 0).

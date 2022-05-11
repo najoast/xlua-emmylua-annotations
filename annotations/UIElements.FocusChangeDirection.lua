@@ -1,0 +1,4 @@
+---@class UIElements.FocusChangeDirection @Base class for defining in which direction the focus moves in a focus ring.
+---@field none fun() @The null direction. This is usually used when the focus stays on the same element.
+---@field lastValue fun() @Last value for the direction defined by this class.
+---@field unspecified fun() @Focus came from an unspecified direction, for example after a mouse down.

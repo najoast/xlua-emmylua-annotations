@@ -1,0 +1,3 @@
+---@class EditorGUI.ChangeCheckScope @Check if any control was changed inside a block of code.
+---@field ctor fun() @Begins a ChangeCheckScope.
+---@field changed fun() @True if GUI.changed was set to true, otherwise false.

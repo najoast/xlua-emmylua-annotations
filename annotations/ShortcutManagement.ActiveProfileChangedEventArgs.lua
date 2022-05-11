@@ -1,0 +1,4 @@
+---@class ShortcutManagement.ActiveProfileChangedEventArgs @Provides data for the ShortcutManagement.IShortcutManager.activeProfileChanged event.
+---@field currentActiveProfileId fun() @The ID of the current active profile.
+---@field ctor fun() @Initializes a new instance of the ShortcutManagement.ActiveProfileChangedEventArgs struct using the specified previous active profile ID and current active profile ID.
+---@field previousActiveProfileId fun() @The ID of the previous active profile.

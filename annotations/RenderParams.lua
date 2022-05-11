@@ -1,0 +1,15 @@
+---@class RenderParams @Rendering parameters used by various rendering functions.
+---@field material fun() @Material used for rendering.
+---@field motionVectorMode fun() @Motion vector mode used for rendering.
+---@field matProps fun() @Material properties used for rendering.
+---@field rendererPriority fun() @Renderer priority.
+---@field lightProbeProxyVolume fun() @Light Probe Proxy Volume (LPPV) used for rendering.
+---@field layer fun() @Layer used for rendering. Layer to use.
+---@field ctor fun() @Constructor.
+---@field receiveShadows fun() @Descripes if the rendered geometry should receive shadows.
+---@field camera fun() @The camera used for rendering. If set to null (default) renders for all cameras.
+---@field lightProbeUsage fun() @The type of light probe usage.
+---@field worldBounds fun() @Defines world space bounds for the geometry. Used to cull and sort the rendered geometry.
+---@field reflectionProbeUsage fun() @The type of reflection probe used for rendering.
+---@field renderingLayerMask fun() @Renderer layer mask used for rendering.
+---@field shadowCastingMode fun() @Describes if geometry should cast shadows.

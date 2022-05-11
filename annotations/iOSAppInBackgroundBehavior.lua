@@ -1,0 +1,4 @@
+---@class iOSAppInBackgroundBehavior @Application behavior when entering background.
+---@field Custom fun() @Custom background behavior, see iOSBackgroundMode for specific background modes.
+---@field Exit fun() @Application should exit when entering background.
+---@field Suspend fun() @Application should suspend execution when entering background.

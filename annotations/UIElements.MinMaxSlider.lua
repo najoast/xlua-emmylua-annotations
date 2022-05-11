@@ -1,0 +1,17 @@
+---@class UIElements.MinMaxSlider @A min/max slider containing a representation of a range.
+---@field minThumbUssClassName fun() @USS class name of the minimum thumb elements in elements of this type.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field ctor fun() @Constructor.
+---@field draggerUssClassName fun() @USS class name of dragger elements in elements of this type.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field UxmlTraits UIElements.MinMaxSlider.UxmlTraits @Defines UxmlTraits for the MinMaxSlider.
+---@field UxmlFactory fun() @Instantiates a MinMaxSlider using the data read from a UXML file.
+---@field range fun() @Returns the range of the low/high limits of the slider.
+---@field trackerUssClassName fun() @USS class name of tracker elements in elements of this type.
+---@field highLimit fun() @This is the high limit of the slider.
+---@field maxThumbUssClassName fun() @USS class name of the maximum thumb elements in elements of this type.
+---@field maxValue fun() @This is the high value of the range represented on the slider.
+---@field minValue fun() @This is the low value of the range represented on the slider.
+---@field lowLimit fun() @This is the low limit of the slider.
+---@field value fun() @This is the value of the slider. This is a Vector2 where the x is the lower bound and the y is the higher bound.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.

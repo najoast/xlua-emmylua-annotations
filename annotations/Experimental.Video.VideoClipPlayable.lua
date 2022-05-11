@@ -1,0 +1,2 @@
+---@class Experimental.Video.VideoClipPlayable @An implementation of IPlayable that controls playback of a VideoClip.
+---@field Create fun() @Creates a VideoClipPlayable in the PlayableGraph.

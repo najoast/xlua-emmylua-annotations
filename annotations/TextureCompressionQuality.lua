@@ -1,0 +1,4 @@
+---@class TextureCompressionQuality @Compression Quality.
+---@field Best fun() @Best compression.
+---@field Fast fun() @Fast compression.
+---@field Normal fun() @Normal compression (default).

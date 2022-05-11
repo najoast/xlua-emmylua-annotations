@@ -1,0 +1,3 @@
+---@class Callbacks.RunAfterAssemblyAttribute @Add this attribute to a callback method to mark that this callback must be run after any callbacks that are part of the specified assembly.
+---@field ctor fun() @Add this attribute to a callback method to mark that this callback must be run after any callbacks that are part of the specified assembly.
+---@field assemblyName fun() @The name of the assembly that should be run before this callback.

@@ -1,0 +1,2 @@
+---@class UIElements.Vector4Field.UxmlTraits @Defines UxmlTraits for the Vector4Field.
+---@field Init fun() @Initialize Vector4Field properties using values from the attribute bag.

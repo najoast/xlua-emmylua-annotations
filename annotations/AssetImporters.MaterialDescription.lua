@@ -1,0 +1,10 @@
+---@class AssetImporters.MaterialDescription @Contains a set of typed properties for describing a texture input of a MaterialDescription.
+---@field GetStringPropertyNames fun() @Retrieves the property names of type string for this material.
+---@field materialName fun() @The name of the material
+---@field TryGetProperty fun() @Retrieves the value of a specified material property.
+---@field TryGetAnimationCurve fun() @Retrieves the AnimationCurve for an animated material property in a specific AnimationClip.
+---@field HasAnimationCurveInClip fun() @Checks if a material property is animated in a specific AnimationClip.
+---@field GetVector4PropertyNames fun() @Retrieves the property names of type Vector4 for this material.
+---@field GetFloatPropertyNames fun() @Retrieves the property names of type float for this material.
+---@field HasAnimationCurve fun() @Checks if a material property is animated in a any AnimationClip.
+---@field GetTexturePropertyNames fun() @Retrieves the property names of type TextureDescription for this material.

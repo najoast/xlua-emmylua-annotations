@@ -1,0 +1,4 @@
+---@class Experimental.GraphView.NodeCreationContext @This struct represents the context when the user initiates creating a graph node.
+---@field target fun() @The VisualElement where the created node will be added.
+---@field screenMousePosition fun() @Position of the click that initiated the request to create a node, in the coordinate space of the screen.
+---@field index fun() @The index where the created node will be inserted.

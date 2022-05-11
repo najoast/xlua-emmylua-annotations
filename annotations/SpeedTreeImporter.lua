@@ -1,0 +1,32 @@
+---@class SpeedTreeImporter @AssetImportor for importing SpeedTree model assets.
+---@field GenerateMaterials fun() @Generates all necessary materials under materialFolderPath. If Version Control is enabled please first check out the folder.
+---@field defaultShader fun() @Returns the default SpeedTree shader for the active render pipeline (either v7 or v8 according to the asset version).
+---@field hueVariation fun() @Gets and sets a default Hue variation color and amount (in alpha).
+---@field hasBillboard fun() @Tells if there is a billboard LOD.
+---@field MaterialLocation SpeedTreeImporter.MaterialLocation @Material import location options.
+---@field castShadows fun() @Gets and sets an array of booleans to enable shadow casting for each LOD.
+---@field mainColor fun() @Gets and sets a default main color.
+---@field SearchAndRemapMaterials fun() @Search the project for matching materials and use them instead of the internal materials.
+---@field fadeOutWidth fun() @Proportion of the billboard LOD region width which is used for fading out the billboard.
+---@field enableSmoothLODTransition fun() @Enables smooth LOD transitions.
+---@field billboardTransitionCrossFadeWidth fun() @Proportion of the last 3D mesh LOD region width which is used for cross-fading to billboard tree.
+---@field enableSubsurface fun() @Gets and sets an array of booleans to enable Subsurface effect for each LOD (affects only SpeedTree v8 assets).
+---@field animateCrossFading fun() @Indicates if the cross-fade LOD transition, applied to the last mesh LOD and the billboard, should be animated.
+---@field LODHeights fun() @Gets and sets an array of floats of each LOD's screen height value.
+---@field bestWindQuality fun() @Returns the best-possible wind quality on this asset (configured in SpeedTree modeler).
+---@field materialLocation fun() @Material import location options.
+---@field ctor fun() @Construct a new SpeedTreeImporter object.
+---@field windQualityNames fun() @Gets an array of name strings for wind quality value.
+---@field windQualities fun() @Gets and sets an array of integers of the wind qualities on each LOD. Values will be clampped by bestWindQuality internally.
+---@field enableHue fun() @Gets and sets an array of booleans to enable Hue variation effect for each LOD.
+---@field useLightProbes fun() @Gets and sets an array of booleans to enable Light Probe lighting for each LOD.
+---@field specColor fun() @Gets and sets a default specular color.
+---@field shininess fun() @Gets and sets a default Shininess value.
+---@field hasImported fun() @Tells if the SPM file has been previously imported.
+---@field receiveShadows fun() @Gets and sets an array of booleans to enable shadow receiving for each LOD.
+---@field materialFolderPath fun() @Returns the folder path where generated materials will be placed in.
+---@field alphaTestRef fun() @Gets and sets a default alpha test reference values.
+---@field defaultBillboardShader fun() @Returns the default SpeedTree billboard shader for the active render pipeline, or null if the asset is a SpeedTree v8 asset.
+---@field scaleFactor fun() @How much to scale the tree model compared to what is in the .spm file.
+---@field enableBump fun() @Gets and sets an array of booleans to enable normal mapping for each LOD.
+---@field isV8 fun() @Returns true if the asset is a SpeedTree v8 asset.

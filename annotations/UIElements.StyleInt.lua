@@ -1,0 +1,4 @@
+---@class UIElements.StyleInt @Style value that can be either an integer or a StyleKeyword.
+---@field value fun() @The integer value.
+---@field ctor fun() @Creates from either an integer or StyleKeyword.
+---@field keyword fun() @The style keyword.

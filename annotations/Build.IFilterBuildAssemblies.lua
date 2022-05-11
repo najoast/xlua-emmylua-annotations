@@ -1,0 +1,2 @@
+---@class Build.IFilterBuildAssemblies @Implement this interface to receive a callback to filter assemblies away from the build.
+---@field OnFilterAssemblies fun() @Will be called after building script assemblies, but makes it possible to filter away unwanted scripts to be included.

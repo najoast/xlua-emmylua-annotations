@@ -1,0 +1,63 @@
+---@class Search @nil
+---@field SearchColumnFlags Search.SearchColumnFlags @Search column flags are used to set multiple states.
+---@field Query_2 Search.Query_2 @Provides methods to define an operation that can be used to filter a data set.
+---@field TextCursorPlacement Search.TextCursorPlacement @Where to place the cursor in the text. (see ISearchView.SetSearchText).
+---@field ShowDetailsOptions Search.ShowDetailsOptions @Defines what details are shown in the preview inspector panel for the search view.
+---@field SearchViewState Search.SearchViewState @Search view state is used to create new Search windows. See SearchService.ShowWindow.
+---@field DisplayMode Search.DisplayMode @Options for setting the display mode to use for a search view.
+---@field FetchPreviewOptions Search.FetchPreviewOptions @Options for the search provider on how the preview should be fetched.
+---@field SearchViewFlags Search.SearchViewFlags @Search view flags used to open the Object Picker in various states.
+---@field SearchProposition Search.SearchProposition @Search propositions are used to display choices to the user to add new filters to a search query.
+---@field SearchValue Search.SearchValue @Search value is used to extend a query engine with custom type parsers and filters to search results by value.
+---@field SearchUtils Search.SearchUtils @Provides various utility functions that are used by SearchProvider.
+---@field SearchService Search.SearchService @Principal Search API to initiate searches and fetch results.
+---@field SearchColumnCompareArgs Search.SearchColumnCompareArgs @Search column compare arguments are used by SearchColumn.comparer to sort search results.
+---@field QueryEngine_1 Search.QueryEngine_1 @A QueryEngine defines how to build a query from an input string.It can be customized to support custom filters and operators.
+---@field SearchSelectorAttribute fun() @Search selector attribute used to define how a custom value can be selected from a search item.
+---@field Query_1 Search.Query_1 @Provides methods to define an operation that can be used to filter a data set.
+---@field SearchSelectorArgs Search.SearchSelectorArgs @Search selector arguments used when the search selector callback is invoked.
+---@field SearchSelection Search.SearchSelection @Provides methods to give readonly access to the current list of selected items in Search.
+---@field SearchResult Search.SearchResult @Contains a SearchItem that was retrieved from a query.
+---@field SearchQueryErrorType Search.SearchQueryErrorType @Enum representing the possible types of query errors.
+---@field SearchItemProviderAttribute fun() @Attribute used to declare a static method that will create a new search provider at load time.
+---@field SearchProvider Search.SearchProvider @SearchProvider manages search for specific types of items and manages all fields of a SearchItem such as thumbnails, descriptions, subfilters.
+---@field ISearchList Search.ISearchList @A search list represents a collection of search results that is filled.
+---@field CustomObjectIndexerTarget Search.CustomObjectIndexerTarget @Represents a descriptor for the object that is about to be indexed. It stores a reference to the object itself as well as an already set up SerializedObject.
+---@field SearchItemOptions Search.SearchItemOptions @Indicates how the search item description needs to be formatted when presented to the user.
+---@field FuzzySearch Search.FuzzySearch @Provides a method to match query text using a fuzzy search algorithm.
+---@field IQueryHandlerFactory_3 Search.IQueryHandlerFactory_3 @Interface for query handler factories.
+---@field QueryGraphOptimizationOptions Search.QueryGraphOptimizationOptions @Structure containing the different options used to optimize a query graph.
+---@field IQueryNode Search.IQueryNode @Interface representing a query node.
+---@field ObjectIndexer Search.ObjectIndexer @A specialized Search.SearchIndexer which provides methods to index a Unity Object from custom indexers.
+---@field QueryEngine Search.QueryEngine @A QueryEngine defines how to build a query from an input string.It can be customized to support custom filters and operators.Default query engine of type object.
+---@field SearchQueryError Search.SearchQueryError @Represents a query parsing error.
+---@field INestedQueryNode Search.INestedQueryNode @Interface representing a nested query node.
+---@field IFilterNode Search.IFilterNode @Interface representing a filter node.
+---@field QueryFilterOperator Search.QueryFilterOperator @A QueryFilterOperator defines a boolean operator between a value returned by a filter and an operand inputted in the search query.
+---@field ISearchNode Search.ISearchNode @Interface representing a query node.
+---@field IQueryHandler_2 Search.IQueryHandler_2 @Interface for query handlers.
+---@field SearchIndexer Search.SearchIndexer @Base class for a document Indexer which provides methods for retrieving a document given a specific pattern in roughly log(n). This allows you to search a large index more quickly.
+---@field QueryNodeType Search.QueryNodeType @Options for representing the query node types.
+---@field SearchColumnEventArgs Search.SearchColumnEventArgs @Search column event arguments are used by SearchColumn.getter, SearchColumn.drawer and SearchColumn.setter delegates.
+---@field SearchFlags Search.SearchFlags @Search options used to fetch items. Mostly with SearchContext to specify how a search should be handled.
+---@field SearchDocument Search.SearchDocument @Represents a searchable document that has been indexed.
+---@field Providers Search.Providers @nil
+---@field CustomObjectIndexerAttribute Search.CustomObjectIndexerAttribute @Allows a user to register a custom Indexing function for a specific type.
+---@field SearchContext Search.SearchContext @The search context includes all the data necessary to perform a query. It allows the full customization of how a query may be performed.
+---@field SearchColumnProviderAttribute Search.SearchColumnProviderAttribute @The search column provider attribute is used to define new formats for a given column.
+---@field SearchAction Search.SearchAction @Defines an action that can be applied on a SearchItem of a specific search provider type.
+---@field SearchActionsProviderAttribute fun() @Attribute used to declare a static method that defines new actions for specific search providers.
+---@field SearchColumn Search.SearchColumn @Search columns are used to display additional information in the Search Table view.
+---@field IndexingOptions Search.IndexingOptions @Use Indexing options to specify the contents of your search index.
+---@field RefreshFlags Search.RefreshFlags @Refresh flags are used to indicate why search view needs to be refreshed or updated.
+---@field QueryEngineFilterAttribute Search.QueryEngineFilterAttribute @Base attribute class used to define a custom filter on a QueryEngine.All filter types supported by QueryEngine.AddFilter are supported by this attribute.
+---@field QueryValidationOptions Search.QueryValidationOptions @Struct containing the available query validation options.
+---@field QueryEngineParameterTransformerAttribute fun() @Base attribute class that defines a custom parameter transformer function.
+---@field ISearchView Search.ISearchView @Search view interface used by the search context to execute UI operations.
+---@field IQueryEngineFilter Search.IQueryEngineFilter @Interface for the QueryEngine filters.
+---@field QueryToken Search.QueryToken @Represents a token of a query string.
+---@field QueryGraph Search.QueryGraph @Class that represents a query graph.
+---@field SearchItem Search.SearchItem @Search items are returned by the search provider to show to the user after a search is performed. The search item holds all the data that is used to sort and present the search results. Some members of a SearchItem can be specified in an asynchronous callback (see SearchItem.fetchThumbnail, SearchItem.fetchDescription, etc).
+---@field ParseResult_1 Search.ParseResult_1 @A ParseResult represents the result of a parsing operation.
+---@field QueryError Search.QueryError @A QueryError holds the definition of a query parsing error.
+---@field SearchContextAttribute Search.SearchContextAttribute @This attribute can be attached to a component object field in order to have the ObjectField use the advanced Object Picker.

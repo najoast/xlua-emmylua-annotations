@@ -1,0 +1,2 @@
+---@class GUI.GroupScope @Disposable helper class for managing BeginGroup / EndGroup.
+---@field ctor fun() @Create a new GroupScope and begin the corresponding group.

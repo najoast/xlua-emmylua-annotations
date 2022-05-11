@@ -1,0 +1,8 @@
+---@class AssetImporters.ScriptedImporterAttribute @Class attribute used to register a custom asset importer derived from ScriptedImporter with Unity's Asset import pipeline.
+---@field overrideFileExtensions fun() @List of file name extensions (not including the leading period character) that the scripted importer can handle in addition to the default file name extension(s).
+---@field fileExtensions fun() @List of file name extensions (not including the leading period character) that the scripted importer handles.
+---@field AutoSelect fun() @Determines whether the importer gets automatically selected for the specified extension(s).
+---@field ctor fun() @Use the ScriptedImporter attribute to register a custom importer derived from ScriptedImporter with Unity's Asset import pipeline.
+---@field version fun() @Importer version number that is used by the import layer to detect new version of the importer and trigger re-imports when such events occur, to apply latest changes made to the scripted imrpoter.
+---@field AllowCaching fun() @Enable cache server uploads and downloads.
+---@field importQueuePriority fun() @Enables controlling the ordering of asset import based on type. Positive values delay the processing of source asset files while negative values place them earlier in the import process.

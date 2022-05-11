@@ -1,0 +1,4 @@
+---@class Compilation.AssembliesType @Flags for Assembly.
+---@field Editor fun() @Selects assemblies compiled for the editor including test assemblies.
+---@field PlayerWithoutTestAssemblies fun() @Selects assemblies compiled for the player excluding test assemblies.
+---@field Player fun() @Selects assemblies compiled for the player including test assemblies.

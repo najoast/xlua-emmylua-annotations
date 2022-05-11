@@ -1,0 +1,2 @@
+---@class PackageManager.Requests.RemoveRequest @Represents an asynchronous request to remove a package from the project.
+---@field PackageIdOrName fun() @The package being removed by this request.

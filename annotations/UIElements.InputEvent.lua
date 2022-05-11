@@ -1,0 +1,6 @@
+---@class UIElements.InputEvent @Sends an event when text from a TextField changes.
+---@field GetPooled fun() @Gets an event from the event pool and initializes it with the given values. Use this function instead of creating new events. Events obtained using this method need to be released back to the pool. You can use Dispose() to release them.
+---@field ctor fun() @Constructor.
+---@field newData fun() @The new text.
+---@field Init fun() @Resets the event members to their initial values.
+---@field previousData fun() @The text before the change occured.

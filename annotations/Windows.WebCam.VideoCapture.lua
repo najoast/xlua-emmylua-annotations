@@ -1,0 +1,19 @@
+---@class Windows.WebCam.VideoCapture @Records a video from the web camera directly to disk.
+---@field SupportedResolutions fun() @A list of all the supported device resolutions for recording videos.
+---@field OnVideoModeStartedCallback fun() @Called when video mode has been started.
+---@field CaptureResultType Windows.WebCam.VideoCapture.CaptureResultType @Contains the result of the capture request.
+---@field StartRecordingAsync fun() @Asynchronously records a video from the web camera to the file system.
+---@field GetUnsafePointerToVideoDeviceController fun() @Provides a COM pointer to the native IVideoDeviceController.
+---@field StopRecordingAsync fun() @Asynchronously stops recording a video from the web camera to the file system.
+---@field CreateAsync fun() @Asynchronously creates an instance of a VideoCapture object that can be used to record videos from the web camera to disk.
+---@field StartVideoModeAsync fun() @Asynchronously starts video mode.
+---@field OnVideoModeStoppedCallback fun() @Called when video mode has been stopped.
+---@field OnStartedRecordingVideoCallback fun() @Called when the web camera begins recording the video.
+---@field VideoCaptureResult Windows.WebCam.VideoCapture.VideoCaptureResult @A data container that contains the result information of a video recording operation.
+---@field IsRecording fun() @Indicates whether or not the VideoCapture instance is currently recording video.
+---@field StopVideoModeAsync fun() @Asynchronously stops video mode.
+---@field OnVideoCaptureResourceCreatedCallback fun() @Called when a VideoCapture resource has been created.
+---@field GetSupportedFrameRatesForResolution fun() @Returns the supported frame rates at which a video can be recorded given a resolution.
+---@field Dispose fun() @You must call Dispose to shutdown the VideoCapture instance and release the native WinRT objects.
+---@field OnStoppedRecordingVideoCallback fun() @Called when the video recording has been saved to the file system.
+---@field AudioState Windows.WebCam.VideoCapture.AudioState @Specifies what audio sources should be recorded while recording the video.

@@ -1,0 +1,14 @@
+---@class SceneManagement.Stage @The Stage class represents an editing context which includes a collection of Scenes.
+---@field FindComponentOfType fun() @Returns the first active loaded object of the given type.
+---@field OnReturnToStage fun() @Unity calls this method when you return to a Stage that is already open.
+---@field CreateHeaderContent fun() @Creates the header content for this Stage. Both the Hierarchy window header and Scene view breadcrumb bar use this content.
+---@field FindComponentsOfType fun() @Returns a list of all active loaded objects of the given type.
+---@field GetCombinedSceneCullingMaskForCamera fun() @Gets the Scene culling mask from this Stage.
+---@field OnOpenStage fun() @Unity calls this method when the Stage is opened. Classes that inherit from Stage should implement initialization logic in this method.
+---@field OnCloseStage fun() @Unity calls this method when the Stage is closed. Classes that inherit from Stage should implement cleanup logic in this method.
+---@field OnEnable fun() @See ScriptableObject.OnEnable.
+---@field OnDisable fun() @See ScriptableObject.OnDisable.
+---@field stageHandle fun() @The StageHandle struct for this stage.
+---@field GetHashForStateStorage fun() @Unity calls this method to get a hash code that is used to save the state of the Stage to disk.
+---@field OnFirstTimeOpenStageInSceneView fun() @Unity calls this method the first time a Stage is opened for a specific Asset, for a specific Scene view.
+---@field assetPath fun() @The path of the Asset file associated with the stage, relative to the project root folder.

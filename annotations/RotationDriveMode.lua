@@ -1,0 +1,3 @@
+---@class RotationDriveMode @Control ConfigurableJoint's rotation with either X &amp; YZ or Slerp Drive.
+---@field Slerp fun() @Use Slerp drive.
+---@field XYAndZ fun() @Use XY &amp; Z Drive.

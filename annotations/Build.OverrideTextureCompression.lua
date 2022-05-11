@@ -1,0 +1,4 @@
+---@class Build.OverrideTextureCompression @Sets which texture compression override to use when importing assets.
+---@field ForceFastCompressor fun() @Import textures with fast, but lower quality, texture compression.
+---@field ForceUncompressed fun() @Import textures with texture compression off.
+---@field NoOverride fun() @Do not override texture import compression parameters.

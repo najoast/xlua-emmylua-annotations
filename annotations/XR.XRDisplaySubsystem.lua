@@ -1,0 +1,41 @@
+---@class XR.XRDisplaySubsystem @An XRDisplaySubsystem controls rendering to a head tracked display.
+---@field GetMirrorViewBlitDesc fun() @Get a mirror view blit operation descriptor from the current display subsystem.
+---@field zFar fun() @Set DisplaySubsystem to use zFar for rendering.
+---@field TryGetDisplayRefreshRate fun() @Retrieves the refresh rate of the display as reported by the XR Plugin.
+---@field TryGetFramePresentCount fun() @Retrieves the number of times the current frame has been drawn to the device as reported by the XR Plugin.
+---@field BeginRecordingIfLateLatched fun() @This function enables late latching recording of constant buffer memory locations which are later patched with the latest pose data.
+---@field GetPreferredMirrorBlitMode fun() @Returns the XR display's preferred mirror blit mode.
+---@field LateLatchNode XR.XRDisplaySubsystem.LateLatchNode @Type of node to be late latched.
+---@field GetRenderPass fun() @Gets an XRRenderPass of a specific index.
+---@field SetMSAALevel fun() @Set MSAA level for the DisplaySubsystem's render texture.
+---@field SetFocusPlane fun() @Sets a point in 3D space that acts as the focal point of the Scene for this frame. This helps to improve the visual fidelity of content around this point. You must set this value every frame.                Note that specifying body-locked content in focus improves the fidelity of body-locked content at the expense of content not locked to the body. This is especially apparent when the user moves.
+---@field contentProtectionEnabled fun() @Sets or gets the state of content protection for the current active provider.                For most providers, content protection allows you to use write only textures for rendering. This stops the ability for apps to read textures from the graphics card and view/record images that may be protected in some way.
+---@field singlePassRenderingDisabled fun() @Returns true when single pass stereo rendering is disabled and returns false if otherwise.
+---@field GetCullingParameters fun() @Gets culling parameters for a specific culling pass index.
+---@field GetRenderTextureForRenderPass fun() @Given a render pass, return the RenderTexture instance backing that render pass. If the render pass is invalid, or if the render texture does not exist, return null.
+---@field AddGraphicsThreadMirrorViewBlit fun() @This function records the display subsystem's native blit event to the target command buffer. This function is typically called by a scriptable rendering pipeline.
+---@field EndRecordingIfLateLatched fun() @This function disables late latching recording of constant buffer locations.
+---@field XRBlitParams XR.XRDisplaySubsystem.XRBlitParams @This struct  holds data for a single blit operation.
+---@field XRMirrorViewBlitDesc XR.XRDisplaySubsystem.XRMirrorViewBlitDesc @All information in this struct describes the desired mirror view blit operation.
+---@field GetRenderPassCount fun() @The number of XRRenderPass entries for this XR Display.
+---@field TryGetDroppedFrameCount fun() @Retrieves the number of dropped frames reported by the XR Plugin.
+---@field disableLegacyRenderer fun() @Disables the legacy renderer while this XRDisplaySubsystem is active.
+---@field ReprojectionMode XR.XRDisplaySubsystem.ReprojectionMode @The kind of reprojection the app requests to stabilize its holographic rendering relative to the user's head motion.
+---@field TryGetMotionToPhoton fun() @Retrieves the motion-to-photon value as reported by the XR Plugin.
+---@field XRRenderPass XR.XRDisplaySubsystem.XRRenderPass @Contains configuration parameters about which view into the Scene the renderer should rasterize, and a render target (which can be a texture array) for the result of the rasterization.
+---@field occlusionMaskScale fun() @A scale applied to the standard occulsion mask.
+---@field XRRenderParameter XR.XRDisplaySubsystem.XRRenderParameter @A single viewpoint that must be rendered by the render pipeline.  Contains a target viewport and texture array slice within a corresponding renderTarget.
+---@field TryGetCompositorGPUTimeLastFrame fun() @Retrieves the amount of time that the GPU spent executing the compositor renderer during the last frame, as reported by the XR Plugin. Measured in seconds.
+---@field textureLayout fun() @Set DisplaySubsystem to use certain texture layout. Should query supported texture layout through XRDisplaySubsystem.supportedTextureLayouts first for the capabilities.
+---@field SetPreferredMirrorBlitMode fun() @Override the XR display's preferred mirror blit mode from the script.
+---@field TextureLayout XR.XRDisplaySubsystem.TextureLayout @Flags that represents supported texture layout.
+---@field displayFocusChanged fun() @Event sent when XR display focus changes.
+---@field TryGetAppGPUTimeLastFrame fun() @Retrieves the time the GPU has spent on executing commands from the application's last frame, as reported by the XR Plugin. Measured in seconds.
+---@field scaleOfAllRenderTargets fun() @Controls the size of the textures submitted to the display as a multiplier of the display's default resolution.
+---@field supportedTextureLayouts fun() @Specifies all texture layouts supported by this display subsystem. This var is a bit field that could be combination of XRDisplaySubsystem.TextureLayout.
+---@field displayOpaque fun() @Determines if the current attached device has an opaque display.                Most VR devices are opaque in order to increase the immersive experience, AR devices are transparent to allow for interaction with an augmentation of the current environment.
+---@field reprojectionMode fun() @The kind of reprojection the app requests to stabilize its holographic rendering relative to the user's head motion.
+---@field GetSharedDepthTextureForRenderPass fun() @Given a render pass, return the shared depth buffer RenderTexture instance backing that render pass. If the render pass is invalid, or if the render texture does not exist, return null.
+---@field scaleOfAllViewports fun() @Controls how much of the allocated display texture should be used for rendering.
+---@field MarkTransformLateLatched fun() @This marks a given GameObject's transform to be late latched in the next frame. Once marked for late latching, the GameObject transform and its descendants will be updated with the latest VR pose updates before rendering is submitted to the GPU.
+---@field zNear fun() @Set DisplaySubsystem to use zNear for rendering.

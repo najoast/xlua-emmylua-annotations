@@ -1,0 +1,10 @@
+---@class UIElements.LongField @Makes a text field for entering long integers.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field ctor fun() @Constructor.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field UxmlFactory fun() @Instantiates a LongField using the data read from a UXML file.
+---@field UxmlTraits fun() @Defines UxmlTraits for the LongField.
+---@field ApplyInputDeviceDelta fun() @Modify the value using a 3D delta and a speed, typically coming from an input device.
+---@field StringToValue fun() @Converts a string to a long integer.
+---@field ValueToString fun() @Converts the given long integer to a string.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.

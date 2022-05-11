@@ -1,0 +1,2 @@
+---@class Experimental.GraphView.StickyNote.UxmlFactory @Instantiates a StickyNote with the data read from a UXML file.
+---@field ctor fun() @Constructor.

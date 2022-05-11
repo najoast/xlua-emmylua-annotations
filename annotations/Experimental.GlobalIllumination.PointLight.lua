@@ -1,0 +1,11 @@
+---@class Experimental.GlobalIllumination.PointLight @A helper structure used to initialize a LightDataGI structure as a point light.
+---@field orientation fun() @The light's orientation.
+---@field shadow fun() @True if the light casts shadows, otherwise False.
+---@field instanceID fun() @The light's instanceID.
+---@field mode fun() @The lightmode.
+---@field color fun() @The direct light color.
+---@field falloff fun() @The falloff model to use for baking the point light.
+---@field sphereRadius fun() @The light's sphere radius, influencing soft shadows.
+---@field range fun() @The light's range.
+---@field indirectColor fun() @The indirect light color.
+---@field position fun() @The light's position.

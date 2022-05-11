@@ -1,0 +1,37 @@
+---@class MaterialPropertyBlock @A block of material values to apply.
+---@field SetMatrixArray fun() @Set a matrix array property.
+---@field GetTexture fun() @Get a texture from the property block.
+---@field HasConstantBuffer fun() @Checks if MaterialPropertyBlock has the ConstantBuffer property with the given name or name ID. To set the property, use SetConstantBuffer.
+---@field SetFloat fun() @Set a float property.
+---@field HasVector fun() @Checks if MaterialPropertyBlock has the Vector property with the given name or name ID. This also works with the Vector Array property. To set the property, use SetVector.
+---@field GetMatrix fun() @Get a matrix from the property block.
+---@field HasFloat fun() @Checks if MaterialPropertyBlock has the Float property with the given name or name ID. To set the property, use SetFloat.
+---@field HasProperty fun() @Checks if MaterialPropertyBlock has the property with the given name or name ID. To set the property, use one of the Set methods for MaterialPropertyBlock.
+---@field GetFloat fun() @Get a float from the property block.
+---@field SetMatrix fun() @Set a matrix property.
+---@field CopyProbeOcclusionArrayFrom fun() @This function copies the entire source array into a Vector4 property array named unity_ProbesOcclusion for use with instanced Shadowmask rendering.
+---@field HasTexture fun() @Checks if MaterialPropertyBlock has the Texture property with the given name or name ID. To set the property, use SetTexture.
+---@field SetTexture fun() @Set a texture property.
+---@field GetInteger fun() @Get an integer from the property block.
+---@field Clear fun() @Clear material property values.
+---@field isEmpty fun() @Is the material property block empty? (Read Only)
+---@field HasColor fun() @Checks if MaterialPropertyBlock has the Color property with the given name or name ID. To set the property, use SetColor.
+---@field GetVectorArray fun() @Get a vector array from the property block.
+---@field SetConstantBuffer fun() @Sets a ComputeBuffer or GraphicsBuffer as a named constant buffer for the MaterialPropertyBlock.
+---@field SetBuffer fun() @Set a buffer property.
+---@field GetVector fun() @Get a vector from the property block.
+---@field SetVectorArray fun() @Set a vector array property.
+---@field SetVector fun() @Set a vector property.
+---@field SetInteger fun() @Adds a property to the block. If an integer property with the given name already exists, the old value is replaced.
+---@field GetInt fun() @This method is deprecated. Use GetFloat or GetInteger instead.
+---@field SetColor fun() @Set a color property.
+---@field HasBuffer fun() @Checks if MaterialPropertyBlock has the ComputeBuffer property with the given name or name ID. To set the property, use SetBuffer.
+---@field CopySHCoefficientArraysFrom fun() @This function converts and copies the entire source array into 7 Vector4 property arrays named unity_SHAr, unity_SHAg, unity_SHAb, unity_SHBr, unity_SHBg, unity_SHBb and unity_SHC for use with instanced light probe rendering.
+---@field SetInt fun() @This method is deprecated. Use SetFloat or SetInteger instead.
+---@field GetColor fun() @Get a color from the property block.
+---@field SetFloatArray fun() @Set a float array property.
+---@field HasInteger fun() @Checks if MaterialPropertyBlock has the Integer property with the given name or name ID. To set the property, use SetInteger.
+---@field GetMatrixArray fun() @Get a matrix array from the property block.
+---@field GetFloatArray fun() @Get a float array from the property block.
+---@field HasMatrix fun() @Checks if MaterialPropertyBlock has the Matrix property with the given name or name ID. This also works with the Matrix Array property. To set the property, use SetMatrix.
+---@field HasInt fun() @This method is deprecated. Use HasFloat or HasInteger instead.

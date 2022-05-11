@@ -1,0 +1,8 @@
+---@class Networking.Match.MatchInfo @Details about a UNET MatchMaker match.
+---@field domain fun() @The numeric domain for the match.
+---@field networkId fun() @The unique ID of this match.
+---@field nodeId fun() @NodeID for this member client in the match.
+---@field port fun() @Port of the host of the match.
+---@field usingRelay fun() @This flag indicates whether or not the match is using a Relay server.
+---@field address fun() @IP address of the host of the match,.
+---@field accessToken fun() @The binary access token this client uses to authenticate its session for future commands.

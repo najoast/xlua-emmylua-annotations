@@ -1,0 +1,10 @@
+---@class Rendering.ShaderKeyword @Represents an identifier for a specific code path in a shader.
+---@field GetKeywordType fun() @Gets the type of the keyword.
+---@field GetGlobalKeywordType fun() @Returns the type of global keyword: built-in or user defined.
+---@field name fun() @The name of the shader keyword. (Read Only)
+---@field GetGlobalKeywordName fun() @Gets the string name of the global keyword.
+---@field IsValid fun() @Checks whether the global shader keyword exists.
+---@field IsKeywordLocal fun() @Returns true if the keyword is local.
+---@field ctor fun() @Initializes a new instance of the ShaderKeyword class from a shader global keyword name.
+---@field index fun() @The index of the shader keyword.
+---@field GetKeywordName fun() @Gets the string name of the keyword.

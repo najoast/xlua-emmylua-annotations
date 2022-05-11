@@ -1,0 +1,4 @@
+---@class SimulationMode2D @A selection of modes that control when Unity executes the 2D physics simulation.
+---@field Update fun() @Use this enumeration to specify to Unity that it should execute the physics simulation immediately after MonoBehaviour.Update.
+---@field Script fun() @Use this enumeration to specify to Unity that it should execute the physics simulation manually when you call Physics2D.Simulate.
+---@field FixedUpdate fun() @Use this enumeration to specify to Unity that it should execute the physics simulation immediately after the MonoBehaviour.FixedUpdate.

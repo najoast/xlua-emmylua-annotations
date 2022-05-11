@@ -1,0 +1,42 @@
+---@class HandleUtility @Helper functions for Scene View style 3D GUI.
+---@field DistancePointLine fun() @Calculate distance between a point and a line.
+---@field AddControl fun() @Record a distance measurement from a handle.
+---@field FindNearestVertex fun() @Returns the nearest vertex to a guiPoint within a maximum radius of 50 pixels.
+---@field GUIPointToWorldRay fun() @Convert 2D GUI position to a world space ray.
+---@field DistanceToDisc fun() @Returns the distance in pixels from the mouse pointer to a 3D disc.
+---@field RaySnap fun() @Casts ray against the Scene and report if an object lies in its path.
+---@field GetHandleSize fun() @Get world space size of a manipulator handle at given position.
+---@field ClosestPointToArc fun() @Get the point on an arc (in 3D space) which is closest to the current mouse position.
+---@field PlaceObject fun() @Casts a ray against the loaded scenes and returns the nearest intersected point on a collider.
+---@field acceleration fun() @Get standard acceleration for dragging values (Read Only).
+---@field placeObjectCustomPasses fun() @Subscribe to this event to handle object placement in the SceneView.
+---@field niceMouseDeltaZoom fun() @Get nice mouse delta to use for zooming (Read Only).
+---@field pickGameObjectCustomPasses fun() @Subscribe to this event to add additional picking objects to the HandleUtility.PickGameObject method.
+---@field CalcLineTranslation fun() @Map a mouse drag onto a movement along a line in 3D space.
+---@field niceMouseDelta fun() @Get nice mouse delta to use for dragging a float value (Read Only).
+---@field Repaint fun() @Repaint the current view.
+---@field DistanceToArc fun() @Returns the distance in pixels from the mouse pointer to a 3D section of a disc.
+---@field DistanceToCircle fun() @Returns the distance in pixels from the mouse pointer to a camera facing circle.
+---@field ProjectPointLine fun() @Project point onto a line.
+---@field PushCamera fun() @Store all camera settings.
+---@field PlaceObjectDelegate fun() @This is the method definition for placeObjectCustomPasses.
+---@field PointOnLineParameter fun() @Returns the parameter for the projection of the point on the given line.
+---@field DistanceToLine fun() @Returns the distance in pixels from the mouse pointer to a line.
+---@field PopCamera fun() @Retrieve all camera settings.
+---@field DistanceToCube fun() @Returns the distance in pixels from the mouse pointer to a cube.
+---@field WorldToGUIPointWithDepth fun() @Convert a world space point to a 2D GUI position.
+---@field WorldToGUIPoint fun() @Convert a world space point to a 2D GUI position.
+---@field ClosestPointToPolyLine fun() @Get the point on a polyline (in 3D space) which is closest to the current mouse position.
+---@field WorldPointToSizedRect fun() @Calculate a rectangle to display a 2D GUI element near a projected point in 3D space.
+---@field PickRectObjects fun() @Pick GameObjects that lie within a specified screen rectangle.
+---@field PickGameObjectCallback fun() @This is the method definition for pickGameObjectCustomPasses.
+---@field PickGameObject fun() @Pick game object closest to specified position.
+---@field DistanceToPolyLine fun() @Returns the distance in pixels from the mouse pointer to a polyline.
+---@field GUIPointToScreenPixelCoordinate fun() @Converts a 2D GUI position to screen pixel coordinates.
+---@field ClosestPointToDisc fun() @Get the point on an disc (in 3D space) which is closest to the current mouse position.
+---@field DistanceToRectangle fun() @Returns the distance in pixels from the mouse pointer to a rectangle on screen.
+---@field DistancePointToLineSegment fun() @Distance from a point p in 2d to a line segment defined by two points a and b.
+---@field DistancePointBezier fun() @Calculate distance between a point and a Bezier curve.
+---@field AddDefaultControl fun() @Add the ID for a default control. This will be picked if nothing else is.
+---@field DistanceToCone fun() @Returns the distance in pixels from the mouse pointer to a cone.
+---@field DistancePointToLine fun() @Distance from a point p in 2d to a line defined by two points a and b.

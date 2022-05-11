@@ -1,0 +1,4 @@
+---@class UIElements.StyleLength @Style value that can be either a Length or a StyleKeyword.
+---@field value fun() @The Length value.
+---@field ctor fun() @Creates from either a Length or a StyleKeyword.
+---@field keyword fun() @The style keyword.

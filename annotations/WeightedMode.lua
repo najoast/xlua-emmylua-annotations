@@ -1,0 +1,5 @@
+---@class WeightedMode @Sets which weights to use when calculating curve segments.
+---@field None fun() @Exclude both inWeight or outWeight when calculating curve segments.
+---@field Both fun() @Include inWeight and outWeight when calculating curve segments.
+---@field In fun() @Include inWeight when calculating the previous curve segment.
+---@field Out fun() @Include outWeight when calculating the next curve segment.

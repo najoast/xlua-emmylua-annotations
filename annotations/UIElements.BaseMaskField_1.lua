@@ -1,0 +1,3 @@
+---@class UIElements.BaseMaskField_1 @Base class implementing the shared functionality for editing bit mask values.
+---@field choicesMasks fun() @The list of list of masks for every specific choice to display in the popup menu.
+---@field choices fun() @The list of choices to display in the popup menu.

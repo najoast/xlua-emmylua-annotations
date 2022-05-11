@@ -1,0 +1,5 @@
+---@class TerrainRenderFlags @Enum provding terrain rendering options.
+---@field Details fun() @Render terrain details.
+---@field Trees fun() @Render trees.
+---@field All fun() @Render all options.
+---@field Heightmap fun() @Render heightmap.

@@ -1,0 +1,27 @@
+---@class Compilation.CompilationPipeline @Methods and properties for script compilation pipeline.
+---@field compilationFinished fun() @An event that is invoked on the main thread when the compilation of assemblies finishes.
+---@field GetAssemblyDefinitionPlatforms fun() @Returns all the platforms supported by assembly definition files.See Also: AssemblyDefinitionPlatform.
+---@field GetPrecompiledAssemblyPaths fun() @Returns the paths to the precompiled assemblies which are included when building editor assemblies and match any of the given PrecompiledAssemblySources.
+---@field assemblyCompilationFinished fun() @An event that is invoked on the main thread when compilation of an assembly finishes.
+---@field GetPrecompiledAssemblyNames fun() @Get all precompiled assembly names.
+---@field GetDefinesFromAssemblyName fun() @Lists all the #define directives used to compile the specified assembly.
+---@field GetAssemblyDefinitionReferenceType fun() @Utility method to determine whether an Assembly Definition File reference is a GUID reference or an assembly name reference.
+---@field AssemblyDefinitionReferenceGUIDToGUID fun() @Converts an assembly definition file GUID reference to a GUID string.
+---@field GUIDToAssemblyDefinitionReferenceGUID fun() @Converts the given GUID to an assembly definition file GUID reference.
+---@field GetAssemblies fun() @Get all script assemblies compiled by Unity filtered by AssembliesType.
+---@field RequestScriptCompilation fun() @Allows you to request that the Editor recompile scripts in the project.
+---@field GetAssemblyDefinitionFilePathFromScriptPath fun() @Returns the assembly definition file path for a source (script) path. Returns null if there is no assembly definition file for the given script path.
+---@field GetAssemblyRootNamespaceFromScriptPath fun() @Gets the root namespace associated with the given script path.
+---@field IsDefineConstraintsCompatible fun() @Allows you to test whether the specified #define constraints are satisfied by the specified list of #define directives.
+---@field GetResponseFileDefinesFromAssemblyName fun() @Lists all the #define directives used to compile the specified assembly, that is from a Response File.
+---@field PrecompiledAssemblySources Compilation.CompilationPipeline.PrecompiledAssemblySources @Specifies the sources of precompiled assemblies referenced during compilation.
+---@field GetPrecompiledAssemblyPathFromAssemblyName fun() @Returns the Assembly file path from an assembly name. Returns null if there is no Precompiled Assembly name match.
+---@field GetAssemblyDefinitionFilePathFromAssemblyName fun() @Returns the assembly definition file path from an assembly name. Returns null if there is no assembly definition file for the given assembly name.
+---@field GetAssemblyNameFromScriptPath fun() @Returns the assembly name for a source (script) path. Returns null if there is no assembly name for the given script path.
+---@field compilationStarted fun() @An event that is invoked on the main thread when the compilation of assemblies starts.
+---@field assemblyCompilationStarted fun() @An event that is invoked on the main thread when the assembly build starts.
+---@field GetSystemAssemblyDirectories fun() @Use this to get a list of directories containing system references for the specific ApiCompatibilityLevel.
+---@field GetAssemblyDefinitionFilePathFromAssemblyReference fun() @Returns the assembly definition file path for an Assembly Definition File GUID or assembly name reference. Returns null if there is no assembly definition file for the given assembly reference.
+---@field ParseResponseFile fun() @Retrieves the ResponseFileData describing the content of the response file.
+---@field codeOptimization fun() @Current code optimization mode.
+---@field codeOptimizationChanged fun() @This event triggers whenever the codeOptimization property changes between Debug and Release modes.

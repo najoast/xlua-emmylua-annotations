@@ -1,0 +1,2 @@
+---@class UIElements.RadioButtonGroup.UxmlTraits @Defines UxmlTraits for the RadioButtonGroup.
+---@field Init fun() @Initializes RadioButtonGroup properties using values from the attribute bag.

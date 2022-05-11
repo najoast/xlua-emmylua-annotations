@@ -1,0 +1,12 @@
+---@class Compilation.Assembly @Class that represents an assembly compiled by Unity.
+---@field outputPath fun() @The full output file path of this assembly.
+---@field ctor fun() @Constructor.
+---@field flags fun() @Flags for the assembly.See Also: AssemblyFlags.
+---@field defines fun() @The defines used to compile this assembly.
+---@field assemblyReferences fun() @Assembly references used to build this assembly.The references are also assemblies built as part of the Unity project.See Also: Assembly.compiledAssemblyReferences and Assembly.allReferences.
+---@field compilerOptions fun() @Compiler options used to compile the assembly.
+---@field name fun() @The name of the assembly.
+---@field sourceFiles fun() @All the souce files used to compile this assembly.
+---@field rootNamespace fun() @Sets the root namespace of the assembly.
+---@field compiledAssemblyReferences fun() @Assembly references to pre-compiled assemblies that used to build this assembly.See Also: Assembly.assemblyReferences and Assembly.allReferences.
+---@field allReferences fun() @Returns Assembly.assemblyReferences and Assembly.compiledAssemblyReferences combined.This returns all assemblies that are passed to the compiler when building this assembly,.

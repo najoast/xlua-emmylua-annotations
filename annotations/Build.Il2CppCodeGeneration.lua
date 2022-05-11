@@ -1,0 +1,3 @@
+---@class Build.Il2CppCodeGeneration @Options to control code generation for IL2CPP compiler.
+---@field OptimizeSpeed fun() @IL2CPP compiler will generate code optimized for runtime performance.
+---@field OptimizeSize fun() @IL2CPP compiler will generate code optimized for build size and build time.

@@ -1,0 +1,5 @@
+---@class Windows.File @Provides static methods for file operations.
+---@field WriteAllBytes fun() @Creates a new file, writes the specified byte array to the file, and then closes the file. If the target file already exists, it is overwritten.
+---@field ReadAllBytes fun() @Opens a binary file, reads the contents of the file into a byte array, and then closes the file.
+---@field Exists fun() @Determines whether the specified file exists.
+---@field Delete fun() @Deletes the specified file.

@@ -1,0 +1,13 @@
+---@class CompositeCollider2D @A Collider that can merge other Colliders together.
+---@field GetPath fun() @Gets a path from the Collider by its index.
+---@field generationType fun() @Specifies when to generate the Composite Collider geometry.
+---@field pathCount fun() @The number of paths in the Collider.
+---@field GetPathPointCount fun() @Gets the number of points in the specified path from the Collider by its index.
+---@field vertexDistance fun() @Controls the minimum distance allowed between generated vertices.
+---@field GeometryType CompositeCollider2D.GeometryType @Specifies the type of geometry the Composite Collider generates.
+---@field GenerationType CompositeCollider2D.GenerationType @Specifies when to generate the Composite Collider geometry.
+---@field offsetDistance fun() @Vertices are offset by this distance when compositing multiple physic shapes. Any vertices between shapes within this distance are combined.
+---@field pointCount fun() @Gets the total number of points in all the paths within the Collider.
+---@field geometryType fun() @Specifies the type of geometry the Composite Collider should generate.
+---@field edgeRadius fun() @Controls the radius of all edges created by the Collider.
+---@field GenerateGeometry fun() @Regenerates the Composite Collider geometry.

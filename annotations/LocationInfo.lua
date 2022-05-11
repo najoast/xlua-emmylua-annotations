@@ -1,0 +1,7 @@
+---@class LocationInfo @Structure describing device location.
+---@field timestamp fun() @Timestamp (in seconds since 1970) when location was last time updated.
+---@field latitude fun() @Geographical device location latitude.
+---@field verticalAccuracy fun() @Vertical accuracy of the location.
+---@field horizontalAccuracy fun() @Horizontal accuracy of the location.
+---@field longitude fun() @Geographical device location longitude.
+---@field altitude fun() @Geographical device location altitude.

@@ -1,0 +1,2 @@
+---@class Search.SearchColumnProviderAttribute @The search column provider attribute is used to define new formats for a given column.
+---@field provider fun() @Unique name of the search column provider.

@@ -1,0 +1,6 @@
+---@class SocialPlatforms.UserState @User presence state.
+---@field Online fun() @The user is online.
+---@field OnlineAndBusy fun() @The user is online but set their status to busy.
+---@field OnlineAndAway fun() @The user is online but away from their computer.
+---@field Playing fun() @The user is playing a game.
+---@field Offline fun() @The user is offline.

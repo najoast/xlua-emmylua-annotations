@@ -1,0 +1,8 @@
+---@class RelativeJoint2D @Keeps two Rigidbody2D at their relative orientations.
+---@field maxForce fun() @The maximum force that can be generated when trying to maintain the relative joint constraint.
+---@field autoConfigureOffset fun() @Should both the linearOffset and angularOffset be calculated automatically?
+---@field correctionScale fun() @Scales both the linear and angular forces used to correct the required relative orientation.
+---@field maxTorque fun() @The maximum torque that can be generated when trying to maintain the relative joint constraint.
+---@field target fun() @The world-space position that is currently trying to be maintained.
+---@field linearOffset fun() @The current linear offset between the Rigidbody2D that the joint connects.
+---@field angularOffset fun() @The current angular offset between the Rigidbody2D that the joint connects.

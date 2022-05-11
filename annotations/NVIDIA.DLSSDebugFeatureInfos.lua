@@ -1,0 +1,5 @@
+---@class NVIDIA.DLSSDebugFeatureInfos @Represents debug information for a particular DLSSContext.
+---@field initData fun() @The init data which the DLSSContext used.
+---@field validFeature fun() @Debug information that indicates whether the feature last execution was valid or not.
+---@field featureSlot fun() @The internal feature slot ID. You can use this feature slot as a unique identifier for DLSSCommand objects. Only use this for debugging purposes.
+---@field execData fun() @The last execution data which the DLSSContext during execution. See Also: GraphicsDevice.ExecuteDLSS

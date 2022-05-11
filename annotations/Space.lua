@@ -1,0 +1,3 @@
+---@class Space @The coordinate space in which to operate.
+---@field World fun() @Applies transformation relative to the world coordinate system.
+---@field Self fun() @Applies transformation relative to the local coordinate system.

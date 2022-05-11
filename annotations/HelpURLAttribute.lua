@@ -1,0 +1,3 @@
+---@class HelpURLAttribute @Provide a custom documentation URL for a class.
+---@field ctor fun() @Initialize the HelpURL attribute with a documentation url.
+---@field URL fun() @The documentation URL specified for this class.

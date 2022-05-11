@@ -1,0 +1,11 @@
+---@class Compilation.ScriptCompilerOptions @Compiler options passed to the script compiler.
+---@field RoslynAnalyzerRulesetPath fun() @Stores the path to the Roslyn ruleset file.
+---@field AllowUnsafeCode fun() @Allow 'unsafe' code when compiling scripts.
+---@field LanguageVersion fun() @String representation of the language version being used to compile the current Assembly.
+---@field ResponseFiles fun() @Array of path to the response files that affects the current compilation.
+---@field EmitReferenceAssembly fun() @Emit Reference Assembly when compiling scripts.
+---@field AdditionalCompilerArguments fun() @Additional compiler arguments.
+---@field RoslynAnalyzerDllPaths fun() @Stores the paths to the .dll files.
+---@field ctor fun() @Creates ScriptCompilerOptions with default values used for script compilation.
+---@field CodeOptimization fun() @Indicates whether performance optimization is enabled for the assembly
+---@field ApiCompatibilityLevel fun() @ApiCompatibilityLevel for a given Assembly.

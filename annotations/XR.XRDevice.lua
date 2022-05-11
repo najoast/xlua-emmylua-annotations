@@ -1,0 +1,10 @@
+---@class XR.XRDevice @Contains all functionality related to a XR device.
+---@field GetTrackingSpaceType fun() @Returns the device's current TrackingSpaceType. This value determines how the camera is positioned relative to its starting position. For more, see the section Understanding the camera in VROverview.
+---@field deviceLoaded fun() @Subscribe a delegate to this event to get notified when an XRDevice is successfully loaded.
+---@field isPresent fun() @Successfully detected a XR device in working order.
+---@field SetTrackingSpaceType fun() @Sets the device's current TrackingSpaceType. Returns true on success. Returns false if the given TrackingSpaceType is not supported or the device fails to switch.
+---@field refreshRate fun() @Refresh rate of the display in Hertz.
+---@field DisableAutoXRCameraTracking fun() @Sets whether the camera passed in the first parameter is controlled implicitly by the XR Device
+---@field UpdateEyeTextureMSAASetting fun() @Recreates the XR platform's eye texture swap chain with the appropriate anti-aliasing sample count.  The reallocation of the eye texture will only occur if the MSAA quality setting's sample count is different from the sample count of the current eye texture.  Reallocations of the eye textures will happen at the beginning of the next frame.  This is an expensive operation and should only be used when necessary.
+---@field GetNativePtr fun() @This method returns an IntPtr representing the native pointer to the XR device if one is available, otherwise the value will be IntPtr.Zero.
+---@field fovZoomFactor fun() @Zooms the XR projection.

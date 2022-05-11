@@ -1,0 +1,2 @@
+---@class TerrainTools.TerrainInspectorUtility @Utility class for Terrain Inspector GUI.
+---@field TerrainShaderValidationGUI fun() @Checks whether a Material is compatible with Terrain.

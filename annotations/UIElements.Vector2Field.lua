@@ -1,0 +1,7 @@
+---@class UIElements.Vector2Field @A Vector2 editor field.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field ctor fun() @Initializes and returns an instance of Vector2Field.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field UxmlFactory fun() @Instantiates a Vector2Field using the data read from a UXML file.
+---@field UxmlTraits UIElements.Vector2Field.UxmlTraits @Defines UxmlTraits for the Vector2Field.

@@ -1,0 +1,23 @@
+---@class Search.SearchFlags @Search options used to fetch items. Mostly with SearchContext to specify how a search should be handled.
+---@field OpenDefault fun() @Opens a search view with default options. This flag is only usable with internal API.
+---@field OpenGlobal fun() @Opens a search view for a global search. This flag is only usable with internal API.
+---@field HidePanels fun() @Indicates that the search view will hide its side panels when it opens. This flag is only usable with internal API.
+---@field OpenPicker fun() @Opens a search view as an object picker. This flag is only usable with internal API.
+---@field Packages fun() @The Object Picker window will include any results from packages.
+---@field Debug fun() @Adds debugging information to SearchItem while looking for results.
+---@field ReuseExistingWindow fun() @Indicates that the search view will find any existing window instances that are already opened before creating a new one. This flag is only usable with internal API.
+---@field OpenContextual fun() @Opens a search view with default contextual options. This flag is only usable with internal API.
+---@field FocusContext fun() @Indicates that the search view will focus on the first contextual search provider available when it opens. This flag is only usable with internal API.
+---@field Dockable fun() @Indicates that the search view is dockable. This flag is only usable with internal API.
+---@field None fun() @No specific search options. Result will be unsorted.
+---@field ShowErrorsWithResults fun() @Always show query errors even when there are results available. This flag is only usable with internal API.
+---@field SaveFilters fun() @Indicates that the search view will save its settings and search provider filters when it closes. This flag is only usable with internal API.
+---@field Sorted fun() @Fetched items are sorted by the search service.
+---@field WantsMore fun() @Sets the search to search for all results. This might take longer than unusual if SearchProvider are using multiple sources of items (files on disk, AssetDatabase...)
+---@field Synchronous fun() @Search items are fetched synchronously. This can take a long time for some SearchProvider (like asset). Use at your own risk.
+---@field NoIndexing fun() @Prevents the search from using indexing. Asset Provider will use its builtin Find in Files provider.
+---@field Expression fun() @Indicates that the search query will be evaluated as a search expression.
+---@field FirstBatchAsync fun() @Sends the first items asynchronously.
+---@field Default fun() @Default Search Flag (SearchFlags.Sorted).
+---@field Multiselect fun() @Indicates that the search view will allow multi-selection. This flag is only usable with internal API.
+---@field QueryString fun() @Evaluate the search text as a pure query string (do not evaluate the text as a search expression).

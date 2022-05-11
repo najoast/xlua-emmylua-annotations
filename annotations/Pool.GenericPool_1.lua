@@ -1,0 +1,3 @@
+---@class Pool.GenericPool_1 @Provides a static implementation of Pool.ObjectPool_1.
+---@field Get fun() @Get an instance from the pool. If the pool is empty then a new instance will be created.
+---@field Release fun() @Returns the instance back to the pool.

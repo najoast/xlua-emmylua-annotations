@@ -1,0 +1,15 @@
+---@class Rendering.PassType @Shader pass type for Unity's lighting pipeline.
+---@field Vertex fun() @Legacy vertex-lit shader pass.
+---@field Meta fun() @Shader pass used to generate the albedo and emissive values used as input to lightmapping.
+---@field Deferred fun() @Deferred Shading shader pass.
+---@field LightPrePassBase fun() @Legacy deferred lighting (light pre-pass) base pass.
+---@field ShadowCaster fun() @Shadow caster &amp; depth texure shader pass.
+---@field VertexLM fun() @Legacy vertex-lit shader pass, with mobile lightmaps.
+---@field LightPrePassFinal fun() @Legacy deferred lighting (light pre-pass) final pass.
+---@field VertexLMRGBM fun() @Legacy vertex-lit shader pass, with desktop (RGBM) lightmaps.
+---@field ForwardBase fun() @Forward rendering base pass.
+---@field ScriptableRenderPipelineDefaultUnlit fun() @Custom scriptable pipeline when lightmode is set to default unlit or no light mode is set.
+---@field ScriptableRenderPipeline fun() @Custom scriptable pipeline.
+---@field ForwardAdd fun() @Forward rendering additive pixel light pass.
+---@field Normal fun() @Regular shader pass that does not interact with lighting.
+---@field MotionVectors fun() @Motion vector render pass.

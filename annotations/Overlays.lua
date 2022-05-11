@@ -1,0 +1,9 @@
+---@class Overlays @nil
+---@field ToolbarOverlay Overlays.ToolbarOverlay @ToolbarOverlay is an implementation of Overlay that provides a base for Overlays that can be placed in horizontal or vertical toolbars.
+---@field OverlayAttribute Overlays.OverlayAttribute @Attribute used to register a class as an overlay.
+---@field ITransientOverlay Overlays.ITransientOverlay @Transient Overlays are a type of Overlay that is not controlled by a user, and only drawn in the active Scene View when requested by the visible property. Implementing ITransientOverlay in an Overlay class designates it for this special behavior.
+---@field IMGUIOverlay Overlays.IMGUIOverlay @IMGUIOverlay is an implementation of Overlay that provides a UIElements.IMGUIContainer.
+---@field ISupportsOverlays fun() @Implement this interface to enable overlays in the EditorWindow.
+---@field Layout Overlays.Layout @Possible layouts for an overlay.
+---@field EditorToolbarDropdownToggle Overlays.EditorToolbarDropdownToggle @A control that is both a toggle and a dropdown used with EditorToolbarElementAttribute.
+---@field Overlay Overlays.Overlay @Overlays are persistent and customizable panels and toolbars that are available within Editor Windows. Use Overlays to expose actions and tool options in a convenient and user-controllable way.

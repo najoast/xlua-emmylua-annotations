@@ -1,0 +1,5 @@
+---@class Rendering.PassIdentifier @Represents an opaque identifier of a specific Pass in a Shader.
+---@field operator_eq fun() @Returns true if the pass identifiers are the same. Otherwise, returns false.
+---@field SubshaderIndex fun() @The index of the subshader within the shader (Read Only).
+---@field operator_ne fun() @Returns true if the pass identifiers are not the same. Otherwise, returns false.
+---@field PassIndex fun() @The index of the pass within the subshader (Read Only).

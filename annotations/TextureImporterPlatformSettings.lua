@@ -1,0 +1,12 @@
+---@class TextureImporterPlatformSettings @Stores platform specifics settings of a TextureImporter.
+---@field textureCompression fun() @Compression of imported texture.
+---@field crunchedCompression fun() @Use crunch compression when available.
+---@field CopyTo fun() @Copy parameters into another TextureImporterPlatformSettings object.
+---@field androidETC2FallbackOverride fun() @Override for ETC2 decompression fallback on Android devices that don't support ETC2.
+---@field name fun() @Name of the build target.
+---@field maxTextureSize fun() @Maximum texture size.
+---@field resizeAlgorithm fun() @For Texture to be scaled down choose resize algorithm. ( Applyed only when Texture dimension is bigger than Max Size ).
+---@field compressionQuality fun() @Quality of texture compression in the range [0..100].
+---@field allowsAlphaSplitting fun() @Allows Alpha splitting on the imported texture when needed (for example ETC1 compression for textures with transparency).
+---@field overridden fun() @Set to true in order to override the Default platform parameters by those provided in the TextureImporterPlatformSettings structure.
+---@field format fun() @Format of imported texture.

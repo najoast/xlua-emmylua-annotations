@@ -1,0 +1,3 @@
+---@class SceneManagement.PrefabStage.Mode @Specifies the mode that Unity uses to open a Prefab stage. You can open the stage either in isolation or in context.
+---@field InContext fun() @Editing in context means that you can edit a Prefab Asset in Prefab Mode and still retain the context of the Prefab instance you opened through.
+---@field InIsolation fun() @Editing in isolation means that you can edit a Prefab Asset on its own in Prefab Mode.

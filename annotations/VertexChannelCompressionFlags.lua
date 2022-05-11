@@ -1,0 +1,16 @@
+---@class VertexChannelCompressionFlags @Use these enum flags to specify which elements of a vertex to compress.
+---@field TexCoord3 fun() @Texture coordinate 3 compression enabled.
+---@field Tangent fun() @Tangent compression enabled.
+---@field TexCoord0 fun() @Texture coordinate 0 compression enabled.
+---@field Normal fun() @Normal compression enabled.
+---@field TexCoord7 fun() @Texture coordinate 7.
+---@field BlendIndices fun() @Blend index compression enabled.
+---@field TexCoord4 fun() @Texture coordinate 4.
+---@field TexCoord6 fun() @Texture coordinate 6.
+---@field Color fun() @Color compression enabled.
+---@field TexCoord2 fun() @Texture coordinate 2 compression enabled.
+---@field Position fun() @Position compression enabled.
+---@field BlendWeights fun() @Blend weight compression enabled.
+---@field None fun() @Vertex compression disabled.
+---@field TexCoord1 fun() @Texture coordinate 1 compression enabled.
+---@field TexCoord5 fun() @Texture coordinate 5.

@@ -1,0 +1,21 @@
+---@class Unity.Profiling.ProfilerRecorder @Records the Profiler metric data that a Profiler marker or counter produces.
+---@field Reset fun() @Clears collected samples.
+---@field LastValueAsDouble fun() @Gets the last value collected by the ProfilerRecorder as double.
+---@field ctor fun() @Constructs ProfilerRecorder instance with a Profiler metric name and category.
+---@field Capacity fun() @Maximum amount of samples ProfilerRecorder can capture.
+---@field WrappedAround fun() @Indicates if ProfilerRecorder capacity has been exceeded.
+---@field ToArray fun() @Use to convert collected samples to an array.
+---@field CurrentValue fun() @Gets current value of the Profiler metric.
+---@field Count fun() @Collected samples count.
+---@field DataType fun() @Value data type of the Profiler metric.
+---@field IsRunning fun() @Indicates if ProfilerRecorder is attached to the Profiler metric.
+---@field CopyTo fun() @Copies collected samples to the destination array.
+---@field Start fun() @Start data collection.
+---@field StartNew fun() @Initialize a new instance of ProfilerRecorder and start data collection.
+---@field UnitType fun() @Unit type.
+---@field CurrentValueAsDouble fun() @Gets current value of the Profiler metric as double value.
+---@field Valid fun() @Indicates whether ProfilerRecorder is associated with a valid Profiler marker or counter.
+---@field Stop fun() @Stops data collection.
+---@field Dispose fun() @Releases unmanaged instance of the ProfilerRecorder.
+---@field LastValue fun() @Gets the last value collected by the ProfilerRecorder.
+---@field GetSample fun() @Gets sample data.

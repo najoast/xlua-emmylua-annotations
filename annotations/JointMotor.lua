@@ -1,0 +1,4 @@
+---@class JointMotor @The JointMotor is used to motorize a joint.
+---@field targetVelocity fun() @The motor will apply a force up to force to achieve targetVelocity.
+---@field freeSpin fun() @If freeSpin is enabled the motor will only accelerate but never slow down.
+---@field force fun() @The motor will apply a force.

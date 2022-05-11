@@ -1,0 +1,4 @@
+---@class PlayerSettings.WSAInputSource @Options for the input source from which a XAML application can receive pointer input events.
+---@field CoreWindow fun() @Indicates that pointer input comes from CoreWindow. This is the default option.
+---@field IndependentInputSource fun() @Indicates that pointer input comes from SwapChainPanel's core input object.
+---@field SwapChainPanel fun() @Indicates that pointer input comes from the SwapChainPanel.

@@ -1,0 +1,6 @@
+---@class UIElements.Experimental.IValueAnimation @Base interface for transition animations.
+---@field durationMs fun() @Duration of the transition in milliseconds.
+---@field Recycle fun() @Returns this animation object into its object pool.
+---@field Start fun() @Starts the animation using this object's values.
+---@field Stop fun() @Stops this animation.
+---@field isRunning fun() @Tells if the animation is currently active.

@@ -1,0 +1,11 @@
+---@class UIElements.GradientField @Makes a field for editing an Gradient.
+---@field inputUssClassName fun() @USS class name for input elements in elements of this type.
+---@field borderUssClassName fun() @USS class name for border elements in elements of this type.
+---@field ussClassName fun() @USS class name for elements of this type.
+---@field UxmlFactory fun() @Instantiates a GradientField using the data read from a UXML file.
+---@field UxmlTraits fun() @Defines UxmlTraits for the GradientField.
+---@field colorSpace fun() @The color space currently used by the field.
+---@field ctor fun() @Constructor.
+---@field contentUssClassName fun() @USS class name for the content for the gradient visual in the GradientField element.
+---@field value fun() @The Gradient currently being exposed by the field.
+---@field labelUssClassName fun() @USS class name for labels in elements of this type.

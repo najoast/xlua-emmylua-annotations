@@ -1,0 +1,10 @@
+---@class Build.Content.BuildUsageTagSet @Container for holding information about how objects are being used in a build.
+---@field ctor fun() @Default constructor for an empty BuildUsageTagSet.
+---@field GetObjectIdentifiers fun() @Returns an array of ObjectIdentifiers that this BuildUsageTagSet contains usage information about.
+---@field GetObjectData fun() @ISerializable method for serialization support outside of Unity's internal serialization system.
+---@field GetHashCode fun() @Gets the hash code for the BuildUsageTagSet.
+---@field GetHash128 fun() @Gets the hash for the BuildReferenceMap.
+---@field UnionWith fun() @Adds the Object usage information from another BuildUsageTagSet to this BuildUsageTagSet.
+---@field Dispose fun() @Dispose the BuildUsageTagSet destroying all internal state.
+---@field FilterToSubset fun() @Filters this BuildUsageTagSet instance to remove references to any objects that are not in the array of ObjectIdentifiers specified by objectIds.
+---@field Equals fun() @Returns true if the objects are equal.

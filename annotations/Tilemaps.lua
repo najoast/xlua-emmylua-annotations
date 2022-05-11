@@ -1,0 +1,11 @@
+---@class Tilemaps @nil
+---@field ITilemap Tilemaps.ITilemap @Class passed onto Tiles when information is queried from the Tiles.
+---@field Tilemap Tilemaps.Tilemap @The Tilemap stores Sprites in a layout marked by a Grid component.
+---@field TilemapRenderer Tilemaps.TilemapRenderer @The tile map renderer is used to render the tile map marked out by a tile map component and a grid component.
+---@field TileBase Tilemaps.TileBase @Base class for a tile in the Tilemap.
+---@field TileChangeData Tilemaps.TileChangeData @Represents the position and Tile information to change in a Tilemap.
+---@field TileFlags Tilemaps.TileFlags @Flags controlling behavior for the TileBase.
+---@field Tile Tilemaps.Tile @Class for a default tile in the Tilemap.
+---@field TileData Tilemaps.TileData @A Struct for the required data for rendering a Tile.
+---@field TileAnimationData Tilemaps.TileAnimationData @A Struct for the required data for animating a Tile.
+---@field TilemapCollider2D Tilemaps.TilemapCollider2D @Collider for 2D physics representing shapes defined by the corresponding Tilemap.

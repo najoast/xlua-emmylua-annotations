@@ -1,0 +1,44 @@
+---@class Input @Interface into the Input system.
+---@field eatKeyPressOnTextFieldFocus fun() @Property indicating whether keypresses are eaten by a textinput if it has focus (default true).
+---@field GetMouseButtonUp fun() @Returns true during the frame the user releases the given mouse button.
+---@field compositionCursorPos fun() @The current text input position used by IMEs to open windows.
+---@field GetKeyUp fun() @Returns true during the frame the user releases the key identified by name.
+---@field ResetInputAxes fun() @Resets all input. After ResetInputAxes all axes return to 0 and all buttons return to 0 for one frame.
+---@field touches fun() @Returns list of objects representing status of all touches during last frame. (Read Only) (Allocates temporary variables).
+---@field inputString fun() @Returns the keyboard input entered this frame. (Read Only)
+---@field acceleration fun() @Last measured linear acceleration of a device in three-dimensional space. (Read Only)
+---@field GetAxisRaw fun() @Returns the value of the virtual axis identified by axisName with no smoothing filtering applied.
+---@field gyro fun() @Returns default gyroscope.
+---@field GetMouseButton fun() @Returns whether the given mouse button is held down.
+---@field GetMouseButtonDown fun() @Returns true during the frame the user pressed the given mouse button.
+---@field accelerationEvents fun() @Returns list of acceleration measurements which occurred during the last frame. (Read Only) (Allocates temporary variables).
+---@field anyKeyDown fun() @Returns true the first frame the user hits any key or mouse button. (Read Only)
+---@field stylusTouchSupported fun() @Returns true when Stylus Touch is supported by a device or platform.
+---@field compositionString fun() @The current IME composition string being typed by the user.
+---@field mousePosition fun() @The current mouse position in pixel coordinates. (Read Only).
+---@field GetTouch fun() @Call Input.GetTouch to obtain a Touch struct.
+---@field accelerationEventCount fun() @Number of acceleration measurements which occurred during last frame.
+---@field compass fun() @Property for accessing compass (handheld devices only). (Read Only)
+---@field imeIsSelected fun() @Does the user have an IME keyboard input source selected?
+---@field anyKey fun() @Is any key or mouse button currently held down? (Read Only)
+---@field touchPressureSupported fun() @Bool value which let's users check if touch pressure is supported.
+---@field touchSupported fun() @Returns whether the device on which application is currently running supports touch input.
+---@field GetKeyDown fun() @Returns true during the frame the user starts pressing down the key identified by name.
+---@field GetButtonUp fun() @Returns true the first frame the user releases the virtual button identified by buttonName.
+---@field multiTouchEnabled fun() @Property indicating whether the system handles multiple touches.
+---@field simulateMouseWithTouches fun() @Enables/Disables mouse simulation with touches. By default this option is enabled.
+---@field GetButtonDown fun() @Returns true during the frame the user pressed down the virtual button identified by buttonName.
+---@field GetKey fun() @Returns true while the user holds down the key identified by name.
+---@field GetJoystickNames fun() @Retrieves a list of input device names corresponding to the index of an Axis configured within Input Manager.
+---@field IsJoystickPreconfigured fun() @Determine whether a particular joystick model has been preconfigured by Unity. (Linux-only).
+---@field GetButton fun() @Returns true while the virtual button identified by buttonName is held down.
+---@field location fun() @Property for accessing device location (handheld devices only). (Read Only)
+---@field backButtonLeavesApp fun() @Should  Back button quit the application?Only usable on Android, Windows Phone or Windows Tablets.
+---@field GetAxis fun() @Returns the value of the virtual axis identified by axisName.
+---@field imeCompositionMode fun() @Controls enabling and disabling of IME input composition.
+---@field deviceOrientation fun() @Device physical orientation as reported by OS. (Read Only)
+---@field GetAccelerationEvent fun() @Returns specific acceleration measurement which occurred during last frame. (Does not allocate temporary variables).
+---@field touchCount fun() @Number of touches. Guaranteed not to change throughout the frame. (Read Only)
+---@field compensateSensors fun() @This property controls if input sensors should be compensated for screen orientation.
+---@field mousePresent fun() @Indicates if a mouse device is detected.
+---@field mouseScrollDelta fun() @The current mouse scroll delta. (Read Only)

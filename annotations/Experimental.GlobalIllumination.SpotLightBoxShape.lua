@@ -1,0 +1,11 @@
+---@class Experimental.GlobalIllumination.SpotLightBoxShape @Use this Struct to help initialize a LightDataGI structure as a box-shaped spot light.
+---@field height fun() @The height of the box light.
+---@field orientation fun() @The light's orientation.
+---@field shadow fun() @Specifies whether the light casts shadows or not. This is true if the light does cast shadows and false otherwise.
+---@field instanceID fun() @The light's instanceID.
+---@field mode fun() @The lightmode.
+---@field color fun() @The direct light color.
+---@field position fun() @The light's position.
+---@field width fun() @The width of the box light.
+---@field indirectColor fun() @The indirect light color.
+---@field range fun() @The light's range.

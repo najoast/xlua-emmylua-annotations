@@ -1,0 +1,52 @@
+---@class LightingSettings @An object containing settings for precomputing lighting data, that Unity can serialize as a Lighting Settings Asset.
+---@field directSampleCount fun() @Specifies the number of samples the Progressive Lightmapper uses for direct lighting calculations. (Editor only).
+---@field indirectSampleCount fun() @Specifies the number of samples the Progressive Lightmapper uses for indirect lighting calculations. (Editor only).
+---@field finalGather fun() @Specifies whether the Editor calculates the final global illumination light bounce at the same resolution as the baked lightmap.
+---@field bakedGI fun() @Whether to enable the Baked Global Illumination system for this Scene.
+---@field FilterType LightingSettings.FilterType @The available filter kernels for the Progressive Lightmapper.
+---@field environmentSampleCount fun() @Specifies the number of samples the Progressive Lightmapper uses when sampling indirect lighting from the skybox. (Editor only).
+---@field aoExponentIndirect fun() @Sets the contrast of ambient occlusion that Unity applies to indirect lighting in lightmaps. (Editor only).
+---@field directionalityMode fun() @Determines whether the lightmapper should generate directional or non-directional lightmaps. (Editor only).
+---@field denoiserTypeIndirect fun() @Determines the denoiser that the Progressive Lightmapper applies to indirect lighting. (Editor only).
+---@field filteringMode fun() @Specifies the filter type that the Progressive Lightmapper uses for ambient occlusion. (Editor only).
+---@field denoiserTypeDirect fun() @Determines the denoiser that the Progressive Lightmapper applies to direct lighting. (Editor only).
+---@field filteringAtrousPositionSigmaAO fun() @Specifies the threshold the Progressive Lightmapper uses to filter direct light stored in the lightmap when using the A-Trous filter. (Editor only).
+---@field aoMaxDistance fun() @The distance that a ray travels before Unity considers it to be unoccluded when calculating ambient occlusion in lightmaps. (Editor only).
+---@field extractAO fun() @Whether the Progressive Lightmapper extracts Ambient Occlusion to a separate lightmap. (Editor only).
+---@field indirectScale fun() @Multiplies the intensity of of indirect lighting in lightmaps. (Editor only).
+---@field filteringAtrousPositionSigmaIndirect fun() @Specifies the radius the Progressive Lightmapper uses to filter the ambient occlusion component in the lightmap when using Gaussian filter. (Editor only).
+---@field russianRouletteStartBounce fun() @This property is now obsolete. Use LightingSettings.minBounces.
+---@field filteringGaussRadiusAO fun() @Specifies the radius the Progressive Lightmapper uses to filter the direct lighting component of the lightmap when using Gaussian filter. (Editor only).
+---@field ao fun() @Whether to apply ambient occlusion to lightmaps. (Editor only).
+---@field filteringGaussRadiusDirect fun() @Specifies the radius the Progressive Lightmapper used to filter the indirect lighting component of the lightmap when using Gaussian filter. (Editor only).
+---@field bounces fun() @This property is now obsolete. Use LightingSettings.maxBounces.
+---@field Lightmapper LightingSettings.Lightmapper @Backends available for baking lighting.
+---@field maxBounces fun() @Stores the maximum number of bounces the Progressive Lightmapper computes for indirect lighting. (Editor only)
+---@field filterTypeDirect fun() @Specifies the filter kernel that the Progressive Lightmapper uses for the direct lighting. (Editor only).
+---@field DenoiserType LightingSettings.DenoiserType @The available denoisers for the Progressive Lightmapper.
+---@field lightmapper fun() @Determines which backend to use for baking lightmaps in the Baked Global Illumination system. (Editor only).
+---@field realtimeGI fun() @Whether to enable the Enlighten Realtime Global Illumination system for this Scene.
+---@field realtimeEnvironmentLighting fun() @Determines the lightmap that Unity stores environment lighting in.
+---@field prioritizeView fun() @Whether the Progressive Lightmapper prioritizes baking visible texels within the frustum of the Scene view. (Editor only).
+---@field mixedBakeMode fun() @Sets the MixedLightingMode that Unity uses for all Mixed Lights in the Scene. (Editor only).
+---@field trainingDataDestination fun() @Determines the name of the destination folder for the exported textures. (Editor only).
+---@field indirectResolution fun() @Defines the number of texels that Enlighten Realtime Global Illumination uses per world unit when calculating indirect lighting. (Editor only).
+---@field exportTrainingData fun() @Whether the Progressive Lightmapper exports machine learning training data to the Project folder when it performs the bake. ( Editor only).
+---@field lightProbeSampleCountMultiplier fun() @Specifies the number of samples to use for Light Probes relative to the number of samples for lightmap texels. (Editor only).
+---@field finalGatherRayCount fun() @Controls the number of rays emitted for every final gather point. A final gather point is a lightmap texel in the final, composited lightmap. (Editor only).
+---@field minBounces fun() @Stores the minimum number of bounces the Progressive Lightmapper computes for indirect lighting. (Editor only)
+---@field lightmapPadding fun() @Sets the distance (in texels) between separate UV tiles in lightmaps. (Editor only).
+---@field lightmapMaxSize fun() @The maximum size in pixels of an individual lightmap texture. (Editor only).
+---@field lightmapCompression fun() @The level of compression the Editor uses for lightmaps.
+---@field autoGenerate fun() @Whether the Unity Editor automatically precomputes lighting data when the Scene data changes. (Editor only).
+---@field albedoBoost fun() @The intensity of surface albedo throughout the Scene when considered in lighting calculations. This value influences the energy of light at each bounce. (Editor only).
+---@field filteringGaussRadiusIndirect fun() @Specifies the method used by the Progressive Lightmapper to reduce noise in lightmaps. (Editor only).
+---@field filterTypeIndirect fun() @Specifies the filter kernel that the Progressive Lightmapper uses for indirect lighting. (Editor only).
+---@field lightmapResolution fun() @Defines the number of texels to use per world unit when generating lightmaps.
+---@field finalGatherFiltering fun() @Controls whether a denoising filter is applied to the final gather output.
+---@field denoiserTypeAO fun() @Determines the type of denoising that the Progressive Lightmapper applies to ambient occlusion in lightmaps. (Editor only).
+---@field filteringAtrousPositionSigmaDirect fun() @Specifies the threshold the Progressive Lightmapper uses to filter the indirect lighting component of the lightmap when using the A-Trous filter. (Editor only).
+---@field compressLightmaps fun() @Whether to compress the lightmap textures that the Progressive Lightmapper generates. (Editor only)
+---@field FilterMode LightingSettings.FilterMode @The available filtering modes for the Progressive Lightmapper.
+---@field filterTypeAO fun() @Specifies the filter kernel that the Progressive Lightmapper uses for ambient occlusion. (Editor only).
+---@field aoExponentDirect fun() @Determines the degree to which direct lighting is considered when calculating ambient occlusion in lightmaps. (Editor only).

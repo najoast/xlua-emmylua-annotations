@@ -1,0 +1,5 @@
+---@class Rendering.SynchronisationStage @Broadly describes the stages of processing a draw call on the GPU.
+---@field ComputeProcessing fun() @All operations related to compute shader dispatches.
+---@field VertexProcessing fun() @All aspects of vertex processing.
+---@field PixelProcessing fun() @The process of creating and shading the fragments.
+---@field AllGPUOperations fun() @All GPU operations (pixel, vertex and compute shader processing).

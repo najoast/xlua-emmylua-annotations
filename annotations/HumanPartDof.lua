@@ -1,0 +1,17 @@
+---@class HumanPartDof @Enumeration of all the parts in a human.
+---@field LeftRing fun() @The human left ring finger part.
+---@field RightThumb fun() @The human right thumb finger part.
+---@field RightMiddle fun() @The human right middle finger part.
+---@field LeftThumb fun() @The human left thumb finger part.
+---@field RightRing fun() @The human right ring finger part.
+---@field LeftMiddle fun() @The human left middle finger part.
+---@field LeftLeg fun() @The human left leg part.
+---@field LeftIndex fun() @The human left index finger part.
+---@field LeftLittle fun() @The human left little finger part.
+---@field Head fun() @The human head part.
+---@field Body fun() @The human body part.
+---@field RightIndex fun() @The human right index finger part.
+---@field RightArm fun() @The human right arm part.
+---@field LeftArm fun() @The human left arm part.
+---@field RightLittle fun() @The human right little finger part.
+---@field RightLeg fun() @The human right leg part.

@@ -1,0 +1,2 @@
+---@class ParticleSystem.Trails @Script interface for storing the particle trail data.
+---@field capacity fun() @Reserve memory for the particle trail data.

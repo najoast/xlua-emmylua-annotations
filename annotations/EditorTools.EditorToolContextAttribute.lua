@@ -1,0 +1,2 @@
+---@class EditorTools.EditorToolContextAttribute @Registers an EditorToolContext as either a global context or a Component context  for a specific target type.
+---@field ctor fun() @Registers an EditorToolContext as either a global tool context or a Component tool context.

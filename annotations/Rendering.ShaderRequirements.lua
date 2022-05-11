@@ -1,0 +1,24 @@
+---@class Rendering.ShaderRequirements @Shader features required by a specific shader. Features are bit flags.
+---@field MRT8 fun() @Indicates that support for multiple render targets (at least 8) is required i.e. support for fragment shaders that can output at least 8 values.
+---@field FragCoord fun() @Indicates that support for pixel position (SV_Position) input to the fragment shader stage is required.
+---@field Geometry fun() @Indicates that geometry shader stage support is required.
+---@field TessellationCompute fun() @Indicates that support for tessellation using a compute shader for control point processing is required. The Metal graphics API requires this feature for tessellation.
+---@field Interpolators10 fun() @Indicates that support for at least 10 interpolators is required.
+---@field MSAATextureSamples fun() @Indicates that support for MSAA textures (e.g. Texture2DMS) is required.
+---@field BaseShaders fun() @Indicates that basic shader capability i.e. Shader Model level 2.0 is required.
+---@field Instancing fun() @Indicates that support for the SV_InstanceID input semantic is required.
+---@field FragClipDepth fun() @Indicates that support for pixel depth (SV_Position.zw) input to the fragment shader stage is required.
+---@field SparseTexelResident fun() @Indicates that support of sparse textures with sampling instructions that return residency information is requred.
+---@field RandomWrite fun() @Indicates that support for random-write textures (UAVs) is required.
+---@field None fun() @No shader requirements.
+---@field Derivatives fun() @Indicates that support for derivative (ddx/ddy) instructions from the fragment shader stage is required.
+---@field MRT4 fun() @Indicates that support for multiple render targets (at least 4) is required i.e. support for fragment shaders that can output at least 4 values.
+---@field Texture2DArray fun() @Indicates that support for 2D array textures (Texture2DArray) is required.
+---@field FramebufferFetch fun() @Indicates that framebuffer fetch support is required. This is the ability to have fragment shader color arguments with in/out modifiers.
+---@field SetRTArrayIndexFromAnyShader fun() @Indicates that support for setting the render target array index (SV_RenderTargetArrayIndex) from all shader stages (not just from the geometry shader stage) is required.
+---@field SampleLOD fun() @Indicates that support for texture sampling from the fragment shader stage with an explicit mipmap level is required.
+---@field Compute fun() @Indicates that compute shader support is required.
+---@field Interpolators15Integers fun() @Indicates that support for at least 15 integers and interpolators in total are required. Unity bundles them together because it is extremely unlikely a GPU/API will ever exist that only has part of that.
+---@field CubeArray fun() @Indicates that cubemap array (TextureCubeArray) support is required.
+---@field TessellationShaders fun() @Indicates that support for tessellation using hull and domain shader stages is required.
+---@field Interpolators32 fun() @Indicates that support for at least 32 interpolators is required.

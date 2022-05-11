@@ -1,0 +1,4 @@
+---@class SceneManagement.SceneSetup @The setup information for a Scene in the SceneManager. This cannot be used in Play Mode.
+---@field isActive fun() @If the Scene is active.
+---@field path fun() @Path of the Scene. Should be relative to the project folder. Like: Assets/MyScenes/MyScene.unity.
+---@field isLoaded fun() @If the Scene is loaded.

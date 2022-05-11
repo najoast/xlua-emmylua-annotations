@@ -1,0 +1,4 @@
+---@class Rendering.DistanceMetric @Type of sorting to use while rendering.
+---@field CustomAxis fun() @Sort objects based on distance along a custom axis.
+---@field Perspective fun() @Perspective sorting mode.
+---@field Orthographic fun() @Orthographic sorting mode.

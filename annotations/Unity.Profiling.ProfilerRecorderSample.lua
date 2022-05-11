@@ -1,0 +1,3 @@
+---@class Unity.Profiling.ProfilerRecorderSample @Sample value structure.
+---@field Count fun() @Sample count.
+---@field Value fun() @Raw sample value.

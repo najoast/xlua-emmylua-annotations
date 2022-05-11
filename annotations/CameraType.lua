@@ -1,0 +1,6 @@
+---@class CameraType @Describes different types of camera.
+---@field SceneView fun() @Used to indicate that a camera is used for rendering the Scene View in the Editor.
+---@field VR fun() @Used to indicate that a camera is used for rendering VR (in edit mode) in the Editor.
+---@field Preview fun() @Used to indicate a camera that is used for rendering previews in the Editor.
+---@field Reflection fun() @Used to indicate a camera that is used for rendering reflection probes.
+---@field Game fun() @Used to indicate a regular in-game camera.

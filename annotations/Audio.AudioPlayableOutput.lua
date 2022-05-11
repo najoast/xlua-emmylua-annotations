@@ -1,0 +1,5 @@
+---@class Audio.AudioPlayableOutput @A IPlayableOutput implementation that will be used to play audio.
+---@field GetEvaluateOnSeek fun() @Gets the state of output playback when seeking.
+---@field SetEvaluateOnSeek fun() @Controls whether the output should play when seeking.
+---@field Create fun() @Creates an AudioPlayableOutput in the PlayableGraph.
+---@field Null fun() @Returns an invalid AudioPlayableOutput.

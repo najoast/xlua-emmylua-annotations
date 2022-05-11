@@ -1,0 +1,8 @@
+---@class EditorAnalyticsSessionInfo @Provides access to Editor Analytics session information.
+---@field elapsedTime fun() @The length of the current session, in milliseconds.
+---@field id fun() @A random, unique GUID identifying the current Editor session.
+---@field activeElapsedTime fun() @The total time, in milliseconds, that the user interacted with the Editor since the beginning of the current session.
+---@field userId fun() @A random GUID uniquely identifying an Editor installation.
+---@field sessionCount fun() @The number of Editor sessions that have occurred since the current instance of the Unity Editor was installed.
+---@field playbackElapsedTime fun() @The total time, in milliseconds, that the Editor has been in playmode during the current session.
+---@field focusedElapsedTime fun() @The total time, in milliseconds, that the Editor has been in focus during the current session.

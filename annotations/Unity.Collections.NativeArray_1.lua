@@ -1,0 +1,19 @@
+---@class Unity.Collections.NativeArray_1 @A NativeArray exposes a buffer of native memory to managed code, making it possible to share data between managed and native without marshalling costs.
+---@field CopyFrom fun() @Copy all the elements from another NativeArray or managed array of the same length.
+---@field ctor fun() @Creates a new NativeArray from an existing array of elements.
+---@field Index_operator fun() @Access NativeArray elements by index. Notice that structs are returned by value and not by reference.
+---@field Copy fun() @Copies a range of elements from a source array to a destination array, starting from the source index and copying them to the destination index.
+---@field GetSubArray fun() @Return a view into the array starting at the specified index.
+---@field AsReadOnly fun() @Cast NativeArray to read-only array.
+---@field ReinterpretStore fun() @Reinterpret and store data starting at underlying index as a different type.
+---@field Reinterpret fun() @Reinterpret the array as having a different data type (type punning).
+---@field Equals fun() @Compares to NativeArray.
+---@field CopyTo fun() @Copy all elements to another NativeArray or managed array of the same length.
+---@field GetEnumerator fun() @Get enumerator.
+---@field IsCreated fun() @Indicates that the NativeArray has an allocated memory buffer.
+---@field ReinterpretLoad fun() @Reinterpret and load data starting at underlying index as a different type.
+---@field ToArray fun() @Convert NativeArray to array.
+---@field Length fun() @Number of elements in the NativeArray.
+---@field Dispose fun() @Disposes the NativeArray.
+---@field GetHashCode fun() @Returns a hash code for the current instance.
+---@field ReadOnly Unity.Collections.NativeArray_1.ReadOnly @NativeArray interface constrained to read-only operation.

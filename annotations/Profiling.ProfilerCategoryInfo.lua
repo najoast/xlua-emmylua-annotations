@@ -1,0 +1,5 @@
+---@class Profiling.ProfilerCategoryInfo @Category information descriptor structure.
+---@field flags fun() @Flags for showing if the Category is user defined or built into Unity.
+---@field color fun() @The color of the Profiler category, as a Color32.
+---@field id fun() @Id used by Unity for tracking the Category.
+---@field name fun() @The name used by Unity for the Category.

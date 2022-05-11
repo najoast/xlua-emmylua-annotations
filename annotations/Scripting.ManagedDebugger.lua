@@ -1,0 +1,5 @@
+---@class Scripting.ManagedDebugger @Representation of managed debugger in UnityEditor.
+---@field isEnabled fun() @Returns true if managed debugger is enabled, or false if it is not.
+---@field isAttached fun() @Returns true if there is a managed debugger attached to the UnityEditor, or false if there is not.
+---@field debuggerAttached fun() @This event triggers whenever managed debugger is attached or detached.
+---@field Disconnect fun() @Disconnects the managed debugger attached to the UnityEditor.

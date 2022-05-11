@@ -1,0 +1,3 @@
+---@class Build.Content.ProfileCaptureOptions @Options for filtering captured profile events using the ContentBuildInterface.BeginProfileCapture and ContentBuildInterface.EndProfileCapture APIs.
+---@field IgnoreShortEvents fun() @Use to exclude all captured events that are less than 10 microseconds in duration.
+---@field None fun() @Use to exclude none of the captured events.

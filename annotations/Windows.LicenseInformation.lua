@@ -1,0 +1,3 @@
+---@class Windows.LicenseInformation @This class provides information regarding application's trial status and allows initiating application purchase.
+---@field PurchaseApp fun() @Attempts to purchase the app if it is in installed in trial mode.
+---@field isOnAppTrial fun() @Checks whether the application is installed in trial mode.

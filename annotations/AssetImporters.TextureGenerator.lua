@@ -1,0 +1,2 @@
+---@class AssetImporters.TextureGenerator @Experimental utilities for generating Texture2D.
+---@field GenerateTexture fun() @Generates Texture2D and Sprite Assets based on the settings provided.

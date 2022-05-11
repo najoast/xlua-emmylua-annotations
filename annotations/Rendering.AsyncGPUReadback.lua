@@ -1,0 +1,5 @@
+---@class Rendering.AsyncGPUReadback @Allows the asynchronous read back of GPU resources.
+---@field Request fun() @Retrieves data asynchronously from a GPU resource.
+---@field RequestIntoNativeSlice fun() @Retrieves data asynchronously from a GPU Texture resource.
+---@field WaitAllRequests fun() @Waits until the completion of every request.
+---@field RequestIntoNativeArray fun() @Retrieves data asynchronously from a GPU Texture resource.

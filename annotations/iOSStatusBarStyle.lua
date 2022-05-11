@@ -1,0 +1,3 @@
+---@class iOSStatusBarStyle @iOS status bar style.
+---@field LightContent fun() @A light status bar, intended for use on dark backgrounds.
+---@field Default fun() @Default.

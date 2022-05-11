@@ -1,0 +1,4 @@
+---@class AnchoredJoint2D @Parent class for all joints that have anchor points.
+---@field autoConfigureConnectedAnchor fun() @Should the connectedAnchor be calculated automatically?
+---@field connectedAnchor fun() @The joint's anchor point on the second object (ie, the one which doesn't have the joint component).
+---@field anchor fun() @The joint's anchor point on the object that has the joint component.

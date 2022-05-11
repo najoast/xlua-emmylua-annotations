@@ -1,0 +1,8 @@
+---@class ScriptableObject @A class you can derive from if you want to create objects that don't need to be attached to game objects.
+---@field Reset fun() @Reset to default values.
+---@field OnDestroy fun() @This function is called when the scriptable object will be destroyed.
+---@field OnValidate fun() @Editor-only function that Unity calls when the script is loaded or a value changes in the Inspector.
+---@field CreateInstance fun() @Creates an instance of a scriptable object.
+---@field OnEnable fun() @This function is called when the object is loaded.
+---@field OnDisable fun() @This function is called when the scriptable object goes out of scope.
+---@field Awake fun() @This function is called when the ScriptableObject script is started.

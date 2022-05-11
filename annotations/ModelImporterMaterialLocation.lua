@@ -1,0 +1,3 @@
+---@class ModelImporterMaterialLocation @Material import options for ModelImporter.
+---@field InPrefab fun() @Unity imports materials as sub-assets.
+---@field External fun() @Extract the materials and textures from the model.

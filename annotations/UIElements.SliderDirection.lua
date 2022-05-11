@@ -1,0 +1,3 @@
+---@class UIElements.SliderDirection @This is the direction of the Slider and SliderInt.
+---@field Vertical fun() @An vertical slider is made with a SliderDirection Vertical.
+---@field Horizontal fun() @An horizontal slider is made with a SliderDirection Horizontal.

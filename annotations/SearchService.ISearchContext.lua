@@ -1,0 +1,5 @@
+---@class SearchService.ISearchContext @The base interface for search contexts.
+---@field requiredTypes fun() @IEnumerable of types that contains the type constraints for this search.
+---@field guid fun() @A unique identifier for this search context.
+---@field requiredTypeNames fun() @An IEnumerable of strings that contains the type name constraints for this search.
+---@field engineScope fun() @An enum that identifies the current search scope.

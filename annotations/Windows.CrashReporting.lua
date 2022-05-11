@@ -1,0 +1,2 @@
+---@class Windows.CrashReporting @Exposes useful information related to crash reporting on Windows platforms.
+---@field crashReportFolder fun() @Returns the path to the crash report folder on Windows.

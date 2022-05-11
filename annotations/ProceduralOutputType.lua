@@ -1,0 +1,13 @@
+---@class ProceduralOutputType @Deprecated feature, no longer available
+---@field Height fun() @Deprecated feature, no longer available
+---@field DetailMask fun() @Deprecated feature, no longer available
+---@field Normal fun() @Deprecated feature, no longer available
+---@field Roughness fun() @Deprecated feature, no longer available
+---@field AmbientOcclusion fun() @Deprecated feature, no longer available
+---@field Specular fun() @Deprecated feature, no longer available
+---@field Unknown fun() @Deprecated feature, no longer available
+---@field Opacity fun() @Deprecated feature, no longer available
+---@field Smoothness fun() @Deprecated feature, no longer available
+---@field Emissive fun() @Deprecated feature, no longer available
+---@field Metallic fun() @Deprecated feature, no longer available
+---@field Diffuse fun() @Deprecated feature, no longer available

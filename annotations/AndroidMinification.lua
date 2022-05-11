@@ -1,0 +1,4 @@
+---@class AndroidMinification @How to minify the java code of your binary.
+---@field None fun() @Use no minification.
+---@field Gradle fun() @Use experimental internal gradle minification.
+---@field Proguard fun() @Use proguard minification.

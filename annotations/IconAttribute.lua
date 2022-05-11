@@ -1,0 +1,3 @@
+---@class IconAttribute @Attribute to specify an icon for a MonoBehaviour or ScriptableObject.
+---@field ctor fun() @Create an IconAttribute with a path to an icon.
+---@field path fun() @A project-relative path to a texture.

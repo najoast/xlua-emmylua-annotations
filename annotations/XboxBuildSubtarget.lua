@@ -1,0 +1,4 @@
+---@class XboxBuildSubtarget @Target Xbox build type.
+---@field Debug fun() @Debug player (for building with source code).
+---@field Master fun() @Master player (submission-proof).
+---@field Development fun() @Development player.

@@ -1,0 +1,2 @@
+---@class PackageManager.PackOperationResult @Structure describing the result of a Client.Pack operation.
+---@field tarballPath fun() @The path to the file created by the Client.Pack operation.

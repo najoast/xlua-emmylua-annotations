@@ -1,0 +1,2 @@
+---@class GUILayout.HorizontalScope @Disposable helper class for managing BeginHorizontal / EndHorizontal.
+---@field ctor fun() @Create a new HorizontalScope and begin the corresponding horizontal group.

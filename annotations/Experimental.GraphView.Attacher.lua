@@ -1,0 +1,9 @@
+---@class Experimental.GraphView.Attacher @Helper object that attaches a visual element next to its target, regarless of their respective location in the visual tree hierarchy.
+---@field Reattach fun() @Starts monitoring target element position changes and places the attached element accordingly.
+---@field alignment fun() @Relative alignment between the attached element and the target.
+---@field ctor fun() @Attaches a visual element next to its target, regarless of their respective locations in the visual tree hierarchy.
+---@field target fun() @The target element.
+---@field distance fun() @The distance between the attached element and the target.
+---@field element fun() @The element that is attached to the target element.
+---@field Detach fun() @Stop monitoring the target element and postioning the attached element.
+---@field offset fun() @An absolute offset added to the element position after placement.

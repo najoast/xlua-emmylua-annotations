@@ -1,0 +1,16 @@
+---@class CharacterController @A CharacterController allows you to easily do movement constrained by collisions without having to deal with a rigidbody.
+---@field height fun() @The height of the character's capsule.
+---@field radius fun() @The radius of the character's capsule.
+---@field collisionFlags fun() @What part of the capsule collided with the environment during the last CharacterController.Move call.
+---@field slopeLimit fun() @The character controllers slope limit in degrees.
+---@field SimpleMove fun() @Moves the character with speed.
+---@field enableOverlapRecovery fun() @Enables or disables overlap recovery. Enables or disables overlap recovery. Used to depenetrate character controllers from static objects when an overlap is detected.
+---@field detectCollisions fun() @Determines whether other rigidbodies or character controllers collide with this character controller (by default this is always enabled).
+---@field OnControllerColliderHit fun() @OnControllerColliderHit is called when the controller hits a collider while performing a Move.
+---@field Move fun() @Supplies the movement of a GameObject with an attached CharacterController component.
+---@field skinWidth fun() @The character's collision skin width.
+---@field minMoveDistance fun() @Gets or sets the minimum move distance of the character controller.
+---@field velocity fun() @The current relative velocity of the Character (see notes).
+---@field stepOffset fun() @The character controllers step offset in meters.
+---@field center fun() @The center of the character's capsule relative to the transform's position.
+---@field isGrounded fun() @Was the CharacterController touching the ground during the last move?

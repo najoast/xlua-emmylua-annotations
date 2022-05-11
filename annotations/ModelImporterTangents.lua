@@ -1,0 +1,6 @@
+---@class ModelImporterTangents @Vertex tangent generation options for ModelImporter.
+---@field CalculateMikk fun() @Calculate tangents using MikkTSpace (default).
+---@field CalculateLegacyWithSplitTangents fun() @Calculate tangents with legacy algorithm, with splits across UV charts.
+---@field None fun() @Do not import vertex tangents.
+---@field Import fun() @Import vertex tangents from model file.
+---@field CalculateLegacy fun() @Calculate tangents with legacy algorithm.

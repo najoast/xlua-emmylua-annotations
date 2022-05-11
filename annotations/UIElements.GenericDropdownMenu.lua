@@ -1,0 +1,14 @@
+---@class UIElements.GenericDropdownMenu @GenericDropdownMenu allows you to display contextual menus with default textual options or any VisualElement.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field ctor fun() @Initializes and returns an instance of GenericDropdownMenu.
+---@field AddItem fun() @Adds an item to this menu using a default VisualElement.
+---@field containerInnerUssClassName fun() @USS class name of inner containers in elements of this type.
+---@field itemUssClassName fun() @USS class name of labels in elements of this type.
+---@field checkmarkUssClassName fun() @USS class name of separators in elements of this type.
+---@field separatorUssClassName fun() @USS class name of separators in elements of this type.
+---@field AddDisabledItem fun() @Adds a disabled item to this menu using a default VisualElement.
+---@field DropDown fun() @Displays the menu at the specified position.
+---@field AddSeparator fun() @Adds a visual separator after the previously added items in this menu.
+---@field contentContainer fun() @Returns the content container for the GenericDropdownMenu. Allows users to create their own dropdown menu if they don't want to use the default implementation.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field containerOuterUssClassName fun() @USS class name of outer containers in elements of this type.

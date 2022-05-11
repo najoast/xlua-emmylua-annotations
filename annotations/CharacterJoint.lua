@@ -1,0 +1,11 @@
+---@class CharacterJoint @Character Joints are mainly used for Ragdoll effects.
+---@field enableProjection fun() @Brings violated constraints back into alignment even when the solver fails.
+---@field twistLimitSpring fun() @The configuration of the spring attached to the twist limits of the joint.
+---@field swingLimitSpring fun() @The configuration of the spring attached to the swing limits of the joint.
+---@field swing2Limit fun() @The angular limit of rotation (in degrees) around the primary axis of the character joint.
+---@field projectionDistance fun() @Set the linear tolerance threshold for projection.
+---@field projectionAngle fun() @Set the angular tolerance threshold (in degrees) for projection.
+---@field swing1Limit fun() @The angular limit of rotation (in degrees) around the primary axis of the character joint.
+---@field highTwistLimit fun() @The upper limit around the primary axis of the character joint.
+---@field swingAxis fun() @The secondary axis around which the joint can rotate.
+---@field lowTwistLimit fun() @The lower limit around the primary axis of the character joint.

@@ -1,0 +1,2 @@
+---@class DDSImporter @Texture importer lets you modify Texture2D import settings for DDS textures from editor scripts.
+---@field isReadable fun() @Is texture data readable from scripts.

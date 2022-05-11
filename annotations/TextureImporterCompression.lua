@@ -1,0 +1,5 @@
+---@class TextureImporterCompression @Select the kind of compression you want for your texture.
+---@field Uncompressed fun() @Texture will not be compressed.
+---@field CompressedLQ fun() @Texture will be compressed using a low quality but high performance, high compression format depending on the platform and availability (2bpp PVRTC, ASTC8x8, ...).
+---@field CompressedHQ fun() @Texture will be compressed using a high quality format depending on the platform and availability (BC7, ASTC4x4, ...).
+---@field Compressed fun() @Texture will be compressed using a standard format depending on the platform (DXT, ASTC, ...).

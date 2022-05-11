@@ -1,0 +1,2 @@
+---@class Build.IUnityLinkerProcessor @Implement this interface to receive callbacks related to the running of UnityLinker.
+---@field GenerateAdditionalLinkXmlFile fun() @Generates additional link.xml files for preserving additional types and their members.

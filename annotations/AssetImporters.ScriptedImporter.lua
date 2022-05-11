@@ -1,0 +1,7 @@
+---@class AssetImporters.ScriptedImporter @Abstract base class for custom Asset importers.
+---@field OnImportAsset fun() @This method must by overriden by the derived class and is called by the Asset pipeline to import files.
+---@field OnValidate fun() @This function is called when the importer is loaded or a value is changed in the Inspector.
+---@field Reset fun() @Reset to default values.
+---@field GatherDependenciesFromSourceFile fun() @A static callback that you can implement to set up artifact dependencies to other Assets, and optimize the order your assets are imported.
+---@field SupportsRemappedAssetType fun() @Override this method if your ScriptedImporter supports remapping specific asset types.
+---@field Awake fun() @Awake is called when the importer instance is being loaded.

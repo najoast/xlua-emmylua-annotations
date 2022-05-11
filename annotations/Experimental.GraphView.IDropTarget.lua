@@ -1,0 +1,7 @@
+---@class Experimental.GraphView.IDropTarget @Drop target interface.
+---@field DragPerform fun() @This method is automatically called when a drag is performed.
+---@field DragExited fun() @This method is automatically called when dragging ends and the drag source is not over a valid drop target.
+---@field CanAcceptDrop fun() @Indicates if the dragged source can be dropped on the target interface.
+---@field DragUpdated fun() @This method is automatically called when the drag source is updated.
+---@field DragLeave fun() @This method is automatically called when the dragged source no longer intersects the drop target.
+---@field DragEnter fun() @This method is automatically called when the dragged source intersects the drop target.

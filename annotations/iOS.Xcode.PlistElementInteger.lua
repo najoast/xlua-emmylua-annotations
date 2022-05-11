@@ -1,0 +1,3 @@
+---@class iOS.Xcode.PlistElementInteger @Represents an integer element in plist document.
+---@field ctor fun() @Creates new integer element.
+---@field value fun() @The value stored in the integer element.

@@ -1,0 +1,3 @@
+---@class Presets.DefaultPresetSelectorReceiver @Basic implementation of the PresetSelectorReceiver.
+---@field OnSelectionClosed fun() @Applies the current selection and then destroys itself.
+---@field OnSelectionChanged fun() @Applies the Preset to each target. If Preset is null, this method reverts the value of each target.

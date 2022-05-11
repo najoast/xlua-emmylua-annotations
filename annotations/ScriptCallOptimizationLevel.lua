@@ -1,0 +1,3 @@
+---@class ScriptCallOptimizationLevel @Script call optimization level.
+---@field FastButNoExceptions fun() @Script method call overhead decreased at the expense of limited compatibility.
+---@field SlowAndSafe fun() @Default setting.

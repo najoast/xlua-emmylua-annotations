@@ -1,0 +1,4 @@
+---@class ForceReserializeAssetsOptions @Options for AssetDatabase.ForceReserializeAssets.
+---@field ReserializeAssetsAndMetadata fun() @Specifies that AssetDatabase.ForceReserializeAssets should load, upgrade, and save both the assets at the paths passed to the function, and also their accompanying .meta files.
+---@field ReserializeAssets fun() @Specifies that AssetDatabase.ForceReserializeAssets should load, upgrade, and save the assets at the paths passed to the function, but not their accompanying .meta files.
+---@field ReserializeMetadata fun() @Specifies that AssetDatabase.ForceReserializeAssets should load, upgrade, and save the .meta files for the assets at the paths passed to the function, but not the assets themselves.

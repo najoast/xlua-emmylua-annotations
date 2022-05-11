@@ -1,0 +1,3 @@
+---@class UIElements.DragLeaveEvent @Use the DragLeaveEvent class to manage events sent when dragging leaves an element or one of its descendants. The DragLeaveEvent is cancellable, it does not trickle down, and it does not bubble up.
+---@field ctor fun() @Constructor. Avoid renewing events. Instead, use GetPooled() to get an event from a pool of reusable events.
+---@field Init fun() @Resets the event members to their initial values.

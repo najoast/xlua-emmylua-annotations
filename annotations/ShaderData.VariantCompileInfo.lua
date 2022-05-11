@@ -1,0 +1,7 @@
+---@class ShaderData.VariantCompileInfo @Represents the results of compiling a variant using ShaderData.Pass.CompileVariant.
+---@field Messages fun() @Stores errors and warnings produced during compilation (Read Only).
+---@field ConstantBuffers fun() @Constant buffers the compiled variant uses (Read Only). Some platforms don't have constant buffers; however, Unity reports all global constants/uniforms in a single constant buffer.
+---@field TextureBindings fun() @Texture bindings the compiled variant uses (Read Only).
+---@field Attributes fun() @Vertex attributes the compiled variant uses (Read Only).
+---@field Success fun() @Indicates whether the variant compilation succeeded (Read Only). If it did, it is true. Otherwise, this is false and ShaderData.VariantCompileInfo.Messages contains the errors.
+---@field ShaderData fun() @Stores the raw platform-specific bytecode for the compiled shader (Read Only).

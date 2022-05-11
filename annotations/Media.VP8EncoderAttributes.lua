@@ -1,0 +1,2 @@
+---@class Media.VP8EncoderAttributes @Descriptor for VP8 encoder attributes.
+---@field keyframeDistance fun() @The maximum distance between I-frames.

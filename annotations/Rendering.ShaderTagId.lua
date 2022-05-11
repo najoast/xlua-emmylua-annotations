@@ -1,0 +1,5 @@
+---@class Rendering.ShaderTagId @Shader tag ids are used to refer to various names in shaders.
+---@field none fun() @Describes a shader tag id not referring to any name.
+---@field name fun() @Gets the name of the tag referred to by the shader tag id.
+---@field ctor fun() @Gets or creates a shader tag id representing the given name.
+---@field operator_ fun() @Converts a string to a ShaderTagId.

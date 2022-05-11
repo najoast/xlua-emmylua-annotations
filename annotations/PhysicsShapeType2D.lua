@@ -1,0 +1,5 @@
+---@class PhysicsShapeType2D @Options for indicate which primitive shape type is used to interpret geometry contained within a PhysicsShape2D object.
+---@field Circle fun() @Use a circle shape to interpret the PhysicsShape2D geometry.
+---@field Capsule fun() @Use a capsule shape to interpret the PhysicsShape2D geometry.
+---@field Polygon fun() @Use a convex polygon shape to interpret the PhysicsShape2D geometry.
+---@field Edges fun() @Use multiple edges to interpret the PhysicsShape2D geometry.

@@ -1,0 +1,11 @@
+---@class AI.NavMeshObstacle @An obstacle for NavMeshAgents to avoid.
+---@field height fun() @Height of the obstacle's cylinder shape.
+---@field center fun() @The center of the obstacle, measured in the object's local space.
+---@field shape fun() @The shape of the obstacle.
+---@field carvingTimeToStationary fun() @Time to wait until obstacle is treated as stationary (when carving and carveOnlyStationary are enabled).
+---@field carvingMoveThreshold fun() @Threshold distance for updating a moving carved hole (when carving is enabled).
+---@field velocity fun() @Velocity at which the obstacle moves around the NavMesh.
+---@field size fun() @The size of the obstacle, measured in the object's local space.
+---@field carveOnlyStationary fun() @Should this obstacle be carved when it is constantly moving?
+---@field radius fun() @Radius of the obstacle's capsule shape.
+---@field carving fun() @Should this obstacle make a cut-out in the navmesh.

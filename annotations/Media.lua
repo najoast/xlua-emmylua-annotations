@@ -1,0 +1,9 @@
+---@class Media @nil
+---@field VP8EncoderAttributes Media.VP8EncoderAttributes @Descriptor for VP8 encoder attributes.
+---@field VideoTrackEncoderAttributes Media.VideoTrackEncoderAttributes @Descriptor for video track format.
+---@field MediaEncoder Media.MediaEncoder @Encodes images and audio samples into an audio or movie file.
+---@field AudioTrackAttributes Media.AudioTrackAttributes @Descriptor for audio track format.
+---@field MediaRational Media.MediaRational @Rational number useful for expressing fractions precisely.
+---@field H264EncoderAttributes Media.H264EncoderAttributes @Descriptor for H.264 encoder attributes.
+---@field VideoTrackAttributes Media.VideoTrackAttributes @Descriptor for audio track format.
+---@field MediaTime Media.MediaTime @Time representation for use with media containers.

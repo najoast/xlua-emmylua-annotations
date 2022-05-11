@@ -1,0 +1,3 @@
+---@class SphereCollider @A sphere-shaped primitive collider.
+---@field radius fun() @The radius of the sphere measured in the object's local space.
+---@field center fun() @The center of the sphere in the object's local space.

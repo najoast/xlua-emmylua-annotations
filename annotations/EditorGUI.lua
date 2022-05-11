@@ -1,0 +1,77 @@
+---@class EditorGUI @These work pretty much like the normal GUI functions - and also have matching implementations in EditorGUILayout.
+---@field TagField fun() @Makes a tag selection field.
+---@field BeginProperty fun() @Create a Property wrapper, useful for making regular GUI controls work with SerializedProperty.
+---@field EndDisabledGroup fun() @Ends a disabled group started with BeginDisabledGroup.
+---@field DrawTextureAlpha fun() @Draws the alpha channel of a texture within a rectangle.
+---@field PropertyField fun() @Use this to make a field for a SerializedProperty in the Editor.
+---@field CanCacheInspectorGUI fun() @Get whether a SerializedProperty's inspector GUI can be cached.
+---@field DrawPreviewTexture fun() @Draws the texture within a rectangle.
+---@field FloatField fun() @Makes a text field for entering floats.
+---@field EnumPopup fun() @Makes an enum popup selection field.
+---@field ChangeCheckScope EditorGUI.ChangeCheckScope @Check if any control was changed inside a block of code.
+---@field HandlePrefixLabel fun() @Makes a label for some control.
+---@field DropShadowLabel fun() @Draws a label with a drop shadow.
+---@field BoundsField fun() @Makes Center and Extents field for entering a Bounds.
+---@field EnumFlagsField fun() @Displays a menu with an option for every value of the enum type when clicked. An option for the value 0 with name Nothing and an option for the value ~0 (that is, all bits set) with the name Everything are always displayed at the top of the menu. The names for the values 0 and ~0 can be overriden by defining these values in the enum type.
+---@field ColorField fun() @Makes a field for selecting a Color.
+---@field PasswordField fun() @Makes a text field where the user can enter a password.
+---@field Vector4Field fun() @Makes an X, Y, Z, and W field for entering a Vector4.
+---@field LabelField fun() @Makes a label field. (Useful for showing read-only info.)
+---@field DoubleField fun() @Makes a text field for entering doubles.
+---@field Slider fun() @Makes a slider the user can drag to change a value between a min and a max.
+---@field actionKey fun() @Is the platform-dependent action modifier key held down? (Read Only)
+---@field InspectorTitlebar fun() @Makes an inspector-window-like titlebar.
+---@field EndFoldoutHeaderGroup fun() @Closes a group started with BeginFoldoutHeaderGroup.See Also: EditorGUILayout.BeginFoldoutHeaderGroup.
+---@field HelpBox fun() @Makes a help box with a message to the user.
+---@field ObjectField fun() @Makes an object field. You can assign objects either by drag and drop objects or by selecting an object using the Object Picker.
+---@field DelayedFloatField fun() @Makes a delayed text field for entering floats.
+---@field LinkButton fun() @Make a clickable link label.
+---@field Vector2IntField fun() @Makes an X and Y integer field for entering a Vector2Int.
+---@field EndProperty fun() @Ends a Property wrapper started with BeginProperty.
+---@field Popup fun() @Makes a generic popup selection field.
+---@field IndentLevelScope EditorGUI.IndentLevelScope @Scope for managing the indent level of the field labels.
+---@field DisabledScope EditorGUI.DisabledScope @Create a group of controls that can be disabled.
+---@field BeginChangeCheck fun() @Starts a new code block to check for GUI changes.
+---@field BoundsIntField fun() @Makes Position and Size field for entering a BoundsInt.
+---@field ToggleLeft fun() @Makes a toggle field where the toggle is to the left and the label immediately to the right of it.
+---@field EnumMaskField fun() @This method is obsolete. Use EditorGUI.EnumFlagsField instead.Makes a field for enum based masks.
+---@field BeginDisabledGroup fun() @Create a group of controls that can be disabled.
+---@field DelayedIntField fun() @Makes a delayed text field for entering integers.
+---@field DelayedTextField fun() @Makes a delayed text field.
+---@field BeginFoldoutHeaderGroup fun() @Make a label with a foldout arrow to the left of it.
+---@field PrefixLabel fun() @Makes a label in front of some control.
+---@field TextArea fun() @Makes a text area.
+---@field RectIntField fun() @Makes an X, Y, W, and H field for entering a RectInt.
+---@field MultiFloatField fun() @Makes a multi-control with text fields for entering multiple floats in the same line.
+---@field PropertyScope EditorGUI.PropertyScope @Create a Property wrapper, useful for making regular GUI controls work with SerializedProperty.
+---@field Vector3IntField fun() @Makes an X, Y, and Z integer field for entering a Vector3Int.
+---@field IntPopup fun() @Makes an integer popup selection field.
+---@field Vector3Field fun() @Makes an X, Y, and Z field for entering a Vector3.
+---@field MultiPropertyField fun() @Makes a multi-control with several property fields in the same line.
+---@field Vector2Field fun() @Makes an X and Y field for entering a Vector2.
+---@field SelectableLabel fun() @Makes a selectable label field. (Useful for showing read-only info that can be copy-pasted.)
+---@field DropdownButton fun() @Makes a button that reacts to mouse down, for displaying your own dropdown content.
+---@field TextField fun() @Makes a text field.
+---@field DrawRect fun() @Draws a filled rectangle of color at the specified position and size within the current editor window.
+---@field RectField fun() @Makes an X, Y, W, and H field for entering a Rect.
+---@field FocusTextInControl fun() @Move keyboard focus to a named text field and begin editing of the content.
+---@field DisabledGroupScope EditorGUI.DisabledGroupScope @Create a group of controls that can be disabled.
+---@field EnumMaskPopup fun() @This method is obsolete. Use EditorGUI.EnumFlagsField instead.Makes an enum popup selection field for a bitmask.
+---@field ProgressBar fun() @Makes a progress bar.
+---@field MultiIntField fun() @Makes a multi-control with text fields for entering multiple integers in the same line.
+---@field LongField fun() @Makes a text field for entering long integers.
+---@field GradientField fun() @Makes a field for editing a Gradient.
+---@field MaskField fun() @Makes a field for masks.
+---@field MinMaxSlider fun() @Makes a special slider the user can use to specify a range between a min and a max.
+---@field CurveField fun() @Makes a field for editing an AnimationCurve.
+---@field DelayedDoubleField fun() @Makes a delayed text field for entering doubles.
+---@field LayerField fun() @Makes a layer selection field.
+---@field hyperLinkClicked fun() @Event used to react on clicks on a text hyperlink part.
+---@field indentLevel fun() @The indent level of the field labels.
+---@field IntField fun() @Makes a text field for entering integers.
+---@field IntSlider fun() @Makes a slider the user can drag to change an integer value between a min and a max.
+---@field GetPropertyHeight fun() @Get the height needed for a PropertyField control.
+---@field Foldout fun() @Makes a label with a foldout arrow to the left of it.
+---@field Toggle fun() @Makes a toggle.
+---@field EndChangeCheck fun() @Ends a code block and checks for any GUI changes.
+---@field showMixedValue fun() @Makes the following controls give the appearance of editing multiple different values.

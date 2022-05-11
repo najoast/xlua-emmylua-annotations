@@ -1,0 +1,2 @@
+---@class UIElements.TextInputBaseField_1.UxmlTraits @Defines UxmlTraits for TextInputFieldBase.
+---@field Init fun() @Initialize the traits for this field.

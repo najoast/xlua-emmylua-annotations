@@ -1,0 +1,3 @@
+---@class PS4BuildSubtarget @Type of build to generate.
+---@field PCHosted fun() @Build hosted on a PC, for file serving to a dev or test kit.
+---@field Package fun() @Package build for installation on either a dev or test kit.

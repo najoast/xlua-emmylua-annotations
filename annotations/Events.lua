@@ -1,0 +1,15 @@
+---@class Events @nil
+---@field UnityEvent_2 fun() @Two argument version of UnityEvent.
+---@field UnityEventTools Events.UnityEventTools @Editor tools for working with persistent UnityEvents.
+---@field UnityAction_2 fun() @Two argument delegate used by UnityEvents.
+---@field UnityEvent_3 fun() @Three argument version of UnityEvent.
+---@field UnityEvent_4 fun() @Four argument version of UnityEvent.
+---@field UnityAction_1 fun() @One argument delegate used by UnityEvents.
+---@field UnityAction fun() @Zero argument delegate used by UnityEvents.
+---@field UnityEvent_1 fun() @One argument version of UnityEvent.
+---@field UnityEventCallState Events.UnityEventCallState @Controls the scope of UnityEvent callbacks.
+---@field PersistentListenerMode Events.PersistentListenerMode @THe mode that a listener is operating in.
+---@field UnityEvent Events.UnityEvent @A zero argument persistent callback that can be saved with the Scene.
+---@field UnityEventBase Events.UnityEventBase @Abstract base class for UnityEvents.
+---@field UnityAction_3 fun() @Three argument delegate used by UnityEvents.
+---@field UnityAction_4 fun() @Four argument delegate used by UnityEvents.

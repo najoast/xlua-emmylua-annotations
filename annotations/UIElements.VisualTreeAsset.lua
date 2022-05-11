@@ -1,0 +1,8 @@
+---@class UIElements.VisualTreeAsset @An instance of this class holds a tree of VisualElementAssets, created from a UXML file. Each node in the file corresponds to a VisualElementAsset. You can clone a VisualTreeAsset to yield a tree of VisualElements.
+---@field contentHash fun() @A hash value computed from the template content.
+---@field Instantiate fun() @Build a tree of VisualElements from the asset.
+---@field CloneTree fun() @Build a tree of VisualElements from the asset.
+---@field importedWithErrors fun() @Whether there were errors encountered while importing the UXML File
+---@field templateDependencies fun() @The UXML templates used by this VisualTreeAsset.
+---@field stylesheets fun() @The stylesheets used by this VisualTreeAsset.
+---@field importedWithWarnings fun() @Whether there were warnings encountered while importing the UXML File

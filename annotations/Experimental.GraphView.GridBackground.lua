@@ -1,0 +1,2 @@
+---@class Experimental.GraphView.GridBackground @Default GraphView background.
+---@field ctor fun() @GridBackground's constructor.

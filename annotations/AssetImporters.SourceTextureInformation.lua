@@ -1,0 +1,5 @@
+---@class AssetImporters.SourceTextureInformation @Original texture data information.
+---@field height fun() @Height of the image data.
+---@field width fun() @Width of the image data.
+---@field containsAlpha fun() @Determines if alpha channel is present in image data.
+---@field hdr fun() @Determines if image has HDR data.

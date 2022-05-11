@@ -1,0 +1,5 @@
+---@class WebCamKind @Enum representing the different types of web camera device.
+---@field WideAngle fun() @Wide angle (default) camera.
+---@field ColorAndDepth fun() @Camera which supports synchronized color and depth data (currently these are only dual back and true depth cameras on latest iOS devices).
+---@field UltraWideAngle fun() @Ultra wide angle camera. These devices have a shorter focal length than a wide-angle camera.
+---@field Telephoto fun() @A Telephoto camera device. These devices have a longer focal length than a wide-angle camera.

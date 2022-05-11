@@ -1,0 +1,3 @@
+---@class PlayerSettings.PS4.PS4EnterButtonAssignment @PS4 enter button assignment.
+---@field CrossButton fun() @Cross button.
+---@field CircleButton fun() @Circle button.

@@ -1,0 +1,17 @@
+---@class Selection @Access to the selection in the editor.
+---@field SetActiveObjectWithContext fun() @Selects an object with a context.
+---@field GetFiltered fun() @Returns the current selection filtered by type and mode.
+---@field activeTransform fun() @Returns the active transform. (The one shown in the inspector).
+---@field GetTransforms fun() @Allows for fine grained control of the selection type using the SelectionMode bitmask.
+---@field activeGameObject fun() @Returns the active game object. (The one shown in the inspector).
+---@field selectionChanged fun() @Delegate callback triggered when currently active/selected item has changed.
+---@field activeObject fun() @Returns the actual object selection. Includes Prefabs, non-modifiable objects.
+---@field objects fun() @The actual unfiltered selection from the Scene.
+---@field transforms fun() @Returns the top level selection, excluding Prefabs.
+---@field Contains fun() @Returns whether an object is contained in the current selection.
+---@field count fun() @Returns the number of objects in the Selection.
+---@field gameObjects fun() @Returns the actual game object selection. Includes Prefabs, non-modifiable objects.
+---@field activeContext fun() @Returns the current context object, as was set via SetActiveObjectWithContext.
+---@field instanceIDs fun() @The actual unfiltered selection from the Scene returned as instance ids instead of objects.
+---@field assetGUIDs fun() @Returns the guids of the selected assets.
+---@field activeInstanceID fun() @Returns the instanceID of the actual object selection. Includes Prefabs, non-modifiable objects.

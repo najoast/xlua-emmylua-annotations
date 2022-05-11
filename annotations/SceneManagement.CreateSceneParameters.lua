@@ -1,0 +1,2 @@
+---@class SceneManagement.CreateSceneParameters @This struct collects all the CreateScene parameters in to a single place.
+---@field localPhysicsMode fun() @See SceneManagement.LocalPhysicsMode.

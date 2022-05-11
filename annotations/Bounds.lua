@@ -1,0 +1,16 @@
+---@class Bounds @Represents an axis aligned bounding box.
+---@field size fun() @The total size of the box. This is always twice as large as the extents.
+---@field center fun() @The center of the bounding box.
+---@field ctor fun() @Creates a new Bounds.
+---@field extents fun() @The extents of the Bounding Box. This is always half of the size of the Bounds.
+---@field SqrDistance fun() @The smallest squared distance between the point and this bounding box.
+---@field ClosestPoint fun() @The closest point on the bounding box.
+---@field max fun() @The maximal point of the box. This is always equal to center+extents.
+---@field ToString fun() @Returns a formatted string for the bounds.
+---@field Contains fun() @Is point contained in the bounding box?
+---@field SetMinMax fun() @Sets the bounds to the min and max value of the box.
+---@field Encapsulate fun() @Grows the Bounds to include the point.
+---@field Intersects fun() @Does another bounding box intersect with this bounding box?
+---@field Expand fun() @Expand the bounds by increasing its size by amount along each side.
+---@field min fun() @The minimal point of the box. This is always equal to center-extents.
+---@field IntersectRay fun() @Does ray intersect this bounding box?

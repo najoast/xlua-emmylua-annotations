@@ -1,0 +1,3 @@
+---@class PlayerSettings.SplashScreen.DrawMode @Determines how the Unity logo should be drawn, if it is enabled.
+---@field UnityLogoBelow fun() @The Unity logo is drawn in the lower portion of the screen for the duration of the Splash Screen, while the PlayerSettings.SplashScreen.logos are shown in the centre.
+---@field AllSequential fun() @The Unity logo is shown sequentially providing it exists in the PlayerSettings.SplashScreen.logos collection.

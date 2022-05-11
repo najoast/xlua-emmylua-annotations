@@ -1,0 +1,6 @@
+---@class ParticleSystemSortMode @The sorting mode for particle systems.
+---@field YoungestInFront fun() @Sort the youngest particles to the front.
+---@field OldestInFront fun() @Sort the oldest particles to the front.
+---@field None fun() @No sorting.
+---@field Distance fun() @Sort based on distance to the camera position. For orthographic cameras, this mode is the same as sorting by depth.
+---@field Depth fun() @Sort based on depth from the camera plane.

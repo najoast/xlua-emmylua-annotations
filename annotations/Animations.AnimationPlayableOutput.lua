@@ -1,0 +1,4 @@
+---@class Animations.AnimationPlayableOutput @A IPlayableOutput implementation that connects the PlayableGraph to an Animator in the Scene.
+---@field SetTarget fun() @Sets the Animator that plays the animation graph.
+---@field GetTarget fun() @Returns the Animator that plays the animation graph.
+---@field Create fun() @Creates an AnimationPlayableOutput in the PlayableGraph.

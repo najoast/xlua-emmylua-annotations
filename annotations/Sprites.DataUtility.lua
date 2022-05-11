@@ -1,0 +1,5 @@
+---@class Sprites.DataUtility @Helper utilities for accessing Sprite data.
+---@field GetPadding fun() @Return the padding on the sprite.
+---@field GetOuterUV fun() @Outer UV's of the Sprite.
+---@field GetMinSize fun() @Minimum width and height of the Sprite.
+---@field GetInnerUV fun() @Inner UV's of the Sprite.

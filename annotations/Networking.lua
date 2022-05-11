@@ -1,0 +1,36 @@
+---@class Networking @nil
+---@field DownloadHandlerAssetBundle Networking.DownloadHandlerAssetBundle @A DownloadHandler subclass specialized for downloading AssetBundles.
+---@field ConnectionAcksType Networking.ConnectionAcksType @Defines size of the buffer holding reliable messages, before they will be acknowledged.
+---@field Utility Networking.Utility @Networking Utility.
+---@field HostTopology Networking.HostTopology @Class defines network topology for host (socket opened by Networking.NetworkTransport.AddHost function). This topology defines: (1) how many connection with default config will be supported and (2) what will be special connections (connections with config different from default).
+---@field DownloadHandlerAudioClip Networking.DownloadHandlerAudioClip @A DownloadHandler subclass specialized for downloading audio data for use as AudioClip objects.
+---@field DownloadHandler Networking.DownloadHandler @Manage and process HTTP response body data received from a remote server.
+---@field DownloadHandlerFile Networking.DownloadHandlerFile @Download handler for saving the downloaded data to file.
+---@field UnityWebRequestTexture Networking.UnityWebRequestTexture @Helpers for downloading image files into Textures using UnityWebRequest.
+---@field UnityWebRequest Networking.UnityWebRequest @Provides methods to communicate with web servers.
+---@field Types Networking.Types @nil
+---@field UnityWebRequestAsyncOperation Networking.UnityWebRequestAsyncOperation @Asynchronous operation object returned from UnityWebRequest.SendWebRequest().You can yield until it continues, register an event handler with AsyncOperation.completed, or manually check whether it's done (AsyncOperation.isDone) or progress (AsyncOperation.progress).
+---@field NetworkEventType Networking.NetworkEventType @Event that is returned when calling the Networking.NetworkTransport.Receive and Networking.NetworkTransport.ReceiveFromHost functions.
+---@field NetworkTransport Networking.NetworkTransport @Transport Layer API.
+---@field NetworkError Networking.NetworkError @Possible Networking.NetworkTransport errors.
+---@field ConnectionConfig Networking.ConnectionConfig @This class defines parameters of connection between two peers, this definition includes various timeouts and sizes as well as channel configuration.
+---@field UploadHandler Networking.UploadHandler @Helper object for UnityWebRequests. Manages the buffering and transmission of body data during HTTP requests.
+---@field UploadHandlerRaw Networking.UploadHandlerRaw @A general-purpose UploadHandler subclass, using a native-code memory buffer.
+---@field GlobalConfig Networking.GlobalConfig @Defines global paramters for network library.
+---@field CertificateHandler Networking.CertificateHandler @Responsible for rejecting or accepting certificates received on https requests.
+---@field IMultipartFormSection Networking.IMultipartFormSection @An interface for composition of data into multipart forms.
+---@field Match Networking.Match @nil
+---@field UnityWebRequestAssetBundle Networking.UnityWebRequestAssetBundle @Helpers for downloading asset bundles using UnityWebRequest.
+---@field PlayerConnection Networking.PlayerConnection @nil
+---@field MultipartFormFileSection Networking.MultipartFormFileSection @A helper object for adding file uploads to multipart forms via the [IMultipartFormSection] API.
+---@field ConnectionSimulatorConfig Networking.ConnectionSimulatorConfig @Create configuration for network simulator; You can use this class in editor and developer build only.
+---@field UnityWebRequestMultimedia Networking.UnityWebRequestMultimedia @Helpers for downloading multimedia files using UnityWebRequest.
+---@field DownloadHandlerMovieTexture Networking.DownloadHandlerMovieTexture @MovieTexture has been removed. Use VideoPlayer instead.
+---@field MultipartFormDataSection Networking.MultipartFormDataSection @A helper object for form sections containing generic, non-file data.
+---@field DownloadHandlerScript Networking.DownloadHandlerScript @An abstract base class for user-created scripting-driven DownloadHandler implementations.
+---@field UploadHandlerFile Networking.UploadHandlerFile @A specialized UploadHandler that reads data from a given file and sends raw bytes to the server as the request body.
+---@field QosType Networking.QosType @Enumeration of all supported quality of service channel modes.
+---@field DownloadHandlerTexture Networking.DownloadHandlerTexture @A DownloadHandler subclass specialized for downloading images for use as Texture objects.
+---@field ReactorModel Networking.ReactorModel @Define how unet will handle network io operation.
+---@field DownloadHandlerBuffer Networking.DownloadHandlerBuffer @A general-purpose DownloadHandler implementation which stores received data in a native byte buffer.
+---@field ChannelQOS Networking.ChannelQOS @Defines parameters of channels.

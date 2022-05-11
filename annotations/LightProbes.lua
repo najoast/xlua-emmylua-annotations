@@ -1,0 +1,11 @@
+---@class LightProbes @Stores light probe data for all currently loaded Scenes.
+---@field needsRetetrahedralization fun() @An event which is called when the number of currently loaded light probes changes due to additive scene loading or unloading.
+---@field CalculateInterpolatedLightAndOcclusionProbes fun() @Calculate light probes and occlusion probes at the given world space positions.
+---@field positions fun() @Positions of the baked light probes (Read Only).
+---@field tetrahedralizationCompleted fun() @Event which is called after LightProbes.Tetrahedralize or LightProbes.TetrahedralizeAsync has finished computing a tetrahedralization.
+---@field cellCount fun() @The number of cells space is divided into (Read Only).
+---@field GetInterpolatedProbe fun() @Returns an interpolated probe for the given position for both real-time and baked light probes combined.
+---@field bakedProbes fun() @Coefficients of baked light probes.
+---@field Tetrahedralize fun() @Synchronously tetrahedralize the currently loaded LightProbe positions.
+---@field TetrahedralizeAsync fun() @Asynchronously tetrahedralize all currently loaded LightProbe positions.
+---@field count fun() @The number of light probes (Read Only).

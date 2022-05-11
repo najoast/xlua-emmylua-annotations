@@ -1,0 +1,17 @@
+---@class Display @Provides access to a display / screen for rendering operations.
+---@field displays fun() @The list of currently connected displays.
+---@field activeEditorGameViewTarget fun() @Get the Editors active GameView display target.
+---@field SetRenderingResolution fun() @Sets rendering resolution for the display.
+---@field SetParams fun() @Set rendering size and position on screen (Windows only).
+---@field systemWidth fun() @Horizontal native display resolution.
+---@field systemHeight fun() @Vertical native display resolution.
+---@field RelativeMouseAt fun() @Query relative mouse coordinates.
+---@field Activate fun() @Activate an external display. Eg. Secondary Monitors connected to the System.
+---@field main fun() @Main Display.
+---@field depthBuffer fun() @Depth RenderBuffer.
+---@field requiresBlitToBackbuffer fun() @True when the back buffer requires an intermediate texture to render.
+---@field renderingWidth fun() @Horizontal resolution that the display is rendering at.
+---@field colorBuffer fun() @Color RenderBuffer.
+---@field requiresSrgbBlitToBackbuffer fun() @True when doing a blit to the back buffer requires manual color space conversion.
+---@field renderingHeight fun() @Vertical resolution that the display is rendering at.
+---@field active fun() @Gets the state of the display and returns true if the display is active and false if otherwise.

@@ -1,0 +1,12 @@
+---@class EdgeCollider2D @Collider for 2D physics representing an arbitrary set of connected edges (lines) defined by its vertices.
+---@field useAdjacentStartPoint fun() @Set this to true to use the adjacentStartPoint to form the collision normal that is used to calculate the collision response when a collision occurs at the Edge Collider's start point. Set this to false to not use the adjacentStartPoint, and the collision normal becomes the direction of motion of the collision.
+---@field adjacentStartPoint fun() @Defines the position of a virtual point adjacent to the start point of the EdgeCollider2D.
+---@field SetPoints fun() @Sets all the points that define a set of continuous edges.
+---@field useAdjacentEndPoint fun() @Set this to true to use the adjacentEndPoint to form the collision normal that is used to calculate the collision response when a collision occurs at the Edge Collider's end point. Set this to false to not use the adjacentEndPoint, and the collision normal becomes the direction of motion of the collision.
+---@field adjacentEndPoint fun() @Defines the position of a virtual point adjacent to the end point of the EdgeCollider2D.
+---@field GetPoints fun() @Gets all the points that define a set of continuous edges.
+---@field points fun() @Get or set the points defining multiple continuous edges.
+---@field pointCount fun() @Gets the number of points.
+---@field Reset fun() @Reset to a single edge consisting of two points.
+---@field edgeRadius fun() @Controls the radius of all edges created by the collider.
+---@field edgeCount fun() @Gets the number of edges.

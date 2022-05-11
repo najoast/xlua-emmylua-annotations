@@ -1,0 +1,5 @@
+---@class Rendering.SinglePassStereoMode @Enum type defines the different stereo rendering modes available.
+---@field None fun() @Render stereo using multiple passes.
+---@field Instancing fun() @Render stereo using GPU instancing.
+---@field Multiview fun() @Render stereo using OpenGL multiview.
+---@field SideBySide fun() @Render stereo to the left and right halves of a single, double-width render target.

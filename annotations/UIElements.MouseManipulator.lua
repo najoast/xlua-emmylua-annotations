@@ -1,0 +1,4 @@
+---@class UIElements.MouseManipulator @MouseManipulators have a list of activation filters.
+---@field CanStartManipulation fun() @Checks whether MouseEvent satisfies all of the ManipulatorActivationFilter requirements.
+---@field CanStopManipulation fun() @Checks whether the MouseEvent is related to this Manipulator.
+---@field activators fun() @List of Activationfilters.

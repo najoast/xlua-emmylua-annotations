@@ -1,0 +1,6 @@
+---@class TextCore.LowLevel.GlyphValueRecord @The values used to adjust the position of a glyph or set of glyphs.
+---@field xAdvance fun() @The positional adjustment that affects the horizontal advance of the glyph.
+---@field yAdvance fun() @The positional adjustment that affects the vertical advance of the glyph.
+---@field ctor fun() @Constructor for new glyph value record.
+---@field yPlacement fun() @The positional adjustment that affectsthe horizontal bearing Y of the glyph.
+---@field xPlacement fun() @The positional adjustment that affects the horizontal bearing X of the glyph.

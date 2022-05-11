@@ -1,0 +1,2 @@
+---@class UIElements.BaseFieldMouseDragger @Provides the base class for field mouse draggers.
+---@field SetDragZone fun() @Sets the drag zone for the driven field.

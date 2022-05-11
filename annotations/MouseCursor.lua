@@ -1,0 +1,21 @@
+---@class MouseCursor @Custom mouse cursor shapes used with EditorGUIUtility.AddCursorRect.
+---@field Zoom fun() @Cursor with a magnifying glass for zoom.
+---@field Orbit fun() @Cursor with an eye for orbit.
+---@field SlideArrow fun() @Arrow with small arrows for indicating sliding at number fields.
+---@field Text fun() @Text cursor.
+---@field RotateArrow fun() @Arrow with the rotate symbol next to it for the sceneview.
+---@field SplitResizeLeftRight fun() @Left-Right resize arrows for window splitters.
+---@field Pan fun() @Cursor with a dragging hand for pan.
+---@field ResizeUpLeft fun() @Resize up-Left for window edges.
+---@field ResizeUpRight fun() @Resize up-right for window edges.
+---@field ScaleArrow fun() @Arrow with the scale symbol next to it for the sceneview.
+---@field CustomCursor fun() @The current user defined cursor.
+---@field ArrowPlus fun() @Arrow with the plus symbol next to it.
+---@field Arrow fun() @Normal pointer arrow.
+---@field ResizeHorizontal fun() @Horizontal resize arrows.
+---@field MoveArrow fun() @Arrow with the move symbol next to it for the sceneview.
+---@field Link fun() @Arrow with a Link badge (for assigning pointers).
+---@field SplitResizeUpDown fun() @Up-Down resize arrows for window splitters.
+---@field ArrowMinus fun() @Arrow with the minus symbol next to it.
+---@field FPS fun() @Cursor with an eye and stylized arrow keys for FPS navigation.
+---@field ResizeVertical fun() @Vertical resize arrows.

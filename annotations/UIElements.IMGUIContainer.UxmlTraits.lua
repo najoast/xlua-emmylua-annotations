@@ -1,0 +1,3 @@
+---@class UIElements.IMGUIContainer.UxmlTraits @Defines UxmlTraits for the IMGUIContainer.
+---@field ctor fun() @Constructor.
+---@field uxmlChildElementsDescription fun() @Returns an empty enumerable, as IMGUIContainer cannot have VisualElement children.

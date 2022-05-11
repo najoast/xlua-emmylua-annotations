@@ -1,0 +1,11 @@
+---@class Experimental.Lightmapping @Experimental lightmapping features.
+---@field extractAmbientOcclusion fun() @Writes out the filtered Ambient Occlusion texture to disk when the Lighting Data Asset is created and will be located next to the other lightmaps. This only works in On Demand mode and if Ambient Occlusion is turned on. Please note that the values from the direct and indirect exposure sliders are not applied. Currently not supported by the Progressive GPU lightmapper.
+---@field GetAdditionalBakedProbes fun() @Retrieve the bake result of additional probes.
+---@field probesIgnoreDirectEnvironment fun() @If enabled ignores the direct contribution from the environment lighting in baked probes.
+---@field additionalBakedProbesCompleted fun() @Event which is called when additional probe bakes have completed and results are ready to be fetched.
+---@field SetAdditionalBakedProbes fun() @Submit additional probe positions to be baked using an identifier.
+---@field SetLightDirty fun() @Manually sets a light as dirty.
+---@field GetCustomBakeResults fun() @Retrieve the custom bake results.
+---@field SetCustomBakeInputs fun() @Set the custom bake inputs.
+---@field BakeAsync fun() @Starts an asynchronous lighting bake job for the target Scene.
+---@field Bake fun() @Starts a synchronous lighting bake job for the target Scene.

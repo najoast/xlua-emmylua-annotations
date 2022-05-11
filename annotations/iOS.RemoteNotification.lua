@@ -1,0 +1,7 @@
+---@class iOS.RemoteNotification @RemoteNotification is only available on iPhone/iPad/iPod Touch.
+---@field hasAction fun() @A boolean value that controls whether the alert action is visible or not. (Read Only)
+---@field applicationIconBadgeNumber fun() @The number to display as the application's icon badge. (Read Only)
+---@field soundName fun() @The name of the sound file to play when an alert is displayed. (Read Only)
+---@field userInfo fun() @A dictionary for passing custom information to the notified application. (Read Only)
+---@field alertTitle fun() @A short description of the reason for the alert. (Read Only)
+---@field alertBody fun() @The message displayed in the notification alert. (Read Only)

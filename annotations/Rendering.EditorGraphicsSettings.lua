@@ -1,0 +1,6 @@
+---@class Rendering.EditorGraphicsSettings @Editor-specific script interface for Graphics Settings.
+---@field GetShaderSettingsForPlatform fun() @Will return PlatformShaderSettings for given platform and shader hardware tier.
+---@field SetTierSettings fun() @Set the TierSettings for a given build target and graphics tier.
+---@field SetShaderSettingsForPlatform fun() @Allows you to set the PlatformShaderSettings for the specified platform and shader hardware tier.
+---@field albedoSwatches fun() @Returns an array of Rendering.AlbedoSwatchInfo.
+---@field GetTierSettings fun() @Returns TierSettings for a given build target and graphics tier.

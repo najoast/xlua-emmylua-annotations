@@ -1,0 +1,10 @@
+---@class Rendering.BuiltinShaderType @Built-in shader types used by Rendering.GraphicsSettings.
+---@field LegacyDeferredLighting fun() @Shader used for legacy deferred lighting calculations.
+---@field Sprite fun() @Default shader used by sprites.
+---@field DepthNormals fun() @Shader used for depth and normals texture when enabled on a Camera.
+---@field LightHalo fun() @Default shader used for light halos.
+---@field DeferredShading fun() @Shader used for deferred shading calculations.
+---@field ScreenSpaceShadows fun() @Shader used for screen-space cascaded shadows.
+---@field MotionVectors fun() @Shader used for Motion Vectors when enabled on a Camera.
+---@field LensFlare fun() @Default shader used for lens flares.
+---@field DeferredReflections fun() @Shader used for deferred reflection probes.

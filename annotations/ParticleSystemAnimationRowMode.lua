@@ -1,0 +1,4 @@
+---@class ParticleSystemAnimationRowMode @The mode used for selecting rows of an animation in the Texture Sheet Animation Module.
+---@field Custom fun() @Use a specific row for all particles.
+---@field MeshIndex fun() @Use the mesh index as the row, so that meshes can be mapped to specific animation frames.
+---@field Random fun() @Use a random row for each particle.

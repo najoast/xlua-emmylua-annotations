@@ -1,0 +1,3 @@
+---@class Pool.CollectionPool_2 @A Collection such as List, HashSet, Dictionary etc can be pooled and reused by using a CollectionPool.
+---@field Get fun() @Get an instance from the pool. If the pool is empty then a new instance will be created.
+---@field Release fun() @Returns the instance back to the pool.

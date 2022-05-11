@@ -1,0 +1,2 @@
+---@class UIElements.BaseFieldTraits_2 @Traits for the BaseField.
+---@field Init fun() @Initializes the trait of BaseField.

@@ -1,0 +1,7 @@
+---@class GizmoType @Determines how a gizmo is drawn or picked in the Unity editor.
+---@field Pickable fun() @The gizmo can be picked in the editor.
+---@field InSelectionHierarchy fun() @Draw the gizmo if it is selected or it is a child/descendent of the selected.
+---@field Selected fun() @Draw the gizmo if it is selected.
+---@field NotInSelectionHierarchy fun() @Draw the gizmo if it is not selected and also no parent/ancestor is selected.
+---@field NonSelected fun() @Draw the gizmo if it is not selected.
+---@field Active fun() @Draw the gizmo if it is active (shown in the inspector).

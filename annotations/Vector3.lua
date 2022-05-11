@@ -1,0 +1,49 @@
+---@class Vector3 @Representation of 3D vectors and points.
+---@field MoveTowards fun() @Calculate a position between the points specified by current and target, moving no farther than the distance specified by maxDistanceDelta.
+---@field Angle fun() @Calculates the angle between vectors from and.
+---@field sqrMagnitude fun() @Returns the squared length of this vector (Read Only).
+---@field Normalize fun() @Makes this vector have a magnitude of 1.
+---@field Max fun() @Returns a vector that is made from the largest components of two vectors.
+---@field down fun() @Shorthand for writing Vector3(0, -1, 0).
+---@field Slerp fun() @Spherically interpolates between two vectors.
+---@field RotateTowards fun() @Rotates a vector current towards target.
+---@field positiveInfinity fun() @Shorthand for writing Vector3(float.PositiveInfinity, float.PositiveInfinity, float.PositiveInfinity).
+---@field one fun() @Shorthand for writing Vector3(1, 1, 1).
+---@field operator_add fun() @Adds two vectors.
+---@field ToString fun() @Returns a formatted string for this vector.
+---@field Cross fun() @Cross Product of two vectors.
+---@field normalized fun() @Returns this vector with a magnitude of 1 (Read Only).
+---@field operator_ne fun() @Returns true if vectors are different.
+---@field Scale fun() @Multiplies two vectors component-wise.
+---@field Min fun() @Returns a vector that is made from the smallest components of two vectors.
+---@field x fun() @X component of the vector.
+---@field ctor fun() @Creates a new vector with given x, y, z components.
+---@field z fun() @Z component of the vector.
+---@field Distance fun() @Returns the distance between a and b.
+---@field Index_operator fun() @Access the x, y, z components using [0], [1], [2] respectively.
+---@field up fun() @Shorthand for writing Vector3(0, 1, 0).
+---@field SmoothDamp fun() @Gradually changes a vector towards a desired goal over time.
+---@field operator_subtract fun() @Subtracts one vector from another.
+---@field right fun() @Shorthand for writing Vector3(1, 0, 0).
+---@field Set fun() @Set x, y and z components of an existing Vector3.
+---@field y fun() @Y component of the vector.
+---@field OrthoNormalize fun() @Makes vectors normalized and orthogonal to each other.
+---@field back fun() @Shorthand for writing Vector3(0, 0, -1).
+---@field Project fun() @Projects a vector onto another vector.
+---@field Equals fun() @Returns true if the given vector is exactly equal to this vector.
+---@field ProjectOnPlane fun() @Projects a vector onto a plane defined by a normal orthogonal to the plane.
+---@field SlerpUnclamped fun() @Spherically interpolates between two vectors.
+---@field zero fun() @Shorthand for writing Vector3(0, 0, 0).
+---@field Reflect fun() @Reflects a vector off the plane defined by a normal.
+---@field operator_eq fun() @Returns true if two vectors are approximately equal.
+---@field operator_divide fun() @Divides a vector by a number.
+---@field forward fun() @Shorthand for writing Vector3(0, 0, 1).
+---@field Dot fun() @Dot Product of two vectors.
+---@field negativeInfinity fun() @Shorthand for writing Vector3(float.NegativeInfinity, float.NegativeInfinity, float.NegativeInfinity).
+---@field SignedAngle fun() @Calculates the signed angle between vectors from and to in relation to axis.
+---@field operator_multiply fun() @Multiplies a vector by a number.
+---@field ClampMagnitude fun() @Returns a copy of vector with its magnitude clamped to maxLength.
+---@field LerpUnclamped fun() @Linearly interpolates between two vectors.
+---@field Lerp fun() @Linearly interpolates between two points.
+---@field magnitude fun() @Returns the length of this vector (Read Only).
+---@field left fun() @Shorthand for writing Vector3(-1, 0, 0).

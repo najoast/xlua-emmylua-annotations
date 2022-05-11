@@ -1,0 +1,6 @@
+---@class ParticleCollisionEvent @Information about a particle collision.
+---@field collider fun() @The Collider for the GameObject struck by the particles.
+---@field normal fun() @Geometry normal at the intersection point of the collision.
+---@field intersection fun() @Intersection point of the collision in world coordinates.
+---@field velocity fun() @Incident velocity at the intersection point of the collision.
+---@field colliderComponent fun() @The Collider or Collider2D for the GameObject struck by the particles.

@@ -1,0 +1,2 @@
+---@class PropertyAttribute @Base class to derive custom property attributes from. Use this to create custom attributes for script variables.
+---@field order fun() @Optional field to specify the order that multiple DecorationDrawers should be drawn in.

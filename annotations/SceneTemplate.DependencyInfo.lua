@@ -1,0 +1,4 @@
+---@class SceneTemplate.DependencyInfo @A descriptor that stores one of a template Scene's dependency Assets, and specifies whether to clone or reference it when the template is instantiated.
+---@field dependency fun() @A dependency Asset of the template Scene.
+---@field instantiationMode fun() @The action to take with the dependency when the template is instantiated.
+---@field ctor fun() @Constructor for a DependencyInfo.

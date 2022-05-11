@@ -1,0 +1,9 @@
+---@class Experimental.GlobalIllumination.DirectionalLight @A helper structure used to initialize a LightDataGI structure as a directional light.
+---@field orientation fun() @The light's orientation. Only relevant for cookie placement.
+---@field color fun() @The direct light color.
+---@field penumbraWidthRadian fun() @The penumbra width for soft shadows in radians.
+---@field position fun() @The light's position. Only relevant for cookie placement.
+---@field shadow fun() @True if the light casts shadows, otherwise False.
+---@field instanceID fun() @The light's instanceID.
+---@field indirectColor fun() @The indirect light color.
+---@field mode fun() @The lightmode.

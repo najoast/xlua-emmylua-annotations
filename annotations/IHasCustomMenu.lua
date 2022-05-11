@@ -1,0 +1,2 @@
+---@class IHasCustomMenu @Defines a method to add custom menu items to an Editor Window.
+---@field AddItemsToMenu fun() @Adds your custom menu items to an Editor Window.

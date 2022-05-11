@@ -1,0 +1,5 @@
+---@class ImagePosition @How image and text is placed inside GUIStyle.
+---@field ImageAbove fun() @Image is above the text.
+---@field TextOnly fun() @Only the text is displayed.
+---@field ImageLeft fun() @Image is to the left of the text.
+---@field ImageOnly fun() @Only the image is displayed.

@@ -1,0 +1,40 @@
+---@class GUIStyle @Styling information for GUI elements.
+---@field Draw fun() @Draw this GUIStyle on to the screen, internal version.
+---@field CalcMinMaxWidth fun() @Calculate the minimum and maximum widths for this style rendered with content.
+---@field lineHeight fun() @The height of one line of text with this style, measured in pixels. (Read Only)
+---@field wordWrap fun() @Should the text be wordwrapped?
+---@field onNormal fun() @Rendering settings for when the control is turned on.
+---@field clipping fun() @What to do when the contents to be rendered is too large to fit within the area given.
+---@field fixedWidth fun() @If non-0, any GUI elements rendered with this style will have the width specified here.
+---@field CalcScreenSize fun() @Calculate the size of an element formatted with this style, and a given space to content.
+---@field fixedHeight fun() @If non-0, any GUI elements rendered with this style will have the height specified here.
+---@field alignment fun() @Text alignment.
+---@field onActive fun() @Rendering settings for when the element is turned on and pressed down.
+---@field contentOffset fun() @Pixel offset to apply to the content of this GUIstyle.
+---@field stretchWidth fun() @Can GUI elements of this style be stretched horizontally for better layouting?
+---@field onFocused fun() @Rendering settings for when the element has keyboard and is turned on.
+---@field onHover fun() @Rendering settings for when the control is turned on and the mouse is hovering it.
+---@field ctor fun() @Constructor for empty GUIStyle.
+---@field overflow fun() @Extra space to be added to the background image.
+---@field border fun() @The borders of all background images.
+---@field margin fun() @The margins between elements rendered in this style and any other GUI elements.
+---@field CalcHeight fun() @How tall this element will be when rendered with content and a specific width.
+---@field focused fun() @Rendering settings for when the element has keyboard focus.
+---@field operator_string fun() @Get a named GUI style from the current skin.
+---@field active fun() @Rendering settings for when the control is pressed down.
+---@field GetCursorStringIndex fun() @Get the cursor position (indexing into contents.text) when the user clicked at cursorPixelPosition.
+---@field normal fun() @Rendering settings for when the component is displayed normally.
+---@field imagePosition fun() @How image and text of the GUIContent is combined.
+---@field DrawCursor fun() @Draw this GUIStyle with selected content.
+---@field none fun() @Shortcut for an empty GUIStyle.
+---@field fontSize fun() @The font size to use (for dynamic fonts).
+---@field CalcSize fun() @Calculate the size of some content if it is rendered with this style.
+---@field padding fun() @Space from the edge of GUIStyle to the start of the contents.
+---@field hover fun() @Rendering settings for when the mouse is hovering over the control.
+---@field name fun() @The name of this GUIStyle. Used for getting them based on name.
+---@field fontStyle fun() @The font style to use (for dynamic fonts).
+---@field DrawWithTextSelection fun() @Draw this GUIStyle with selected content.
+---@field GetCursorPixelPosition fun() @Get the pixel position of a given string index.
+---@field font fun() @The font to use for rendering. If null, the default font for the current GUISkin is used instead.
+---@field richText fun() @Enable HTML-style tags for Text Formatting Markup.
+---@field stretchHeight fun() @Can GUI elements of this style be stretched vertically for better layout?

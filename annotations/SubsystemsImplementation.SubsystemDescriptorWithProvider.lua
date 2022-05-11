@@ -1,0 +1,2 @@
+---@class SubsystemsImplementation.SubsystemDescriptorWithProvider @Information about a SubsystemWithProvider that can be queried before creating a subsystem instance.
+---@field id fun() @A unique string that identifies the SubsystemWithProvider that this descriptor can create.

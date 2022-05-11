@@ -1,0 +1,5 @@
+---@class UIElements.Length @Represents a distance value.
+---@field Percent fun() @Creates a percentage Length from a float.
+---@field value fun() @The length value.
+---@field unit fun() @The unit of the value property.
+---@field ctor fun() @Creates from a float and an optional LengthUnit.

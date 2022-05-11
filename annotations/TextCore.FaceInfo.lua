@@ -1,0 +1,21 @@
+---@class TextCore.FaceInfo @A structure that contains information about a given typeface and for a specific point size.
+---@field capLine fun() @The Cap line is typically located at the top of capital letters.
+---@field Compare fun() @Compares the information in this FaceInfo structure with the information in the given FaceInfo structure to determine whether they have the same values.
+---@field familyName fun() @The name of the font typeface also known as family name.
+---@field lineHeight fun() @The line height represents the distance between consecutive lines of text.
+---@field strikethroughThickness fun() @The thickness of the strikethrough.
+---@field meanLine fun() @The Mean line is typically located at the top of lowercase letters.
+---@field subscriptSize fun() @The relative size / scale of subscript characters.
+---@field subscriptOffset fun() @The position of characters using subscript.
+---@field tabWidth fun() @The width of the tab character.
+---@field ascentLine fun() @The Ascent line is typically located at the top of the tallest glyph in the typeface.
+---@field styleName fun() @The style name of the typeface which defines both the visual style and weight of the typeface.
+---@field underlineThickness fun() @The thickness of the underline.
+---@field underlineOffset fun() @The position of the underline.
+---@field baseline fun() @The Baseline is an imaginary line upon which all glyphs appear to rest on.
+---@field superscriptSize fun() @The relative size / scale of superscript characters.
+---@field scale fun() @The relative scale of the typeface.
+---@field superscriptOffset fun() @The position of characters using superscript.
+---@field descentLine fun() @The Descent line is typically located at the bottom of the glyph with the lowest descender in the typeface.
+---@field strikethroughOffset fun() @The position of the strikethrough.
+---@field pointSize fun() @The point size used for sampling the typeface.

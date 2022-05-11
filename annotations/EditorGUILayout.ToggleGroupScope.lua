@@ -1,0 +1,3 @@
+---@class EditorGUILayout.ToggleGroupScope @Begin a vertical group with a toggle to enable or disable all the controls within at once.
+---@field ctor fun() @
+---@field enabled fun() @The enabled state selected by the user.

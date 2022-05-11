@@ -1,0 +1,2 @@
+---@class VersionControl.ISettingsInspectorExtension @Version control system extension that allows extending Version Control settings inspector.
+---@field OnInspectorGUI fun() @Allows you to add custom GUI controls to the version control settings in the inspector.

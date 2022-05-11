@@ -1,0 +1,70 @@
+---@class VFX.VisualEffect @The visual effect class that references an VFX.VisualEffectAsset instance within the Scene.
+---@field GetParticleSystemNames fun() @Gets the name of every particle system.
+---@field HasVector2 fun() @Checks if the Visual Effect can override a Vector2 with the name you pass in.
+---@field pause fun() @Use this property to set the pause state of the visual effect.
+---@field GetUInt fun() @Gets the value of a named unsigned integer property.
+---@field SetFloat fun() @Sets the value of a named float property.
+---@field HasSkinnedMeshRenderer fun() @Checks if the Visual Effect can override a Skinned Mesh Renderer with the name you pass in.
+---@field SetUInt fun() @Sets the value of a named unsigned integer property.
+---@field SetVector2 fun() @Sets the value of a named Vector2 property.
+---@field GetParticleSystemInfo fun() @Gets information on a particle system.
+---@field culled fun() @Use this property to determine if this visual effect is not visible from any Camera. (Read Only)
+---@field HasFloat fun() @Checks if the Visual Effect can override a float with the name you pass in.
+---@field HasAnySystemAwake fun() @Checks if any particle system in the effect is awake.
+---@field HasVector3 fun() @Checks if the Visual Effect can override a Vector3 with the name you pass in.
+---@field initialEventName fun() @The default event name. Unity calls this event when the VisualEffect awakes, or when you call VisualEffect.Reinit.
+---@field Reinit fun() @Reintialize visual effect.
+---@field Stop fun() @Use this method to send a stop event to all Spawn systems.
+---@field HasTexture fun() @Checks if the Visual Effect can override a texture with the name you pass in.
+---@field GetSpawnSystemNames fun() @Gets the name of every spawn system.
+---@field GetInt fun() @Get a named exposed integer.
+---@field Simulate fun() @Use this method to fast-forward the visual effect by simulating all systems for several step counts using the specified delta time.
+---@field HasMesh fun() @Checks if the Visual Effect can override a Mesh with the name you pass in.
+---@field startSeed fun() @The initial seed used for internal random number generator.
+---@field SetInt fun() @Sets the value of a named integer property.
+---@field Play fun() @Use this method to send a play event to every Spawn system.
+---@field GetSpawnSystemInfo fun() @Gets state on a spawn system.
+---@field initialEventID fun() @The default event name ID. To retrieve this value, use the Shader.PropertyID after VisualEffect has awakened or after you've invoked VFX.VisualEffect.Reinit.
+---@field GetSkinnedMeshRenderer fun() @Gets the value of a named Skinned Mesh Renderer property.
+---@field ResetOverride fun() @Use this method to set the overridden state to false. This restores the default value that the Visual Effect Asset specifies.
+---@field GetTexture fun() @Gets the value of a named texture property.
+---@field HasUInt fun() @Checks if the Visual Effect can override an unsigned integer with the name you pass in.
+---@field SetAnimationCurve fun() @Sets the value of a named Animation Curve property.
+---@field SetGradient fun() @Sets the value of a named Gradient property.
+---@field GetMesh fun() @Gets the value of a named Mesh property.
+---@field SetBool fun() @Sets the value of a named bool property.
+---@field resetSeedOnPlay fun() @This property controls whether the visual effect generates a new seed for the random number generator with each call to VFX.VisualEffect.Play function.
+---@field SetMesh fun() @Sets the value of a named Mesh property.
+---@field GetVector3 fun() @Gets the value of a named Vector3 property.
+---@field HasVector4 fun() @Checks if the Visual Effect can override a Vector4 or Color with the name you pass in.
+---@field visualEffectAsset fun() @The VisualEffectAsset that the VisualEffect uses.
+---@field GetBool fun() @Gets the value of a named bool property.
+---@field HasGradient fun() @Checks if the Visual Effect can override a Gradient with the name you pass in.
+---@field SetTexture fun() @Sets the value of a named texture property.
+---@field HasInt fun() @Checks if the Visual Effect can override an integer with the name you pass in.
+---@field HasGraphicsBuffer fun() @Checks if the Visual Effect can override a GraphicsBuffer with the name you pass in.
+---@field HasMatrix4x4 fun() @Checks if the Visual Effect can override a Matrix4x4 with the name you pass in.
+---@field ctor fun() @The VisualEffect constructor.
+---@field GetOutputEventNames fun() @Gets the name of every output event system.
+---@field SendEvent fun() @Use this method to send a custom named event.
+---@field playRate fun() @A multiplier that Unity applies to the delta time when it updates the VisualEffect. The default value is 1.0f.
+---@field SetVector3 fun() @Sets the value of a named Vector3 property.
+---@field GetSystemNames fun() @Gets the name of every system.
+---@field GetTextureDimension fun() @Gets expected texture dimension for a named exposed texture.
+---@field GetVector2 fun() @Gets the value of a named Vector2 property.
+---@field SetMatrix4x4 fun() @Sets the value of a named Matrix4x4 property.
+---@field CreateVFXEventAttribute fun() @Use this method to create a new VFXEventAttribute.
+---@field GetAnimationCurve fun() @Gets the value of a named Animation Curve property.
+---@field SetSkinnedMeshRenderer fun() @Sets the value of a named Skinned Mesh Renderer property.
+---@field HasAnimationCurve fun() @Checks if the Visual Effect can override an Animation Curve with the name you pass in.
+---@field GetVector4 fun() @Gets the value of a named Vector4 or Color property.
+---@field AdvanceOneFrame fun() @If VFX.VisualEffect._pause is true, this method processes the next visual effect update for exactly one frame with the current delta time.
+---@field HasBool fun() @Checks if the Visual Effect can override a bool with the name you pass in.
+---@field GetFloat fun() @Gets the value of a named float property.
+---@field SetVector4 fun() @Sets the value of a named Vector4 or Color property.
+---@field aliveParticleCount fun() @Returns the sum of all alive particles within the visual effect.
+---@field SetGraphicsBuffer fun() @Sets the value of a named GraphicsBuffer property.
+---@field GetMatrix4x4 fun() @Gets the value of a named Matrix4x4 property.
+---@field GetGradient fun() @Gets the value of a named Gradient property.
+---@field HasSystem fun() @Use this function to determine if the VisualEffect has the system you pass in.
+---@field outputEventReceived fun() @Output event are reported trough this callback.

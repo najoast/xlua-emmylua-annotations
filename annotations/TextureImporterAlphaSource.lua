@@ -1,0 +1,4 @@
+---@class TextureImporterAlphaSource @Select how the alpha of the imported texture is generated.
+---@field None fun() @No Alpha will be used.
+---@field FromGrayScale fun() @Generate Alpha from image gray scale.
+---@field FromInput fun() @Use Alpha from the input texture if one is provided.

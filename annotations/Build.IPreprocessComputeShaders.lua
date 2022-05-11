@@ -1,0 +1,2 @@
+---@class Build.IPreprocessComputeShaders @Implement this interface to receive a callback before a compute shader is compiled.
+---@field OnProcessComputeShader fun() @Implement this interface to receive a callback before Unity compiles a compute shader kernel into a build.

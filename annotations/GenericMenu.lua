@@ -1,0 +1,10 @@
+---@class GenericMenu @GenericMenu lets you create custom context menus and dropdown menus.
+---@field AddSeparator fun() @Add a seperator item to the menu.
+---@field MenuFunction fun() @Callback function, called when a menu item is selected.
+---@field AddDisabledItem fun() @Add a disabled item to the menu.
+---@field DropDown fun() @Show the menu at the given screen rect.
+---@field ShowAsContext fun() @Show the menu under the mouse when right-clicked.
+---@field allowDuplicateNames fun() @Allow the menu to have multiple items with the same name.
+---@field MenuFunction2 fun() @Callback function with user data, called when a menu item is selected.
+---@field GetItemCount fun() @Get number of items in the menu.
+---@field AddItem fun() @Add an item to the menu.

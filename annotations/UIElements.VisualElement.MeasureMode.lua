@@ -1,0 +1,4 @@
+---@class UIElements.VisualElement.MeasureMode @The modes available to measure VisualElement sizes.
+---@field AtMost fun() @At Most. The element should give its preferred width/height but no more than the value passed.
+---@field Exactly fun() @The element should give the width/height that is passed in and derive the opposite site from this value (for example, calculate text size from a fixed width).
+---@field Undefined fun() @The element should give its preferred width/height without any constraint.

@@ -1,0 +1,6 @@
+---@class ParticlePhysicsExtensions @Method extension for Physics in Particle System.
+---@field SetTriggerParticles fun() @Write modified particles back to the Particle System, during a call to OnParticleTrigger.
+---@field GetSafeTriggerParticlesSize fun() @Safe array size for use with ParticleSystem.GetTriggerParticles.
+---@field GetTriggerParticles fun() @Get the particles that met the condition in the particle trigger module. Returns the number of particles written to the array.
+---@field GetCollisionEvents fun() @Get the particle collision events for a GameObject. Returns the number of events written to the array.
+---@field GetSafeCollisionEventSize fun() @Safe array size for use with ParticleSystem.GetCollisionEvents.

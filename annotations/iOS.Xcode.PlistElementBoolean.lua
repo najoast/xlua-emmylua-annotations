@@ -1,0 +1,3 @@
+---@class iOS.Xcode.PlistElementBoolean @Represents a boolean element in plist document.
+---@field ctor fun() @Creates new boolean element.
+---@field value fun() @The value stored in the boolean element.

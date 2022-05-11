@@ -1,0 +1,7 @@
+---@class Search.SearchViewState @Search view state is used to create new Search windows. See SearchService.ShowWindow.
+---@field title fun() @Indicates the search topic title.
+---@field ctor fun() @Create search view flags used to create a new Search window.
+---@field position fun() @If defined, indicates the location of the new Search window when it opens.
+---@field flags fun() @Various search view options.
+---@field itemSize fun() @Indicates the item size to be used when the Search window opens.
+---@field group fun() @Indicates the group or tab to be selected when the Search window opens.

@@ -1,0 +1,2 @@
+---@class Audio.AudioClipPlayable @An implementation of IPlayable that controls an AudioClip.
+---@field Create fun() @Creates an AudioClipPlayable in the PlayableGraph.

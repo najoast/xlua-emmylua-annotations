@@ -1,0 +1,3 @@
+---@class GUI.ToolbarButtonSize @Determines how toolbar button size is calculated.
+---@field FitToContents fun() @The width of each toolbar button is calculated based on the width of its content.
+---@field Fixed fun() @Calculates the button size by dividing the available width by the number of buttons. The minimum size is the maximum content width.

@@ -1,0 +1,6 @@
+---@class FrameTimingManager @The FrameTimingManager allows the user to capture and access FrameTiming data for multple frames.
+---@field GetGpuTimerFrequency fun() @This returns the frequency of GPU timer on the current platform, used to interpret timing results. If the platform does not support returning this value it will return 0.
+---@field GetCpuTimerFrequency fun() @This returns the frequency of CPU timer on the current platform, used to interpret timing results. If the platform does not support returning this value it will return 0.
+---@field CaptureFrameTimings fun() @This function triggers the FrameTimingManager to capture a snapshot of FrameTiming's data, that can then be accessed by the user.
+---@field GetVSyncsPerSecond fun() @This returns the number of vsyncs per second on the current platform, used to interpret timing results. If the platform does not support returning this value it will return 0.
+---@field GetLatestTimings fun() @Allows the user to access the currently captured FrameTimings.

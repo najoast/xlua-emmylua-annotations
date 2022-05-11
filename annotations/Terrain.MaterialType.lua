@@ -1,0 +1,5 @@
+---@class Terrain.MaterialType @The type of the material used to render a terrain object. Could be one of the built-in types or custom.
+---@field BuiltInLegacySpecular fun() @A built-in material that uses the legacy BlinnPhong (specular) lighting model and has optional normal map support.
+---@field Custom fun() @Use a custom material given by Terrain.materialTemplate.
+---@field BuiltInStandard fun() @A built-in material that uses the standard physically-based lighting model. Inputs supported: smoothness, metallic / specular, normal.
+---@field BuiltInLegacyDiffuse fun() @A built-in material that uses the legacy Lambert (diffuse) lighting model and has optional normal map support.

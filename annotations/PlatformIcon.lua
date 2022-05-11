@@ -1,0 +1,11 @@
+---@class PlatformIcon @Icon slot container.
+---@field height fun() @The height of the icon in pixels.
+---@field GetTexture fun() @Retrieve the texture which is currently assigned to the specified layer.
+---@field GetTextures fun() @Retrieve an array of all textures which are currently assigned to the icon slot.
+---@field layerCount fun() @The number of texture layers the icon slot currently contains.
+---@field kind fun() @The PlatformIconKind is specific to the target platform.
+---@field maxLayerCount fun() @The maximum number of texture layers required by the icon slot.
+---@field minLayerCount fun() @The minimum number of texture layers required by the icon slot.
+---@field SetTextures fun() @Assign all available icon layers.
+---@field SetTexture fun() @Assign a texture to the specified layer.
+---@field width fun() @The width of the icon in pixels.

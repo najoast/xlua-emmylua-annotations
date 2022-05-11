@@ -1,0 +1,4 @@
+---@class ParticleSystemNoiseQuality @The quality of the generated noise.
+---@field Low fun() @Low quality 1D noise.
+---@field High fun() @High quality 3D noise.
+---@field Medium fun() @Medium quality 2D noise.

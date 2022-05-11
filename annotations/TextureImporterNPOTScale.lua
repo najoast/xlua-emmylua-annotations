@@ -1,0 +1,5 @@
+---@class TextureImporterNPOTScale @Scaling mode for non power of two textures in TextureImporter.
+---@field ToLarger fun() @Scale to larger power of two.
+---@field None fun() @Keep non power of two textures as is.
+---@field ToNearest fun() @Scale to nearest power of two.
+---@field ToSmaller fun() @Scale to smaller power of two.

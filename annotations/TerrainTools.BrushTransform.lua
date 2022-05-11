@@ -1,0 +1,12 @@
+---@class TerrainTools.BrushTransform @Represents a linear 2D transformation between brush UV space and a target XY space (typically this is a Terrain-local object space.)
+---@field targetX fun() @(Read Only) Target X vector, in Brush UV space.
+---@field brushOrigin fun() @(Read Only) Brush UV origin, in XY space.
+---@field brushU fun() @(Read Only) Brush U vector, in XY space.
+---@field targetOrigin fun() @(Read Only) Target XY origin, in Brush UV space.
+---@field FromRect fun() @Creates an axis-aligned BrushTransform from a rectangle.
+---@field ToBrushUV fun() @Applies the transform to convert a target XY coordinate to Brush UV space.
+---@field GetBrushXYBounds fun() @Get the axis-aligned bounding rectangle of the brush, in target XY space.
+---@field FromBrushUV fun() @Applies the transform to convert a Brush UV coordinate to the target XY space.
+---@field brushV fun() @(Read Only) Brush V vector, in XY space.
+---@field targetY fun() @(Read Only) Target Y vector, in Brush UV space.
+---@field ctor fun() @Creates a BrushTransform.

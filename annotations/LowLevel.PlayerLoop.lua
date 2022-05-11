@@ -1,0 +1,4 @@
+---@class LowLevel.PlayerLoop @The class representing the player loop in Unity.
+---@field GetDefaultPlayerLoop fun() @Returns the default update order of all engine systems in Unity.
+---@field SetPlayerLoop fun() @Set a new custom update order of all engine systems in Unity.
+---@field GetCurrentPlayerLoop fun() @Returns the current update order of all engine systems in Unity.

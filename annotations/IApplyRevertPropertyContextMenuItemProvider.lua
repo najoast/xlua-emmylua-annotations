@@ -1,0 +1,5 @@
+---@class IApplyRevertPropertyContextMenuItemProvider @Used to identify a MonoBehaviour that provides a hook into the apply/revert context menu for Prefabs open in Prefab Mode and non Prefabs.
+---@field TryGetRevertMethodForFieldName fun() @Extension hook for an optional property revert menu item.
+---@field TryGetApplyMethodForFieldName fun() @Extension hook for an optional property apply menu item.
+---@field GetSourceTerm fun() @Returns the name of the source term to be used in the apply/revert menu item.
+---@field GetSourceName fun() @Returns the component specific name to be used in the apply menu item.

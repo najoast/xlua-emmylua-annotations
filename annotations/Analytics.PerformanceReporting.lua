@@ -1,0 +1,3 @@
+---@class Analytics.PerformanceReporting @Unity Performace provides insight into your game performace.
+---@field graphicsInitializationFinishTime fun() @Time taken to initialize graphics in microseconds, measured from application startup.
+---@field enabled fun() @Controls whether the Performance Reporting service is enabled at runtime.

@@ -1,0 +1,3 @@
+---@class ChangeSceneEventArgs @A change of this type indicates that an open scene has been changed (dirtied) without any more specific information available. This happens for example when EditorSceneManager.MarkSceneDirty is used.
+---@field scene fun() @The Scene that was changed.
+---@field ctor fun() @Constructs a new instance.

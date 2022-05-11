@@ -1,0 +1,7 @@
+---@class TestTools.Coverage @Describes the interface for the code coverage data exposed by mono.
+---@field GetSequencePointsFor fun() @Returns the coverage sequence points for the method you specify. See CoveredSequencePoint for more information about the coverage data this method returns.
+---@field enabled fun() @Enables or disables code coverage. Note that Code Coverage can affect the performance.
+---@field ResetFor fun() @Resets the coverage data for the specified method.
+---@field GetStatsForAllCoveredMethods fun() @Returns the coverage summary for all methods that have been called since either the Unity process was started or Coverage.ResetAll() has been called.
+---@field GetStatsFor fun() @Returns the coverage summary for the specified method. See CoveredMethodStats for more information about the coverage statistics returned by this method.
+---@field ResetAll fun() @Resets all coverage data.

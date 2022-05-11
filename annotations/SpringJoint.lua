@@ -1,0 +1,6 @@
+---@class SpringJoint @The spring joint ties together 2 rigid bodies, spring forces will be automatically applied to keep the object at the given distance.
+---@field damper fun() @The damper force used to dampen the spring force.
+---@field maxDistance fun() @The maximum distance between the bodies relative to their initial distance.
+---@field spring fun() @The spring force used to keep the two objects together.
+---@field minDistance fun() @The minimum distance between the bodies relative to their initial distance.
+---@field tolerance fun() @The maximum allowed error between the current spring length and the length defined by minDistance and maxDistance.

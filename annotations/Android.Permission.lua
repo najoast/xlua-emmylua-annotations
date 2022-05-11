@@ -1,0 +1,10 @@
+---@class Android.Permission @Structure describing a permission that requires user authorization.
+---@field HasUserAuthorizedPermission fun() @Check if the user has granted access to a device resource or information that requires authorization.
+---@field Camera fun() @Used when requesting permission or checking if permission has been granted to use the camera.
+---@field RequestUserPermissions fun() @Request that the user grant access to a device resource or information that requires authorization.
+---@field CoarseLocation fun() @Used when requesting permission or checking if permission has been granted to use the users location with coarse granularity.
+---@field Microphone fun() @Used when requesting permission or checking if permission has been granted to use the microphone.
+---@field ExternalStorageRead fun() @Used when requesting permission or checking if permission has been granted to read from external storage such as a SD card.
+---@field RequestUserPermission fun() @Request that the user grant access to a device resource or information that requires authorization.
+---@field FineLocation fun() @Used when requesting permission or checking if permission has been granted to use the users location with high precision.
+---@field ExternalStorageWrite fun() @Used when requesting permission or checking if permission has been granted to write to external storage such as a SD card.

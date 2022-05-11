@@ -1,0 +1,3 @@
+---@class Windows.Speech.SemanticMeaning @Semantic meaning is a collection of semantic properties of a recognized phrase. These semantic properties can be specified in SRGS grammar files.
+---@field values fun() @Values of semantic property that the correspond to the semantic meaning key.
+---@field key fun() @A key of semantic meaning.

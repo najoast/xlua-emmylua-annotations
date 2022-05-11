@@ -1,0 +1,4 @@
+---@class Build.Player.ScriptCompilationOptions @Script compilation options.
+---@field Assertions fun() @Include assertions in the compiled scripts. By default, the assertions are only included in development builds.
+---@field DevelopmentBuild fun() @Build a development version of the scripts.
+---@field None fun() @Compiled the scripts without any special settings.

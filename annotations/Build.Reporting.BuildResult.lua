@@ -1,0 +1,5 @@
+---@class Build.Reporting.BuildResult @Describes the outcome of the build process.
+---@field Cancelled fun() @Indicates that the build was cancelled by the user.
+---@field Unknown fun() @Indicates that the outcome of the build is in an unknown state.
+---@field Failed fun() @Indicates that the build failed.
+---@field Succeeded fun() @Indicates that the build completed successfully.

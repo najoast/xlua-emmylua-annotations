@@ -1,0 +1,8 @@
+---@class Unity.CodeEditor.IExternalCodeEditor @Defines the responsibilities of handling external script editor integration into UnityEditor.
+---@field SyncAll fun() @Unity calls this function during initialization in order to sync the Project. This is different from SyncIfNeeded in that it does not get a list of changes.
+---@field OnGUI fun() @Unity calls this methodf when it populates Preferences/External Tools in order to allow the code editor to generate necessary GUI. For example, when creating an an argument field for modifying the arguments sent to the code editor.
+---@field Installations fun() @Provide the editor with a list of known and supported editors that this instance supports.
+---@field TryGetInstallationForPath fun() @Unity stores the path of the chosen editor. An instance of IExternalCodeEditor can take responsibility for this path, by returning true when this method is being called. The out variable installation need to be constructed with the path and the name that should be shown in the External Tools code editor list.
+---@field Initialize fun() @Callback to the IExternalCodeEditor when it has been chosen from the PreferenceWindow.
+---@field OpenProject fun() @The external code editor needs to handle the request to open a file.
+---@field SyncIfNeeded fun() @When you change Assets in Unity, this method for the current chosen instance of IExternalCodeEditor parses the new and changed Assets.

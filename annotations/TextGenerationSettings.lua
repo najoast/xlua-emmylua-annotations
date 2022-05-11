@@ -1,0 +1,19 @@
+---@class TextGenerationSettings @A struct that stores the settings for TextGeneration.
+---@field resizeTextForBestFit fun() @Should the text be resized to fit the configured bounds?
+---@field generationExtents fun() @Extents that the generator will attempt to fit the text in.
+---@field fontStyle fun() @Font style.
+---@field generateOutOfBounds fun() @Continue to generate characters even if the text runs out of bounds.
+---@field alignByGeometry fun() @Use the extents of glyph geometry to perform horizontal alignment rather than glyph metrics.
+---@field verticalOverflow fun() @What happens to text when it reaches the bottom generation bounds.
+---@field lineSpacing fun() @The line spacing multiplier.
+---@field fontSize fun() @Font size.
+---@field updateBounds fun() @Should the text generator update the bounds from the generated text.
+---@field textAnchor fun() @How is the generated text anchored.
+---@field font fun() @Font to use for generation.
+---@field color fun() @The base color for the text generation.
+---@field resizeTextMinSize fun() @Minimum size for resized text.
+---@field resizeTextMaxSize fun() @Maximum size for resized text.
+---@field horizontalOverflow fun() @What happens to text when it reaches the horizontal generation bounds.
+---@field scaleFactor fun() @A scale factor for the text. This is useful if the Text is on a Canvas and the canvas is scaled.
+---@field richText fun() @Allow rich text markup in generation.
+---@field pivot fun() @Generated vertices are offset by the pivot.

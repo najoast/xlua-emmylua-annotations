@@ -1,0 +1,2 @@
+---@class UIElements.IManipulator @Interface for Manipulator objects.
+---@field target fun() @VisualElement being manipulated.

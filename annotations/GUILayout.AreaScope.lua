@@ -1,0 +1,2 @@
+---@class GUILayout.AreaScope @Disposable helper class for managing BeginArea / EndArea.
+---@field ctor fun() @Create a new AreaScope and begin the corresponding Area.

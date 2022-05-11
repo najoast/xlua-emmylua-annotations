@@ -1,0 +1,3 @@
+---@class GridBrushBase.RotationDirection @Rotate tiles in the GridBrushBase in this direction.
+---@field CounterClockwise fun() @Rotates tiles counter-clockwise.
+---@field Clockwise fun() @Rotates tiles clockwise.

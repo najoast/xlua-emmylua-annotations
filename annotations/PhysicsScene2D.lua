@@ -1,0 +1,16 @@
+---@class PhysicsScene2D @Represents a single instance of a 2D physics Scene.
+---@field OverlapArea fun() @Checks an area (non-rotated box) against Colliders in the PhysicsScene2D, returning the first intersection only.
+---@field GetRayIntersection fun() @Cast a 3D ray against the colliders in the PhysicsScene2D, returning the first intersection only.
+---@field CircleCast fun() @Casts a circle against colliders in the PhysicsScene2D, returning the first intersection only.
+---@field OverlapCapsule fun() @Checks a capsule against Colliders in the PhysicsScene2D, returning the first intersection only.
+---@field IsEmpty fun() @Determines whether the physics Scene is empty or not.
+---@field OverlapBox fun() @Checks a box against Colliders in the PhysicsScene2D, returning the first intersection only.
+---@field Raycast fun() @Casts a ray against colliders in the PhysicsScene2D, returning the first intersection only.
+---@field Linecast fun() @Casts a line segment against colliders in the PhysicsScene2D, returning the first intersection only.
+---@field IsValid fun() @Determines whether the physics Scene is valid or not.
+---@field CapsuleCast fun() @Casts a capsule against colliders in the PhysicsScene2D, returning the first intersection only.
+---@field Simulate fun() @Simulate physics associated with this PhysicsScene.
+---@field OverlapPoint fun() @Checks a point against Colliders in the PhysicsScene2D, returning the first intersection only.
+---@field OverlapCollider fun() @Checks a Collider against Colliders in the PhysicsScene2D, returning all intersections.
+---@field OverlapCircle fun() @Checks a circle against Colliders in the PhysicsScene2D, returning the first intersection only.
+---@field BoxCast fun() @Casts a box against colliders in the PhysicsScene2D, returning the first intersection only.

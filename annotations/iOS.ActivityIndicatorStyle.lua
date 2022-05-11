@@ -1,0 +1,5 @@
+---@class iOS.ActivityIndicatorStyle @ActivityIndicator Style (iOS Specific).
+---@field Gray fun() @The standard gray style of indicator (UIActivityIndicatorViewStyleGray).
+---@field White fun() @The standard white style of indicator (UIActivityIndicatorViewStyleWhite).
+---@field DontShow fun() @Do not show ActivityIndicator.
+---@field WhiteLarge fun() @The large white style of indicator (UIActivityIndicatorViewStyleWhiteLarge).

@@ -1,0 +1,3 @@
+---@class Unity.Jobs.IJobParallelForExtensions @Extension methods for Jobs using the IJobParallelFor.
+---@field Run fun() @Perform the job's Execute method immediately on the same thread.
+---@field Schedule fun() @Schedule the job for execution on a worker thread.

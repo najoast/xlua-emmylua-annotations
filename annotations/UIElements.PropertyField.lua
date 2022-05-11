@@ -1,0 +1,11 @@
+---@class UIElements.PropertyField @A SerializedProperty wrapper VisualElement that, on Bind(), will generate the correct field elements with the correct bindingPaths.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field ctor fun() @PropertyField constructor.
+---@field label fun() @Optionally overwrite the label of the generate property field. If no label is provided the string will be taken from the SerializedProperty.
+---@field bindingPath fun() @Path of the target property to be bound.
+---@field UxmlFactory fun() @Instantiates a PropertyField using the data read from a UXML file.
+---@field UxmlTraits UIElements.PropertyField.UxmlTraits @Defines UxmlTraits for the PropertyField.
+---@field RegisterValueChangeCallback fun() @Registers this callback to receive SerializedPropertyChangeEvent when a value is changed.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field binding fun() @Binding object that will be updated.
+---@field ussClassName fun() @USS class name of elements of this type.

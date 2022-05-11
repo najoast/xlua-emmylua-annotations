@@ -1,0 +1,5 @@
+---@class Build.Content.WriteCommand @Container for holding information about a serialized file to be written.
+---@field ctor fun() @Default constructor for an empty WriteCommand.
+---@field serializeObjects fun() @List of objects and their order contained inside a serialized file.
+---@field internalName fun() @Internal name used by the loading system for a serialized file.
+---@field fileName fun() @Final file name on disk of the serialized file.

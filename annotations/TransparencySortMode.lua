@@ -1,0 +1,5 @@
+---@class TransparencySortMode @Transparent object sorting mode of a Camera.
+---@field Default fun() @Default transparency sorting mode.
+---@field CustomAxis fun() @Sort objects based on distance along a custom axis.
+---@field Perspective fun() @Perspective transparency sorting mode.
+---@field Orthographic fun() @Orthographic transparency sorting mode.

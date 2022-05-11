@@ -1,0 +1,5 @@
+---@class UIElements.FlexDirection @Defines the main-axis of the flex layout.
+---@field RowReverse fun() @Right to Left.
+---@field Row fun() @Left to Right.
+---@field ColumnReverse fun() @Bottom to Top.
+---@field Column fun() @Top to Bottom.

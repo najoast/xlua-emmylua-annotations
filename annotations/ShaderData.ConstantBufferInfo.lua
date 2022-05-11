@@ -1,0 +1,4 @@
+---@class ShaderData.ConstantBufferInfo @Provides resource layout information about a shader constant buffer.
+---@field Size fun() @The size (in bytes) of this constant buffer (Read Only).
+---@field Name fun() @The name of this constant buffer (Read Only).
+---@field Fields fun() @The fields in this constant buffer (Read Only).

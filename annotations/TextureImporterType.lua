@@ -1,0 +1,12 @@
+---@class TextureImporterType @Select this to set basic parameters depending on the purpose of your texture.
+---@field GUI fun() @Use this if your texture is going to be used on any HUD/GUI Controls.
+---@field Sprite fun() @Select this if you will be using your texture for Sprite graphics.
+---@field Cookie fun() @This sets up your texture with the basic parameters used for the Cookies of your lights.
+---@field SingleChannel fun() @Use this for texture containing a single channel.
+---@field NormalMap fun() @Select this to turn the color channels into a format suitable for real-time normal mapping.
+---@field Shadowmask fun() @Use this for textures that contain shadowmask data.
+---@field Lightmap fun() @This sets up your texture with the parameters used by the lightmap.
+---@field DirectionalLightmap fun() @Use this for textures that contain directional lightmap data.
+---@field Default fun() @This is the most common setting used for all the textures in general.
+---@field Image fun() @This is the most common setting used for all the textures in general.
+---@field Cursor fun() @Use this if your texture is going to be used as a cursor.

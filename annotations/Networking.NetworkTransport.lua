@@ -1,0 +1,76 @@
+---@class Networking.NetworkTransport @Transport Layer API.
+---@field GetConnectionInfo fun() @Returns the connection parameters for the specified connectionId. These parameters can be sent to other users to establish a direct connection to this peer. If this peer is connected to the host via Relay, the Relay-related parameters are set.
+---@field SetMulticastLock fun() @Enable or disable a multicast lock.
+---@field GetIncomingPacketCount fun() @Returns how many packets have been received from start for connection.
+---@field GetAssetId fun() @The Unity Multiplayer spawning system uses assetIds to identify what remote objects to spawn. This function allows you to get the assetId for the Prefab associated with an object.
+---@field GetOutgoingUserBytesCountForConnection fun() @Returns how much payload (user) bytes have been sent from start for connection (from call Networking.NetworkTransport.Connect for active connect or from connection request receiving for passive connect).
+---@field GetOutgoingMessageQueueSize fun() @Returns the number of messages waiting in the outgoing message queue to be sent.
+---@field GetCurrentIncomingMessageAmount fun() @Returns the number of unread messages in the read-queue.
+---@field StartSendMulticast fun() @Start to multicast send.
+---@field GetMaxAllowedBandwidth fun() @Gets the currently-allowed network bandwidth in bytes per second. The value returned can vary because bandwidth can be throttled by flow control. If the bandwidth is throttled to zero, the connection is disconnected.ted.
+---@field GetOutgoingFullBytesCountForHost fun() @Returns how much raw data (in bytes) have been sent from start for the host (from call Networking.NetworkTransport.AddHost).
+---@field SendQueuedMessages fun() @Sends messages, previously queued by NetworkTransport.QueueMessageForSending function.
+---@field ReceiveRelayEventFromHost fun() @Polls the host for the following events:  Networking.NetworkEventType.ConnectEvent and Networking.NetworkEventType.DisconnectEvent.Can only be called by the relay group owner.
+---@field GetOutgoingMessageCountForConnection fun() @Returns how many packets have been sent from start for connection (from call Networking.NetworkTransport.Connect for active connect or from connection request receiving for passive connect).
+---@field GetOutgoingSystemBytesCountForHost fun() @Returns how much payload and protocol system headers (in bytes) have been sent from start for the host (from call Networking.NetworkTransport.AddHost).
+---@field GetPacketReceivedRate fun() @Return the current receive rate in bytes per second.
+---@field GetCurrentRTT fun() @Return the round trip time for the given connectionId.
+---@field Init fun() @Initializes the NetworkTransport. Should be called before any other operations on the NetworkTransport are done.
+---@field DoesEndPointUsePlatformProtocols fun() @Check if the transport is using a platform specific protocol.
+---@field Connect fun() @Tries to establish a connection to another peer.
+---@field GetOutgoingPacketCountForHost fun() @Returns how many packets have been sent for host from it start (from call Networking.NetworkTransport.AddHost).
+---@field GetOutgoingUserBytesCountForHost fun() @Returns how much payload (user) bytes have been sent from start for the host (from call Networking.NetworkTransport.AddHost).
+---@field StartBroadcastDiscovery fun() @Starts sending a broadcasting message in all local subnets.
+---@field GetIncomingPacketCountForAllHosts fun() @Returns how many packets have been received from start. (from Networking.NetworkTransport.Init call).
+---@field GetNetworkTimestamp fun() @Get a network timestamp. Can be used in your messages to investigate network delays together with Networking.GetRemoteDelayTimeMS.
+---@field GetOutgoingFullBytesCount fun() @Returns how much raw data (in bytes) have been sent from start for all hosts (from Networking.NetworkTransport.Init call).
+---@field SetPacketStat fun() @Used to inform the profiler of network packet statistics.
+---@field IsEncryptionActive fun() @Returns whether the network transport layer has successfully loaded an encryption plugin and is using it.
+---@field GetOutgoingPacketOverflowLossPercent fun() @Returns the value in percent of the number of sent packets that were dropped by the peer.
+---@field Disconnect fun() @Send a disconnect signal to the connected peer and close the connection. Poll Networking.NetworkTransport.Receive() to be notified that the connection is closed. This signal is only sent once (best effort delivery).  If this packet is dropped for some reason, the peer closes the connection by timeout.
+---@field GetOutgoingSystemBytesCount fun() @Returns how much user payload and protocol system headers (in bytes)  have been sent from start (from Networking.NetworkTransport.Init call).
+---@field GetIncomingPacketDropCountForAllHosts fun() @How many packets have been dropped due lack space in incoming queue (absolute value, countinf from start).
+---@field GetRemoteDelayTimeMS fun() @Returns the delay for the timestamp received.
+---@field GetPacketSentRate fun() @Return the current send rate in bytes per second.
+---@field GetHostPort fun() @Returns the port number assigned to the host.
+---@field ConnectEndPoint fun() @Try to establish connection to other peer, where the peer is specified using a C# System.EndPoint.
+---@field GetOutgoingPacketNetworkLossPercent fun() @Returns the value in percent of the number of sent packets that were dropped by the network and not received by the peer.
+---@field GetAckBufferCount fun() @Returns size of reliable buffer.
+---@field GetBroadcastConnectionInfo fun() @After Networking.NetworkTransport.Receive() returns Networking.NetworkEventType.BroadcastEvent, this function will return the connection information of the broadcast sender. This information can then be used for connecting to the broadcast sender.
+---@field UnloadEncryptionLibrary fun() @Unloads the currently loaded encryption plugin, if one is loaded.
+---@field FinishSendMulticast fun() @Finalizes sending of a message to a group of connections. Only one multicast message at a time is allowed per host.
+---@field GetCurrentOutgoingMessageAmount fun() @Returns the total number of messages still in the write-queue.
+---@field AddWebsocketHost fun() @Created web socket host.
+---@field ConnectAsNetworkHost fun() @Create dedicated connection to Relay server.
+---@field LoadEncryptionLibrary fun() @Instructs the transport layer to load the provided encryption plugin.
+---@field SetBroadcastCredentials fun() @Sets the credentials required for receiving broadcast messages. Should any credentials of a received broadcast message not match, the broadcast discovery message is dropped.
+---@field AddHostWithSimulator fun() @Create a host and configure them to simulate Internet latency (works on Editor and development build only).
+---@field SendMulticast fun() @Add a connection for the multicast send.
+---@field Send fun() @Send data to peer.
+---@field RemoveHost fun() @Closes the opened socket, and closes all connections belonging to that socket.
+---@field ReceiveFromHost fun() @Similar to Networking.NetworkTransport.Receive but will only poll for the provided hostId.
+---@field GetNetIOTimeuS fun() @Function returns time spent on network I/O operations in microseconds.
+---@field GetEncryptionSafeMaxPacketSize fun() @Gets the safe un-encrypted maximum payload size for a given maximum packet size.
+---@field GetOutgoingFullBytesCountForConnection fun() @Returns how much raw data (in bytes) have been sent from start for connection (from call Networking.NetworkTransport.Connect for active connect or from connection request receiving for passive connect).
+---@field QueueMessageForSending fun() @Function is queueing but not sending messages.
+---@field NotifyWhenConnectionReadyForSend fun() @This method allows you to specify that notifications callbacks should be called when Unity's networking can send more messages than defined in notificationLevel.
+---@field AddHost fun() @Creates a host based on Networking.HostTopology.
+---@field Shutdown fun() @Shut down the NetworkTransport.
+---@field GetOutgoingSystemBytesCountForConnection fun() @Returns how much payload and protocol system headers (in bytes) have been sent from start for connection (from call Networking.NetworkTransport.Connect for active connect or from connection request receiving for passive connect).
+---@field DisconnectNetworkHost fun() @This will disconnect the host and disband the group.DisconnectNetworkHost can only be called by the group owner on the relay server.
+---@field IsStarted fun() @Deprecated.
+---@field GetIncomingPacketLossCount fun() @Returns how many incoming packets have been lost due transmitting (dropped by network).
+---@field GetOutgoingUserBytesCount fun() @Returns how much payload (user) bytes have been sent from start (from Networking.NetworkTransport.Init call).
+---@field GetIncomingMessageQueueSize fun() @Returns the number of received messages waiting in the queue for processing.
+---@field IsBroadcastDiscoveryRunning fun() @Check if the broadcast discovery sender is running.
+---@field ConnectToNetworkPeer fun() @Create a connection to another peer in the Relay group.
+---@field GetOutgoingPacketCountForConnection fun() @Returns how many packets have been sent for connection from it start (from call Networking.NetworkTransport.Connect for active connect or from connection request receiving for passive connect).
+---@field GetRemotePacketReceivedRate fun() @Deprecated. Use Networking.NetworkTransport.GetNetworkLostPacketNum() instead.
+---@field GetOutgoingPacketCount fun() @Returns how many packets have been sent from start (from call Networking.NetworkTransport.Init) for all hosts.
+---@field GetNetworkLostPacketNum fun() @Return the total number of packets that has been lost.
+---@field GetOutgoingMessageCount fun() @Returns how many messages have been sent from start (from Networking.NetworkTransport.Init call).
+---@field StopBroadcastDiscovery fun() @Stop sending the broadcast discovery message.
+---@field Receive fun() @Called to poll the underlying system for events.
+---@field ConnectWithSimulator fun() @Connect with simulated latency.
+---@field GetOutgoingMessageCountForHost fun() @Returns how many messages have been sent from start for host (from call Networking.NetworkTransport.AddHost).
+---@field GetBroadcastConnectionMessage fun() @After Networking.NetworkTransport.Receive() returns Networking.NetworkEventType.BroadcastEvent, this function returns a complimentary message from the broadcast sender.

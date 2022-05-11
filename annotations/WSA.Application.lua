@@ -1,0 +1,9 @@
+---@class WSA.Application @Provides essential methods related to Window Store application.
+---@field RunningOnUIThread fun() @Returns true if you're running on UI thread.
+---@field RunningOnAppThread fun() @Returns true if you're running on application thread.
+---@field InvokeOnUIThread fun() @Executes callback item on UI thread.
+---@field InvokeOnAppThread fun() @Executes callback item on application thread.
+---@field advertisingIdentifier fun() @Advertising ID.
+---@field windowActivated fun() @Fired when application window is activated.
+---@field arguments fun() @Arguments passed to application.
+---@field windowSizeChanged fun() @Fired when window size changes.

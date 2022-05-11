@@ -1,0 +1,4 @@
+---@class QueryTriggerInteraction @Overrides the global Physics.queriesHitTriggers.
+---@field Ignore fun() @Queries never report Trigger hits.
+---@field UseGlobal fun() @Queries use the global Physics.queriesHitTriggers setting.
+---@field Collide fun() @Queries always report Trigger hits.

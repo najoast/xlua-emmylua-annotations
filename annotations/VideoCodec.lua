@@ -1,0 +1,5 @@
+---@class VideoCodec @Video codec to use when importing video clips.
+---@field VP8 fun() @Encode video using the vp8 codec.
+---@field Auto fun() @Choose the codec that supports hardware decoding on the target platform.
+---@field H265 fun() @Encode video with the H.265 codec.
+---@field H264 fun() @Encode video with the H.264 codec.

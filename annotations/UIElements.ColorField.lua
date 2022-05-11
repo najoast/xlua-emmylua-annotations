@@ -1,0 +1,10 @@
+---@class UIElements.ColorField @Makes a field for selecting a color.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field ctor fun() @Initializes and returns an instance of ColorField.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field showAlpha fun() @If true, allows the user to set an alpha value for the color. If false, hides the alpha component.
+---@field hdr fun() @If true, treats the color as an HDR value. If false, treats the color as a standard LDR value.
+---@field UxmlTraits UIElements.ColorField.UxmlTraits @Defines UxmlTraits for the ColorField.
+---@field UxmlFactory fun() @Instantiates a ColorField using the data read from a UXML file.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field showEyeDropper fun() @If true, the color picker will show the eyedropper control. If false, the color picker won't show the eyedropper control.

@@ -1,0 +1,7 @@
+---@class ShortcutManagement.ShortcutBinding @Represents a key binding used to trigger a shortcut.
+---@field ToString fun() @Converts the value of the current ShortcutManagement.ShortcutBinding object to its equivalent string representation.
+---@field ctor fun() @Creates a shortcut binding from a single key combination.
+---@field GetHashCode fun() @Returns the hash code for the value of this instance.
+---@field Equals fun() @Determines whether this instance and another specified ShortcutBinding instance have the same value.
+---@field empty fun() @A key combination representing the empty binding.
+---@field keyCombinationSequence fun() @The sequence of key combinations required to trigger a shortcut with this binding.

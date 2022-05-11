@@ -1,0 +1,10 @@
+---@class UIElements.Background @Describes a VisualElement background.
+---@field sprite fun() @The sprite to display as a background.
+---@field ctor fun() @Creates from a Texture2D.
+---@field FromTexture2D fun() @Creates a background from a Texture2D.
+---@field vectorImage fun() @The VectorImage to display as a background.
+---@field FromSprite fun() @Creates a background from a Sprite.
+---@field FromRenderTexture fun() @Creates a background from a RenderTexture.
+---@field FromVectorImage fun() @Creates a background from a VectorImage.
+---@field texture fun() @The texture to display as a background.
+---@field renderTexture fun() @The RenderTexture to display as a background.

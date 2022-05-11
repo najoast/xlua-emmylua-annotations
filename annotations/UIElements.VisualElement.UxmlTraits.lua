@@ -1,0 +1,5 @@
+---@class UIElements.VisualElement.UxmlTraits @Defines UxmlTraits for the VisualElement.
+---@field uxmlChildElementsDescription fun() @Returns an enumerable containing UxmlChildElementDescription(typeof(VisualElement)), since VisualElements can contain other VisualElements.
+---@field focusable fun() @The focusable attribute.
+---@field Init fun() @Initialize VisualElement properties using values from the attribute bag.
+---@field focusIndex fun() @The focus index attribute.

@@ -1,0 +1,3 @@
+---@class Animations.ChildAnimatorState @Structure that represents a state in the context of its parent state machine.
+---@field state fun() @The state.
+---@field position fun() @The position the the state node in the context of its parent state machine.

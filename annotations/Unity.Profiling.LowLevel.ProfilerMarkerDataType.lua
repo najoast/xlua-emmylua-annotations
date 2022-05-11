@@ -1,0 +1,9 @@
+---@class Unity.Profiling.LowLevel.ProfilerMarkerDataType @Options for the Profiler metadata type.
+---@field Double fun() @Signifies that ProfilerMarkerData.Ptr points to a value of type double.
+---@field Blob8 fun() @Signifies that ProfilerMarkerData.Ptr points to a raw byte array.
+---@field UInt64 fun() @Signifies that ProfilerMarkerData.Ptr points to a value of type ulong.
+---@field UInt32 fun() @Signifies that ProfilerMarkerData.Ptr points to a value of type uint.
+---@field String16 fun() @Signifies that ProfilerMarkerData.Ptr points to a char*.
+---@field Int64 fun() @Signifies that ProfilerMarkerData.Ptr points to a value of type long.
+---@field Int32 fun() @Signifies that ProfilerMarkerData.Ptr points to a value of type int.
+---@field Float fun() @Signifies that ProfilerMarkerData.Ptr points to a value of type float.

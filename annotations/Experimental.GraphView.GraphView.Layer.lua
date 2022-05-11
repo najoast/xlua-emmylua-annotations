@@ -1,0 +1,2 @@
+---@class Experimental.GraphView.GraphView.Layer @The layer class for placing and interacting with graph elements in a GraphView.
+---@field ctor fun() @Constructor.

@@ -1,0 +1,4 @@
+---@class Unity.Profiling.LowLevel.Unsafe.ProfilerMarkerData @Describes Profiler metadata parameter that can be associated with a sample.
+---@field Size fun() @Size of the metadata value in bytes.
+---@field Type fun() @Metadata type.
+---@field Ptr fun() @Raw pointer to the metadata value.

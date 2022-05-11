@@ -1,0 +1,7 @@
+---@class NVIDIA.DLSSFeatureFlags @Options that represent subfeatures of DLSS.
+---@field DepthInverted fun() @Indicates whether to invert the depth buffer or not.
+---@field MVLowRes fun() @Indicates whether the input motion vector buffer is a lower resolution than the output. If set, you must specify NVIDIA.DLSSCommandExecutionData.mvScaleX and NVIDIA.DLSSCommandExecutionData.mvScaleY.
+---@field None fun() @Disables every subfeature.
+---@field IsHDR fun() @Indicates whether the input buffer uses high dynamic range. If set, the input buffer is raw luminance, if not set, the input buffer is normalized color.
+---@field MVJittered fun() @Indicates whether the input motion vector buffer is jittered or not. If set, you must specify NVIDIA.DLSSCommandExecutionData.jitterOffsetX and NVIDIA.DLSSCommandExecutionData.jitterOffsetY.
+---@field DoSharpening fun() @Indicates whether to use the sharpening feature or not.

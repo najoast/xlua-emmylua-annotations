@@ -1,0 +1,12 @@
+---@class ParticleSystem.SizeBySpeedModule @Script interface for the SizeBySpeedModule.
+---@field y fun() @Size by speed curve for the y-axis.
+---@field x fun() @Size by speed curve for the x-axis.
+---@field z fun() @Size by speed curve for the z-axis.
+---@field separateAxes fun() @Set the size by speed on each axis separately.
+---@field range fun() @Set the minimum and maximum speed that this modules applies the size curve between.
+---@field sizeMultiplier fun() @A multiplier for ParticleSystem.SizeBySpeedModule._size.
+---@field zMultiplier fun() @Size multiplier along the z-axis.
+---@field enabled fun() @Specifies whether the SizeBySpeedModule is enabled or disabled.
+---@field yMultiplier fun() @Size multiplier along the y-axis.
+---@field size fun() @Curve to control particle size based on speed.
+---@field xMultiplier fun() @Size multiplier along the x-axis.

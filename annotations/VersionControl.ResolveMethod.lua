@@ -1,0 +1,4 @@
+---@class VersionControl.ResolveMethod @How assets should be resolved.
+---@field UseTheirs fun() @Use theirs (other/remote version).
+---@field UseMerged fun() @Use merged version.
+---@field UseMine fun() @Use mine (local version).

@@ -1,0 +1,5 @@
+---@class SkeletonBone @Details of the Transform name mapped to the skeleton bone of a model and its default position and rotation in the T-pose.
+---@field scale fun() @The T-pose scaling of the bone in local space.
+---@field name fun() @The name of the Transform mapped to the bone.
+---@field rotation fun() @The T-pose rotation of the bone in local space.
+---@field position fun() @The T-pose position of the bone in local space.

@@ -1,0 +1,2 @@
+---@class MemoryProfiler.PackedGCHandle @A description of a GC handle used by the virtual machine.
+---@field target fun() @The address of the managed object that the GC handle is referencing.

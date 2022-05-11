@@ -1,0 +1,4 @@
+---@class NetworkReachability @Describes network reachability options.
+---@field NotReachable fun() @Network is not reachable.
+---@field ReachableViaLocalAreaNetwork fun() @Network is reachable via WiFi or cable.
+---@field ReachableViaCarrierDataNetwork fun() @Network is reachable via carrier data network.

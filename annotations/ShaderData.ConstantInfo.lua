@@ -1,0 +1,10 @@
+---@class ShaderData.ConstantInfo @Provides information about a shader constant (uniform) value.
+---@field ConstantType fun() @This constant's type (Read Only).
+---@field Rows fun() @If the constant is a matrix type, this stores the number of rows. If the constant is a vector type, this value will be 1. Otherwise, the value is 0. (Read Only)
+---@field Columns fun() @If the constant is a matrix or vector type, this stores the number of columns. Otherwise, the value is 0. (Read Only)
+---@field ArraySize fun() @The number of elements in this constant (Read Only). If this value is greater than 1, the constant is an array.
+---@field Name fun() @The name of this constant (Read Only).
+---@field StructSize fun() @If the constant is a struct, this stores the size (in bytes) of the struct. Otherwise, the value is 0. (Read Only)
+---@field StructFields fun() @If the constant is a struct, this stores the fields of that struct. Otherwise, the value is null. (Read Only)
+---@field DataType fun() @The element data type of this constant (Read Only).
+---@field Index fun() @The index of this constant in its buffer (Read Only). Typically, this is the byte offset from the start of the cbuffer, but depending on the platform, it may indicate another type of index.

@@ -1,0 +1,8 @@
+---@class Experimental.GlobalIllumination.LightType @The light type.
+---@field Rectangle fun() @A light shaped like a rectangle emitting light into the hemisphere that it is facing.
+---@field SpotPyramidShape fun() @A pyramid-shaped spot light. This type is only compatible with Scriptable Render Pipelines; it is not compatible with the built-in render pipeline.
+---@field Directional fun() @An infinite directional light.
+---@field Disc fun() @A light shaped like a disc emitting light into the hemisphere that it is facing.
+---@field SpotBoxShape fun() @A box-shaped spot light. This type is only compatible with Scriptable Render Pipelines; it is not compatible with the built-in render pipeline.
+---@field Point fun() @A point light emitting light in all directions.
+---@field Spot fun() @A spot light emitting light in a direction with a cone shaped opening angle.

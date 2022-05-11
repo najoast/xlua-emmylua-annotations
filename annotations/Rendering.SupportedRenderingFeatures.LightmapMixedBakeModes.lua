@@ -1,0 +1,5 @@
+---@class Rendering.SupportedRenderingFeatures.LightmapMixedBakeModes @Same as MixedLightingMode for baking, but is used to determine what is supported by the pipeline.
+---@field None fun() @No mode is supported.
+---@field Shadowmask fun() @Determines what is supported by the rendering pipeline. This enum is similar to MixedLightingMode.
+---@field Subtractive fun() @Same as MixedLightingMode.Subtractive but determines if it is supported by the pipeline.
+---@field IndirectOnly fun() @Same as MixedLightingMode.IndirectOnly but determines if it is supported by the pipeline.

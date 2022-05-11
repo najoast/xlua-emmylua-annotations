@@ -1,0 +1,12 @@
+---@class Experimental.GlobalIllumination.RectangleLight @A helper structure used to initialize a LightDataGI structure as a rectangle light.
+---@field height fun() @The height of the rectangle light.
+---@field orientation fun() @The light's orientation.
+---@field shadow fun() @True if the light casts shadows, otherwise False.
+---@field instanceID fun() @The light's instanceID.
+---@field mode fun() @The lightmode.
+---@field color fun() @The direct light color.
+---@field falloff fun() @The falloff model to use for baking the rectangular light.
+---@field width fun() @The width of the rectangle light.
+---@field range fun() @The light's range.
+---@field indirectColor fun() @The indirect light color.
+---@field position fun() @The light's position.

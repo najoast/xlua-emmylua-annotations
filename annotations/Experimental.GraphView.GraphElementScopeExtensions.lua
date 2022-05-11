@@ -1,0 +1,2 @@
+---@class Experimental.GraphView.GraphElementScopeExtensions @Set of extension methods useful for Scope.
+---@field GetContainingScope fun() @Returns the scope containing the specified GraphElement.

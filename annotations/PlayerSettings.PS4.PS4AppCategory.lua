@@ -1,0 +1,2 @@
+---@class PlayerSettings.PS4.PS4AppCategory @PS4 application category.
+---@field Application fun() @Application.

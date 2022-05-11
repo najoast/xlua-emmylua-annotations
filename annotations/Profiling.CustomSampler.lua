@@ -1,0 +1,4 @@
+---@class Profiling.CustomSampler @Custom CPU Profiler label used for profiling arbitrary code blocks.
+---@field Begin fun() @Begin profiling a piece of code with a custom label defined by this instance of CustomSampler.
+---@field Create fun() @Creates a new CustomSampler for profiling parts of your code.
+---@field End fun() @End profiling a piece of code with a custom label.

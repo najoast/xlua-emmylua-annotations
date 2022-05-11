@@ -1,0 +1,2 @@
+---@class RangeAttribute @Attribute used to make a float or int variable in a script be restricted to a specific range.
+---@field ctor fun() @Attribute used to make a float or int variable in a script be restricted to a specific range.

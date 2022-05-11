@@ -1,0 +1,12 @@
+---@class Unity.Profiling @nil
+---@field ProfilerMarkerDataUnit Unity.Profiling.ProfilerMarkerDataUnit @Options for Profiler marker data unit types.
+---@field Editor Unity.Profiling.Editor @nil
+---@field ProfilerCategoryColor Unity.Profiling.ProfilerCategoryColor @Profiler category colors enum.
+---@field ProfilerRecorderOptions Unity.Profiling.ProfilerRecorderOptions @ProfilerRecorder lifecycle and collection options.
+---@field ProfilerCategoryFlags Unity.Profiling.ProfilerCategoryFlags @Options for determining if a Profiler category is built into Unity by default.
+---@field ProfilerMarker Unity.Profiling.ProfilerMarker @Performance marker used for profiling arbitrary code blocks.
+---@field ProfilerFlowEventType Unity.Profiling.ProfilerFlowEventType @Defines Profiler flow event type.
+---@field ProfilerRecorderSample Unity.Profiling.ProfilerRecorderSample @Sample value structure.
+---@field ProfilerCategory Unity.Profiling.ProfilerCategory @Use to specify category for instrumentation Profiler markers.
+---@field LowLevel Unity.Profiling.LowLevel @nil
+---@field ProfilerRecorder Unity.Profiling.ProfilerRecorder @Records the Profiler metric data that a Profiler marker or counter produces.

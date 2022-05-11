@@ -1,0 +1,55 @@
+---@class Networking.UnityWebRequest @Provides methods to communicate with web servers.
+---@field certificateHandler fun() @Holds a reference to a CertificateHandler object, which manages certificate validation for this UnityWebRequest.
+---@field uri fun() @Defines the target URI for the UnityWebRequest to communicate with.
+---@field uploadProgress fun() @Returns a floating-point value between 0.0 and 1.0, indicating the progress of uploading body data to the server.
+---@field kHttpVerbPOST fun() @The string POST, commonly used as the verb for an HTTP POST request.
+---@field EscapeURL fun() @Escapes characters in a string to ensure they are URL-friendly.
+---@field kHttpVerbHEAD fun() @The string HEAD, commonly used as the verb for an HTTP HEAD request.
+---@field redirectLimit fun() @Indicates the number of redirects which this UnityWebRequest will follow before halting with a “Redirect Limit Exceeded” system error.
+---@field Put fun() @Creates a UnityWebRequest configured to upload raw data to a remote server via HTTP PUT.
+---@field uploadHandler fun() @Holds a reference to the UploadHandler object which manages body data to be uploaded to the remote server.
+---@field url fun() @Defines the target URL for the UnityWebRequest to communicate with.
+---@field Delete fun() @Creates a UnityWebRequest configured for HTTP DELETE.
+---@field chunkedTransfer fun() @**Deprecated.**. HTTP/2 and many HTTP/1.1 servers don't support this; we recommend leaving it set to false (default).
+---@field responseCode fun() @The numeric HTTP response code returned by the server, such as 200, 404 or 500. (Read Only)
+---@field Abort fun() @If in progress, halts the UnityWebRequest as soon as possible.
+---@field uploadedBytes fun() @Returns the number of bytes of body data the system has uploaded to the remote server. (Read Only)
+---@field downloadedBytes fun() @Returns the number of bytes of body data the system has downloaded from the remote server. (Read Only)
+---@field result fun() @The result of this UnityWebRequest.
+---@field downloadProgress fun() @Returns a floating-point value between 0.0 and 1.0, indicating the progress of downloading body data from the server. (Read Only)
+---@field error fun() @A human-readable string describing any system errors encountered by this UnityWebRequest object while handling HTTP requests or responses. (Read Only)
+---@field GetResponseHeader fun() @Retrieves the value of a response header from the latest HTTP response received.
+---@field SetRequestHeader fun() @Set a HTTP request header to a custom value.
+---@field SerializeSimpleForm fun() @Serialize a dictionary of strings into a byte array containing URL-encoded UTF8 characters.
+---@field SerializeFormSections fun() @Converts a List of IMultipartFormSection objects into a byte array containing raw multipart form data.
+---@field kHttpVerbDELETE fun() @The string DELETE, commonly used as the verb for an HTTP DELETE request.
+---@field timeout fun() @Sets UnityWebRequest to attempt to abort after the number of seconds in timeout have passed.
+---@field disposeUploadHandlerOnDispose fun() @If true, any UploadHandler attached to this UnityWebRequest will have UploadHandler.Dispose called automatically when UnityWebRequest.Dispose is called.
+---@field isDone fun() @Returns true after the UnityWebRequest has finished communicating with the remote server. (Read Only)
+---@field GetAudioClip fun() @OBSOLETE. Use UnityWebRequestMultimedia.GetAudioClip().
+---@field GenerateBoundary fun() @Generate a random 40-byte array for use as a multipart form boundary.
+---@field ClearCookieCache fun() @Clears stored cookies from the cache.
+---@field Post fun() @Creates a UnityWebRequest configured to send form data to a server via HTTP POST.
+---@field Head fun() @Creates a UnityWebRequest configured to send a HTTP HEAD request.
+---@field disposeDownloadHandlerOnDispose fun() @If true, any DownloadHandler attached to this UnityWebRequest will have DownloadHandler.Dispose called automatically when UnityWebRequest.Dispose is called.
+---@field GetTexture fun() @Creates a UnityWebRequest intended to download an image via HTTP GET and create a Texture based on the retrieved data.
+---@field disposeCertificateHandlerOnDispose fun() @If true, any CertificateHandler attached to this UnityWebRequest will have CertificateHandler.Dispose called automatically when UnityWebRequest.Dispose is called.
+---@field method fun() @Defines the HTTP verb used by this UnityWebRequest, such as GET or POST.
+---@field GetResponseHeaders fun() @Retrieves a dictionary containing all the response headers received by this UnityWebRequest in the latest HTTP response.
+---@field downloadHandler fun() @Holds a reference to a DownloadHandler object, which manages body data received from the remote server by this UnityWebRequest.
+---@field UnEscapeURL fun() @Converts URL-friendly escape sequences back to normal text.
+---@field GetRequestHeader fun() @Retrieves the value of a custom request header.
+---@field Send fun() @Begin communicating with the remote server.
+---@field GetAssetBundle fun() @Deprecated. Replaced by UnityWebRequestAssetBundle.GetAssetBundle.
+---@field Get fun() @Create a UnityWebRequest for HTTP GET.
+---@field Dispose fun() @Signals that this UnityWebRequest is no longer being used, and should clean up any resources it is using.
+---@field ctor fun() @Creates a UnityWebRequest with the default options and no attached DownloadHandler or UploadHandler. Default method is GET.
+---@field Result Networking.UnityWebRequest.Result @Defines codes describing the possible outcomes of a UnityWebRequest.
+---@field isModifiable fun() @Returns true while a UnityWebRequest’s configuration properties can be altered. (Read Only)
+---@field SendWebRequest fun() @Begin communicating with the remote server.
+---@field useHttpContinue fun() @Determines whether this UnityWebRequest will include Expect: 100-Continue in its outgoing request headers. (Default: true).
+---@field kHttpVerbCREATE fun() @The string CREATE, commonly used as the verb for an HTTP CREATE request.
+---@field isHttpError fun() @Returns true after this UnityWebRequest receives an HTTP response code indicating an error. (Read Only)
+---@field kHttpVerbGET fun() @The string GET, commonly used as the verb for an HTTP GET request.
+---@field kHttpVerbPUT fun() @The string PUT, commonly used as the verb for an HTTP PUT request.
+---@field isNetworkError fun() @Returns true after this UnityWebRequest encounters a system error. (Read Only)

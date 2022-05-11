@@ -1,0 +1,10 @@
+---@class UIElements.DropdownField @A control that allows the user to pick a choice from a list of options.
+---@field ctor fun() @Construct a DropdownField.
+---@field textElement fun() @This is the text displayed.
+---@field choices fun() @The list of choices to display in the popup menu.
+---@field UxmlFactory fun() @Instantiates a DropdownField using the data read from a UXML file.
+---@field UxmlTraits fun() @Defines UxmlTraits for the DropdownField.
+---@field SetValueWithoutNotify fun() @Allow changing value without triggering any change event.
+---@field text fun() @This is the text displayed to the user for the current selection of the popup.
+---@field value fun() @The currently selected value in the popup menu.
+---@field index fun() @The currently selected index in the popup menu.

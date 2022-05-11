@@ -1,0 +1,8 @@
+---@class Rendering.FilteringSettings @A struct that represents filtering settings for ScriptableRenderContext.DrawRenderers.
+---@field defaultValue fun() @Creates a FilteringSettings struct that contains default values for all properties. With these default values, Unity does not perform any filtering.
+---@field excludeMotionVectorObjects fun() @Determines if Unity excludes GameObjects that are in motion from rendering. This refers to GameObjects that have an active Motion Vector pass assigned to their Material or have set the Motion Vector mode to per object motion (Menu: Mesh Renderer &gt; Additional Settings &gt; Motion Vectors &gt; Per Object Motion).For Unity to exclude a GameObject from rendering, the GameObject must have moved since the last frame. To exclude a GameObject manually, enable a Motion Vector pass.
+---@field ctor fun() @Creates a FilteringSettings struct for use with Rendering.ScriptableRenderContext.DrawRenderers.
+---@field layerMask fun() @Unity renders objects whose GameObject.layer value is enabled in this bit mask.
+---@field sortingLayerRange fun() @Unity renders objects whose SortingLayer.value value is within range specified by this Rendering.SortingLayerRange.
+---@field renderingLayerMask fun() @Unity renders objects whose Renderer.renderingLayerMask value is enabled in this bit mask.
+---@field renderQueueRange fun() @Unity renders objects whose Material.renderQueue value is within range specified by this Rendering.RenderQueueRange.

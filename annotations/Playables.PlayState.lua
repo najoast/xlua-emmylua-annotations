@@ -1,0 +1,4 @@
+---@class Playables.PlayState @Status of a Playable.
+---@field Playing fun() @The Playable is currently Playing.
+---@field Delayed fun() @The Playable has been delayed, using PlayableExtensions.SetDelay. It will not start until the delay is entirely consumed.
+---@field Paused fun() @The Playable has been paused. Its local time will not advance.

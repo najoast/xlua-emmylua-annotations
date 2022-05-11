@@ -1,0 +1,15 @@
+---@class Experimental.GraphView.Blackboard @GraphElement that enables user to dynamically define members of a Graph (such as fields/properties) grouped by sections (BlackboardSection).
+---@field title fun() @The title of this Blackboard.
+---@field contentContainer fun() @The content container of this Blackboard.
+---@field selection fun() @All selected elements in the GraphView that the Blackboard is attached to.
+---@field editTextRequested fun() @Called when user has edited the text of this BlackboardField.
+---@field RemoveFromSelection fun() @Removes an element from the selection in the GraphView that the Blackboard is attached to.
+---@field scrollable fun() @Indicates whether the content of this Blackboard can be vertically scrolled by user. It is false by default.
+---@field ctor fun() @Constructs a Blackboard.
+---@field windowed fun() @Set to true when the Blackboard displays in a separate window. Set to false when the Blackboard displays in the GraphView.
+---@field moveItemRequested fun() @Called when user has dragged and dropped a BlackboardField to a new location inside its BlackboardSection.
+---@field ClearSelection fun() @Clears the selection in the GraphView that the Blackboard is attached to.
+---@field AddToSelection fun() @Adds an element to the selection in the GraphView that the Blackboard is attached to.
+---@field graphView fun() @The GraphView that the Blackboard is attached to.
+---@field subTitle fun() @The subtitle of this Blackboard.
+---@field addItemRequested fun() @Called when user clicks on the Add button of this Blackboard.

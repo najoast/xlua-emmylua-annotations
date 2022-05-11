@@ -1,0 +1,4 @@
+---@class Android.AndroidAssetPackState @Represents the state of a single Android asset pack.
+---@field error fun() @Indicates an error code that describes what happened when querying the Android asset pack state.
+---@field status fun() @The status of the Android asset pack.
+---@field name fun() @The name of the Android asset pack the status query is for.

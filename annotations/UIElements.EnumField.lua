@@ -1,0 +1,11 @@
+---@class UIElements.EnumField @Makes a dropdown for switching between enum values.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field ctor fun() @Construct an EnumField.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field UxmlFactory fun() @Instantiates an EnumField using the data read from a UXML file.
+---@field UxmlTraits UIElements.EnumField.UxmlTraits @Defines UxmlTraits for the EnumField.
+---@field Init fun() @Initializes the EnumField with a default value, and initializes its underlying type.
+---@field text fun() @Return the text value of the currently selected enum.
+---@field arrowUssClassName fun() @USS class name of arrow indicators in elements of this type.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field textUssClassName fun() @USS class name of text elements in elements of this type.

@@ -1,0 +1,12 @@
+---@class AnimatorStateInfo @Information about the current or next state.
+---@field speedMultiplier fun() @The speed multiplier for this state.
+---@field IsName fun() @Does name match the name of the active state in the statemachine?
+---@field loop fun() @Is the state looping.
+---@field normalizedTime fun() @Normalized time of the State.
+---@field IsTag fun() @Does tag match the tag of the active state in the statemachine.
+---@field tagHash fun() @The Tag of the State.
+---@field speed fun() @The playback speed of the animation. 1 is the normal playback speed.
+---@field length fun() @Current duration of the state.
+---@field nameHash fun() @The hashed name of the State.
+---@field shortNameHash fun() @The hash is generated using Animator.StringToHash. The hash does not include the name of the parent layer.
+---@field fullPathHash fun() @The full path hash for this state.

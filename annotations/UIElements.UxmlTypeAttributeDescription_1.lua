@@ -1,0 +1,5 @@
+---@class UIElements.UxmlTypeAttributeDescription_1 @Describes an XML System.Type attribute.
+---@field GetValueFromBag fun() @Method that retrieves an attribute's value from an attribute bag. Returns it if it is found, otherwise return defaultValue.
+---@field TryGetValueFromBag fun() @Method that tries to retrieve an attribute's value from an attribute bag.. Returns true if it is found, otherwise returns false.
+---@field ctor fun() @Constructor.
+---@field defaultValueAsString fun() @The default value for the attribute, as a string.

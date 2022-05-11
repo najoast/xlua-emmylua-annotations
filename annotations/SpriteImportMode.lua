@@ -1,0 +1,5 @@
+---@class SpriteImportMode @Texture importer modes for Sprite import.
+---@field None fun() @Graphic is not a Sprite.
+---@field Polygon fun() @Sprite has it own mesh outline defined.
+---@field Single fun() @Sprite is a single image section extracted automatically from the texture.
+---@field Multiple fun() @Sprites are multiple image sections extracted from the texture.

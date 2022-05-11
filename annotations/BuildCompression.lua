@@ -1,0 +1,6 @@
+---@class BuildCompression @Contains information about compression methods, compression levels and block sizes that are supported by Asset Bundle compression at build time and recompression at runtime.
+---@field LZ4 fun() @LZ4HC Chunk Based Compression.
+---@field LZ4Runtime fun() @LZ4 Compression for runtime recompression.
+---@field UncompressedRuntime fun() @Uncompressed Asset Bundle.
+---@field LZMA fun() @LZMA Compression.
+---@field Uncompressed fun() @Uncompressed Asset Bundle.

@@ -1,0 +1,5 @@
+---@class Experimental.GraphView.SearchWindowContext @This structure includes parameters for configuring the search window.
+---@field ctor fun() @
+---@field screenMousePosition fun() @The initial mouse event position that triggered opening the window, in the coordinate space of the screen.
+---@field requestedWidth fun() @Requested width of the window. Set to 0.0f to use the default width.
+---@field requestedHeight fun() @Requested height of the window. Set to 0.0f to use the default height.

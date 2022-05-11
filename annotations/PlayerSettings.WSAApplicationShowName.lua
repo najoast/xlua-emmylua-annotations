@@ -1,0 +1,6 @@
+---@class PlayerSettings.WSAApplicationShowName @Options for which tile types to display the application name on.
+---@field StandardLogoOnly fun() @Displays the application name for medium and large tiles.
+---@field NoLogos fun() @Doesn't display the application name on any tile size.
+---@field NotSet fun() @Indicates that you have not set the application name and to use the default Universal Windows Platform behavior.
+---@field WideLogoOnly fun() @Displays the application name for the wide tiles.
+---@field AllLogos fun() @Displays the application name on all tile sizes.

@@ -1,0 +1,5 @@
+---@class Windows.WebCam.VideoCapture.AudioState @Specifies what audio sources should be recorded while recording the video.
+---@field None fun() @Do not include any audio in the video recording.
+---@field ApplicationAudio fun() @Only include the application audio in the video recording.
+---@field MicAudio fun() @Only include the mic audio in the video recording.
+---@field ApplicationAndMicAudio fun() @Include both the application audio as well as the mic audio in the video recording.

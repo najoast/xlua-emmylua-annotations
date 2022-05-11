@@ -1,0 +1,3 @@
+---@class PrefabUnpackMode @Enum used to determine how a Prefab should be unpacked.
+---@field Completely fun() @Use this to strip away all Prefab information from a Prefab instance.
+---@field OutermostRoot fun() @Use this mode to only unpack the outermost layer of a Prefab.

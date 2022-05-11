@@ -1,0 +1,6 @@
+---@class U2D.SpriteAtlasPackingSettings @Settings to use during the packing process for this SpriteAtlas.
+---@field blockOffset fun() @Block offset to use while packing.
+---@field enableTightPacking fun() @Determines if sprites should be packed tightly during packing.
+---@field enableRotation fun() @Determines if rotating a sprite is possible during packing.
+---@field enableAlphaDilation fun() @Sets the boundary padding pixels alpha to 0 when packed into a Sprite Atlas.
+---@field padding fun() @Value to add boundary (padding) to sprites when packing into the atlas.

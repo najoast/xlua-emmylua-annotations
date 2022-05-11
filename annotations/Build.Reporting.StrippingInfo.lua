@@ -1,0 +1,3 @@
+---@class Build.Reporting.StrippingInfo @The StrippingInfo object contains information about which native code modules in the engine are still present in the build, and the reasons why they are still present.
+---@field includedModules fun() @The native engine modules that were included in the build.
+---@field GetReasonsForIncluding fun() @Returns the list of dependencies or reasons that caused the given entity to be included in the build.

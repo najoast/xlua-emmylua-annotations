@@ -1,0 +1,4 @@
+---@class Playables.DirectorWrapMode @Wrap mode for Playables.
+---@field Hold fun() @Hold the last frame when the playable time reaches it's duration.
+---@field Loop fun() @Loop back to zero time and continue playing.
+---@field None fun() @Do not keep playing when the time reaches the duration.

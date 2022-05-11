@@ -1,0 +1,3 @@
+---@class SettingsScope @Sets the scope of a SettingsProvider. The Scope determines where it appears in the UI. For example, whether it appears with the Project settings in the Settings window, or in the Preferences window, or in both windows.
+---@field User fun() @The SettingsProvider appears only in the Preferences window.
+---@field Project fun() @The SettingsProvider appears only in the Project Settings window.

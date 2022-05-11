@@ -1,0 +1,12 @@
+---@class Search.SearchDocument @Represents a searchable document that has been indexed.
+---@field ctor fun() @Create a new SearchDocument.
+---@field path fun() @Document path.
+---@field score fun() @Document base relevance score.
+---@field source fun() @Original source from which the document was indexed. The source is usually the container asset, i.e. prefab, Unity scene or the imported asset itself.
+---@field name fun() @Readable name of the document.
+---@field id fun() @Document unique ID in the search index.
+---@field CompareTo fun() @Compare this document against another document.
+---@field ToString fun() @Returns the document ID string.
+---@field valid fun() @If true the document is considered valid.
+---@field index fun() @Index of that document in the SearchIndexer.
+---@field Equals fun() @Compare this document against another document.

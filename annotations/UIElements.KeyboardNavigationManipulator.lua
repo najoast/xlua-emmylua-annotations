@@ -1,0 +1,2 @@
+---@class UIElements.KeyboardNavigationManipulator @Provides a default implementation for translating input device specific events to higher level navigation operations as commonly possible with a keyboard.
+---@field ctor fun() @Initializes and returns an instance of KeyboardNavigationManipulator, configured to invoke the specified callback.

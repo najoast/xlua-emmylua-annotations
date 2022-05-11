@@ -1,0 +1,9 @@
+---@class RaycastCommand @Struct used to set up a raycast command to be performed asynchronously during a job.
+---@field layerMask fun() @A LayerMask that is used to selectively ignore Colliders when casting a ray.
+---@field distance fun() @The maximum distance the ray should check for collisions.
+---@field ctor fun() @Create a RaycastCommand.
+---@field ScheduleBatch fun() @Schedule a batch of raycasts which are performed in a job.
+---@field direction fun() @The direction of the ray.
+---@field physicsScene fun() @The physics scene this command is run in.
+---@field maxHits fun() @The maximum number of Colliders the ray can hit.
+---@field from fun() @The starting point of the ray in world coordinates.

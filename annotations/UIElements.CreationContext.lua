@@ -1,0 +1,3 @@
+---@class UIElements.CreationContext @This structure holds information used during UXML template instantiation.
+---@field visualTreeAsset fun() @The target UXML file to clone or instantiate.
+---@field target fun() @The element into which the visualTreeAsset is being cloned or instantiated. VisualTreeAsset.CloneTree() VisualTreeAsset.Instantiate()

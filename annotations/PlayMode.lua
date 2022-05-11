@@ -1,0 +1,3 @@
+---@class PlayMode @Used by Animation.Play function.
+---@field StopAll fun() @Will stop all animations that were started with this component before playing.
+---@field StopSameLayer fun() @Will stop all animations that were started in the same layer. This is the default when playing animations.

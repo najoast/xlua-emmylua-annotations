@@ -1,0 +1,3 @@
+---@class Rendering.ScriptableRenderPipelineExtensionAttribute @Use this attribute to apply a condition to a filter that finds the class based on which ScriptableRenderPipeline you are currently using.
+---@field inUse fun() @Determines whether the current ScriptableRenderPipeline is the same type as the one given by the constructor. Returns true if the ScriptableRenderPipeline is of the type used when constructing the attribute. Otherwise, returns false.
+---@field ctor fun() @Construct a ScriptableRenderPipelineExtensionAttribute.

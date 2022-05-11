@@ -1,0 +1,2 @@
+---@class Rendering.VirtualTexturing.Procedural.GPUTextureStack @Procedural virtual texturing stack where request data resides in GPU memory.
+---@field ctor fun() @Create a new GPUTextureStack object.

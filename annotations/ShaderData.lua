@@ -1,0 +1,13 @@
+---@class ShaderData @This class describes a shader.
+---@field PreprocessedVariant ShaderData.PreprocessedVariant @Represents the results of preprocessing a variant using ShaderData.Pass.PreprocessVariant.
+---@field TextureBindingInfo ShaderData.TextureBindingInfo @Provides resource layout information about a texture binding.
+---@field Subshader ShaderData.Subshader @This class describes a subshader.
+---@field SubshaderCount fun() @The number of subshaders used by this shader.
+---@field VariantCompileInfo ShaderData.VariantCompileInfo @Represents the results of compiling a variant using ShaderData.Pass.CompileVariant.
+---@field SourceShader fun() @The shader attached to this data set.
+---@field ConstantBufferInfo ShaderData.ConstantBufferInfo @Provides resource layout information about a shader constant buffer.
+---@field ActiveSubshader fun() @Returns the active subshader or null if none is currently active.
+---@field Pass ShaderData.Pass @This class describes a pass of a subshader.
+---@field ActiveSubshaderIndex fun() @Returns the index of the active subshader or -1 if none is currently active.
+---@field GetSubshader fun() @Get a subshader.
+---@field ConstantInfo ShaderData.ConstantInfo @Provides information about a shader constant (uniform) value.

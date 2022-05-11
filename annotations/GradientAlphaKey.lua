@@ -1,0 +1,4 @@
+---@class GradientAlphaKey @Alpha key used by Gradient.
+---@field time fun() @Time of the key (0 - 1).
+---@field ctor fun() @Gradient alpha key.
+---@field alpha fun() @Alpha channel of key.

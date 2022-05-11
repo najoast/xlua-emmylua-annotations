@@ -1,0 +1,6 @@
+---@class Experimental.GraphView.SearchTreeEntry @This class describes a search tree entry. The search window displays search tree entries in the GraphView.
+---@field name fun() @The string used for string comparison against the user filter.
+---@field content fun() @The text and icon of the search entry.
+---@field level fun() @The level of the entry in the search tree.
+---@field userData fun() @A user specified object for attaching application specific data to a search tree entry.
+---@field ctor fun() @

@@ -1,0 +1,13 @@
+---@class TextCore.LowLevel.FontEngine @The FontEngine is used to access data from source font files. This includes information about individual characters, glyphs and relevant metrics typically used in the process of text parsing, layout and rendering.The types of font files supported are TrueType (.ttf, .ttc) and OpenType (.otf).The FontEngine is also used to raster the visual representation of characters known as glyphs in a given font atlas texture.
+---@field GetSystemFontNames fun() @Gets the family and style names of the system fonts.
+---@field DestroyFontEngine fun() @Destroy and unload resources used by the Font Engine.
+---@field LoadFontFace fun() @Load a source font file.
+---@field GetFontFaces fun() @Gets the font faces and styles for the currently loaded font.
+---@field UnloadAllFontFaces fun() @Unloads all currently loaded font faces and removes them from the cache.
+---@field TryGetGlyphWithIndexValue fun() @Try loading the glyph for the given index value and if available populate the glyph.
+---@field TryGetGlyphWithUnicodeValue fun() @Try loading a glyph for the given unicode value. If available, populates the glyph and returns true. Otherwise returns false and populates the glyph with the .notdef / missing glyph data.
+---@field GetFaceInfo fun() @Get the FaceInfo for the currently loaded and sized typeface.
+---@field SetFaceSize fun() @Set the size of the currently loaded font face.
+---@field UnloadFontFace fun() @Unloads current font face and removes it from the cache.
+---@field InitializeFontEngine fun() @Initialize the Font Engine and required resources.
+---@field TryGetGlyphIndex fun() @Try to get the glyph index for the character at the given Unicode value.

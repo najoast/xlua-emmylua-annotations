@@ -1,0 +1,6 @@
+---@class SearchService.SceneSearchContext @A search context implementation for Scene search engines. All methods that are called on a Scene search engine, and expect a SearchService.ISearchContext, receive an object of this type.
+---@field requiredTypes fun() @An IEnumerable of types that contains the type constraints for this search.
+---@field guid fun() @A unique identifier for this search context.
+---@field requiredTypeNames fun() @An IEnumerable of strings that contains the type name constraints for this search.
+---@field rootProperty fun() @The root HierarchyProperty on which the search is started.
+---@field engineScope fun() @An enum that identifies the scope of the current search. This property is automatically set to SearchService.Scene.EngineScope.

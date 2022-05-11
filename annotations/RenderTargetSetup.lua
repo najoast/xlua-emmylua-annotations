@@ -1,0 +1,11 @@
+---@class RenderTargetSetup @Fully describes setup of RenderTarget.
+---@field mipLevel fun() @Mip Level to render to.
+---@field depthLoad fun() @Load Action for Depth Buffer. It will override any actions set on RenderBuffer itself.
+---@field colorLoad fun() @Load Actions for Color Buffers. It will override any actions set on RenderBuffers themselves.
+---@field color fun() @Color Buffers to set.
+---@field ctor fun() @Constructs RenderTargetSetup.
+---@field cubemapFace fun() @Cubemap face to render to.
+---@field depthSlice fun() @Slice of a Texture3D or Texture2DArray to set as a render target.
+---@field colorStore fun() @Store Actions for Color Buffers. It will override any actions set on RenderBuffers themselves.
+---@field depthStore fun() @Store Actions for Depth Buffer. It will override any actions set on RenderBuffer itself.
+---@field depth fun() @Depth Buffer to set.

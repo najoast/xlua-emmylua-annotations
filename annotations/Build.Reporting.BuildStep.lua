@@ -1,0 +1,5 @@
+---@class Build.Reporting.BuildStep @Contains information about a single step in the build process.
+---@field messages fun() @All log messages recorded during this build step, in the order of which they occurred.
+---@field name fun() @The name of this build step.
+---@field duration fun() @The total duration for this build step.
+---@field depth fun() @The nesting depth of the build step.

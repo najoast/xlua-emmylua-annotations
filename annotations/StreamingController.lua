@@ -1,0 +1,5 @@
+---@class StreamingController @A StreamingController controls the streaming settings for an individual camera location.
+---@field SetPreloading fun() @Initiate preloading of streaming data for this camera.
+---@field IsPreloading fun() @Used to find out whether the StreamingController is currently preloading texture mipmaps.
+---@field streamingMipmapBias fun() @Offset applied to the mipmap level chosen by the texture streaming system for any textures visible from this camera. This Offset can take either a positive or negative value.
+---@field CancelPreloading fun() @Abort preloading.

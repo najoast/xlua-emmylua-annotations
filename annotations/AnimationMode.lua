@@ -1,0 +1,14 @@
+---@class AnimationMode @AnimationMode is used by the AnimationWindow to store properties modified      by the AnimationClip playback.
+---@field animatedPropertyColor fun() @The color used to show that a property is currently being animated.
+---@field StartAnimationMode fun() @Starts the Animation mode.
+---@field BeginSampling fun() @Initialise the start of the animation clip sampling.
+---@field SamplePlayableGraph fun() @Samples the specified output index of a PlayableGraph and also records modified properties when in Animation mode.
+---@field EndSampling fun() @Finish the sampling of the animation clip.
+---@field InAnimationMode fun() @Checks whether the Editor is in Animation mode.
+---@field IsPropertyAnimated fun() @Checks whether the specified property is in Animation mode and is being animated.
+---@field AddEditorCurveBinding fun() @Marks a property defined by an EditorCurveBinding as currently being animated.
+---@field SampleAnimationClip fun() @Samples the AnimationClip for the GameObject and also records modified properties when in Animation mode.
+---@field StopAnimationMode fun() @Stops the Animation mode and reverts any properties that were animated while in Animation mode.
+---@field recordedPropertyColor fun() @The color used to show that an animated property automatically records changes in the animation clip.
+---@field AddPropertyModification fun() @Marks a property as currently being animated.
+---@field candidatePropertyColor fun() @The color used to show that an animated property has been modified.

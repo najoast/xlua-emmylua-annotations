@@ -1,0 +1,4 @@
+---@class EditorTools.ToolAttribute @Base class from which EditorToolAttribute and EditorToolContextAttribute inherit.
+---@field targetType fun() @Set to the type that this EditorTool or EditorToolContext can edit. Set to null if the tool is not specific to a Component and should be available at any time.
+---@field displayName fun() @The name that displays in menus.
+---@field targetContext fun() @If provided, the EditorTool will only be made available when the ToolManager.activeContextType is equal to targetContext.

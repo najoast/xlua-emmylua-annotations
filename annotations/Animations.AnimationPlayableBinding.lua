@@ -1,0 +1,2 @@
+---@class Animations.AnimationPlayableBinding @A PlayableBinding that contains information representing an AnimationPlayableOutput.
+---@field Create fun() @Creates a PlayableBinding that contains information representing an AnimationPlayableOutput.

@@ -1,0 +1,5 @@
+---@class PrefabInstanceStatus @Enum with status about whether a Prefab instance is properly connected to its asset.
+---@field NotAPrefab fun() @The object is not part of a Prefab instance.
+---@field MissingAsset fun() @The Prefab instance is missing its Prefab Asset.
+---@field Disconnected fun() @The Prefab instance is not connected to its Prefab Asset.
+---@field Connected fun() @The Prefab instance is connected to its Prefab Asset.

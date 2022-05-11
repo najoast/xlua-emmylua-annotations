@@ -1,0 +1,8 @@
+---@class AnimatorOverrideController @Interface to control Animator Override Controller.
+---@field GetOverrides fun() @Gets the list of Animation Clip overrides currently defined in this Animator Override Controller.
+---@field runtimeAnimatorController fun() @The Runtime Animator Controller that the Animator Override Controller overrides.
+---@field Index_operator fun() @Returns either the overriding Animation Clip if set or the original Animation Clip named name.
+---@field ApplyOverrides fun() @Applies the list of overrides on this Animator Override Controller.
+---@field ctor fun() @Creates an empty Animator Override Controller.
+---@field overridesCount fun() @Returns the count of overrides.
+---@field clips fun() @Returns the list of orignal Animation Clip from the controller and their override Animation Clip.

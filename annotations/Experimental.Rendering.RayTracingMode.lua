@@ -1,0 +1,5 @@
+---@class Experimental.Rendering.RayTracingMode @Indicates how a Renderer is updated.
+---@field Off fun() @Renderers with this mode are not ray traced.
+---@field DynamicTransform fun() @Renderers with this mode update their Transform, but not their Mesh.
+---@field Static fun() @Renderers with this mode never update.
+---@field DynamicGeometry fun() @Renderers with this mode have animated geometry and update their Mesh and Transform.

@@ -1,0 +1,5 @@
+---@class UIElements.PointerCaptureHelper @A static class to capture and release pointers.
+---@field GetCapturingElement fun() @Returns the element that is capturing the pointer.
+---@field ReleasePointer fun() @Tests whether an element captured a pointer and, if so, tells the element to release the pointer.
+---@field HasPointerCapture fun() @Tests whether the element has captured the pointer.
+---@field CapturePointer fun() @Captures the pointer.

@@ -1,0 +1,4 @@
+---@class TextCore.LowLevel.GlyphAdjustmentRecord @The positional adjustment values of a glyph.
+---@field glyphValueRecord fun() @The GlyphValueRecord contains the positional adjustments of the glyph.
+---@field ctor fun() @Constructor for new glyph adjustment record.
+---@field glyphIndex fun() @The index of the glyph in the source font file.

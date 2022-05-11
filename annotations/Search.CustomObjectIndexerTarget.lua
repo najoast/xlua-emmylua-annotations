@@ -1,0 +1,6 @@
+---@class Search.CustomObjectIndexerTarget @Represents a descriptor for the object that is about to be indexed. It stores a reference to the object itself as well as an already set up SerializedObject.
+---@field targetType fun() @Object type to index.
+---@field documentIndex fun() @Document Index which owns the object to index.
+---@field id fun() @Object Id. The object path for an asset or the GlobalObjectId for a scene object.
+---@field serializedObject fun() @Serialized representation of the object to be indexed.
+---@field target fun() @Object to index.

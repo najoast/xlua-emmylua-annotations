@@ -1,0 +1,5 @@
+---@class AndroidTargetDevice @Target Android device architecture.
+---@field FAT fun() @All supported architectures.
+---@field ARM64 fun() @ARM64 only.
+---@field x86 fun() @Intel only.
+---@field ARMv7 fun() @ARMv7 only.

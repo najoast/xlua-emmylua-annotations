@@ -1,0 +1,6 @@
+---@class Experimental.Rendering.DefaultFormat @Use a default format to create either Textures or RenderTextures from scripts based on platform specific capability.
+---@field HDR fun() @Represents the default platform specific HDR format.
+---@field Shadow fun() @Represents the default platform specific shadow format.
+---@field LDR fun() @Represents the default platform-specific LDR format. If the project uses the linear rendering mode, the actual format is sRGB. If the project uses the gamma rendering mode, the actual format is UNorm.
+---@field DepthStencil fun() @Represents the default platform-specific depth stencil format.
+---@field Video fun() @Represents the default platform specific video format.

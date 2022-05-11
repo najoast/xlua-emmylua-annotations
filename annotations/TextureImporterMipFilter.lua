@@ -1,0 +1,3 @@
+---@class TextureImporterMipFilter @Mip map filter for TextureImporter.
+---@field BoxFilter fun() @Box mipmap filter.
+---@field KaiserFilter fun() @Kaiser mipmap filter.

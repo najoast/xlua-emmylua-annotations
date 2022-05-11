@@ -1,0 +1,3 @@
+---@class TerrainTools.IOnInspectorGUI @Interface that provides parameters and utility functions for the OnInspectorGUI event in the terrain paint tools.
+---@field ShowBrushesGUI fun() @Displays the default controls for the brush in the tool inspector.
+---@field Repaint fun() @Instructs the Editor to repaint the tool UI and/or the scene view.

@@ -1,0 +1,11 @@
+---@class Camera.RenderRequestOutputSpace @Defines in which space render requests will be be outputted.
+---@field UV7 fun() @RenderRequests will be outputted in UV 7 space of the rendered mesh.
+---@field UV5 fun() @RenderRequests will be outputted in UV 5 space of the rendered mesh.
+---@field UV1 fun() @RenderRequests will be outputted in UV 1 space of the rendered mesh.
+---@field UV3 fun() @RenderRequests will be outputted in UV 3 space of the rendered mesh.
+---@field ScreenSpace fun() @RenderRequests will be rendered in screenspace from the perspective of the camera.
+---@field UV6 fun() @RenderRequests will be outputted in UV 6 space of the rendered mesh.
+---@field UV4 fun() @RenderRequests will be outputted in UV 4 space of the rendered mesh.
+---@field UV0 fun() @RenderRequests will be outputted in UV 0 space of the rendered mesh.
+---@field UV8 fun() @RenderRequests will be outputted in UV 8 space of the rendered mesh.
+---@field UV2 fun() @RenderRequests will be outputted in UV 2 space of the rendered mesh.

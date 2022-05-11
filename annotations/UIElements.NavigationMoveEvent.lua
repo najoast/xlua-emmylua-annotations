@@ -1,0 +1,7 @@
+---@class UIElements.NavigationMoveEvent @Event typically sent when the user presses the D-pad, moves a joystick or presses the arrow keys.
+---@field GetPooled fun() @Gets an event from the event pool and initializes it with the given values. Use this function instead of creating new events. Events obtained from this method should be released back to the pool using Dispose().
+---@field ctor fun() @Constructor.
+---@field Direction UIElements.NavigationMoveEvent.Direction @Move event direction.
+---@field Init fun() @Initialize the event members.
+---@field direction fun() @The direction of the navigation.
+---@field move fun() @The move vector.

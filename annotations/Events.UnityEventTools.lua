@@ -1,0 +1,17 @@
+---@class Events.UnityEventTools @Editor tools for working with persistent UnityEvents.
+---@field AddVoidPersistentListener fun() @Adds a persistent, preset call to the listener.
+---@field RegisterFloatPersistentListener fun() @Modifies the event at the given index.
+---@field RegisterVoidPersistentListener fun() @Modifies the event at the given index.
+---@field AddObjectPersistentListener fun() @Adds a persistent, preset call to the listener.
+---@field AddFloatPersistentListener fun() @Adds a persistent, preset call to the listener.
+---@field AddBoolPersistentListener fun() @Adds a persistent, preset call to the listener.
+---@field RegisterBoolPersistentListener fun() @Modifies the event at the given index.
+---@field RemovePersistentListener fun() @Removes the given function from the event.
+---@field AddStringPersistentListener fun() @Adds a persistent, preset call to the listener.
+---@field RegisterStringPersistentListener fun() @Modifies the event at the given index.
+---@field RegisterPersistentListener fun() @Modifies the event at the given index.
+---@field RegisterObjectPersistentListener fun() @Modifies the event at the given index.
+---@field RegisterIntPersistentListener fun() @Modifies the event at the given index.
+---@field UnregisterPersistentListener fun() @Unregisters the given listener at the specified index.
+---@field AddPersistentListener fun() @Adds a persistent, call to the listener. Will be invoked with the arguments as defined by the Event and sent from the call location.
+---@field AddIntPersistentListener fun() @Adds a persistent, preset call to the listener.

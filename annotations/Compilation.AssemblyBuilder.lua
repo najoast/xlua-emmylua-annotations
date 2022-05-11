@@ -1,0 +1,18 @@
+---@class Compilation.AssemblyBuilder @Compiles scripts outside the Assets folder into a managed assembly that can be used inside the Assets folder.
+---@field buildStarted fun() @Event that is invoked on the main thread when the assembly build starts.
+---@field excludeReferences fun() @References to exclude when compiling the assembly.
+---@field scriptPaths fun() @Array of script paths used as input for assembly build. (Read Only)
+---@field defaultDefines fun() @Default defines used when compiling the assembly.
+---@field buildTargetGroup fun() @BuildTargetGroup for the assembly build.
+---@field referencesOptions fun() @Options to control the references that Unity uses during an assembly build.
+---@field buildFinished fun() @Event that is invoked on the main thread when the assembly build finishes.
+---@field ctor fun() @AssemblyBuilder constructor.
+---@field additionalReferences fun() @Additional assembly references passed to compilation of the assembly.
+---@field buildTarget fun() @BuildTarget for the assembly build.
+---@field Build fun() @Starts the build of the assembly.While building, the small progress icon in the lower right corner of Unity's main window will spin and EditorApplication.isCompiling will return true.
+---@field status fun() @Current status of assembly build. (Read Only)
+---@field assemblyPath fun() @Output path of the assembly to build. (Read Only)
+---@field defaultReferences fun() @Default references used when compiling the assembly.
+---@field additionalDefines fun() @Additional #define directives passed to compilation of the assembly.
+---@field compilerOptions fun() @Compiler options to use when building the assembly.
+---@field flags fun() @Flags to control the assembly build.

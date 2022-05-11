@@ -1,0 +1,4 @@
+---@class ParticleSystemCollisionQuality @Quality of world collisions. Medium and low quality are approximate and may leak particles.
+---@field Low fun() @Fastest and most approximate world collisions.
+---@field High fun() @The most accurate world collisions.
+---@field Medium fun() @Approximate world collisions.

@@ -1,0 +1,3 @@
+---@class Rendering.IndexFormat @Format of the mesh index buffer data.
+---@field UInt32 fun() @32 bit mesh index buffer format.
+---@field UInt16 fun() @16 bit mesh index buffer format.

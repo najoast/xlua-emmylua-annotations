@@ -1,0 +1,2 @@
+---@class Networking.PlayerConnection.PlayerConnectionGUILayout @This class contains methods to draw and automatically layout IMGUI Editor UI that relates to the Player Connection.
+---@field ConnectionTargetSelectionDropdown fun() @Display a drop-down button and menu for the user to choose and establish a connection to a Player.

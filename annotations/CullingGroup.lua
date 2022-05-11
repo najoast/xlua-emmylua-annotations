@@ -1,0 +1,15 @@
+---@class CullingGroup @Describes a set of bounding spheres that should have their visibility and distances maintained.
+---@field ctor fun() @Create a CullingGroup.
+---@field SetBoundingSphereCount fun() @Sets the number of bounding spheres in the bounding spheres array that are actually being used.
+---@field QueryIndices fun() @Retrieve the indices of spheres that have particular visibility and/or distance states.
+---@field EraseSwapBack fun() @Erase a given bounding sphere by moving the final sphere on top of it.
+---@field GetDistance fun() @Get the current distance band index of a given sphere.
+---@field SetDistanceReferencePoint fun() @Set the reference point from which distance bands are measured.
+---@field SetBoundingSpheres fun() @Sets the array of bounding sphere definitions that the CullingGroup should compute culling for.
+---@field SetBoundingDistances fun() @Set bounding distances for 'distance bands' the group should compute, as well as options for how spheres falling into each distance band should be treated.
+---@field onStateChanged fun() @Sets the callback that will be called when a sphere's visibility and/or distance state has changed.
+---@field targetCamera fun() @Locks the CullingGroup to a specific camera.
+---@field StateChanged fun() @This delegate is used for recieving a callback when a sphere's distance or visibility state has changed.
+---@field Dispose fun() @Clean up all memory used by the CullingGroup immediately.
+---@field IsVisible fun() @Returns true if the bounding sphere at index is currently visible from any of the contributing cameras.
+---@field enabled fun() @Pauses culling group execution.

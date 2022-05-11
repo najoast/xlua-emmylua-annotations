@@ -1,0 +1,8 @@
+---@class UIElements.Button @This is a clickable button.
+---@field clickable fun() @Clickable MouseManipulator for this Button.
+---@field ctor fun() @Constructs a Button.
+---@field clicked fun() @Callback triggered when the button is clicked.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field onClick fun() @Obsolete. Use Button.clicked instead.
+---@field UxmlFactory fun() @Instantiates a Button using data from a UXML file.
+---@field UxmlTraits UIElements.Button.UxmlTraits @Defines UxmlTraits for the Button.

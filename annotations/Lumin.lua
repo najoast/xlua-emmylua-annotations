@@ -1,0 +1,3 @@
+---@class Lumin @nil
+---@field UsesLuminPrivilegeAttribute Lumin.UsesLuminPrivilegeAttribute @This attribute provides a way to declaratively define a Lumin privilege requirement that is automatically added to the manifest at build time.
+---@field UsesLuminPlatformLevelAttribute Lumin.UsesLuminPlatformLevelAttribute @This attribute provides a way to declaratively define a Lumin platform level requirement that is automatically added to the manifest at build time.

@@ -1,0 +1,3 @@
+---@class UIElements.ContextType @Describes in which context a VisualElement hierarchy is being ran.
+---@field Player fun() @Currently running in an Unity Player.
+---@field Editor fun() @Currently running in the Unity Editor.

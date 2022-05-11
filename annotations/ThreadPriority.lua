@@ -1,0 +1,5 @@
+---@class ThreadPriority @Priority of a thread.
+---@field Low fun() @Lowest thread priority.
+---@field BelowNormal fun() @Below normal thread priority.
+---@field Normal fun() @Normal thread priority.
+---@field High fun() @Highest thread priority.

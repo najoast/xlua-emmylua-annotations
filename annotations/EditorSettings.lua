@@ -1,0 +1,36 @@
+---@class EditorSettings @User settings for Unity Editor.
+---@field cacheServerEndpoint fun() @Cache server endpoint IP address
+---@field disableCookiesInLightmapper fun() @This property is now obsolete. Use EditorSettings.enableCookiesInLightmapper.
+---@field useLegacyProbeSampleCount fun() @Enable the legacy fixed sample counts for baking Light Probes with Progressive Lightmapper.
+---@field cacheServerNamespacePrefix fun() @Sets the namespace prefix to use for the cache server.
+---@field enableTextureStreamingInEditMode fun() @Enable texture mipmap streaming system when in Edit Mode.
+---@field webSecurityEmulationEnabled fun() @Determines if the Unity Editor emulates the networking security restrictions of the web player.
+---@field cacheServerMode fun() @Select cache server mode
+---@field NamingScheme EditorSettings.NamingScheme @Which naming scheme to use for duplicated GameObjects.
+---@field cacheServerEnableDownload fun() @Toggle whether to enable downloading from cache server.
+---@field cachingShaderPreprocessor fun() @Enables the Caching Shader Preprocessor.
+---@field enableCookiesInLightmapper fun() @Determines whether cookies should be evaluated by the Progressive Lightmapper during Global Illumination calculations.
+---@field unityRemoteCompression fun() @Gets or sets compression method used for Unity Remote screen stream.
+---@field enterPlayModeOptionsEnabled fun() @Determines whether the Enter Play Mode Options are enabled in the Unity Editor or not.
+---@field gameObjectNamingScheme fun() @Indicates which naming scheme to use for duplicated GameObjects.
+---@field prefabUIEnvironment fun() @Allows you to specify a Scene to use as the editing environment for UI Prefabs.
+---@field assetPipelineMode fun() @Select the assetpipeline mode.
+---@field gameObjectNamingDigits fun() @Indicates the amount of digits to use for the numbers in a duplicated GameoObject's name.
+---@field cacheServerEnableTls fun() @Toggle whether to enable TLS encryption to cache server.
+---@field projectGenerationRootNamespace fun() @Controls which root namespace gets written into the c# .csproj projects that Unity generates.
+---@field cacheServerEnableUpload fun() @Toggle whether to enable uploading from cache server.
+---@field prefabModeAllowAutoSave fun() @Allow Auto Save in Prefab Mode for this project.
+---@field projectGenerationUserExtensions fun() @Controls list of extensions of files that will be included in the c# .csproj projects that Unity generates.
+---@field unityRemoteDevice fun() @Gets or sets device ID used for Unity Remote feature.
+---@field cacheServerEnableAuth fun() @Toggle whether to enable authentication to cache server.
+---@field enterPlayModeOptions fun() @Determines the state of the Enter Play Mode Options in the Unity Editor.
+---@field spritePackerPaddingPower fun() @Power of 2 value to add a boundary (padding) to Sprites packed to the Atlas (Legacy Sprite Packer).
+---@field refreshImportMode fun() @Controls the Editor's use of parallel processes when it imports assets during an asset database refresh, for this project.
+---@field unityRemoteResolution fun() @Gets or sets resolution used for Unity Remote screen stream.
+---@field unityRemoteJoystickSource fun() @Gets or sets joystick source used in editor when Unity Remote is connected.
+---@field asyncShaderCompilation fun() @Enable asynchronous Shader compilation in Game and Scene view.
+---@field webSecurityEmulationHostUrl fun() @The url the web security emulation feature will pretend your game is hosted at.
+---@field assetNamingUsesSpace fun() @Controls whether to insert a space before a number in duplicated Asset names.
+---@field serializeInlineMappingsOnOneLine fun() @Forces Unity to write references and other inline mappings on one line, to help reduce version control noise.
+---@field prefabRegularEnvironment fun() @Allows you to specify a Scene to use as the editing environment for Prefabs.
+---@field enableTextureStreamingInPlayMode fun() @Enable texture mipmap streaming system when in Play Mode.

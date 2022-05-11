@@ -1,0 +1,8 @@
+---@class StateMachineBehaviour @StateMachineBehaviour is a component that can be added to a state machine state. It's the base class every script on a state derives from.
+---@field OnStateMove fun() @Called right after MonoBehaviour.OnAnimatorMove.
+---@field OnStateUpdate fun() @Called at each Update frame except for the first and last frame.
+---@field OnStateIK fun() @Called right after MonoBehaviour.OnAnimatorIK.
+---@field OnStateEnter fun() @Called on the first Update frame when a state machine evaluate this state.
+---@field OnStateExit fun() @Called on the last update frame when a state machine evaluate this state.
+---@field OnStateMachineExit fun() @Called on the last Update frame when making a transition out of a StateMachine. This is not called when making a transition into a StateMachine sub-state.
+---@field OnStateMachineEnter fun() @Called on the first Update frame when making a transition to a state machine. This is not called when making a transition into a state machine sub-state.

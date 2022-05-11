@@ -1,0 +1,3 @@
+---@class AnimationCullingType @This enum controlls culling of Animation component.
+---@field AlwaysAnimate fun() @Animation culling is disabled - object is animated even when offscreen.
+---@field BasedOnRenderers fun() @Animation is disabled when renderers are not visible.

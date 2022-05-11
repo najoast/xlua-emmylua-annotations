@@ -1,0 +1,9 @@
+---@class AssetImporters.SpriteImportData @Struct that represents how Sprite asset should be generated when calling TextureGenerator.GenerateTexture.
+---@field spriteID fun() @An identifier given to a Sprite. Use this to identify which data was used to generate that Sprite.
+---@field name fun() @Name for the generated Sprite.
+---@field tessellationDetail fun() @Controls mesh generation detail. This value will be ignored if SpriteImportData.ouline is provided.
+---@field rect fun() @Position and size of the Sprite in a given texture.
+---@field alignment fun() @Pivot value represented by SpriteAlignment.
+---@field border fun() @Border value for the generated Sprite.
+---@field outline fun() @Sprite Asset creation uses this outline when it generates the Mesh for the Sprite. If this is not given, SpriteImportData.tesselationDetail will be used to determine the mesh detail.
+---@field pivot fun() @Pivot value represented in Vector2.

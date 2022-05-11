@@ -1,0 +1,5 @@
+---@class ShaderData.Subshader @This class describes a subshader.
+---@field LevelOfDetail fun() @The level of detail (LOD) specified in this subshader (Read Only).
+---@field PassCount fun() @The number of passes for this subshader.
+---@field FindTagValue fun() @Searches for the tag specified by tagName on this SubShader and returns the value of the tag.
+---@field GetPass fun() @Get a pass of a subshader.

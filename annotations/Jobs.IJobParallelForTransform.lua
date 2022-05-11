@@ -1,0 +1,2 @@
+---@class Jobs.IJobParallelForTransform @IJobParallelForTransform.
+---@field Execute fun() @Execute.

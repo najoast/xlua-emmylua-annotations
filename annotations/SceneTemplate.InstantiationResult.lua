@@ -1,0 +1,3 @@
+---@class SceneTemplate.InstantiationResult @A class that holds the data created when a SceneTemplateAsset is instantiated.
+---@field scene fun() @The Scene that is created and loaded when a SceneTemplateAsset is instantiated.
+---@field sceneAsset fun() @The SceneAsset that is created when a SceneTemplateAsset is instantiated.

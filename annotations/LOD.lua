@@ -1,0 +1,5 @@
+---@class LOD @Structure for building a LOD for passing to the SetLODs function.
+---@field ctor fun() @Construct a LOD.
+---@field screenRelativeTransitionHeight fun() @The screen relative height to use for the transition [0-1].
+---@field renderers fun() @List of renderers for this LOD level.
+---@field fadeTransitionWidth fun() @Width of the cross-fade transition zone (proportion to the current LOD's whole length) [0-1]. Only used if it's not animated.

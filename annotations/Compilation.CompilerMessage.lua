@@ -1,0 +1,6 @@
+---@class Compilation.CompilerMessage @Compiler Message.
+---@field message fun() @Compiler message.
+---@field type fun() @Message type.
+---@field line fun() @File line for the message.
+---@field file fun() @File for the message.
+---@field column fun() @Line column for the message.

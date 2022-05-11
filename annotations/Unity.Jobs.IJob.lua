@@ -1,0 +1,2 @@
+---@class Unity.Jobs.IJob @Use IJob to schedule a single job that runs in parallel to other jobs and the main thread.
+---@field Execute fun() @Implement this method to perform work on a worker thread.

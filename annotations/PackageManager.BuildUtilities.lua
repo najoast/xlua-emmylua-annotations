@@ -1,0 +1,2 @@
+---@class PackageManager.BuildUtilities @Utility class that allows packages to register build callbacks with the Unity Package Manager.
+---@field RegisterShouldIncludeInBuildCallback fun() @Registers a callback object for a package.

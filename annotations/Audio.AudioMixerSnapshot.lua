@@ -1,0 +1,2 @@
+---@class Audio.AudioMixerSnapshot @Object representing a snapshot in the mixer.
+---@field TransitionTo fun() @Performs an interpolated transition towards this snapshot over the time interval specified.

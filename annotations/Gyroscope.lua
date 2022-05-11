@@ -1,0 +1,8 @@
+---@class Gyroscope @Interface into the Gyroscope.
+---@field rotationRate fun() @Returns rotation rate as measured by the device's gyroscope.
+---@field gravity fun() @Returns the gravity acceleration vector expressed in the device's reference frame.
+---@field enabled fun() @Sets or retrieves the enabled status of this gyroscope.
+---@field attitude fun() @Returns the attitude (ie, orientation in space) of the device.
+---@field userAcceleration fun() @Returns the acceleration that the user is giving to the device.
+---@field updateInterval fun() @Sets or retrieves gyroscope interval in seconds.
+---@field rotationRateUnbiased fun() @Returns unbiased rotation rate as measured by the device's gyroscope.

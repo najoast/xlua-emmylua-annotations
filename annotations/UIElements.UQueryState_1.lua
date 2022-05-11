@@ -1,0 +1,8 @@
+---@class UIElements.UQueryState_1 @Query object containing all the selection rules. The object can be saved and rerun later without re-allocating memory.
+---@field ForEach fun() @Invokes function on all elements matching the query.
+---@field ToList fun() @Adds all elements satisfying selection rules to the list.
+---@field First fun() @The first element matching all the criteria, or null if none was found.
+---@field AtIndex fun() @Selects the nth element matching all the criteria, or null if not enough elements were found.
+---@field RebuildOn fun() @Creates a new QueryState with the same selection rules, applied on another VisualElement.
+---@field Last fun() @The last element matching all the criteria, or null if none was found.
+---@field GetEnumerator fun() @Allows traversing the results of the query with foreach without creating GC allocations.

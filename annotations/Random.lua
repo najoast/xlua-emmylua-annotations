@@ -1,0 +1,12 @@
+---@class Random @Easily generate random data for games.
+---@field InitState fun() @Initializes the random number generator state with a seed.
+---@field insideUnitSphere fun() @Returns a random point inside or on a sphere with radius 1.0 (Read Only).
+---@field state fun() @Gets or sets the full internal state of the random number generator.
+---@field Range fun() @Returns a random float within [minInclusive..maxInclusive] (range is inclusive).
+---@field ColorHSV fun() @Generates a random color from HSV and alpha ranges.
+---@field rotationUniform fun() @Returns a random rotation with uniform distribution (Read Only).
+---@field State fun() @Serializable structure used to hold the full internal state of the random number generator. See Also: Random.state.
+---@field insideUnitCircle fun() @Returns a random point inside or on a circle with radius 1.0 (Read Only).
+---@field rotation fun() @Returns a random rotation (Read Only).
+---@field onUnitSphere fun() @Returns a random point on the surface of a sphere with radius 1.0 (Read Only).
+---@field value fun() @Returns a random float within [0.0..1.0] (range is inclusive) (Read Only).

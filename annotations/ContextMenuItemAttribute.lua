@@ -1,0 +1,4 @@
+---@class ContextMenuItemAttribute @Use this attribute to add a context menu to a field that calls a  named method.
+---@field name fun() @The name of the context menu item.
+---@field ctor fun() @Use this attribute to add a context menu to a field that calls a  named method.
+---@field function fun() @The name of the function that should be called.

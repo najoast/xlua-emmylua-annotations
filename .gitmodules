@@ -1,0 +1,3 @@
+[submodule "3rd/dkjson"]
+	path = 3rd/dkjson
+	url = https://github.com/LuaDist/dkjson.git

@@ -1,0 +1,40 @@
+---@class Lightmapping @Allows to control the lightmapping job.
+---@field lightingSettingsDefaults fun() @Default LightingSettings that Unity uses for Scenes where lightingSettings is not assigned. (Read only)
+---@field bakedGI fun() @This property is now obsolete. Use LightingSettings.bakedGI.
+---@field BakeAsync fun() @Starts an asynchronous bake job.
+---@field giWorkflowMode fun() @This property is now obsolete. Use LightingSettings.autoGenerate.
+---@field isRunning fun() @Returns true when the bake job is running, false otherwise (Read Only).
+---@field TryGetLightingSettings fun() @Fetches the Lighting Settings for the current Scene. Will return false if it is null.
+---@field indirectOutputScale fun() @This property is now obsolete. Use LightingSettings.indirectScale.
+---@field GIWorkflowMode Lightmapping.GIWorkflowMode @Workflow mode for lightmap baking. Default is Iterative.
+---@field bounceBoost fun() @This property is now obsolete. Use LightingSettings.albedoBoost.
+---@field SetLightingSettingsForScenes fun() @Applies the settings specified in the LightingSettings object to an array of SceneManagement.Scene objects.
+---@field GetTerrainGIChunks fun() @Get how many chunks the terrain is divided into for GI baking.
+---@field OnStartedFunction fun() @Delegate used by Lightmapping.started callback.
+---@field BakeMultipleScenes fun() @Bakes an array of Scenes.
+---@field Bake fun() @Starts a synchronous bake job.
+---@field bakeStarted fun() @Event which is called when a bake is started. Only called when LightingSettings.autoGenerate is set to false.
+---@field Clear fun() @Deletes all runtime data for the currently loaded Scenes.
+---@field lightingDataAssetCleared fun() @Event which is called when a LightingData asset is removed from the project.
+---@field lightingDataAsset fun() @The lighting data asset used by the active Scene.
+---@field buildProgress fun() @Returns the current lightmapping build progress or 0 if Lightmapping.isRunning is false.
+---@field GetLightingSettingsForScene fun() @Gets the LightingSettings object of a SceneManagement.Scene object.
+---@field started fun() @Delegate which is called when bake job is started.
+---@field BakeLightProbesOnlyAsync fun() @Starts an asynchronous bake job, but only bakes light probes.
+---@field BakeLightProbesOnly fun() @Starts a synchronous bake job, but only bakes light probes.
+---@field Tetrahedralize fun() @Calculates tetrahderons from positions using Delaunay Tetrahedralization.
+---@field ClearLightingDataAsset fun() @For the currently loaded Scenes, this method deletes the Lighting Data Asset and any linked lightmaps and Reflection Probe assets.
+---@field OnCompletedFunction fun() @Delegate used by Lightmapping.completed callback.
+---@field lightingSettings fun() @The LightingSettings that will be used for the current Scene. Will throw an exception if it is null.
+---@field lightingDataUpdated fun() @Event which is called when any lighting data is updated as part of the GI backing process.
+---@field BakeSelectedAsync fun() @Starts an asynchronous bake job for the selected objects.
+---@field ForceStop fun() @Force the Progressive Path Tracer to stop baking and use the computed results as they are.
+---@field ClearDiskCache fun() @Clears the cache used by lightmaps, reflection probes and default reflection.
+---@field bakeCompleted fun() @Event which is called when bake job is completed. Only called when LightingSettings.autoGenerate is set to false.
+---@field BakeReflectionProbe fun() @Starts a synchronous bake job for the probe.
+---@field realtimeGI fun() @This property is now obsolete. Use LightingSettings.realtimeGI.
+---@field SetLightingSettingsForScene fun() @Applies the settings specified in the LightingSettings object to the SceneManagement.Scene object.
+---@field completed fun() @Delegate which is called when bake job is completed.
+---@field Cancel fun() @Cancels the currently running asynchronous bake job.
+---@field lightingDataCleared fun() @Event which is called when baked Global Illumination data is cleared from the scene and from renderers.
+---@field BakeSelected fun() @Starts a synchronous bake job for the selected objects.

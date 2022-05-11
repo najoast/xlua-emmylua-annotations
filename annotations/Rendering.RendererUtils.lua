@@ -1,0 +1,4 @@
+---@class Rendering.RendererUtils @nil
+---@field RendererListStatus Rendering.RendererUtils.RendererListStatus @Options that represent the result of a ScriptableRenderContext.QueryRendererList operation.
+---@field RendererListDesc Rendering.RendererUtils.RendererListDesc @Represents the set of GameObjects that a RendererList contains.
+---@field RendererList Rendering.RendererUtils.RendererList @Represents a subset of visible GameObjects.

@@ -1,0 +1,5 @@
+---@class RangeInt @Describes an integer range.
+---@field length fun() @The length of the range.
+---@field ctor fun() @Constructs a new RangeInt with given start, length values.
+---@field end fun() @The end index of the range (not inclusive).
+---@field start fun() @The starting index of the range, where 0 is the first position, 1 is the second, 2 is the third, and so on.

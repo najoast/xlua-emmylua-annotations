@@ -1,0 +1,8 @@
+---@class PlayerLoop.Initialization @Update phase in the native player loop.
+---@field AsyncUploadTimeSlicedUpdate fun() @A native engine system that the native player loop updates.
+---@field DirectorSampleTime fun() @A native engine system that the native player loop updates.
+---@field UpdateCameraMotionVectors fun() @A native engine system that the native player loop updates.
+---@field ProfilerStartFrame fun() @A native engine system that the native player loop updates.
+---@field SynchronizeInputs fun() @A native engine system that the native player loop updates.
+---@field SynchronizeState fun() @A native engine system that the native player loop updates.
+---@field XREarlyUpdate fun() @A native engine system that the native player loop updates.

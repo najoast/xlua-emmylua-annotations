@@ -1,0 +1,3 @@
+---@class PauseState @Enumeration specifying the current pause state of the Editor.See Also: PlayModeStateChange, EditorApplication.pauseStateChanged, EditorApplication.isPaused.
+---@field Unpaused fun() @Occurs as soon as the Editor is unpaused, which may occur during either edit mode or play mode.
+---@field Paused fun() @Occurs as soon as the Editor is paused, which may occur during either edit mode or play mode.

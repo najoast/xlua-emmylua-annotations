@@ -1,0 +1,4 @@
+---@class Unity.Profiling.Editor.ProfilerModule @Represents a Profiler module in the Profiler window.
+---@field DisplayName fun() @The module’s display name.
+---@field ProfilerWindow fun() @The Profiler window that the module instance belongs to.
+---@field CreateDetailsViewController fun() @Creates a View Controller object that draws the Profiler module’s Details View in the Profiler window. Unity calls this method automatically when the module is selected in the Profiler window.

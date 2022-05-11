@@ -1,0 +1,3 @@
+---@class XR.TrackingSpaceType @Represents the size of physical space available for XR.
+---@field RoomScale fun() @Represents a space large enough for free movement.
+---@field Stationary fun() @Represents a small space where movement may be constrained or positional tracking is unavailable.

@@ -1,0 +1,7 @@
+---@class AnimatedValues @nil
+---@field AnimQuaternion AnimatedValues.AnimQuaternion @An animated Quaternion value.
+---@field AnimFloat AnimatedValues.AnimFloat @An animated float value.
+---@field AnimBool AnimatedValues.AnimBool @Lerp from 0 - 1.
+---@field BaseAnimValueNonAlloc_1 fun() @Abstract base class that provides an allocation free version of BaseAnimValue.
+---@field BaseAnimValue_1 AnimatedValues.BaseAnimValue_1 @Abstract base class for Animated Values.
+---@field AnimVector3 AnimatedValues.AnimVector3 @An animated Vector3 value.

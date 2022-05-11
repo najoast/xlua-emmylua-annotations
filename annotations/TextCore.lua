@@ -1,0 +1,6 @@
+---@class TextCore @nil
+---@field LowLevel TextCore.LowLevel @nil
+---@field Glyph TextCore.Glyph @A Glyph is the visual representation of a text element or character.
+---@field GlyphRect TextCore.GlyphRect @A rectangle that defines the position of a glyph within an atlas texture.
+---@field GlyphMetrics TextCore.GlyphMetrics @A set of values that define the size, position and spacing of a glyph when performing text layout.
+---@field FaceInfo TextCore.FaceInfo @A structure that contains information about a given typeface and for a specific point size.

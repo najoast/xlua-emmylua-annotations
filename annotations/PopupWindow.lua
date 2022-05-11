@@ -1,0 +1,4 @@
+---@class PopupWindow @Class used to display popup windows that inherit from PopupWindowContent.
+---@field OnEnable fun() @See ScriptableObject.OnDisable.
+---@field OnDisable fun() @See ScriptableObject.OnEnable.
+---@field Show fun() @Show a popup with the given PopupWindowContent.

@@ -1,0 +1,14 @@
+---@class Networking.NetworkError @Possible Networking.NetworkTransport errors.
+---@field DNSFailure fun() @The address supplied to connect to was invalid or could not be resolved.
+---@field WrongConnection fun() @The specified connectionId doesn't exist.
+---@field Timeout fun() @Connection timed out.
+---@field WrongOperation fun() @Operation is not supported.
+---@field CRCMismatch fun() @The Networking.ConnectionConfig  does not match the other endpoint.
+---@field WrongHost fun() @The specified host not available.
+---@field WrongChannel fun() @The specified channel doesn't exist.
+---@field Ok fun() @The operation completed successfully.
+---@field VersionMismatch fun() @The protocol versions are not compatible. Check your library versions.
+---@field NoResources fun() @Not enough resources are available to process this request.
+---@field UsageError fun() @This error will occur if any function is called with inappropriate parameter values.
+---@field BadMessage fun() @Not a data message.
+---@field MessageToLong fun() @The message is too long to fit the buffer.

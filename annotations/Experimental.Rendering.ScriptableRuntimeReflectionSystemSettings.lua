@@ -1,0 +1,2 @@
+---@class Experimental.Rendering.ScriptableRuntimeReflectionSystemSettings @Global settings for the scriptable runtime reflection system.
+---@field system fun() @The current scriptable runtime reflection system instance.

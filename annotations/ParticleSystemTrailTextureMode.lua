@@ -1,0 +1,5 @@
+---@class ParticleSystemTrailTextureMode @Choose how textures are applied to Particle Trails.
+---@field RepeatPerSegment fun() @Repeat the texture along the trail, repeating at a rate of once per trail segment. To adjust the tiling rate, use Material.SetTextureScale.
+---@field DistributePerSegment fun() @Map the texture once along the entire length of the trail, assuming all vertices are evenly spaced.
+---@field Tile fun() @Repeat the texture along the trail. To set the tiling rate, use Material.SetTextureScale.
+---@field Stretch fun() @Map the texture once along the entire length of the trail.

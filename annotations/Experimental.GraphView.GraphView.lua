@@ -1,0 +1,74 @@
+---@class Experimental.GraphView.GraphView @Main GraphView class.
+---@field DeleteSelection fun() @Delete selected elements.
+---@field ports fun() @All ports currently in the graph.
+---@field referenceScale fun() @Reference zoom level.
+---@field RemoveElement fun() @Remove element from the graph.
+---@field supportsWindowedBlackboard fun() @Set to true when this GraphView supports windowed Blackboards. Set to false otherwise.
+---@field AddToSelection fun() @Add element to selection.
+---@field FramePrev fun() @Focus view on the previous element before the one currently selected.
+---@field CollectElements fun() @Retrieves the set of elements that match a specified condition. The matching elements are selected from an enumerable of graph elements.
+---@field GetBlackboard fun() @Gets the blackboard associated with this GraphView.
+---@field AskUser Experimental.GraphView.GraphView.AskUser @Whether or not to ask the user for certain actions like deleting selection.
+---@field deleteSelection fun() @Delete selection callback.
+---@field elementResized fun() @Element resized callback.
+---@field edges fun() @All edges in the graph.
+---@field ValidateTransform fun() @Validate the view transform.
+---@field AddElement fun() @Add new GraphElement. Should use this instead of Add() for adding GraphElements.
+---@field CanPasteSerializedDataDelegate fun() @Delegate for checking if serialized data can be pasted.
+---@field zoomerMaxElementCountWithPixelCacheRegen fun() @Number of elements in the graph above which the zoom manipulator will turn off pixel cache regeneration on each tick to avoid performance drops.
+---@field CalculateRectToFitAll fun() @Calculate the rectangle size and position to fit all elements in graph.
+---@field GetElementByGuid fun() @Get any element with a given GUID.
+---@field nodes fun() @All nodes currently in the graph.
+---@field elementsInsertedToStackNode fun() @Callback for when GraphElements are inserted into a StackNode.
+---@field GetEdgeByGuid fun() @Get edge by its GUID.
+---@field FrameNext fun() @Focus view on the next element after the one currently selected.
+---@field scale fun() @Current graph zoom level.
+---@field CanPasteSerializedData fun() @Default method for checking if serialized data can be pasted.
+---@field UnserializeAndPasteOperation fun() @Default method for unserializing elements and pasting.
+---@field viewTransformChanged fun() @View transform changed callback.
+---@field DeleteSelectionOperation fun() @Default method for deleting selection.
+---@field ElementResized fun() @Element resized delegate.
+---@field CreatePlacematContainer fun() @Override this method, in a derived class, to create a custom PlacematContainer.
+---@field DeleteSelectionDelegate fun() @Delegate for deleting selection.
+---@field UnserializeAndPasteDelegate fun() @Delegate for unserializing and pasting elements.
+---@field maxScale fun() @Max zoom level.
+---@field minScale fun() @Min zoom level.
+---@field graphElements fun() @All GraphElements in the graph.
+---@field FrameOrigin fun() @Focus view on the graph's origin.
+---@field scaleStep fun() @Zoom step. See Experimental.GraphView for details.
+---@field elementsRemovedFromGroup fun() @Callback for when GraphElements are removed from the group.
+---@field GraphViewChanged fun() @Delegate used to indicate a change in GraphView usualy done by a Manipulator.
+---@field SetupZoom fun() @Setup zoom properties.
+---@field ViewTransformChanged fun() @View transform changed (zoom) delegate.
+---@field canPasteSerializedData fun() @Ask whether or not the serialized data can be pasted.
+---@field UpdateViewTransform fun() @Update the viewport transform.
+---@field selection fun() @All currently selected elements in the graph.
+---@field SerializeGraphElementsDelegate fun() @Delegate for serializing graph elements.
+---@field contentViewContainer fun() @Main content container.
+---@field groupTitleChanged fun() @Callback for when a group title is changed.
+---@field RemoveFromSelection fun() @Remove element from selection.
+---@field Layer Experimental.GraphView.GraphView.Layer @The layer class for placing and interacting with graph elements in a GraphView.
+---@field BuildContextualMenu fun() @Add menu items to the contextual menu.
+---@field GetCompatiblePorts fun() @Get all ports compatible with given port.
+---@field DeleteElements fun() @Remove elements from the graph view.
+---@field viewport fun() @The graph's viewport. This is currently just itself.
+---@field ReleaseBlackboard fun() @Releases an associated blackboard from this GraphView.
+---@field elementsRemovedFromStackNode fun() @Callback for when GraphElements are removed from a StackNode.
+---@field FrameType Experimental.GraphView.GraphView.FrameType @Type of framing.
+---@field AddLayer fun() @Adds a new layer to the GraphView.
+---@field SerializeGraphElements fun() @Default method for serializing graph elements.
+---@field GetPortByGuid fun() @Get port by its GUID.
+---@field unserializeAndPaste fun() @Callback for unserializing graph elements and adding them to the graph.
+---@field GetNodeByGuid fun() @Get node with a given GUID.
+---@field serializeGraphElements fun() @Callback for serializing graph elements for copy/paste and other actions.
+---@field placematContainer fun() @The PlacematContainer used by the GraphView.
+---@field graphViewChanged fun() @Callback for when certain changes have occured in the graph. See GraphViewChange.
+---@field nodeCreationRequest fun() @Callback for when the user requests to display the node creation window.
+---@field GetPortCenterOverride fun() @Gets another location for a specific port and checks if the port has an overridden position.
+---@field ClearSelection fun() @Clear selection.
+---@field viewTransform fun() @Graph's view transform.
+---@field FrameSelection fun() @Focus view on currently selected elements.
+---@field CalculateFrameTransform fun() @Calculate the view transform based on zoom level and the size of the window or parent.
+---@field FrameAll fun() @Focus view all elements in the graph.
+---@field isReframable fun() @Whether or not the selection is reframable.
+---@field elementsAddedToGroup fun() @Callback for when GraphElements are added to the group.

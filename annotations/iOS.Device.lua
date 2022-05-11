@@ -1,0 +1,14 @@
+---@class iOS.Device @Interface into iOS specific functionality.
+---@field wantsSoftwareDimming fun() @Indicates whether the screen may be dimmed lower than the hardware is normally capable of by emulating it in software.
+---@field lowPowerModeEnabled fun() @Indicates whether Low Power Mode is enabled on the device.
+---@field generation fun() @The generation of the device. (Read Only)
+---@field RequestStoreReview fun() @Request App Store rating and review from the user.
+---@field hideHomeButton fun() @Specifies whether the home button should be hidden in the iOS build of this application.
+---@field vendorIdentifier fun() @Vendor ID.
+---@field deferSystemGesturesMode fun() @Defer system gestures until the second swipe on specific edges.
+---@field iosAppOnMac fun() @Specifies whether app built for iOS is running on Mac.
+---@field ResetNoBackupFlag fun() @Reset no backup file flag: file will be synced with iCloud/iTunes backup and can be deleted by OS in low storage situations.
+---@field advertisingTrackingEnabled fun() @Is advertising tracking enabled.
+---@field SetNoBackupFlag fun() @Set file flag to be excluded from iCloud/iTunes backup.
+---@field systemVersion fun() @iOS version.
+---@field advertisingIdentifier fun() @Advertising ID.

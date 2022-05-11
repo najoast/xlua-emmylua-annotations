@@ -1,0 +1,5 @@
+---@class Search.QueryGraph @Class that represents a query graph.
+---@field root fun() @Root node of the graph. Can be null.
+---@field Optimize fun() @Optimize the graph.
+---@field empty fun() @Returns true if the graph is empty.
+---@field ctor fun() @Constructor. Creates a new query graph.

@@ -1,0 +1,7 @@
+---@class Scripting.GarbageCollector @API to control the garbage collector on the Mono and IL2CPP scripting backends.
+---@field isIncremental fun() @Reports whether incremental garbage collection is enabled.
+---@field Mode Scripting.GarbageCollector.Mode @Garbage collector operation mode.
+---@field GCModeChanged fun() @Subscribe to this event to get notified when GarbageCollector.GCMode changes.
+---@field CollectIncremental fun() @Perform incremental garbage collection for the duration specified by the nanoseconds parameter.
+---@field GCMode fun() @Set and get global garbage collector operation mode.
+---@field incrementalTimeSliceNanoseconds fun() @The target duration of a collection step when performing incremental garbage collection.

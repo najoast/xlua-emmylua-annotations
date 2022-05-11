@@ -1,0 +1,10 @@
+---@class Keyframe @A single keyframe that can be injected into an animation curve.
+---@field outWeight fun() @Sets the outgoing weight for this key. The outgoing weight affects the slope of the curve from this key to the next key.
+---@field ctor fun() @Create a keyframe.
+---@field inTangent fun() @Sets the incoming tangent for this key. The incoming tangent affects the slope of the curve from the previous key to this key.
+---@field tangentMode fun() @TangentMode is deprecated.  Use AnimationUtility.SetKeyLeftTangentMode or AnimationUtility.SetKeyRightTangentMode instead.
+---@field inWeight fun() @Sets the incoming weight for this key. The incoming weight affects the slope of the curve from the previous key to this key.
+---@field weightedMode fun() @Weighted mode for the keyframe.
+---@field value fun() @The value of the curve at keyframe.
+---@field time fun() @The time of the keyframe.
+---@field outTangent fun() @Sets the outgoing tangent for this key. The outgoing tangent affects the slope of the curve from this key to the next key.

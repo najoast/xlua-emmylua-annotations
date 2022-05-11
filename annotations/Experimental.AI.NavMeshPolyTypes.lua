@@ -1,0 +1,3 @@
+---@class Experimental.AI.NavMeshPolyTypes @The types of nodes in the navigation data.
+---@field Ground fun() @Type of node in the NavMesh representing one surface polygon.
+---@field OffMeshConnection fun() @Type of node in the NavMesh representing a point-to-point connection between two positions on the NavMesh surface.

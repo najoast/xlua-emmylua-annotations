@@ -1,0 +1,3 @@
+---@class AssetBundleRequest @Asynchronous load request from an AssetBundle.
+---@field allAssets fun() @Asset objects with sub assets being loaded. (Read Only)
+---@field asset fun() @Asset object being loaded (Read Only).

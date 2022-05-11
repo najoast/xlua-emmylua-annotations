@@ -1,0 +1,25 @@
+---@class ParticleSystem.TextureSheetAnimationModule @Script interface for the TextureSheetAnimationModule.
+---@field startFrame fun() @Define a random starting frame for the Texture sheet animation.
+---@field rowMode fun() @Select how particles choose which row of a Texture Sheet Animation to use.
+---@field useRandomRow fun() @Use a random row of the Texture sheet for each particle emitted.
+---@field fps fun() @Control how quickly the animation plays.
+---@field rowIndex fun() @Explicitly select which row of the Texture sheet to use. The system uses this property when ParticleSystem.TextureSheetAnimationModule.rowMode is set to Custom.
+---@field frameOverTimeMultiplier fun() @The frame over time mutiplier.
+---@field spriteCount fun() @The total number of sprites.
+---@field frameOverTime fun() @A curve to control which frame of the Texture sheet animation to play.
+---@field GetSprite fun() @Get the Sprite at the given index.
+---@field RemoveSprite fun() @Remove a Sprite from the given index in the array.
+---@field startFrameMultiplier fun() @The starting frame multiplier.
+---@field SetSprite fun() @Set the Sprite at the given index.
+---@field AddSprite fun() @Add a new Sprite.
+---@field uvChannelMask fun() @Choose which UV channels receive Texture animation.
+---@field timeMode fun() @Select whether the system bases the playback on mapping a curve to the lifetime of each particle, by using the particle speeds, or if playback simply uses a constant frames per second.
+---@field flipU fun() @Flip the U coordinate on particles, causing them to appear mirrored horizontally.
+---@field speedRange fun() @Specify how particle speeds are mapped to the animation frames.
+---@field numTilesX fun() @Defines the tiling of the Texture in the x-axis.
+---@field flipV fun() @Flip the V coordinate on particles, causing them to appear mirrored vertically.
+---@field enabled fun() @Specifies whether the TextureSheetAnimationModule is enabled or disabled.
+---@field mode fun() @Select whether the animated Texture information comes from a grid of frames on a single Texture, or from a list of Sprite objects.
+---@field animation fun() @Specifies the animation type.
+---@field numTilesY fun() @Defines the tiling of the texture in the y-axis.
+---@field cycleCount fun() @Specifies how many times the animation loops during the lifetime of the particle.

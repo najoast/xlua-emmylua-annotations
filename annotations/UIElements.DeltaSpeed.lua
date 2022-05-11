@@ -1,0 +1,4 @@
+---@class UIElements.DeltaSpeed @Speed at which the value changes for a given input device delta.
+---@field Normal fun() @The value changes at the normal rate.
+---@field Fast fun() @The value changes at four times the normal rate.
+---@field Slow fun() @The value changes at one quarter of its normal rate.

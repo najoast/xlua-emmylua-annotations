@@ -1,0 +1,11 @@
+---@class Rendering.RendererUtils.RendererListDesc @Represents the set of GameObjects that a RendererList contains.
+---@field overrideMaterial fun() @The material to render the RendererList's GameObjects with. This overrides the material for each GameObject.
+---@field ctor fun() @Initializes and returns an instance of RendererListDesc.
+---@field overrideMaterialPassIndex fun() @Pass index for the override material.
+---@field IsValid fun() @Checks whether the RendererListDesc is valid.
+---@field stateBlock fun() @An optional set of values to override the RendererLists render state. For more information, see Rendering.RenderStateBlock.
+---@field excludeObjectMotionVectors fun() @Indicates whether to exclude dynamic GameObjects from the RendererList.
+---@field renderQueueRange fun() @The material render queue range to use for the RendererList. For more information, see Rendering.RenderQueueRange.
+---@field sortingCriteria fun() @The method Unity uses to sort the GameObjects in the RendererList. For more information, see Rendering.SortingCriteria.
+---@field layerMask fun() @The rendering layer mask to use for filtering this RendererList.
+---@field rendererConfiguration fun() @The renderer configuration for the RendererList. For more information, see Rendering.PerObjectData.

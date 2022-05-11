@@ -1,0 +1,4 @@
+---@class Android.AndroidPlatformIconKind @Contains all Android PlatformIconKind supported by Unity.
+---@field Adaptive fun() @Introduced in Android 8.0 (API level 26).
+---@field Round fun() @Introduced in Android 7.1 (API level 25).
+---@field Legacy fun() @Single layer icons primarily used by devices running Android 7.0 (API level 24) or below.

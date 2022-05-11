@@ -1,0 +1,2 @@
+---@class UIElements.Translate @Represents a translation of the object. Percentage values in X and Y are relative to the width and height of the visual element where the style value is applied.
+---@field None fun() @Returns the value of a Translate object with no translation applied.

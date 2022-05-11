@@ -1,0 +1,6 @@
+---@class ParticleSystemSubEmitterType @The events that cause new particles to be spawned.
+---@field Manual fun() @Spawns new particles when triggered from script using ParticleSystem.TriggerSubEmitter.
+---@field Trigger fun() @Spawns new particles when particles from the parent system pass conditions in the Trigger Module.
+---@field Birth fun() @Spawns new particles when particles from the parent system are born.
+---@field Collision fun() @Spawns new particles when particles from the parent system collide with something.
+---@field Death fun() @Spawns new particles when particles from the parent system die.

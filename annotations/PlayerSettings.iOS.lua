@@ -1,0 +1,36 @@
+---@class PlayerSettings.iOS @iOS specific player settings.
+---@field backgroundModes fun() @Supported background execution modes (when appInBackgroundBehavior is set to Custom).
+---@field applicationDisplayName fun() @iOS application display name.
+---@field exitOnSuspend fun() @Application should exit when suspended to background.
+---@field cameraUsageDescription fun() @Describes the reason for access to the user's camera.
+---@field scriptCallOptimization fun() @Script calling optimization.
+---@field useOnDemandResources fun() @Indicates whether application will use On Demand Resources (ODR) API.
+---@field appleEnableAutomaticSigning fun() @Set this property to true for Xcode to attempt to automatically sign your app based on your appleDeveloperTeamID.
+---@field iOSManualProvisioningProfileID fun() @A provisioning profile Universally Unique Identifier (UUID) that Xcode will use to build your iOS app in Manual Signing mode.
+---@field allowHTTPDownload fun() @Should insecure HTTP downloads be allowed?
+---@field sdkVersion fun() @Active iOS SDK version used for build.
+---@field iOSUrlSchemes fun() @An array of URL Schemes that are supported by the app.
+---@field appleDeveloperTeamID fun() @Set this property with your Apple Developer Team ID. You can find this on the Apple Developer website under  Account &gt; Membership  . This sets the Team ID for the generated Xcode project, allowing developers to use the Build and Run functionality. An Apple Developer Team ID must be set here for automatic signing of your app.
+---@field iOSManualProvisioningProfileType fun() @A ProvisioningProfileType that will be set when building an iOS Xcode project.
+---@field locationUsageDescription fun() @Describes the reason for access to the user's location data.
+---@field microphoneUsageDescription fun() @Describes the reason for access to the user's microphone.
+---@field hideHomeButton fun() @Specifies whether the home button should be hidden in the iOS build of this application.
+---@field tvOSManualProvisioningProfileType fun() @A ProvisioningProfileType that will be set when building a tvOS Xcode project.
+---@field buildNumber fun() @The build number of the bundle
+---@field targetDevice fun() @Targeted device.
+---@field requiresFullScreen fun() @RequiresFullScreen maps to Apple's plist build setting UIRequiresFullScreen, which is used to opt out of being eligible to participate in Slide Over and Split View for iOS 9.0 multitasking.
+---@field SetLaunchScreenImage fun() @Sets the image to display on screen when the game launches for the specified iOS device.
+---@field overrideIPodMusic fun() @Determines iPod playing behavior.
+---@field SetiPhoneLaunchScreenType fun() @Sets the mode which will be used to generate the app's launch screen Interface Builder (.xib) file for iPhone.
+---@field SetiPadLaunchScreenType fun() @Sets the mode which will be used to generate the app's launch screen Interface Builder (.xib) file for iPad.
+---@field showActivityIndicatorOnLoading fun() @Application should show ActivityIndicator when loading.
+---@field tvOSManualProvisioningProfileID fun() @A provisioning profile Universally Unique Identifier (UUID) that Xcode will use to build your tvOS app in Manual Signing mode.
+---@field forceHardShadowsOnMetal fun() @Should hard shadows be enforced when running on (mobile) Metal.
+---@field appInBackgroundBehavior fun() @Application behavior when entering background.
+---@field deferSystemGesturesMode fun() @Defer system gestures until the second swipe on specific edges.
+---@field statusBarStyle fun() @Status bar style.
+---@field targetOSVersionString fun() @Deployment minimal version of iOS.
+---@field targetOSVersion fun() @Deployment minimal version of iOS.
+---@field requiresPersistentWiFi fun() @Application requires persistent WiFi.
+---@field prerenderedIcon fun() @Icon is prerendered.
+---@field disableDepthAndStencilBuffers fun() @Disable Depth and Stencil Buffers.

@@ -1,0 +1,7 @@
+---@class ApplicationInstallMode @Application installation mode (Read Only).
+---@field Editor fun() @Application running in editor.
+---@field Enterprise fun() @Application installed via enterprise distribution.
+---@field Unknown fun() @Application install mode unknown.
+---@field Store fun() @Application installed via online store.
+---@field Adhoc fun() @Application installed via ad hoc distribution.
+---@field DeveloperBuild fun() @Application installed via developer build.

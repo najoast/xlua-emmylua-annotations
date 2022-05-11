@@ -1,0 +1,3 @@
+---@class MemoryProfiler.MemorySection @A dump of a piece of memory from the player that's being profiled.
+---@field bytes fun() @The actual bytes of the memory dump.
+---@field startAddress fun() @The start address of this piece of memory.

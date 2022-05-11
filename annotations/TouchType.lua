@@ -1,0 +1,4 @@
+---@class TouchType @Describes whether a touch is direct, indirect (or remote), or from a stylus.
+---@field Indirect fun() @An Indirect, or remote, touch on a device.
+---@field Stylus fun() @A touch from a stylus on a device.
+---@field Direct fun() @A direct touch on a device.

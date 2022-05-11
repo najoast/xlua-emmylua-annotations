@@ -1,0 +1,30 @@
+---@class UIElements.ScrollView @Displays its contents inside a scrollable frame.
+---@field showVertical fun() @Obsolete. Use ScrollView.verticalScrollerVisibility instead.
+---@field vScrollerUssClassName fun() @USS class name of vertical scrollers in elements of this type.
+---@field viewportUssClassName fun() @USS class name of viewport elements in elements of this type.
+---@field horizontalPageSize fun() @This property is controlling the scrolling speed of the horizontal scroller.
+---@field elasticity fun() @The amount of elasticity to use when a user tries to scroll past the boundaries of the scroll view.
+---@field verticalVariantUssClassName fun() @USS class name that's added when the ScrollView is in vertical mode. ScrollViewMode.Vertical
+---@field UxmlTraits UIElements.ScrollView.UxmlTraits @Defines UxmlTraits for the ScrollView.
+---@field verticalHorizontalVariantUssClassName fun() @USS class name that's added when the ScrollView is in both horizontal and vertical mode. ScrollViewMode.VerticalAndHorizontal
+---@field UxmlFactory fun() @Instantiates a ScrollView using the data read from a UXML file.
+---@field contentViewport fun() @Represents the visible part of contentContainer.
+---@field horizontalVariantUssClassName fun() @USS class name that's added when the ScrollView is in horizontal mode. ScrollViewMode.Horizontal
+---@field showHorizontal fun() @Obsolete. Use ScrollView.horizontalScrollerVisibility instead.
+---@field scrollDecelerationRate fun() @Controls the rate at which the scrolling movement slows after a user scrolls using a touch interaction.
+---@field hScrollerUssClassName fun() @USS class name of horizontal scrollers in elements of this type.
+---@field scrollOffset fun() @The current scrolling position.
+---@field TouchScrollBehavior UIElements.ScrollView.TouchScrollBehavior @The behavior to use when a user tries to scroll past the end of the ScrollView content using a touch interaction.
+---@field horizontalScrollerVisibility fun() @Specifies whether the horizontal scroll bar is visible.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field ctor fun() @Constructor.
+---@field horizontalScroller fun() @Horizontal scrollbar.
+---@field mode fun() @Controls how the ScrollView allows the user to scroll the contents. ScrollViewMode
+---@field verticalScrollerVisibility fun() @Specifies whether the vertical scroll bar is visible.
+---@field ScrollTo fun() @Scroll to a specific child element.
+---@field verticalScroller fun() @Vertical Scrollbar.
+---@field verticalPageSize fun() @This property is controlling the scrolling speed of the vertical scroller.
+---@field contentContainer fun() @Contains full content, potentially partially visible.
+---@field contentAndVerticalScrollUssClassName fun() @USS class name of content elements in elements of this type.
+---@field touchScrollBehavior fun() @The behavior to use when a user tries to scroll past the boundaries of the ScrollView content using a touch interaction.
+---@field contentUssClassName fun() @USS class name of content elements in elements of this type.

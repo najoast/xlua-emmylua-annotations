@@ -1,0 +1,2 @@
+---@class UIElements.ICommandEvent @Interface for Command events.
+---@field commandName fun() @Name of the command.

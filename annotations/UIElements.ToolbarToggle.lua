@@ -1,0 +1,5 @@
+---@class UIElements.ToolbarToggle @A toggle for the toolbar.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field UxmlFactory fun() @Instantiates a ToolbarToggle using the data read from a UXML file.
+---@field ctor fun() @Constructor.
+---@field UxmlTraits fun() @Defines UxmlTraits for the ToolbarToggle.

@@ -1,0 +1,6 @@
+---@class UIElements.UxmlValueBounds @Restricts the value of an attribute to be within the specified bounds.
+---@field min fun() @The minimum value for the attribute.
+---@field max fun() @The maximum value for the attribute.
+---@field excludeMax fun() @True if the bounds exclude max.
+---@field excludeMin fun() @True if the bounds exclude min.
+---@field Equals fun() @Indicates whether the current UxmlValueBounds object is equal to another object of the same type.

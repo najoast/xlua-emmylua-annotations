@@ -1,0 +1,8 @@
+---@class ParticleSystemSubEmitterProperties @The properties of sub-emitter particles.
+---@field InheritLifetime fun() @New particles will have a shorter lifespan, the closer their parent particles are to death.
+---@field InheritRotation fun() @When spawning new particles, add the start rotation to the rotation of the parent particles.
+---@field InheritSize fun() @When spawning new particles, multiply the start size by the size of the parent particles.
+---@field InheritDuration fun() @When spawning new particles, use the duration and age properties from the parent system, when sampling MainModule curves in the Sub-Emitter.
+---@field InheritColor fun() @When spawning new particles, multiply the start color by the color of the parent particles.
+---@field InheritEverything fun() @When spawning new particles, inherit all available properties from the parent particles.
+---@field InheritNothing fun() @When spawning new particles, do not inherit any properties from the parent particles.

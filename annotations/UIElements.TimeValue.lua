@@ -1,0 +1,4 @@
+---@class UIElements.TimeValue @Represents a time value.
+---@field value fun() @The time value.
+---@field unit fun() @The unit of the value property.
+---@field ctor fun() @Creates from a float and an optional TimeUnit.

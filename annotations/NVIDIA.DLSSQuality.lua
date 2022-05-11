@@ -1,0 +1,5 @@
+---@class NVIDIA.DLSSQuality @Options for DLSS performance modes.
+---@field MaximumQuality fun() @High quality, less performant.
+---@field MaximumPerformance fun() @Fast performance, lower quality.
+---@field UltraPerformance fun() @Fastest performance, lowest quality.
+---@field Balanced fun() @Balances performance with quality.

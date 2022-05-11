@@ -1,0 +1,4 @@
+---@class EditorSkin @Enum that selects which skin to return from EditorGUIUtility.GetBuiltinSkin.
+---@field Inspector fun() @The skin used for inspectors.
+---@field Scene fun() @The skin used for Scene views.
+---@field Game fun() @The skin used for game views.

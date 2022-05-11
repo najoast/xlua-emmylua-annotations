@@ -1,0 +1,15 @@
+---@class ParticleSystemJobs.ParticleSystemJobData @This struct specifies all the per-particle data.
+---@field meshIndices fun() @Specifies a mesh index for each particle.
+---@field inverseStartLifetimes fun() @The lifetime of each particle, stored as 1.0f / lifetime.
+---@field customData2 fun() @This array contains the custom data values when you use a CustomDataModule, or when you call SetCustomParticleData.
+---@field axisOfRotations fun() @Specifies an axis of rotation for each particles, in radians.
+---@field rotationalSpeeds fun() @The angular velocity of each particle.
+---@field customData1 fun() @This array contains the custom data values when you use a CustomDataModule, or when you call SetCustomParticleData.
+---@field positions fun() @The position of each particle.
+---@field sizes fun() @The size of each particle.
+---@field count fun() @Specifies the number of particles alive in the Particle System.
+---@field startColors fun() @The initial color of each particle.
+---@field velocities fun() @The velocity of each particle.
+---@field rotations fun() @The rotation of each particle.
+---@field randomSeeds fun() @The random seed assigned to each particle.
+---@field aliveTimePercent fun() @Specifies how long each particle has been alive.

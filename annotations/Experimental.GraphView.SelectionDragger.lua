@@ -1,0 +1,7 @@
+---@class Experimental.GraphView.SelectionDragger @Selection dragger manipulator.
+---@field OnMouseMove fun() @Called on mouse move event.
+---@field ctor fun() @SelectionDragger's constructor.
+---@field RegisterCallbacksOnTarget fun() @Called to register click event callbacks on the target element.
+---@field OnMouseDown fun() @Called on mouse down event.
+---@field UnregisterCallbacksFromTarget fun() @Called to unregister event callbacks from the target element.
+---@field OnMouseUp fun() @Called on mouse up event.

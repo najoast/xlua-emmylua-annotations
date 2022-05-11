@@ -1,0 +1,3 @@
+---@class LogOption @Option flags for specifying special treatment of a log message.
+---@field None fun() @Normal log message.
+---@field NoStacktrace fun() @The log message will not have a stacktrace appended automatically.

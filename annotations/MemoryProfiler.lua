@@ -1,0 +1,11 @@
+---@class MemoryProfiler @nil
+---@field MemorySection MemoryProfiler.MemorySection @A dump of a piece of memory from the player that's being profiled.
+---@field PackedNativeType MemoryProfiler.PackedNativeType @A description of a C++ unity type.
+---@field Connection MemoryProfiler.Connection @A pair of from and to indices describing what thing keeps what other thing alive.
+---@field PackedMemorySnapshot MemoryProfiler.PackedMemorySnapshot @PackedMemorySnapshot is a compact representation of a memory snapshot.
+---@field VirtualMachineInformation MemoryProfiler.VirtualMachineInformation @Information about the virtual machine running executing the managed code inside the player.
+---@field TypeDescription MemoryProfiler.TypeDescription @Description of a managed type.
+---@field FieldDescription MemoryProfiler.FieldDescription @Description of a field of a managed type.
+---@field PackedGCHandle MemoryProfiler.PackedGCHandle @A description of a GC handle used by the virtual machine.
+---@field PackedNativeUnityEngineObject MemoryProfiler.PackedNativeUnityEngineObject @Description of a C++ unity object in memory.
+---@field MemorySnapshot MemoryProfiler.MemorySnapshot @MemorySnapshot is a profiling tool to help diagnose memory usage.

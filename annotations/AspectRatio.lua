@@ -1,0 +1,6 @@
+---@class AspectRatio @Aspect ratio.
+---@field Aspect16by10 fun() @16:10 aspect ratio.
+---@field AspectOthers fun() @Undefined aspect ratios.
+---@field Aspect16by9 fun() @16:9 aspect ratio.
+---@field Aspect5by4 fun() @5:4 aspect ratio.
+---@field Aspect4by3 fun() @4:3 aspect ratio.

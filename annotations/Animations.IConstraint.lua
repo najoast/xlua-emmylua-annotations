@@ -1,0 +1,11 @@
+---@class Animations.IConstraint @The common interface for constraint components.
+---@field sourceCount fun() @Gets the number of sources currently set on the component.
+---@field SetSources fun() @Sets the list of sources on the component.
+---@field AddSource fun() @Add a constraint source.
+---@field locked fun() @Lock or unlock the offset and position at rest.
+---@field GetSource fun() @Gets a constraint source by index.
+---@field constraintActive fun() @Activate or deactivate the constraint.
+---@field RemoveSource fun() @Removes a source from the component.
+---@field SetSource fun() @Sets a source at a specified index.
+---@field GetSources fun() @Gets the list of sources.
+---@field weight fun() @The weight of the constraint component.

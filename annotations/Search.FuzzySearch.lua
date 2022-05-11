@@ -1,0 +1,2 @@
+---@class Search.FuzzySearch @Provides a method to match query text using a fuzzy search algorithm.
+---@field FuzzyMatch fun() @Performs a fuzzy search for a pattern on a string.

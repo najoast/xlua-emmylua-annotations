@@ -1,0 +1,3 @@
+---@class SendMessageOptions @Options for how to send a message.
+---@field DontRequireReceiver fun() @No receiver is required for SendMessage.
+---@field RequireReceiver fun() @A receiver is required for SendMessage.

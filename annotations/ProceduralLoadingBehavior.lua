@@ -1,0 +1,7 @@
+---@class ProceduralLoadingBehavior @Deprecated feature, no longer available
+---@field Cache fun() @Deprecated feature, no longer available
+---@field BakeAndDiscard fun() @Deprecated feature, no longer available
+---@field DoNothingAndCache fun() @Deprecated feature, no longer available
+---@field DoNothing fun() @Deprecated feature, no longer available
+---@field Generate fun() @Deprecated feature, no longer available
+---@field BakeAndKeep fun() @Deprecated feature, no longer available

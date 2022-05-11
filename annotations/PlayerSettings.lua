@@ -1,0 +1,183 @@
+---@class PlayerSettings @Player Settings is where you define various parameters for the final game that you will build in Unity. Some of these values are used in the Resolution Dialog that launches when you open a standalone game.
+---@field GetSupportedIconKindsForPlatform fun() @BuildTargetGroup is marked for deprecation in the future. Use PlayerSettings.GetSupportedIconKinds instead.
+---@field XboxOne fun() @Xbox One Specific Player Settings.
+---@field apiCompatibilityLevel fun() @Deprecated. Use PlayerSettings.GetApiCompatibilityLevel and PlayerSettings.SetApiCompatibilityLevel instead.
+---@field SetAdditionalIl2CppArgs fun() @Set additional arguments passed to the IL2CPP compiler during the build process.
+---@field GetPropertyOptionalInt fun() @Searches for property and assigns it's value to given variable.
+---@field companyName fun() @The name of your company.
+---@field GetNormalMapEncoding fun() @Gets the NormalMapEncoding for the build target you select.
+---@field Switch PlayerSettings.Switch @Nintendo Switch Player settings.
+---@field GetIconsForTargetGroup fun() @BuildTargetGroup is marked for deprecation in the future. Use PlayerSettings.GetIcons instead.
+---@field useReferenceAssemblies fun() @Set to true to make Unity use Roslyn reference assemblies when compiling scripts. Enabled by default.
+---@field openGLRequireES31 fun() @Specifies whether the application requires OpenGL ES 3.1 support.
+---@field GetShaderPrecisionModel fun() @Gets the active shader precision model.
+---@field vulkanEnableSetSRGBWrite fun() @Enables Graphics.SetSRGBWrite() on Vulkan renderer.
+---@field GetPropertyOptionalString fun() @Searches for property and assigns it's value to given variable.
+---@field showUnitySplashScreen fun() @Should the builtin Unity splash screen be shown?
+---@field enableCrashReportAPI fun() @Enables CrashReport API.
+---@field SetNormalMapEncoding fun() @Sets the normal map encoding for the given build target.
+---@field WSAImageScale PlayerSettings.WSAImageScale @Options for the set of sizing values to apply to the Universal Windows Platform logo and icon images. These options specify variations for different screen sizes and resolutions.
+---@field allowedAutorotateToLandscapeLeft fun() @Is auto-rotation to landscape left supported?
+---@field SplashScreen PlayerSettings.SplashScreen @Interface to splash screen player settings.
+---@field D3DHDRBitDepth fun() @The number of bits in each color channel for swap chain buffers. (Direct3D 11 and Direct3D 12 mode).
+---@field uploadClearedTextureDataAfterCreationFromScript fun() @Upload the initialized Texture data after creation from script.
+---@field enableInternalProfiler fun() @Enables internal profiler.
+---@field use32BitDisplayBuffer fun() @32-bit Display Buffer is used.
+---@field vulkanEnableLateAcquireNextImage fun() @Delays acquiring the swapchain image until after the frame is rendered.
+---@field useHDRDisplay fun() @Switch display to HDR mode (if available).
+---@field enable360StereoCapture fun() @Enable 360 Stereo Capture support on the current build target.
+---@field Facebook fun() @Facebook specific Player settings.
+---@field stereoRenderingPath fun() @Active stereo rendering path
+---@field GetIcons fun() @Returns the list of assigned icons for the specified build target.
+---@field usePlayerLog fun() @Write a log file with debugging information.
+---@field SetVirtualRealitySupported fun() @Sets whether or not Virtual Reality Support is enabled for a given BuildTargetGroup.
+---@field SetIconsForTargetGroup fun() @BuildTargetGroup is marked for deprecation in the future. Use PlayerSettings.SetIcons instead.
+---@field forceSingleInstance fun() @Restrict standalone players to a single concurrent running instance.
+---@field stripUnusedMeshComponents fun() @Should unused Mesh components be excluded from game build?
+---@field GetMobileMTRendering fun() @Check if multithreaded rendering option for mobile platform is enabled.
+---@field useAnimatedAutorotation fun() @Let the OS autorotate the screen as the device orientation changes.
+---@field renderingPath fun() @Which rendering path is enabled?
+---@field keystorePass fun() @Password used for interacting with the Android Keystore.
+---@field SetUseDefaultGraphicsAPIs fun() @Should a build platform use automatic graphics API choice.
+---@field d3d11FullscreenMode fun() @Define how to handle fullscreen mode in Windows standalones (Direct3D 11 mode).
+---@field GetUseDefaultGraphicsAPIs fun() @Is a build platform using automatic graphics API choice?
+---@field openGLRequireES31AEP fun() @Specifies whether the application requires OpenGL ES 3.1 AEP support.
+---@field assemblyVersionValidation fun() @Set to true to exact version matching for strong named assemblies.
+---@field virtualRealitySplashScreen fun() @Virtual Reality specific splash screen.
+---@field graphicsJobs fun() @Enable graphics jobs (multi threaded rendering).
+---@field logObjCUncaughtExceptions fun() @Are ObjC uncaught exceptions logged?
+---@field SetScriptingBackend fun() @Sets the scripting framework for a given build target.
+---@field colorSpace fun() @Set the rendering color space for the current project.
+---@field scriptingRuntimeVersion fun() @The scripting runtime version setting. Change this to set the version the Editor uses and restart the Editor to apply the change.
+---@field GetIconSizes fun() @Returns a list of icon sizes for the specified platform.
+---@field SetArchitecture fun() @Sets the architecture for the given build target.
+---@field actionOnDotNetUnhandledException fun() @Sets the crash behavior on .NET unhandled exception.
+---@field WSATargetFamily PlayerSettings.WSATargetFamily @Options for the set of Universal Windows Platform device families your application can directly support.
+---@field WSAFileTypeAssociations PlayerSettings.WSAFileTypeAssociations @Represents the file types to register the application as a default handler for.
+---@field GetPreloadedAssets fun() @Returns the assets that will be loaded at start up in the player and be kept alive until the player terminates.
+---@field defaultScreenHeight fun() @Default vertical dimension of stand-alone player window.
+---@field GetVirtualTexturingSupportEnabled fun() @Is virtual texturing enabled.
+---@field SetPropertyString fun() @Sets a PlayerSettings named string property.
+---@field enableFrameTimingStats fun() @Enable frame timing statistics.
+---@field useFlipModelSwapchain fun() @Use DXGI Flip Model Swapchain for D3D11
+---@field preserveFramebufferAlpha fun() @When enabled, preserves the alpha value in the framebuffer to support rendering over native UI on Android.
+---@field SetPreloadedAssets fun() @Assigns the assets that will be loaded at start up in the player and be kept alive until the player terminates.
+---@field SetPlatformIcons fun() @Assign a list of icons for the specified platform and icon kind.
+---@field enableMetalAPIValidation fun() @Enables Metal API validation in the Editor.
+---@field SetShaderPrecisionModel fun() @Sets the shader precision model.
+---@field vulkanUseSWCommandBuffers fun() @Use software command buffers for building rendering commands on Vulkan.
+---@field GetSupportedIconKinds fun() @Retrieves all icon kinds that the specified build target supports
+---@field firstStreamedLevelWithResources fun() @First level to have access to all Resources.Load assets in Streamed Web Players.
+---@field fullScreenMode fun() @Platform agnostic setting to define fullscreen behavior. Not all platforms support all modes.
+---@field mipStripping fun() @Enable mip stripping for all platforms.
+---@field SetAdditionalCompilerArguments fun() @Sets additional compiler arguments for a build target.
+---@field stripEngineCode fun() @Remove unused Engine code from your build (IL2CPP-only).
+---@field stereoscopic3D fun() @Should player render in stereoscopic 3d on supported hardware?
+---@field useMacAppStoreValidation fun() @Enable receipt validation for the Mac App Store.
+---@field vulkanEnablePreTransform fun() @Applies the display rotation during rendering.
+---@field GetAdditionalCompilerArguments fun() @Gets an array of additional compiler arguments set for a specific NamedBuildTarget.
+---@field productName fun() @The name of your product.
+---@field GetManagedStrippingLevel fun() @Gets the managed code stripping level set for the build target you select
+---@field GetApiCompatibilityLevel fun() @Gets .NET API compatibility level for specified build target.
+---@field visibleInBackground fun() @On Windows, show the application in the background if Fullscreen Windowed mode is used.
+---@field SplashScreenLogo PlayerSettings.SplashScreenLogo @A single logo that is shown during the Splash Screen. Controls the Sprite that is displayed and its duration.
+---@field WSAApplicationForegroundText PlayerSettings.WSAApplicationForegroundText @Values for the color style of the title text that appears within the Universal Windows Platform application tiles.
+---@field allowedAutorotateToPortraitUpsideDown fun() @Is auto-rotation to portrait upside-down supported?
+---@field defaultWebScreenWidth fun() @Default horizontal dimension of web player window.
+---@field WebGL PlayerSettings.WebGL @WebGL specific player settings.
+---@field defaultCursor fun() @The default cursor for your application.
+---@field SetApiCompatibilityLevel fun() @Sets .NET API compatibility level for specified build target.
+---@field locationUsageDescription fun() @Describes the reason for access to the user's location data.
+---@field vulkanNumSwapchainBuffers fun() @Set number of swapchain buffers to be used with Vulkan renderer
+---@field SetIl2CppCompilerConfiguration fun() @Sets compiler configuration used when compiling generated C++ code for a particular build target.
+---@field iPhoneBundleIdentifier fun() @The bundle identifier of the iPhone application.
+---@field statusBarHidden fun() @Returns if status bar should be hidden. Supported on iOS only; on Android, the status bar is always hidden.
+---@field GetScriptingDefineSymbols fun() @Gets the user-specified symbols for script compilation for the build target you select.
+---@field GetIl2CppCompilerConfiguration fun() @Gets compiler configuration used when compiling generated C++ code for the build target you specify.
+---@field GetGraphicsAPIs fun() @Get graphics APIs to be used on a build platform.
+---@field resolutionDialogBanner fun() @The image to display in the Resolution Dialog window.
+---@field WSA PlayerSettings.WSA @Provides access to Microsoft Store App-specific player settings.
+---@field WSAInputSource PlayerSettings.WSAInputSource @Options for the input source from which a XAML application can receive pointer input events.
+---@field WSAImageType PlayerSettings.WSAImageType @Options for the icon and logo image types that represent the application. For example, images to display within the Microsoft Store, start menu, or taskbar.
+---@field WSADefaultTileSize PlayerSettings.WSADefaultTileSize @Options for the application's default tile size.
+---@field SetVirtualTexturingSupportEnabled fun() @Enable virtual texturing.
+---@field legacyClampBlendShapeWeights fun() @Defines whether the BlendShape weight range in SkinnedMeshRenderers is clamped.
+---@field allowFullscreenSwitch fun() @If enabled, allows the user to switch between full screen and windowed mode using OS specific keyboard short cuts.
+---@field allowUnsafeCode fun() @Allow 'unsafe' C# code code to be compiled for predefined assemblies.
+---@field gcIncremental fun() @Allows you to enable or disable incremental mode for garbage collection.
+---@field protectGraphicsMemory fun() @Protect graphics memory.
+---@field singlePassStereoRendering fun() @Should Unity support single-pass stereo rendering?
+---@field openGLRequireES32 fun() @Specifies whether the application requires OpenGL ES 3.2 support.
+---@field GetIconSizesForTargetGroup fun() @BuildTargetGroup is marked for deprecation in the future. Use PlayerSettings.GetIconSizes instead.
+---@field WSASupportedFileType PlayerSettings.WSASupportedFileType @Represents a single file and content type to register the application as a default handler for.
+---@field aotOptions fun() @Additional AOT compilation options. Shared by AOT platforms.
+---@field VRWindowsMixedReality PlayerSettings.VRWindowsMixedReality @Windows Mixed Reality specific Player Settings.
+---@field SetScriptingDefineSymbols fun() @Set user-specified symbols for script compilation for the given build target.
+---@field cloudProjectId fun() @A unique cloud project identifier. It is unique for every project (Read Only).
+---@field defaultScreenWidth fun() @Default horizontal dimension of stand-alone player window.
+---@field WSACompilationOverrides fun() @Compilation overrides for C# files.
+---@field defaultWebScreenHeight fun() @Default vertical dimension of web player window.
+---@field SetTemplateCustomValue fun() @Sets a value of a custom template variable.
+---@field bakeCollisionMeshes fun() @Pre bake collision meshes on player build.
+---@field GetStackTraceLogType fun() @Gets stack trace logging options.
+---@field SetScriptingDefineSymbolsForGroup fun() @BuildTargetGroup is marked for deprecation in the future. Use PlayerSettings.SetScriptingDefineSymbols instead.
+---@field SetPropertyInt fun() @Sets a PlayerSettings named int property.
+---@field GetAdditionalIl2CppArgs fun() @Obtain the additional arguments passed to the IL2CPP compiler during the player build process.
+---@field GetPropertyBool fun() @This is now obsolete. Use an explicit API instead. For example, PlayerSettings.WebGL.useEmbeddedResources.
+---@field Android PlayerSettings.Android @Android specific player settings.
+---@field GetApplicationIdentifier fun() @Get the application identifier for the specified platform.
+---@field virtualRealitySupported fun() @Enable Virtual Reality support on the current build target.
+---@field bundleVersion fun() @Application bundle version shared between iOS &amp; Android platforms.
+---@field SetMobileMTRendering fun() @Enable or disable multithreaded rendering option for mobile platform.
+---@field SetManagedStrippingLevel fun() @Sets the managed code stripping level for specified build target.
+---@field SetIncrementalIl2CppBuild fun() @Sets incremental build flag.
+---@field SetIcons fun() @Assigns a list of icons for the specified platform.
+---@field SetGraphicsAPIs fun() @Sets the graphics APIs used on a build platform.
+---@field allowedAutorotateToPortrait fun() @Is auto-rotation to portrait supported?
+---@field SetAspectRatio fun() @Enables the specified aspect ratio.
+---@field SetPropertyBool fun() @This is now obsolete. Use an explicit API instead. For example, PlayerSettings.WebGL.useEmbeddedResources.
+---@field SetAdditionalCompilerArgumentsForGroup fun() @BuildTargetGroup is marked for deprecation in the future. Use PlayerSettings.SetAdditionalCompilerArguments instead.
+---@field resizableWindow fun() @Use resizable window in standalone player builds.
+---@field defaultInterfaceOrientation fun() @Default screen orientation for mobiles.
+---@field GetArchitecture fun() @Gets the architecture for the given build target.
+---@field d3d9FullscreenMode fun() @Define how to handle fullscreen mode in Windows standalones (Direct3D 9 mode).
+---@field strippingLevel fun() @Deprecated. Use PlayerSettings.GetManagedStrippingLevel and PlayerSettings.SetManagedStrippingLevel instead.
+---@field HasAspectRatio fun() @Returns whether or not the specified aspect ratio is enabled.
+---@field GetVirtualRealitySupported fun() @Returns whether or not Virtual Reality Support is enabled for a given BuildTargetGroup.
+---@field WSAApplicationShowName PlayerSettings.WSAApplicationShowName @Options for which tile types to display the application name on.
+---@field defaultIsFullScreen fun() @If enabled, the game will default to fullscreen mode.
+---@field GetTemplateCustomValue fun() @Returns a value of a custom template variable.
+---@field SetStackTraceLogType fun() @Set stack trace logging options.Note: calling this function will implicitly call Application.SetStackTraceLogType.
+---@field tvOS PlayerSettings.tvOS @tvOS specific player settings.
+---@field muteOtherAudioSources fun() @Stops or allows audio from other applications to play in the background while your Unity application is running.
+---@field keyaliasPass fun() @Password for the key used for signing an Android application.
+---@field graphicsJobMode fun() @Selects the graphics job mode to use on platforms that support both Native and Legacy graphics jobs.
+---@field gpuSkinning fun() @Enable GPU skinning on capable platforms.
+---@field GetAdditionalCompilerArgumentsForGroup fun() @BuildTargetGroup is marked for deprecation in the future. Use PlayerSettings.GetAdditionalCompilerArguments instead.
+---@field displayResolutionDialog fun() @Defines the behaviour of the Resolution Dialog on product launch.
+---@field allowedAutorotateToLandscapeRight fun() @Is auto-rotation to landscape right supported?
+---@field GetScriptingDefineSymbolsForGroup fun() @BuildTargetGroup is marked for deprecation in the future. Use PlayerSettings.GetScriptingDefineSymbols instead.
+---@field GetScriptingBackend fun() @Gets the scripting framework for the build target you select.
+---@field enableOpenGLProfilerGPURecorders fun() @Enable ProfilerRecorder usage to record GPU timings when rendering with OpenGL.
+---@field GetPropertyString fun() @Returns a PlayerSettings named string property (with an optional build target it should apply to).
+---@field runInBackground fun() @If enabled, your game will continue to run after lost focus.
+---@field cursorHotspot fun() @Default cursor's click position in pixels from the top left corner of the cursor image.
+---@field accelerometerFrequency fun() @Accelerometer update frequency.
+---@field useDirect3D11 fun() @Should Direct3D 11 be used when available?
+---@field captureSingleScreen fun() @Defines if fullscreen games should darken secondary displays.
+---@field PS4 PlayerSettings.PS4 @Player Settings for the PlayStation®4.
+---@field applicationIdentifier fun() @The application identifier for the currently selected build target.
+---@field GetPropertyInt fun() @Returns a PlayerSettings named int property (with an optional build target it should apply to).
+---@field GetIncrementalIl2CppBuild fun() @Gets the value of incremental il2cpp build option.
+---@field WSACapability PlayerSettings.WSACapability @Options for Universal Windows Platform application capabilities.
+---@field macRetinaSupport fun() @Enable Retina support for macOS.
+---@field GetPropertyOptionalBool fun() @Searches for property and assigns it's value to given variable.
+---@field GetPlatformIcons fun() @Gets the list of available icon slots for the specified build target and  kind.
+---@field splashScreenStyle fun() @The style to use for the builtin Unity splash screen.
+---@field MTRendering fun() @Is multi-threaded rendering enabled?
+---@field advancedLicense fun() @Is the advanced version being used?
+---@field GetDefaultScriptingBackend fun() @Returns the default ScriptingImplementation for the build target you select.
+---@field SetApplicationIdentifier fun() @Set the application identifier for the specified platform.
+---@field macFullscreenMode fun() @Define how to handle fullscreen mode in macOS standalones.
+---@field suppressCommonWarnings fun() @Suppresses common C# warnings.
+---@field iOS PlayerSettings.iOS @iOS specific player settings.

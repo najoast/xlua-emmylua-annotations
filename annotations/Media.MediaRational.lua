@@ -1,0 +1,11 @@
+---@class Media.MediaRational @Rational number useful for expressing fractions precisely.
+---@field ctor fun() @Constructs a rational number. The version that omits the denominator sets it to 1.
+---@field numerator fun() @Fraction numerator.
+---@field isNegative fun() @Whether the rational number is negative.
+---@field isValid fun() @Whether the rational number is valid.
+---@field Set fun() @Sets the numerator and denominator, performing normalization.
+---@field operator_ fun() @Returns the rational value expressed as a floating point value.
+---@field isZero fun() @Whether the rational number is zero.
+---@field Invalid fun() @Invalid rational value.
+---@field inverse fun() @The inverse of the rational number.
+---@field denominator fun() @Fraction denominator.

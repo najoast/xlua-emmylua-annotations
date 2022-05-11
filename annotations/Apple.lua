@@ -1,0 +1,4 @@
+---@class Apple @nil
+---@field FrameCaptureDestination Apple.FrameCaptureDestination @Destination of Frame CaptureThis is a wrapper for MTLCaptureDestination.
+---@field FrameCapture Apple.FrameCapture @Interface to control XCode Frame Capture.
+---@field ReplayKit fun() @nil

@@ -1,0 +1,37 @@
+---@class RenderTexture @Render textures are textures that can be rendered to.
+---@field useDynamicScale fun() @Is the render texture marked to be scaled by the Dynamic Resolution system.
+---@field stencilFormat fun() @The format of the stencil data that you can encapsulate within a RenderTexture.Specifying this property creates a stencil element for the RenderTexture and sets its format.This allows for stencil data to be bound as a Texture to all shader types for the platforms that support it.This property does not specify the format of the stencil buffer, which is constrained by the depth buffer format specified in RenderTexture.depth.Currently, most platforms only support R8_UInt (DirectX11, DirectX12), while PS4 also supports R8_UNorm.
+---@field GetTemporary fun() @Allocate a temporary render texture.
+---@field antiAliasing fun() @The antialiasing level for the RenderTexture.
+---@field memorylessMode fun() @The render texture memoryless mode property.
+---@field DiscardContents fun() @Hint the GPU driver that the contents of the RenderTexture will not be used.
+---@field colorBuffer fun() @Color buffer of the render texture (Read Only).
+---@field depth fun() @The precision of the render texture's depth buffer in bits (0, 16, 24 and 32 are supported).
+---@field height fun() @The height of the render texture in pixels.
+---@field ConvertToEquirect fun() @Converts the render texture to equirectangular format (both stereoscopic or monoscopic equirect).The left eye will occupy the top half and the right eye will occupy the bottom. The monoscopic version will occupy the whole texture.Texture dimension must be of type TextureDimension.Cube.
+---@field MarkRestoreExpected fun() @Indicate that there's a RenderTexture restore operation expected.
+---@field SupportsStencil fun() @Does a RenderTexture have stencil buffer?
+---@field depthBuffer fun() @Depth/stencil buffer of the render texture (Read Only).
+---@field sRGB fun() @Does this render texture use sRGB read/write conversions? (Read Only).
+---@field depthStencilFormat fun() @The format of the depth/stencil buffer.
+---@field graphicsFormat fun() @The color format of the render texture. You can set the color format to None to achieve depth-only rendering.
+---@field volumeDepth fun() @Volume extent of a 3D render texture or number of slices of array texture.
+---@field ctor fun() @Creates a new RenderTexture object.
+---@field autoGenerateMips fun() @Mipmap levels are generated automatically when this flag is set.
+---@field vrUsage fun() @If this RenderTexture is a VR eye texture used in stereoscopic rendering, this property decides what special rendering occurs, if any.
+---@field width fun() @The width of the render texture in pixels.
+---@field useMipMap fun() @Render texture has mipmaps when this flag is set.
+---@field descriptor fun() @This struct contains all the information required to create a RenderTexture. It can be copied, cached, and reused to easily create RenderTextures that all share the same properties.
+---@field GetNativeDepthBufferPtr fun() @Retrieve a native (underlying graphics API) pointer to the depth buffer resource.
+---@field bindTextureMS fun() @If true and antiAliasing is greater than 1, the render texture will not be resolved by default.  Use this if the render texture needs to be bound as a multisampled texture in a shader.
+---@field ReleaseTemporary fun() @Release a temporary texture allocated with GetTemporary.
+---@field SetGlobalShaderProperty fun() @Assigns this RenderTexture as a global shader property named propertyName.
+---@field ResolveAntiAliasedSurface fun() @Force an antialiased render texture to be resolved.
+---@field Release fun() @Releases the RenderTexture.
+---@field IsCreated fun() @Is the render texture actually created?
+---@field isVolume fun() @If enabled, this Render Texture will be used as a Texture3D.
+---@field active fun() @Currently active render texture.
+---@field GenerateMips fun() @Generate mipmap levels of a render texture.
+---@field Create fun() @Actually creates the RenderTexture.
+---@field enableRandomWrite fun() @Enable random access write into this render texture on Shader Model 5.0 level shaders.
+---@field dimension fun() @Dimensionality (type) of the render texture.

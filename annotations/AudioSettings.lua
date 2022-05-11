@@ -1,0 +1,14 @@
+---@class AudioSettings @Controls the global audio settings from script.
+---@field dspTime fun() @Returns the current time of the audio system.
+---@field GetDSPBufferSize fun() @Get the mixer's buffer size in samples.
+---@field GetSpatializerPluginName fun() @Returns the name of the spatializer selected on the currently-running platform.
+---@field AudioConfigurationChangeHandler fun() @A delegate called whenever the global audio settings are changed, either by AudioSettings.Reset or by an external device change such as the OS control panel changing the sample rate or because the default output device was changed, for example when plugging in an HDMI monitor or a USB headset.
+---@field outputSampleRate fun() @Get the mixer's current output rate.
+---@field speakerMode fun() @Gets the current speaker mode. Default is 2 channel stereo.
+---@field OnAudioConfigurationChanged fun() @A delegate called whenever the global audio settings are changed, either by AudioSettings.Reset or by an external factor such as the OS control panel changing the sample rate or because the default output device was changed, for example when plugging in an HDMI monitor or a USB headset.
+---@field Reset fun() @Performs a change of the device configuration. In response to this the AudioSettings.OnAudioConfigurationChanged delegate is invoked with the argument deviceWasChanged=false. It cannot be guaranteed that the exact settings specified can be used, but the an attempt is made to use the closest match supported by the system.
+---@field GetSpatializerPluginNames fun() @Returns an array with the names of all the available spatializer plugins.
+---@field Mobile AudioSettings.Mobile @This class encapsulates properties and methods to handle audio output thread on iOS/Android.
+---@field GetConfiguration fun() @Returns the current configuration of the audio device and system. The values in the struct may then be modified and reapplied via AudioSettings.Reset.
+---@field driverCapabilities fun() @Returns the speaker mode capability of the current audio driver. (Read Only)
+---@field SetSpatializerPluginName fun() @Sets the spatializer plugin for all platform groups. If a null or empty string is passed in, the existing spatializer plugin will be cleared.

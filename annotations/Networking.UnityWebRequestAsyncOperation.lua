@@ -1,0 +1,2 @@
+---@class Networking.UnityWebRequestAsyncOperation @Asynchronous operation object returned from UnityWebRequest.SendWebRequest().You can yield until it continues, register an event handler with AsyncOperation.completed, or manually check whether it's done (AsyncOperation.isDone) or progress (AsyncOperation.progress).
+---@field webRequest fun() @Returns the associated UnityWebRequest that created the operation.

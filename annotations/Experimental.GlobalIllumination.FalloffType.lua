@@ -1,0 +1,6 @@
+---@class Experimental.GlobalIllumination.FalloffType @Available falloff models for baking.
+---@field InverseSquaredNoRangeAttenuation fun() @Inverse squared distance falloff model (without smooth range attenuation).
+---@field InverseSquared fun() @Inverse squared distance falloff model.
+---@field Undefined fun() @Falloff model is undefined.
+---@field Linear fun() @Linear falloff model.
+---@field Legacy fun() @Quadratic falloff model.

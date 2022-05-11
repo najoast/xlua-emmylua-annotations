@@ -1,0 +1,4 @@
+---@class FogMode @Fog mode to use.
+---@field Exponential fun() @Exponential fog.
+---@field ExponentialSquared fun() @Exponential squared fog (default).
+---@field Linear fun() @Linear fog.

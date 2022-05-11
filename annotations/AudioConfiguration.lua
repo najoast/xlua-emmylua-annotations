@@ -1,0 +1,6 @@
+---@class AudioConfiguration @Specifies the current properties or desired properties to be set for the audio system.
+---@field numVirtualVoices fun() @The  maximum number of managed sounds in the game. Beyond this limit sounds will simply stop playing.
+---@field sampleRate fun() @The current sample rate of the audio output device used.
+---@field numRealVoices fun() @The current maximum number of simultaneously audible sounds in the game.
+---@field speakerMode fun() @The current speaker mode used by the audio output device.
+---@field dspBufferSize fun() @The length of the DSP buffer in samples determining the latency of sounds by the audio output device.

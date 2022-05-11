@@ -1,0 +1,5 @@
+---@class Tilemaps.TilemapRenderer.SortOrder @Sort order for all tiles rendered by the TilemapRenderer.
+---@field BottomRight fun() @Sorts tiles for rendering starting from the tile with the highest X and the lowest Y cell positions.
+---@field TopRight fun() @Sorts tiles for rendering starting from the tile with the highest X and the lowest Y cell positions.
+---@field TopLeft fun() @Sorts tiles for rendering starting from the tile with the lowest X and the highest Y cell positions.
+---@field BottomLeft fun() @Sorts tiles for rendering starting from the tile with the lowest X and the lowest Y cell positions.

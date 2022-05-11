@@ -1,0 +1,2 @@
+---@class SearchService.IFilterEngine_1 @The base interface for search engines that implement a filter operation.
+---@field Filter fun() @This function checks whether or not the specified element satisfies the search query.

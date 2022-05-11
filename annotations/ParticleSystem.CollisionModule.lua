@@ -1,0 +1,30 @@
+---@class ParticleSystem.CollisionModule @Script interface for the CollisionMmodule of a Particle System.
+---@field enableDynamicColliders fun() @Allow particles to collide with dynamic colliders when using world collision mode.
+---@field planeCount fun() @Shows the number of planes currently set as Colliders.
+---@field maxPlaneCount fun() @The maximum number of planes it is possible to set as colliders.
+---@field multiplyColliderForceByParticleSize fun() @Specifies whether the physics system considers particle sizes when it applies forces to Colliders.
+---@field lifetimeLoss fun() @How much a collision reduces a particle's lifetime.
+---@field multiplyColliderForceByParticleSpeed fun() @Specifies whether the physics system considers particle speeds when it applies forces to Colliders.
+---@field colliderForce fun() @How much force is applied to a Collider when hit by particles from this Particle System.
+---@field quality fun() @Specifies the accuracy of particle collisions against colliders in the Scene.
+---@field type fun() @The type of particle collision to perform.
+---@field maxKillSpeed fun() @Kill particles whose speed goes above this threshold, after a collision.
+---@field sendCollisionMessages fun() @Send collision callback messages.
+---@field bounce fun() @How much force is applied to each particle after a collision.
+---@field GetPlane fun() @Get a collision plane associated with this Particle System.
+---@field AddPlane fun() @Adds a collision plane to use with this Particle System.
+---@field voxelSize fun() @Size of voxels in the collision cache.
+---@field RemovePlane fun() @Removes a collision plane associated with this Particle System.
+---@field radiusScale fun() @A multiplier that Unity applies to the size of each particle before collisions are processed.
+---@field SetPlane fun() @Set a collision plane to use with this Particle System.
+---@field maxCollisionShapes fun() @The maximum number of collision shapes Unity considers for particle collisions. It ignores excess shapes. Terrains take priority.
+---@field mode fun() @Choose between 2D and 3D world collisions.
+---@field dampen fun() @How much speed does each particle lose after a collision.
+---@field minKillSpeed fun() @Kill particles whose speed falls below this threshold, after a collision.
+---@field enableInteriorCollisions fun() @Allow particles to collide when inside colliders.
+---@field collidesWith fun() @Control which Layers this Particle System collides with.
+---@field enabled fun() @Specifies whether the CollisionModule is enabled or disabled.
+---@field lifetimeLossMultiplier fun() @Change the lifetime loss multiplier.
+---@field bounceMultiplier fun() @A multiplier for ParticleSystem.CollisionModule._bounce.
+---@field dampenMultiplier fun() @Change the dampen multiplier.
+---@field multiplyColliderForceByCollisionAngle fun() @Specifies whether the physics system considers the collision angle when it applies forces from particles to Colliders.

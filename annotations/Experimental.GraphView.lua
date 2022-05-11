@@ -1,0 +1,70 @@
+---@class Experimental.GraphView @nil
+---@field EdgeControl Experimental.GraphView.EdgeControl @VisualElement that draws the edge lines and detects if mouse is on top of edge.
+---@field IResizable Experimental.GraphView.IResizable @Resizable interface.
+---@field EdgeConnector Experimental.GraphView.EdgeConnector @Manipulator for creating new edges.
+---@field Port Experimental.GraphView.Port @GraphView Port class.
+---@field IconBadge Experimental.GraphView.IconBadge @A rectangular badge, usually attached to another visual element.
+---@field GraphViewBlackboardWindow Experimental.GraphView.GraphViewBlackboardWindow @The base class for a floating window that contains a Blackboard.
+---@field PlacematContainer Experimental.GraphView.PlacematContainer @The GraphView layer for placemats.
+---@field ClickSelector Experimental.GraphView.ClickSelector @Selects element on single click.
+---@field EventPropagation Experimental.GraphView.EventPropagation @Value that determines if a event handler stops propagation of events or allows it to continue.
+---@field StickyNoteFontSize Experimental.GraphView.StickyNoteFontSize @Enum used to describe the font size used by the [StickyNote].
+---@field Orientation Experimental.GraphView.Orientation @Graph element orientation.
+---@field ISelection Experimental.GraphView.ISelection @Selection interface.
+---@field GraphElement Experimental.GraphView.GraphElement @Base class for main GraphView VisualElements.
+---@field Node Experimental.GraphView.Node @Main GraphView node class.
+---@field SearchWindow Experimental.GraphView.SearchWindow @This subclass displays a searchable menu of available graph nodes.
+---@field ISelectable Experimental.GraphView.ISelectable @Selectable interface.
+---@field Placemat Experimental.GraphView.Placemat @Allows interactive manipulation of elements (drag, hide) over a virtual placemat.
+---@field Dragger Experimental.GraphView.Dragger @Base manipulator for mouse-dragging elements.
+---@field Scope Experimental.GraphView.Scope @This class allows for nodes to be grouped into a common area, or Scope. This class includes methods that automatically resize and position the Scope to encompass the group of nodes.
+---@field SearchTreeEntry Experimental.GraphView.SearchTreeEntry @This class describes a search tree entry. The search window displays search tree entries in the GraphView.
+---@field NodeCreationContext Experimental.GraphView.NodeCreationContext @This struct represents the context when the user initiates creating a graph node.
+---@field GraphElementScopeExtensions Experimental.GraphView.GraphElementScopeExtensions @Set of extension methods useful for Scope.
+---@field BlackboardField Experimental.GraphView.BlackboardField @GraphElement that represents a field of a Graph.
+---@field EdgeManipulator Experimental.GraphView.EdgeManipulator @Edge manipulator used to drag edges off ports and reconnect them elsewhere.
+---@field IDroppable Experimental.GraphView.IDroppable @Droppable interface.
+---@field RectUtils Experimental.GraphView.RectUtils @Utilities for rectangle selections.
+---@field IEdgeConnectorListener Experimental.GraphView.IEdgeConnectorListener @Used by EdgeConnector manipulator to finish the actual edge creation. Its an interface the user can override and create edges in a different way.
+---@field IDropTarget Experimental.GraphView.IDropTarget @Drop target interface.
+---@field GraphViewChange Experimental.GraphView.GraphViewChange @Set of changes in the graph that can be intercepted.
+---@field Pill Experimental.GraphView.Pill @The Pill class includes methods for creating and managing a VisualElement that resembles a capsule. The Pill class includes text, an icon, and two optional child VisualElements: one to the left of the pill, and one to the right of the pill.
+---@field ISearchWindowProvider Experimental.GraphView.ISearchWindowProvider @This interface describes methods to manage a search session for graph nodes.
+---@field StickyNoteChange Experimental.GraphView.StickyNoteChange @Enum that specifies the type of change to the [StickyNote].
+---@field GraphViewMinimapWindow Experimental.GraphView.GraphViewMinimapWindow @A floating window containing a MiniMap.
+---@field ResizableElement Experimental.GraphView.ResizableElement @Instantiates a [ResizableElement] that you add as a child of the [VisualElement] that you want to resize.
+---@field ContentZoomer Experimental.GraphView.ContentZoomer @Manipulator that allows zooming in GraphView.
+---@field MiniMap Experimental.GraphView.MiniMap @MiniMap.
+---@field GraphViewEditorWindow Experimental.GraphView.GraphViewEditorWindow @Abstract base class for an editor window that contains a GraphView.
+---@field EdgeConnector_1 Experimental.GraphView.EdgeConnector_1 @Manipulator for creating new edges.
+---@field EdgeDragHelper Experimental.GraphView.EdgeDragHelper @EdgeDragHelper's constructor.
+---@field GridBackground Experimental.GraphView.GridBackground @Default GraphView background.
+---@field TokenNode Experimental.GraphView.TokenNode @The TokenNode class includes methods for creating and managing a Node that resembles a capsule. The TokenNode class includes a title, an icon, one input Port, and one output Port.
+---@field StickyNoteTheme Experimental.GraphView.StickyNoteTheme @Enum used to describe the visual theme used by the [StickyNote].
+---@field StickyNoteChangeEvent Experimental.GraphView.StickyNoteChangeEvent @The event sent when a [StickyNote] was changed.
+---@field ICollectibleElement Experimental.GraphView.ICollectibleElement @CollectibleElement interface.
+---@field SearchTreeGroupEntry Experimental.GraphView.SearchTreeGroupEntry @This class describes group entries in the search tree. The search tree is displayed in the search window.
+---@field BlackboardSection Experimental.GraphView.BlackboardSection @GraphElement that represents a section of members in a Blackboard.
+---@field Resizer Experimental.GraphView.Resizer @Resizer manipulator element.
+---@field StackNode Experimental.GraphView.StackNode @Use this class to customize StackNodes and to manage dragging GraphElements over StackNodes.
+---@field ShortcutHandler Experimental.GraphView.ShortcutHandler @Shortcut handler.
+---@field Direction Experimental.GraphView.Direction @Port direction (in or out).
+---@field GraphView Experimental.GraphView.GraphView @Main GraphView class.
+---@field FreehandSelector Experimental.GraphView.FreehandSelector @Freehand selection tool.
+---@field SelectionDropper Experimental.GraphView.SelectionDropper @Selection drag&amp;drop manipulator.
+---@field GraphViewToolWindow Experimental.GraphView.GraphViewToolWindow @Abstract base class for a GraphView tool window.
+---@field SelectionDragger Experimental.GraphView.SelectionDragger @Selection dragger manipulator.
+---@field SearchWindowContext Experimental.GraphView.SearchWindowContext @This structure includes parameters for configuring the search window.
+---@field BlackboardRow Experimental.GraphView.BlackboardRow @Collapsible GraphElement that represents a row in a BlackboardSection.
+---@field Group Experimental.GraphView.Group @Allows interactive insertion of elements in a named scope.
+---@field Edge Experimental.GraphView.Edge @The GraphView edge element.
+---@field ResizerDirection Experimental.GraphView.ResizerDirection @Enum that specifies in which direction to resize the element.
+---@field PortSource_1 Experimental.GraphView.PortSource_1 @Port source.
+---@field Attacher Experimental.GraphView.Attacher @Helper object that attaches a visual element next to its target, regarless of their respective location in the visual tree hierarchy.
+---@field ShortcutDelegate fun() @Shortcut event delegate.
+---@field ContentDragger Experimental.GraphView.ContentDragger @Manipulator that allows mouse-dragging of one or more elements.
+---@field Capabilities Experimental.GraphView.Capabilities @Capabilities used by Manipulators to easily determine valid actions on a GraphElement.
+---@field StickyNote Experimental.GraphView.StickyNote @Instantiates a [GraphElement] used for comment text.
+---@field RectangleSelector Experimental.GraphView.RectangleSelector @Rectangle selection box manipulator.
+---@field Blackboard Experimental.GraphView.Blackboard @GraphElement that enables user to dynamically define members of a Graph (such as fields/properties) grouped by sections (BlackboardSection).
+---@field EdgeDragHelper_1 Experimental.GraphView.EdgeDragHelper_1 @Edge drag helper class.

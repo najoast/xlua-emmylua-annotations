@@ -1,0 +1,4 @@
+---@class Build.Content.ObjectSerializedInfo @Struct containing details about how an object was serialized.
+---@field serializedObject fun() @Object that was serialized.
+---@field header fun() @Serialized object header information.
+---@field rawData fun() @Raw byte data of the object if it was serialized seperately from the header.

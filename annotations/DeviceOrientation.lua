@@ -1,0 +1,8 @@
+---@class DeviceOrientation @Describes physical orientation of the device as determined by the OS.
+---@field Portrait fun() @The device is in portrait mode, with the device held upright and the home button at the bottom.
+---@field FaceDown fun() @The device is held parallel to the ground with the screen facing downwards.
+---@field Unknown fun() @The orientation of the device cannot be determined.
+---@field FaceUp fun() @The device is held parallel to the ground with the screen facing upwards.
+---@field LandscapeRight fun() @The device is in landscape mode, with the device held upright and the home button on the left side.
+---@field LandscapeLeft fun() @The device is in landscape mode, with the device held upright and the home button on the right side.
+---@field PortraitUpsideDown fun() @The device is in portrait mode but upside down, with the device held upright and the home button at the top.

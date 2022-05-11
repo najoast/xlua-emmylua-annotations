@@ -1,0 +1,10 @@
+---@class Rendering.RenderPipeline @Defines a series of commands and settings that describes how Unity renders a frame.
+---@field disposed fun() @Returns true when the RenderPipeline is invalid or destroyed.
+---@field EndContextRendering fun() @Calls the RenderPipelineManager.endContextRendering and RenderPipelineManager.endFrameRendering delegates.
+---@field EndCameraRendering fun() @Calls the RenderPipelineManager.endCameraRendering delegate.
+---@field BeginFrameRendering fun() @Calls the RenderPipelineManager.beginFrameRendering delegate.
+---@field BeginCameraRendering fun() @Calls the RenderPipelineManager.beginCameraRendering delegate.
+---@field BeginContextRendering fun() @Calls the RenderPipelineManager.beginContextRendering and RenderPipelineManager.beginFrameRendering delegates.
+---@field Render fun() @Entry point method that defines custom rendering for this RenderPipeline.
+---@field EndFrameRendering fun() @Calls the RenderPipelineManager.endFrameRendering delegate.
+---@field ProcessRenderRequests fun() @Executes RenderRequests submitted using Camera.SubmitRenderRequests.

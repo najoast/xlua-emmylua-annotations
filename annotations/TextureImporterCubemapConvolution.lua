@@ -1,0 +1,4 @@
+---@class TextureImporterCubemapConvolution @Defines Cubemap convolution mode.
+---@field None fun() @No convolution needed. This Cubemap texture represents mirror reflection or Skybox.
+---@field Diffuse fun() @Diffuse convolution (aka irradiance Cubemap).
+---@field Specular fun() @Specular convolution (aka Prefiltered Environment Map).

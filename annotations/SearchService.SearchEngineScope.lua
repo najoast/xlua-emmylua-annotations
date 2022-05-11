@@ -1,0 +1,4 @@
+---@class SearchService.SearchEngineScope @An enumeration that contains the available search engine scopes.
+---@field Scene fun() @Identifies a search for Scene engines.
+---@field Project fun() @Identifies a search for Project engines.
+---@field ObjectSelector fun() @Identifies a search for ObjectSelector engines.

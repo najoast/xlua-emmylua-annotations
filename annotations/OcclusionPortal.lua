@@ -1,0 +1,2 @@
+---@class OcclusionPortal @The portal for dynamically changing occlusion at runtime.
+---@field open fun() @Gets / sets the portal's open state.

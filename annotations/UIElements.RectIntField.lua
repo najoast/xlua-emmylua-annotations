@@ -1,0 +1,7 @@
+---@class UIElements.RectIntField @A RectInt editor field.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field ctor fun() @Initializes and returns an instance of RectIntField.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field UxmlFactory fun() @Instantiates a RectIntField using the data read from a UXML file.
+---@field UxmlTraits UIElements.RectIntField.UxmlTraits @Defines UxmlTraits for the RectIntField.

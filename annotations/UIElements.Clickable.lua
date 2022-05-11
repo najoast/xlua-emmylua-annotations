@@ -1,0 +1,16 @@
+---@class UIElements.Clickable @Manipulator that tracks Mouse events on an element and callbacks when the elements is clicked.
+---@field OnMouseMove fun() @This method is called when a MouseMoveEvent is sent to the target element.
+---@field ctor fun() @Constructor.
+---@field clicked fun() @Callback triggered when the target element is clicked.
+---@field lastMousePosition fun() @Specifies the mouse position saved during the last mouse event on the target Element.
+---@field OnMouseDown fun() @This method is called when a MouseDownEvent is sent to the target element.
+---@field clickedWithEventInfo fun() @Callback triggered when the target element is clicked, including event data.
+---@field OnMouseUp fun() @This method is called when a MouseUpEvent is sent to the target element.
+---@field Invoke fun() @Invokes a click action.
+---@field ProcessCancelEvent fun() @This method processes the up cancel sent to the target Element.
+---@field RegisterCallbacksOnTarget fun() @Called to register mouse event callbacks on the target element.
+---@field ProcessUpEvent fun() @This method processes the up event sent to the target Element.
+---@field ProcessMoveEvent fun() @This method processes the move event sent to the target Element.
+---@field ProcessDownEvent fun() @This method processes the down event sent to the target Element.
+---@field UnregisterCallbacksFromTarget fun() @Called to unregister event callbacks from the target element.
+---@field active fun() @This property tracks the activation of the manipulator. Set it to true when the manipulator is activated.

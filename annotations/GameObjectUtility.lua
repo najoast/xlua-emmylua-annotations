@@ -1,0 +1,18 @@
+---@class GameObjectUtility @GameObject utility functions.
+---@field GetNavMeshLayerFromName fun() @Get the navmesh layer from the layer name.
+---@field SetNavMeshArea fun() @Set the navmesh area for the gameobject.
+---@field RemoveMonoBehavioursWithMissingScript fun() @Removes the MonoBehaviours with a missing script from the given GameObject.
+---@field GetUniqueNameForSibling fun() @You can use this method before instantiating a new sibling, or before parenting one GameObject to another, to ensure the new child GameObject has a unique name compared to its siblings in the hierarchy.
+---@field GetNavMeshLayer fun() @Get the navmesh layer for the GameObject.
+---@field GetNavMeshArea fun() @Get the navmesh area index for the GameObject.
+---@field GetMonoBehavioursWithMissingScriptCount fun() @Gets the number of MonoBehaviours with a missing script for the given GameObject.
+---@field SetNavMeshLayer fun() @Set the navmesh layer for the GameObject.
+---@field AreStaticEditorFlagsSet fun() @Returns true if the passed in StaticEditorFlags are set on the GameObject specified.
+---@field EnsureUniqueNameForSibling fun() @You can use this method after parenting one GameObject to another to ensure the child GameObject has a unique name compared to its siblings in the hierarchy.
+---@field GetNavMeshAreaNames fun() @Get all the navmesh area names.
+---@field GetStaticEditorFlags fun() @Gets the StaticEditorFlags of the GameObject specified.
+---@field SetStaticEditorFlags fun() @Sets the StaticEditorFlags of the specified GameObject.
+---@field SetParentAndAlign fun() @Sets the parent and gives the child the same layer and position.
+---@field ModifyMaskIfGameObjectIsHiddenForPrefabModeInContext fun() @Use this method if a custom scene culling mask is needed for renderers that should be shown or hidden in a Scene view when Prefab Mode in Context is active.
+---@field GetNavMeshAreaFromName fun() @Get the navmesh area index from the area name.
+---@field GetNavMeshLayerNames fun() @Get all the navmesh layer names.

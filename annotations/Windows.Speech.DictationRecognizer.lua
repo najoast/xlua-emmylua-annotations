@@ -1,0 +1,16 @@
+---@class Windows.Speech.DictationRecognizer @DictationRecognizer listens to speech input and attempts to determine what phrase was uttered.
+---@field Stop fun() @Stops the dictation recognization session.
+---@field ctor fun() @Create a DictationRecognizer with the specified minimum confidence and dictation topic constraint. Phrases under the specified minimum level will be ignored.
+---@field DictationResult fun() @Event indicating a phrase has been recognized with the specified confidence level.
+---@field InitialSilenceTimeoutSeconds fun() @The time length in seconds before dictation recognizer session ends due to lack of audio input in case there was no audio heard in the current session.
+---@field Start fun() @Starts the dictation recognization session. Dictation recognizer can only be started if PhraseRecognitionSystem is not running.
+---@field Status fun() @Indicates the status of dictation recognizer.
+---@field DictationErrorHandler fun() @Delegate for DictationError event.
+---@field DictationHypothesisDelegate fun() @Callback indicating a hypothesis change event. You should register with DictationHypothesis event.
+---@field Dispose fun() @Disposes the resources this dictation recognizer uses.
+---@field DictationCompletedDelegate fun() @Delegate for DictationComplete event.
+---@field DictationResultDelegate fun() @Callback indicating a phrase has been recognized with the specified confidence level. You should register with DictationResult event.
+---@field DictationComplete fun() @Event that is triggered when the recognizer session completes.
+---@field DictationHypothesis fun() @Event that is triggered when the recognizer changes its hypothesis for the current fragment.
+---@field DictationError fun() @Event that is triggered when the recognizer session encouters an error.
+---@field AutoSilenceTimeoutSeconds fun() @The time length in seconds before dictation recognizer session ends due to lack of audio input.

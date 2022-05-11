@@ -1,0 +1,72 @@
+---@class Tilemaps.Tilemap @The Tilemap stores Sprites in a layout marked by a Grid component.
+---@field AddTileFlags fun() @Adds the TileFlags onto the Tile at the given position.
+---@field GetAnimationFrameCount fun() @Retrieves the number of animation frames for a Tile at the given position.
+---@field GetAnimationFrame fun() @Retrieves the current animation frame for a Tile at the given position.
+---@field GetTilesBlock fun() @Retrieves an array of Tiles with the given bounds.
+---@field EditorPreviewFloodFill fun() @Does an editor preview of a flood fill with the given Tile to place. on the Tilemap starting from the given coordinates.
+---@field GetTilesRangeCount fun() @Retrieves the number of Tiles within the given range, inclusive of the Cells at both the starting position and the ending positions. This method begins at the given starting position and iterates through all available Z Positions, then iterates through the X and Y positions until it reaches the ending position.
+---@field GetUsedTilesCount fun() @Gets the total number of different Tiles used in the Tilemap.
+---@field origin fun() @The origin of the Tilemap in cell position.
+---@field SetAnimationFrame fun() @Sets the current animation frame for a Tile at the given position.
+---@field EditorPreviewBoxFill fun() @Does an editor preview of a box fill with the given Tile on the Tilemap. Starts from given coordinates and fills the limits from start to end (inclusive).
+---@field SwapTile fun() @Swaps all existing Tiles of changeTile to newTile and refreshes all the swapped Tiles.
+---@field GetEditorPreviewTileFlags fun() @Gets the TileFlags of the editor preview Tile at the given position.
+---@field GetEditorPreviewColor fun() @Gets the Color of an editor preview Tile given the XYZ coordinates of a cell in the  Tilemap.
+---@field DeleteCells fun() @Removes cells from within the Tilemap's bounds.
+---@field GetTransformMatrix fun() @Gets the transform matrix of a Tile given the XYZ coordinates of a cell in the Tilemap.
+---@field HasEditorPreviewTile fun() @Returns whether there is an editor preview Tile at the position.
+---@field localBounds fun() @Returns the boundaries of the Tilemap in local space size.
+---@field GetEditorPreviewTransformMatrix fun() @Gets the transform matrix of an editor preview Tile given the XYZ coordinates of a cell in the Tilemap.
+---@field GetSprite fun() @Gets the Sprite used in a Tile given the XYZ coordinates of a cell in the Tilemap.
+---@field size fun() @The size of the Tilemap in cells.
+---@field SyncTile Tilemaps.Tilemap.SyncTile @A Struct for containing changes to a Tile when it has been changed on a Tilemap.
+---@field color fun() @The color of the Tilemap layer.
+---@field editorPreviewOrigin fun() @The origin of the Tilemap in cell position inclusive of editor preview Tiles.
+---@field GetTilesBlockNonAlloc fun() @Retrieves an array of Tiles with the given bounds.
+---@field editorPreviewSize fun() @The size of the Tilemap in cells inclusive of editor preview Tiles.
+---@field tileAnchor fun() @Gets the anchor point of Tiles in the Tilemap.
+---@field GetCellCenterWorld fun() @Get the logical center coordinate of a Grid cell in world space.
+---@field orientation fun() @Orientation of the Tiles in the Tilemap.
+---@field RefreshAllTiles fun() @Refreshes all Tiles in the Tilemap. The Tilemap will retrieve the rendering data, animation data and other data for all tiles and update all relevant components.
+---@field HasTile fun() @Returns whether there is a Tile at the position.
+---@field GetTileFlags fun() @Gets the TileFlags of the Tile at the given position.
+---@field tilemapTileChanged fun() @Callback when Tiles on a Tilemap have changed.
+---@field SetTiles fun() @Sets an array of Tiles at the given XYZ coordinates of the corresponding cells in the Tilemap.
+---@field GetUsedSpritesCount fun() @Gets the total number of different Sprites used in the Tilemap.
+---@field GetColliderType fun() @Gets the Collider type of a Tile given the XYZ coordinates of a cell in the Tilemap.
+---@field GetTilesRangeNonAlloc fun() @Retrieves an array of Tiles within the given range, inclusive of the Cells at both the starting position and the ending positions. This method begins at the given starting position and iterates through all available Z Positions, then iterates through the X and Y positions until it reaches the ending position.
+---@field SetEditorPreviewTile fun() @Sets an editor preview Tile given the XYZ coordinates of a cell in the Tilemap.
+---@field ResizeBounds fun() @Resizes Tiles in the Tilemap to bounds defined by origin and size.
+---@field layoutGrid fun() @Gets the Grid associated with this Tilemap.
+---@field GetUsedSpritesNonAlloc fun() @Fills the given array with the total number of different Sprites used in the Tilemap and returns the number of Sprites filled.
+---@field RemoveTileFlags fun() @Removes the TileFlags onto the Tile at the given position.
+---@field ClearAllEditorPreviewTiles fun() @Clears all editor preview Tiles that are placed in the Tilemap.
+---@field GetEditorPreviewTile fun() @Gets the editor preview Tile at the given XYZ coordinates of a cell in the Tilemap.
+---@field ClearAllTiles fun() @Clears all Tiles that are placed in the Tilemap.
+---@field SetTransformMatrix fun() @Sets the transform matrix of a Tile given the XYZ coordinates of a cell in the Tilemap.
+---@field GetCellCenterLocal fun() @Get the logical center coordinate of a Grid cell in local space.
+---@field SetTileFlags fun() @Sets the TileFlags onto the Tile at the given position.
+---@field cellBounds fun() @Returns the boundaries of the Tilemap in cell size.
+---@field BoxFill fun() @Does a box fill with the given Tile on the Tilemap. Starts from given coordinates and fills the limits from start to end (inclusive).
+---@field FloodFill fun() @Does a flood fill with the given Tile to place. on the Tilemap starting from the given coordinates.
+---@field SetEditorPreviewTransformMatrix fun() @Sets the transform matrix of an editor preview Tile given the XYZ coordinates of a cell in the Tilemap.
+---@field SetEditorPreviewColor fun() @Sets the color of an editor preview Tile given the XYZ coordinates of a cell in the Tilemap.
+---@field ContainsTile fun() @Returns true if the Tilemap contains the given Tile. Returns false if not.
+---@field SetColliderType fun() @Sets the Collider type of a Tile given the XYZ coordinates of a cell in the Tilemap.
+---@field SetAnimationTime fun() @Sets the running animation time for a Tile at the given position.
+---@field GetUsedTilesNonAlloc fun() @Fills the given array with the total number of different Tiles used in the Tilemap and returns the number of Tiles filled.
+---@field GetTile fun() @Gets the Tile at the given XYZ coordinates of a cell in the Tilemap.
+---@field RefreshTile fun() @Refreshes a Tile at the given XYZ coordinates of a cell in the Tilemap.
+---@field Orientation Tilemaps.Tilemap.Orientation @Determines the orientation of Tiles in the Tilemap.
+---@field InsertCells fun() @Inserts cells into the Tilemap.
+---@field SetColor fun() @Sets the color of a Tile given the XYZ coordinates of a cell in the Tilemap.
+---@field GetInstantiatedObject fun() @Gets the GameObject instantiated by a Tile given the XYZ coordinates of a cell in the Tilemap.
+---@field SetTile fun() @Sets a Tile at the given XYZ coordinates of a cell in the Tilemap.
+---@field animationFrameRate fun() @The frame rate for all Tile animations in the Tilemap.
+---@field GetColor fun() @Gets the Color of a Tile given the XYZ coordinates of a cell in the Tilemap.
+---@field SetTilesBlock fun() @Fills bounds with array of Tiles.
+---@field GetAnimationTime fun() @Retrieves the current running animation time for a Tile at the given position.
+---@field orientationMatrix fun() @Orientation Matrix of the orientation of the Tiles in the Tilemap.
+---@field GetEditorPreviewSprite fun() @Gets the Sprite used in an editor preview Tile given the XYZ coordinates of a cell in the Tilemap.
+---@field GetObjectToInstantiate fun() @Gets the GameObject which will be instantiated by a Tile given the XYZ coordinates of a cell in the Tilemap.
+---@field CompressBounds fun() @Compresses the origin and size of the Tilemap to bounds where Tiles exist.

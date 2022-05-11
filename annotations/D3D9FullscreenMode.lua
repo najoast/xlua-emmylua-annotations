@@ -1,0 +1,3 @@
+---@class D3D9FullscreenMode @Direct3D 9 fullscreen mode.
+---@field FullscreenWindow fun() @Fullscreen window.
+---@field ExclusiveMode fun() @Exclusive mode.

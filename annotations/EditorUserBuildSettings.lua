@@ -1,0 +1,66 @@
+---@class EditorUserBuildSettings @User build settings for the Editor
+---@field movePackageToDiscOuterEdge fun() @Places the package on the outer edge of the disk.
+---@field exportAsGoogleAndroidProject fun() @Export Android Project for use with Android Studio/Gradle.
+---@field GetBuildLocation fun() @Get the current location for the build.
+---@field webGLBuildSubtarget fun() @WebGL Build subtarget.
+---@field androidUseLegacySdkTools fun() @Use deprecated Android SDK tools to pack application.
+---@field xboxBuildSubtarget fun() @Xbox Build subtarget.
+---@field SetBuildLocation fun() @Set a new location for the build.
+---@field buildAppBundle fun() @Set to true to build an Android App Bundle (aab file) instead of an apk. The default value is false.
+---@field enableHeadlessMode fun() @Whether the standalone player is built in headless mode.
+---@field overrideMaxTextureSize fun() @The override for the maximum texture size when importing assets.
+---@field forceInstallation fun() @Force installation of package, even if error.
+---@field wsaUWPSDK fun() @Sets and gets target UWP SDK to build Windows Store application against.
+---@field standaloneBuildSubtarget fun() @Desktop standalone build subtarget.
+---@field symlinkSources fun() @Symlink sources when generating the project.
+---@field windowsDevicePortalUsername fun() @Specifies the Windows DevicePortal username for the device to deploy and launch the UWP app on when using Build and Run.
+---@field ps4BuildSubtarget fun() @PS4 Build Subtarget.
+---@field allowDebugging fun() @Enable source-level debuggers to connect.
+---@field overrideTextureCompression fun() @The asset importing override of texture compression.
+---@field waitForManagedDebugger fun() @Instructs the player to wait for managed debugger to attach before executing any script code.
+---@field androidETC2Fallback fun() @ETC2 texture decompression fallback on Android devices that don't support ETC2.
+---@field wsaSubtarget fun() @Sets and gets target device type for the application to run on when building to Windows Store platform.
+---@field androidCreateSymbolsZip fun() @Set to true to create a symbols.zip file in the same location as the .apk or .aab file.
+---@field wsaUWPVisualStudioVersion fun() @Sets and gets Visual Studio version to build Windows Store application with.
+---@field symlinkLibraries fun() @Symlink runtime libraries with an iOS Xcode project.
+---@field explicitDivideByZeroChecks fun() @Are divide by zero's actively validated?
+---@field SwitchActiveBuildTarget fun() @Select a new build target to be active.
+---@field explicitArrayBoundsChecks fun() @Are array bounds actively validated?
+---@field waitForPlayerConnection fun() @Sets the Player to wait for player connection on player start.
+---@field xboxOneUsername fun() @Windows account username associated with PC share folder.
+---@field xboxOneNetworkSharePath fun() @Network shared folder path e.g. MYCOMPUTERSHAREDFOLDER.
+---@field forceOptimizeScriptCompilation fun() @Force full optimizations for script complilation in Development builds.
+---@field activeScriptCompilationDefines fun() @DEFINE directives for the compiler.
+---@field streamingInstallLaunchRange fun() @When building an Xbox One Streaming Install package (makepkg.exe) The layout generation code in Unity will assign each Scene and associated assets to individual chunks. Unity will mark Scene 0 as being part of the launch range, IE the set of chunks required to launch the game, you may include additional Scenes in this launch range if you desire, this specifies a range of Scenes (starting at 0) to be included in the launch set.
+---@field xboxOneDeployMethod fun() @The currently selected Xbox One Deploy Method.
+---@field windowsDevicePortalAddress fun() @Specifies the Windows DevicePortal connection address of the device to deploy and launch the UWP app on when using Build and Run.
+---@field compressWithPsArc fun() @Build data compressed with PSArc.
+---@field wsaUWPBuildType fun() @The build type for the Universal Windows Platform.
+---@field installInBuildFolder fun() @Place the built player in the build folder.
+---@field buildWithDeepProfilingSupport fun() @Enables Deep Profiling support in the player.
+---@field SetPlatformSettings fun() @Set platform specifc Editor setting.
+---@field activeBuildTargetChanged fun() @Triggered in response to SwitchActiveBuildTarget.
+---@field iOSBuildConfigType fun() @Scheme with which the project will be run in Xcode.
+---@field ps4HardwareTarget fun() @Specifies which version of PS4 hardware to target.
+---@field selectedStandaloneTarget fun() @The currently selected target for a standalone build.
+---@field il2CppCodeGeneration fun() @Specifies code generation option for IL2CPP.
+---@field androidBuildSubtarget fun() @Android platform options.
+---@field xboxOneRebootIfDeployFailsAndRetry fun() @Sets the XBox to reboot and redeploy when the deployment fails.
+---@field webGLUsePreBuiltUnityEngine fun() @Use prebuilt JavaScript version of Unity engine.
+---@field GetPlatformSettings fun() @Returns value for platform specifc Editor setting.
+---@field windowsDevicePortalPassword fun() @Specifies the Windows DevicePortal password for the device to deploy and launch the UWP app on when using Build and Run.
+---@field explicitNullChecks fun() @Are null references actively validated?
+---@field buildScriptsOnly fun() @Is build script only enabled.
+---@field androidCreateSymbols fun() @Specifies the type of symbol package to create.
+---@field managedDebuggerFixedPort fun() @Force the port used by the managed debugger. Default is 0 which means platform-specific auto-selection of a port.
+---@field xboxOneDeployDrive fun() @The currently selected Xbox One Deploy Drive.
+---@field compressFilesInPackage fun() @Compress files in package.
+---@field connectProfiler fun() @Start the player with a connection to the profiler.
+---@field wsaBuildAndRunDeployTarget fun() @Sets and gets the Windows device to launch the UWP app when using Build and Run.
+---@field activeBuildTarget fun() @The currently active build target.
+---@field iOSXcodeBuildConfig fun() @The scheme Xcode uses to run this project.
+---@field macOSXcodeBuildConfig fun() @The scheme Xcode uses to run this project.
+---@field selectedBuildTargetGroup fun() @The currently selected build target group.
+---@field development fun() @Enables a development build.
+---@field SwitchActiveBuildTargetAsync fun() @Select a new build target to be active during the next Editor update.
+---@field needSubmissionMaterials fun() @Build submission materials.

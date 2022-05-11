@@ -1,0 +1,4 @@
+---@class VFX.VFXSpawnerCallbacks @This abstract class provides a way to implement custom spawner block in C#.
+---@field OnUpdate fun() @Unity invokes this method when a parent spawner system triggers Update.
+---@field OnStop fun() @Unity invokes this method when a parent spawner system triggers Stop.
+---@field OnPlay fun() @Unity invokes this method when a parent spawner system triggers Play.

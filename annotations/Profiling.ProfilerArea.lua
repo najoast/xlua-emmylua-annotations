@@ -1,0 +1,15 @@
+---@class Profiling.ProfilerArea @The different areas of profiling, corresponding to the charts in ProfilerWindow.
+---@field VirtualTexturing fun() @Virtual Texturing statistics.
+---@field CPU fun() @CPU statistics.
+---@field NetworkMessages fun() @Network messages statistics.
+---@field Video fun() @Video playback statistics.
+---@field GPU fun() @GPU statistics.
+---@field UIDetails fun() @Detailed UI statistics.
+---@field Rendering fun() @Rendering statistics.
+---@field Memory fun() @Memory statistics.
+---@field UI fun() @UI statistics.
+---@field Physics2D fun() @2D physics statistics.
+---@field Physics fun() @3D Physics statistics.
+---@field GlobalIllumination fun() @Global Illumination statistics.
+---@field NetworkOperations fun() @Network operations statistics.
+---@field Audio fun() @Audio statistics.

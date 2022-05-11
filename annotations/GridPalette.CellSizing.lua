@@ -1,0 +1,3 @@
+---@class GridPalette.CellSizing @Controls the sizing of cells for a Palette.
+---@field Manual fun() @Size of Palette cells will be changed manually by the user.
+---@field Automatic fun() @Automatically resizes the Palette cells by the size of Sprites in the Palette.

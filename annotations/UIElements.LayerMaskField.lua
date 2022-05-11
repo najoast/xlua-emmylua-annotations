@@ -1,0 +1,9 @@
+---@class UIElements.LayerMaskField @Make a field for layer as masks.
+---@field formatSelectedValueCallback fun() @Unsupported.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field ctor fun() @Constructor of the field.
+---@field UxmlFactory fun() @Instantiates a LayerMaskField using the data read from a UXML file.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field formatListItemCallback fun() @Unsupported.
+---@field UxmlTraits fun() @Defines UxmlTraits for the LayerMaskField.

@@ -1,0 +1,4 @@
+---@class ColorSpace @Color space for player settings.
+---@field Gamma fun() @Gamma color space.
+---@field Linear fun() @Linear color space.
+---@field Uninitialized fun() @Uninitialized color space.

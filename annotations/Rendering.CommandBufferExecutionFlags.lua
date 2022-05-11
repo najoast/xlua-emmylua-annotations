@@ -1,0 +1,3 @@
+---@class Rendering.CommandBufferExecutionFlags @Flags describing the intention for how the command buffer will be executed. Set these via CommandBuffer.SetExecutionFlags.
+---@field AsyncCompute fun() @Command buffers flagged for async compute execution will throw exceptions if non-compatible commands are added to them. See ScriptableRenderContext.ExecuteCommandBufferAsync and Graphics.ExecuteCommandBufferAsync.
+---@field None fun() @When no flags are specified, the command buffer is considered valid for all means of execution. This is the default for new command buffers.

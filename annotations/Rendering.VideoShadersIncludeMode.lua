@@ -1,0 +1,4 @@
+---@class Rendering.VideoShadersIncludeMode @Video shaders mode used by Rendering.GraphicsSettings.
+---@field Always fun() @Include video shaders in builds (default).
+---@field Referenced fun() @Include video shaders in builds when referenced by scenes.
+---@field Never fun() @Exclude video shaders from builds. This effectively disables video functionality.

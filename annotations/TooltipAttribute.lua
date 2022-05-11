@@ -1,0 +1,3 @@
+---@class TooltipAttribute @Specify a tooltip for a field in the Inspector window.
+---@field tooltip fun() @The tooltip text.
+---@field ctor fun() @Specify a tooltip for a field.

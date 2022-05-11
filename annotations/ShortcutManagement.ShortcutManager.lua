@@ -1,0 +1,3 @@
+---@class ShortcutManagement.ShortcutManager @Provides access to an instance of ShortcutManagement.IShortcutManager for managing shortcuts.
+---@field instance fun() @An instance of the ShortcutManagement.IShortcutManager interface used for managing shortcuts in the editor.
+---@field defaultProfileId fun() @A constant defining the ID of the default shortcut profile. See the documentation for the ShortcutManagement.IShortcutManager.activeProfileId property.

@@ -1,0 +1,7 @@
+---@class AvatarTarget @Target.
+---@field Body fun() @The body, center of mass.
+---@field LeftHand fun() @The left hand.
+---@field LeftFoot fun() @The left foot.
+---@field Root fun() @The root, the position of the game object.
+---@field RightHand fun() @The right hand.
+---@field RightFoot fun() @The right foot.

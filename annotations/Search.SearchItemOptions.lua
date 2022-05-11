@@ -1,0 +1,9 @@
+---@class Search.SearchItemOptions @Indicates how the search item description needs to be formatted when presented to the user.
+---@field RightToLeft fun() @If the description is longer than the search view, keeps the last characters.
+---@field None fun() @Uses default description.
+---@field Compacted fun() @Uses Label instead of description for shorter display.
+---@field FullDescription fun() @The item description that is displayed in full mode. This is usually the case when the description is displayed in the Preview Inspector as opposed to the Result View.
+---@field Ellipsis fun() @If the description is longer than the width of the search view, truncates the description and adds an ellipsis.
+---@field AlwaysRefresh fun() @Indicates that the item will always be refreshed.
+---@field Highlight fun() @Highlights parts of the description that match the Search Query.
+---@field FuzzyHighlight fun() @Highlights parts of the description that match the Fuzzy Search Query.

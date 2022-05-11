@@ -1,0 +1,3 @@
+---@class MPE.ChannelClientScope @Scope that can be use to open a channel client on a specific channel and close the channel when the scope ends.
+---@field ctor fun() @Create a new Channel Client scope.
+---@field client fun() @Get the Chanel client of this scope.

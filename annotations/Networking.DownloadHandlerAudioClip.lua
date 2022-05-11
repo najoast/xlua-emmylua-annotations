@@ -1,0 +1,6 @@
+---@class Networking.DownloadHandlerAudioClip @A DownloadHandler subclass specialized for downloading audio data for use as AudioClip objects.
+---@field audioClip fun() @Returns the downloaded AudioClip, or null. (Read Only)
+---@field compressed fun() @Create AudioClip that is compressed in memory.
+---@field streamAudio fun() @Create streaming AudioClip.
+---@field GetContent fun() @Returns the downloaded AudioClip, or null.
+---@field ctor fun() @Constructor, specifies what kind of audio data is going to be downloaded.

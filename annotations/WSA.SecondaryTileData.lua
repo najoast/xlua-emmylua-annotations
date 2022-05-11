@@ -1,0 +1,20 @@
+---@class WSA.SecondaryTileData @Defines the default look of secondary tile.
+---@field square70x70Logo fun() @Uri to the logo for small size tile.
+---@field foregroundText fun() @Defines the style for foreground text on a secondary tile.
+---@field lockScreenDisplayBadgeAndTileText fun() @Whether to show secondary tile on lock screen.
+---@field roamingEnabled fun() @Defines whether secondary tile is copied to another device when application is installed by the same users account.
+---@field showNameOnSquare150x150Logo fun() @Defines whether the displayName should be shown on a medium secondary tile.
+---@field backgroundColor fun() @Defines background color for secondary tile.
+---@field square30x30Logo fun() @Uri to the logo shown on tile
+---@field backgroundColorSet fun() @Defines, whether backgroundColor should be used.
+---@field phoneticName fun() @Phonetic name for secondary tile.
+---@field showNameOnSquare310x310Logo fun() @Defines whether the displayName should be shown on a large secondary tile.
+---@field square310x310Logo fun() @Uri to the logo for large size tile.
+---@field ctor fun() @Constructor for SecondaryTileData, sets default values for all members.
+---@field wide310x150Logo fun() @Uri to the logo for wide tile.
+---@field tileId fun() @Unique identifier within application for a secondary tile.
+---@field lockScreenBadgeLogo fun() @Uri to logo, shown for secondary tile on lock screen.
+---@field arguments fun() @Arguments to be passed for application when secondary tile is activated.
+---@field displayName fun() @Display name for secondary tile.
+---@field showNameOnWide310x150Logo fun() @Defines whether the displayName should be shown on a wide secondary tile.
+---@field square150x150Logo fun() @Uri to the logo for medium size tile.

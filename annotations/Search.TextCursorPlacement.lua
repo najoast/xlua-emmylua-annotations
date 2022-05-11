@@ -1,0 +1,10 @@
+---@class Search.TextCursorPlacement @Where to place the cursor in the text. (see ISearchView.SetSearchText).
+---@field MoveToEndOfPreviousWord fun() @Move the cursor to the end of the previous word.
+---@field MoveAutoComplete fun() @Default cursor position (end of the line of text).
+---@field MoveToStartOfNextWord fun() @Move the cursor to the start of the previous word.
+---@field None fun() @Do not move the cursor.
+---@field MoveLineStart fun() @Move the cursor to the beginning of the line of text.
+---@field MoveWordRight fun() @Move the cursor one word to the right.
+---@field Default fun() @Do not move the cursor.
+---@field MoveWordLeft fun() @Move the cursor one word to the left.
+---@field MoveLineEnd fun() @Move the cursor to the end of the line of text.

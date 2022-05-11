@@ -1,0 +1,3 @@
+---@class UIElements.BindableElement.UxmlTraits @Defines UxmlTraits for the BindableElement.
+---@field ctor fun() @Constructor.
+---@field Init fun() @Initialize BindableElement properties using values from the attribute bag.

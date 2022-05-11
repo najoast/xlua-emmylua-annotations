@@ -1,0 +1,4 @@
+---@class EffectorForceMode2D @The mode used to apply Effector2D forces.
+---@field Constant fun() @The force is applied at a constant rate.
+---@field InverseLinear fun() @The force is applied inverse-linear relative to a point.
+---@field InverseSquared fun() @The force is applied inverse-squared relative to a point.

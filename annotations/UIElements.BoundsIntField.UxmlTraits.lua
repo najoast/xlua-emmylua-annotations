@@ -1,0 +1,2 @@
+---@class UIElements.BoundsIntField.UxmlTraits @Defines UxmlTraits for the BoundsIntField.
+---@field Init fun() @Initializes the UxmlTraits for the BoundsIntField.

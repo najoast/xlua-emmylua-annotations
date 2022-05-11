@@ -1,0 +1,19 @@
+---@class UIElements.PanelSettings @Defines a Panel Settings asset that instantiates a panel at runtime. The panel makes it possible for Unity to display UXML-file based UI in the Game view.
+---@field colorClearValue fun() @The color used to clear the color buffer.
+---@field clearDepthStencil fun() @Determines whether the depth/stencil buffer is cleared before the panel is rendered.
+---@field scaleMode fun() @Determines how elements in the panel scale when the screen size changes.
+---@field screenMatchMode fun() @Specifies how to scale the panel area when the aspect ratio of the current resolution does not match the reference resolution.
+---@field clearColor fun() @Determines whether the color buffer is cleared before the panel is rendered.
+---@field targetDisplay fun() @When the Scene uses more than one panel, this value determines where this panel appears in the sorting order relative to other panels.
+---@field depthClearValue fun() @The depth used to clear the depth/stencil buffer.
+---@field match fun() @Determines whether Unity uses width, height, or a mix of the two as a reference when it scales the panel area.
+---@field dynamicAtlasSettings fun() @Settings of the dynamic atlas.
+---@field textSettings fun() @Specifies a PanelTextSettings that will be used by every UI Document attached to the panel.
+---@field SetScreenToPanelSpaceFunction fun() @Sets the function that handles the transformation from screen space to panel space. For overlay panels, this function returns the input value.
+---@field sortingOrder fun() @When the Scene uses more than one panel, this value determines where this panel appears in the sorting order relative to other panels.
+---@field themeStyleSheet fun() @Specifies a style sheet that Unity applies to every UI Document attached to the panel.
+---@field targetTexture fun() @Specifies a Render Texture to render the panel's UI on.
+---@field referenceResolution fun() @The resolution the UI is designed for.
+---@field referenceDpi fun() @The DPI that the UI is designed for.
+---@field fallbackDpi fun() @The DPI value that Unity uses when it cannot determine the screen DPI.
+---@field scale fun() @A uniform scaling factor that Unity applies to elements in the panel before the panel transform.

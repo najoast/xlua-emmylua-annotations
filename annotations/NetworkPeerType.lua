@@ -1,0 +1,5 @@
+---@class NetworkPeerType @Describes the status of the network interface peer type as returned by Network.peerType.
+---@field Connecting fun() @Attempting to connect to a server.
+---@field Client fun() @Running as client.
+---@field Disconnected fun() @No client connection running. Server not initialized.
+---@field Server fun() @Running as server.

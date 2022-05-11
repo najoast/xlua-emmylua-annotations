@@ -1,0 +1,14 @@
+---@class Analytics.AnalyticsEventPriority @Analytics event priority.
+---@field HighPriorityEvent fun() @Any current or previous events in the memory queue persist immediately to the filesystem. It adds the events to the bottom of the dispatch queue and makes them available to send to the server.
+---@field NoCachingFlag fun() @Events will be stored in the memory queue, and will not persist in the file system.
+---@field AllowInStopModeFlag fun() @Use this flag to send events while in the stop state.
+---@field SendImmediateFlag fun() @Events with this flag are given higher priority compared to others while dispatching to the server.
+---@field NormalPriorityEvent fun() @This priority queues events in-memory.
+---@field NormalPriorityEvent_WithCaching fun() @This priority queues events in-memory and writes them to the filesystem immediately.
+---@field HighestPriorityEvent fun() @This priority is similar to the Analytics.AnalyticsEventPriority.HighPriorityEvent, except these events are given a highest priority than other events in the disptach queue. It adds the events to the top of the dispatch queue and makes them available to send to the server.
+---@field NormalPriorityEvent_NoRetryNoCaching fun() @This priority is similar to the Analytics.AnalyticsEventPriority.NormalPriorityEvent, except these events will be stored in the memory queue and will not persist in the file system. In case of failure to post the event to the server, it will not attempt to send them again.
+---@field CacheImmediatelyFlag fun() @Any current or previous events in the memory queue persist immediately to the filesystem.
+---@field NoRetryFlag fun() @In case of failure to post the event to the server, it will not attempt to send them again.
+---@field HighestPriorityEvent_NoRetryNoCaching fun() @This priority is similar to the Analytics.AnalyticsEventPriority.HighestPriorityEvent, except these events will be stored in the memory queue and will not persist in the file system. In case of failure to post the event to the server, it will not attempt to send them again.
+---@field HighPriorityEvent_InStopMode fun() @This priority lets you send events in the stop state, and makes any current or previous events in the memory queue persist immediately to the filesystem. It adds the events to the bottom of the dispatch queue and makes them available to send to the server.
+---@field FlushQueueFlag fun() @Any current or previous events in the memory queue persist immediately to the filesystem and dispatcher service makes the events available to send to the server. It adds the events to the bottom of the dispatch queue and makes them available to send to the server.

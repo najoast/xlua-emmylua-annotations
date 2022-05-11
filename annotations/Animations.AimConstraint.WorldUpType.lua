@@ -1,0 +1,6 @@
+---@class Animations.AimConstraint.WorldUpType @Specifies how the world up vector used by the aim constraint is defined.
+---@field SceneUp fun() @Uses and defines the world up vector as the Unity Scene up vector (the Y axis).
+---@field ObjectUp fun() @Uses and defines the world up vector as a vector from the constrained object, in the direction of the up object.
+---@field Vector fun() @Uses and defines the world up vector as a vector specified by the user.
+---@field ObjectRotationUp fun() @Uses and defines the world up vector as relative to the local space of the object.
+---@field None fun() @Neither defines nor uses a world up vector.

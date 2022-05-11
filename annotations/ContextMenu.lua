@@ -1,0 +1,2 @@
+---@class ContextMenu @The ContextMenu attribute allows you to add commands to the context menu.
+---@field ctor fun() @Adds the function to the context menu of the component.

@@ -1,0 +1,6 @@
+---@class U2D.SpriteShapeMetaData @Additional data about the shape's control point. This is useful during tessellation of the shape.
+---@field height fun() @The height of the tessellated edge.
+---@field corner fun() @True will indicate that this point should be tessellated as a corner or a continuous line otherwise.
+---@field spriteIndex fun() @The Sprite to be used for a particular edge.
+---@field bevelCutoff fun() @The threshold of the angle that decides if it should be tessellated as a curve or a corner.
+---@field bevelSize fun() @The radius of the curve to be tessellated.

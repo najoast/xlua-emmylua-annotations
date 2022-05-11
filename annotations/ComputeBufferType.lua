@@ -1,0 +1,8 @@
+---@class ComputeBufferType @ComputeBuffer type.
+---@field Append fun() @Append-consume ComputeBuffer type.
+---@field Counter fun() @ComputeBuffer with a counter.
+---@field Raw fun() @Raw ComputeBuffer type (byte address buffer).
+---@field Structured fun() @ComputeBuffer that you can use as a structured buffer.
+---@field Default fun() @Default ComputeBuffer type (structured buffer).
+---@field Constant fun() @ComputeBuffer that you can use as a constant buffer (uniform buffer).
+---@field IndirectArguments fun() @ComputeBuffer used for Graphics.DrawProceduralIndirect, ComputeShader.DispatchIndirect or Graphics.DrawMeshInstancedIndirect arguments.

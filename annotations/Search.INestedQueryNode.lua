@@ -1,0 +1,2 @@
+---@class Search.INestedQueryNode @Interface representing a nested query node.
+---@field associatedFilter fun() @If the nested query is part of a filter operation, this represents the filter identifier. Otherwise, this is null or empty.

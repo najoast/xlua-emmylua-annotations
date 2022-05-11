@@ -1,0 +1,3 @@
+---@class UIElements.CollectionVirtualizationMethod @Options to change the virtualization method used by the ListView to display its content.
+---@field DynamicHeight fun() @ListView will use the actual height of every item when geometry changes. More flexible but less performant.
+---@field FixedHeight fun() @ListView won't wait for the layout to update items, as the all have the same height. fixedItemHeight Needs to be set. More performant but less flexible.

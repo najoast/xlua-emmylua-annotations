@@ -1,0 +1,4 @@
+---@class PreprocessorOverride @Sets the preprocessor that Unity uses to compile this shader.
+---@field ForcePlatformPreprocessor fun() @Use the platform compilers' preprocessors.
+---@field UseProjectSettings fun() @Use the preprocessor defined in your Project's Editor Settings.
+---@field ForceCachingPreprocessor fun() @Use the Caching Shader Preprocessor.

@@ -1,0 +1,12 @@
+---@class Experimental.GraphView.SelectionDropper @Selection drag&amp;drop manipulator.
+---@field OnMouseMove fun() @Called on mouse move event.
+---@field ctor fun() @SelectionDropper's constructor.
+---@field activateButton fun() @Mouse button used to activate the manipulator.
+---@field OnMouseDown fun() @Called on mouse down event.
+---@field clampToParentEdges fun() @Clamp element being dragged to the parent's (usually the graph) edges.
+---@field OnDrop fun() @Called on drop event.
+---@field OnMouseUp fun() @Called on mouse up event.
+---@field RegisterCallbacksOnTarget fun() @Called to register click event callbacks on the target element.
+---@field prevDropTarget fun() @Previous drop target.
+---@field UnregisterCallbacksFromTarget fun() @Called to unregister event callbacks from the target element.
+---@field panSpeed fun() @When elements are dragged near the edges of the Graph, panning occurs. This controls the speed for said panning.

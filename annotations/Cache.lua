@@ -1,0 +1,11 @@
+---@class Cache @Data structure for cache. Please refer to See Also:Caching.AddCache for more information.
+---@field spaceFree fun() @Returns the number of currently unused bytes in the cache.
+---@field expirationDelay fun() @The number of seconds that an AssetBundle may remain unused in the cache before it is automatically deleted.
+---@field path fun() @Returns the path of the cache.
+---@field ClearCache fun() @Removes all cached content in the cache that has been cached by the current application.
+---@field spaceOccupied fun() @Returns the used disk space in bytes.
+---@field maximumAvailableStorageSpace fun() @Allows you to specify the total number of bytes that can be allocated for the cache.
+---@field ready fun() @Returns true if the cache is ready.
+---@field valid fun() @Returns true if the cache is valid.
+---@field index fun() @Returns the index of the cache in the cache list.
+---@field readOnly fun() @Returns true if the cache is readonly.

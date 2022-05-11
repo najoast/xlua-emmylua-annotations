@@ -1,0 +1,5 @@
+---@class DestroyGameObjectHierarchyEventArgs @A change of this type indicates that a GameObject and the entire hierarchy below it has been destroyed. This happens for example when Undo.DestroyObjectImmediate is used with an GameObject.
+---@field parentInstanceId fun() @The instance ID for the parent GameObject of the GameObject that has been destroyed.
+---@field ctor fun() @Constructs a new instance.
+---@field instanceId fun() @The instance ID of the GameObject that has been destroyed.
+---@field scene fun() @The scene containing the GameObject that has been destroyed.

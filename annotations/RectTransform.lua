@@ -1,0 +1,20 @@
+---@class RectTransform @Position, size, anchor and pivot information for a rectangle.
+---@field GetLocalCorners fun() @Get the corners of the calculated rectangle in the local space of its Transform.
+---@field offsetMin fun() @The offset of the lower left corner of the rectangle relative to the lower left anchor.
+---@field offsetMax fun() @The offset of the upper right corner of the rectangle relative to the upper right anchor.
+---@field anchorMax fun() @The normalized position in the parent RectTransform that the upper right corner is anchored to.
+---@field GetWorldCorners fun() @Get the corners of the calculated rectangle in world space.
+---@field ForceUpdateRectTransforms fun() @Force the recalculation of RectTransforms internal data.
+---@field Axis RectTransform.Axis @An axis that can be horizontal or vertical.
+---@field ReapplyDrivenProperties fun() @Delegate used for the reapplyDrivenProperties event.
+---@field Edge RectTransform.Edge @Enum used to specify one edge of a rectangle.
+---@field anchoredPosition3D fun() @The 3D position of the pivot of this RectTransform relative to the anchor reference point.
+---@field sizeDelta fun() @The size of this RectTransform relative to the distances between the anchors.
+---@field SetSizeWithCurrentAnchors fun() @Makes the RectTransform calculated rect be a given size on the specified axis.
+---@field drivenByObject fun() @The object that is driving the values of this RectTransform. Value is null if not driven.
+---@field anchorMin fun() @The normalized position in the parent RectTransform that the lower left corner is anchored to.
+---@field SetInsetAndSizeFromParentEdge fun() @Set the distance of this rectangle relative to a specified edge of the parent rectangle, while also setting its size.
+---@field rect fun() @The calculated rectangle in the local space of the Transform.
+---@field anchoredPosition fun() @The position of the pivot of this RectTransform relative to the anchor reference point.
+---@field reapplyDrivenProperties fun() @Event that is invoked for RectTransforms that need to have their driven properties reapplied.
+---@field pivot fun() @The normalized position in this RectTransform that it rotates around.

@@ -1,0 +1,15 @@
+---@class AvatarMaskBodyPart @Avatar body part.
+---@field LeftFootIK fun() @Left Foot IK.
+---@field LeftFingers fun() @Left Fingers.
+---@field LastBodyPart fun() @Total number of body parts.
+---@field RightFingers fun() @Right Fingers.
+---@field Body fun() @The Body.
+---@field LeftLeg fun() @The Left Leg.
+---@field RightArm fun() @The Right Arm.
+---@field Head fun() @The Head.
+---@field LeftHandIK fun() @Left Hand IK.
+---@field RightFootIK fun() @Right Foot IK.
+---@field Root fun() @The Root.
+---@field LeftArm fun() @The Left Arm.
+---@field RightHandIK fun() @Right Hand IK.
+---@field RightLeg fun() @The Right Leg.

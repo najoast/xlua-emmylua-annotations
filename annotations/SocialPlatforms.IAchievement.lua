@@ -1,0 +1,7 @@
+---@class SocialPlatforms.IAchievement @Information for a user's achievement.
+---@field ReportProgress fun() @Send notification about progress on this achievement.
+---@field id fun() @The unique identifier of this achievement.
+---@field percentCompleted fun() @Progress for this achievement.
+---@field completed fun() @Set to true when percentCompleted is 100.0.
+---@field lastReportedDate fun() @Set by server when percentCompleted is updated.
+---@field hidden fun() @This achievement is currently hidden from the user.

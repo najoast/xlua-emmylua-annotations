@@ -1,0 +1,2 @@
+---@class UIElements.TextField.UxmlTraits @Defines UxmlTraits for the TextField.
+---@field Init fun() @Initialize TextField properties using values from the attribute bag.

@@ -1,0 +1,2 @@
+---@class ComputeShaderImporter @Define compute shader import settings in the Unity Editor.
+---@field preprocessorOverride fun() @The preprocessor that Unity uses to compile this compute shader.

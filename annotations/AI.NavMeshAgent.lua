@@ -1,0 +1,53 @@
+---@class AI.NavMeshAgent @Navigation mesh agent.
+---@field SetLayerCost fun() @Sets the cost for traversing over geometry of the layer type.
+---@field nextPosition fun() @Gets or sets the simulation position of the navmesh agent.
+---@field obstacleAvoidanceType fun() @The level of quality of avoidance.
+---@field agentTypeID fun() @The type ID for the agent.
+---@field desiredVelocity fun() @The desired velocity of the agent including any potential contribution from avoidance. (Read Only)
+---@field Raycast fun() @Trace a straight path towards a target postion in the NavMesh without moving the agent.
+---@field isOnNavMesh fun() @Is the agent currently bound to the navmesh? (Read Only)
+---@field ResetPath fun() @Clears the current path.
+---@field destination fun() @Gets or attempts to set the destination of the agent in world-space units.
+---@field currentOffMeshLinkData fun() @The current OffMeshLinkData.
+---@field walkableMask fun() @Specifies which NavMesh layers are passable (bitfield). Changing walkableMask will make the path stale (see isPathStale).
+---@field autoTraverseOffMeshLink fun() @Should the agent move across OffMeshLinks automatically?
+---@field height fun() @The height of the agent for purposes of passing under obstacles, etc.
+---@field acceleration fun() @The maximum acceleration of an agent as it follows a path, given in units / sec^2.
+---@field steeringTarget fun() @Get the current steering target along the path. (Read Only)
+---@field isStopped fun() @This property holds the stop or resume condition of the NavMesh agent.
+---@field Move fun() @Apply relative movement to current position.
+---@field baseOffset fun() @The relative vertical displacement of the owning GameObject.
+---@field pathStatus fun() @The status of the current path (complete, partial or invalid).
+---@field speed fun() @Maximum movement speed when following a path.
+---@field angularSpeed fun() @Maximum turning speed in (deg/s) while following a path.
+---@field radius fun() @The avoidance radius for the agent.
+---@field CalculatePath fun() @Calculate a path to a specified point and store the resulting path.
+---@field ActivateCurrentOffMeshLink fun() @Enables or disables the current off-mesh link.
+---@field avoidancePriority fun() @The avoidance priority level.
+---@field CompleteOffMeshLink fun() @Completes the movement on the current OffMeshLink.
+---@field Stop fun() @Stop movement of this agent along its current path.
+---@field SetPath fun() @Assign a new path to this agent.
+---@field isPathStale fun() @Is the current path stale. (Read Only)
+---@field GetAreaCost fun() @Gets the cost for path calculation when crossing area of a particular type.
+---@field updateRotation fun() @Should the agent update the transform orientation?
+---@field Resume fun() @Resumes the movement along the current path after a pause.
+---@field GetLayerCost fun() @Gets the cost for crossing ground of a particular type.
+---@field SetAreaCost fun() @Sets the cost for traversing over areas of the area type.
+---@field path fun() @Property to get and set the current path.
+---@field Warp fun() @Warps agent to the provided position.
+---@field velocity fun() @Access the current velocity of the NavMeshAgent component, or set a velocity to control the agent manually.
+---@field autoBraking fun() @Should the agent brake automatically to avoid overshooting the destination point?
+---@field pathPending fun() @Is a path in the process of being computed but not yet ready? (Read Only)
+---@field updateUpAxis fun() @Allows you to specify whether the agent should be aligned to the up-axis of the NavMesh or link that it is placed on.
+---@field SamplePathPosition fun() @Sample a position along the current path.
+---@field navMeshOwner fun() @Returns the owning object of the NavMesh the agent is currently placed on (Read Only).
+---@field updatePosition fun() @Gets or sets whether the transform position is synchronized with the simulated agent position. The default value is true.
+---@field autoRepath fun() @Should the agent attempt to acquire a new path if the existing path becomes invalid?
+---@field stoppingDistance fun() @Stop within this distance from the target position.
+---@field hasPath fun() @Does the agent currently have a path? (Read Only)
+---@field FindClosestEdge fun() @Locate the closest NavMesh edge.
+---@field areaMask fun() @Specifies which NavMesh areas are passable. Changing areaMask will make the path stale (see isPathStale).
+---@field nextOffMeshLinkData fun() @The next OffMeshLinkData on the current path.
+---@field remainingDistance fun() @The distance between the agent's position and the destination on the current path. (Read Only)
+---@field isOnOffMeshLink fun() @Is the agent currently positioned on an OffMeshLink? (Read Only)
+---@field SetDestination fun() @Sets or updates the destination thus triggering the calculation for a new path.

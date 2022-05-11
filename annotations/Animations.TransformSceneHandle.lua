@@ -1,0 +1,14 @@
+---@class Animations.TransformSceneHandle @Handle to read position, rotation and scale of an object in the Scene.
+---@field GetLocalScale fun() @Gets the scale of the transform relative to the parent.
+---@field GetGlobalTR fun() @Gets the position and scaled rotation of the transform in world space.
+---@field SetLocalPosition fun() @Sets the position of the transform relative to the parent.
+---@field SetLocalRotation fun() @Sets the rotation of the transform relative to the parent.
+---@field GetRotation fun() @Gets the rotation of the transform in world space.
+---@field SetPosition fun() @Sets the position of the transform in world space.
+---@field IsValid fun() @Returns whether this is a valid handle.
+---@field GetLocalRotation fun() @Gets the rotation of the transform relative to the parent.
+---@field SetRotation fun() @Sets the rotation of the transform in world space.
+---@field GetPosition fun() @Gets the position of the transform in world space.
+---@field GetLocalTRS fun() @Gets the position, rotation and scale of the transform relative to the parent.
+---@field SetLocalScale fun() @Sets the scale of the transform relative to the parent.
+---@field GetLocalPosition fun() @Gets the position of the transform relative to the parent.

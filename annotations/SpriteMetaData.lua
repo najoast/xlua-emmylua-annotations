@@ -1,0 +1,6 @@
+---@class SpriteMetaData @Editor data used in producing a Sprite.
+---@field name fun() @Name of the Sprite.
+---@field rect fun() @Bounding rectangle of the sprite's graphic within the atlas image.
+---@field border fun() @Edge border size for a sprite (in pixels).
+---@field alignment fun() @Edge-relative alignment of the sprite graphic.
+---@field pivot fun() @The pivot point of the Sprite, relative to its bounding rectangle.

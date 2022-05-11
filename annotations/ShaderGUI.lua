@@ -1,0 +1,8 @@
+---@class ShaderGUI @Abstract class to derive from for defining custom GUI for shader properties and for extending the material preview.
+---@field OnClosed fun() @This method is called when the ShaderGUI is being closed.
+---@field OnGUI fun() @To define a custom shader GUI use the methods of materialEditor to render controls for the properties array.
+---@field AssignNewShaderToMaterial fun() @This method is called when a new shader has been selected for a Material.
+---@field ValidateMaterial fun() @When the user loads a Material using this ShaderGUI into memory or changes a value in the Inspector, the Editor calls this method.
+---@field OnMaterialPreviewGUI fun() @Override for extending the rendering of the Preview area or completly replace the preview (by not calling base.OnMaterialPreviewGUI).
+---@field OnMaterialPreviewSettingsGUI fun() @Override for extending the functionality of the toolbar of the preview area or completly replace the toolbar by not calling base.OnMaterialPreviewSettingsGUI.
+---@field FindProperty fun() @Find shader properties.

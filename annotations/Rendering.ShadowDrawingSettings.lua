@@ -1,0 +1,7 @@
+---@class Rendering.ShadowDrawingSettings @Settings for ScriptableRenderContext.DrawShadows.
+---@field lightIndex fun() @The index of the shadow-casting light to be rendered.
+---@field ctor fun() @Create a shadow settings object.
+---@field splitData fun() @The split data.
+---@field cullingResults fun() @Culling results to use.
+---@field objectsFilter fun() @Specifies the filter Unity applies to GameObjects that it renders in the shadow pass.
+---@field useRenderingLayerMaskTest fun() @Set this to true to make Unity filter Renderers during shadow rendering. Unity filters Renderers based on the Rendering Layer Mask of the Renderer itself, and the Rendering Layer Mask of each shadow casting Light.

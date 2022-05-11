@@ -1,0 +1,3 @@
+---@class VFX.VFXExposedProperty @This structure describes an exposed property on a VisualEffectAsset.
+---@field type fun() @The type of the exposed property.
+---@field name fun() @The name of the exposed property.

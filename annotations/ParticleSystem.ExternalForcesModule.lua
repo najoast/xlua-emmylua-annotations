@@ -1,0 +1,13 @@
+---@class ParticleSystem.ExternalForcesModule @Script interface for the ExternalForcesModule of a Particle System.
+---@field RemoveAllInfluences fun() @Removes every Force Field from the influencers list.
+---@field AddInfluence fun() @Adds a ParticleSystemForceField to the influencers list.
+---@field influenceMask fun() @Particle System Force Field Components with a matching Layer affect this Particle System.
+---@field GetInfluence fun() @Gets the ParticleSystemForceField at the given index in the influencers list.
+---@field SetInfluence fun() @Assigns the Force Field at the given index in the influencers list.
+---@field RemoveInfluence fun() @Removes the Force Field from the influencers list at the given index.
+---@field influenceFilter fun() @Apply all Force Fields belonging to a matching Layer to this Particle System.
+---@field enabled fun() @Specifies whether the ExternalForcesModule is enabled or disabled.
+---@field multiplier fun() @Multiplies the magnitude of external forces affecting the particles.
+---@field IsAffectedBy fun() @Determines whether any particles are inside the influence of a Force Field.
+---@field influenceCount fun() @The number of Force Fields explicitly provided to the influencers list.
+---@field multiplierCurve fun() @Multiplies the magnitude of applied external forces.

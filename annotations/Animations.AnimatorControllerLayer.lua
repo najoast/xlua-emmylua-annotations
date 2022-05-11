@@ -1,0 +1,13 @@
+---@class Animations.AnimatorControllerLayer @The Animation Layer contains a state machine that controls animations of a model or part of it.
+---@field GetOverrideBehaviours fun() @Gets the override behaviour list for the state on the given layer.
+---@field stateMachine fun() @The state machine for the layer.
+---@field defaultWeight fun() @The default blending weight that the layers has. It is not taken into account for the first layer.
+---@field blendingMode fun() @The blending mode used by the layer. It is not taken into account for the first layer.
+---@field GetOverrideMotion fun() @Gets the override motion for the state on the given layer.
+---@field iKPass fun() @When active, the layer will have an IK pass when evaluated. It will trigger an OnAnimatorIK callback.
+---@field name fun() @The name of the layer.
+---@field avatarMask fun() @The AvatarMask that is used to mask the animation on the given layer.
+---@field SetOverrideMotion fun() @Sets the override motion for the state on the given layer.
+---@field syncedLayerAffectsTiming fun() @When active, the layer will take control of the duration of the Synced Layer.
+---@field SetOverrideBehaviours fun() @Sets the override behaviour list for the state on the given layer.
+---@field syncedLayerIndex fun() @Specifies the index of the Synced Layer.

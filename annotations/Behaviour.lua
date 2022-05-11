@@ -1,0 +1,3 @@
+---@class Behaviour @Behaviours are Components that can be enabled or disabled.
+---@field isActiveAndEnabled fun() @Reports whether a GameObject and its associated Behaviour is active and enabled.
+---@field enabled fun() @Enabled Behaviours are Updated, disabled Behaviours are not.

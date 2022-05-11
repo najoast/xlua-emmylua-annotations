@@ -1,0 +1,4 @@
+---@class AndroidCreateSymbols @Defines the options available for choosing the type of symbol file to create in an Android build.
+---@field Public fun() @Create a zip package containing public symbols.
+---@field Disabled fun() @Do not create a symbols package.
+---@field Debugging fun() @Create a zip package containing debugging symbols.

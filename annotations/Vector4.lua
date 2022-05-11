@@ -1,0 +1,35 @@
+---@class Vector4 @Representation of four-dimensional vectors.
+---@field MoveTowards fun() @Moves a point current towards target.
+---@field Project fun() @Projects a vector onto another vector.
+---@field sqrMagnitude fun() @Returns the squared length of this vector (Read Only).
+---@field Normalize fun() @
+---@field Max fun() @Returns a vector that is made from the largest components of two vectors.
+---@field positiveInfinity fun() @Shorthand for writing Vector4(float.PositiveInfinity, float.PositiveInfinity, float.PositiveInfinity, float.PositiveInfinity).
+---@field one fun() @Shorthand for writing Vector4(1,1,1,1).
+---@field operator_Vector3 fun() @Converts a Vector3 to a Vector4.
+---@field Set fun() @Set x, y, z and w components of an existing Vector4.
+---@field normalized fun() @Returns this vector with a magnitude of 1 (Read Only).
+---@field w fun() @W component of the vector.
+---@field Scale fun() @Multiplies two vectors component-wise.
+---@field Min fun() @Returns a vector that is made from the smallest components of two vectors.
+---@field x fun() @X component of the vector.
+---@field ctor fun() @Creates a new vector with given x, y, z, w components.
+---@field magnitude fun() @Returns the length of this vector (Read Only).
+---@field negativeInfinity fun() @Shorthand for writing Vector4(float.NegativeInfinity, float.NegativeInfinity, float.NegativeInfinity, float.NegativeInfinity).
+---@field operator_Vector2 fun() @Converts a Vector2 to a Vector4.
+---@field Equals fun() @Returns true if the given vector is exactly equal to this vector.
+---@field ToString fun() @Returns a formatted string for this vector.
+---@field zero fun() @Shorthand for writing Vector4(0,0,0,0).
+---@field Index_operator fun() @Access the x, y, z, w components using [0], [1], [2], [3] respectively.
+---@field operator_eq fun() @Returns true if two vectors are approximately equal.
+---@field operator_divide fun() @Divides a vector by a number.
+---@field y fun() @Y component of the vector.
+---@field Dot fun() @Dot Product of two vectors.
+---@field z fun() @Z component of the vector.
+---@field Distance fun() @Returns the distance between a and b.
+---@field operator_multiply fun() @Multiplies a vector by a number.
+---@field operator_add fun() @Adds two vectors.
+---@field LerpUnclamped fun() @Linearly interpolates between two vectors.
+---@field operator_Vector4 fun() @Converts a Vector4 to a Vector3.
+---@field operator_subtract fun() @Subtracts one vector from another.
+---@field Lerp fun() @Linearly interpolates between two vectors.

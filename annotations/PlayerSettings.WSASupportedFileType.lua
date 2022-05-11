@@ -1,0 +1,3 @@
+---@class PlayerSettings.WSASupportedFileType @Represents a single file and content type to register the application as a default handler for.
+---@field contentType fun() @The MIME content type the file type uses.
+---@field fileType fun() @The file extension that identifies the file type.

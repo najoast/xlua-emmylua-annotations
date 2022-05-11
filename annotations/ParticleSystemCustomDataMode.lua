@@ -1,0 +1,4 @@
+---@class ParticleSystemCustomDataMode @Which mode CustomDataModule uses to generate its data.
+---@field Vector fun() @Generate data using ParticleSystem.MinMaxCurve.
+---@field Color fun() @Generate data using ParticleSystem.MinMaxGradient.
+---@field Disabled fun() @Don't generate any data.

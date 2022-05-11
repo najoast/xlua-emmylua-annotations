@@ -1,0 +1,6 @@
+---@class Experimental.GraphView.TokenNode @The TokenNode class includes methods for creating and managing a Node that resembles a capsule. The TokenNode class includes a title, an icon, one input Port, and one output Port.
+---@field input fun() @The input Port of the TokenNode.
+---@field ctor fun() @Constructs a TokenNode with both input and output Ports.
+---@field highlighted fun() @Returns whether the TokenNode is highlighted.
+---@field icon fun() @The icon of the TokenNode.
+---@field output fun() @The output Port of the TokenNode.

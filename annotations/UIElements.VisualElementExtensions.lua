@@ -1,0 +1,8 @@
+---@class UIElements.VisualElementExtensions @VisualElementExtensions is a set of extension methods useful for VisualElement.
+---@field ChangeCoordinatesTo fun() @Transforms a point from the local space of an element to the local space of another element.
+---@field RemoveManipulator fun() @Remove a manipulator associated to a VisualElement.
+---@field StretchToParentSize fun() @Aligns a VisualElement's left, top, right and bottom edges with the corresponding edges of its parent.
+---@field WorldToLocal fun() @Transforms a point from the world space to the local space of the element.
+---@field LocalToWorld fun() @Transforms a point from the local space of the element to the world space.
+---@field StretchToParentWidth fun() @Aligns a VisualElement's left and right edges with the corresponding edges of its parent.
+---@field AddManipulator fun() @Add a manipulator associated to a VisualElement.

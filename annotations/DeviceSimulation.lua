@@ -1,0 +1,5 @@
+---@class DeviceSimulation @nil
+---@field DeviceSimulator DeviceSimulation.DeviceSimulator @Class for interacting with a Device Simulator window from a script.
+---@field DeviceSimulatorPlugin DeviceSimulation.DeviceSimulatorPlugin @Extend this class to create a Device Simulator plug-in.
+---@field TouchPhase DeviceSimulation.TouchPhase @Indicates where in its lifecycle a given touch is.
+---@field TouchEvent DeviceSimulation.TouchEvent @Representation of a single touch event coming from a Device Simulator. Subscribe to DeviceSimulator.touchScreenInput to receive these events.

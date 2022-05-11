@@ -1,0 +1,2 @@
+---@class PreferenceItem @(Obsolete: use the SettingsProvider class instead) The PreferenceItem attribute allows you to add preferences sections to the Preferences window.
+---@field ctor fun() @Creates a section in the Settings Window called name and invokes the static function following it for the section's GUI.

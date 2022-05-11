@@ -1,0 +1,4 @@
+---@class ArticulationDofLock @The lock type applied to a particular degree of freedom of an articulation body.
+---@field LimitedMotion fun() @The relative motion of the two connected articulation bodies is limited to a certain range.
+---@field FreeMotion fun() @The relative motion of the two connected articulation bodies is unconstrained.
+---@field LockedMotion fun() @The relative motion of the two connected articulation bodies is not allowed.

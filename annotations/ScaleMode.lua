@@ -1,0 +1,4 @@
+---@class ScaleMode @Scaling mode to draw textures with.
+---@field ScaleToFit fun() @Scales the texture, maintaining aspect ratio, so it completely fits withing the position rectangle passed to GUI.DrawTexture.
+---@field ScaleAndCrop fun() @Scales the texture, maintaining aspect ratio, so it completely covers the position rectangle passed to GUI.DrawTexture. If the texture is being draw to a rectangle with a different aspect ratio than the original, the image is cropped.
+---@field StretchToFill fun() @Stretches the texture to fill the complete rectangle passed in to GUI.DrawTexture.

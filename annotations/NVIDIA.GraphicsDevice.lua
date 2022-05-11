@@ -1,0 +1,12 @@
+---@class NVIDIA.GraphicsDevice @Provides the main entry point for the NVIDIA Module. Use this to interact with specific NVIDIA graphics card features.
+---@field version fun() @Gets the version that corresponds to Unity's host plugin that manages the NVIDIA.NVUnityPlugin official library.
+---@field IsFeatureAvailable fun() @Checks if the current NVIDIA graphics card supports the feature you specify using the GraphicsDeviceFeature enum.
+---@field CreateFeature fun() @Creates a specific NVIDIA feature.
+---@field CreateDebugView fun() @Creates an object containing debug information of the device.
+---@field UpdateDebugView fun() @Updates a snapshpot of the debug information for the view object passed.
+---@field DeleteDebugView fun() @Deletes a debug view created with GraphicsDevice.CreateDebugView.
+---@field GetOptimalSettings fun() @Returns a structure containing the optimal settings for a specific target resolution and quality.
+---@field DestroyFeature fun() @Destroys a specific feature created with GraphicsDevice.CreateFeature.
+---@field device fun() @Gets the device created by GraphicsDevice.CreateGraphicsDevice. If the device hasn't been created this property evaluates to null.
+---@field ExecuteDLSS fun() @Records the execution of DLSS into a rendering command buffer. This call does not execute the command buffer, it only appends custom commands into it.
+---@field CreateGraphicsDevice fun() @Creates the main API object. Call this method only once in your application.

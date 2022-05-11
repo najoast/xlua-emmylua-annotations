@@ -1,0 +1,12 @@
+---@class Networking.PlayerConnection.EditorConnection @Handles the connection from the Editor to the Player.
+---@field Send fun() @Sends data to the connected Players.
+---@field UnregisterDisconnection fun() @Unregisters the disconnection callback.
+---@field Register fun() @Registers a callback on a certain message ID.
+---@field UnregisterConnection fun() @Unregisters the connection callback.
+---@field RegisterDisconnection fun() @Registers a callback on a Player when that Player disconnects.
+---@field ConnectedPlayers fun() @A list of the connected Players.
+---@field RegisterConnection fun() @Registers a callback, executed when a new Player connects to the Editor.
+---@field DisconnectAll fun() @Disconnects all of the active connections between the Editor and the Players.
+---@field Initialize fun() @Initializes the EditorConnection.
+---@field Unregister fun() @Deregisters a registered callback.
+---@field TrySend fun() @Attempts to send data from the Editor to the connected Players.

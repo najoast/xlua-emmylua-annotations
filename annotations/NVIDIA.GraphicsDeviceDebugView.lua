@@ -1,0 +1,4 @@
+---@class NVIDIA.GraphicsDeviceDebugView @Represents a memory snapshot of the current feature states. The memory of the arrays/buffers in this struct are tied to the lifetime of the debug view. See Also: GraphicsDevice.CreateDebugView, GraphicsDevice.UpdateDebugView and GraphicsDevice.DeleteDebugView.
+---@field deviceVersion fun() @The version that corresponds to Unity's host plugin NVUnityPlugin.
+---@field dlssFeatureInfos fun() @A snapshot enumeration of all the active dlss features information currently active in the runtime. The method GraphicsDevice.UpdateDebugView will performs update on this snapshot.
+---@field ngxVersion fun() @The current version id of the official internal NV NGX library. This version can change if you swap the DLLs for DLSS.

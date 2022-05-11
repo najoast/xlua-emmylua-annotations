@@ -1,0 +1,2 @@
+---@class UIElements.LayerField.UxmlTraits @Defines UxmlTraits for the LayerField.
+---@field Init fun() @Initialize the traits.

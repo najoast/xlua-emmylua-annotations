@@ -1,0 +1,4 @@
+---@class Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @Gets the handle of a Profiler metric.
+---@field Valid fun() @Indicates if a handle is valid and can be used with ProfilerRecorder.
+---@field GetAvailable fun() @Gets all available handles which can be accessed with ProfilerRecorder.
+---@field GetDescription fun() @Gets description of Profiler marker or counter handle.

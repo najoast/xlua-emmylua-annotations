@@ -1,0 +1,32 @@
+---@class CanvasRenderer @A component that will render to the screen after all normal rendering has completed when attached to a Canvas. Designed for GUI application.
+---@field GetInheritedAlpha fun() @Get the final inherited alpha calculated by including all the parent alphas from included parent CanvasGroups.
+---@field relativeDepth fun() @Depth of the renderer realative to the parent canvas.
+---@field Clear fun() @Remove all cached vertices.
+---@field cull fun() @Indicates whether geometry emitted by this renderer is ignored.
+---@field cullTransparentMesh fun() @Indicates whether geometry emitted by this renderer can be ignored when the vertex color alpha is close to zero for every vertex of the mesh.
+---@field SetAlpha fun() @Set the alpha of the renderer. Will be multiplied with the UIVertex alpha and the Canvas alpha.
+---@field SetColor fun() @Set the color of the renderer. Will be multiplied with the UIVertex color and the Canvas color.
+---@field hasMoved fun() @True if any change has occured that would invalidate the positions of generated geometry.
+---@field DisableRectClipping fun() @Disables rectangle clipping for this CanvasRenderer.
+---@field SetMaterial fun() @Set the material for the canvas renderer. If a texture is specified then it will be used as the 'MainTex' instead of the material's 'MainTex'.See Also: CanvasRenderer.SetMaterialCount, CanvasRenderer.SetTexture.
+---@field SetVertices fun() @Set the vertices for the UIRenderer.
+---@field hasRectClipping fun() @True if rect clipping has been enabled on this renderer.See Also: CanvasRenderer.EnableRectClipping, CanvasRenderer.DisableRectClipping.
+---@field absoluteDepth fun() @Depth of the renderer relative to the root canvas.
+---@field SetPopMaterial fun() @Set the material for the canvas renderer. Used internally for masking.
+---@field popMaterialCount fun() @The number of materials usable by this renderer. Used internally for masking.
+---@field SetMesh fun() @Sets the Mesh used by this renderer. Note the Mesh must be read/write enabled.
+---@field clippingSoftness fun() @The clipping softness to apply to the renderer.
+---@field onRequestRebuild fun() @(Editor Only) Event that gets fired whenever the data in the CanvasRenderer gets invalidated and needs to be rebuilt.
+---@field EnableRectClipping fun() @Enables rect clipping on the CanvasRendered. Geometry outside of the specified rect will be clipped (not rendered).
+---@field GetPopMaterial fun() @Gets the current Material assigned to the CanvasRenderer. Used internally for masking.
+---@field hasPopInstruction fun() @Enable 'render stack' pop draw call.
+---@field GetMaterial fun() @Gets the current Material assigned to the CanvasRenderer.
+---@field SplitUIVertexStreams fun() @Given a list of UIVertex, split the stream into it's component types.
+---@field materialCount fun() @The number of materials usable by this renderer.
+---@field GetColor fun() @Get the current color of the renderer.
+---@field SetAlphaTexture fun() @The Alpha Texture that will be passed to the Shader under the _AlphaTex property.
+---@field GetAlpha fun() @Get the current alpha of the renderer.
+---@field AddUIVertexStream fun() @Take the Vertex steam and split it corrisponding arrays (positions, colors, uv0s, uv1s, normals and tangents).
+---@field isMask fun() @Is the UIRenderer a mask component.
+---@field SetTexture fun() @Sets the texture used by this renderer's material.
+---@field CreateUIVertexStream fun() @Convert a set of vertex components into a stream of UIVertex.

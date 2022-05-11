@@ -1,0 +1,12 @@
+---@class Experimental.AI.PathQueryStatus @Bit flags representing the resulting state of NavMeshQuery operations.
+---@field PartialResult fun() @Query did not reach the end location, returning best guess.
+---@field BufferTooSmall fun() @The node buffer of the query was too small to store all results.
+---@field Success fun() @The operation was successful.
+---@field WrongMagic fun() @Data in the NavMesh cannot be recognized and used.
+---@field InvalidParam fun() @A parameter did not contain valid information, useful for carring out the NavMesh query.
+---@field OutOfNodes fun() @Query ran out of node stack space during a search.
+---@field WrongVersion fun() @Data in the NavMesh world has a wrong version.
+---@field Failure fun() @The operation has failed.
+---@field StatusDetailMask fun() @Bitmask that has 0 set for the Success, Failure and InProgress bits and 1 set for all the other flags.
+---@field InProgress fun() @The operation is in progress.
+---@field OutOfMemory fun() @Operation ran out of memory.

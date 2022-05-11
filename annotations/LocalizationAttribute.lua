@@ -1,0 +1,2 @@
+---@class LocalizationAttribute @An attribute to the assembly for Localization.
+---@field ctor fun() @Default constructor.

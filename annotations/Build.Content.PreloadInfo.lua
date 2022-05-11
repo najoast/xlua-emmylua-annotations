@@ -1,0 +1,3 @@
+---@class Build.Content.PreloadInfo @Container for holding a list of preload objects for a Scene to be built.
+---@field preloadObjects fun() @List of Objects for a serialized Scene that need to be preloaded.
+---@field ctor fun() @Default constructor for an empty PreloadInfo.

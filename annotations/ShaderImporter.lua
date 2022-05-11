@@ -1,0 +1,7 @@
+---@class ShaderImporter @Shader importer lets you modify shader import settings from Editor scripts.
+---@field SetNonModifiableTextures fun() @Sets the non-modifiable textures for each texture material property.
+---@field SetDefaultTextures fun() @Sets the default textures for each texture material property.
+---@field GetNonModifiableTexture fun() @Gets the non-modifiable texture assigned to the shader importer for the shader property with given name.
+---@field GetShader fun() @Gets the reference to the shader imported by this importer.
+---@field GetDefaultTexture fun() @Gets the default texture assigned to the shader importer for the shader property with given name.
+---@field preprocessorOverride fun() @The preprocessor that Unity uses to compile this shader.

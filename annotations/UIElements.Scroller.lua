@@ -1,0 +1,21 @@
+---@class UIElements.Scroller @A vertical or horizontal scrollbar.
+---@field valueChanged fun() @Event sent when the slider value has changed.
+---@field highButtonUssClassName fun() @USS class name of high buttons in elements of this type.
+---@field ctor fun() @Constructor.
+---@field lowValue fun() @Minimum value.
+---@field UxmlFactory fun() @Instantiates a Scroller using the data read from a UXML file.
+---@field verticalVariantUssClassName fun() @USS class name of elements of this type, when they are displayed vertically.
+---@field slider fun() @The slider used by this scroller.
+---@field direction fun() @Direction of this scrollbar.
+---@field horizontalVariantUssClassName fun() @USS class name of elements of this type, when they are displayed horizontally.
+---@field highValue fun() @Maximum value.
+---@field highButton fun() @Top or right scroll button.
+---@field lowButtonUssClassName fun() @USS class name of low buttons in elements of this type.
+---@field ScrollPageUp fun() @Will change the value according to the current slider pageSize.
+---@field UxmlTraits UIElements.Scroller.UxmlTraits @Defines UxmlTraits for the Scroller.
+---@field ScrollPageDown fun() @Will change the value according to the current slider pageSize.
+---@field lowButton fun() @Bottom or left scroll button.
+---@field value fun() @Value that defines the slider position. It lies between lowValue and highValue.
+---@field Adjust fun() @Updates the slider element size as a ratio of total range. A value greater than 1 will disable the Scroller.
+---@field sliderUssClassName fun() @USS class name of slider elements in elements of this type.
+---@field ussClassName fun() @USS class name of elements of this type.

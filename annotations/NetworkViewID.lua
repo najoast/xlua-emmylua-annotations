@@ -1,0 +1,4 @@
+---@class NetworkViewID @The NetworkViewID is a unique identifier for a network view instance in a multiplayer game.
+---@field unassigned fun() @Represents an invalid network view ID.
+---@field owner fun() @The NetworkPlayer who owns the NetworkView. Could be the server.
+---@field isMine fun() @True if instantiated by me.

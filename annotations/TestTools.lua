@@ -1,0 +1,5 @@
+---@class TestTools @nil
+---@field ExcludeFromCoverageAttribute fun() @Allows you to exclude an Assembly, Class, Constructor, Method or Struct from TestTools.Coverage.
+---@field Coverage TestTools.Coverage @Describes the interface for the code coverage data exposed by mono.
+---@field CoveredSequencePoint TestTools.CoveredSequencePoint @Describes a covered sequence point used by TestTools.Coverage. For an example of typical usage, see TestTools.Coverage.GetSequencePointsFor.
+---@field CoveredMethodStats TestTools.CoveredMethodStats @Describes the summary of the code coverage for the specified method used by TestTools.Coverage. For an example of typical usage, see TestTools.Coverage.GetStatsFor.

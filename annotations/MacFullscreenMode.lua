@@ -1,0 +1,3 @@
+---@class MacFullscreenMode @Mac fullscreen mode.
+---@field FullscreenWindow fun() @Fullscreen window.
+---@field FullscreenWindowWithDockAndMenuBar fun() @Fullscreen window with Dock and Menu bar.

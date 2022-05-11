@@ -1,0 +1,18 @@
+---@class Rendering.BatchRendererGroup @A group of batches.
+---@field SetBatchPropertyMetadata fun() @Sets all Hybrid Renderer DOTS instancing metadata for this batch, and marks it as a Hybrid Renderer V2 batch.
+---@field OnPerformCulling fun() @Culling callback function.
+---@field GetBatchScalarArray fun() @Retrieves an array of instanced float properties for a given batch.
+---@field RemoveBatch fun() @Removes a batch from the group.                    Note: For performance reasons, the removal is done via emplace_back() which will simply replace the removed batch index with the last index in the array and will decrement the size.                    If you're holding your own array of batch indices, you'll have to either regenerate it or apply the same emplace_back() mechanism as RemoveBatch does.
+---@field GetNumBatches fun() @Retrieves the number of batches added to the group.
+---@field GetBatchMatrixArray fun() @Retrieves an array of instanced vector properties for a given batch.
+---@field GetBatchVectorArray fun() @Retrieves an array of instanced vector properties for a given batch.
+---@field SetInstancingData fun() @Updates a batch.
+---@field EnableVisibleIndicesYArray fun() @Enables or disables Rendering.BatchCullingContext.visibleIndicesY.
+---@field GetBatchVectorArrayInt fun() @Retrieves an array of instanced int vector properties for a given batch.
+---@field SetBatchBounds fun() @Sets the bounding box of the batch.
+---@field GetBatchScalarArrayInt fun() @Retrieves an array of instanced int properties for a given batch.
+---@field ctor fun() @Creates a new Rendering.BatchRendererGroup.
+---@field SetBatchFlags fun() @Sets flag bits that enable special behavior for this Hybrid Renderer V2 batch.
+---@field Dispose fun() @Deletes a group.
+---@field AddBatch fun() @Adds a new batch to the group.
+---@field GetBatchMatrices fun() @Retrieves the matrices associated with one batch.

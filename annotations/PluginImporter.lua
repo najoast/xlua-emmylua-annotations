@@ -1,0 +1,28 @@
+---@class PluginImporter @Represents a plugin importer.
+---@field DefineConstraints fun() @Allows you to specify a list of #define directives which controls whether your plug-in should be included.
+---@field ctor fun() @Constructor.
+---@field GetIsOverridable fun() @Identifies whether or not this plugin will be overridden if a plugin of the same name is placed in your project folder.
+---@field GetExcludeFromAnyPlatform fun() @Is platform excluded when Any Platform set to true.
+---@field SetIcon fun() @Sets the custom icon to associate with a MonoScript imported by a managed plugin.
+---@field GetExcludeEditorFromAnyPlatform fun() @Is Editor excluded when Any Platform is set to true.
+---@field SetExcludeFromAnyPlatform fun() @Exclude platform from compatible platforms when Any Platform is set to true.
+---@field SetPlatformData fun() @Sets platform specific data.
+---@field GetEditorData fun() @Returns editor specific data for specified key.
+---@field GetAllImporters fun() @Returns all plugin importers for all platforms.
+---@field GetImporters fun() @Returns all plugin importers for specfied platform.
+---@field SetEditorData fun() @Sets editor specific data.
+---@field SetIncludeInBuildDelegate fun() @Setting the delegate function to be called by ShouldIncludeInBuild.
+---@field GetIcon fun() @Gets the custom icon to associate with a MonoScript at import time.
+---@field SetExcludeEditorFromAnyPlatform fun() @Exclude Editor from compatible platforms when Any Platform is set to true.
+---@field ClearSettings fun() @Clear all plugin settings and set the compatability with Any Platform to true.
+---@field SetCompatibleWithPlatform fun() @Sets compatibility with the specified platform.
+---@field SetCompatibleWithEditor fun() @Sets compatibility with any editor.
+---@field SetCompatibleWithAnyPlatform fun() @Sets compatibility with Any Platform.
+---@field isPreloaded fun() @Is a native plugin loaded during startup or on demand?
+---@field IncludeInBuildDelegate fun() @Delegate to be used with SetIncludeInBuildDelegate.
+---@field ShouldIncludeInBuild fun() @Identifies whether or not this plugin should be included in the current build target.
+---@field GetCompatibleWithAnyPlatform fun() @Checks whether a plugin is flagged as being compatible with Any Platform.
+---@field isNativePlugin fun() @Is plugin native or managed? Note: C++ libraries with CLR support are treated as native plugins, because Unity cannot load such libraries. You can still access them via P/Invoke.
+---@field GetCompatibleWithEditor fun() @Is plugin compatible with editor.
+---@field GetPlatformData fun() @Get platform specific data.
+---@field GetCompatibleWithPlatform fun() @Is plugin compatible with specified platform.

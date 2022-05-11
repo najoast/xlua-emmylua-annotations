@@ -1,0 +1,5 @@
+---@class Rendering.UVChannelFlags @A flag representing each UV channel.
+---@field UV1 fun() @Second UV channel.
+---@field UV0 fun() @First UV channel.
+---@field UV3 fun() @Fourth UV channel.
+---@field UV2 fun() @Third UV channel.

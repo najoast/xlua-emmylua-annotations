@@ -1,0 +1,5 @@
+---@class Networking.DownloadHandlerMovieTexture @MovieTexture has been removed. Use VideoPlayer instead.
+---@field GetData fun() @MovieTexture has been removed. Use VideoPlayer instead.
+---@field GetContent fun() @MovieTexture has been removed. Use VideoPlayer instead.
+---@field ctor fun() @MovieTexture has been removed. Use VideoPlayer instead.
+---@field movieTexture fun() @MovieTexture has been removed. Use VideoPlayer instead.

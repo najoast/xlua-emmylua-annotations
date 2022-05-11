@@ -1,0 +1,16 @@
+---@class ObjectChangeEventStream.Builder @Provides a way to construct an instance of ObjectChangeEventStream.
+---@field PushCreateAssetObjectEvent fun() @Adds an CreateAssetObjectEventArgs to the end of the stream.
+---@field ctor fun() @Constructs a new instance.
+---@field PushChangeGameObjectStructureEvent fun() @Adds an ChangeGameObjectStructureEventArgs to the end of the stream.
+---@field PushChangeGameObjectParentEvent fun() @Adds an ChangeGameObjectParentEventArgs to the end of the stream.
+---@field PushChangeGameObjectOrComponentPropertiesEvent fun() @Adds an ChangeGameObjectOrComponentPropertiesEventArgs to the end of the stream.
+---@field ToStream fun() @Copies the data collected in this instance into a new ObjectChangeEventStream instance.
+---@field PushUpdatePrefabInstancesEvent fun() @Adds an UpdatePrefabInstancesEventArgs to the end of the stream.
+---@field PushDestroyGameObjectHierarchyEvent fun() @Adds an DestroyGameObjectHierarchyEventArgs to the end of the stream.
+---@field PushCreateGameObjectHierarchyEvent fun() @Adds an CreateGameObjectHierarchyEventArgs to the end of the stream.
+---@field PushChangeGameObjectStructureHierarchyEvent fun() @Adds an ChangeGameObjectStructureHierarchyEventArgs to the end of the stream.
+---@field PushDestroyAssetObjectEvent fun() @Adds an DestroyAssetObjectEventArgs to the end of the stream.
+---@field PushChangeSceneEvent fun() @Adds an ChangeSceneEventArgs to the end of the stream.
+---@field Dispose fun() @Releases the memory associated with this instance.
+---@field eventCount fun() @The number of events that have been recorded in this instance so far.
+---@field PushChangeAssetObjectPropertiesEvent fun() @Adds an ChangeAssetObjectPropertiesEventArgs to the end of the stream.

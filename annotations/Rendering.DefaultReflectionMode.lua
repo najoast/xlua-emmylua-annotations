@@ -1,0 +1,3 @@
+---@class Rendering.DefaultReflectionMode @Default reflection mode.
+---@field Custom fun() @Custom default reflection.
+---@field Skybox fun() @Skybox-based default reflection.

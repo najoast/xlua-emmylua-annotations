@@ -1,0 +1,36 @@
+---@class GL @Low-level graphics library.
+---@field Begin fun() @Begin drawing 3D primitives.
+---@field MultMatrix fun() @Sets the current model matrix to the one specified.
+---@field ClearWithSkybox fun() @Clear the current render buffer with camera's skybox.
+---@field IssuePluginEvent fun() @Send a user-defined event to a native code plugin.
+---@field PushMatrix fun() @Saves the model, view and projection matrices to the top of the matrix stack.
+---@field MultiTexCoord3 fun() @Sets current texture coordinate (x,y,z) to the actual texture unit.
+---@field TexCoord fun() @Sets current texture coordinate (v.x,v.y,v.z) for all texture units.
+---@field modelview fun() @Gets or sets the modelview matrix.
+---@field invertCulling fun() @Select whether to invert the backface culling (true) or not (false).
+---@field LoadPixelMatrix fun() @Setup a matrix for pixel-correct rendering.
+---@field Color fun() @Sets current vertex color.
+---@field TexCoord2 fun() @Sets current texture coordinate (x,y) for all texture units.
+---@field LINE_STRIP fun() @Mode for Begin: draw line strip.
+---@field Flush fun() @Sends queued-up commands in the driver's command buffer to the GPU.
+---@field MultiTexCoord2 fun() @Sets current texture coordinate (x,y) for the actual texture unit.
+---@field Clear fun() @Clear the current render buffer.
+---@field TRIANGLES fun() @Mode for Begin: draw triangles.
+---@field LoadOrtho fun() @Helper function to set up an orthograhic projection.
+---@field LoadProjectionMatrix fun() @Load an arbitrary matrix to the current projection matrix.
+---@field InvalidateState fun() @Invalidate the internally cached render state.
+---@field TexCoord3 fun() @Sets current texture coordinate (x,y,z) for all texture units.
+---@field Viewport fun() @Set the rendering viewport.
+---@field Vertex3 fun() @Submit a vertex.
+---@field Vertex fun() @Submit a vertex.
+---@field TRIANGLE_STRIP fun() @Mode for Begin: draw triangle strip.
+---@field LoadIdentity fun() @Load an identity into the current model and view matrices.
+---@field RenderTargetBarrier fun() @Resolves the render target for subsequent operations sampling from it.
+---@field GetGPUProjectionMatrix fun() @Compute GPU projection matrix from camera's projection matrix.
+---@field QUADS fun() @Mode for Begin: draw quads.
+---@field sRGBWrite fun() @Controls whether Linear-to-sRGB color conversion is performed while rendering.
+---@field PopMatrix fun() @Restores the model, view and projection matrices off the top of the matrix stack.
+---@field wireframe fun() @Should rendering be done in wireframe?
+---@field MultiTexCoord fun() @Sets current texture coordinate (v.x,v.y,v.z) to the actual texture unit.
+---@field End fun() @End drawing 3D primitives.
+---@field LINES fun() @Mode for Begin: draw lines.

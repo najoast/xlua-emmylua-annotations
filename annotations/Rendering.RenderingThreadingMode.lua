@@ -1,0 +1,7 @@
+---@class Rendering.RenderingThreadingMode @Options for the application's actual rendering threading mode.
+---@field MultiThreaded fun() @Generates intermediate graphics commands via the main thread. The render thread converts them into low-level platform API graphics commands.
+---@field LegacyJobified fun() @Generates intermediate graphics commands via several worker threads. A single render thread then converts them into low-level platform API graphics commands.
+---@field NativeGraphicsJobsWithoutRenderThread fun() @Generates intermediate graphics commands via several worker threads and converts them into low-level platform API graphics commands.
+---@field NativeGraphicsJobs fun() @Main thread generates intermediate graphics commands. Render thread converts them into low-level platform API graphics commands. Render thread can also dispatch graphics jobs to several worker threads.
+---@field SingleThreaded fun() @Use SingleThreaded for internal debugging. It uses only a single thread to simulate RenderingThreadingMode.MultiThreaded.
+---@field Direct fun() @Use the Direct enum to directly render your application from the main thread.

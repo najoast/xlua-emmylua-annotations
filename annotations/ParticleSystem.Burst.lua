@@ -1,0 +1,9 @@
+---@class ParticleSystem.Burst @Script interface for a Burst.
+---@field probability fun() @The probability that the system triggers a burst.
+---@field ctor fun() @Construct a new Burst with a time and count.
+---@field count fun() @Specify the number of particles to emit.
+---@field time fun() @The time that each burst occurs.
+---@field repeatInterval fun() @How often to repeat the burst, in seconds.
+---@field maxCount fun() @The maximum number of particles to emit.
+---@field minCount fun() @The minimum number of particles to emit.
+---@field cycleCount fun() @Specifies how many times the system should play the burst. Set this to 0 to make it play indefinitely.

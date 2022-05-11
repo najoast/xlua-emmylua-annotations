@@ -1,0 +1,15 @@
+---@class PlayerLoop.PreLateUpdate @Update phase in the native player loop.
+---@field UNetUpdate fun() @A native engine system that the native player loop updates.
+---@field Physics2DLateUpdate fun() @A native engine system that the native player loop updates.
+---@field EndGraphicsJobsAfterScriptUpdate fun() @A native engine system that the native player loop updates.
+---@field UpdateMasterServerInterface fun() @A native engine system that the native player loop updates.
+---@field UpdateNetworkManager fun() @A native engine system that the native player loop updates.
+---@field LegacyAnimationUpdate fun() @A native engine system that the native player loop updates.
+---@field ParticleSystemBeginUpdateAll fun() @A native engine system that the native player loop updates.
+---@field DirectorUpdateAnimationBegin fun() @A native engine system that the native player loop updates.
+---@field ConstraintManagerUpdate fun() @A native engine system that the native player loop updates.
+---@field UIElementsUpdatePanels fun() @A native engine system that the native player loop updates.
+---@field AIUpdatePostScript fun() @A native engine system that the native player loop updates.
+---@field DirectorDeferredEvaluate fun() @A native engine system that the native player loop updates.
+---@field ScriptRunBehaviourLateUpdate fun() @A native engine system that the native player loop updates.
+---@field DirectorUpdateAnimationEnd fun() @A native engine system that the native player loop updates.

@@ -1,0 +1,7 @@
+---@class TextAsset @Represents a raw text or binary file asset.
+---@field ToString fun() @Returns the contents of the TextAsset.
+---@field ctor fun() @Create a new TextAsset with the specified text contents.This constructor creates a TextAsset, which is not the same as a plain text file. When saved to disk using the AssetDatabase class, the TextAsset should be saved with the .asset extension.
+---@field text fun() @The text contents of the file as a string. (Read Only)
+---@field GetData fun() @Gets raw text asset data.
+---@field bytes fun() @The raw bytes of the text asset. (Read Only)
+---@field dataSize fun() @The size of the text asset data in bytes. (Read Only)

@@ -1,0 +1,4 @@
+---@class ShaderData.PreprocessedVariant @Represents the results of preprocessing a variant using ShaderData.Pass.PreprocessVariant.
+---@field Messages fun() @Stores errors and warnings produced during preprocessing (Read Only).
+---@field Success fun() @Indicates whether the variant preprocessing succeeded (Read Only). If it did, this is true. Otherwise, this is false and ShaderData.PreprocessedVariant.Messages contains the errors.
+---@field PreprocessedCode fun() @Stores the preprocessed code for the shader variant (Read Only).

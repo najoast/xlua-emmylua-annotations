@@ -1,0 +1,12 @@
+---@class UIElements.AbstractProgressBar @Abstract base class for the ProgressBar.
+---@field title fun() @Sets the title of the ProgressBar that displays in the center of the control.
+---@field lowValue fun() @Sets the minimum value of the ProgressBar.
+---@field progressUssClassName fun() @USS Class Name used to style the progress bar of the ProgressBar.
+---@field SetValueWithoutNotify fun() @Sets the progress value.
+---@field backgroundUssClassName fun() @USS Class Name used to style the background of the ProgressBar.
+---@field highValue fun() @Sets the maximum value of the ProgressBar.
+---@field titleUssClassName fun() @USS Class Name used to style the title of the ProgressBar.
+---@field ussClassName fun() @USS Class Name used to style the ProgressBar.
+---@field value fun() @Sets the progress value. If the value has changed, dispatches an ChangeEvent_1 of type float.
+---@field titleContainerUssClassName fun() @USS Class Name used to style the container of the title of the ProgressBar.
+---@field containerUssClassName fun() @USS Class Name used to style the container of the ProgressBar.

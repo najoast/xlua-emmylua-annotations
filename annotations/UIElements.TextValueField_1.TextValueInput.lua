@@ -1,0 +1,8 @@
+---@class UIElements.TextValueField_1.TextValueInput @This is the inner representation of the Text input.
+---@field allowedCharacters fun() @Method to override to indicate the allowed characters in the actual field.
+---@field ApplyInputDeviceDelta fun() @Called when the user is dragging the label to update the value contained in the field.
+---@field StringToValue fun() @Converts a string to a value type.
+---@field StartDragging fun() @Method called by the application when the label of the field is started to be dragged to change the value of it.
+---@field StopDragging fun() @Method called by the application when the label of the field is stopped to be dragged to change the value of it.
+---@field ValueToString fun() @Convert the value to string for visual representation.
+---@field formatString fun() @Formats the string.

@@ -1,0 +1,3 @@
+---@class TerrainTools.RepaintFlags @Flags that indicate what to repaint on the Terrain tools.
+---@field Scene fun() @Repaint the Scene view.
+---@field UI fun() @Repaint the tool UI.

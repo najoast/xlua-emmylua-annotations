@@ -1,0 +1,3 @@
+---@class ParticleSystemAnimationType @The animation type.
+---@field WholeSheet fun() @Animate over the whole texture sheet from left to right, top to bottom.
+---@field SingleRow fun() @Animate a single row in the sheet from left to right.

@@ -1,0 +1,5 @@
+---@class ISubsystem @Interface implemented by both Subsystem and IntegratedSubsystem which provides control over the state of either.
+---@field Stop fun() @Stops an instance of a subsystem.
+---@field Start fun() @Starts an instance of a subsystem.
+---@field running fun() @Will be true if asking the subsytem to start was successful. False in the case that the subsystem has stopped, was asked to stop or has not been started yet.
+---@field Destroy fun() @Destroys this instance of a subsystem.

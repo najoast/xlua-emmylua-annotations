@@ -1,0 +1,5 @@
+---@class UIElements.DropdownMenuEventInfo @This class provides information about the event that triggered displaying the drop-down menu.
+---@field localMousePosition fun() @If the triggering event was a mouse event, this property is the mouse position. The position is expressed using the coordinate system of the element that received the mouse event. Otherwise this property is zero.
+---@field ctor fun() @Constructor.
+---@field modifiers fun() @If modifier keys (Alt, Ctrl, Shift, Windows/Command) were pressed to trigger the display of the dropdown menu, this property lists the modifier keys.
+---@field mousePosition fun() @If the triggering event was a mouse event, this property is the mouse position expressed using the global coordinate system. Otherwise this property is zero.

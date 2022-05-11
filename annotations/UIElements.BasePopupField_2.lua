@@ -1,0 +1,10 @@
+---@class UIElements.BasePopupField_2 @This is the base class for all the popup field elements. TValue and TChoice can be different, see MaskField,   or the same, see PopupField
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field textElement fun() @This is the text displayed.
+---@field choices fun() @The list of choices to display in the popup menu.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field SetValueWithoutNotify fun() @Allow changing value without triggering any change event.
+---@field text fun() @This is the text displayed to the user for the current selection of the popup.
+---@field arrowUssClassName fun() @USS class name of arrow indicators in elements of this type.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field textUssClassName fun() @USS class name of text elements in elements of this type.

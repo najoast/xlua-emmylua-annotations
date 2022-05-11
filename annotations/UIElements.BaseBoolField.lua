@@ -1,0 +1,6 @@
+---@class UIElements.BaseBoolField @A BaseBoolField is a clickable element that represents a boolean value.
+---@field ctor fun() @Creates a BaseBoolField with a Label and a default manipulator.
+---@field SetValueWithoutNotify fun() @Sets the value of the BaseBoolField, but does not notify the rest of the hierarchy of the change.
+---@field text fun() @Optional text that appears after the BaseBoolField.
+---@field ToggleValue fun() @Inverts the BaseBoolField.value property.
+---@field InitLabel fun() @Initializes the Label element whenever the BaseBoolField.text property changes.

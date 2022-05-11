@@ -1,0 +1,8 @@
+---@class Toolbars.EditorToolbarToggle @A toggle used with EditorToolbarElementAttribute.
+---@field ussClassName fun() @USS Class Name used to style the EditorToolbarToggle.
+---@field ctor fun() @Constructor.
+---@field SetValueWithoutNotify fun() @Allow to set a value without being notified of the change, if any.
+---@field text fun() @The text associated with the toggle.
+---@field offIcon fun() @The icon associated with the toggle when the value is false.
+---@field onIcon fun() @The icon associated with the toggle when the value is true.
+---@field icon fun() @The icon associated with the toggle.

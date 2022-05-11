@@ -1,0 +1,6 @@
+---@class Build.Content.SceneDependencyInfo @Scene dependency information generated from the ContentBuildInterface.PrepareScene API.
+---@field globalUsage fun() @Lighting information used by the Scene.
+---@field referencedObjects fun() @List of objects referenced by the Scene.
+---@field scene fun() @Scene's original asset path.
+---@field processedScene fun() @Path to the post processed version of the Scene.
+---@field includedTypes fun() @Types that are used by scene objects.

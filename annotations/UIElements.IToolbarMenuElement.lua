@@ -1,0 +1,2 @@
+---@class UIElements.IToolbarMenuElement @An interface for toolbar items that display drop-down menus.
+---@field menu fun() @The drop-down menu for the element.

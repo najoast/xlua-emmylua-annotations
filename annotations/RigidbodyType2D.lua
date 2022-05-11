@@ -1,0 +1,4 @@
+---@class RigidbodyType2D @The physical behaviour type of the Rigidbody2D.
+---@field Static fun() @Sets the Rigidbody2D to have static behaviour.
+---@field Dynamic fun() @Sets the Rigidbody2D to have dynamic behaviour.
+---@field Kinematic fun() @Sets the Rigidbody2D to have kinematic behaviour.

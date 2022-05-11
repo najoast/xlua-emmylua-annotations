@@ -1,0 +1,5 @@
+---@class Experimental.GraphView.StickyNoteFontSize @Enum used to describe the font size used by the [StickyNote].
+---@field Small fun() @Small font size.
+---@field Medium fun() @Medium font size.
+---@field Large fun() @Large font size.
+---@field Huge fun() @Huge font size.

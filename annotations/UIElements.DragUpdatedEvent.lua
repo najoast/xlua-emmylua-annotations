@@ -1,0 +1,2 @@
+---@class UIElements.DragUpdatedEvent @The event sent when the element being dragged enters a possible drop target.
+---@field GetPooled fun() @Gets an event from the event pool and initializes it with the given values. Use this function instead of creating new events. Events obtained using this method need to be released back to the pool. You can use Dispose() to release them.

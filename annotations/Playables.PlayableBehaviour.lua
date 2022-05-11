@@ -1,0 +1,11 @@
+---@class Playables.PlayableBehaviour @PlayableBehaviour is the base class from which every custom playable script derives.
+---@field OnBehaviourDelay fun() @This function is called when the Playable play state is changed to Playables.PlayState.Delayed.
+---@field OnGraphStop fun() @This function is called when the PlayableGraph that owns this PlayableBehaviour stops.
+---@field OnPlayableDestroy fun() @This function is called when the Playable that owns the PlayableBehaviour is destroyed.
+---@field ProcessFrame fun() @This function is called during the ProcessFrame phase of the PlayableGraph.
+---@field OnGraphStart fun() @This function is called when the PlayableGraph that owns this PlayableBehaviour starts.
+---@field PrepareData fun() @This function is called during the PrepareData phase of the PlayableGraph.
+---@field OnBehaviourPlay fun() @This function is called when the Playable play state is changed to Playables.PlayState.Playing.
+---@field OnBehaviourPause fun() @This method is invoked when one of the following situations occurs:       The effective play state during traversal is changed to Playables.PlayState.Paused. This state is indicated by FrameData.effectivePlayState.       The PlayableGraph is stopped while the playable play state is Playing. This state is indicated by PlayableGraph.IsPlaying returning true.
+---@field PrepareFrame fun() @This function is called during the PrepareFrame phase of the PlayableGraph.
+---@field OnPlayableCreate fun() @This function is called when the Playable that owns the PlayableBehaviour is created.

@@ -1,0 +1,3 @@
+---@class PlayerSettings.WSA.Declarations @Represents additional Universal Windows Platform application settings written to the package manifest.
+---@field protocolName fun() @A URI scheme to register the application as a default handler for.
+---@field fileTypeAssociations fun() @The file types to register the application as a default handler for.

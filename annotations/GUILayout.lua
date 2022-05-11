@@ -1,0 +1,38 @@
+---@class GUILayout @The GUILayout class is the interface for Unity gui with automatic layout.
+---@field BeginScrollView fun() @Begin an automatically laid out scrollview.
+---@field VerticalScope GUILayout.VerticalScope @Disposable helper class for managing BeginVertical / EndVertical.
+---@field BeginHorizontal fun() @Begin a Horizontal control group.
+---@field Width fun() @Option passed to a control to give it an absolute width.
+---@field MinHeight fun() @Option passed to a control to specify a minimum height.
+---@field AreaScope GUILayout.AreaScope @Disposable helper class for managing BeginArea / EndArea.
+---@field BeginArea fun() @Begin a GUILayout block of GUI controls in a fixed screen area.
+---@field MaxHeight fun() @Option passed to a control to specify a maximum height.
+---@field ExpandWidth fun() @Option passed to a control to allow or disallow horizontal expansion.
+---@field BeginVertical fun() @Begin a vertical control group.
+---@field Toolbar fun() @Make a toolbar.
+---@field EndHorizontal fun() @Close a group started with BeginHorizontal.
+---@field SelectionGrid fun() @Make a Selection Grid.
+---@field VerticalSlider fun() @A vertical slider the user can drag to change a value between a min and a max.
+---@field ScrollViewScope GUILayout.ScrollViewScope @Disposable helper class for managing BeginScrollView / EndScrollView.
+---@field ExpandHeight fun() @Option passed to a control to allow or disallow vertical expansion.
+---@field Box fun() @Make an auto-layout box.
+---@field MinWidth fun() @Option passed to a control to specify a minimum width.
+---@field PasswordField fun() @Make a text field where the user can enter a password.
+---@field HorizontalScope GUILayout.HorizontalScope @Disposable helper class for managing BeginHorizontal / EndHorizontal.
+---@field Window fun() @Make a popup window that layouts its contents automatically.
+---@field TextField fun() @Make a single-line text field where the user can edit a string.
+---@field Height fun() @Option passed to a control to give it an absolute height.
+---@field VerticalScrollbar fun() @Make a vertical scrollbar.
+---@field EndScrollView fun() @End a scroll view begun with a call to BeginScrollView.
+---@field Label fun() @Make an auto-layout label.
+---@field RepeatButton fun() @Make a repeating button. The button returns true as long as the user holds down the mouse.
+---@field FlexibleSpace fun() @Insert a flexible space element.
+---@field Space fun() @Insert a space in the current layout group.
+---@field HorizontalScrollbar fun() @Make a horizontal scrollbar.
+---@field MaxWidth fun() @Option passed to a control to specify a maximum width.
+---@field EndArea fun() @Close a GUILayout block started with BeginArea.
+---@field EndVertical fun() @Close a group started with BeginVertical.
+---@field TextArea fun() @Make a multi-line text field where the user can edit a string.
+---@field Toggle fun() @Make an on/off toggle button.
+---@field Button fun() @Make a single press button.
+---@field HorizontalSlider fun() @A horizontal slider the user can drag to change a value between a min and a max.

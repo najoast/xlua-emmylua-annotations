@@ -1,0 +1,4 @@
+---@class UIElements.PanelScaleMode @Options that specify how elements in the panel scale when the screen size changes. See PanelSettings.scaleMode.
+---@field ConstantPhysicalSize fun() @Elements stay the same physical size (displayed size) regardless of screen size and resolution.
+---@field ConstantPixelSize fun() @Elements stay the same size, in pixels, regardless of screen size.
+---@field ScaleWithScreenSize fun() @Elements get bigger when the screen size increases, and smaller when it decreases.

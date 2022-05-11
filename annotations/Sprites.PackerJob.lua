@@ -1,0 +1,3 @@
+---@class Sprites.PackerJob @Current Sprite Packer job definition.
+---@field AddAtlas fun() @Registers a new atlas.
+---@field AssignToAtlas fun() @Assigns a Sprite to an already registered atlas.

@@ -1,0 +1,5 @@
+---@class Sprites.SpriteUtility @Helper utilities for accessing Sprite data.
+---@field GetSpriteUVs fun() @Returns the generated Sprite mesh uvs.
+---@field GetSpriteTexture fun() @Returns the generated Sprite texture. If Sprite is packed, it is possible to query for both source and atlas textures.
+---@field GetSpriteMesh fun() @Returns the generated Sprite mesh positions.
+---@field GetSpriteIndices fun() @Returns the generated Sprite mesh indices.

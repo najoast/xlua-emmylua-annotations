@@ -1,0 +1,9 @@
+---@class TerrainTools.IOnPaint @Interface that provides parameters and utility functions for the OnPaint event of the terrain paint tools.
+---@field uv fun() @Read only. The normalized position (between 0 and 1) on the active Terrain.
+---@field raycastHit fun() @Read only. The raycast result for the current mouse position.  This is valid when hitValidTerrain is true.
+---@field brushTexture fun() @Read only. Current selected brush texture.
+---@field Repaint fun() @Instructs the Editor to repaint the tool UI, the Scene view, or both.
+---@field RepaintAllInspectors fun() @Instructs the Editor to repaint the inspector UI.
+---@field brushStrength fun() @Read only. Current brush strength.
+---@field hitValidTerrain fun() @Read only. True if the mouse is over a valid Terrain object; otherwise false.
+---@field brushSize fun() @Read only. Current brush size in Terrain units (equivalent size to world units).

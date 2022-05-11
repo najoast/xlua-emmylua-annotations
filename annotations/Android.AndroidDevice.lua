@@ -1,0 +1,3 @@
+---@class Android.AndroidDevice @Interface into Android specific functionality.
+---@field SetSustainedPerformanceMode fun() @Set sustained performance mode. When enabled, sustained performance mode is intended to provide a consistent level of performance for a prolonged amount of time.
+---@field hardwareType fun() @When running on a Chrome OS device, hardwareType is set to AndroidHardwareType.ChromeOS. It is set to AndroidHardwareType.Generic in all other cases.

@@ -1,0 +1,4 @@
+---@class CreateGameObjectHierarchyEventArgs @A change of this type indicates that a GameObject has been created, possibly with additional objects below it in the hierarchy. This happens for example when Undo.RegisterCreatedObjectUndo is used with a GameObject.
+---@field scene fun() @The scene containing the GameObject that has been created.
+---@field instanceId fun() @The instance ID of the GameObject that has been created.
+---@field ctor fun() @Constructs a new instance.

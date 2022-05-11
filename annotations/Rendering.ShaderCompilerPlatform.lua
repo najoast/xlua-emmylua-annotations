@@ -1,0 +1,14 @@
+---@class Rendering.ShaderCompilerPlatform @Shader compiler used to generate player data shader variants.
+---@field PS4 fun() @Compiler used on PlayStation 4.
+---@field GameCore fun() @Compiler used with Direct3D 12 graphics API on Game Core platforms.
+---@field None fun() @Provide a reasonable value for non initialized variables.
+---@field Metal fun() @Compiler used with Metal graphics API on macOS, iOS and tvOS platforms.
+---@field XboxOneD3D12 fun() @Compiler used with Direct3D 12 graphics API on XBox One.
+---@field N3DS fun() @Compiler used on Nintendo 3DS.
+---@field D3D fun() @Compiler used with Direct3D 11 and Direct3D 12 graphics API on Windows platforms.
+---@field GLES3x fun() @Compiler used with OpenGL ES 3.x and WebGL 2.0 graphics APIs on Android, iOS, Windows and WebGL platforms.
+---@field Vulkan fun() @Compiler used with Vulkan graphics API on Android, Linux and Windows platforms.
+---@field OpenGLCore fun() @Compiler used with OpenGL core graphics API on macOS, Linux and Windows platforms.
+---@field Switch fun() @Compiler used on Nintendo Switch.
+---@field XboxOneD3D11 fun() @Compiler used with Direct3D 11 graphics API on XBox One.
+---@field GLES20 fun() @Compiler used with OpenGL ES 2.0 and WebGL 1.0 graphics APIs on Android, iOS, Windows and WebGL platforms.

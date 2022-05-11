@@ -1,0 +1,2 @@
+---@class Experimental.GraphView.SearchWindow @This subclass displays a searchable menu of available graph nodes.
+---@field Open fun() @Opens the search window above the Graph.

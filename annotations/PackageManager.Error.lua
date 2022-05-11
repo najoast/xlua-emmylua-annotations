@@ -1,0 +1,3 @@
+---@class PackageManager.Error @Structure describing the error of a package operation.
+---@field message fun() @Error message or description.
+---@field errorCode fun() @Numerical error code.

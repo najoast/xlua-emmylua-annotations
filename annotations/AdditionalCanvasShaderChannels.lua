@@ -1,0 +1,7 @@
+---@class AdditionalCanvasShaderChannels @Enum mask of possible shader channel properties that can also be included when the Canvas mesh is created.
+---@field TexCoord3 fun() @Include UV3 on the mesh vertices.
+---@field Tangent fun() @Include the Tangent on the mesh vertices.
+---@field TexCoord2 fun() @Include UV2 on the mesh vertices.
+---@field TexCoord1 fun() @Include UV1 on the mesh vertices.
+---@field None fun() @No additional shader parameters are needed.
+---@field Normal fun() @Include the normals on the mesh vertices.

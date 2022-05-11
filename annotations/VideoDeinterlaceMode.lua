@@ -1,0 +1,4 @@
+---@class VideoDeinterlaceMode @Describes how the fields in the image, if any, should be interpreted.
+---@field Off fun() @Clip is not interlaced.
+---@field Even fun() @First field is in the even lines.
+---@field Odd fun() @First field is in the odd lines.

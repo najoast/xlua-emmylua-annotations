@@ -1,0 +1,6 @@
+---@class WWWForm @Helper class to generate form data to post to web servers using the UnityWebRequest or WWW classes.
+---@field AddField fun() @Add a simple field to the form.
+---@field AddBinaryData fun() @Add binary data to the form.
+---@field data fun() @(Read Only) The raw data to pass as the POST request body when sending the form.
+---@field ctor fun() @Creates an empty WWWForm object.
+---@field headers fun() @(Read Only) Returns the correct request headers for posting the form using the WWW class.

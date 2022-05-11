@@ -1,0 +1,3 @@
+---@class SearchService.ObjectSelectorHandlerAttribute @A class attribute that allows you to define dynamic constraint on a MonoBehavior or ScriptableObject's field for the object selector.
+---@field attributeType fun() @The attribute type.
+---@field ctor fun() @Constructor used to declare the SearchService.ObjectSelectorHandlerAttribute on a method.

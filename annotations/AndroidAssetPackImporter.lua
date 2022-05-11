@@ -1,0 +1,2 @@
+---@class AndroidAssetPackImporter @Represents an Android asset pack directory in a project.
+---@field GetAllImporters fun() @Gets all Android asset pack importers.

@@ -1,0 +1,4 @@
+---@class StackTraceLogType @Stack trace logging options.
+---@field None fun() @No stack trace will be outputed to log.
+---@field ScriptOnly fun() @Only managed stack trace will be outputed.
+---@field Full fun() @Native and managed stack trace will be logged.

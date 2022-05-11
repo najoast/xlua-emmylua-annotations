@@ -1,0 +1,7 @@
+---@class Search.RefreshFlags @Refresh flags are used to indicate why search view needs to be refreshed or updated.
+---@field StructureChanged fun() @The structure of the current selection data has changed (i.e. the selected scene object got a new component).
+---@field GroupChanged fun() @The current item group has changed. In example, the user selected a new search tab.
+---@field None fun() @No particular refresh reason were specified.
+---@field Default fun() @Normal refresh.
+---@field ItemsChanged fun() @The search item list has been updated.
+---@field DisplayModeChanged fun() @The display mode or item size has changed.

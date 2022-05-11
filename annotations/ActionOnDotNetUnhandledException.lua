@@ -1,0 +1,3 @@
+---@class ActionOnDotNetUnhandledException @The behavior in case of unhandled .NET exception.
+---@field SilentExit fun() @Silent exit in case of unhandled .NET exception (no Crash Report generated).
+---@field Crash fun() @Crash in case of unhandled .NET exception (Crash Report will be generated).

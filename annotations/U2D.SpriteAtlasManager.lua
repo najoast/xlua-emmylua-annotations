@@ -1,0 +1,4 @@
+---@class U2D.SpriteAtlasManager @Manages SpriteAtlas during runtime.
+---@field RequestAtlasCallback fun() @Delegate type for atlas request callback.
+---@field atlasRequested fun() @Trigger when any Sprite was bound to SpriteAtlas but couldn't locate the atlas asset during runtime.
+---@field atlasRegistered fun() @Trigger when a SpriteAtlas is registered via invoking the callback in U2D.SpriteAtlasManager.atlasRequested.

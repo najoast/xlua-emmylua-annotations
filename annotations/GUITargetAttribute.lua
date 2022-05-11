@@ -1,0 +1,2 @@
+---@class GUITargetAttribute @Allows to control for which display the OnGUI is called.
+---@field ctor fun() @Default constructor initializes the attribute for OnGUI to be called for all available displays.

@@ -1,0 +1,5 @@
+---@class WebGLTextureSubtarget @Compressed texture format for target build platform.
+---@field ASTC fun() @ASTC texture compression.
+---@field Generic fun() @Don't override texture compression.
+---@field DXT fun() @S3 texture compression. Supported on devices with NVidia Tegra, Vivante and Intel GPUs.
+---@field ETC2 fun() @ETC2 texture compression. Available on devices which support OpenGL ES 3.0; on OpenGL ES 2 devices the texture is decompressed on CPU.

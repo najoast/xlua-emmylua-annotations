@@ -1,0 +1,9 @@
+---@class Search.SearchValue @Search value is used to extend a query engine with custom type parsers and filters to search results by value.
+---@field ValueType Search.SearchValue.ValueType @Search value supported types.
+---@field SetupEngine fun() @Extended a query engine to work with dynamic search values.
+---@field valid fun() @Indicates if the search value is valid.
+---@field number fun() @Number value.
+---@field text fun() @Text representation of the value.
+---@field boolean fun() @Boolean value.
+---@field type fun() @Indicates the concrete type of the search value.
+---@field invalid fun() @Represent an invalid search value.

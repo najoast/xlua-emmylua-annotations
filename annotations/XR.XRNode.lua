@@ -1,0 +1,10 @@
+---@class XR.XRNode @Enumeration of XR nodes which can be updated by XR input or sent haptic data.
+---@field LeftEye fun() @Node representing the left eye.
+---@field CenterEye fun() @Node representing a point between the left and right eyes.
+---@field HardwareTracker fun() @Represents a physical device that provides tracking data for objects to which it is attached.
+---@field TrackingReference fun() @Represents a stationary physical device that can be used as a point of reference in the tracked area.
+---@field LeftHand fun() @Node representing the left hand.
+---@field RightHand fun() @Node representing the right hand.
+---@field Head fun() @Node representing the user's head.
+---@field RightEye fun() @Node representing the right eye.
+---@field GameController fun() @Represents a tracked game Controller not associated with a specific hand.

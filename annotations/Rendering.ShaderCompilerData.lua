@@ -1,0 +1,7 @@
+---@class Rendering.ShaderCompilerData @Collection of data used for shader variants generation, including targeted platform data and the keyword set representing a specific shader variant.
+---@field buildTarget fun() @The build target to compile the shader variant for. (Read Only)
+---@field shaderCompilerPlatform fun() @Shader compiler used to generate player data shader variants.
+---@field shaderRequirements fun() @Shader features required by a specific shader.
+---@field graphicsTier fun() @A GraphicsTier classifies low, medium and high performance hardware. You can only set a Graphics Tier in the Built-in Render Pipeline.
+---@field shaderKeywordSet fun() @A collection of Rendering.ShaderKeyword that represents a specific shader variant.
+---@field platformKeywordSet fun() @A collection of Rendering.ShaderKeyword that represents a specific platform shader variant.

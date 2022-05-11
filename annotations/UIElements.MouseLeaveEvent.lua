@@ -1,0 +1,3 @@
+---@class UIElements.MouseLeaveEvent @Event sent when the mouse pointer exits an element and all its descendent elements. The event is cancellable, it does not trickle down, and it does not bubble up.
+---@field ctor fun() @Constructor. Avoid creating new event instances. Instead, use GetPooled() to get an instance from a pool of reusable event instances.
+---@field Init fun() @Resets the event members to their initial values.

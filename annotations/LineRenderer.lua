@@ -1,0 +1,27 @@
+---@class LineRenderer @The line renderer is used to draw free-floating lines in 3D space.
+---@field numPositions fun() @Set the number of line segments.
+---@field numCornerVertices fun() @Set this to a value greater than 0, to get rounded corners between each segment of the line.
+---@field startColor fun() @Set the color at the start of the line.
+---@field positionCount fun() @Set/get the number of vertices.
+---@field loop fun() @Connect the start and end positions of the line together to form a continuous loop.
+---@field endColor fun() @Set the color at the end of the line.
+---@field Simplify fun() @Generates a simplified version of the original line by removing points that fall within the specified tolerance.
+---@field widthCurve fun() @Set the curve describing the width of the line at various points along its length.
+---@field GetPosition fun() @Get the position of a vertex in the line.
+---@field numCapVertices fun() @Set this to a value greater than 0, to get rounded corners on each end of the line.
+---@field colorGradient fun() @Set the color gradient describing the color of the line at various points along its length.
+---@field endWidth fun() @Set the width at the end of the line.
+---@field widthMultiplier fun() @Set an overall multiplier that is applied to the LineRenderer.widthCurve to get the final width of the line.
+---@field BakeMesh fun() @Creates a snapshot of LineRenderer and stores it in mesh.
+---@field SetWidth fun() @Set the line width at the start and at the end.
+---@field shadowBias fun() @Apply a shadow bias to prevent self-shadowing artifacts. The specified value is the proportion of the line width at each segment.
+---@field startWidth fun() @Set the width at the start of the line.
+---@field SetPosition fun() @Set the position of a vertex in the line.
+---@field textureMode fun() @Choose whether the U coordinate of the line texture is tiled or stretched.
+---@field generateLightingData fun() @Configures a line to generate Normals and Tangents. With this data, Scene lighting can affect the line via Normal Maps and the Unity Standard Shader, or your own custom-built Shaders.
+---@field SetVertexCount fun() @Set the number of line segments.
+---@field GetPositions fun() @Get the positions of all vertices in the line.
+---@field useWorldSpace fun() @If enabled, the lines are defined in world space.
+---@field SetPositions fun() @Set the positions of all vertices in the line.
+---@field alignment fun() @Select whether the line will face the camera, or the orientation of the Transform Component.
+---@field SetColors fun() @Set the line color at the start and at the end.

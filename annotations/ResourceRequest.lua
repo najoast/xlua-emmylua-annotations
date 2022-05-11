@@ -1,0 +1,2 @@
+---@class ResourceRequest @Asynchronous load request from the Resources bundle.
+---@field asset fun() @Asset object being loaded (Read Only).

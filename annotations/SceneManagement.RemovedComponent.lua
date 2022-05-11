@@ -1,0 +1,6 @@
+---@class SceneManagement.RemovedComponent @Class with information about a component that has been removed from a Prefab instance.
+---@field Apply fun() @See PrefabOverride.Apply.
+---@field assetComponent fun() @The components on the Prefab Asset which has been removed on the Prefab instance.
+---@field Revert fun() @See PrefabOverride.Revert.
+---@field containingInstanceGameObject fun() @The GameObject on the Prefab instance that the component has been removed from.
+---@field GetAssetObject fun() @See PrefabOverride.GetAssetObject.

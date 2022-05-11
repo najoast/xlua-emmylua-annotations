@@ -1,0 +1,7 @@
+---@class Unity.Profiling.ProfilerMarkerDataUnit @Options for Profiler marker data unit types.
+---@field FrequencyHz fun() @Display data value as a frequency, specified in hertz.
+---@field Count fun() @Display data value as a simple number without any unit abbreviations.
+---@field Undefined fun() @Use to display data value as string if ProfilerMarkerDataTypes.String16 or as a simple number without any unit abbreviations. Also use Undefined in combination with ProfilerMarkerDataTypes.Blob8 which won't be visualized.
+---@field Percent fun() @Display data value as a percentage value with % postfix.
+---@field TimeNanoseconds fun() @Display data value as a time, specified in nanoseconds.
+---@field Bytes fun() @Display data value as a size, specified in bytes.

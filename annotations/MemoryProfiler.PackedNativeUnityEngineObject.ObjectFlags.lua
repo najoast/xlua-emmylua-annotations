@@ -1,0 +1,4 @@
+---@class MemoryProfiler.PackedNativeUnityEngineObject.ObjectFlags @Equivalent of Profiling.PackedNativeUnityEngineObject.ObjectFlags in the old memory profiler API.
+---@field IsDontDestroyOnLoad fun() @Equivalent of Profiling.PackedNativeUnityEngineObject in the old memory profiler API.
+---@field IsManager fun() @Equivalent of Profiling.PackedNativeUnityEngineObject in the old memory profiler API.
+---@field IsPersistent fun() @Equivalent of Profiling.PackedNativeUnityEngineObject in the old memory profiler API.

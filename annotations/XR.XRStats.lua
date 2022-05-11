@@ -1,0 +1,4 @@
+---@class XR.XRStats @Timing and other statistics from the XR subsystem.
+---@field TryGetFramePresentCount fun() @Retrieves the number of times the current frame has been drawn to the device as reported by the XR SDK.
+---@field TryGetGPUTimeLastFrame fun() @Retrieves the time spent by the GPU last frame, in seconds, as reported by the XR SDK.
+---@field TryGetDroppedFrameCount fun() @Retrieves the number of dropped frames reported by the XR SDK.

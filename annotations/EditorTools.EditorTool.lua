@@ -1,0 +1,9 @@
+---@class EditorTools.EditorTool @Use this class to implement editor tools. This is the base class from which all editor tools are inherited.
+---@field IsAvailable fun() @Checks whether the custom editor tool is available based on the state of the editor.
+---@field toolbarIcon fun() @The icon and tooltip for this custom editor tool. If this function is not implemented, the toolbar displays the Inspector icon for the target type. If no target type is defined, the toolbar displays the Tool Mode icon.
+---@field targets fun() @An array of the objects being inspected.
+---@field gridSnapEnabled fun() @Use this property to allow the current EditorTool to enable/disable grid snapping.
+---@field OnToolGUI fun() @Use this method to implement a custom editor tool.
+---@field target fun() @The object being inspected.
+---@field OnWillBeDeactivated fun() @Invoked before this EditorTool stops being the active tool.
+---@field OnActivated fun() @Invoked after this EditorTool becomes the active tool.

@@ -1,0 +1,2 @@
+---@class Toolbars.EditorToolbarDropdown @A clickable dropdown used with EditorToolbarElementAttribute.
+---@field ctor fun() @Constructor.

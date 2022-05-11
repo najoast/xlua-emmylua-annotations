@@ -1,0 +1,10 @@
+---@class ParticleSystem.CustomDataModule @Script interface for the CustomDataModule of a Particle System.
+---@field GetMode fun() @Find out the type of custom data that is being generated for the chosen data stream.
+---@field SetMode fun() @Choose the type of custom data to generate for the chosen data stream.
+---@field SetColor fun() @Set a ParticleSystem.MinMaxGradient, in order to generate custom HDR color data.
+---@field GetVectorComponentCount fun() @Query how many ParticleSystem.MinMaxCurve elements are being used to generate this stream of custom data.
+---@field GetColor fun() @Get a ParticleSystem.MinMaxGradient, that is being used to generate custom HDR color data.
+---@field SetVectorComponentCount fun() @Specify how many curves are used to generate custom data for this stream.
+---@field enabled fun() @Specifies whether the CustomDataModule is enabled or disabled.
+---@field GetVector fun() @Get a ParticleSystem.MinMaxCurve, that is being used to generate custom data.
+---@field SetVector fun() @Set a ParticleSystem.MinMaxCurve, in order to generate custom data.

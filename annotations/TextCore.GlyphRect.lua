@@ -1,0 +1,7 @@
+---@class TextCore.GlyphRect @A rectangle that defines the position of a glyph within an atlas texture.
+---@field y fun() @The y position of the glyph in the font atlas texture.
+---@field x fun() @The x position of the glyph in the font atlas texture.
+---@field zero fun() @A GlyphRect with all values set to zero. Shorthand for writing GlyphRect(0, 0, 0, 0).
+---@field ctor fun() @Constructor for a new GlyphRect.
+---@field width fun() @The width of the glyph.
+---@field height fun() @The height of the glyph.

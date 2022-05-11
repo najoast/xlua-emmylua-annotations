@@ -1,0 +1,7 @@
+---@class UIElements.Vector3IntField @A Vector3Int editor field.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field ctor fun() @Initializes and returns an instance of Vector3IntField.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field UxmlFactory fun() @Instantiates a Vector3IntField using the data read from a UXML file.
+---@field UxmlTraits UIElements.Vector3IntField.UxmlTraits @Defines UxmlTraits for the Vector3IntField.

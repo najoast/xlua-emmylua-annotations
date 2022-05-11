@@ -1,0 +1,9 @@
+---@class UIElements.BoundsIntField @A BoundsInt editor field.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field ctor fun() @Initializes and returns an instance of BoundsIntField.
+---@field sizeUssClassName fun() @USS class name of size fields in elements of this type.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field UxmlFactory fun() @Instantiates a BoundsIntField using the data read from a UXML file.
+---@field positionUssClassName fun() @USS class name of position fields in elements of this type.
+---@field UxmlTraits UIElements.BoundsIntField.UxmlTraits @Defines UxmlTraits for the BoundsIntField.

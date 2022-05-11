@@ -1,0 +1,3 @@
+---@class UIElements.MeshGenerationContext @Provides methods for generating a VisualElement's visual content during the generateVisualContent callback.
+---@field Allocate fun() @Allocates the specified number of vertices and indices required to express geometry for drawing the content of a VisualElement.
+---@field visualElement fun() @The element for which VisualElement.generateVisualContent was invoked.

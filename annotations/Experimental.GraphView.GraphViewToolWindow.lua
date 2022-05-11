@@ -1,0 +1,8 @@
+---@class Experimental.GraphView.GraphViewToolWindow @Abstract base class for a GraphView tool window.
+---@field OnGraphViewChanging fun() @Callback invoked when the GraphView is about to change.
+---@field OnEnable fun() @Base implementation of the Unity OnEnable event.
+---@field GetExtraPaneTypes fun() @Gets the extra panes associated with the window.
+---@field ToolName fun() @The tool window name.
+---@field OnGraphViewChanged fun() @Callback invoked when the GraphView has changed.
+---@field IsGraphViewSupported fun() @Verifies whether the GraphView tool window supports a specific GraphView.
+---@field SelectGraphViewFromWindow fun() @Associate a GraphView, from a GraphViewEditorWindow, to this tool window.

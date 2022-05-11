@@ -1,0 +1,2 @@
+---@class Rendering.RenderPipelineEditorUtility @Helper class that contains a utility function on ScriptableRenderPipeline for Editor.
+---@field FetchFirstCompatibleTypeUsingScriptableRenderPipelineExtension fun() @Returns the first type that is a child of TBaseClass and has a ScriptableRenderPipelineExtensionAttribute filter corresponding to the ScriptableRenderPipeline that you are using.

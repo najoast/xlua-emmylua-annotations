@@ -1,0 +1,17 @@
+---@class MPE.ChannelClient @ChannelClient is a WebSocket client that connects to Unity's ChannelService, which is a WebSocket server.
+---@field GetChannelClientList fun() @Gets information for all ChannelClients running on a single instance of Unity.
+---@field UnregisterMessageHandler fun() @Unregisters a specific channel handler from a ChannelClient.
+---@field Send fun() @Sends an ASCII or binary message to the ChannelService. Depending on how the channel's handler processes the message, it may also be sent to other connections.
+---@field RegisterMessageHandler fun() @Registers a new handler on a specific channel. The new handler is called whenever a message is sent to the ChannelClient.
+---@field Tick fun() @Ticks the ChannelClient. When you call this method, it checks whether any incoming messages from the server need to be processed, and whether any outgoing messages need to be sent to the server.
+---@field GetOrCreateClient fun() @Creates a new ChannelClient on a specific channel. If a client already exists, this method gets the client.
+---@field isAutoTick fun() @Specifies whether Unity processes (ticks) this ChannelClient's incoming and outgoing messages automatically, or the user processes (ticks) them manually, either in the main thread or a dedicated thread.
+---@field GetChannelClientInfo fun() @Gets the ChannelClientInfo for a specific channel.
+---@field Start fun() @Starts an existing ChannelClient so it listens to incoming and outgoing messages.
+---@field IsConnected fun() @Checks whether the ChannelClient connected to a ChannelService.
+---@field Shutdown fun() @Closes all ChannelClients in this instance of Unity.
+---@field NewRequestId fun() @Creates a unique request ID for this ChannelClient in this instance of Unity. For more information about requests, see ChannelClient.Request.
+---@field Stop fun() @Stops a specific ChannelClient from listening for new messages. This is different than ChannelClient.Close because you can restart the channel client using ChannelClient.Start.
+---@field channelName fun() @The name of the channel this ChannelClient is connected to. The name matches the route of the URL used to connect to Unity's ChannelService. For example, 127.0.0.1:8928/&lt;my Channel Name&gt;.
+---@field Close fun() @Closes the ChannelClient. This closes the WebSocket client but not the Channel in the ChannelService. Other ChannelClients can still connect on the same Channel.
+---@field clientId fun() @The channel ID, which essentially a hash of the channel name. See ChannelService.ChannelNameToId.

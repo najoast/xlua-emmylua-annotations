@@ -1,0 +1,6 @@
+---@class LogType @The type of the log message in Debug.unityLogger.Log or delegate registered with Application.RegisterLogCallback.
+---@field Warning fun() @LogType used for Warnings.
+---@field Exception fun() @LogType used for Exceptions.
+---@field Assert fun() @LogType used for Asserts. (These could also indicate an error inside Unity itself.)
+---@field Log fun() @LogType used for regular log messages.
+---@field Error fun() @LogType used for Errors.

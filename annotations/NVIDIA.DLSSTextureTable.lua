@@ -1,0 +1,8 @@
+---@class NVIDIA.DLSSTextureTable @The set of texture slots available for the DLSSContext. SA GraphicsDevice.ExecuteDLSS
+---@field transparencyMask fun() @A transparency bit mask. This must be the same size as the input texture. This texture helps the DLSSContext with ghosting issues. This texture is optional.
+---@field exposureTexture fun() @A 1x1 texture with pre-exposure values. If you do not use pre-exposure, do not set this texture. This texture is optional.
+---@field colorInput fun() @The input color buffer to upsample for DLSSContext. This texture is mandatory and you must set it to a non-null value.
+---@field motionVectors fun() @The motion vectors requested by the DLSSContext. Depending on the NVIDIA.DLSSFeatureFlags specified in DLSSContext.initData, this buffer can be a smaller scale or the full output resolution. This texture is mandatory and you must set it to a non-null value.
+---@field biasColorMask fun() @A mask, same size as colorInput, preferably of format R8_UNORM that informs DLSS of possible moving pixels. If heavy ghosting is encountered, set pixels to this mask to fix the problem. This texture is optional.
+---@field colorOutput fun() @The output color buffer to write the upsampling result for DLSSContext. This must be large enough to fit in the output rect specified in the command. This texture is mandatory and you must set it to a non-null value.
+---@field depth fun() @The input depth buffer. This must be the same size as the input color buffer. This texture is mandatory and you must set it to a non-null value.

@@ -1,0 +1,7 @@
+---@class FrustumPlanes @This struct contains the view space coordinates of the near projection plane.
+---@field right fun() @Position in view space of the right side of the near projection plane.
+---@field bottom fun() @Position in view space of the bottom side of the near projection plane.
+---@field zNear fun() @Z distance from the origin of view space to the near projection plane.
+---@field zFar fun() @Z distance from the origin of view space to the far projection plane.
+---@field top fun() @Position in view space of the top side of the near projection plane.
+---@field left fun() @Position in view space of the left side of the near projection plane.

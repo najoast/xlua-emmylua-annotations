@@ -1,0 +1,15 @@
+---@class Experimental.Rendering.FormatUsage @Use this format usages to figure out the capabilities of specific GraphicsFormat
+---@field GetPixels fun() @Use this to get pixel data from a texture.
+---@field LoadStore fun() @Use this to perform resource load and store on a texture
+---@field ReadPixels fun() @Use this to read back pixels data from a rendertexture.
+---@field MSAA2x fun() @Use this to create and render to a MSAA 2X rendertexture.
+---@field Linear fun() @Use this to sample textures with a linear filter
+---@field MSAA8x fun() @Use this to create and render to a MSAA 8X rendertexture.
+---@field Sparse fun() @Use this to create sparse textures
+---@field MSAA4x fun() @Use this to create and render to a MSAA 4X rendertexture.
+---@field SetPixels32 fun() @Use this to set pixel data to a texture using `SetPixels32`.
+---@field Sample fun() @Use this to create and sample textures.
+---@field Render fun() @Use this to create and render to a rendertexture.
+---@field Blend fun() @Use this to blend on a rendertexture.
+---@field SetPixels fun() @Use this to set pixel data to a texture.
+---@field StencilSampling fun() @Use this enumeration to create and render to the Stencil sub element of a RenderTexture.

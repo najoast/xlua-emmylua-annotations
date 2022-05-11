@@ -1,0 +1,5 @@
+---@class Experimental.GraphView.RectangleSelector @Rectangle selection box manipulator.
+---@field ComputeAxisAlignedBound fun() @Computer the axis-aligned bound rectangle.
+---@field RegisterCallbacksOnTarget fun() @Called to register click event callbacks on the target element.
+---@field ctor fun() @RectangleSelector's constructor.
+---@field UnregisterCallbacksFromTarget fun() @Called to unregister event callbacks from the target element.

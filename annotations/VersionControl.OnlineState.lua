@@ -1,0 +1,4 @@
+---@class VersionControl.OnlineState @Represent the connection state of the version control provider.
+---@field Online fun() @Connection to the version control server has been established.
+---@field Updating fun() @The version control provider is currently trying to connect to the version control server.
+---@field Offline fun() @Connection to the version control server could not be established.

@@ -1,0 +1,4 @@
+---@class AudioVelocityUpdateMode @Describes when an AudioSource or AudioListener is updated.
+---@field Auto fun() @Updates the source or listener in the FixedUpdate loop if it is attached to a Rigidbody, dynamic Update otherwise.
+---@field Dynamic fun() @Updates the source or listener in the dynamic Update loop.
+---@field Fixed fun() @Updates the source or listener in the FixedUpdate loop.

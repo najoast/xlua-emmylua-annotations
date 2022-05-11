@@ -1,0 +1,15 @@
+---@class Search.QueryNodeType @Options for representing the query node types.
+---@field Not fun() @Negation node.
+---@field Where fun() @Where enumerator node.
+---@field Group fun() @Group node.
+---@field Or fun() @Or node.
+---@field Union fun() @Union node.
+---@field Toggle fun() @Toggle node.
+---@field Search fun() @Word search node.
+---@field NestedQuery fun() @Nested query node.
+---@field Intersection fun() @Intersection node.
+---@field Aggregator fun() @Aggregator node.
+---@field Comment fun() @Comment node.
+---@field Filter fun() @Filter node.
+---@field And fun() @And node.
+---@field FilterIn fun() @Filter with nested query node.

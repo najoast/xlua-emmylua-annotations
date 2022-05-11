@@ -1,0 +1,26 @@
+---@class Search.SearchProvider @SearchProvider manages search for specific types of items and manages all fields of a SearchItem such as thumbnails, descriptions, subfilters.
+---@field fetchColumns fun() @Handler used to enumerate search columns to be used in the Search Table view.
+---@field showDetailsOptions fun() @Defines the details options to be shown.
+---@field trackSelection fun() @Called when the selection changed and can be tracked.
+---@field actions fun() @Search provider actions.
+---@field fetchThumbnail fun() @Handler to provide an asynchronous thumbnail for an item. Is called when the item is about to be displayed. Compared to preview a thumbnail should be small and returned as fast as possible. Use fetchPreview if you want to generate a preview that is bigger and slower to return. Allows a plugin provider to only fetch/generate previews when they are needed.
+---@field filterId fun() @Text token used to filter by search provider (ex:  me:, p:, s:).
+---@field isEnabledForContextualSearch fun() @Called when search is invoked in contextual mode. Returns true if the search provider is enabled for this search context.
+---@field fetchPropositions fun() @Handler used to enumerate search propositions when the user is using TAB to auto-complete a query.
+---@field priority fun() @Hint to sort the search provider. Affects the order of search results and the order in which search providers are shown in the FilterWindow.
+---@field active fun() @Indicates if the search provider is active or not. Inactive search providers are ignored by the search service. The active state can be toggled in the search settings.
+---@field onEnable fun() @Called when the SearchWindow is opened. Allows the search provider to perform some caching.
+---@field ctor fun() @Create a new SearchProvider.
+---@field isExplicitProvider fun() @This search provider is only active when specified explicitly using the filterId.
+---@field CreateItem fun() @Helper function to create a new search item for the current search provider.
+---@field toObject fun() @Returns any valid Unity object held by the search item.
+---@field fetchLabel fun() @Handler used to fetch and format the label of a search item.
+---@field startDrag fun() @If implemented, the item supports drag. It is up to the SearchProvider to properly set up the DragAndDrop manager.
+---@field showDetails fun() @Indicates if the search provider can show additional details or not.
+---@field name fun() @Unique ID of the search provider.
+---@field fetchItems fun() @MANDATORY: Handler to get items for a given search context. The return value is an object that can be of type IEnumerable or IEnumerator. The enumeration of those objects should return SearchItems.
+---@field openContextual fun() @This callback is used to open an additional context for a given item.
+---@field onDisable fun() @Called when the SearchWindow is closed. Allows the search provider to release cached resources.
+---@field fetchDescription fun() @Handler to provide an asynchronous description for an item. Is called when the item is about to be displayed. Allows a plugin provider to only fetch long descriptions when they are needed.
+---@field fetchPreview fun() @Similar to fetchThumbnail, fetchPreview usually returns a bigger preview. The Search UI will progressively show one preview each frame, preventing the UI from blocking if many previews need to be generated at the same time.
+---@field id fun() @Search provider unique ID.

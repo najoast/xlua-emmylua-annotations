@@ -1,0 +1,6 @@
+---@class Build.Content.DependencyType @Dependency calculation flags to control what is returned, and how it operates.
+---@field ValidReferences fun() @Depencency calculation is not recursive. Only dependencies of the initial passed in set will be returned.
+---@field RecursiveOperation fun() @Depencency calculation is recursive. For each new valid reference discovered during calculation, the dependencies of those references will also be included in the returned results.
+---@field DefaultDependencies fun() @Default mode. Dependencies are calculated recursively, and only valid references are returned.
+---@field NonRecursiveReferences fun() @Object dependencies returned for only direct references.
+---@field MissingReferences fun() @Object dependencies returned for only missing references.

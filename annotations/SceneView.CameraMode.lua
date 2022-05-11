@@ -1,0 +1,6 @@
+---@class SceneView.CameraMode @Describes a built-in Scene view mode.
+---@field ToString fun() @Gets a string summary of this CameraMode.
+---@field name fun() @The name of the CameraMode.
+---@field drawMode fun() @The CameraDrawMode associated with the CameraMode.
+---@field section fun() @The section in the toolbar drop-down that this CameraMode belongs to.
+---@field Equals fun() @Compares this CameraMode object against a specified CameraMode object.

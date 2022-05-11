@@ -1,0 +1,7 @@
+---@class Tilemaps.TileFlags @Flags controlling behavior for the TileBase.
+---@field KeepGameObjectRuntimeOnly fun() @Keeps the TileBase's associated GameObject in Play mode when replaced with another TileBase or erased
+---@field LockTransform fun() @TileBase locks any transform matrix set by brushes or the user.
+---@field None fun() @No TileFlags are set.
+---@field LockAll fun() @All lock flags.
+---@field InstantiateGameObjectRuntimeOnly fun() @TileBase does not instantiate its associated GameObject in editor mode and instantiates it only during Play mode.
+---@field LockColor fun() @TileBase locks any color set by brushes or the user.

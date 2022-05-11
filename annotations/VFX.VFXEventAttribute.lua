@@ -1,0 +1,27 @@
+---@class VFX.VFXEventAttribute @This class handles the properties that you transmit to a system using a VFX.VisualEffect.SendEvent.
+---@field HasMatrix4x4 fun() @Use this method to check if the VFXEventAttribute stores a Matrix4x4 with the name you pass in.
+---@field ctor fun() @The copy constructor for the VFXEventAttribute class.
+---@field SetUint fun() @Use this method to set the value of an unsigned integer with the name you pass in.
+---@field GetVector2 fun() @Use this method to get the value of a named Vector2 property from the VFXEventAttribute.
+---@field GetUint fun() @Use this method to get the value of a named unsigned integer property from the VFXEventAttribute.
+---@field SetVector2 fun() @Use this method to set the value of a Vector2 with the name you pass in.
+---@field SetVector4 fun() @Use this method to set the value of a Vector4 with the name you pass in.
+---@field SetBool fun() @Use this method to set the value of a bool with the name you pass in.
+---@field SetInt fun() @Use this method to set the value of an integer with the name you pass in.
+---@field HasBool fun() @Use this method to check if the VFXEventAttribute stores a bool with the name you pass in.
+---@field SetMatrix4x4 fun() @Use this method to set the value of a Matrix4x4 with the name you pass in.
+---@field HasFloat fun() @Use this method to check if the VFXEventAttribute stores a float with the name you pass in.
+---@field GetVector3 fun() @Use this method to get the value of a named Vector3 property from the VFXEventAttribute.
+---@field CopyValuesFrom fun() @Copies the values from a VFXEventAttribute to the one you call this function from.
+---@field HasVector4 fun() @Use this method to check if the VFXEventAttribute stores a Vector4 with the name you pass in.
+---@field GetVector4 fun() @Use this method to get the value of a named Vector4 property from the VFXEventAttribute.
+---@field SetFloat fun() @Use this method to set the value of a float with the name you pass in.
+---@field HasVector3 fun() @Use this method to check if the VFXEventAttribute stores a Vector3 with the name you pass in.
+---@field HasVector2 fun() @Use this method to check if the VFXEventAttribute stores a Vector2 with the name you pass in.
+---@field GetBool fun() @Use this method to get the value of a named bool property from the VFXEventAttribute.
+---@field GetFloat fun() @Use this method to get the value of a named float property from the VFXEventAttribute.
+---@field HasUint fun() @Use this method to check if the VFXEventAttribute stores a unsigned integer with the name you pass in.
+---@field GetMatrix4x4 fun() @Use this method to get the value of a named Matrix4x4 property from the VFXEventAttribute.
+---@field GetInt fun() @Use this method to get the value of a named integer property from the VFXEventAttribute.
+---@field SetVector3 fun() @Use this method to set the value of a Vector3 with the name you pass in.
+---@field HasInt fun() @Use this method to check if the VFXEventAttribute stores a integer with the name you pass in.

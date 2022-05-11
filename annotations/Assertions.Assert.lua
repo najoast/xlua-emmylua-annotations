@@ -1,0 +1,10 @@
+---@class Assertions.Assert @The Assert class contains assertion methods for setting invariants in the code.
+---@field IsNotNull fun() @Assert that the value is not null.
+---@field IsTrue fun() @Asserts that the condition is true.
+---@field raiseExceptions fun() @Obsolete. Do not use.
+---@field AreEqual fun() @Assert that the values are equal.
+---@field IsFalse fun() @Return true when the condition is false.  Otherwise return false.
+---@field IsNull fun() @Assert the value is null.
+---@field AreApproximatelyEqual fun() @Assert the values are approximately equal.
+---@field AreNotEqual fun() @Assert that the values are not equal.
+---@field AreNotApproximatelyEqual fun() @Asserts that the values are approximately not equal.

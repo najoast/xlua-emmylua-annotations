@@ -1,0 +1,2 @@
+---@class UIElements.GroupBox.UxmlTraits @Defines UxmlTraits for the GroupBox.
+---@field Init fun() @Initializes GroupBox properties using values from the attribute bag.

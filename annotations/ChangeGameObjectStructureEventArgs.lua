@@ -1,0 +1,4 @@
+---@class ChangeGameObjectStructureEventArgs @A change of this type indicates that the structure of a GameObject has changed. This happens when a component is added to or removed from the GameObject using Undo.AddComponent or Undo.DestroyObjectImmediate.
+---@field scene fun() @The Scene containing the GameObject that has been changed.
+---@field instanceId fun() @The instance ID of the GameObject that has been changed.
+---@field ctor fun() @Constructs a new instance.

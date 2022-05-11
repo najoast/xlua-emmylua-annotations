@@ -1,0 +1,7 @@
+---@class Rendering.RenderQueue @Determine in which order objects are renderered.
+---@field GeometryLast fun() @Last render queue that is considered opaque.
+---@field Background fun() @This render queue is rendered before any others.
+---@field Geometry fun() @Opaque geometry uses this queue.
+---@field AlphaTest fun() @Alpha tested geometry uses this queue.
+---@field Transparent fun() @This render queue is rendered after Geometry and AlphaTest, in back-to-front order.
+---@field Overlay fun() @This render queue is meant for overlay effects.

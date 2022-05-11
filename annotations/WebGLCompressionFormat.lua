@@ -1,0 +1,4 @@
+---@class WebGLCompressionFormat @An enum containing different compression types.
+---@field Brotli fun() @WebGL resources are stored using Brotli compression.
+---@field Gzip fun() @WebGL resources are stored using Gzip compression.
+---@field Disabled fun() @WebGL resources are uncompressed.

@@ -1,0 +1,8 @@
+---@class UIElements.IPanel @Interface for classes implementing UI panels.
+---@field visualTree fun() @Root of the VisualElement hierarchy.
+---@field PickAll fun() @Returns all elements at this position. Will not return elements with pickingMode set to PickingMode.Ignore.
+---@field dispatcher fun() @This Panel EventDispatcher.
+---@field Pick fun() @Returns the top element at this position. Will not return elements with pickingMode set to PickingMode.Ignore.
+---@field contextualMenuManager fun() @The Contextual menu manager for the panel.
+---@field focusController fun() @Return the focus controller for this panel.
+---@field contextType fun() @Describes in which context a VisualElement hierarchy is being ran.

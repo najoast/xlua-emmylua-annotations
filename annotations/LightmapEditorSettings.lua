@@ -1,0 +1,42 @@
+---@class LightmapEditorSettings @This class is now obsolete. Use LightingSettings.
+---@field directSampleCount fun() @This property is now obsolete. Use LightingSettings.directSampleCount.
+---@field indirectSampleCount fun() @This property is now obsolete. Use LightingSettings.indirectSampleCount.
+---@field filterTypeIndirect fun() @This property is now obsolete. Use LightingSettings.filterTypeIndirect.
+---@field FilterType LightmapEditorSettings.FilterType @This enum is now obsolete. Use LightingSettings.FilterType.
+---@field environmentSampleCount fun() @This property is now obsolete. Use LightingSettings.environmentSampleCount.
+---@field enableAmbientOcclusion fun() @This property is now obsolete. Use LightingSettings.ao.
+---@field aoExponentIndirect fun() @This property is now obsolete. Use LightingSettings.aoExponentIndirect.
+---@field aoExponentDirect fun() @This property is now obsolete. Use LightingSettings.aoExponentDirect.
+---@field denoiserTypeIndirect fun() @This property is now obsolete. Use LightingSettings.denoiserTypeIndirect.
+---@field filteringMode fun() @This property is now obsolete. Use LightingSettings.filteringMode.
+---@field denoiserTypeDirect fun() @This property is now obsolete. Use LightingSettings.denoiserTypeDirect.
+---@field filteringAtrousPositionSigmaAO fun() @This property is now obsolete. Use LightingSettings.filteringAtrousPositionSigmaAO.
+---@field aoMaxDistance fun() @This property is now obsolete. Use LightingSettings.aoMaxDistance.
+---@field mixedBakeMode fun() @This property is now obsolete. Use LightingSettings.mixedBakeMode.
+---@field filteringAtrousPositionSigmaIndirect fun() @This property is now obsolete. Use LightingSettings.filteringAtrousPositionSigmaIndirect.
+---@field filteringGaussRadiusAO fun() @This property is now obsolete. Use LightingSettings.filteringGaussRadiusAO.
+---@field Lightmapper LightmapEditorSettings.Lightmapper @This enum is now obsolete. Use LightingSettings.Lightmapper.
+---@field sampling fun() @This property is now obsolete. Use LightingSettings.sampling.
+---@field filteringGaussRadiusDirect fun() @This property is now obsolete. Use LightingSettings.filteringGaussRadiusDirect.
+---@field filterTypeAO fun() @This property is now obsolete. Use LightingSettings.filterTypeAO.
+---@field realtimeResolution fun() @This property is now obsolete. Use LightingSettings.indirectResolution.
+---@field trainingDataDestination fun() @This property is now obsolete. Use LightingSettings.trainingDataDestination.
+---@field reflectionCubemapCompression fun() @Determines how Unity will compress baked reflection cubemap.
+---@field exportTrainingData fun() @This property is now obsolete. Use LightingSettings.exportTrainingData.
+---@field Sampling LightmapEditorSettings.Sampling @This enum is now obsolete. Use LightingSettings.Sampling.
+---@field lightmapsMode fun() @This property is now obsolete. Use LightingSettings.directionalityMode.
+---@field maxAtlasHeight fun() @This property is now obsolete. Use maxAtlasSize instead.
+---@field DenoiserType LightmapEditorSettings.DenoiserType @This enum is now obsolete. Use LightingSettings.DenoiserType.
+---@field textureCompression fun() @This property is now obsolete. Use LightingSettings.compressLightmaps.
+---@field bounces fun() @This property is now obsolete. Use LightingSettings.bounces.
+---@field filterTypeDirect fun() @This property is now obsolete. Use LightingSettings.filterTypeDirect.
+---@field prioritizeView fun() @This property is now obsolete. Use LightingSettings.prioritizeView.
+---@field padding fun() @This property is now obsolete. Use LightingSettings.lightmapPadding.
+---@field filteringGaussRadiusIndirect fun() @This property is now obsolete. Use LightingSettings.filteringGaussRadiusIndirect.
+---@field maxAtlasWidth fun() @This property is now obsolete. Use maxAtlasSize instead.
+---@field denoiserTypeAO fun() @This property is now obsolete. Use LightingSettings.denoiserTypeAO.
+---@field filteringAtrousPositionSigmaDirect fun() @This property is now obsolete. Use LightingSettings.filteringAtrousPositionSigmaDirect.
+---@field maxAtlasSize fun() @This property is now obsolete. Use LightingSettings.lightmapMaxSize.
+---@field FilterMode LightmapEditorSettings.FilterMode @This enum is now obsolete. Use LightingSettings.FilterMode.
+---@field bakeResolution fun() @This property is now obsolete. Use LightingSettings.lightmapResolution.
+---@field lightmapper fun() @This property is now obsolete. Use LightingSettings.lightmapper.

@@ -1,0 +1,9 @@
+---@class WSA.Toast @Represents a toast notification in Windows Store Apps.
+---@field activated fun() @true if toast was activated by user.
+---@field Show fun() @Show toast notification.
+---@field dismissed fun() @true if toast notification was dismissed (for any reason).
+---@field Hide fun() @Hide displayed toast notification.
+---@field arguments fun() @Arguments to be passed for application when toast notification is activated.
+---@field GetTemplate fun() @Get template XML for toast notification.
+---@field dismissedByUser fun() @true if toast notification was explicitly dismissed by user.
+---@field Create fun() @Create toast notification.

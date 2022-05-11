@@ -1,0 +1,9 @@
+---@class Search.SearchSelection @Provides methods to give readonly access to the current list of selected items in Search.
+---@field MaxIndex fun() @Highest selected index of any item in the selection.
+---@field Contains fun() @Checks if the search item is contained in the current selection.
+---@field ctor fun() @Creates a new SearchSelection.
+---@field MinIndex fun() @Lowest selected index of any item in the selection.
+---@field Last fun() @Gets the last selected item in the selection.
+---@field Count fun() @The number of items selected.
+---@field First fun() @Gets the first selected item in the selection.
+---@field GetEnumerator fun() @Gets an enumerator on the currently selected SearchItems.

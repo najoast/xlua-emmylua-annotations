@@ -1,0 +1,23 @@
+---@class Animations.AnimatorState @States are the basic building blocks of a state machine. Each state contains a Motion ( AnimationClip or BlendTree) which will play while the character is in that state. When an event in the game triggers a state transition, the character will be left in a new state whose animation sequence will then take over.
+---@field mirrorParameterActive fun() @Define if the mirror value is driven by an Animator controller parameter or by the value set in the editor.
+---@field mirrorParameter fun() @The animator controller parameter that drives the mirror value.
+---@field iKOnFeet fun() @Should Foot IK be respected for this state.
+---@field writeDefaultValues fun() @Whether or not the AnimatorStates writes back the default values for properties that are not animated by its Motion.
+---@field timeParameterActive fun() @If true, use value of given Parameter as normalized time.
+---@field AddStateMachineBehaviour fun() @Adds a state machine behaviour class of type T to the AnimatorState.Note that there is no corresponding Remove method. To remove a state machine behaviour, use Object.Destroy.
+---@field speedParameterActive fun() @Define if the speed value is driven by an Animator controller parameter or by the value set in the editor.
+---@field cycleOffsetParameter fun() @The animator controller parameter that drives the cycle offset value.
+---@field speedParameter fun() @The animator controller parameter that drives the speed value.
+---@field cycleOffset fun() @Offset at which the animation loop starts. Useful for synchronizing looped animations.Units is normalized time.
+---@field mirror fun() @Should the state be mirrored.
+---@field timeParameter fun() @If timeParameterActive is true, the value of this Parameter will be used instead of normalized time.
+---@field nameHash fun() @The hashed name of the state.
+---@field RemoveTransition fun() @Utility function to remove a transition from the state.
+---@field behaviours fun() @The Behaviour list assigned to this state.
+---@field AddExitTransition fun() @Utility function to add an outgoing transition to the exit of the state's parent state machine.
+---@field cycleOffsetParameterActive fun() @Define if the cycle offset value is driven by an Animator controller parameter or by the value set in the editor.
+---@field transitions fun() @The transitions that are going out of the state.
+---@field speed fun() @The default speed of the motion.
+---@field tag fun() @A tag can be used to identify a state.
+---@field motion fun() @The motion assigned to this state.
+---@field AddTransition fun() @Utility function to add an outgoing transition to the destination state.

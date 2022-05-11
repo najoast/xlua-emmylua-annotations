@@ -1,0 +1,3 @@
+---@class UIElements.ListView.UxmlTraits @Defines UxmlTraits for the ListView.
+---@field Init fun() @Initializes ListView properties using values from the attribute bag.
+---@field uxmlChildElementsDescription fun() @Returns an empty enumerable, because list views usually do not have child elements.

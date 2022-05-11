@@ -1,0 +1,8 @@
+---@class Unity @nil
+---@field Collections Unity.Collections @nil
+---@field Profiling Unity.Profiling @nil
+---@field IO fun() @nil
+---@field CodeEditor Unity.CodeEditor @nil
+---@field Burst fun() @nil
+---@field Rendering fun() @nil
+---@field Jobs Unity.Jobs @nil

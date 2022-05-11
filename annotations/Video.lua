@@ -1,0 +1,10 @@
+---@class Video @nil
+---@field VideoPlayer Video.VideoPlayer @Plays video content onto a target.
+---@field Video3DLayout Video.Video3DLayout @Types of 3D content layout within a video.
+---@field VideoSource Video.VideoSource @Source of the video content for a VideoPlayer.
+---@field VideoRenderMode Video.VideoRenderMode @Type of destination for the images read by a VideoPlayer.
+---@field VideoTimeSource Video.VideoTimeSource @Time source followed by the Video.VideoPlayer when reading content.
+---@field VideoAspectRatio Video.VideoAspectRatio @Methods used to fit a video in the target area.
+---@field VideoAudioOutputMode Video.VideoAudioOutputMode @Places where the audio embedded in a video can be sent.
+---@field VideoTimeReference Video.VideoTimeReference @The clock that the Video.VideoPlayer observes to detect and correct drift.
+---@field VideoClip Video.VideoClip @A container for video data.

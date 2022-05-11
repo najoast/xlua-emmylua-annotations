@@ -1,0 +1,14 @@
+---@class TrueTypeFontImporter @AssetImporter for importing Fonts.
+---@field fontNames fun() @An array of font names, to be used when includeFontData is set to false.
+---@field fontReferences fun() @References to other fonts to be used looking for fallbacks.
+---@field fontRenderingMode fun() @Font rendering mode to use for this font.
+---@field shouldRoundAdvanceValue fun() @Set this property to true if you want to round the internal advance width of the font to the nearest integer.
+---@field fontSize fun() @Font size to use for importing the characters.
+---@field includeFontData fun() @If this is enabled, the actual font will be embedded into the asset for Dynamic fonts.
+---@field characterSpacing fun() @Spacing between character images in the generated texture in pixels. This is useful if you want to render text using a shader which samples pixels outside of the character area (like an outline shader).
+---@field GenerateEditableFont fun() @Create an editable copy of the font asset at path.
+---@field fontTTFName fun() @The internal font name of the TTF file.
+---@field fontTextureCase fun() @Use this to adjust which characters should be imported.
+---@field characterPadding fun() @Border pixels added to character images for padding. This is useful if you want to render text using a shader which needs to render outside of the character area (like an outline shader).
+---@field customCharacters fun() @A custom set of characters to be included in the Font Texture.
+---@field ascentCalculationMode fun() @Calculation mode for determining font's ascent.

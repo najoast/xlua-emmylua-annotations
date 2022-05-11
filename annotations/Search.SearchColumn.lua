@@ -1,0 +1,12 @@
+---@class Search.SearchColumn @Search columns are used to display additional information in the Search Table view.
+---@field provider fun() @The provider is used to indicate which search column provider (see SearchColumn) is used to define the search column format.
+---@field options fun() @Various options used to define how a search column is presented.
+---@field path fun() @The path can be used by the column delegates to interpret how the data can be manipulated.
+---@field width fun() @The column width is used to set the Search Table view column width.
+---@field name fun() @Name of the search column.
+---@field content fun() @The content is used to display the search column label and image in its header.
+---@field drawer fun() @If defined, the drawer delegate is used to customize how the search column displays its information.
+---@field setter fun() @If defined, the setter delegate writes back the value to the corresponding field of the search result.
+---@field getter fun() @If defined, the getter delegate is used to customize how the search field data is extracted and transformed for display (see SearchColumn.drawer).
+---@field comparer fun() @If defined, the comparer delegate is used to sort search results based on the value displayed in that column.
+---@field selector fun() @The selector is used by the column delegates to fetch the search field data.

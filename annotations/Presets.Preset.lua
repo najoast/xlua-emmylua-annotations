@@ -1,0 +1,23 @@
+---@class Presets.Preset @A Preset contains default values for an Object.
+---@field GetTargetFullTypeName fun() @Returns a human readable string of this Preset's target fulltype, including namespace.
+---@field SetAsDefault fun() @Sets the Preset as the default for its target type in the project.
+---@field CanBeAppliedTo fun() @Returns true if this Preset can be applied to the target Object.
+---@field SetDefaultPresetsForType fun() @Sets a default list of Presets with a filter for a specific PresetType.
+---@field IsPresetExcludedFromDefaultPresets fun() @Returns true if this Preset cannot be set as the default.
+---@field GetPresetType fun() @Returns the PresetType of this Preset.
+---@field GetDefaultPresetsForObject fun() @Gets the ordered list of Presets that set its default values when applied to the target.
+---@field GetDefaultForObject fun() @Returns the current default Preset assigned to the same Object type. Returns null if there is no matching default.
+---@field GetAllDefaultTypes fun() @Returns all the PresetType that have at least one DefaultPreset entry in the default Presets list.
+---@field GetDefaultForPreset fun() @Returns the current default Preset assigned to the same Preset type. Returns null if there is no matching default.
+---@field DataEquals fun() @Determines if the target object has the same serialized values as the Preset.
+---@field excludedProperties fun() @List of properties to ignore when applying the Preset to an object.
+---@field IsObjectExcludedFromDefaultPresets fun() @Returns true if this Object cannot have a default Preset.
+---@field UpdateProperties fun() @Updates this Preset's properties from the given Object's values. The given Object's type must match this Preset's type.
+---@field RemoveFromDefault fun() @Remove the Preset type from having default values in the project.
+---@field IsValid fun() @Returns true if the Preset type of this Preset is valid.
+---@field GetDefaultPresetsForType fun() @Gets an ordered list of DefaultPreset based on the specified PresetType.
+---@field ctor fun() @Constructs a new Preset from a given Object.
+---@field ApplyTo fun() @Applies this Preset to the target object.
+---@field PropertyModifications fun() @Returns a copy of the PropertyModification array owned by this Preset.
+---@field IsObjectExcludedFromPresets fun() @Returns true if this Object is not available in the Preset system.
+---@field GetTargetTypeName fun() @Returns a human readable string of this Preset's target type.

@@ -1,0 +1,5 @@
+---@class Networking.ConnectionAcksType @Defines size of the buffer holding reliable messages, before they will be acknowledged.
+---@field Acks96 fun() @Ack buffer can hold 96 messages.
+---@field Acks128 fun() @Ack buffer can hold 128 messages.
+---@field Acks64 fun() @Ack buffer can hold 64 messages.
+---@field Acks32 fun() @Ack buffer can hold 32 messages.

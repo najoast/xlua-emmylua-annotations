@@ -1,0 +1,7 @@
+---@class Compass @Interface into compass functionality.
+---@field timestamp fun() @Timestamp (in seconds since 1970) when the heading was last time updated. (Read Only)
+---@field trueHeading fun() @The heading in degrees relative to the geographic North Pole. (Read Only)
+---@field enabled fun() @Used to enable or disable compass. Note, that if you want Input.compass.trueHeading property to contain a valid value, you must also enable location updates by calling Input.location.Start().
+---@field rawVector fun() @The raw geomagnetic data measured in microteslas. (Read Only)
+---@field headingAccuracy fun() @Accuracy of heading reading in degrees.
+---@field magneticHeading fun() @The heading in degrees relative to the magnetic North Pole. (Read Only)

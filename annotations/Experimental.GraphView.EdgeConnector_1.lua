@@ -1,0 +1,8 @@
+---@class Experimental.GraphView.EdgeConnector_1 @Manipulator for creating new edges.
+---@field OnMouseMove fun() @Called on mouse move event.
+---@field ctor fun() @EdgeConnector's constructor.
+---@field OnMouseUp fun() @Called on mouse up event.
+---@field RegisterCallbacksOnTarget fun() @Called to register click event callbacks on the target element.
+---@field OnMouseDown fun() @Called on mouse down event.
+---@field UnregisterCallbacksFromTarget fun() @Called to unregister event callbacks from the target element.
+---@field edgeDragHelper fun() @Reference to the edge drag helper.

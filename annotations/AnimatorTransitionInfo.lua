@@ -1,0 +1,10 @@
+---@class AnimatorTransitionInfo @Information about the current transition.
+---@field IsName fun() @Does name match the name of the active Transition.
+---@field nameHash fun() @The simplified name of the Transition.
+---@field anyState fun() @Returns true if the transition is from an AnyState node, or from Animator.CrossFade.
+---@field duration fun() @Duration of the transition.
+---@field IsUserName fun() @Does userName match the name of the active Transition.
+---@field normalizedTime fun() @Normalized time of the Transition.
+---@field userNameHash fun() @The user-specified name of the Transition.
+---@field durationUnit fun() @The unit of the transition duration.
+---@field fullPathHash fun() @The hash name of the Transition.

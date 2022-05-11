@@ -1,0 +1,6 @@
+---@class Windows.Speech.PhraseRecognizedEventArgs @Provides information about a phrase recognized event.
+---@field semanticMeanings fun() @A semantic meaning of recognized phrase.
+---@field phraseStartTime fun() @The moment in time when uttering of the phrase began.
+---@field text fun() @The text that was recognized.
+---@field phraseDuration fun() @The time it took for the phrase to be uttered.
+---@field confidence fun() @A measure of correct recognition certainty.

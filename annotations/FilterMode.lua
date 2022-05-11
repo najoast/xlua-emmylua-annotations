@@ -1,0 +1,4 @@
+---@class FilterMode @Filtering mode for textures. Corresponds to the settings in a texture inspector.
+---@field Trilinear fun() @Trilinear filtering - texture samples are averaged and also blended between mipmap levels.
+---@field Point fun() @Point filtering - texture pixels become blocky up close.
+---@field Bilinear fun() @Bilinear filtering - texture samples are averaged.

@@ -1,0 +1,5 @@
+---@class SearchService.VisibleObjects @A bit field that contains the different categories of object that the object selector window can display.
+---@field All fun() @The object selector window can display all categories.
+---@field Assets fun() @The object selector window can only display Assets.
+---@field Scene fun() @The object selector window can only display GameObjects.
+---@field None fun() @The object selector window cannot display any objects.

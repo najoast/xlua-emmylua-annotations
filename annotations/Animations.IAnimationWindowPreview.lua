@@ -1,0 +1,5 @@
+---@class Animations.IAnimationWindowPreview @Allows a class to modify how an AnimationClip is sampled in the Animation window by providing its own Playable nodes to the Animation window PlayableGraph. The class must also inherit from MonoBehaviour.
+---@field UpdatePreviewGraph fun() @Notification callback when the Animation Window updates its PlayableGraph before sampling an AnimationClip.
+---@field StartPreview fun() @Notification callback when the Animation window starts previewing an AnimationClip.
+---@field StopPreview fun() @Notification callback when the Animation window stops previewing an AnimationClip.
+---@field BuildPreviewGraph fun() @Appends custom Playable nodes to the Animation window PlayableGraph.

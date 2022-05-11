@@ -1,0 +1,19 @@
+---@class ParticleSystemForceField @Script interface for Particle System Force Fields.
+---@field startRange fun() @Setting a value greater than 0 creates a hollow Force Field shape. This will cause particles to not be affected by the Force Field when closer to the center of the volume than the startRange property.
+---@field multiplyDragByParticleVelocity fun() @When using Drag, the drag strength will be multiplied by the speed of the particles if this toggle is enabled.
+---@field drag fun() @Apply drag to particles within the volume of the Force Field.
+---@field rotationAttraction fun() @Controls how strongly particles are dragged into the vortex motion.
+---@field endRange fun() @Determines the size of the shape used for influencing particles.
+---@field gravityFocus fun() @When using the gravity force, set this value between 0 and 1 to control the focal point of the gravity effect.
+---@field directionY fun() @Apply a linear force along the local Y axis to particles within the volume of the Force Field.
+---@field multiplyDragByParticleSize fun() @When using Drag, the drag strength will be multiplied by the size of the particles if this toggle is enabled.
+---@field rotationSpeed fun() @The speed at which particles are propelled around a vortex.
+---@field rotationRandomness fun() @Apply randomness to the Force Field axis that particles will travel around.
+---@field gravity fun() @Apply gravity to particles within the volume of the Force Field.
+---@field shape fun() @Selects the type of shape used for influencing particles.
+---@field directionZ fun() @Apply a linear force along the local Z axis to particles within the volume of the Force Field.
+---@field vectorField fun() @Apply forces to particles within the volume of the Force Field, by using a 3D texture containing vector field data.
+---@field length fun() @Describes the length of the Cylinder when using the Cylinder Force Field shape to influence particles.
+---@field vectorFieldSpeed fun() @The speed at which particles are propelled through the vector field.
+---@field directionX fun() @Apply a linear force along the local X axis to particles within the volume of the Force Field.
+---@field vectorFieldAttraction fun() @Controls how strongly particles are dragged into the vector field motion.

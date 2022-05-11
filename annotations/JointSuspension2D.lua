@@ -1,0 +1,4 @@
+---@class JointSuspension2D @Joint suspension is used to define how suspension works on a WheelJoint2D.
+---@field angle fun() @The world angle (in degrees) along which the suspension will move.
+---@field frequency fun() @The frequency at which the suspension spring oscillates.
+---@field dampingRatio fun() @The amount by which the suspension spring force is reduced in proportion to the movement speed.

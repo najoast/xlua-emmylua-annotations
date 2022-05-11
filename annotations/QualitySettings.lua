@@ -1,0 +1,45 @@
+---@class QualitySettings @Script interface for Quality Settings.
+---@field shadowmaskMode fun() @The rendering mode of Shadowmask.
+---@field asyncUploadTimeSlice fun() @Async texture upload provides timesliced async texture upload on the render thread with tight control over memory and timeslicing. There are no allocations except for the ones which driver has to do. To read data and upload texture data a ringbuffer whose size can be controlled is re-used.Use asyncUploadTimeSlice to set the time-slice in milliseconds for asynchronous texture uploads perframe. Minimum value is 1 and maximum is 33.
+---@field GetQualityLevel fun() @Returns the current graphics quality level.
+---@field antiAliasing fun() @Choose the level of Multi-Sample Anti-aliasing (MSAA) that the GPU performs.
+---@field pixelLightCount fun() @The maximum number of pixel lights that should affect any object.
+---@field softVegetation fun() @Use a two-pass shader for the vegetation in the terrain engine.
+---@field shadowCascade2Split fun() @The normalized cascade distribution for a 2 cascade setup. The value defines the position of the cascade with respect to Zero.
+---@field shadowCascade4Split fun() @The normalized cascade start position for a 4 cascade setup. Each member of the vector defines the normalized position of the coresponding cascade with respect to Zero.
+---@field renderPipeline fun() @The RenderPipelineAsset that defines the override render pipeline for the current quality level.
+---@field shadowProjection fun() @Directional light shadow projection.
+---@field skinWeights fun() @The maximum number of bones per vertex that are taken into account during skinning, for all meshes in the project.
+---@field streamingMipmapsAddAllCameras fun() @Process all enabled Cameras for texture streaming (rather than just those with StreamingController components).
+---@field GetQualitySettings fun() @Provides a reference to the QualitySettings object.
+---@field lodBias fun() @Global multiplier for the LOD's switching distance.
+---@field masterTextureLimit fun() @A texture size limit applied to most textures.
+---@field names fun() @The indexed list of available Quality Settings.
+---@field streamingMipmapsRenderersPerFrame fun() @The number of renderer instances that are processed each frame when calculating which texture mipmap levels should be streamed.
+---@field maximumLODLevel fun() @A maximum LOD level. All LOD groups.
+---@field streamingMipmapsMemoryBudget fun() @The total amount of memory to be used by streaming and non-streaming textures.
+---@field particleRaycastBudget fun() @Budget for how many ray casts can be performed per frame for approximate collision testing.
+---@field realtimeReflectionProbes fun() @Enables real-time reflection probes.
+---@field streamingMipmapsActive fun() @Enable automatic streaming of texture mipmap levels based on their distance from all active cameras.
+---@field activeColorSpace fun() @Active color space (Read Only).
+---@field resolutionScalingFixedDPIFactor fun() @In resolution scaling mode, this factor is used to multiply with the target Fixed DPI specified to get the actual Fixed DPI to use for this quality setting.
+---@field shadows fun() @Real-time Shadows type to be used.
+---@field vSyncCount fun() @The number of vertical syncs that should pass between each frame.
+---@field DecreaseLevel fun() @Decrease the current quality level.
+---@field IncreaseLevel fun() @Increase the current quality level.
+---@field SetLODSettings fun() @Sets the lodBias and maximumLODLevel at the same time.
+---@field shadowNearPlaneOffset fun() @Offset shadow frustum near plane.
+---@field SetQualityLevel fun() @Sets a new graphics quality level.
+---@field GetRenderPipelineAssetAt fun() @Provides a reference to the RenderPipelineAsset that defines the override render pipeline for a given quality level.
+---@field softParticles fun() @Should soft blending be used for particles?
+---@field streamingMipmapsMaxLevelReduction fun() @The maximum number of mipmap levels to discard for each texture.
+---@field maxQueuedFrames fun() @Maximum number of frames queued up by graphics driver.
+---@field shadowDistance fun() @Shadow drawing distance.
+---@field shadowCascades fun() @Number of cascades to use for directional light shadows.
+---@field streamingMipmapsMaxFileIORequests fun() @The maximum number of active texture file IO requests from the texture streaming system.
+---@field billboardsFaceCameraPosition fun() @If enabled, billboards will face towards camera position rather than camera orientation.
+---@field desiredColorSpace fun() @Desired color space (Read Only).
+---@field asyncUploadBufferSize fun() @Asynchronous texture and mesh data upload provides timesliced async texture and mesh data upload on the render thread with tight control over memory and timeslicing. There are no allocations except for the ones which driver has to do. To read data and upload texture and mesh data, Unity re-uses a ringbuffer whose size can be controlled.Use asyncUploadBufferSize to set the buffer size for asynchronous texture and mesh data uploads. The size is in megabytes. The minimum value is 2 and the maximum value is 512. The buffer resizes automatically to fit the largest texture currently loading. To avoid re-sizing of the buffer, which can incur performance cost, set the value approximately to the size of biggest texture used in the Scene.
+---@field shadowResolution fun() @The default resolution of the shadow maps.
+---@field asyncUploadPersistentBuffer fun() @This flag controls if the async upload pipeline's ring buffer remains allocated when there are no active loading operations.Set this to true, to make the ring buffer allocation persist after all upload operations have completed.If you have issues with excessive memory usage, you can set this to false. This means you reduce the runtime memory footprint, but memory fragmentation can occur.The default value is true.
+---@field anisotropicFiltering fun() @Global anisotropic filtering mode.

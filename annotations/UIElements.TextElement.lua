@@ -1,0 +1,10 @@
+---@class UIElements.TextElement @Use this as the super class if you are declaring a custom VisualElement that displays text. For example, Button or Label use this as their base class.
+---@field ctor fun() @Initializes and returns an instance of TextElement.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field displayTooltipWhenElided fun() @When true, a tooltip displays the full version of elided text, and also if a tooltip had been previously provided, it will be overwritten.
+---@field UxmlTraits UIElements.TextElement.UxmlTraits @Defines UxmlTraits for the TextElement.
+---@field MeasureTextSize fun() @Computes the size needed to display a text string based on element style values such as font, font-size, word-wrap, and so on.
+---@field text fun() @The text to be displayed.
+---@field UxmlFactory fun() @Instantiates a TextElement using the data read from a UXML file.
+---@field isElided fun() @Returns true if text is elided, false otherwise.
+---@field enableRichText fun() @When false, rich text tags will not be parsed.

@@ -1,0 +1,59 @@
+---@class EditorApplication @Main Application class.
+---@field update fun() @Delegate for generic updates.
+---@field isRemoteConnected fun() @Is editor currently connected to Unity Remote 4 client app.
+---@field delayCall fun() @Delegate which is called once after all inspectors update.
+---@field quitting fun() @Unity raises this event when the editor application is quitting.
+---@field SaveCurrentSceneIfUserWantsTo fun() @Ask the user if they want to save the open Scene.
+---@field hierarchyWindowChanged fun() @A callback to be raised when an object in the hierarchy changes.Each time an object is (or a group of objects are) created, renamed, parented, unparented or destroyed this callback is raised.
+---@field OpenSceneAdditive fun() @Opens the Scene at path additively.
+---@field isUpdating fun() @True if the Editor is currently refreshing the AssetDatabase.
+---@field ProjectWindowItemCallback fun() @Delegate to be called for every visible list item in the ProjectWindow on every OnGUI event.
+---@field Step fun() @Perform a single frame step.
+---@field SetTemporaryProjectKeepPath fun() @Sets the path that Unity should store the current temporary project at, when the project is closed.
+---@field isSceneDirty fun() @Is true if the currently open Scene in the editor contains unsaved modifications.
+---@field LoadLevelAdditiveInPlayMode fun() @Load the given level additively in play mode.
+---@field CallbackFunction fun() @Delegate to be called from EditorApplication callbacks.
+---@field LoadLevelAsyncInPlayMode fun() @Load the given level in play mode asynchronously.
+---@field modifierKeysChanged fun() @Delegate for changed keyboard modifier keys.
+---@field SaveAssets fun() @Saves all serializable assets that have not yet been written to disk (eg. Materials).
+---@field SaveScene fun() @Save the open Scene.
+---@field currentScene fun() @The path of the Scene that the user has currently open (Will be an empty string if no Scene is currently open). (Read Only)
+---@field UnlockReloadAssemblies fun() @Must be called after LockReloadAssemblies, to reenable loading of assemblies.
+---@field scriptingRuntimeVersion fun() @Returns the scripting runtime version currently used by the Editor.
+---@field RepaintHierarchyWindow fun() @Can be used to ensure repaint of the HierarchyWindow.
+---@field isPlaying fun() @Is editor currently in play mode?
+---@field RepaintProjectWindow fun() @Can be used to ensure repaint of the ProjectWindow.
+---@field applicationContentsPath fun() @Path to the Unity editor contents folder. (Read Only)
+---@field ExecuteMenuItem fun() @Invokes the menu item in the specified path.
+---@field QueuePlayerLoopUpdate fun() @Normally, a player loop update will occur in the editor when the Scene has been modified. This method allows you to queue a player loop update regardless of whether the Scene has been modified.
+---@field MarkSceneDirty fun() @Explicitly mark the current opened Scene as modified.
+---@field OpenProject fun() @Open another project.
+---@field contextualPropertyMenu fun() @Callback raised whenever the user contex-clicks on a property in an Inspector.
+---@field pauseStateChanged fun() @Event that is raised whenever the Editor's pause state changes.
+---@field LoadLevelAdditiveAsyncInPlayMode fun() @Load the given level additively in play mode asynchronously
+---@field Beep fun() @Plays system beep sound.
+---@field NewEmptyScene fun() @Create a new absolutely empty Scene.
+---@field OpenScene fun() @Opens the Scene at path.
+---@field DirtyHierarchyWindowSorting fun() @Set the hierarchy sorting method as dirty.
+---@field projectWindowChanged fun() @Callback raised whenever the state of the Project window changes.
+---@field LoadLevelInPlayMode fun() @Load the given level in play mode.
+---@field hierarchyWindowItemOnGUI fun() @Delegate for OnGUI events for every visible list item in the HierarchyWindow.
+---@field HierarchyWindowItemCallback fun() @Delegate to be called for every visible list item in the HierarchyWindow on every OnGUI event.
+---@field EnterPlaymode fun() @Switches the editor to Play mode.
+---@field ExitPlaymode fun() @Switches the editor to Edit mode.
+---@field Exit fun() @Exit the Unity editor application.
+---@field searchChanged fun() @Callback raised whenever the contents of a window's search box are changed.
+---@field isPaused fun() @Is editor currently paused?
+---@field projectChanged fun() @Event that is raised whenever the state of the project changes.
+---@field playModeStateChanged fun() @Event that is raised whenever the Editor's play mode state changes.
+---@field SerializedPropertyCallbackFunction fun() @Delegate to be called from EditorApplication contextual inspector callbacks.
+---@field NewScene fun() @Create a new Scene.
+---@field wantsToQuit fun() @Unity raises this event when the editor application wants to quit.
+---@field timeSinceStartup fun() @The time since the editor was started. (Read Only)
+---@field isTemporaryProject fun() @Returns true if the current project was created as a temporary project.
+---@field isPlayingOrWillChangePlaymode fun() @Is editor either currently in play mode, or about to switch to it? (Read Only)
+---@field hierarchyChanged fun() @Event that is raised when an object or group of objects in the hierarchy changes.
+---@field projectWindowItemOnGUI fun() @Delegate for OnGUI events for every visible list item in the ProjectWindow.
+---@field isCompiling fun() @Is editor currently compiling scripts? (Read Only)
+---@field LockReloadAssemblies fun() @Prevents loading of assemblies when it is inconvenient.
+---@field applicationPath fun() @Returns the path to the Unity editor application. (Read Only)

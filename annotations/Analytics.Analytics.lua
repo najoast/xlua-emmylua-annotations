@@ -1,0 +1,24 @@
+---@class Analytics.Analytics @Unity Analytics provides insight into your game users e.g. DAU, MAU.
+---@field SetEventEndPoint fun() @Use this API to set the event end point URL. Note: This API is for internal use only and is likely change in the future. Do not use in user code.
+---@field SetUserGender fun() @User Demographics (optional).
+---@field playerOptedOut fun() @Reports whether the player has opted out of data collection.
+---@field limitUserTracking fun() @Controls whether to limit user tracking at runtime.
+---@field IsEventEnabled fun() @Use it to check to an event enable status.
+---@field SetUserId fun() @User Demographics (optional).
+---@field ResumeInitialization fun() @Resume Analytics initialization.
+---@field SendEvent fun() @This API is used to send a Runtime Analytics event. Note: This API is for internal use only and is likely change in the future. Do not use in user code.
+---@field EnableCustomEvent fun() @Use it to enable or disable a custom event.
+---@field CustomEvent fun() @Custom Events (optional).
+---@field dashboardUrl fun() @Get the Analytics dashboard endpoint.
+---@field deviceStatsEnabled fun() @Controls whether the sending of device stats at runtime is enabled.
+---@field IsCustomEventEnabled fun() @Use it to check to custom event enable status.
+---@field EnableEvent fun() @Use it to enable or disable an event.
+---@field Transaction fun() @Tracking Monetization (optional).
+---@field eventUrl fun() @Get the Analytics event endpoint.
+---@field RegisterEvent fun() @This API is used for registering a Runtime Analytics event. Note: This API is for internal use only and is likely change in the future. Do not use in user code.
+---@field SetEventPriority fun() @Use this API to set the event priority. Note: This API is for internal use only and is likely change in the future. Do not use in user code.
+---@field enabled fun() @Controls whether the Analytics service is enabled at runtime.
+---@field initializeOnStartup fun() @Reports whether Unity is set to initialize Analytics on startup.
+---@field FlushEvents fun() @Attempts to flush immediately all queued analytics events to the network and filesystem cache if possible (optional).
+---@field SetUserBirthYear fun() @User Demographics (optional).
+---@field configUrl fun() @Get the Analytics config endpoint.

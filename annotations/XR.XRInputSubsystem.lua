@@ -1,0 +1,9 @@
+---@class XR.XRInputSubsystem @XRInputSubsystemInstance is used to enable and disable the inputs coming from a specific plugin.
+---@field TrySetTrackingOriginMode fun() @Attempts to set the TrackingOriginModeFlags of the subsystem.
+---@field trackingOriginUpdated fun() @An event that takes the delegate instance that the XRInputSubsystem calls when it changes the origin it reports devices at.
+---@field GetTrackingOriginMode fun() @Gets the Tracking Origin Mode.
+---@field boundaryChanged fun() @An event that takes the delegate instance that the XRInputSubsystem calls when it changes its tracking boundary.
+---@field TryGetInputDevices fun() @Gets a list of all connected InputDevices reported by this XRInputSubsystem.
+---@field GetSupportedTrackingOriginModes fun() @Gets all TrackingOriginModeFlags that this subsystem supports.
+---@field TryGetBoundaryPoints fun() @Gets the list of 3D position values that represents the SDK-set boundary.
+---@field TryRecenter fun() @Centers the tracking features on all InputDevices to the current position and orientation of the head-mounted device.

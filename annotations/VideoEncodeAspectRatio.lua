@@ -1,0 +1,3 @@
+---@class VideoEncodeAspectRatio @Methods to compensate for aspect ratio discrepancies between the source resolution and the wanted encoding size.
+---@field NoScaling fun() @Perform no operation.
+---@field Stretch fun() @Stretch the source to fill the target resolution without preserving the aspect ratio.

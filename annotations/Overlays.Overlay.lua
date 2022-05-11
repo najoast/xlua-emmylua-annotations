@@ -1,0 +1,21 @@
+---@class Overlays.Overlay @Overlays are persistent and customizable panels and toolbars that are available within Editor Windows. Use Overlays to expose actions and tool options in a convenient and user-controllable way.
+---@field OnCreated fun() @OnCreated is invoked when an Overlay is instantiated in an Overlay Canvas.
+---@field collapsed fun() @Defines whether the overlay is in collapsed form.
+---@field collapsedChanged fun() @Invoked when Overlay.collapsed value is changed.
+---@field layout fun() @Describes the presentation mode for an Overlay.
+---@field Undock fun() @If this Overlay is currently in a toolbar, it will be removed and return to a floating state.
+---@field floatingChanged fun() @Called when the value of floating has changed.
+---@field CreatePanelContent fun() @Implement this method to return your visual element content.
+---@field isInToolbar fun() @Returns true if overlay is docked in a toolbar.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field containerWindow fun() @EditorWindow the overlay is contained within.
+---@field floating fun() @Returns true if overlay is floating, returns false if overlay is docked in a corner or in a toolbar.
+---@field k_ClassName fun() @Overlay visual element class name.
+---@field displayed fun() @Shows or hides the overlay.
+---@field displayedChanged fun() @This callback is invoked when the Overlay.displayed value has been changed.
+---@field id fun() @Overlay unique ID.
+---@field OnWillBeDestroyed fun() @Called when an Overlay is about to be destroyed.
+---@field layoutChanged fun() @Subscribe to this event to be notified when the Overlay.Layout property is modified.
+---@field displayName fun() @Name of overlay used as title.
+---@field floatingPosition fun() @Local position of closest overlay corner to closest dockposition when floating.
+---@field floatingPositionChanged fun() @This event is invoked when Overlay.floatingPosition is changed.

@@ -1,0 +1,3 @@
+---@class Video.VideoSource @Source of the video content for a VideoPlayer.
+---@field VideoClip fun() @Use the current clip as the video content source.
+---@field Url fun() @Use the current URL as the video content source.

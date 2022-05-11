@@ -1,0 +1,11 @@
+---@class ProceduralPropertyType @Deprecated feature, no longer available
+---@field Color3 fun() @Deprecated feature, no longer available
+---@field Texture fun() @Deprecated feature, no longer available
+---@field Vector2 fun() @Deprecated feature, no longer available
+---@field Enum fun() @Deprecated feature, no longer available
+---@field String fun() @Deprecated feature, no longer available
+---@field Vector4 fun() @Deprecated feature, no longer available
+---@field Vector3 fun() @Deprecated feature, no longer available
+---@field Boolean fun() @Deprecated feature, no longer available
+---@field Float fun() @Deprecated feature, no longer available
+---@field Color4 fun() @Deprecated feature, no longer available

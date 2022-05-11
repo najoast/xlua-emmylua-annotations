@@ -1,0 +1,3 @@
+---@class TouchScreenKeyboard.Android @Android specific on-screen keyboard settings.
+---@field consumesOutsideTouches fun() @Indicates whether the keyboard consumes screen touches outside the visible keyboard area.
+---@field closeKeyboardOnOutsideTap fun() @Enable legacy on-screen keyboard hiding on Android.

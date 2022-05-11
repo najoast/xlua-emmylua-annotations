@@ -1,0 +1,4 @@
+---@class AndroidGamepadSupportLevel @Gamepad support level for Android TV.
+---@field RequiresGamepad fun() @Requires a gamepad for gameplay.
+---@field SupportsGamepad fun() @Works with a gamepad, but does not require it.
+---@field SupportsDPad fun() @Game is fully operational with a D-pad, no gamepad needed.

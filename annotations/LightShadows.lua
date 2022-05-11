@@ -1,0 +1,4 @@
+---@class LightShadows @Shadow casting options for a Light.
+---@field None fun() @Do not cast shadows (default).
+---@field Soft fun() @Cast soft shadows (with 4x PCF filtering).
+---@field Hard fun() @Cast hard shadows (with no shadow filtering).

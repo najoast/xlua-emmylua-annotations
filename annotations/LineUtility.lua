@@ -1,0 +1,2 @@
+---@class LineUtility @A collection of common line functions.
+---@field Simplify fun() @Generates a simplified version of the original line by removing points that fall within the specified tolerance.

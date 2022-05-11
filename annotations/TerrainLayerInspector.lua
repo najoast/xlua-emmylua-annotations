@@ -1,0 +1,6 @@
+---@class TerrainLayerInspector @The default Inspector class for Terrain Layer.
+---@field ApplyCustomUI fun() @Applies the custom UI for the Terrain Layer object.
+---@field HasPreviewGUI fun() @Returns true if the Terrain Layer has a preview GUI.
+---@field OnPreviewGUI fun() @Draws the default Terrain Layer preview GUI.
+---@field RenderStaticPreview fun() @Draws the default Terrain Layer static preview.
+---@field OnInspectorGUI fun() @Draws the default Terrain Layer Inspector GUI.

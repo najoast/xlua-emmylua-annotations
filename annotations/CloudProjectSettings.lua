@@ -1,0 +1,7 @@
+---@class CloudProjectSettings @Use this class to retrieve information about the currently selected project and the current Unity ID that is logged in.
+---@field projectName fun() @The name of the project entry in the dashboard associated with this project (Read Only).
+---@field projectId fun() @A unique cloud project identifier. It is unique for every project (Read Only).
+---@field organizationId fun() @The ID of the organization that this project belongs to. (Read Only)
+---@field organizationName fun() @The name of the organization that this project belongs to. (Read Only)
+---@field userId fun() @The user ID of the currently logged-in Unity ID account (Read Only).
+---@field userName fun() @The user name of the currently logged in Unity ID account (Read Only).

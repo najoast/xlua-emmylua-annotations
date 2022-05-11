@@ -1,0 +1,3 @@
+---@class Presets.PresetSelector @This class implements a modal window that selects a Preset asset from the Project.
+---@field DrawPresetButton fun() @Draw a Preset button that opens the default PresetSelector using the targets array.
+---@field ShowSelector fun() @Opens a modal window for selecting a Preset.

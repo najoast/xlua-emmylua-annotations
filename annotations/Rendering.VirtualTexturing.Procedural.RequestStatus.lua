@@ -1,0 +1,3 @@
+---@class Rendering.VirtualTexturing.Procedural.RequestStatus @The status that can be given to a request.
+---@field Generated fun() @Data is filled in properly and can be used by the VT system.
+---@field Dropped fun() @No data is provided and the VT system should fall back to a lower resolution.

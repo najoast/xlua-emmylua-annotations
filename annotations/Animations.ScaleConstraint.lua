@@ -1,0 +1,14 @@
+---@class Animations.ScaleConstraint @Constrains the scale of an object relative to the scale of one or more source objects.
+---@field sourceCount fun() @The number of sources set on the component (read-only).
+---@field SetSources fun() @Sets the list of sources on the component.
+---@field AddSource fun() @Adds a constraint source.
+---@field scaleOffset fun() @The offset from the constrained scale.
+---@field scaleAtRest fun() @The scale used when the sources have a total weight of 0.
+---@field GetSource fun() @Gets a constraint source by index.
+---@field scalingAxis fun() @The axes affected by the ScaleConstraint.
+---@field constraintActive fun() @Activates or deactivates the constraint.
+---@field RemoveSource fun() @Removes a source from the component.
+---@field SetSource fun() @Sets a source at a specified index.
+---@field GetSources fun() @Gets the list of sources.
+---@field locked fun() @Locks the offset and scale at rest.
+---@field weight fun() @The weight of the constraint component.

@@ -1,0 +1,6 @@
+---@class Progress.Priority @An enumeration that defines task priorities.
+---@field Idle fun() @An idle priority task cannot be unresponsive, and is not displayed in the global progress bar.
+---@field Low fun() @A low priority task cannot be unresponsive, but is displayed in the global progress bar.
+---@field High fun() @A high priority task can be unresponsive, and is displayed in the global progress bar.
+---@field Normal fun() @A normal priority task can be unresponsive, and is displayed in the global progress bar.
+---@field Unresponsive fun() @An unresponsive task is always shown as unresponsive.

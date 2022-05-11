@@ -1,0 +1,4 @@
+---@class TextAlignment @How multiline text should be aligned.
+---@field Center fun() @Text lines are centered.
+---@field Right fun() @Text lines are aligned on the right side.
+---@field Left fun() @Text lines are aligned on the left side.

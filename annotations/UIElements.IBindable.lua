@@ -1,0 +1,3 @@
+---@class UIElements.IBindable @Interface for all bindable fields.
+---@field binding fun() @Binding object that will be updated.
+---@field bindingPath fun() @Path of the target property to be bound.

@@ -1,0 +1,13 @@
+---@class Experimental.GraphView.ContentZoomer @Manipulator that allows zooming in GraphView.
+---@field ctor fun() @ContentZoomer constructor.
+---@field DefaultMaxScale fun() @Default max zoom level.
+---@field scaleStep fun() @Zoom step: percentage of variation between a zoom level and the next. For example, with a value of 0.15, which represents 15%, a zoom level of 200% will become 230% when zooming in.
+---@field referenceScale fun() @Reference zoom level.
+---@field DefaultScaleStep fun() @Default zoom step.
+---@field DefaultMinScale fun() @Default min zoom level.
+---@field DefaultReferenceScale fun() @Default reference zoom level.
+---@field UnregisterCallbacksFromTarget fun() @Called to unregister event callbacks from the target element.
+---@field RegisterCallbacksOnTarget fun() @Called to register click event callbacks on the target element.
+---@field keepPixelCacheOnZoom fun() @Optimization option to keep the old pixel cache while zooming and only updating it when zooming is finished (based on a timer).
+---@field minScale fun() @Min zoom level.
+---@field maxScale fun() @Max zoom level.

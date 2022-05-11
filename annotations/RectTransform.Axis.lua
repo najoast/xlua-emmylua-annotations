@@ -1,0 +1,3 @@
+---@class RectTransform.Axis @An axis that can be horizontal or vertical.
+---@field Vertical fun() @Vertical.
+---@field Horizontal fun() @Horizontal.

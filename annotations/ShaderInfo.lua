@@ -1,0 +1,5 @@
+---@class ShaderInfo @Contains the following information about a shader:-If the shader has compilation errors or warnings.-If the shader is supported on the currently selected platform.-The name of the shader.
+---@field hasWarnings fun() @Indicates whether the shader has compilation warnings (Read Only).
+---@field hasErrors fun() @Indicates whether the shader has compilation errors (Read Only).
+---@field supported fun() @Indicates whether the current platform supports the shader (Read Only).
+---@field name fun() @The name of the shader (Read Only).

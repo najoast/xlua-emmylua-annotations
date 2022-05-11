@@ -1,0 +1,3 @@
+---@class FilePathAttribute.Location @Specifies the folder location that Unity uses together with the relative path provided in the FilePathAttribute constructor.
+---@field ProjectFolder fun() @Use this location to save a file relative to the Project Folder. Useful for per-project files (not shared between projects).
+---@field PreferencesFolder fun() @Use this location to save a file relative to the preferences folder. Useful for per-user files that are across all projects.

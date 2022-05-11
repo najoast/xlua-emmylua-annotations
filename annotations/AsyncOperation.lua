@@ -1,0 +1,6 @@
+---@class AsyncOperation @Asynchronous operation coroutine.
+---@field progress fun() @What's the operation's progress. (Read Only)
+---@field isDone fun() @Has the operation finished? (Read Only)
+---@field completed fun() @Event that is invoked upon operation completion.  An event handler that is registered in the same frame as the call that creates it will be invoked next frame, even if the operation is able to complete synchronously.  If a handler is registered after the operation has completed and has already invoked the complete event, the handler will be called synchronously.
+---@field priority fun() @Priority lets you tweak in which order async operation calls will be performed.
+---@field allowSceneActivation fun() @Allow Scenes to be activated as soon as it is ready.

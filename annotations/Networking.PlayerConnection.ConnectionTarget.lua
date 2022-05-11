@@ -1,0 +1,4 @@
+---@class Networking.PlayerConnection.ConnectionTarget @The type of the connected target.
+---@field None fun() @No target is connected, this is only possible in a Player.
+---@field Editor fun() @The connected target is an Editor.
+---@field Player fun() @The connected target is a Player.

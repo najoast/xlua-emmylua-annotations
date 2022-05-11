@@ -1,0 +1,3 @@
+---@class MPE.ProcessLevel @The type of the current process. It can be a Unity master instance, or a secondary instance connected to the master.
+---@field Secondary fun() @The current process is a secondary instance of UnityEditor that is connected to a master instance.
+---@field Main fun() @The current process is a main instance of UnityEditor.

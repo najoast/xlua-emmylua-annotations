@@ -1,0 +1,2 @@
+---@class Profiling.ProfilerEditorUtility @A Utility class for Profiler tooling in the Unity Editor.
+---@field SetSelection fun() @Set the current selection in a frame time sample based Profiler Module, such as the CPU Usage module and the GPU Usage Profiler module.

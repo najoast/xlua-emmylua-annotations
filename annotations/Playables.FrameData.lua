@@ -1,0 +1,15 @@
+---@class Playables.FrameData @This structure contains the frame information a Playable receives in Playable.PrepareFrame.
+---@field effectiveParentSpeed fun() @The accumulated speed of the parent Playable during the PlayableGraph traversal.
+---@field effectiveWeight fun() @The accumulated weight of the Playable during the PlayableGraph traversal.
+---@field effectivePlayState fun() @The accumulated play state of this playable.
+---@field timeLooped fun() @Indicates the local time wrapped because it has reached the duration and the extrapolation mode is set to Loop.
+---@field EvaluationType Playables.FrameData.EvaluationType @Describes the cause for the evaluation of a PlayableGraph.
+---@field deltaTime fun() @Time difference between this frame and the preceding frame.
+---@field effectiveSpeed fun() @The accumulated speed of the Playable during the PlayableGraph traversal.
+---@field evaluationType fun() @Indicates the type of evaluation that caused PlayableGraph.PrepareFrame to be called.
+---@field frameId fun() @The current frame identifier.
+---@field timeHeld fun() @Indicates the local time did not advance because it has reached the duration and the extrapolation mode is set to Hold.
+---@field seekOccurred fun() @Indicates that the local time was explicitly set.
+---@field output fun() @The PlayableOutput that initiated this graph traversal.
+---@field effectiveParentDelay fun() @The accumulated delay of the parent Playable during the PlayableGraph traversal.
+---@field weight fun() @The weight of the current Playable.

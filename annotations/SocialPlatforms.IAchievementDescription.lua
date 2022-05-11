@@ -1,0 +1,8 @@
+---@class SocialPlatforms.IAchievementDescription @Static data describing an achievement.
+---@field image fun() @Image representation of the achievement.
+---@field achievedDescription fun() @Description when the achivement is completed.
+---@field id fun() @Unique identifier for this achievement description.
+---@field points fun() @Point value of this achievement.
+---@field unachievedDescription fun() @Description when the achivement has not been completed.
+---@field title fun() @Human readable title.
+---@field hidden fun() @Hidden achievement are not shown in the list until the percentCompleted has been touched (even if it's 0.0).

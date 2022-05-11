@@ -1,0 +1,15 @@
+---@class BillboardAsset @BillboardAsset describes how a billboard is rendered.
+---@field material fun() @The material used for rendering.
+---@field bottom fun() @Height of the billboard that is below ground.
+---@field vertexCount fun() @Number of vertices in the billboard mesh.
+---@field SetImageTexCoords fun() @Set the array of billboard image texture coordinate data.
+---@field imageCount fun() @Number of pre-rendered images that can be switched when the billboard is viewed from different angles.
+---@field width fun() @Width of the billboard.
+---@field GetImageTexCoords fun() @Get the array of billboard image texture coordinate data.
+---@field SetVertices fun() @Set the vertices of the billboard mesh.
+---@field ctor fun() @Constructs a new BillboardAsset.
+---@field GetIndices fun() @Get the indices of the billboard mesh.
+---@field indexCount fun() @Number of indices in the billboard mesh.
+---@field GetVertices fun() @Get the vertices of the billboard mesh.
+---@field height fun() @Height of the billboard.
+---@field SetIndices fun() @Set the indices of the billboard mesh.

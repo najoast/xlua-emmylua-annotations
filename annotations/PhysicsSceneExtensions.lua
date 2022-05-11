@@ -1,0 +1,2 @@
+---@class PhysicsSceneExtensions @Scene extensions to access the underlying physics scene.
+---@field GetPhysicsScene fun() @An extension method that returns the 3D physics Scene from the Scene.

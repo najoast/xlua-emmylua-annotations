@@ -1,0 +1,7 @@
+---@class EditorSnapSettings @Control the behavior of handle snapping in the editor.
+---@field rotate fun() @Gets or sets the increment that rotation handles snap to.
+---@field gridSnapEnabled fun() @Gets or sets whether grid snapping is enabled.
+---@field scale fun() @Gets or sets the increment that scale handles snap to.
+---@field ResetSnapSettings fun() @Resets EditorSnap settings to default values.
+---@field gridSnapEnabledChanged fun() @Callback triggered when the  grid snap enabled value changes.
+---@field move fun() @Gets or sets the increment that translation handles snap to.

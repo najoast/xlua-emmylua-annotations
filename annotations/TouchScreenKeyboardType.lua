@@ -1,0 +1,14 @@
+---@class TouchScreenKeyboardType @Enumeration of the different types of supported touchscreen keyboards.
+---@field PhonePad fun() @Keyboard with a layout suitable for typing telephone numbers.
+---@field EmailAddress fun() @Keyboard with additional keys suitable for typing email addresses.
+---@field Social fun() @Keyboard with symbol keys often used on social media, such as Twitter.
+---@field ASCIICapable fun() @Keyboard with standard ASCII keys.
+---@field URL fun() @Keyboard with keys for URL entry.
+---@field OneTimeCode fun() @Keyboard with standard numeric keys.
+---@field NumbersAndPunctuation fun() @Keyboard with numbers and punctuation mark keys.
+---@field NamePhonePad fun() @Keyboard with alphanumeric keys.
+---@field Search fun() @Keyboard with the . key beside the space key, suitable for typing search terms.
+---@field NumberPad fun() @Keyboard with standard numeric keys.
+---@field Default fun() @The default keyboard layout of the target platform.
+---@field NintendoNetworkAccount fun() @Keyboard for the Nintendo Network (Deprecated).
+---@field DecimalPad fun() @Keyboard with numbers and a decimal point.

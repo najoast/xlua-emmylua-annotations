@@ -1,0 +1,14 @@
+---@class ComputeBuffer @GPU data buffer, mostly for use with compute shaders.
+---@field ctor fun() @Create a Compute Buffer.
+---@field Release fun() @Release a Compute Buffer.
+---@field GetNativeBufferPtr fun() @Retrieve a native (underlying graphics API) pointer to the buffer.
+---@field GetData fun() @Read data values from the buffer into an array. The array can only use blittable types.
+---@field stride fun() @Size of one element in the buffer (Read Only).
+---@field SetData fun() @Set the buffer with values from an array.
+---@field name fun() @The debug label for the compute buffer (setter only).
+---@field count fun() @Number of elements in the buffer (Read Only).
+---@field SetCounterValue fun() @Sets counter value of append/consume buffer.
+---@field IsValid fun() @Returns true if this compute buffer is valid and false otherwise.
+---@field CopyCount fun() @Copy counter value of append/consume buffer into another buffer.
+---@field BeginWrite fun() @Begins a write operation to the buffer
+---@field EndWrite fun() @Ends a write operation to the buffer

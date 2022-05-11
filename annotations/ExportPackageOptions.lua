@@ -1,0 +1,6 @@
+---@class ExportPackageOptions @Export package option. Multiple options can be combined together using the | operator.
+---@field Interactive fun() @The export operation will be run asynchronously and reveal the exported package file in a file browser window after the export is finished.
+---@field Recurse fun() @Will recurse through any subdirectories listed and include all assets inside them.
+---@field IncludeLibraryAssets fun() @The exported package will include all library assets, ie. the project settings located in the Library folder of the project.
+---@field IncludeDependencies fun() @In addition to the assets paths listed, all dependent assets will be included as well.
+---@field Default fun() @Default mode. Will not include dependencies or subdirectories nor include Library assets unless specifically included in the asset list.

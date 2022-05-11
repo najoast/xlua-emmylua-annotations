@@ -1,0 +1,3 @@
+---@class XR.Hand @A tracked hand on the device at an XR.XRNode in the XR input subsystem.
+---@field TryGetRootBone fun() @Gets the root bone for this hand.
+---@field TryGetFingerBones fun() @Gets a list of the finger bones for a finger on this hand.

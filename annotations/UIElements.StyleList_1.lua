@@ -1,0 +1,4 @@
+---@class UIElements.StyleList_1 @Style value that can be either a list or a StyleKeyword.
+---@field value fun() @The style value.
+---@field ctor fun() @Creates from either a list or a StyleKeyword.
+---@field keyword fun() @The style keyword.

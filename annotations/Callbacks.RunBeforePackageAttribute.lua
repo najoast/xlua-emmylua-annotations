@@ -1,0 +1,3 @@
+---@class Callbacks.RunBeforePackageAttribute @Add this attribute to a callback method to mark that this callback must be run before any callbacks that are part of the specified package.
+---@field ctor fun() @Add this attribute to a callback method to mark that this callback must be run before any callbacks that are part of the specified package.
+---@field packageName fun() @The name of the package that should be run after this callback.

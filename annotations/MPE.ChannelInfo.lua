@@ -1,0 +1,3 @@
+---@class MPE.ChannelInfo @A structure that contains the connection information of a Channel in ChannelService.
+---@field id fun() @The ID of a specific channel. Normally this is the hash of the channel name.
+---@field name fun() @The name of the channel. This matches the route of the URL that connects to the ChannelService. For example, 127.0.0.1:9292/&lt;channelName&gt;.

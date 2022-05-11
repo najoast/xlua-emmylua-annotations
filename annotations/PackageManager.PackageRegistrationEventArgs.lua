@@ -1,0 +1,5 @@
+---@class PackageManager.PackageRegistrationEventArgs @Structure describing the PackageManager.PackageInfo entries to register or unregister during the Package Manager registration process.
+---@field changedFrom fun() @A collection of PackageManager.PackageInfo entries describing packages to be overridden by another version during the Package Manager registration process.
+---@field removed fun() @A collection of PackageManager.PackageInfo entries to remove during the Package Manager registration process.
+---@field changedTo fun() @A collection of PackageManager.PackageInfo entries describing packages that will override a previously registered version during the Package Manager registration process.
+---@field added fun() @A collection of PackageManager.PackageInfo entries to add during the Package Manager registration process.

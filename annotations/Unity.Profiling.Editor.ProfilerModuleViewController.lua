@@ -1,0 +1,4 @@
+---@class Unity.Profiling.Editor.ProfilerModuleViewController @Provides a single view of content for a ProfilerModule displayed in the Profiler window.
+---@field CreateView fun() @Creates the view controller’s view. Unity calls this method automatically when it is about to display the view controller’s view for the first time.
+---@field ProfilerWindow fun() @The Profiler window that the view controller belongs to.
+---@field Dispose fun() @Disposes the view controller. Unity calls this method automatically when the view controller is no longer required, and its view will be removed from the window hierarchy.

@@ -1,0 +1,5 @@
+---@class Experimental.Animations.AnimationPlayableOutputExtensions @Static class providing experimental extension methods for AnimationPlayableOutput .
+---@field SetSortingOrder fun() @Sets the sorting order for the specified AnimationPlayableOutput.
+---@field GetAnimationStreamSource fun() @Gets the stream source of the specified AnimationPlayableOutput.
+---@field SetAnimationStreamSource fun() @Sets the stream source for the specified AnimationPlayableOutput.
+---@field GetSortingOrder fun() @Gets the priority index of the specified AnimationPlayableOutput.

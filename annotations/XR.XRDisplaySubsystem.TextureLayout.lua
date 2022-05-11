@@ -1,0 +1,4 @@
+---@class XR.XRDisplaySubsystem.TextureLayout @Flags that represents supported texture layout.
+---@field SingleTexture2D fun() @Textures could be configured to a texture2D that represents multiple views.
+---@field Texture2DArray fun() @Textures could be configured to a texture2DArray type.
+---@field SeparateTexture2Ds fun() @Textures could be configured to multiple texture2D type.

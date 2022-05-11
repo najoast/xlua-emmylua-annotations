@@ -1,0 +1,14 @@
+---@class AnimationState @The AnimationState gives full control over animation blending.
+---@field RemoveMixingTransform fun() @Removes a transform which should be animated.
+---@field blendMode fun() @Which blend mode should be used?
+---@field time fun() @The current time of the animation.
+---@field weight fun() @The weight of animation.
+---@field normalizedTime fun() @The normalized time of the animation.
+---@field wrapMode fun() @Wrapping mode of the animation.
+---@field name fun() @The name of the animation.
+---@field clip fun() @The clip that is being played by this animation state.
+---@field enabled fun() @Enables / disables the animation.
+---@field length fun() @The length of the animation clip in seconds.
+---@field AddMixingTransform fun() @Adds a transform which should be animated. This allows you to reduce the number of animations you have to create.
+---@field speed fun() @The playback speed of the animation. 1 is normal playback speed.
+---@field normalizedSpeed fun() @The normalized playback speed.

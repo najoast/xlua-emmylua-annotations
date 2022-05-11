@@ -1,0 +1,9 @@
+---@class UIElements.LayerField @A LayerField editor.
+---@field formatSelectedValueCallback fun() @Unsupported.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field ctor fun() @Initializes and returns an instance of LayerField.
+---@field UxmlFactory fun() @Instantiates a LayerField using the data read from a UXML file.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field formatListItemCallback fun() @Unsupported.
+---@field UxmlTraits UIElements.LayerField.UxmlTraits @Defines UxmlTraits for the LayerField.

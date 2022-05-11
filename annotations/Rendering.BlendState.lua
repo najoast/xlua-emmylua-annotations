@@ -1,0 +1,13 @@
+---@class Rendering.BlendState @Values for the blend state.
+---@field defaultValue fun() @Default values for the blend state.
+---@field blendState5 fun() @Blend state for render target 5.
+---@field ctor fun() @Creates a new blend state with the specified values.
+---@field blendState3 fun() @Blend state for render target 3.
+---@field blendState7 fun() @Blend state for render target 7.
+---@field blendState1 fun() @Blend state for render target 1.
+---@field separateMRTBlendStates fun() @Determines whether each render target uses a separate blend state.
+---@field alphaToMask fun() @Turns on alpha-to-coverage.
+---@field blendState0 fun() @Blend state for render target 0.
+---@field blendState6 fun() @Blend state for render target 6.
+---@field blendState4 fun() @Blend state for render target 4.
+---@field blendState2 fun() @Blend state for render target 2.

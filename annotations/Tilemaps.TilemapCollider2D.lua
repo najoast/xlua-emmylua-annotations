@@ -1,0 +1,5 @@
+---@class Tilemaps.TilemapCollider2D @Collider for 2D physics representing shapes defined by the corresponding Tilemap.
+---@field ProcessTilemapChanges fun() @Processes Tilemap changes for Collider updates immediately, if there are any.
+---@field maximumTileChangeCount fun() @Maximum number of Tile Changes accumulated before doing a full collider rebuild instead of an incremental rebuild.
+---@field hasTilemapChanges fun() @Returns true if there are Tilemap changes that require processing for Collider updates. Returns false otherwise.
+---@field extrusionFactor fun() @The amount of Collider shapes each Tile extrudes to facilitate compositing with neighboring Tiles. This eliminates fine gaps between Tiles when using a CompositeCollider2D. This is calculated in Unity units within world space.

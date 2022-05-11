@@ -1,0 +1,4 @@
+---@class ChangeGameObjectOrComponentPropertiesEventArgs @A change of this type indicates that a property of a GameObject or Component has changed. This happens for example when Undo.RecordObject is used with an instance of a Component.
+---@field scene fun() @The Scene that contains the GameObject associated with the change. If a Component is changed, this is the GameObject to which the component belongs.
+---@field instanceId fun() @The instance ID of the modified GameObject or Component.
+---@field ctor fun() @Constructs a new instance.

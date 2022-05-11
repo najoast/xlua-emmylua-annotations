@@ -1,0 +1,5 @@
+---@class AudioRenderer @Allow recording the main output of the game or specific groups in the AudioMixer.
+---@field Render fun() @Performs the recording of the main output as well as any optional mixer groups that have been registered via AudioRenderer.AddMixerGroupSink.
+---@field Stop fun() @Exits audio recording mode. After this audio output will be audible again.
+---@field Start fun() @Enters audio recording mode. After this Unity will output silence until AudioRenderer.Stop is called.
+---@field GetSampleCountForCaptureFrame fun() @Returns the number of samples available since the last time AudioRenderer.Render was called. This is dependent on the frame capture rate.

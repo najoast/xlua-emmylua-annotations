@@ -1,0 +1,11 @@
+---@class AI.OffMeshLink @Link allowing movement outside the planar navigation mesh.
+---@field activated fun() @Is link active.
+---@field autoUpdatePositions fun() @Automatically update endpoints.
+---@field UpdatePositions fun() @Explicitly update the link endpoints.
+---@field costOverride fun() @Modify pathfinding cost for the link.
+---@field endTransform fun() @The transform representing link end position.
+---@field startTransform fun() @The transform representing link start position.
+---@field area fun() @NavMesh area index for this OffMeshLink component.
+---@field navMeshLayer fun() @NavMeshLayer for this OffMeshLink component.
+---@field biDirectional fun() @Can link be traversed in both directions.
+---@field occupied fun() @Is link occupied. (Read Only)

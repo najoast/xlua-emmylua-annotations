@@ -1,0 +1,4 @@
+---@class Profiling.HierarchyFrameDataView.ViewModes @The ViewModes enum defines data aggregation rules.
+---@field Default fun() @Sets the View mode to raw hierarchy which represents each sample by an individual item.
+---@field HideEditorOnlySamples fun() @Skips sub-hierarchies that represent Editor-only code paths.
+---@field MergeSamplesWithTheSameName fun() @Merges and aggregates samples with the same name into a single hierarchy item.

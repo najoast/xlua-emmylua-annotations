@@ -1,0 +1,13 @@
+---@class PlayerLoop.FixedUpdate @Update phase in the native player loop.
+---@field DirectorFixedSampleTime fun() @A native engine system that the native player loop updates.
+---@field LegacyFixedAnimationUpdate fun() @A native engine system that the native player loop updates.
+---@field NewInputFixedUpdate fun() @A native engine system that the native player loop updates.
+---@field DirectorFixedUpdate fun() @A native engine system that the native player loop updates.
+---@field XRFixedUpdate fun() @A native engine system that the native player loop updates.
+---@field ScriptRunDelayedFixedFrameRate fun() @A native engine system that the native player loop updates.
+---@field ClearLines fun() @A native engine system that the native player loop updates.
+---@field ScriptRunBehaviourFixedUpdate fun() @A native engine system that the native player loop updates.
+---@field Physics2DFixedUpdate fun() @A native engine system that the native player loop updates.
+---@field DirectorFixedUpdatePostPhysics fun() @A native engine system that the native player loop updates.
+---@field PhysicsFixedUpdate fun() @A native engine system that the native player loop updates.
+---@field AudioFixedUpdate fun() @A native engine system that the native player loop updates.

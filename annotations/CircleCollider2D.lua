@@ -1,0 +1,3 @@
+---@class CircleCollider2D @Collider for 2D physics representing an circle.
+---@field radius fun() @Radius of the circle.
+---@field center fun() @The center point of the collider in local space.

@@ -1,0 +1,6 @@
+---@class UIElements.Experimental @nil
+---@field ITransitionAnimations UIElements.Experimental.ITransitionAnimations @Provides helper methods to create transition animations  for VisualElement style values
+---@field IValueAnimation UIElements.Experimental.IValueAnimation @Base interface for transition animations.
+---@field ValueAnimation_1 UIElements.Experimental.ValueAnimation_1 @Implementation object for transition animations.
+---@field Easing fun() @A collection of easing curves to be used with ValueAnimations.
+---@field StyleValues UIElements.Experimental.StyleValues @Container object used to animate multiple style values at once.

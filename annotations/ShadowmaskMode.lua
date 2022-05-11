@@ -1,0 +1,3 @@
+---@class ShadowmaskMode @The rendering mode of Shadowmask.
+---@field DistanceShadowmask fun() @Static shadow casters will be rendered into real-time shadow maps. Shadowmasks and occlusion from Light Probes will only be used past the real-time shadow distance.
+---@field Shadowmask fun() @Static shadow casters won't be rendered into real-time shadow maps. All shadows from static casters are handled via Shadowmasks and occlusion from Light Probes.

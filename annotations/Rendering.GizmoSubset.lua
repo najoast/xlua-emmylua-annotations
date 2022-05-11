@@ -1,0 +1,3 @@
+---@class Rendering.GizmoSubset @Gizmo subsets.
+---@field PreImageEffects fun() @Use to specify gizmos that should be rendered before ImageEffects.
+---@field PostImageEffects fun() @Use to specify gizmos that should be rendered after ImageEffects.

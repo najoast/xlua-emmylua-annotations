@@ -1,0 +1,2 @@
+---@class UIElements.RepeatButton.UxmlTraits @Defines UxmlTraits for the RepeatButton.
+---@field Init fun() @Initialize RepeatButton properties using values from the attribute bag.

@@ -1,0 +1,7 @@
+---@class Video.VideoAspectRatio @Methods used to fit a video in the target area.
+---@field FitInside fun() @Resize proportionally so that content fits the target area, adding black bars if needed.
+---@field FitOutside fun() @Resize proportionally so that content fits the target area, cropping if needed.
+---@field FitHorizontally fun() @Resize proportionally so that width fits the target area, cropping or adding black bars above and below if needed.
+---@field NoScaling fun() @Preserve the pixel size without adjusting for target area.
+---@field FitVertically fun() @Resize proportionally so that height fits the target area, cropping or adding black bars on each side if needed.
+---@field Stretch fun() @Resize non-proportionally to fit the target area.

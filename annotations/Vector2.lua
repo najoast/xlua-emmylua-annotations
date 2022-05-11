@@ -1,0 +1,41 @@
+---@class Vector2 @Representation of 2D vectors and points.
+---@field MoveTowards fun() @Moves a point current towards target.
+---@field Angle fun() @Gets the unsigned angle in degrees between from and to.
+---@field sqrMagnitude fun() @Returns the squared length of this vector (Read Only).
+---@field Normalize fun() @Makes this vector have a magnitude of 1.
+---@field Max fun() @Returns a vector that is made from the largest components of two vectors.
+---@field Perpendicular fun() @Returns the 2D vector perpendicular to this 2D vector. The result is always rotated 90-degrees in a counter-clockwise direction for a 2D coordinate system where the positive Y axis goes up.
+---@field ClampMagnitude fun() @Returns a copy of vector with its magnitude clamped to maxLength.
+---@field positiveInfinity fun() @Shorthand for writing Vector2(float.PositiveInfinity, float.PositiveInfinity).
+---@field up fun() @Shorthand for writing Vector2(0, 1).
+---@field operator_Vector3 fun() @Converts a Vector3 to a Vector2.
+---@field Set fun() @Set x and y components of an existing Vector2.
+---@field normalized fun() @Returns this vector with a magnitude of 1 (Read Only).
+---@field Scale fun() @Multiplies two vectors component-wise.
+---@field Min fun() @Returns a vector that is made from the smallest components of two vectors.
+---@field x fun() @X component of the vector.
+---@field ctor fun() @Constructs a new vector with given x, y components.
+---@field magnitude fun() @Returns the length of this vector (Read Only).
+---@field Distance fun() @Returns the distance between a and b.
+---@field SmoothDamp fun() @Gradually changes a vector towards a desired goal over time.
+---@field right fun() @Shorthand for writing Vector2(1, 0).
+---@field operator_Vector2 fun() @Converts a Vector2 to a Vector3.
+---@field ToString fun() @Returns a formatted string for this vector.
+---@field Index_operator fun() @Access the x or y component using [0] or [1] respectively.
+---@field Equals fun() @Returns true if the given vector is exactly equal to this vector.
+---@field operator_subtract fun() @Subtracts one vector from another.
+---@field y fun() @Y component of the vector.
+---@field zero fun() @Shorthand for writing Vector2(0, 0).
+---@field Reflect fun() @Reflects a vector off the vector defined by a normal.
+---@field operator_eq fun() @Returns true if two vectors are approximately equal.
+---@field operator_divide fun() @Divides a vector by a number.
+---@field negativeInfinity fun() @Shorthand for writing Vector2(float.NegativeInfinity, float.NegativeInfinity).
+---@field Dot fun() @Dot Product of two vectors.
+---@field operator_add fun() @Adds two vectors.
+---@field SignedAngle fun() @Gets the signed angle in degrees between from and to.
+---@field operator_multiply fun() @Multiplies a vector by a number.
+---@field LerpUnclamped fun() @Linearly interpolates between vectors a and b by t.
+---@field down fun() @Shorthand for writing Vector2(0, -1).
+---@field Lerp fun() @Linearly interpolates between vectors a and b by t.
+---@field one fun() @Shorthand for writing Vector2(1, 1).
+---@field left fun() @Shorthand for writing Vector2(-1, 0).

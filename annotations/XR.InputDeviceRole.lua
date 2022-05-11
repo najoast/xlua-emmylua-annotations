@@ -1,0 +1,10 @@
+---@class XR.InputDeviceRole @Enumeration describing the role of a XR.InputDevice in providing input.
+---@field LegacyController fun() @This device is a legacy controller.
+---@field RightHanded fun() @This device is a controller that represents the right hand.
+---@field LeftHanded fun() @This device is a controller that represents the left hand.
+---@field Invalid fun() @This device role is not valid or cannot be reported.
+---@field TrackingReference fun() @This device is a tracking reference used to track other devices in 3D.
+---@field Unknown fun() @This device does not have a known role.
+---@field HardwareTracker fun() @This device is a hardware tracker.
+---@field Generic fun() @This device is typically a HMD or Camera.
+---@field GameController fun() @This device is a game controller.

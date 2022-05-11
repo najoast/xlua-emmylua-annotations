@@ -1,0 +1,4 @@
+---@class ParticleSystemRingBufferMode @Control how particles are removed from the Particle System.
+---@field PauseUntilReplaced fun() @Particle ages pause at the end of their lifetime until they need to be removed. Particles are removed when creating new particles would exceed the Max Particles property.
+---@field LoopUntilReplaced fun() @Particle ages loop until they need to be removed. Particles are removed when creating new particles would exceed the Max Particles property.
+---@field Disabled fun() @Particles are removed when their age exceeds their lifetime.

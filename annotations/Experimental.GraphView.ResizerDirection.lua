@@ -1,0 +1,5 @@
+---@class Experimental.GraphView.ResizerDirection @Enum that specifies in which direction to resize the element.
+---@field Top fun() @Resize the element from the top.
+---@field Right fun() @Resize the element to the right.
+---@field Bottom fun() @Resize the element from the bottom.
+---@field Left fun() @Resize the element to the left.

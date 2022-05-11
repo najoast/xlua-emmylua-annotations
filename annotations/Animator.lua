@@ -1,0 +1,109 @@
+---@class Animator @Interface to control the Mecanim animation system.
+---@field PlayInFixedTime fun() @Plays a state.
+---@field SetBoneLocalRotation fun() @Sets local rotation of a human bone during a IK pass.
+---@field SetFloat fun() @Send float values to the Animator to affect transitions.
+---@field IsParameterControlledByCurve fun() @Returns true if the parameter is controlled by a curve, false otherwise.
+---@field isMatchingTarget fun() @If automatic matching is active.
+---@field leftFeetBottomHeight fun() @Get left foot bottom height.
+---@field SetInteger fun() @Sets the value of the given integer parameter.
+---@field rootRotation fun() @The root rotation, the rotation of the game object.
+---@field feetPivotActive fun() @Blends pivot point between body center of mass and feet pivot.
+---@field linearVelocityBlending fun() @When linearVelocityBlending is set to true, the root motion velocity and angular velocity will be blended linearly.
+---@field GetFloat fun() @Returns the value of the given float parameter.
+---@field targetPosition fun() @Returns the position of the target specified by SetTarget.
+---@field SetTrigger fun() @Sets the value of the given trigger parameter.
+---@field StartPlayback fun() @Sets the animator in playback mode.
+---@field gravityWeight fun() @The current gravity weight based on current animations that are played.
+---@field bodyRotation fun() @The rotation of the body center of mass.
+---@field speed fun() @The playback speed of the Animator. 1 is normal playback speed.
+---@field GetInteger fun() @Returns the value of the given integer parameter.
+---@field isHuman fun() @Returns true if the current rig is humanoid, false if it is generic.
+---@field animatePhysics fun() @When turned on, animations will be executed in the physics loop. This is only useful in conjunction with kinematic rigidbodies.
+---@field StartRecording fun() @Sets the animator in recording mode, and allocates a circular buffer of size frameCount.
+---@field rootPosition fun() @The root position, the position of the game object.
+---@field IsInTransition fun() @Returns true if there is a transition on the given layer, false otherwise.
+---@field GetIKHintPositionWeight fun() @Gets the translative weight of an IK Hint (0 = at the original animation before IK, 1 = at the hint).
+---@field WriteDefaultValues fun() @Forces a write of the default values stored in the animator.
+---@field Update fun() @Evaluates the animator based on deltaTime.
+---@field SetIKRotationWeight fun() @Sets the rotational weight of an IK goal (0 = rotation before IK, 1 = rotation at the IK goal).
+---@field GetBoneTransform fun() @Returns Transform mapped to this human bone id. Returns null if the animator is disabled, if it does not have a human description, or if the bone id is invalid.
+---@field GetNextAnimatorClipInfoCount fun() @Returns the number of AnimatorClipInfo in the next state.
+---@field StopRecording fun() @Stops animator record mode.
+---@field GetQuaternion fun() @Gets the value of a quaternion parameter.
+---@field SetVector fun() @Sets the value of a vector parameter.
+---@field GetCurrentAnimationClipState fun() @Gets the list of AnimatorClipInfo currently played by the current state.
+---@field SetTarget fun() @Sets an AvatarTarget and a targetNormalizedTime for the current state.
+---@field pivotWeight fun() @Gets the pivot weight.
+---@field GetLayerWeight fun() @Returns the weight of the layer at the specified index.
+---@field SetQuaternion fun() @Sets the value of a quaternion parameter.
+---@field SetLookAtWeight fun() @Set look at weights.
+---@field SetLookAtPosition fun() @Sets the look at position.
+---@field SetLayerWeight fun() @Sets the weight of the layer at the given index.
+---@field SetIKRotation fun() @Sets the rotation of an IK goal.
+---@field SetIKPositionWeight fun() @Sets the translative weight of an IK goal (0 = at the original animation before IK, 1 = at the goal).
+---@field GetIKPositionWeight fun() @Gets the translative weight of an IK goal (0 = at the original animation before IK, 1 = at the goal).
+---@field keepAnimatorControllerStateOnDisable fun() @Controls the behaviour of the Animator component when a GameObject is disabled.
+---@field SetIKHintPositionWeight fun() @Sets the translative weight of an IK hint (0 = at the original animation before IK, 1 = at the hint).
+---@field recorderStopTime fun() @End time of the recorded clip relative to when StartRecording was called.
+---@field GetBehaviour fun() @Returns the first StateMachineBehaviour that matches type T or is derived from T. Returns null if none are found.
+---@field SetIKHintPosition fun() @Sets the position of an IK hint.
+---@field SetBool fun() @Sets the value of the given boolean parameter.
+---@field angularVelocity fun() @Gets the avatar angular velocity for the last evaluated frame.
+---@field ResetTrigger fun() @Resets the value of the given trigger parameter.
+---@field Rebind fun() @Rebind all the animated properties and mesh data with the Animator.
+---@field Play fun() @Plays a state.
+---@field GetNextAnimatorClipInfo fun() @Returns an array of all the AnimatorClipInfo in the next state of the given layer.
+---@field isInitialized fun() @Returns whether the animator is initialized successfully.
+---@field recorderMode fun() @Gets the mode of the Animator recorder.
+---@field stabilizeFeet fun() @Automatic stabilization of feet during transition and blending.
+---@field parameterCount fun() @Returns the number of parameters in the controller.
+---@field IsControlled fun() @Returns true if the transform is controlled by the Animator.
+---@field InterruptMatchTarget fun() @Interrupts the automatic target matching.
+---@field GetParameter fun() @See AnimatorController.parameters.
+---@field HasState fun() @Returns true if the state exists in this layer, false otherwise.
+---@field GetVector fun() @Gets the value of a vector parameter.
+---@field StopPlayback fun() @Stops the animator playback mode. When playback stops, the avatar resumes getting control from game logic.
+---@field GetCurrentAnimatorStateInfo fun() @Returns an AnimatorStateInfo with the information on the current state.
+---@field pivotPosition fun() @Get the current position of the pivot.
+---@field GetAnimatorTransitionInfo fun() @Returns an AnimatorTransitionInfo with the informations on the current transition.
+---@field GetNextAnimatorStateInfo fun() @Returns an AnimatorStateInfo with the information on the next state.
+---@field playableGraph fun() @The PlayableGraph created by the Animator.
+---@field GetBool fun() @Returns the value of the given boolean parameter.
+---@field GetLayerIndex fun() @Returns the index of the layer with the given name.
+---@field CrossFadeInFixedTime fun() @Creates a crossfade from the current state to any other state using times in seconds.
+---@field StringToHash fun() @Generates an parameter id from a string.
+---@field hasRootMotion fun() @Returns true if the current rig has root motion.
+---@field MatchTarget fun() @Automatically adjust the GameObject position and rotation.
+---@field GetNextAnimationClipState fun() @Gets the list of AnimatorClipInfo currently played by the next state.
+---@field GetLayerName fun() @Returns the layer name.
+---@field velocity fun() @Gets the avatar velocity  for the last evaluated frame.
+---@field hasTransformHierarchy fun() @Returns true if the object has a transform hierarchy.
+---@field GetIKRotationWeight fun() @Gets the rotational weight of an IK goal (0 = rotation before IK, 1 = rotation at the IK goal).
+---@field ApplyBuiltinRootMotion fun() @Apply the default Root Motion.
+---@field GetIKRotation fun() @Gets the rotation of an IK goal.
+---@field cullingMode fun() @Controls culling of this Animator component.
+---@field SetIKPosition fun() @Sets the position of an IK goal.
+---@field recorderStartTime fun() @Start time of the first frame of the buffer relative to the frame at which StartRecording was called.
+---@field GetIKHintPosition fun() @Gets the position of an IK hint.
+---@field GetCurrentAnimatorClipInfoCount fun() @Returns the number of AnimatorClipInfo in the current state.
+---@field playbackTime fun() @Sets the playback position in the recording buffer.
+---@field bodyPosition fun() @The position of the body center of mass.
+---@field rightFeetBottomHeight fun() @Get right foot bottom height.
+---@field parameters fun() @The AnimatorControllerParameter list used by the animator. (Read Only)
+---@field updateMode fun() @Specifies the update mode of the Animator.
+---@field layersAffectMassCenter fun() @Additional layers affects the center of mass.
+---@field humanScale fun() @Returns the scale of the current Avatar for a humanoid rig, (1 by default if the rig is generic).
+---@field deltaPosition fun() @Gets the avatar delta position for the last evaluated frame.
+---@field GetIKPosition fun() @Gets the position of an IK goal.
+---@field isOptimizable fun() @Returns true if the current rig is optimizable with AnimatorUtility.OptimizeTransformHierarchy.
+---@field CrossFade fun() @Creates a crossfade from the current state to any other state using normalized times.
+---@field hasBoundPlayables fun() @Returns true if Animator has any playables assigned to it.
+---@field GetCurrentAnimatorClipInfo fun() @Returns an array of all the AnimatorClipInfo in the current state of the given layer.
+---@field avatar fun() @Gets/Sets the current Avatar.
+---@field deltaRotation fun() @Gets the avatar delta rotation for the last evaluated frame.
+---@field GetBehaviours fun() @Returns all StateMachineBehaviour that match type T or are derived from T. Returns null if none are found.
+---@field fireEvents fun() @Sets whether the Animator sends events of type AnimationEvent.
+---@field runtimeAnimatorController fun() @The runtime representation of AnimatorController that controls the Animator.
+---@field targetRotation fun() @Returns the rotation of the target specified by SetTarget.
+---@field applyRootMotion fun() @Should root motion be applied?
+---@field layerCount fun() @Returns the number of layers in the controller.

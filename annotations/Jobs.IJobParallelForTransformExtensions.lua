@@ -1,0 +1,4 @@
+---@class Jobs.IJobParallelForTransformExtensions @Extension methods for IJobParallelForTransform.
+---@field ScheduleReadOnly fun() @Schedule an IJobParallelForTransform job with read-only access to the transform data. This method provides better parallelization because it can read all transforms in parallel instead of just parallelizing over different hierarchies.
+---@field Schedule fun() @Schedule an IJobParallelForTransform job with read-write access to the transform data. This method parallelizes access to transforms in different hierarchies. Transforms with a shared root object are always processed on the same thread.
+---@field RunReadOnly fun() @Run an IJobParallelForTransform job with read-only access to the transform data. This method makes the job run on the calling thread instead of spreading it out over multiple threads.

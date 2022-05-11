@@ -1,0 +1,27 @@
+---@class UIElements.TextInputBaseField_1 @Abstract base class used for all text-based fields.
+---@field onIsReadOnlyChanged fun() @Calls the methods in its invocation list when isReadOnly changes.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field multilineInputUssClassName fun() @USS class name of multiline input elements in elements of this type.
+---@field singleLineInputUssClassName fun() @USS class name of single line input elements in elements of this type.
+---@field textInputBase fun() @This is the text input visual element which presents the value in the field.
+---@field maxLength fun() @Maximum number of characters for the field.
+---@field isDelayed fun() @If set to true, the value property isn't updated until either the user presses Enter or the text field loses focus.
+---@field doubleClickSelectsWord fun() @Controls whether double clicking selects the word under the mouse pointer or not.
+---@field maskChar fun() @The character used for masking in a password field.
+---@field selectIndex fun() @The current selection position index in the text input field.
+---@field ValueToString fun() @Converts a value of the specified generic type from the subclass to a string representation.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field UxmlTraits UIElements.TextInputBaseField_1.UxmlTraits @Defines UxmlTraits for TextInputFieldBase.
+---@field TextInputBase UIElements.TextInputBaseField_1.TextInputBase @This is the input text base class visual representation.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field StringToValue fun() @Converts a string to the value of the specified generic type from the subclass.
+---@field SelectAll fun() @Selects all the text.
+---@field textInputUssName fun() @USS class name of input elements in elements of this type.
+---@field cursorColor fun() @Color of the cursor.
+---@field text fun() @The value of the input field.
+---@field MeasureTextSize fun() @Computes the size needed to display a text string based on element style values such as font, font-size, and word-wrap.
+---@field isPasswordField fun() @Returns true if the field is used to edit a password.
+---@field selectionColor fun() @Background color of selected text.
+---@field isReadOnly fun() @Returns true if the field is read only.
+---@field tripleClickSelectsLine fun() @Controls whether triple clicking selects the entire line under the mouse pointer or not.
+---@field cursorIndex fun() @The current cursor position index in the text input field.

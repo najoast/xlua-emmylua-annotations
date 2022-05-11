@@ -1,0 +1,3 @@
+---@class UIElements.PickingMode @Describes the picking behavior.
+---@field Ignore fun() @Disables picking.
+---@field Position fun() @Picking enabled. Default Value.

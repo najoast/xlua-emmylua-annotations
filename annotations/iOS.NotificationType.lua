@@ -1,0 +1,5 @@
+---@class iOS.NotificationType @Specifies local and remote notification types.
+---@field None fun() @No notification types specified.
+---@field Badge fun() @Notification is a badge shown above the application's icon.
+---@field Alert fun() @Notification is an alert message.
+---@field Sound fun() @Notification is an alert sound.

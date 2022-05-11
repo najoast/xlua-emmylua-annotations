@@ -1,0 +1,13 @@
+---@class SkinnedMeshRenderer @The Skinned Mesh filter.
+---@field GetBlendShapeWeight fun() @Returns the weight of a BlendShape for this Renderer.
+---@field BakeMesh fun() @Creates a snapshot of SkinnedMeshRenderer and stores it in mesh.
+---@field sharedMesh fun() @The mesh used for skinning.
+---@field updateWhenOffscreen fun() @If enabled, the Skinned Mesh will be updated when offscreen. If disabled, this also disables updating animations.
+---@field GetPreviousVertexBuffer fun() @Retrieves a GraphicsBuffer that provides direct access to the GPU vertex buffer for this skinned mesh, for the previous frame.
+---@field vertexBufferTarget fun() @The intended target usage of the skinned mesh GPU vertex buffer.
+---@field skinnedMotionVectors fun() @Specifies whether skinned motion vectors should be used for this renderer.
+---@field GetVertexBuffer fun() @Retrieves a GraphicsBuffer that provides direct access to the GPU vertex buffer for this skinned mesh, for the current frame.
+---@field SetBlendShapeWeight fun() @Sets the weight of a BlendShape for this Renderer.
+---@field bones fun() @The bones used to skin the mesh.
+---@field quality fun() @The maximum number of bones per vertex that are taken into account during skinning.
+---@field forceMatrixRecalculationPerRender fun() @Forces the Skinned Mesh to recalculate its matricies when rendered

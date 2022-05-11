@@ -1,0 +1,2 @@
+---@class Build.IOrderedCallback @Interface that provides control over callback order.
+---@field callbackOrder fun() @Returns the relative callback order for callbacks.  Callbacks with lower values are called before ones with higher values.

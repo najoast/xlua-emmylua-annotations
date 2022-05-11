@@ -1,0 +1,5 @@
+---@class PackageManager.RepositoryInfo @Includes information about the repository that hosts the package.
+---@field url fun() @The url to the source code repository.
+---@field path fun() @The relative path to the package root in the repository, if it is different from the repository root.
+---@field type fun() @The type of the repository, e.g. git.
+---@field revision fun() @The revision id corresponding to the package version.

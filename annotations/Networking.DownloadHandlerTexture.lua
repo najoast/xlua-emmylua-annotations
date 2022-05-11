@@ -1,0 +1,4 @@
+---@class Networking.DownloadHandlerTexture @A DownloadHandler subclass specialized for downloading images for use as Texture objects.
+---@field texture fun() @Returns the downloaded Texture, or null. (Read Only)
+---@field ctor fun() @Default constructor.
+---@field GetContent fun() @Returns the downloaded Texture, or null.

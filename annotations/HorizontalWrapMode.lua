@@ -1,0 +1,3 @@
+---@class HorizontalWrapMode @Wrapping modes for text that reaches the horizontal boundary.
+---@field Overflow fun() @Text can exceed the horizontal boundary.
+---@field Wrap fun() @Text will word-wrap when reaching the horizontal boundary.

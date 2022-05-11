@@ -1,0 +1,3 @@
+---@class Tilemaps.TilemapRenderer.Mode @Determines how the TilemapRenderer should batch the sprites from tiles for rendering.
+---@field Individual fun() @Sends each Sprite from the Tilemap to be rendered individually.
+---@field Chunk fun() @Batches each Sprite from the Tilemap into grouped chunks to be rendered.

@@ -1,0 +1,3 @@
+---@class AvatarBuilder @Class to build avatars from user scripts.
+---@field BuildGenericAvatar fun() @Create a new generic avatar.
+---@field BuildHumanAvatar fun() @Create a humanoid avatar.

@@ -1,0 +1,11 @@
+---@class UIElements.TwoPaneSplitView @A SplitView that contains two resizable panes. One pane is fixed-size while the other pane has flex-grow style set to 1 to take all remaining space. The border between he panes is draggable to resize both panes. Both horizontal and vertical modes are supported. Requires _exactly_ two child elements to operate.
+---@field UnCollapse fun() @Un-collapse the split view. This will restore the split view to the state it was before the previous collapse.
+---@field orientation fun() @Orientation of the split view.
+---@field ctor fun() @Parameterized constructor.
+---@field fixedPaneIndex fun() @0 for setting first child as the fixed pane, 1 for the second child element.
+---@field flexedPane fun() @The child element that is set as the flexable size pane.
+---@field CollapseChild fun() @Collapse one of the panes of the split view. This will hide the resizer and make the other child take up all available space.
+---@field fixedPane fun() @The child element that is set as the fixed size pane.
+---@field UxmlTraits fun() @Defines UxmlTraits for the TwoPaneSplitView.
+---@field fixedPaneInitialDimension fun() @The initial width or height for the fixed pane.
+---@field UxmlFactory fun() @Instantiates a TwoPaneSplitView using the data read from a UXML file.

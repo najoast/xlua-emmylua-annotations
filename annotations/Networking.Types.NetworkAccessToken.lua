@@ -1,0 +1,4 @@
+---@class Networking.Types.NetworkAccessToken @Access token used to authenticate a client session for the purposes of allowing or disallowing match operations requested by that client.
+---@field GetByteString fun() @Accessor to get an encoded string from the m_array data.
+---@field IsValid fun() @Checks if the token is a valid set of data with respect to default values (returns true if the values are not default, does not validate the token is a current legitimate token with respect to the server's auth framework).
+---@field array fun() @Binary field for the actual token.

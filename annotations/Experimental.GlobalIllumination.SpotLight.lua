@@ -1,0 +1,14 @@
+---@class Experimental.GlobalIllumination.SpotLight @A helper structure used to initialize a LightDataGI structure as a spot light.
+---@field orientation fun() @The light's orientation.
+---@field shadow fun() @True if the light casts shadows, otherwise False.
+---@field sphereRadius fun() @The light's sphere radius, influencing soft shadows.
+---@field instanceID fun() @The light's instanceID.
+---@field mode fun() @The lightmode.
+---@field range fun() @The light's range.
+---@field color fun() @The direct light color.
+---@field angularFalloff fun() @The angular falloff model to use for baking the spot light.
+---@field falloff fun() @The falloff model to use for baking the spot light.
+---@field coneAngle fun() @The outer angle for the spot light.
+---@field position fun() @The light's position.
+---@field indirectColor fun() @The indirect light color.
+---@field innerConeAngle fun() @The inner angle for the spot light.

@@ -1,0 +1,11 @@
+---@class AssetImporters.TextureGenerationSettings @Represents how a texture should be generated from calling TextureGenerator.GenerateTexture.
+---@field enablePostProcessor fun() @When set to true, the AssetPostprocessor hooks will be called during texture generation. The following will hold for any AssetPostprocessors triggered through TextureGenerator.GenerateTexture                - When the postprocessor is invoked AssetPostprocessor.assetPath will be set to the assetPath value in this structure.                - The value of AssetPostprocessor.context will be set to null.                - Only OnPostprocessTexture, OnPostprocessCubemap, ... is called. The OnPreprocessTexture functions are not called.
+---@field assetPath fun() @Path where the Asset will be placed.
+---@field secondarySpriteTextures fun() @Secondary textures for the generated Sprites.
+---@field ctor fun() @The Constructor initializes to most common value based on the TetureImporterType you pass in.
+---@field textureImporterSettings fun() @Settings for generating texture.
+---@field platformSettings fun() @Platform settings for generating the texture.
+---@field sourceTextureInformation fun() @Texture format for the image data.
+---@field spritePackingTag fun() @Tag used for Sprite packing.
+---@field spriteImportData fun() @Sprite Asset generation data.
+---@field qualifyForSpritePacking fun() @Indicates if the Sprite generated can be used for atlas packing.

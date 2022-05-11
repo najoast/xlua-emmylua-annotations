@@ -1,0 +1,4 @@
+---@class ParticleSystemMeshShapeType @The mesh emission type.
+---@field Edge fun() @Emit from the edges of the mesh.
+---@field Vertex fun() @Emit from the vertices of the mesh.
+---@field Triangle fun() @Emit from the surface of the mesh.

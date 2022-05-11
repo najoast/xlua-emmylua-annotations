@@ -1,0 +1,2 @@
+---@class Analytics.PerformanceReportingSettings @Normally performance reporting is enabled from the Services window, but if writing your own editor extension, this API can be used.
+---@field enabled fun() @This Boolean field causes the performance reporting feature in Unity to be enabled if true, or disabled if false.

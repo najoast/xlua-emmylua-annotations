@@ -1,0 +1,3 @@
+---@class Compilation.AssemblyDefinitionException @An exception throw for Assembly Definition Files errors.
+---@field filePaths fun() @File paths of the assembly definition files that caused the exception.
+---@field ctor fun() @Constructor.

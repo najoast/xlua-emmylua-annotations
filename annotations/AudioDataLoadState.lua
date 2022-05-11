@@ -1,0 +1,5 @@
+---@class AudioDataLoadState @Value describing the current load state of the audio data associated with an AudioClip.
+---@field Unloaded fun() @Value returned by AudioClip.loadState for an AudioClip that has no audio data loaded and where loading has not been initiated yet.
+---@field Loaded fun() @Value returned by AudioClip.loadState for an AudioClip that has succeeded loading its audio data.
+---@field Failed fun() @Value returned by AudioClip.loadState for an AudioClip that has failed loading its audio data.
+---@field Loading fun() @Value returned by AudioClip.loadState for an AudioClip that is currently loading audio data.

@@ -1,0 +1,3 @@
+---@class Callbacks.RunBeforeClassAttribute @Add this attribute to a callback method to mark that this callback must be run before any callbacks that are part of the specified class.
+---@field classType fun() @The class type that should be run before this callback.
+---@field ctor fun() @Add this attribute to a callback method to mark that this callback must be run before any callbacks that are part of the specified class.

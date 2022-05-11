@@ -1,0 +1,2 @@
+---@class UIElements.HelpBox.UxmlTraits @Defines UxmlTraits for the HelpBox.
+---@field Init fun() @Initializes HelpBox properties with values from an attribute bag.

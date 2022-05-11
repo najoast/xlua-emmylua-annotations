@@ -1,0 +1,7 @@
+---@class AI.OffMeshLinkData @State of OffMeshLink.
+---@field activated fun() @Is link active (Read Only).
+---@field linkType fun() @Link type specifier (Read Only).
+---@field valid fun() @Is link valid (Read Only).
+---@field startPos fun() @Link start world position (Read Only).
+---@field endPos fun() @Link end world position (Read Only).
+---@field offMeshLink fun() @The OffMeshLink if the link type is a manually placed Offmeshlink (Read Only).

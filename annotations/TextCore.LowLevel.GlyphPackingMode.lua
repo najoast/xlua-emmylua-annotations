@@ -1,0 +1,6 @@
+---@class TextCore.LowLevel.GlyphPackingMode @The modes available when packing glyphs into an atlas texture.
+---@field BestShortSideFit fun() @Place the glyph against the short side of a free space to minimize the length of the shorter leftover side.
+---@field BestLongSideFit fun() @Place the glyph against the longer side of a free space to minimize the length of the longer leftover side.
+---@field ContactPointRule fun() @Place the glyph into the available free space by trying to maximize the contact point between it and other glyphs.
+---@field BottomLeftRule fun() @Place the glyph into available free space in a Tetris like fashion.
+---@field BestAreaFit fun() @Place the glyph into the smallest free space available in which it can fit.

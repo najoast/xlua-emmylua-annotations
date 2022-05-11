@@ -1,0 +1,6 @@
+---@class Camera.GateFitMode @Enum used to specify how the sensor gate (sensor frame) defined by Camera.sensorSize fits into the resolution gate (render frame).
+---@field Overscan fun() @Automatically selects a horizontal or vertical fit so that the render frame fits completely inside the resolution gate.
+---@field Horizontal fun() @Fit the resolution gate horizontally within the sensor gate.
+---@field Vertical fun() @Fit the resolution gate vertically within the sensor gate.
+---@field None fun() @Stretch the sensor gate to fit exactly into the resolution gate.
+---@field Fill fun() @Automatically selects a horizontal or vertical fit so that the sensor gate fits completely inside the resolution gate.

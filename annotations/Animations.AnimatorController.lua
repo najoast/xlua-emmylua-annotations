@@ -1,0 +1,22 @@
+---@class Animations.AnimatorController @The Animator Controller controls animation through layers with state machines, controlled by parameters.
+---@field FindStateMachineBehaviourContext fun() @Use this function to retrieve the owner of this behaviour.
+---@field ctor fun() @Constructor.
+---@field SetStateEffectiveBehaviours fun() @Sets the effective state machine Behaviour list for the AnimatorState. The Behaviour list is either stored in the AnimatorStateMachine or in the AnimatorLayer's ovverrides. Use this function to set the Behaviour list that is effectively used.
+---@field layers fun() @The layers in the controller.
+---@field MakeUniqueLayerName fun() @Creates a unique name for the layers.
+---@field AddLayer fun() @Utility function to add a layer to the controller.
+---@field GetStateEffectiveMotion fun() @Gets the effective Motion for the AnimatorState. The Motion is either stored in the AnimatorStateMachine or in the AnimatorLayer's ovverrides. Use this function to get the Motion that is effectively used.
+---@field CreateAnimatorControllerAtPathWithClip fun() @Creates an AnimatorController at the given path, and automatically create an AnimatorLayer  with an AnimatorStateMachine that will add a State with the AnimationClip in it.
+---@field AddEffectiveStateMachineBehaviour fun() @Adds a state machine behaviour class of a specific type to the AnimatorState for layer layerIndex.This method should be used when you are dealing with synchronized layer and would like to add a state machine behaviour on a synchronized layer.Note that there is no corresponding Remove method. To remove a state machine behaviour, use Object.Destroy.
+---@field CreateBlendTreeInController fun() @Creates a BlendTree in a new AnimatorState.
+---@field MakeUniqueParameterName fun() @Creates a unique name for the parameter.
+---@field AddParameter fun() @Utility function to add a parameter to the controller.
+---@field CreateStateMachineBehaviour fun() @This function will create a StateMachineBehaviour instance based on the class define in this script.
+---@field parameters fun() @Parameters are used to communicate between scripting and the controller. They are used to drive transitions and blendtrees for example.
+---@field RemoveLayer fun() @Utility function to remove a layer from the controller.
+---@field GetBehaviours fun() @Returns all StateMachineBehaviour that match type T or are derived from T.
+---@field RemoveParameter fun() @Utility function to remove a parameter from the controller.
+---@field SetStateEffectiveMotion fun() @Sets the effective Motion for the AnimatorState. The Motion is either stored in the AnimatorStateMachine or in the AnimatorLayer's ovverrides. Use this function to set the Motion that is effectively used.
+---@field CreateAnimatorControllerAtPath fun() @Creates an AnimatorController at the given path.
+---@field GetStateEffectiveBehaviours fun() @Gets the effective state machine behaviour list for the AnimatorState. Behaviours are either stored in the AnimatorStateMachine or in the AnimatorLayer's ovverrides. Use this function to get Behaviour list that is effectively used.
+---@field AddMotion fun() @Utility function that creates a new state  with the motion in it.

@@ -1,0 +1,9 @@
+---@class ShortcutManagement.KeyCombination @Represents a combination of a non-modifier key and zero or more modifier keys.
+---@field alt fun() @Is the Alt key (or Option key on macOS) modifier part of the key combination?
+---@field ToString fun() @Returns string representation of key combination.
+---@field keyCode fun() @Key code representing non-modifier key of key combination.
+---@field ctor fun() @Creates a new key combination with given key code and shortcut modifiers.
+---@field shift fun() @Is the Shift key modifier part of key combination?
+---@field control fun() @Determines if the Control key modifier is part of the key combination. Represents the Control key on Windows, macOS, and Linux.
+---@field modifiers fun() @Modifier keys of key combination.
+---@field action fun() @Is the action key modifier part of the key combination? The action key represents the Control key on Windows and Linux, and the Command key on macOS.

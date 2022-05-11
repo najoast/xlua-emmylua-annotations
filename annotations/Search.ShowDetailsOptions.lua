@@ -1,0 +1,9 @@
+---@class Search.ShowDetailsOptions @Defines what details are shown in the preview inspector panel for the search view.
+---@field Preview fun() @Show a large preview.
+---@field None fun() @No options are defined.
+---@field ListView fun() @Indicates that this search provider wants to display its items in a list view if possible.
+---@field Inspector fun() @Show an embedded inspector for the selected object.
+---@field Actions fun() @Shows selected item possible actions.
+---@field DefaultGroup fun() @Indicates that the provider will always be displayed as a group (tab) even if the result set is empty.
+---@field Default fun() @Default set of options used when SearchProvider.showDetails is set to true.
+---@field Description fun() @Show an extended item description.

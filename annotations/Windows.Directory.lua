@@ -1,0 +1,7 @@
+---@class Windows.Directory @Exposes static methods for directory operations.
+---@field roamingFolder fun() @Returns a path to roaming folder.
+---@field temporaryFolder fun() @Returns a path to temporary folder.
+---@field Exists fun() @Determines whether the given path refers to an existing directory.
+---@field CreateDirectory fun() @Creates directory in the specified path.
+---@field localFolder fun() @Returns a path to local folder.
+---@field Delete fun() @Deletes a directory from a specified path.

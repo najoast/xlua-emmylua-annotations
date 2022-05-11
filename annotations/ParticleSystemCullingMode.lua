@@ -1,0 +1,5 @@
+---@class ParticleSystemCullingMode @The action to perform when the Particle System is offscreen.
+---@field PauseAndCatchup fun() @Pause the Particle System simulation when it is offscreen, and perform an extra simulation when the system comes back onscreen, creating the impression that it was never paused.
+---@field Pause fun() @Pause the Particle System simulation when it is offscreen.
+---@field AlwaysSimulate fun() @Continue simulating the Particle System when it is offscreen.
+---@field Automatic fun() @For looping effects, the simulation is paused when offscreen, and for one-shot effects, the simulation will continue playing.

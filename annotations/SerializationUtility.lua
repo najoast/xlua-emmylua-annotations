@@ -1,0 +1,11 @@
+---@class SerializationUtility @Utility functions related to Serialization.
+---@field RefIdNull fun() @Special value, -2, used as the managed reference Id of any field decorated with SerializeReference that has no object assigned to it.
+---@field GetManagedReferenceIds fun() @Retrieves the list of managed reference Ids assigned to objects that are referenced using SerializeReference.
+---@field GetManagedReference fun() @Retrieves an object based on its managed reference Id.
+---@field ClearAllManagedReferencesWithMissingTypes fun() @Removes all managed references that are missing their type.
+---@field GetManagedReferencesWithMissingTypes fun() @Returns the list of managed references that could not be deserialized because of a missing type.
+---@field RefIdUnknown fun() @Special value, -1, used when the managed reference Id for an object is unknown, for example if GetManagedReferenceIdForObject is called with invalid arguments.
+---@field SetManagedReferenceIdForObject fun() @Assigns a managed reference Id to an object that is referenced using SerializeReference.
+---@field GetManagedReferenceIdForObject fun() @Retrieves the managed reference Id for an object that is referenced using SerializeReference.
+---@field HasManagedReferencesWithMissingTypes fun() @This API returns true if one or more managed references is missing its type.
+---@field ClearManagedReferenceWithMissingType fun() @Drop the serialized data associated with a specific managed reference object that is missing its type.

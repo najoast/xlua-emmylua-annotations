@@ -1,0 +1,2 @@
+---@class PackageManager.UI.PackageManagerExtensions @Package Manager UI Extensions.
+---@field RegisterExtension fun() @Registers a new Package Manager UI extension.

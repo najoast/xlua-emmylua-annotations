@@ -1,0 +1,7 @@
+---@class Rendering.FormatSwizzle @Graphics Format Swizzle.
+---@field FormatSwizzleG fun() @The channel specified contains green.
+---@field FormatSwizzle1 fun() @The channel specified is not present for the format.
+---@field FormatSwizzleR fun() @The channel specified contains red.
+---@field FormatSwizzleA fun() @The channel specified contains alpha.
+---@field FormatSwizzle0 fun() @The channel specified is not present for the format
+---@field FormatSwizzleB fun() @The channel specified contains blue.

@@ -1,0 +1,6 @@
+---@class Search.FetchPreviewOptions @Options for the search provider on how the preview should be fetched.
+---@field Preview3D fun() @Indicates that the search provider should generate a 3D preview.
+---@field Normal fun() @Indicates that the preview size should be around 128x128.
+---@field None fun() @No options are defined.
+---@field Large fun() @Indicates that the preview resolution should be higher than 256x256.
+---@field Preview2D fun() @Indicates that the search provider should generate a 2D preview.

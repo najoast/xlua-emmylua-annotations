@@ -1,0 +1,16 @@
+---@class Animations.LookAtConstraint @Constrains the orientation of an object relative to the position of one or more source objects, such that the object is facing the average position of the sources.                The LookAtConstraint is a simplified Animations.AimConstraint typically used with a Camera.
+---@field sourceCount fun() @The number of sources set on the component (Read Only).
+---@field rotationAtRest fun() @The rotation used when the sources have a total weight of 0.
+---@field SetSources fun() @Sets the list of sources on the component.
+---@field AddSource fun() @Adds a constraint source.
+---@field worldUpObject fun() @The world up object, used to calculate the world up vector when Animations.LookAtConstraint.UseUpObject is true.
+---@field locked fun() @Locks the offset and rotation at rest.
+---@field GetSource fun() @Gets a constraint source by index.
+---@field GetSources fun() @Gets the list of sources.
+---@field constraintActive fun() @Activates or deactivates the constraint.
+---@field RemoveSource fun() @Removes a source from the component.
+---@field SetSource fun() @Sets a source at a specified index.
+---@field useUpObject fun() @Determines how the up vector is calculated.
+---@field weight fun() @The weight of the constraint component.
+---@field rotationOffset fun() @Represents an offset from the constrained orientation.
+---@field roll fun() @The rotation angle along the z axis of the object. The constraint uses this property to calculate the world up vector when Animations.LookAtConstraint.UseUpObject is false.

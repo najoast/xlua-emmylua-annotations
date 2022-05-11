@@ -1,0 +1,6 @@
+---@class XR.GameViewRenderMode @Enumeration of available modes for XR rendering in the Game view or in the main window on a host PC. XR rendering only occurs when the Unity Editor is in Play Mode.
+---@field BothEyes fun() @Renders both eyes of the XR device side-by-side in the Game view or in the main window on a host PC.
+---@field LeftEye fun() @Renders the left eye of the XR device in the Game View window or in main window on a host PC.
+---@field None fun() @Disables rendering of any eyes in the Game view or in the main window on a host PC.
+---@field RightEye fun() @Renders the right eye of the XR device in the Game View window or in main window on a host PC.
+---@field OcclusionMesh fun() @Renders both eyes of the XR device, and the occlusion mesh, side-by-side in the Game view or in the main window on a host PC.

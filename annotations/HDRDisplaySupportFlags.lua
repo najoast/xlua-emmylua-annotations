@@ -1,0 +1,5 @@
+---@class HDRDisplaySupportFlags @A set of flags that describe the level of HDR display support available on the system.
+---@field None fun() @Flag used to denote that support for HDR displays is not available on the system.
+---@field Supported fun() @Flag used to denote that support for HDR displays is available on the system.
+---@field AutomaticTonemapping fun() @Flag used to denote if the system supports automatic tonemapping to HDR displays.
+---@field RuntimeSwitchable fun() @Flag used to denote that the system can change whether output is performed in HDR or SDR ranges at runtime when connected to an HDR display.

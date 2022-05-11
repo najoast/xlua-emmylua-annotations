@@ -1,0 +1,40 @@
+---@class XR @nil
+---@field Bone XR.Bone @A tracked bone on the device at an XR.XRNode in the XR input subsystem.
+---@field TrackingSpaceType XR.TrackingSpaceType @Represents the size of physical space available for XR.
+---@field MeshGenerationOptions XR.MeshGenerationOptions @Options for generating meshes.
+---@field Eyes XR.Eyes @Contains eye tracking data from the device at an XR.XRNode in the XR input subsystem.
+---@field XRMeshSubsystemDescriptor fun() @Information about an XRMeshSubsystem.
+---@field TrackingOriginModeFlags XR.TrackingOriginModeFlags @This enum provides context to where the 0,0,0 point of tracking for InputDevices is.
+---@field HandFinger XR.HandFinger @Enumeration describing the AR rendering mode used with XR.Hand.
+---@field Provider fun() @nil
+---@field InputDevice XR.InputDevice @Defines an input device in the XR input subsystem.
+---@field XRInputSubsystemDescriptor XR.XRInputSubsystemDescriptor @Information about an Input subsystem.
+---@field XRMirrorViewBlitModeDesc XR.XRMirrorViewBlitModeDesc @Struct that describes the mirror view blit mode.
+---@field CommonUsages XR.CommonUsages @Defines static variables that are used to retrieve input features from XR.InputDevice.TryGetFeatureValue.
+---@field MeshTransform XR.MeshTransform @Contains transform information related to a tracked mesh.
+---@field GameViewRenderMode XR.GameViewRenderMode @Enumeration of available modes for XR rendering in the Game view or in the main window on a host PC. XR rendering only occurs when the Unity Editor is in Play Mode.
+---@field MeshGenerationStatus XR.MeshGenerationStatus @The status of a XRMeshSubsystem.GenerateMeshAsync.
+---@field InputDeviceCharacteristics XR.InputDeviceCharacteristics @A set of bit flags describing XR.InputDevice characteristics.
+---@field HapticCapabilities XR.HapticCapabilities @Describes the haptic capabilities of the device at an XR.XRNode in the XR input subsystem.
+---@field XRInputSubsystem XR.XRInputSubsystem @XRInputSubsystemInstance is used to enable and disable the inputs coming from a specific plugin.
+---@field XRNodeState XR.XRNodeState @Describes the state of a node tracked by a XR system.
+---@field InputDeviceRole XR.InputDeviceRole @Enumeration describing the role of a XR.InputDevice in providing input.
+---@field XRDisplaySubsystem XR.XRDisplaySubsystem @An XRDisplaySubsystem controls rendering to a head tracked display.
+---@field XRStats XR.XRStats @Timing and other statistics from the XR subsystem.
+---@field XRDevice XR.XRDevice @Contains all functionality related to a XR device.
+---@field MeshId XR.MeshId @A session-unique identifier for trackables in the environment, e.g., planes and feature points.
+---@field XRSettings XR.XRSettings @Global XR related settings.
+---@field XRNode XR.XRNode @Enumeration of XR nodes which can be updated by XR input or sent haptic data.
+---@field MeshInfo XR.MeshInfo @Contains state information related to a tracked mesh.
+---@field XRMirrorViewBlitMode XR.XRMirrorViewBlitMode @Engine reserved blit modes. Blit mode capabilities should be queried from XRDisplaySubsystemDescriptor.GetAvailableMirrorBlitModeCount and XRDisplaySubsystemDescriptor.GetMirrorBlitModeByIndex.
+---@field MeshGenerationResult XR.MeshGenerationResult @Contains event information related to a generated mesh.
+---@field InputTrackingState XR.InputTrackingState @Represents the values being tracked for this device.
+---@field XRMeshSubsystem XR.XRMeshSubsystem @Allows external systems to provide dynamic meshes to Unity.
+---@field InputFeatureUsage_1 XR.InputFeatureUsage_1 @Defines a generic usage that maps to an input feature on a device.
+---@field MeshChangeState XR.MeshChangeState @The state of a tracked mesh since the last query.
+---@field Hand XR.Hand @A tracked hand on the device at an XR.XRNode in the XR input subsystem.
+---@field XRDisplaySubsystemDescriptor XR.XRDisplaySubsystemDescriptor @Class providing information about XRDisplaySubsystem registration.
+---@field MeshVertexAttributes XR.MeshVertexAttributes @A set of vertex attributes.
+---@field InputFeatureUsage XR.InputFeatureUsage @Defines a generic usage that maps to an input feature on a device. Use the As method to turn into a generic usage.
+---@field InputTracking XR.InputTracking @A collection of methods and properties for accessing XR input devices by their XR Node representation.
+---@field InputDevices XR.InputDevices @An interface for accessing devices in the XR input subsytem.

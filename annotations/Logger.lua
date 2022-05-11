@@ -1,0 +1,11 @@
+---@class Logger @Initializes a new instance of the Logger.
+---@field LogError fun() @A variant of Logger.Log that logs an error message.
+---@field ctor fun() @Create a custom Logger.
+---@field LogException fun() @A variant of Logger.Log that logs an exception message.
+---@field LogFormat fun() @Logs a formatted message.
+---@field LogWarning fun() @A variant of Logger.Log that logs an warning message.
+---@field filterLogType fun() @To selective enable debug log message.
+---@field logEnabled fun() @To runtime toggle debug logging [ON/OFF].
+---@field logHandler fun() @Set  Logger.ILogHandler.
+---@field Log fun() @Logs message to the Unity Console using default logger.
+---@field IsLogTypeAllowed fun() @Check logging is enabled based on the LogType.

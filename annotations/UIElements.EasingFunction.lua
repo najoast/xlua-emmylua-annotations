@@ -1,0 +1,3 @@
+---@class UIElements.EasingFunction @Determines how intermediate values are calculated for a transition.
+---@field ctor fun() @Creates from a EasingMode.
+---@field mode fun() @The value of the EasingMode.

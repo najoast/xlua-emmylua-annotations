@@ -1,0 +1,4 @@
+---@class ParticleSystemEmitterVelocityMode @Control how a Particle System calculates its velocity.
+---@field Rigidbody fun() @Calculate the Particle System velocity by using a Rigidbody or Rigidbody2D component, if one exists on the GameObject.
+---@field Transform fun() @Calculate the Particle System velocity by using the Transform component.
+---@field Custom fun() @When the Particle System calculates its velocity, it instead uses the custom value set in ParticleSystem.MainModule.emitterVelocity.

@@ -1,0 +1,6 @@
+---@class UIElements.DropdownMenuAction.Status @Status of the menu item. The values of this enumeration should be used as flags.
+---@field Checked fun() @The item is displayed with a checkmark.
+---@field Disabled fun() @The item is disabled and is not be selectable by the user.
+---@field None fun() @The item is not displayed. This is the default value and represents the absence of flags.
+---@field Normal fun() @The item is displayed normally.
+---@field Hidden fun() @The item is not displayed. This flag can be used with other flags.

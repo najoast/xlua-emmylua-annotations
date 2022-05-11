@@ -1,0 +1,3 @@
+---@class tvOSSdkVersion @Supported tvOS SDK versions.
+---@field Simulator fun() @Simulator SDK.
+---@field Device fun() @Device SDK.

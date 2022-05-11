@@ -1,0 +1,3 @@
+---@class SoftJointLimitSpring @The configuration of the spring attached to the joint's limits: linear and angular. Used by CharacterJoint and ConfigurableJoint.
+---@field damper fun() @The damping of the spring limit. In effect when the stiffness of the sprint limit is not zero.
+---@field spring fun() @The stiffness of the spring limit. When stiffness is zero the limit is hard, otherwise soft.

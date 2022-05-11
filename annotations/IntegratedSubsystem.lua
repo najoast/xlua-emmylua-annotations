@@ -1,0 +1,5 @@
+---@class IntegratedSubsystem @An IntegratedSubsystem is initialized from an IntegratedSubsystemDescriptor for a given Subsystem (Example, Input, Environment, Display, etc.) and provides an interface to interact with that given IntegratedSubsystem until it is Destroyed. After an IntegratedSubsystem is created it can be Started or Stopped to turn on and off functionality (and preserve performance). The base type for IntegratedSubsystem only exposes this functionality; this class is designed to be a base class for derived classes that expose more functionality specific to a given IntegratedSubsystem.            Note: initializing a second IntegratedSubsystem from the same IntegratedSubsystemDescriptor will return a reference to the existing IntegratedSubsystem as only one IntegratedSubsystem is currently allowed for a single IntegratedSubsystem provider.
+---@field Stop fun() @Stops an instance of a subsystem.
+---@field Start fun() @Starts an instance of a subsystem.
+---@field running fun() @Whether or not the subsystem is running.
+---@field Destroy fun() @Destroys this instance of a subsystem.

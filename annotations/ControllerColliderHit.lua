@@ -1,0 +1,10 @@
+---@class ControllerColliderHit @ControllerColliderHit is used by CharacterController.OnControllerColliderHit to give detailed information about the collision and how to deal with it.
+---@field moveDirection fun() @The direction the CharacterController was moving in when the collision occured.
+---@field normal fun() @The normal of the surface we collided with in world space.
+---@field point fun() @The impact point in world space.
+---@field gameObject fun() @The game object that was hit by the controller.
+---@field rigidbody fun() @The rigidbody that was hit by the controller.
+---@field transform fun() @The transform that was hit by the controller.
+---@field collider fun() @The collider that was hit by the controller.
+---@field moveLength fun() @How far the character has travelled until it hit the collider.
+---@field controller fun() @The controller that hit the collider.

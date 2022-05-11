@@ -1,0 +1,2 @@
+---@class Experimental.GraphView.Pill.UxmlFactory @Instantiates a Pill using the data read from a UXML file.
+---@field ctor fun() @Constructor.

@@ -1,0 +1,40 @@
+---@class Transform @Position, rotation and scale of an object.
+---@field localEulerAngles fun() @The rotation as Euler angles in degrees relative to the parent transform's rotation.
+---@field hierarchyCount fun() @The number of transforms in the transform's hierarchy data structure.
+---@field SetAsLastSibling fun() @Move the transform to the end of the local transform list.
+---@field LookAt fun() @Rotates the transform so the forward vector points at /target/'s current position.
+---@field GetSiblingIndex fun() @Gets the sibling index.
+---@field position fun() @The world space position of the Transform.
+---@field IsChildOf fun() @Is this transform a child of parent?
+---@field InverseTransformVector fun() @Transforms a vector from world space to local space. The opposite of Transform.TransformVector.
+---@field localPosition fun() @Position of the transform relative to the parent transform.
+---@field hasChanged fun() @Has the transform changed since the last time the flag was set to 'false'?
+---@field SetAsFirstSibling fun() @Move the transform to the start of the local transform list.
+---@field localToWorldMatrix fun() @Matrix that transforms a point from local space into world space (Read Only).
+---@field up fun() @The green axis of the transform in world space.
+---@field InverseTransformPoint fun() @Transforms position from world space to local space.
+---@field DetachChildren fun() @Unparents all children.
+---@field RotateAround fun() @Rotates the transform about axis passing through point in world coordinates by angle degrees.
+---@field GetChild fun() @Returns a transform child by index.
+---@field TransformDirection fun() @Transforms direction from local space to world space.
+---@field localScale fun() @The scale of the transform relative to the GameObjects parent.
+---@field right fun() @The red axis of the transform in world space.
+---@field Rotate fun() @Use Transform.Rotate to rotate GameObjects in a variety of ways. The rotation is often provided as an Euler angle and not a Quaternion.
+---@field root fun() @Returns the topmost transform in the hierarchy.
+---@field InverseTransformDirection fun() @Transforms a direction from world space to local space. The opposite of Transform.TransformDirection.
+---@field hierarchyCapacity fun() @The transform capacity of the transform's hierarchy data structure.
+---@field Translate fun() @Moves the transform in the direction and distance of translation.
+---@field TransformVector fun() @Transforms vector from local space to world space.
+---@field TransformPoint fun() @Transforms position from local space to world space.
+---@field eulerAngles fun() @The rotation as Euler angles in degrees.
+---@field SetSiblingIndex fun() @Sets the sibling index.
+---@field SetPositionAndRotation fun() @Sets the world space position and rotation of the Transform component.
+---@field childCount fun() @The number of children the parent Transform has.
+---@field lossyScale fun() @The global scale of the object (Read Only).
+---@field SetParent fun() @Set the parent of the transform.
+---@field Find fun() @Finds a child by name n and returns it.
+---@field forward fun() @Returns a normalized vector representing the blue axis of the transform in world space.
+---@field localRotation fun() @The rotation of the transform relative to the transform rotation of the parent.
+---@field rotation fun() @A Quaternion that stores the rotation of the Transform in world space.
+---@field parent fun() @The parent of the transform.
+---@field worldToLocalMatrix fun() @Matrix that transforms a point from world space into local space (Read Only).

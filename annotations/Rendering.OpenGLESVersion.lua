@@ -1,0 +1,7 @@
+---@class Rendering.OpenGLESVersion @Specifies the OpenGL ES version.
+---@field OpenGLES31 fun() @OpenGL ES 3.1
+---@field OpenGLES20 fun() @OpenGL ES 2.0
+---@field OpenGLES30 fun() @OpenGL ES 3.0
+---@field None fun() @No valid OpenGL ES version
+---@field OpenGLES32 fun() @OpenGL ES 3.2
+---@field OpenGLES31AEP fun() @OpenGL ES 3.1 with Android Extension Pack

@@ -1,0 +1,3 @@
+---@class TextureImporterSingleChannelComponent @Selects which Color/Alpha channel Single Channel Textures uses.
+---@field Red fun() @Use the red Color channel.
+---@field Alpha fun() @Use the Alpha channel.

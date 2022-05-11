@@ -1,0 +1,21 @@
+---@class Animations.ParentConstraint @Constrains the orientation and translation of an object to one or more source objects. The constrained object behaves as if it is in the hierarchy of the sources.
+---@field SetTranslationOffset fun() @Sets the translation offset associated with a source by index.
+---@field GetRotationOffset fun() @Gets the rotation offset associated with a source by index.
+---@field SetSources fun() @Sets the list of sources on the component.
+---@field AddSource fun() @Adds a constraint source.
+---@field locked fun() @Locks the offsets and position (translation and rotation) at rest.
+---@field rotationAxis fun() @The rotation axes affected by the ParentConstraint.
+---@field SetRotationOffset fun() @Sets the rotation offset associated with a source by index.
+---@field sourceCount fun() @The number of sources set on the component (read-only).
+---@field translationAtRest fun() @The position of the object in local space, used when the sources have a total weight of 0.
+---@field translationAxis fun() @The translation axes affected by the ParentConstraint.
+---@field GetSources fun() @Gets the list of sources.
+---@field GetSource fun() @Gets a constraint source by index.
+---@field rotationAtRest fun() @The rotation used when the sources have a total weight of 0.
+---@field constraintActive fun() @Activates or deactivates the constraint.
+---@field RemoveSource fun() @Removes a source from the component.
+---@field SetSource fun() @Sets a source at a specified index.
+---@field GetTranslationOffset fun() @Gets the rotation offset associated with a source by index.
+---@field translationOffsets fun() @The translation offsets from the constrained orientation.
+---@field weight fun() @The weight of the constraint component.
+---@field rotationOffsets fun() @The rotation offsets from the constrained orientation.

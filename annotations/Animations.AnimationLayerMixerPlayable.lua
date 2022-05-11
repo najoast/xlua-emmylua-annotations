@@ -1,0 +1,6 @@
+---@class Animations.AnimationLayerMixerPlayable @An implementation of IPlayable that controls an animation layer mixer.
+---@field Create fun() @Creates an AnimationLayerMixerPlayable in the PlayableGraph.
+---@field SetLayerMaskFromAvatarMask fun() @Sets the mask for the current layer.
+---@field IsLayerAdditive fun() @Returns true if the layer is additive, false otherwise.
+---@field Null fun() @Returns an invalid AnimationLayerMixerPlayable.
+---@field SetLayerAdditive fun() @Specifies whether a layer is additive or not. Additive layers blend with previous layers.

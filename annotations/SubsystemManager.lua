@@ -1,0 +1,9 @@
+---@class SubsystemManager @Gives access to subsystems which provide additional functionality through plugins.
+---@field GetInstances fun() @Returns active Subsystems of a specific instance type.*Note:* This method is deprecated, use GetSubsystems instead.
+---@field GetSubsystems fun() @Returns active Subsystems of a specific instance type.
+---@field GetAllSubsystemDescriptors fun() @Gets all of the currently known subsystem descriptors regardless of specific subsystem type.
+---@field reloadSubsytemsStarted fun() @Called from SubsystemManager before reloading all XR SDK Provider packaged subsystems.
+---@field GetSubsystemDescriptors fun() @Returns a list of SubsystemDescriptors which describe additional functionality that can be enabled.
+---@field reloadSubsytemsCompleted fun() @Called from SubsystemManager when it has completed reloading all XR SDK Provider packaged subsystems.
+---@field afterReloadSubsystems fun() @Called from SubsystemManager when it has completed reloading all XR SDK Provider packaged subsystems.
+---@field beforeReloadSubsystems fun() @Called from SubsystemManager before reloading all XR SDK Provider packaged subsystems.

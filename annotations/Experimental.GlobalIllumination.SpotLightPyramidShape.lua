@@ -1,0 +1,12 @@
+---@class Experimental.GlobalIllumination.SpotLightPyramidShape @Use this Struct to help initialize a LightDataGI structure as a pyramid-shaped spot light.
+---@field angle fun() @The opening angle of the shorter side of the pyramid light.
+---@field shadow fun() @Specifies whether the light casts shadows or not. This is true if the light does cast shadows and false otherwise.
+---@field instanceID fun() @The light's instanceID.
+---@field mode fun() @The lightmode.
+---@field color fun() @The direct light color.
+---@field range fun() @The light's range.
+---@field falloff fun() @The falloff model to use for baking the pyramid light.
+---@field position fun() @The light's position.
+---@field orientation fun() @The light's orientation.
+---@field indirectColor fun() @The indirect light color.
+---@field aspectRatio fun() @The aspect ratio for the pyramid shape. Values larger than 1 extend the width and values between 0 and 1 extend the height.

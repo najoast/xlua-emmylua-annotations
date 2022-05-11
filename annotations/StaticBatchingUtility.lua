@@ -1,0 +1,2 @@
+---@class StaticBatchingUtility @StaticBatchingUtility can prepare your objects to take advantage of Unity's static batching.
+---@field Combine fun() @Combines all children GameObjects of the staticBatchRoot for static batching.

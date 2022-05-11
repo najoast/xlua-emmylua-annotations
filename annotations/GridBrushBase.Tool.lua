@@ -1,0 +1,8 @@
+---@class GridBrushBase.Tool @Tool mode for the GridBrushBase.
+---@field FloodFill fun() @Flood Fill.
+---@field Pick fun() @Pick.
+---@field Select fun() @Select.
+---@field Erase fun() @Erase.
+---@field Paint fun() @Paint.
+---@field Move fun() @Move.
+---@field Box fun() @Box Fill.

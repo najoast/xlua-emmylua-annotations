@@ -1,0 +1,6 @@
+---@class ProceduralCacheSize @Deprecated feature, no longer available
+---@field Heavy fun() @Deprecated feature, no longer available
+---@field Medium fun() @Deprecated feature, no longer available
+---@field None fun() @Deprecated feature, no longer available
+---@field NoLimit fun() @Deprecated feature, no longer available
+---@field Tiny fun() @Deprecated feature, no longer available

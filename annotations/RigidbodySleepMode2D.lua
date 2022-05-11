@@ -1,0 +1,4 @@
+---@class RigidbodySleepMode2D @Settings for a Rigidbody2D's initial sleep state.
+---@field StartAsleep fun() @Rigidbody2D is initially asleep.
+---@field NeverSleep fun() @Rigidbody2D never automatically sleeps.
+---@field StartAwake fun() @Rigidbody2D is initially awake.

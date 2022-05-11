@@ -1,0 +1,8 @@
+---@class PackageManager.PackageSource @Source of packages.
+---@field Embedded fun() @The package is embedded in the Unity project.
+---@field Unknown fun() @The package source is unknown.
+---@field Registry fun() @The package is from a registry.
+---@field BuiltIn fun() @The package is built-in and part of Unity.
+---@field Git fun() @The package is referenced directly by a Git URL.
+---@field Local fun() @The package is referenced by a local path.
+---@field LocalTarball fun() @The package is referenced by a local path pointing to a GZip tarball file.

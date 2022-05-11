@@ -1,0 +1,17 @@
+---@class BuildTargetGroup @Build target group.
+---@field PS4 fun() @Sony Playstation 4 target.
+---@field XboxOne fun() @Microsoft Xbox One target.
+---@field Stadia fun() @Google Stadia target.
+---@field Standalone fun() @PC (Windows, Mac, Linux) target.
+---@field Switch fun() @Nintendo Switch target.
+---@field WebPlayer fun() @Mac/PC webplayer target.
+---@field WebGL fun() @WebGL.
+---@field Android fun() @Android target.
+---@field N3DS fun() @Nintendo 3DS target.
+---@field PS5 fun() @Sony Playstation 5 target.
+---@field tvOS fun() @Apple's tvOS target.
+---@field WSA fun() @Windows Store Apps target.
+---@field iPhone fun() @OBSOLETE: Use iOS. Apple iOS target.
+---@field CloudRendering fun() @CloudRendering target.
+---@field Unknown fun() @Unknown target.
+---@field iOS fun() @Apple iOS target.

@@ -1,0 +1,14 @@
+---@class ParticleSystem.EmissionModule @Script interface for the EmissionModule of a Particle System.
+---@field SetBursts fun() @Sets the burst array.
+---@field burstCount fun() @The current number of bursts.
+---@field GetBurst fun() @Gets a single burst from the array of bursts.
+---@field GetBursts fun() @Gets the burst array.
+---@field rateOverDistanceMultiplier fun() @Change the rate over distance multiplier.
+---@field SetBurst fun() @Sets a single burst in the array of bursts.
+---@field type fun() @The emission type.
+---@field rateOverTimeMultiplier fun() @Change the rate over time multiplier.
+---@field rateMultiplier fun() @Change the rate multiplier.
+---@field rateOverTime fun() @The rate at which the emitter spawns new particles over time.
+---@field rate fun() @The rate at which the system spawns new particles.
+---@field enabled fun() @Specifies whether the EmissionModule is enabled or disabled.
+---@field rateOverDistance fun() @The rate at which the emitter spawns new particles over distance.

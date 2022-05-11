@@ -1,0 +1,11 @@
+---@class UIElements.ToolbarMenu @A drop-down menu for the toolbar.
+---@field menu fun() @The menu.
+---@field textUssClassName fun() @USS class name of text elements in elements of this type.
+---@field ctor fun() @Constructor.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field variant fun() @The display styles that you can use when creating menus.
+---@field popupVariantUssClassName fun() @USS class name of elements of this type, when they are displayed as popup menu.
+---@field Variant UIElements.ToolbarMenu.Variant @Display styles for the menu.
+---@field arrowUssClassName fun() @USS class name of arrow indicators in elements of this type.
+---@field UxmlTraits fun() @Defines UxmlTraits for the ToolbarMenu.
+---@field UxmlFactory fun() @Instantiates a ToolbarMenu using the data read from a UXML file.

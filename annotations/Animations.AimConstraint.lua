@@ -1,0 +1,20 @@
+---@class Animations.AimConstraint @Constrains the orientation of an object relative to the position of one or more source objects, such that the object is facing the average position of the sources.
+---@field rotationAtRest fun() @The rotation used when the sources have a total weight of 0.
+---@field SetSources fun() @Sets the list of sources on the component.
+---@field AddSource fun() @Adds a constraint source.
+---@field locked fun() @Locks the offset and rotation at rest.
+---@field rotationAxis fun() @The axes affected by the AimConstraint.
+---@field upVector fun() @The up vector.
+---@field worldUpType fun() @The type of the world up vector.
+---@field sourceCount fun() @The number of sources set on the component (read-only).
+---@field worldUpObject fun() @The world up object, used to calculate the world up vector when the world up Type is AimConstraint.WorldUpType.ObjectUp or AimConstraint.WorldUpType.ObjectRotationUp.
+---@field rotationOffset fun() @Represents an offset from the constrained orientation.
+---@field GetSource fun() @Gets a constraint source by index.
+---@field WorldUpType Animations.AimConstraint.WorldUpType @Specifies how the world up vector used by the aim constraint is defined.
+---@field constraintActive fun() @Activates or deactivates the constraint.
+---@field RemoveSource fun() @Removes a source from the component.
+---@field SetSource fun() @Sets a source at a specified index.
+---@field GetSources fun() @Gets the list of sources.
+---@field worldUpVector fun() @The world up Vector used when the world up type is AimConstraint.WorldUpType.Vector or AimConstraint.WorldUpType.ObjectRotationUp.
+---@field aimVector fun() @The axis towards which the constrained object orients.
+---@field weight fun() @The weight of the constraint component.

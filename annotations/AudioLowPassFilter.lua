@@ -1,0 +1,4 @@
+---@class AudioLowPassFilter @The Audio Low Pass Filter passes low frequencies of an AudioSource or all sounds reaching an AudioListener, while removing frequencies higher than the Cutoff Frequency.
+---@field cutoffFrequency fun() @Lowpass cutoff frequency in hz. 10.0 to 22000.0. Default = 5000.0.
+---@field customCutoffCurve fun() @Returns or sets the current custom frequency cutoff curve.
+---@field lowpassResonanceQ fun() @Determines how much the filter's self-resonance is dampened.

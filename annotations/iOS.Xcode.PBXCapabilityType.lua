@@ -1,0 +1,26 @@
+---@class iOS.Xcode.PBXCapabilityType @Represents what a capability modifies in a PBXProject.
+---@field BackgroundModes fun() @Definition of the Background Modes capability requirements.
+---@field DataProtection fun() @Definition of the Data Protection capability requirements.
+---@field ApplePay fun() @Definition of the Apple Pay capability requirements.
+---@field framework fun() @Specifies a framework required by the capability.
+---@field AccessWiFiInformation fun() @Definition of the Access WiFi Information capability requirements.
+---@field AppGroups fun() @Definition of the App Groups capability requirements.
+---@field optionalFramework fun() @Specifies an optional framework a capability may use.
+---@field InAppPurchase fun() @Definition of the In-App Purchase capability requirements.
+---@field PersonalVPN fun() @Definition of the Personal VPN capability requirements.
+---@field Maps fun() @Definition of the Maps capability requirements.
+---@field StringToPBXCapabilityType fun() @Convenience method that converts a reverse DNS name(i.e. com.apple.iCloud) to a PBXCapabilityType.
+---@field GameCenter fun() @Definition of the GameCenter capability requirements.
+---@field Wallet fun() @Definition of the Wallet capability requirements.
+---@field KeychainSharing fun() @Definition of the Keychain Sharing capability requirements.
+---@field requiresEntitlements fun() @Specifies if a capability requires entitlements.
+---@field Siri fun() @Definition of the Siri capability requirements.
+---@field PushNotifications fun() @Definition of the Push Notifications capability requirements.
+---@field WirelessAccessoryConfiguration fun() @Definition of the Wireless Accessory Configuration capability requirements.
+---@field SignInWithApple fun() @Definition of the Sign in with Apple capability requirements.
+---@field id fun() @Specifies the capability identifier.
+---@field AssociatedDomains fun() @Definition of the Associated Domains capability requirements.
+---@field InterAppAudio fun() @Definition of the Inter-App Audio capability requirements.
+---@field iCloud fun() @Definition of the iCloud capability requirements.
+---@field HealthKit fun() @Definition of the HealthKit capability requirements.
+---@field HomeKit fun() @Definition of the HomeKit capability requirements.

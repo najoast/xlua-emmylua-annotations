@@ -1,0 +1,8 @@
+---@class SceneTemplate @nil
+---@field DependencyInfo SceneTemplate.DependencyInfo @A descriptor that stores one of a template Scene's dependency Assets, and specifies whether to clone or reference it when the template is instantiated.
+---@field SceneTemplatePipelineAdapter SceneTemplate.SceneTemplatePipelineAdapter @An adapter that implements all the functions of ISceneTemplatePipeline for easier usage. Use it to partially override a ISceneTemplatePipeline.
+---@field SceneTemplateAsset SceneTemplate.SceneTemplateAsset @An Asset that stores everything required to instantiate a new Scene from a templated Scene.
+---@field ISceneTemplatePipeline SceneTemplate.ISceneTemplatePipeline @Derive from this interface to package a custom code sequence when a Scene template is instantiated. ISceneTemplatePipeline is instantiated once when a template is instantiated, and is notified multiple times during the instantiation sequence.
+---@field InstantiationResult SceneTemplate.InstantiationResult @A class that holds the data created when a SceneTemplateAsset is instantiated.
+---@field TemplateInstantiationMode SceneTemplate.TemplateInstantiationMode @An enumeration of options for handling a Scene dependency Asset when you instantiate a SceneTemplateAsset.
+---@field SceneTemplateService SceneTemplate.SceneTemplateService @A utility class that manages SceneTemplateAsset instantiation.

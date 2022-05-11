@@ -1,0 +1,6 @@
+---@class Networking.MultipartFormFileSection @A helper object for adding file uploads to multipart forms via the [IMultipartFormSection] API.
+---@field sectionData fun() @Returns the raw binary data contained in this section. Will not return null or a zero-length array.
+---@field contentType fun() @Returns the value of the section's Content-Type header.
+---@field sectionName fun() @Returns the name of this section, if any.
+---@field fileName fun() @Returns a string denoting the desired filename of this section on the destination server.
+---@field ctor fun() @Contains a named file section based on the raw bytes from data, with a custom Content-Type and file name.

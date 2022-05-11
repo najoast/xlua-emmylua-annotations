@@ -1,0 +1,60 @@
+---@class LightEditor.Settings @Contains all drawable elements of the LightEditor.
+---@field halo fun() @Exposed SerializedProperty for the inspected Light.
+---@field shadowsNormalBias fun() @Exposed SerializedProperty for the inspected Light.
+---@field DrawHalo fun() @Draws the default LightEditor halo widget.
+---@field useColorTemperature fun() @Exposed SerializedProperty for the inspected Light.
+---@field DrawLightType fun() @Draws the default LightEditor light type widget.
+---@field DrawRenderMode fun() @Draws the default LightEditor render mode widget.
+---@field cookieSize fun() @Exposed SerializedProperty for the inspected Light.
+---@field DrawCullingMask fun() @Draws the default LightEditor culling mask widget.
+---@field isRealtime fun() @Is the light real-time?
+---@field cullingMask fun() @Exposed SerializedProperty for the inspected Light.
+---@field isCompletelyBaked fun() @Is the light completely baked.
+---@field shadowsType fun() @Exposed SerializedProperty for the inspected Light.
+---@field OnEnable fun() @Populate the settings from the referenced SerializedObject.
+---@field DrawSpotAngle fun() @Draws the default LightEditor spot angle widget.
+---@field lightShape fun() @This property describes the shape of the spot light. Only Scriptable Render Pipelines use this property; the built-in renderer does not support it.
+---@field DrawColor fun() @Draws the default LightEditor color widget.
+---@field renderMode fun() @Exposed SerializedProperty for the inspected Light.
+---@field DrawInnerAndOuterSpotAngle fun() @Draws the default LightEditor inner and outer spot angle widget.
+---@field bounceIntensity fun() @Exposed SerializedProperty for the inspected Light.
+---@field shadowsBias fun() @Exposed SerializedProperty for the inspected Light.
+---@field areaSizeX fun() @Exposed SerializedProperty for the inspected Light.
+---@field DrawShadowsType fun() @Draws the default LightEditor shadows type widget.
+---@field DrawRuntimeShadow fun() @Draws the default LightEditor runtime shadows widget.
+---@field areaSizeY fun() @Exposed SerializedProperty for the inspected Light.
+---@field DrawRenderingLayerMask fun() @Draws the default LightEditor rendering LayerMask widget.
+---@field DrawRange fun() @Draws the default LightEditor range widget.
+---@field DrawLightmapping fun() @Draws the default LightEditor lightmapping widget.
+---@field DrawBakedShadowAngle fun() @Draws the default LightEditor baked shadow angle widget.
+---@field renderingLayerMask fun() @Exposed SerializedProperty for the inspected Light.
+---@field Update fun() @See SerializedObject.Update.
+---@field isMixed fun() @Is the current light mixed.
+---@field lightmapping fun() @Exposed SerializedProperty for the inspected Light.
+---@field shadowsStrength fun() @Exposed SerializedProperty for the inspected Light.
+---@field shadowsNearPlane fun() @Exposed SerializedProperty for the inspected Light.
+---@field spotAngle fun() @Exposed SerializedProperty for the inspected Light.
+---@field DrawCookieSize fun() @Draws the default LightEditor cookie size widget.
+---@field OnDestroy fun() @Cleanup internal settings state.
+---@field DrawBounceIntensity fun() @Draws the default LightEditor bounce intensity widget.
+---@field intensity fun() @Exposed SerializedProperty for the inspected Light.
+---@field DrawIntensity fun() @Draws the default LightEditor intensity widget.
+---@field colorTemperature fun() @Exposed SerializedProperty for the inspected Light.
+---@field isBakedOrMixed fun() @Is the current light baked or mixed.
+---@field light fun() @The light being inspected.
+---@field DrawArea fun() @Draws the default LightEditor area widget.
+---@field ApplyModifiedProperties fun() @See SerializedObject.ApplyModifiedProperties.
+---@field DrawCookie fun() @Draws the default LightEditor cookie widget.
+---@field cookie fun() @The light cookie texture used by the light.
+---@field isAreaLightType fun() @Is the current light an area light or not. Area lights include Rectangle and Disc lights.
+---@field innerSpotAngle fun() @Exposed SerializedProperty for the inspected Light.
+---@field shadowsResolution fun() @Exposed SerializedProperty for the inspected Light.
+---@field range fun() @Exposed SerializedProperty for the inspected Light.
+---@field flare fun() @Exposed SerializedProperty for the inspected Light.
+---@field color fun() @Exposed SerializedProperty for the inspected Light.
+---@field DrawFlare fun() @Draws the default LightEditor flare widget.
+---@field lightType fun() @Exposed SerializedProperty for the inspected Light.
+---@field DrawBakedShadowRadius fun() @Draws the default LightEditor baked shadow radius widget.
+---@field cookieProp fun() @Exposed SerializedProperty for the inspected Light.
+---@field bakedShadowRadiusProp fun() @Exposed SerializedProperty for the inspected Light.
+---@field bakedShadowAngleProp fun() @Exposed SerializedProperty for the inspected Light.

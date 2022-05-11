@@ -1,0 +1,11 @@
+---@class TypeCache.TypeCollection @Represents a read-only collection of Type and implements an IList interface.
+---@field IndexOf fun() @Gets the first occurrence of an item in the TypeCollection.
+---@field IsReadOnly fun() @Whether the TypeCollection is read-only. This property is always set to true.
+---@field CopyTo fun() @Copies the collection to an array.
+---@field Index_operator fun() @Gets the element at the specified index.
+---@field Enumerator TypeCache.TypeCollection.Enumerator @Enumerates the elements of a TypeCollection.
+---@field GetEnumerator fun() @Gets an enumerator that iterates through the TypeCollection.
+---@field IsSynchronized fun() @Whether the TypeCollection is synchronized. This property is always set to true.
+---@field Contains fun() @Determines whether an element is in the TypeCollection.
+---@field Count fun() @The number of elements in TypeCollection.
+---@field IsFixedSize fun() @Whether the TypeCollection is of a fixed size. This property is always set to true.

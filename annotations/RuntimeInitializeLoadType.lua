@@ -1,0 +1,6 @@
+---@class RuntimeInitializeLoadType @Set RuntimeInitializeOnLoadMethod type.
+---@field BeforeSceneLoad fun() @Before Scene is loaded.
+---@field AfterSceneLoad fun() @After Scene is loaded.
+---@field SubsystemRegistration fun() @Callback used for registration of subsystems
+---@field AfterAssembliesLoaded fun() @Callback when all assemblies are loaded and preloaded assets are initialized.
+---@field BeforeSplashScreen fun() @Immediately before the splash screen is shown.

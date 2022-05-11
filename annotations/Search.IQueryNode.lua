@@ -1,0 +1,9 @@
+---@class Search.IQueryNode @Interface representing a query node.
+---@field identifier fun() @A string representing this node and its children.
+---@field QueryHashCode fun() @Returns a hashcode for this node. Multiple nodes can have the same hashcode if they have the same identifier.
+---@field type fun() @The node's type.
+---@field leaf fun() @True if this node is a leaf. A leaf doesn't have any children.
+---@field skipped fun() @True if this node is skipped during evaluation. A node can be skipped if the QueryEngine was configured to skip unsupported nodes instead of generating errors.
+---@field children fun() @The node's children. Can be null.
+---@field parent fun() @Parent of this node. Null if this node is the root.
+---@field token fun() @The token used to build this node.

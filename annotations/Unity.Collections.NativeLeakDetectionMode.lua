@@ -1,0 +1,4 @@
+---@class Unity.Collections.NativeLeakDetectionMode @Native leak memory leak detection mode enum.
+---@field EnabledWithStackTrace fun() @Indicates that native memory leak detection is enabled with full stack trace extraction &amp; logging.
+---@field Enabled fun() @Indicates that native memory leak detection is enabled. It is lightweight and will not collect any stacktraces.
+---@field Disabled fun() @Indicates that native memory leak detection is disabled.

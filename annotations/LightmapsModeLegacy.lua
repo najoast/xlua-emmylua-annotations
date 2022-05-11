@@ -1,0 +1,4 @@
+---@class LightmapsModeLegacy @Single, dual, or directional lightmaps rendering mode, used only in GIWorkflowMode.Legacy
+---@field Dual fun() @Dual lightmap rendering mode.
+---@field Single fun() @Single, traditional lightmap rendering mode.
+---@field Directional fun() @Directional rendering mode.

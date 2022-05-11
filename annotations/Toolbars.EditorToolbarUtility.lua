@@ -1,0 +1,2 @@
+---@class Toolbars.EditorToolbarUtility @Editor utility functions when working with EditorToolbar.
+---@field SetupChildrenAsButtonStrip fun() @Assigns the required USS classes to child elements so that they appear as a single button strip.

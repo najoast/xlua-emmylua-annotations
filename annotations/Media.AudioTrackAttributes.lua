@@ -1,0 +1,4 @@
+---@class Media.AudioTrackAttributes @Descriptor for audio track format.
+---@field sampleRate fun() @Audio sampling rate.
+---@field channelCount fun() @Number of channels.
+---@field language fun() @Dialogue language, if applicable.  Can be empty.

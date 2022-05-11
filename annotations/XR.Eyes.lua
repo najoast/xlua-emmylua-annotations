@@ -1,0 +1,8 @@
+---@class XR.Eyes @Contains eye tracking data from the device at an XR.XRNode in the XR input subsystem.
+---@field TryGetRightEyeOpenAmount fun() @Gets a value that represents the how far the right eye is open.
+---@field TryGetRightEyeRotation fun() @Gets the Quaternion that describes the rotation of the right eye.
+---@field TryGetLeftEyeOpenAmount fun() @Gets a value that represents the how far the left eye is open.
+---@field TryGetLeftEyeRotation fun() @Gets the Quaternion that describes the rotation of the left eye.
+---@field TryGetRightEyePosition fun() @Gets the Vector3 that describes the position of the right eye.
+---@field TryGetLeftEyePosition fun() @Gets the Vector3 that describes the position of the left eye.
+---@field TryGetFixationPoint fun() @Gets the point represents the convergence of the line of sight for both eyes.

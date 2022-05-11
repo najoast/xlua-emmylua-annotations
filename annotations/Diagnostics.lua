@@ -1,0 +1,3 @@
+---@class Diagnostics @nil
+---@field Utils Diagnostics.Utils @A utility class that you can use for diagnostic purposes.
+---@field ForcedCrashCategory Diagnostics.ForcedCrashCategory @Specifies the category of crash to cause when calling ForceCrash().

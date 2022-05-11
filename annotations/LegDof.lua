@@ -1,0 +1,10 @@
+---@class LegDof @Enumeration of all the muscles in a leg.
+---@field UpperLegInOut fun() @The upper leg in-out muscle.
+---@field FootCloseOpen fun() @The foot close-open muscle.
+---@field LegRollInOut fun() @The leg roll in-out muscle.
+---@field UpperLegRollInOut fun() @The upper leg roll in-out muscle.
+---@field UpperLegFrontBack fun() @The upper leg front-back muscle.
+---@field FootInOut fun() @The foot in-out muscle.
+---@field LastLegDof fun() @The last value of the LegDof enum.
+---@field ToesUpDown fun() @The toes up-down muscle.
+---@field LegCloseOpen fun() @The leg close-open muscle.

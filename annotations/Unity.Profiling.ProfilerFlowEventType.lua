@@ -1,0 +1,5 @@
+---@class Unity.Profiling.ProfilerFlowEventType @Defines Profiler flow event type.
+---@field ParallelNext fun() @Use for the parallel flow continuation point.
+---@field Begin fun() @Use for the flow start point.
+---@field End fun() @Use for the flow end point.
+---@field Next fun() @Use for the flow continuation point.

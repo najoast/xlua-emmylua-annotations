@@ -1,0 +1,20 @@
+---@class Experimental.GraphView.Node @Main GraphView node class.
+---@field mainContainer fun() @Main container that includes all other containers.
+---@field ctor fun() @Node's constructor.
+---@field titleContainer fun() @Title bar container.
+---@field extensionContainer fun() @Empty container used to display custom elements. After adding elements, call RefreshExpandedState in order to toggle this container visibility.
+---@field InstantiatePort fun() @Create a new port specific to this node.
+---@field outputContainer fun() @Outputs container, used for output ports.
+---@field OnPortRemoved fun() @Called when port is remove.
+---@field inputContainer fun() @Input container used for input ports.
+---@field title fun() @Node's title element.
+---@field ToggleCollapse fun() @Toggle node's collapse state.
+---@field UseDefaultStyling fun() @Applies the default styling of Node. This must be explicitly called by Node subclasses that use their own uxml files.
+---@field RefreshPorts fun() @Refresh the layout of the ports.
+---@field SetPosition fun() @Set node position.
+---@field expanded fun() @Is node expanded.
+---@field CollectElements fun() @Retrieves the set of edges that match a specified condition. The tested edges are connected to this node.
+---@field titleButtonContainer fun() @Title bar button container. Contains the top right buttons.
+---@field BuildContextualMenu fun() @Add menu items to the node contextual menu.
+---@field RefreshExpandedState fun() @After adding custom elements to the extensionContainer, call this method in order for them to become visible.
+---@field topContainer fun() @Entire top area containing input and output containers.

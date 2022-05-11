@@ -1,0 +1,10 @@
+---@class Analytics @nil
+---@field AnalyticsEventPriority Analytics.AnalyticsEventPriority @Analytics event priority.
+---@field AnalyticsSettings Analytics.AnalyticsSettings @Editor API for the Unity Services editor feature. Normally Analytics is enabled from the Services window, but if writing your own editor extension, this API can be used.
+---@field PerformanceReporting Analytics.PerformanceReporting @Unity Performace provides insight into your game performace.
+---@field PerformanceReportingSettings Analytics.PerformanceReportingSettings @Normally performance reporting is enabled from the Services window, but if writing your own editor extension, this API can be used.
+---@field Gender Analytics.Gender @User Demographics: Gender of a user.
+---@field AnalyticsSessionInfo Analytics.AnalyticsSessionInfo @Provides access to the Analytics session information for the current game instance.
+---@field AnalyticsResult Analytics.AnalyticsResult @Analytics API result.
+---@field AnalyticsSessionState Analytics.AnalyticsSessionState @Session tracking states.
+---@field Analytics Analytics.Analytics @Unity Analytics provides insight into your game users e.g. DAU, MAU.

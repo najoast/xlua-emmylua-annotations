@@ -1,0 +1,9 @@
+---@class AssetModificationProcessor @AssetModificationProcessor lets you hook into saving of serialized assets and      scenes which are edited inside Unity.
+---@field FileModeChanged fun() @Unity calls this method when file mode has been changed for one or more files.
+---@field OnWillSaveAssets fun() @This is called by Unity when it is about to write serialized assets or Scene files to disk.
+---@field OnWillCreateAsset fun() @Unity calls this method when it is about to create an Asset you haven't imported (for example, .meta files).
+---@field OnWillMoveAsset fun() @Unity calls this method when it is about to move an Asset on disk.
+---@field IsOpenForEdit fun() @This is called by Unity when inspecting assets to determine if an editor should be disabled.
+---@field CanOpenForEdit fun() @This is called by Unity when inspecting assets to determine if they can potentially be opened for editing.
+---@field OnWillDeleteAsset fun() @This is called by Unity when it is about to delete an asset from disk.
+---@field MakeEditable fun() @Unity calls this method when one or more files need to be opened for editing.

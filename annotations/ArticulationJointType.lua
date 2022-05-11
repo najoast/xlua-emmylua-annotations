@@ -1,0 +1,5 @@
+---@class ArticulationJointType @The type of the joint that restricts movement of the two connected articulation bodies.
+---@field FixedJoint fun() @Fixed joint doesn't allow any relative movement of the connected bodies.
+---@field SphericalJoint fun() @Spherical joint only allows relative rotations of the two connected bodies.
+---@field PrismaticJoint fun() @Prismatic joint only allows relative translation of the connection bodies along one specified axis.
+---@field RevoluteJoint fun() @Revolute joint allows rotational movement around the X axis of the parent's anchor.

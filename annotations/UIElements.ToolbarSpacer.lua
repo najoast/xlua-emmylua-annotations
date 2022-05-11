@@ -1,0 +1,7 @@
+---@class UIElements.ToolbarSpacer @A toolbar spacer of static size.
+---@field fixedSpacerVariantUssClassName fun() @USS class name of elements of this type, when they are of fixed size.
+---@field ctor fun() @Constructor.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field flexibleSpacerVariantUssClassName fun() @USS class name of elements of this type, when they are of flexible size.
+---@field UxmlFactory fun() @Instantiates a ToolbarSpacer using the data read from a UXML file.
+---@field flex fun() @True if the spacer will stretch or shring to occupy available space.

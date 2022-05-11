@@ -1,0 +1,8 @@
+---@class Rendering.RasterState @Values for the raster state.
+---@field offsetUnits fun() @Scales the minimum resolvable depth buffer value in the GPU's depth bias setting.
+---@field cullingMode fun() @Controls which sides of polygons should be culled (not drawn).
+---@field ctor fun() @Creates a new raster state with the given values.
+---@field offsetFactor fun() @Scales the maximum Z slope in the GPU's depth bias setting.
+---@field defaultValue fun() @Default values for the raster state.
+---@field conservative fun() @Enables conservative rasterization. Before using check for support via SystemInfo.supportsConservativeRaster property.
+---@field depthClip fun() @Enable clipping based on depth.

@@ -1,0 +1,160 @@
+---@class AndroidJNI @'Raw' JNI interface to Android Java VM from Unity scripting (C#).Note: Using raw JNI functions requires advanced knowledge of the Android Java Native Interface (JNI). Please take note.
+---@field CallStaticIntMethod fun() @Invokes the specified methodID static method on a Java object, optionally passing in an array of arguments (args).
+---@field ExceptionDescribe fun() @Prints an exception and a backtrace of the stack to the logcat
+---@field FatalError fun() @Raises a fatal error and does not expect the VM to recover. This function does not return.
+---@field SetCharField fun() @Sets the value of an instance field of the specified object.
+---@field PopLocalFrame fun() @Pops off the current local reference frame, frees all the local references, and returns a local reference in the previous local reference frame for the given result object.
+---@field CallObjectMethod fun() @Calls a Java instance method defined by methodID, optionally passing an array of arguments (args) to the method.
+---@field CallSByteMethod fun() @Calls a Java instance method defined by methodID, optionally passing an array of arguments (args) to the method.
+---@field GetSuperclass fun() @If clazz represents any class other than the class Object, then this function returns the object that represents the superclass of the class specified by clazz.
+---@field GetCharField fun() @Returns the value of an instance (nonstatic) field of an object.
+---@field GetStaticByteField fun() @Returns the value of a static field of an object.
+---@field IsSameObject fun() @Tests whether two references refer to the same Java object.
+---@field ToFloatArray fun() @Converts a managed array of System.Single to a Java array of float.
+---@field ThrowNew fun() @Constructs an exception object from the specified class with the message specified by message and causes that exception to be thrown.
+---@field SetFloatArrayElement fun() @Sets the float value of one element in a primitive array.
+---@field NewLocalRef fun() @Creates a new local reference that refers to the same object as obj.
+---@field CallShortMethod fun() @Calls a Java instance method defined by methodID, optionally passing an array of arguments (args) to the method.
+---@field GetFloatArrayElement fun() @Returns the value of one element of a primitive array.
+---@field NewIntArray fun() @Constructs a new primitive array object.
+---@field FromLongArray fun() @Converts a Java array of long to a managed array of System.Int64.
+---@field CallCharMethod fun() @Calls a Java instance method defined by methodID, optionally passing an array of arguments (args) to the method.
+---@field FromReflectedMethod fun() @Converts a java.lang.reflect.Method or java.lang.reflect.Constructor object to a method ID.
+---@field PushLocalFrame fun() @Creates a new local reference frame, in which at least a given number of local references can be created.
+---@field CallStaticBooleanMethod fun() @Invokes the specified methodID static method on a Java object, optionally passing in an array of arguments (args).
+---@field Throw fun() @Causes a java.lang.Throwable object to be thrown.
+---@field GetMethodID fun() @Returns the method ID for an instance (nonstatic) method of a class or interface.
+---@field DeleteGlobalRef fun() @Deletes the global reference pointed to by obj.
+---@field SetByteArrayElement fun() @Sets the sbyte value of one element in a primitive array.
+---@field CallStaticShortMethod fun() @Invokes the specified methodID static method on a Java object, optionally passing in an array of arguments (args).
+---@field SetBooleanArrayElement fun() @Sets the boolean value of one element in a primitive array.
+---@field FromReflectedField fun() @Converts a java.lang.reflect.Field to a field ID.
+---@field ToByteArray fun() @Converts a managed array of System.Byte to a Java array of byte.
+---@field SetStaticStringField fun() @Sets the value of a static field in the specified object.
+---@field ToSByteArray fun() @Converts a managed array of System.SByte to a Java array of byte.
+---@field GetBooleanArrayElement fun() @Returns the value of one element of a primitive array.
+---@field CallStaticLongMethod fun() @Invokes the specified methodID static method on a Java object, optionally passing in an array of arguments (args).
+---@field SetStaticFloatField fun() @Sets the value of a static field in the specified object.
+---@field CallByteMethod fun() @Calls a Java instance method defined by methodID, optionally passing an array of arguments (args) to the method.
+---@field GetObjectField fun() @Returns the value of an instance (nonstatic) field of an object.
+---@field AllocObject fun() @Allocates a new Java object without invoking any of the constructors for the object.
+---@field CallStaticStringMethod fun() @Invokes the specified methodID static method on a Java object, optionally passing in an array of arguments (args).
+---@field ToReflectedMethod fun() @Converts a method ID derived from clazz to a java.lang.reflect.Method or java.lang.reflect.Constructor object.
+---@field FromByteArray fun() @Converts a Java array of byte to a managed array of System.Byte.
+---@field GetStringLength fun() @Returns the length (the count of Unicode characters) of a Java string.
+---@field CallIntMethod fun() @Calls a Java instance method defined by methodID, optionally passing an array of arguments (args) to the method.
+---@field CallLongMethod fun() @Calls a Java instance method defined by methodID, optionally passing an array of arguments (args) to the method.
+---@field GetByteField fun() @Returns the value of an instance (nonstatic) field of an object.
+---@field GetDoubleArrayElement fun() @Returns the value of one element of a primitive array.
+---@field FromFloatArray fun() @Converts a Java array of float to a managed array of System.Single.
+---@field CallStringMethod fun() @Calls a Java instance method defined by methodID, optionally passing an array of arguments (args) to the method.
+---@field GetShortField fun() @Returns the value of an instance (nonstatic) field of an object.
+---@field SetObjectField fun() @Sets the value of an instance field of the specified object.
+---@field GetDoubleField fun() @Returns the value of an instance (nonstatic) field of an object.
+---@field CallStaticCharMethod fun() @Invokes the specified methodID static method on a Java object, optionally passing in an array of arguments (args).
+---@field SetStaticBooleanField fun() @Sets the value of a static field in the specified object.
+---@field NewFloatArray fun() @Constructs a new primitive array object.
+---@field SetStaticIntField fun() @Sets the value of a static field in the specified object.
+---@field GetStaticShortField fun() @Returns the value of a static field of an object.
+---@field FromCharArray fun() @Converts a Java array of char to a managed array of System.Char.
+---@field GetStaticLongField fun() @Returns the value of a static field of an object.
+---@field GetStaticIntField fun() @Returns the value of a static field of an object.
+---@field IsInstanceOf fun() @Tests whether an object is an instance of a class.
+---@field CallStaticVoidMethod fun() @Invokes the specified methodID static method on a Java object, optionally passing in an array of arguments (args).
+---@field DeleteWeakGlobalRef fun() @Deletes the global weak reference pointed to by obj.
+---@field CallStaticByteMethod fun() @Invokes the specified methodID static method on a Java object, optionally passing in an array of arguments (args).
+---@field NewSByteArray fun() @Constructs a new primitive array object.
+---@field GetObjectArrayElement fun() @Returns an element of an Object array.
+---@field GetSByteField fun() @Returns the value of an instance (nonstatic) field of an object.
+---@field GetStringField fun() @Returns the value of an instance (nonstatic) field of an object.
+---@field CallStaticFloatMethod fun() @Invokes the specified methodID static method on a Java object, optionally passing in an array of arguments (args).
+---@field SetDoubleField fun() @Sets the value of an instance field of the specified object.
+---@field ToIntArray fun() @Converts a managed array of System.Int32 to a Java array of int.
+---@field SetBooleanField fun() @Sets the value of an instance field of the specified object.
+---@field CallFloatMethod fun() @Calls a Java instance method defined by methodID, optionally passing an array of arguments (args) to the method.
+---@field CallVoidMethod fun() @Calls a Java instance method defined by methodID, optionally passing an array of arguments (args) to the method.
+---@field SetIntArrayElement fun() @Sets the int value of one element in a primitive array.
+---@field FromDoubleArray fun() @Converts a Java array of double to a managed array of System.Double.
+---@field NewCharArray fun() @Constructs a new primitive array object.
+---@field GetStringUTFChars fun() @Returns a managed string object representing the string in modified UTF-8 encoding.
+---@field GetStaticFloatField fun() @Returns the value of a static field of an object.
+---@field SetLongArrayElement fun() @Sets the long value of one element in a primitive array.
+---@field GetStaticSByteField fun() @Returns the value of a static field of an object.
+---@field CallDoubleMethod fun() @Calls a Java instance method defined by methodID, optionally passing an array of arguments (args) to the method.
+---@field GetIntArrayElement fun() @Returns the value of one element of a primitive array.
+---@field SetStaticShortField fun() @Sets the value of a static field in the specified object.
+---@field GetStaticMethodID fun() @Returns the method ID for a static method of a class.
+---@field ToShortArray fun() @Converts a managed array of System.Int16 to a Java array of short.
+---@field ToReflectedField fun() @Converts a field ID derived from cls to a java.lang.reflect.Field object.
+---@field NewString fun() @Constructs a new java.lang.String object from an array of Unicode characters.
+---@field GetLongArrayElement fun() @Returns the value of one element of a primitive array.
+---@field SetCharArrayElement fun() @Sets the char value of one element in a primitive array.
+---@field ToLongArray fun() @Converts a managed array of System.Int64 to a Java array of long.
+---@field ToDoubleArray fun() @Converts a managed array of System.Double to a Java array of double.
+---@field SetByteField fun() @Sets the value of an instance field of the specified object.
+---@field NewBooleanArray fun() @Constructs a new primitive array object.
+---@field GetByteArrayElement fun() @Returns the value of one element of a primitive array.
+---@field AttachCurrentThread fun() @Attaches the current thread to a Java (Dalvik) VM.
+---@field ToBooleanArray fun() @Converts a managed array of System.Boolean to a Java array of boolean.
+---@field SetStringField fun() @Sets the value of an instance field of the specified object.
+---@field FromShortArray fun() @Converts a Java array of short to a managed array of System.Int16.
+---@field SetIntField fun() @Sets the value of an instance field of the specified object.
+---@field SetStaticSByteField fun() @Sets the value of a static field in the specified object.
+---@field NewShortArray fun() @Constructs a new primitive array object.
+---@field GetArrayLength fun() @Returns the number of elements in the array.
+---@field GetStringUTFLength fun() @Returns the length in bytes of the modified UTF-8 representation of a string.
+---@field SetStaticLongField fun() @Sets the value of a static field in the specified object.
+---@field CallStaticSByteMethod fun() @Invokes the specified methodID static method on a Java object, optionally passing in an array of arguments (args).
+---@field SetStaticDoubleField fun() @Sets the value of a static field in the specified object.
+---@field SetStaticObjectField fun() @Sets the value of a static field in the specified object.
+---@field SetFloatField fun() @Sets the value of an instance field of the specified object.
+---@field FindClass fun() @This function loads a locally-defined class.
+---@field SetShortField fun() @Sets the value of an instance field of the specified object.
+---@field GetIntField fun() @Returns the value of an instance (nonstatic) field of an object.
+---@field SetShortArrayElement fun() @Sets the short value of one element in a primitive array.
+---@field SetSByteField fun() @Sets the value of an instance field of the specified object.
+---@field SetSByteArrayElement fun() @Sets the sbyte value of one element in a primitive array.
+---@field FromSByteArray fun() @Converts a Java array of byte to a managed array of System.SByte.
+---@field SetObjectArrayElement fun() @Sets an element of an Object array.
+---@field NewGlobalRef fun() @Creates a new global reference to the object referred to by the obj argument.
+---@field NewObjectArray fun() @Constructs a new array holding objects in class clazz. All elements are initially set to obj.
+---@field GetStaticObjectField fun() @Returns the value of a static field of an object.
+---@field GetFloatField fun() @Returns the value of an instance (nonstatic) field of an object.
+---@field SetLongField fun() @Sets the value of an instance field of the specified object.
+---@field DeleteLocalRef fun() @Deletes the local reference pointed to by obj.
+---@field GetStaticFieldID fun() @Returns the field ID for a static field of a class.
+---@field NewStringUTF fun() @Constructs a new java.lang.String object from an array of characters in modified UTF-8 encoding.
+---@field DetachCurrentThread fun() @Detaches the current thread from a Java (Dalvik) VM.
+---@field CallStaticDoubleMethod fun() @Invokes the specified methodID static method on a Java object, optionally passing in an array of arguments (args).
+---@field FromBooleanArray fun() @Converts a Java array of boolean to a managed array of System.Boolean.
+---@field CallStaticObjectMethod fun() @Invokes the specified methodID static method on a Java object, optionally passing in an array of arguments (args).
+---@field GetBooleanField fun() @Returns the value of an instance (nonstatic) field of an object.
+---@field ToCharArray fun() @Converts a managed array of System.Char to a Java array of char.
+---@field ExceptionOccurred fun() @Determines if an exception is being thrown.
+---@field NewWeakGlobalRef fun() @Creates a new global weak reference to the object referred to by the obj argument.
+---@field GetStaticCharField fun() @Returns the value of a static field of an object.
+---@field GetShortArrayElement fun() @Returns the value of one element of a primitive array.
+---@field SetStaticByteField fun() @Sets the value of a static field in the specified object.
+---@field EnsureLocalCapacity fun() @Ensures that at least a given number of local references can be created in the current thread.
+---@field SetDoubleArrayElement fun() @Sets the double value of one element in a primitive array.
+---@field ExceptionClear fun() @Clears any exception that is currently being thrown.
+---@field GetFieldID fun() @Returns the field ID for an instance (nonstatic) field of a class.
+---@field GetStaticStringField fun() @Returns the value of a static field of an object.
+---@field GetCharArrayElement fun() @Returns the value of one element of a primitive array.
+---@field CallBooleanMethod fun() @Calls a Java instance method defined by methodID, optionally passing an array of arguments (args) to the method.
+---@field NewByteArray fun() @Constructs a new primitive array object.
+---@field ToObjectArray fun() @Converts a managed array of System.IntPtr, representing Java objects, to a Java array of java.lang.Object.
+---@field SetStaticCharField fun() @Sets the value of a static field in the specified object.
+---@field GetSByteArrayElement fun() @Returns the value of one element of a primitive array.
+---@field NewObject fun() @Constructs a new Java object. The method ID indicates which constructor method to invoke. This ID must be obtained by calling GetMethodID() with &lt;init&gt; as the method name and void (V) as the return type.
+---@field NewLongArray fun() @Constructs a new primitive array object.
+---@field GetStaticBooleanField fun() @Returns the value of a static field of an object.
+---@field NewDoubleArray fun() @Constructs a new primitive array object.
+---@field IsAssignableFrom fun() @Determines whether an object of clazz1 can be safely cast to clazz2.
+---@field GetStaticDoubleField fun() @Returns the value of a static field of an object.
+---@field GetVersion fun() @Returns the version of the native method interface.
+---@field GetStringChars fun() @Returns a pointer to the array of Unicode characters of the string. This pointer is valid until ReleaseStringchars() is called.
+---@field GetObjectClass fun() @Returns the class of an object.
+---@field FromObjectArray fun() @Converts a Java array of java.lang.Object to a managed array of System.IntPtr, representing Java objects.
+---@field GetLongField fun() @Returns the value of an instance (nonstatic) field of an object.
+---@field FromIntArray fun() @Converts a Java array of int to a managed array of System.Int32.

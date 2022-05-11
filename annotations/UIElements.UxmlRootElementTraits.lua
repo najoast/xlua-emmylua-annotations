@@ -1,0 +1,2 @@
+---@class UIElements.UxmlRootElementTraits @Defines UxmlTraits for the UXML root element.
+---@field uxmlChildElementsDescription fun() @Returns an enumerable containing UxmlChildElementDescription(typeof(VisualElement)), since the root element can contain VisualElements.

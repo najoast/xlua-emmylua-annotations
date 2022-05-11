@@ -1,0 +1,7 @@
+---@class ParticleSystemJobs @nil
+---@field ParticleSystemJobData ParticleSystemJobs.ParticleSystemJobData @This struct specifies all the per-particle data.
+---@field IJobParticleSystemParallelFor ParticleSystemJobs.IJobParticleSystemParallelFor @Inherit from this interface to implement a Particle System job.
+---@field ParticleSystemNativeArray4 ParticleSystemJobs.ParticleSystemNativeArray4 @A container to hold 4 arrays of data for particles.
+---@field IJobParticleSystemParallelForBatch ParticleSystemJobs.IJobParticleSystemParallelForBatch @Inherit from this interface to implement a Particle System job.
+---@field ParticleSystemNativeArray3 ParticleSystemJobs.ParticleSystemNativeArray3 @A container to hold x, y, and z-axis data for particles.
+---@field IJobParticleSystem ParticleSystemJobs.IJobParticleSystem @Inherit from this interface to implement a Particle System job.

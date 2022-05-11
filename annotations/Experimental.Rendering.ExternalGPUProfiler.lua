@@ -1,0 +1,4 @@
+---@class Experimental.Rendering.ExternalGPUProfiler @The ExternalGPUProfiler API allows developers to programatically take GPU frame captures in conjunction with supported external GPU profilers.GPU frame captures can be used to both analyze performance and debug graphics related issues.
+---@field IsAttached fun() @Returns true when a development build is launched by an external GPU profiler.
+---@field EndGPUCapture fun() @Ends the current GPU frame capture in the external GPU profiler.
+---@field BeginGPUCapture fun() @Begins the current GPU frame capture in the external GPU profiler.

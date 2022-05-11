@@ -1,0 +1,2 @@
+---@class LightingExplorerExtensionAttribute @An attribute to mark an extension class for the Lighting Explorer. Supports one extension per render pipeline.
+---@field ctor fun() @Constructor.

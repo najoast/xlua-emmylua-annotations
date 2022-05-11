@@ -1,0 +1,6 @@
+---@class ViewTool @Enum for Tools.viewTool.
+---@field FPS fun() @The FPS tool is selected.
+---@field Orbit fun() @The orbit tool is selected.
+---@field Zoom fun() @The zoom tool is selected.
+---@field None fun() @View tool is not selected.
+---@field Pan fun() @The pan tool is selected.

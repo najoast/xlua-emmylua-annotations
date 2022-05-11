@@ -1,0 +1,20 @@
+---@class Search.SearchViewFlags @Search view flags used to open the Object Picker in various states.
+---@field OpenInTextMode fun() @This flag forces the picker to open in text mode.
+---@field OpenInBuilderMode fun() @This flag forces the picker to open in builder mode.
+---@field HideSearchBar fun() @The Search Picker window will hide the Search field. This means the user will not be able to edit the initial search query used to open the Search window.
+---@field CompactView fun() @The Object Picker window will open in compact list view.
+---@field DisableInspectorPreview fun() @This flag disables the use of the Inspector Preview in the Search Picker window.
+---@field Centered fun() @The Object Picker window will open centered in the main Editor window.
+---@field Packages fun() @The Search Picker window will include results from packages.
+---@field Debug fun() @The Search Picker window reports debugging information while running queries.
+---@field EnableSearchQuery fun() @This flag enables the use of the Saved Searches workflow in the Search Picker window.
+---@field DisableBuilderModeToggle fun() @This flag disables the ability to switch between text mode and builder mode.
+---@field NoIndexing fun() @The Search Picker window will ignore any indexed search entry while executing the search query.
+---@field DisableSavedSearchQuery fun() @When creating a new search window, this flag can be used to disable the saved search query side panel.
+---@field Borderless fun() @Opens a search window without any borders. This is useful to open the search window as a popup window for a quick pick.
+---@field TableView fun() @The Search Picker window will open in table view.
+---@field OpenLeftSidePanel fun() @The Search Picker window will open with the Saved Searches panel open.
+---@field OpenInspectorPreview fun() @The Search Picker window will open with the Preview Inspector open.
+---@field ListView fun() @The Search Picker window will open in list view.
+---@field GridView fun() @The Search Picker window will open in grid view.
+---@field None fun() @The Search Picker window will be opened using default options.

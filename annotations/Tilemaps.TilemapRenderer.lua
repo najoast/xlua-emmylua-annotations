@@ -1,0 +1,12 @@
+---@class Tilemaps.TilemapRenderer @The tile map renderer is used to render the tile map marked out by a tile map component and a grid component.
+---@field chunkSize fun() @Size in number of tiles of each chunk created by the TilemapRenderer.
+---@field maxChunkCount fun() @Maximum number of chunks the TilemapRenderer caches in memory.
+---@field maskInteraction fun() @Specifies how the Tilemap interacts with the masks.
+---@field mode fun() @The mode in which the TileMapRenderer batches the tiles for rendering.
+---@field chunkCullingBounds fun() @Bounds used for culling of Tilemap chunks.
+---@field SortOrder Tilemaps.TilemapRenderer.SortOrder @Sort order for all tiles rendered by the TilemapRenderer.
+---@field Mode Tilemaps.TilemapRenderer.Mode @Determines how the TilemapRenderer should batch the sprites from tiles for rendering.
+---@field maxFrameAge fun() @Maximum number of frames the TilemapRenderer keeps unused chunks in memory.
+---@field detectChunkCullingBounds fun() @Returns whether the TilemapRenderer automatically detects the bounds to extend chunk culling by.
+---@field DetectChunkCullingBounds Tilemaps.TilemapRenderer.DetectChunkCullingBounds @Returns whether the TilemapRenderer automatically detects the bounds to extend chunk culling by.
+---@field sortOrder fun() @Active sort order for the TilemapRenderer.

@@ -1,0 +1,7 @@
+---@class Profiling.IProfilerFrameTimeViewSampleSelectionController @This Interface defines an IProfilerFrameTimeSampleSelectionController object that you can use to control the selection in Profiler modules that display timing information of Profiler samples, such as the CPU Usage module and the GPU Usage Profiler module.
+---@field focusedThreadIndex fun() @The index of the the thread selected to be displayed in the Profiler module.
+---@field selection fun() @Get the current selection in a frame time sample based Profiler modules, such as the CPU Usage module and the GPU Usage Profiler module.
+---@field SetSelection fun() @Set the current selection in a frame time sample based Profiler Module, such as the CPU Usage module and the GPU Usage Profiler module.
+---@field ClearSelection fun() @Call this method to clear the current selection in this frame time view based Profiler module.
+---@field sampleNameSearchFilter fun() @This filters the samples displayed in Hierarchy view to only include the names that include this string.
+---@field selectionChanged fun() @Calls the methods in its invocation list when the selection in this Profiler module changes. The first parameter contains the Profiler module the selection change occurred in, the second parameter is the new selection.

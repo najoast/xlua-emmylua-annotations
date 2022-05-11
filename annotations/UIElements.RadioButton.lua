@@ -1,0 +1,10 @@
+---@class UIElements.RadioButton @A control that allows users to select a single option inside a RadioButtonGroup
+---@field labelUssClassName fun() @USS class name for Labels in RadioButton elements.
+---@field ctor fun() @Creates a RadioButton with no label.
+---@field ussClassName fun() @USS class name for RadioButton elements.
+---@field checkmarkUssClassName fun() @USS class name of checkmark in RadioButton elements.
+---@field checkmarkBackgroundUssClassName fun() @USS class name of checkmark background in RadioButton elements.
+---@field UxmlTraits UIElements.RadioButton.UxmlTraits @Defines UxmlTraits for the RadioButton.
+---@field UxmlFactory fun() @Instantiates a RadioButton using data from a UXML file.
+---@field inputUssClassName fun() @USS class name of input elements in RadioButton elements.
+---@field textUssClassName fun() @USS class name of Text elements in RadioButton elements.

@@ -1,0 +1,4 @@
+---@class UIElements.Rotate @Provides rotation information for visual elements that rotates around the TransformOrigin. Positive values represent clockwise rotation.
+---@field None fun() @Return a value of Rotate that applies no rotation
+---@field angle fun() @The angle applied by the rotation. Positive values represent clockwise rotation and negative values represent counterclockwise rotation.
+---@field ctor fun() @Create a Rotate struct that correspond to a rotation around the z axis by the provided Angle.

@@ -1,0 +1,7 @@
+---@class SpritePackerMode @Sprite Packer mode for the current project.
+---@field AlwaysOnAtlas fun() @Always pack all the SpriteAtlas.
+---@field AlwaysOn fun() @Always maintain an up-to-date sprite atlas cache for Sprite with packing tag (legacy).
+---@field Disabled fun() @Doesn't pack sprites.
+---@field BuildTimeOnly fun() @Updates the sprite atlas cache when the Player or bundles builds containing Sprite with the legacy packing tag.
+---@field SpriteAtlasV2 fun() @If enabled, will automatically migrate all *.spriteatlas assets to *.spriteatlasv2 assets. Old *.spriteatlas assets will be removed.
+---@field BuildTimeOnlyAtlas fun() @Pack all the SpriteAtlas when building player/bundles.

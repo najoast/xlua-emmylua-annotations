@@ -1,0 +1,2 @@
+---@class UIElements.TransformOrigin @Represents the point of origin where the (Scale, Translate, Rotate) transformations are applied.
+---@field Initial fun() @Returns the initial value for the TransformOrigin property.

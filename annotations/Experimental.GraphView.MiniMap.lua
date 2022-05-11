@@ -1,0 +1,10 @@
+---@class Experimental.GraphView.MiniMap @MiniMap.
+---@field BuildContextualMenu fun() @Add menu items to the MiniMap contextual menu.
+---@field ctor fun() @MiniMap's constructor.
+---@field OnResized fun() @Call this method after a user has resized a MiniMap to let the MiniMap know it needs to get updated.
+---@field windowed fun() @Set to true when the MiniMap displays in a separate window. Set to false when the MiniMap displays in the GraphView.
+---@field maxWidth fun() @Max width.
+---@field anchored fun() @True if the MiniMap is pinned or achored (non-movable). False if you can drag and move it around.
+---@field graphView fun() @The GraphView that the MiniMap is attached to.
+---@field zoomFactorTextChanged fun() @Callback for when the zoom factor text has changed.
+---@field maxHeight fun() @Max height.

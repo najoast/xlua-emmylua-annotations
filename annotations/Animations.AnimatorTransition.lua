@@ -1,0 +1,2 @@
+---@class Animations.AnimatorTransition @Transitions define when and how the state machine switch from on state to another. AnimatorTransition always originate from a StateMachine or a StateMachine entry. They do not define timing parameters.
+---@field ctor fun() @Creates a new animator transition.

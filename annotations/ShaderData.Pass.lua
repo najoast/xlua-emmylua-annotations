@@ -1,0 +1,7 @@
+---@class ShaderData.Pass @This class describes a pass of a subshader.
+---@field CompileVariant fun() @Compiles a shader variant for this shader pass and returns its bytecode and resource layout.
+---@field Name fun() @The name of this pass (may be empty).
+---@field FindTagValue fun() @Searches for the tag specified by tagName on this SubShader and returns the value of the tag.
+---@field HasShaderStage fun() @Checks whether this pass includes a shader stage.
+---@field PreprocessVariant fun() @Preprocesses a shader variant for this shader pass and returns the preprocessed code.
+---@field SourceCode fun() @The source code for this pass.

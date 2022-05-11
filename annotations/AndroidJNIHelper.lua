@@ -1,0 +1,12 @@
+---@class AndroidJNIHelper @Helper interface for JNI interaction; signature creation and method lookups.Note: Using raw JNI functions requires advanced knowledge of the Android Java Native Interface (JNI). Please take note.
+---@field CreateJavaProxy fun() @Creates a java proxy object which connects to the supplied proxy implementation.
+---@field CreateJavaRunnable fun() @Creates a UnityJavaRunnable object (implements java.lang.Runnable).
+---@field GetConstructorID fun() @Scans a particular Java class for a constructor method matching a signature.
+---@field ConvertToJNIArray fun() @Creates a Java array from a managed array.
+---@field DeleteJNIArgArray fun() @Deletes any local jni references previously allocated by CreateJNIArgArray().
+---@field ConvertFromJNIArray fun() @Creates a managed array from a Java array.
+---@field GetFieldID fun() @Scans a particular Java class for a field matching a name and a signature.
+---@field CreateJNIArgArray fun() @Creates the parameter array to be used as argument list when invoking Java code through CallMethod() in AndroidJNI.
+---@field debug fun() @Set debug to true to log calls through the AndroidJNIHelper.
+---@field GetSignature fun() @Creates the JNI signature string for particular object type.
+---@field GetMethodID fun() @Scans a particular Java class for a method matching a name and a signature.

@@ -1,0 +1,20 @@
+---@class WSA.Tile @Represents tile on Windows start screen
+---@field Update fun() @Send a notification for tile (update tiles look).
+---@field hasUserConsent fun() @Whether secondary tile was approved (pinned to start screen) or rejected by user.
+---@field RemoveBadge fun() @Remove badge from tile.
+---@field StopPeriodicUpdate fun() @Stops previously started periodic update of a tile.
+---@field DeleteSecondary fun() @Show a request to unpin secondary tile from start screen.
+---@field Delete fun() @Show a request to unpin secondary tile from start screen.
+---@field GetSecondaries fun() @Gets all secondary tiles.
+---@field UpdateBadgeNumber fun() @Set or update a badge on a tile to a number.
+---@field GetTemplate fun() @Get template XML for tile notification.
+---@field Exists fun() @Whether secondary tile is pinned to start screen.
+---@field UpdateBadgeImage fun() @Sets or updates badge on a tile to an image.
+---@field StopPeriodicBadgeUpdate fun() @Stops previously started periodic update of a tile.
+---@field CreateOrUpdateSecondary fun() @Creates new or updates existing secondary tile.
+---@field id fun() @A unique string, identifying secondary tile
+---@field PeriodicUpdate fun() @Starts periodic update of a tile.
+---@field GetSecondary fun() @Returns the secondary tile, identified by tile id.
+---@field exists fun() @Whether secondary tile is pinned to start screen.
+---@field PeriodicBadgeUpdate fun() @Starts periodic update of a  badge on a tile.
+---@field main fun() @Returns applications main tile

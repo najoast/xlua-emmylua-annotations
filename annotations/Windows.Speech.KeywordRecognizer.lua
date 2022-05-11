@@ -1,0 +1,3 @@
+---@class Windows.Speech.KeywordRecognizer @KeywordRecognizer listens to speech input and attempts to match uttered phrases to a list of registered keywords.
+---@field ctor fun() @Create a KeywordRecognizer which listens to specified keywords with the specified minimum confidence.  Phrases under the specified minimum level will be ignored.
+---@field Keywords fun() @Returns the list of keywords which was supplied when the keyword recognizer was created.

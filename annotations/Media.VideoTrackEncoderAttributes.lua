@@ -1,0 +1,8 @@
+---@class Media.VideoTrackEncoderAttributes @Descriptor for video track format.
+---@field height fun() @The image height in pixels.
+---@field frameRate fun() @The frame rate for the encoded video, in frames per second, expressed as a fraction.
+---@field ctor fun() @Create a new VideoTrackEncoderAttributes with specific H.264 encoding options.
+---@field width fun() @The image width in pixels.
+---@field bitRateMode fun() @The VideoBitrateMode for the encoded video.
+---@field includeAlpha fun() @True if the track is to include the alpha channel found in the texture passed to AddFrame. False otherwise.
+---@field targetBitRate fun() @The target bit rate for the encoder.

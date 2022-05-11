@@ -1,0 +1,4 @@
+---@class Search.SearchColumnCompareArgs @Search column compare arguments are used by SearchColumn.comparer to sort search results.
+---@field rhs fun() @Right-hand side column to compare.
+---@field sortAscending fun() @Indicates if the results should be sorted in ascending order or not.
+---@field lhs fun() @Left-hand side column to compare.

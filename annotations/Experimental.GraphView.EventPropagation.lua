@@ -1,0 +1,3 @@
+---@class Experimental.GraphView.EventPropagation @Value that determines if a event handler stops propagation of events or allows it to continue.
+---@field Stop fun() @Stop event propagation after this handler.
+---@field Continue fun() @Continue event propagation after this handler.

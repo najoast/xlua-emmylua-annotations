@@ -1,0 +1,5 @@
+---@class Events.UnityEvent @A zero argument persistent callback that can be saved with the Scene.
+---@field Invoke fun() @Invoke all registered callbacks (runtime and persistent).
+---@field AddListener fun() @Add a non persistent listener to the UnityEvent.
+---@field ctor fun() @Constructor.
+---@field RemoveListener fun() @Remove a non persistent listener from the UnityEvent. If you have added the same listener multiple times, this method will remove all occurrences of it.

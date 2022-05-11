@@ -1,0 +1,3 @@
+---@class Rendering.ShaderCompilerMessageSeverity @Indicates the severity of a message returned by the Unity Shader Compiler.
+---@field Warning fun() @Indicates that a message returned by the Unity Shader Compiler is a warning.
+---@field Error fun() @Indicates that a message returned by the Unity Shader Compiler is an error and the compilation failed.

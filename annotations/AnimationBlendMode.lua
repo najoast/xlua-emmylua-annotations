@@ -1,0 +1,3 @@
+---@class AnimationBlendMode @Used by Animation.Play function.
+---@field Blend fun() @Animations will be blended.
+---@field Additive fun() @Animations will be added.

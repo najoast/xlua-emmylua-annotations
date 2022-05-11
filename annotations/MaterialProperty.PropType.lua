@@ -1,0 +1,7 @@
+---@class MaterialProperty.PropType @Material property type.
+---@field Color fun() @Color property.
+---@field Texture fun() @Texture property.
+---@field Vector fun() @Vector property.
+---@field Int fun() @Int property.
+---@field Float fun() @Float property.
+---@field Range fun() @Ranged float (with min/max values) property.

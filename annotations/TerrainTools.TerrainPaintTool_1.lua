@@ -1,0 +1,11 @@
+---@class TerrainTools.TerrainPaintTool_1 @Base class for terrain painting tools.
+---@field OnEnable fun() @Called when the tool is created.
+---@field OnSceneGUI fun() @Custom terrain tool OnSceneGUI callback.
+---@field OnDisable fun() @Called when the tool is destroyed.
+---@field GetDescription fun() @Retrieves the description of the custom terrain tool.
+---@field OnEnterToolMode fun() @Called when the tool is activated.
+---@field OnRenderBrushPreview fun() @Use this method to implement custom tool preview and UI behavior that will only render while the mouse is within the SceneView bounds or while you're actively using this tool.
+---@field OnPaint fun() @Custom terrain tool paint callback.
+---@field GetName fun() @Retrieves the name of the custom terrain tool.
+---@field OnInspectorGUI fun() @Custom terrain tool OnInspectorGUI callback.
+---@field OnExitToolMode fun() @Called when the tool becomes inactive.

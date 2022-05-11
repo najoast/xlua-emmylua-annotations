@@ -1,0 +1,3 @@
+---@class Experimental.Animations @nil
+---@field AnimationPlayableOutputExtensions Experimental.Animations.AnimationPlayableOutputExtensions @Static class providing experimental extension methods for AnimationPlayableOutput .
+---@field AnimationStreamSource Experimental.Animations.AnimationStreamSource @Describes how an AnimationStream is initialized

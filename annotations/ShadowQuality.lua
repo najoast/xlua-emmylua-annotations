@@ -1,0 +1,4 @@
+---@class ShadowQuality @Determines which type of shadows should be used.
+---@field All fun() @Hard and Soft Shadows.
+---@field Disable fun() @Disable Shadows.
+---@field HardOnly fun() @Hard Shadows Only.

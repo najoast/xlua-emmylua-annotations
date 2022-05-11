@@ -1,0 +1,5 @@
+---@class UIElements.TooltipEvent @Event sent to find the first VisualElement that displays a tooltip.
+---@field Init fun() @Resets the event members to their initial values.
+---@field ctor fun() @Initializes and returns an instance of TooltipEvent.
+---@field tooltip fun() @Text to display inside the tooltip box.
+---@field rect fun() @Rectangle of the hovered VisualElement in the panel coordinate system.

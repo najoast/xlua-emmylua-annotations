@@ -1,0 +1,24 @@
+---@class BuildTarget @Target build platform.
+---@field XboxOne fun() @Build a Xbox One Standalone.
+---@field StandaloneLinuxUniversal fun() @Build a Linux universal standalone.
+---@field WebPlayerStreamed fun() @Build a streamed web player.
+---@field Android fun() @Build an Android .apk standalone app.
+---@field Switch fun() @Build a Nintendo Switch player.
+---@field PS5 fun() @Build to PlayStation 5 platform.
+---@field StandaloneOSX fun() @Build a macOS standalone (Intel 64-bit).
+---@field StandaloneOSXIntel64 fun() @Build a macOS Intel 64-bit standalone. (This build target is deprecated)
+---@field StandaloneLinux64 fun() @Build a Linux 64-bit standalone.
+---@field StandaloneLinux fun() @Build a Linux standalone.
+---@field StandaloneOSXIntel fun() @Build a macOS Intel 32-bit standalone. (This build target is deprecated)
+---@field StandaloneWindows fun() @Build a Windows standalone.
+---@field Stadia fun() @Build a Stadia standalone.
+---@field StandaloneWindows64 fun() @Build a Windows 64-bit standalone.
+---@field WSAPlayer fun() @Build an Windows Store Apps player.
+---@field N3DS fun() @Build to Nintendo 3DS platform.
+---@field WebPlayer fun() @Build a web player. (This build target is deprecated. Building for web player will no longer be supported in future versions of Unity.)
+---@field WebGL fun() @WebGL.
+---@field PS4 fun() @Build a PS4 Standalone.
+---@field iPhone fun() @OBSOLETE: Use iOS. Build an iOS player.
+---@field CloudRendering fun() @Build a CloudRendering standalone.
+---@field tvOS fun() @Build to Apple's tvOS platform.
+---@field iOS fun() @Build an iOS player.

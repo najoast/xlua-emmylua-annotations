@@ -1,0 +1,19 @@
+---@class WebCamTexture @WebCam Textures are textures onto which the live video input is rendered.
+---@field isDepth fun() @This property is true if the texture is based on depth data.
+---@field ctor fun() @Create a WebCamTexture.
+---@field Pause fun() @Pauses the camera.
+---@field requestedWidth fun() @Set the requested width of the camera device.
+---@field GetPixels fun() @Retrieves a copy of the the pixel color data. The colors are represented by Color structs.
+---@field GetPixel fun() @Returns pixel color at coordinates (x, y).
+---@field Play fun() @Starts the camera.
+---@field videoVerticallyMirrored fun() @Returns if the texture image is vertically flipped.
+---@field Stop fun() @Stops the camera.
+---@field requestedHeight fun() @Set the requested height of the camera device.
+---@field requestedFPS fun() @Set the requested frame rate of the camera device (in frames per second).
+---@field devices fun() @Return a list of available devices.
+---@field deviceName fun() @Set this to specify the name of the device to use.
+---@field autoFocusPoint fun() @This property allows you to set/get the auto focus point of the camera. This works only on Android and iOS devices.
+---@field isPlaying fun() @Returns if the camera is currently playing.
+---@field didUpdateThisFrame fun() @Did the video buffer update this frame?
+---@field GetPixels32 fun() @Retrieves a copy of the the pixel color data. The colors are represented by Color32 structs.
+---@field videoRotationAngle fun() @Returns an clockwise angle (in degrees), which can be used to rotate a polygon so camera contents are shown in correct orientation.

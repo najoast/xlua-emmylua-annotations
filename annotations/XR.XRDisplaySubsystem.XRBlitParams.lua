@@ -1,0 +1,5 @@
+---@class XR.XRDisplaySubsystem.XRBlitParams @This struct  holds data for a single blit operation.
+---@field srcTexArraySlice fun() @Describes source texture's desired array slice. Texture2D will have array slice 1.
+---@field srcTex fun() @Source render texture that the blit operation wants to blit from.
+---@field destRect fun() @Destination Rect area that the blit operation wants to blit to.
+---@field srcRect fun() @Source Rect area that the blit operation wants to blit from.

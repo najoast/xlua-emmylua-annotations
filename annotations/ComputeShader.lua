@@ -1,0 +1,27 @@
+---@class ComputeShader @Compute Shader asset.
+---@field SetMatrixArray fun() @Set a Matrix array parameter.
+---@field keywordSpace fun() @The local keyword space of this compute shader.
+---@field enabledKeywords fun() @An array containing the local shader keywords that are currently enabled for this compute shader.
+---@field FindKernel fun() @Find ComputeShader kernel index.
+---@field SetFloat fun() @Set a float parameter.
+---@field SetConstantBuffer fun() @Sets a ComputeBuffer or a GraphicsBuffer as a named constant buffer for the ComputeShader.
+---@field SetVector fun() @Set a vector parameter.
+---@field SetBool fun() @Set a bool parameter.
+---@field shaderKeywords fun() @An array containing names of the local shader keywords that are currently enabled for this compute shader.
+---@field SetBuffer fun() @Sets an input or output compute buffer.
+---@field EnableKeyword fun() @Enables a local shader keyword for this compute shader.
+---@field SetTextureFromGlobal fun() @Set a texture parameter from a global texture property.
+---@field SetTexture fun() @Set a texture parameter.
+---@field SetMatrix fun() @Set a Matrix parameter.
+---@field SetKeyword fun() @Sets the state of a local shader keyword for this compute shader.
+---@field SetFloats fun() @Set multiple consecutive float parameters at once.
+---@field SetInt fun() @Set an integer parameter.
+---@field SetInts fun() @Set multiple consecutive integer parameters at once.
+---@field IsKeywordEnabled fun() @Checks whether a local shader keyword is enabled for this compute shader.
+---@field HasKernel fun() @Checks whether a shader contains a given kernel.
+---@field DisableKeyword fun() @Disables a local shader keyword for this compute shader.
+---@field IsSupported fun() @Allows you to check whether the current end user device supports the features required to run the specified compute shader kernel.
+---@field DispatchIndirect fun() @Execute a compute shader.
+---@field Dispatch fun() @Execute a compute shader.
+---@field GetKernelThreadGroupSizes fun() @Get kernel thread group sizes.
+---@field SetVectorArray fun() @Set a vector array parameter.

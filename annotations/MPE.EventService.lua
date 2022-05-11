@@ -1,0 +1,13 @@
+---@class MPE.EventService @The EventService is a singleton implementation of a ChannelClient that runs on all instances of Unity. It is connected to the events channel and allows a Unity instance to send JSON messages to other EventServices in external process, or other instances of Unity.
+---@field RegisterEventHandler fun() @Registers a handler for a specific event type. The handler is called whenever a message of the specified type is sent. Messages are sent using EventService.Emit or EventService.Request.
+---@field Clear fun() @Clear all pending Requests.
+---@field Start fun() @Starts the EventService so it listens to new messages.
+---@field Emit fun() @Sends a fire-and-forget message to all ChannelClients connected to the events route.
+---@field UnregisterEventHandler fun() @Unregisters a handler from a specific event.
+---@field isConnected fun() @The EventService connected to the ChannelService's events channel.
+---@field Tick fun() @Ticks the EventService. This processes all incoming and outgoing messages. By default, the EventService is ticked on each EditorApplication.update.
+---@field IsRequestPending fun() @Checks whether a request is pending on a specific event. For more information about Request, see EventService.Request.
+---@field CancelRequest fun() @Checks whether there is a pending request for a specific event and, if there is, cancels it. See EventService.Request for more details on Request.
+---@field Log fun() @Sends a log message to the ChannelService. Log messages are printed to the Console window.
+---@field Close fun() @Closes the EventService, terminates connections to the ChannelService, and ensures that no more handlers are processed.
+---@field Request fun() @Sends a request to all connected clients on the events channel.

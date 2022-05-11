@@ -1,0 +1,12 @@
+---@class Joint2D @Parent class for joints to connect Rigidbody2D objects.
+---@field enableCollision fun() @Should the two rigid bodies connected with this joint collide with each other?
+---@field breakTorque fun() @The torque that needs to be applied for this joint to break.
+---@field OnJointBreak2D fun() @Called when a Joint2D attached to the same game object breaks.
+---@field reactionForce fun() @Gets the reaction force of the joint.
+---@field collideConnected fun() @Can the joint collide with the other Rigidbody2D object to which it is attached?
+---@field reactionTorque fun() @Gets the reaction torque of the joint.
+---@field connectedBody fun() @The Rigidbody2D object to which the other end of the joint is attached (ie, the object without the joint component).
+---@field GetReactionTorque fun() @Gets the reaction torque of the joint given the specified timeStep.
+---@field breakForce fun() @The force that needs to be applied for this joint to break.
+---@field GetReactionForce fun() @Gets the reaction force of the joint given the specified timeStep.
+---@field attachedRigidbody fun() @The Rigidbody2D attached to the Joint2D.

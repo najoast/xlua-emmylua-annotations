@@ -1,0 +1,4 @@
+---@class Rendering.GraphicsFenceType @The type of the GraphicsFence. Currently the only supported fence type is AsyncQueueSynchronization.
+---@field CPUSynchronization fun() @The GraphicsFence can only be used to synchronize between the GPU and the CPU.
+---@field CPUSynchronisation fun() @The GraphicsFence can only be used to synchronize between the GPU and the CPU.
+---@field AsyncQueueSynchronisation fun() @The GraphicsFence can be used to synchronise between different GPU queues, as well as to synchronise between GPU and the CPU.

@@ -1,0 +1,5 @@
+---@class XR.XRDisplaySubsystem.XRMirrorViewBlitDesc @All information in this struct describes the desired mirror view blit operation.
+---@field nativeBlitInvalidStates fun() @When this is true, display subsystem will modifiy the graphics state.
+---@field nativeBlitAvailable fun() @When this is true, the current display subsystem supports native blit and AddGraphicsThreadMirrorViewBlit must be called to perform native blit.
+---@field blitParamsCount fun() @The number of XRBlitParams entries for this XRMirrorViewBlitDesc.
+---@field GetBlitParameter fun() @Gets an XRBlitParams for a specific XRMirrorViewBlitDesc.

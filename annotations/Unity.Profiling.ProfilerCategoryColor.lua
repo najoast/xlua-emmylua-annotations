@@ -1,0 +1,18 @@
+---@class Unity.Profiling.ProfilerCategoryColor @Profiler category colors enum.
+---@field Internal fun() @Internal category markers color.
+---@field Build fun() @Build System category markers color.
+---@field Physics fun() @Physics category markers color.
+---@field Other fun() @Multiple miscellaneous categories markers color.
+---@field Scripts fun() @Scripts category markers color.
+---@field AudioUpdateJob fun() @Audio Update Jobs category markers color.
+---@field VSync fun() @Rendering Vertical Sync category markers color.
+---@field GC fun() @Garbage Collection category markers color.
+---@field Audio fun() @Audio category markers color.
+---@field BurstJobs fun() @Burst Jobs category markers color.
+---@field AudioJob fun() @Audio Jobs category markers color.
+---@field UI fun() @User Interface category markers color.
+---@field Memory fun() @Memory Allocation category markers color.
+---@field Render fun() @Render category markers color.
+---@field Animation fun() @Animation category markers color.
+---@field Input fun() @Input category markers color.
+---@field Lighting fun() @Lighting and Global Illumination category markers color.

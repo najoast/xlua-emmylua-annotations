@@ -1,0 +1,2 @@
+---@class SettingsProviderGroupAttribute @Attribute used to register multiple SettingsProvider items. Use this attribute to decorate a function that returns an array of SettingsProvider instances. If the function returns null, no SettingsProvider appears in the Settings window.
+---@field ctor fun() @Creates a SettingsProviderGroupAttribute used to register multiple SettingsProviders.

@@ -1,0 +1,6 @@
+---@class TouchPhase @Describes phase of a finger touch.
+---@field Stationary fun() @A finger is touching the screen but hasn't moved.
+---@field Ended fun() @A finger was lifted from the screen. This is the final phase of a touch.
+---@field Canceled fun() @The system cancelled tracking for the touch.
+---@field Moved fun() @A finger moved on the screen.
+---@field Began fun() @A finger touched the screen.

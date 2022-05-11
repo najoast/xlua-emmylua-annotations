@@ -1,0 +1,4 @@
+---@class ScriptingImplementation @Scripting implementation (backend).
+---@field IL2CPP fun() @Unity's .NET runtime.
+---@field Mono2x fun() @The standard Mono 2.6 runtime.
+---@field WinRTDotNET fun() @Microsoft's .NET runtime.

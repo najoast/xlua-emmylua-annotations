@@ -1,0 +1,9 @@
+---@class XR.InputTrackingState @Represents the values being tracked for this device.
+---@field Rotation fun() @Represents rotation being tracked for this device.
+---@field Velocity fun() @Represents velocity being tracked for this device.
+---@field Position fun() @Represents position being tracked for this device.
+---@field Acceleration fun() @Represents acceleration being tracked for this device.
+---@field AngularAcceleration fun() @Represents angular acceleration being tracked for this device.
+---@field AngularVelocity fun() @Represents no angular velocity being tracked for this device.
+---@field None fun() @Represents no values being tracked for this device.
+---@field All fun() @Represents all InputTrackingState values being tracked for this device.

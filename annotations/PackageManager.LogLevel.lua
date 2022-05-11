@@ -1,0 +1,7 @@
+---@class PackageManager.LogLevel @Describes different levels of log information the Package Manager supports.
+---@field Error fun() @Only unexpected errors and failures are logged.
+---@field Verbose fun() @Detailed informational messages are reported, in addition to anything from the LogLevel.Info level.
+---@field Silly fun() @Extremely detailed messages are reported, in addition to anything from the LogLevel.Debug level.
+---@field Info fun() @High-level informational messages are reported, in addition to anything from the LogLevel.Warn level.
+---@field Warn fun() @Abnormal situations that may result in problems are reported, in addition to anything from the LogLevel.Error level.
+---@field Debug fun() @Debugging messages are reported, in addition to anything from the LogLevel.Verbose level.

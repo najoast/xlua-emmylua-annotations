@@ -1,0 +1,3 @@
+---@class AddComponentMenu @The AddComponentMenu attribute allows you to place a script anywhere in the Component menu, instead of just the Component-&gt;Scripts menu.
+---@field componentOrder fun() @The order of the component in the component menu (lower is higher to the top).
+---@field ctor fun() @Add an item in the Component menu.

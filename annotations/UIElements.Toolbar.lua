@@ -1,0 +1,4 @@
+---@class UIElements.Toolbar @A toolbar for tool windows.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field ctor fun() @Constructor.
+---@field UxmlFactory fun() @Instantiates a Toolbar using the data read from a UXML file.

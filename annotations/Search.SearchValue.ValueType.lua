@@ -1,0 +1,11 @@
+---@class Search.SearchValue.ValueType @Search value supported types.
+---@field Vector4 fun() @Indicates that the search value hold a UnityEngine.Vector4 value.
+---@field Number fun() @Indicates that the search value is a numeric value.
+---@field Bool fun() @Indicates that the search value is a Boolean value.
+---@field Nil fun() @Indicates that the search value is null.
+---@field Color fun() @Indicates that the search value is a UnityEngine.Color value.
+---@field Vector3 fun() @Indicates that the search value hold a UnityEngine.Vector3 value.
+---@field Text fun() @Indicates that the search value is a text value.
+---@field Vector2 fun() @Indicates that the search value hold a UnityEngine.Vector2 value.
+---@field Enum fun() @Indicates that the search value is an enum value holding the text and integer representation of the Enum.
+---@field Object fun() @Indicates that the search value is an UnityEngine.Object.

@@ -1,0 +1,7 @@
+---@class TerrainTools.TerrainBuiltinPaintMaterialPasses @Built-in render passes for paint material.
+---@field RaiseLowerHeight fun() @Built-in render pass for raising and lowering Terrain height.
+---@field SetHeights fun() @Built-in render pass for setting Terrain height.
+---@field SmoothHeights fun() @Built-in render pass for smoothing the Terrain height.
+---@field StampHeight fun() @Built-in render pass for stamping heights on the Terrain.
+---@field PaintTexture fun() @Built-in render pass for painting the splatmap texture.
+---@field PaintHoles fun() @Built-in render pass for painting Terrain holes.

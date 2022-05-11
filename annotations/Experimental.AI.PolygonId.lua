@@ -1,0 +1,6 @@
+---@class Experimental.AI.PolygonId @Represents a compact identifier for the data of a NavMesh node.
+---@field GetHashCode fun() @Returns the hash code for use in collections.
+---@field operator_eq fun() @Returns true if two PolygonId objects refer to the same NavMesh node or if they are both null.
+---@field IsNull fun() @Returns true if the PolygonId has been created empty and has never pointed to any node in the NavMesh.
+---@field operator_ne fun() @Returns true if two PolygonId objects refer to different NavMesh nodes or if only one of them is null.
+---@field Equals fun() @Returns true if two PolygonId objects refer to the same NavMesh node.

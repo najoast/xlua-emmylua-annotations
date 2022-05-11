@@ -1,0 +1,2 @@
+---@class UIElements.Vector3IntField.UxmlTraits @Defines UxmlTraits for the Vector3IntField.
+---@field Init fun() @Initializes the UxmlTraits for the Vector3IntField.

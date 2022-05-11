@@ -1,0 +1,5 @@
+---@class iOSShowActivityIndicatorOnLoading @Activity Indicator on loading.
+---@field Gray fun() @Gray.
+---@field White fun() @White.
+---@field DontShow fun() @Don't Show.
+---@field WhiteLarge fun() @White Large.

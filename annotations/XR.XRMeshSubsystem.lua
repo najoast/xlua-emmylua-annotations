@@ -1,0 +1,6 @@
+---@class XR.XRMeshSubsystem @Allows external systems to provide dynamic meshes to Unity.
+---@field GetUpdatedMeshTransforms fun() @Gets the updated mesh transforms.
+---@field GenerateMeshAsync fun() @Requests the generation of the Mesh with MeshId meshId. Unity calls onMeshGenerationComplete when generation finishes.
+---@field SetBoundingVolume fun() @Set the bounding volume to restrict the space in which Unity generates and tracks Meshes.The bounding volume is an Axis Aligned Bounding Box (AABB) centered at the origin and extends in each dimension as defined in extents.The units of measurement depend on the provider.
+---@field TryGetMeshInfos fun() @Gets information about every Mesh the system currently tracks.
+---@field meshDensity fun() @Call this function to request a change in the density of the generated Meshes. Unity gives the density level as a value within the range 0.0 to 1.0 and the provider determines how to map that value to their implementation.Setting this value does not guarantee an immediate change in the density of any currently created Mesh and may only change the density for new or updated Meshes.

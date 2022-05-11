@@ -1,0 +1,5 @@
+---@class DepthTextureMode @Depth texture generation mode for Camera.
+---@field None fun() @Do not generate depth texture (Default).
+---@field MotionVectors fun() @Specifies whether motion vectors should be rendered (if possible).
+---@field DepthNormals fun() @Generate a depth + normals texture.
+---@field Depth fun() @Generate a depth texture.

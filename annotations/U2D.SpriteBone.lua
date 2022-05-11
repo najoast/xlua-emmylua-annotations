@@ -1,0 +1,8 @@
+---@class U2D.SpriteBone @Stores a set of information that describes the bind pose of this Sprite.
+---@field guid fun() @The Unique GUID of this bone.
+---@field parentId fun() @The ID of the parent of this bone.
+---@field position fun() @The position in local space of this bone.
+---@field length fun() @The length of the bone. This is important for the leaf bones to describe their length without needing another bone as the terminal bone.
+---@field rotation fun() @The rotation of this bone in local space.
+---@field color fun() @Shows the color set for the bone in the Editor.
+---@field name fun() @The name of the bone. This is useful when recreating bone hierarchy at editor or runtime. You can also use this as a way of resolving the bone path when a Sprite is bound to a more complex or richer hierarchy.

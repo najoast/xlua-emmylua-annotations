@@ -1,0 +1,16 @@
+---@class AndroidSdkVersions @API levels that can be specified in scripts. Note that the lowest API level here strictly corresponds to the lowest supported API level, however these values should not be used to determine the highest supported API level.
+---@field AndroidApiLevel19 fun() @Android 4.4, KitKat, API level 19.
+---@field AndroidApiLevel17 fun() @Android 4.2, Jelly Bean, API level 17.
+---@field AndroidApiLevel27 fun() @Android 8.1, Oreo, API level 27.
+---@field AndroidApiLevel24 fun() @Android 7.0, Nougat, API level 24.
+---@field AndroidApiLevel22 fun() @Android 5.1, Lollipop, API level 22.
+---@field AndroidApiLevel28 fun() @Android 9.0, Pie, API level 28.
+---@field AndroidApiLevel29 fun() @Android 10.0, API level 29.
+---@field AndroidApiLevel30 fun() @Android 11.0, API level 30.
+---@field AndroidApiLevelAuto fun() @Sets the target API level automatically, according to the latest installed SDK on your computer.
+---@field AndroidApiLevel21 fun() @Android 5.0, Lollipop, API level 21.
+---@field AndroidApiLevel23 fun() @Android 6.0, Marshmallow, API level 23.
+---@field AndroidApiLevel16 fun() @Android 4.1, Jelly Bean, API level 16.
+---@field AndroidApiLevel26 fun() @Android 8.0, Oreo, API level 26.
+---@field AndroidApiLevel25 fun() @Android 7.1, Nougat, API level 25.
+---@field AndroidApiLevel18 fun() @Android 4.3, Jelly Bean, API level 18.

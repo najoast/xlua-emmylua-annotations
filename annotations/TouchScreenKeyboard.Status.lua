@@ -1,0 +1,5 @@
+---@class TouchScreenKeyboard.Status @The status of the on-screen keyboard.
+---@field Visible fun() @The on-screen keyboard is visible.
+---@field Canceled fun() @The on-screen keyboard was canceled.
+---@field Done fun() @The user has finished providing input.
+---@field LostFocus fun() @The on-screen keyboard has lost focus.

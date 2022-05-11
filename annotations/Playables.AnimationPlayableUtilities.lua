@@ -1,0 +1,6 @@
+---@class Playables.AnimationPlayableUtilities @Implements high-level utility methods to simplify use of the Playable API with Animations.
+---@field PlayMixer fun() @Creates a PlayableGraph to be played on the given Animator. An AnimationMixerPlayable is also created.
+---@field PlayLayerMixer fun() @Creates a PlayableGraph to be played on the given Animator. An AnimationLayerMixerPlayable is also created.
+---@field PlayAnimatorController fun() @Creates a PlayableGraph to be played on the given Animator. An AnimatorControllerPlayable is also created for the given RuntimeAnimatorController.
+---@field Play fun() @Plays the Playable on  the given Animator.
+---@field PlayClip fun() @Creates a PlayableGraph to be played on the given Animator. An AnimationClipPlayable is also created for the given AnimationClip.

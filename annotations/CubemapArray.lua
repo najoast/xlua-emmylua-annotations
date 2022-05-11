@@ -1,0 +1,11 @@
+---@class CubemapArray @Class for handling Cubemap arrays.
+---@field cubemapCount fun() @Number of cubemaps in the array (Read Only).
+---@field GetPixels fun() @Retrieves a copy of the pixel color data for a given mip level of a given face of a given slice. The colors are represented by Color structs.
+---@field GetPixelData fun() @Gets raw data from a Texture for reading or writing.
+---@field format fun() @Texture format (Read Only).
+---@field SetPixels32 fun() @Set pixel colors for a single array slice/face.
+---@field SetPixels fun() @Set pixel colors for a single array slice/face.
+---@field Apply fun() @Actually apply all previous SetPixels changes.
+---@field SetPixelData fun() @Set pixel values from raw preformatted data.
+---@field GetPixels32 fun() @Retrieves a copy of the pixel color data for a given face of a given slice, at a given mip level. The colors are represented by lower-precision Color32 structs.
+---@field ctor fun() @Create a new cubemap array.

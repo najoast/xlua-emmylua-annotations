@@ -1,0 +1,15 @@
+---@class Camera.RenderRequestMode @Modes available for submitting when making a render request.
+---@field DiffuseColor fun() @The render request outputs the materials diffuse color.
+---@field BaseColor fun() @The render request outputs the materials albedo / base color.
+---@field WorldPosition fun() @The render request outputs a world position buffer.
+---@field None fun() @Default value for a request.
+---@field EntityId fun() @The render request outputs an entity id.
+---@field VertexNormal fun() @The render request outputs the interpolated vertex normal.
+---@field ObjectId fun() @The render request outputs an object InstanceID buffer.
+---@field Emission fun() @The render request outputs the materials emission value.
+---@field Smoothness fun() @The render request returns the materials smoothness buffer.
+---@field Occlusion fun() @The render request returns the material ambient occlusion buffer.
+---@field SpecularColor fun() @The render request returns the materials specular color buffer.
+---@field Normal fun() @The render request outputs the per pixel normal.
+---@field Metallic fun() @The render outputs the materials metal value.
+---@field Depth fun() @The render request outputs a depth value.

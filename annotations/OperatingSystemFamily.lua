@@ -1,0 +1,5 @@
+---@class OperatingSystemFamily @Enumeration for SystemInfo.operatingSystemFamily.
+---@field MacOSX fun() @macOS operating system family.
+---@field Windows fun() @Windows operating system family.
+---@field Other fun() @Returned for operating systems that do not fall into any other category.
+---@field Linux fun() @Linux operating system family.

@@ -1,0 +1,2 @@
+---@class Lumin.UsesLuminPrivilegeAttribute @This attribute provides a way to declaratively define a Lumin privilege requirement that is automatically added to the manifest at build time.
+---@field ctor fun() @Privilege identifer to request

@@ -1,0 +1,5 @@
+---@class ParticleSystemCurveMode @The particle curve mode.
+---@field Curve fun() @Use a single curve for the ParticleSystem.MinMaxCurve.
+---@field TwoCurves fun() @Use a random value between 2 curves for the ParticleSystem.MinMaxCurve.
+---@field Constant fun() @Use a single constant for the ParticleSystem.MinMaxCurve.
+---@field TwoConstants fun() @Use a random value between 2 constants for the ParticleSystem.MinMaxCurve.

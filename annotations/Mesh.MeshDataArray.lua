@@ -1,0 +1,4 @@
+---@class Mesh.MeshDataArray @An array of Mesh data snapshots for C# Job System access.
+---@field Length fun() @Number of Mesh data elements in the MeshDataArray.
+---@field Dispose fun() @Use this method to dispose of the MeshDataArray struct.
+---@field Index_operator fun() @Access MeshDataArray element by an index.

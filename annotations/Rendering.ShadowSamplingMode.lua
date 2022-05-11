@@ -1,0 +1,4 @@
+---@class Rendering.ShadowSamplingMode @Used by CommandBuffer.SetShadowSamplingMode.
+---@field None fun() @In ShadowSamplingMode.None, depths are not compared. Use this value if a Texture is not a shadowmap.
+---@field RawDepth fun() @Shadow sampling mode for sampling the depth value.
+---@field CompareDepths fun() @Default shadow sampling mode: sampling with a comparison filter.

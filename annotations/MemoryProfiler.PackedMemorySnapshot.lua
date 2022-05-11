@@ -1,0 +1,8 @@
+---@class MemoryProfiler.PackedMemorySnapshot @PackedMemorySnapshot is a compact representation of a memory snapshot.
+---@field virtualMachineInformation fun() @Information about the virtual machine running executing the managade code inside the player.
+---@field managedHeapSections fun() @Array of actual managed heap memory sections.
+---@field nativeTypes fun() @Descriptions of all the C++ unity types the profiled player knows about.
+---@field nativeObjects fun() @All native C++ objects that were loaded at time of the snapshot.
+---@field connections fun() @Connections is an array of from,to pairs that describe which things are keeping which other things alive.
+---@field gcHandles fun() @All GC handles in use in the memorysnapshot.
+---@field typeDescriptions fun() @Descriptions of all the managed types that were known to the virtual machine when the snapshot was taken.

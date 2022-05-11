@@ -1,0 +1,4 @@
+---@class Search.QueryGraphOptimizationOptions @Structure containing the different options used to optimize a query graph.
+---@field swapFilterFunctionsToRightHandSide fun() @Swaps filter functions to the right-hand side of combining operations (i.e. And, Or). Useful if those filter operations are slow.
+---@field propagateNotToLeaves fun() @Propagate Not operations to leaves, so only leaves can have Not operations as parents.
+---@field swapNotToRightHandSide fun() @Swaps Not operations to the right-hand side of combining operations (i.e. And, Or). Useful if a Not operation is slow.

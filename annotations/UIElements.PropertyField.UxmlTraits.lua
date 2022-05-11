@@ -1,0 +1,2 @@
+---@class UIElements.PropertyField.UxmlTraits @Defines UxmlTraits for the PropertyField.
+---@field ctor fun() @Constructor.

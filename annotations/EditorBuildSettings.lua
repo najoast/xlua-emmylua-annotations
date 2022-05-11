@@ -1,0 +1,7 @@
+---@class EditorBuildSettings @This class allows you to modify the Editor Build Settings via script. See EditorBuildSettings.scenes for an example of how to use this class.See Also: EditorBuildSettingsScene, EditorBuildSettings.scenes.
+---@field TryGetConfigObject fun() @Retrieve a config object reference by name.
+---@field sceneListChanged fun() @A delegate called whenever EditorBuildSettings.scenes is set.
+---@field GetConfigObjectNames fun() @Return a string array containing the names of all stored config object references.
+---@field AddConfigObject fun() @Store a reference to a config object by name.  The object must be an asset in the project, otherwise it will not be saved when the editor is restarted or scripts are reloaded.  To avoid name conflicts with other packages, it is recommended that names are qualified by a namespace, i.e. company.package.name.
+---@field RemoveConfigObject fun() @Remove a config object reference by name.
+---@field scenes fun() @The list of Scenes that should be included in the build.This is the same list of Scenes that is shown in the Build Settings window. You can modify this list to set up which Scenes should be included in the build.

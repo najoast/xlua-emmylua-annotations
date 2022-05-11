@@ -1,0 +1,8 @@
+---@class SceneTemplate.SceneTemplateService @A utility class that manages SceneTemplateAsset instantiation.
+---@field CreateSceneTemplate fun() @Creates a new Scene template at a specific path. The template is not bound to a Scene.
+---@field NewTemplateInstantiating fun() @An event called before a Scene template is instantiated.
+---@field NewTemplateInstantiated fun() @An event called after a Scene template is instantiated.
+---@field CreateTemplateFromScene fun() @Creates a new Scene template bound to a specific Scene. All of the template Scene's dependencies are extracted and set to be referenced.
+---@field Instantiate fun() @Instantiates a new Scene from a template.
+---@field newSceneTemplateInstantiating fun() @Events fired before a Scene template is instantiated.
+---@field newSceneTemplateInstantiated fun() @Events fired after a Scene template is instantiated.

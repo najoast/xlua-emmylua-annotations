@@ -1,0 +1,11 @@
+---@class ParticleSystem.MinMaxCurve @Script interface for a Min-Max Curve.
+---@field curveMin fun() @Set a curve for the lower bound.
+---@field constantMax fun() @Set a constant for the upper bound.
+---@field constant fun() @Set the constant value.
+---@field mode fun() @Set the mode that the min-max curve uses to evaluate values.
+---@field Evaluate fun() @Manually query the curve to calculate values based on what mode it is in.
+---@field curveMax fun() @Set a curve for the upper bound.
+---@field curve fun() @Set the curve.
+---@field ctor fun() @A single constant value for the entire curve.
+---@field curveMultiplier fun() @Set a multiplier to apply to the curves.
+---@field constantMin fun() @Set a constant for the lower bound.

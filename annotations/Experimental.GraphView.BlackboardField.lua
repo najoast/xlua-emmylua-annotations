@@ -1,0 +1,9 @@
+---@class Experimental.GraphView.BlackboardField @GraphElement that represents a field of a Graph.
+---@field blackboard fun() @The Blackboard that the field belongs to.
+---@field BuildFieldContextualMenu fun() @Called when the BlackboardField is asked to display the contextual menu.
+---@field ctor fun() @Constructs a BlackboardField.
+---@field highlighted fun() @The highlighted state of this BlackboardField.
+---@field text fun() @The text of this BlackboardField.
+---@field OpenTextEditor fun() @Opens a TextField to edit the text in a BlackboardField.
+---@field icon fun() @The icon of this BlackboardField.
+---@field typeText fun() @The text that displays the data type of this BlackboardField.

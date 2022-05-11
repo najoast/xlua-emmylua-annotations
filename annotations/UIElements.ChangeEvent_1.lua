@@ -1,0 +1,6 @@
+---@class UIElements.ChangeEvent_1 @Sends an event when a value in a field changes.
+---@field previousValue fun() @The value before the change occured.
+---@field ctor fun() @Constructor.
+---@field newValue fun() @The new value.
+---@field Init fun() @Sets the event to its initial state.
+---@field GetPooled fun() @Gets an event from the event pool and initializes it with the given values. Use this function instead of creating new events. Events obtained using this method need to be released back to the pool. You can use Dispose() to release them.

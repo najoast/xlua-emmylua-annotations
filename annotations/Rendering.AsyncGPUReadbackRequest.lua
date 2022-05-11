@@ -1,0 +1,11 @@
+---@class Rendering.AsyncGPUReadbackRequest @Represents an asynchronous request for a GPU resource.
+---@field height fun() @When reading data from a ComputeBuffer, height is 1, otherwise, the property takes the value of the requested height from the texture.
+---@field done fun() @Checks whether the request has been processed.
+---@field WaitForCompletion fun() @Waits for completion of the request.
+---@field layerCount fun() @Number of layers in the current request.
+---@field Update fun() @Triggers an update of the request.
+---@field GetData fun() @Fetches the data of a successful request.
+---@field width fun() @The width of the requested GPU data.
+---@field hasError fun() @This property is true if the request has encountered an error.
+---@field layerDataSize fun() @The size in bytes of one layer of the readback data.
+---@field depth fun() @When reading data from a ComputeBuffer, depth is 1, otherwise, the property takes the value of the requested depth from the texture.

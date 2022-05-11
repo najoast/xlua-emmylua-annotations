@@ -1,0 +1,30 @@
+---@class Quaternion @Quaternions are used to represent rotations.
+---@field y fun() @Y component of the Quaternion. Don't modify this directly unless you know quaternions inside out.
+---@field x fun() @X component of the Quaternion. Don't modify this directly unless you know quaternions inside out.
+---@field ctor fun() @Constructs new Quaternion with given x,y,z,w components.
+---@field z fun() @Z component of the Quaternion. Don't modify this directly unless you know quaternions inside out.
+---@field operator_eq fun() @Are two quaternions equal to each other?
+---@field LerpUnclamped fun() @Interpolates between a and b by t and normalizes the result afterwards. The parameter t is not clamped.
+---@field SetLookRotation fun() @Creates a rotation with the specified forward and upwards directions.
+---@field Slerp fun() @Spherically interpolates between quaternions a and b by ratio t. The parameter t is clamped to the range [0, 1].
+---@field Index_operator fun() @Access the x, y, z, w components using [0], [1], [2], [3] respectively.
+---@field Set fun() @Set x, y, z and w components of an existing Quaternion.
+---@field ToAngleAxis fun() @Converts a rotation to angle-axis representation (angles in degrees).
+---@field Inverse fun() @Returns the Inverse of rotation.
+---@field SetFromToRotation fun() @Creates a rotation which rotates from fromDirection to toDirection.
+---@field identity fun() @The identity rotation (Read Only).
+---@field SlerpUnclamped fun() @Spherically interpolates between a and b by t. The parameter t is not clamped.
+---@field LookRotation fun() @Creates a rotation with the specified forward and upwards directions.
+---@field AngleAxis fun() @Creates a rotation which rotates angle degrees around axis.
+---@field eulerAngles fun() @Returns or sets the euler angle representation of the rotation.
+---@field Angle fun() @Returns the angle in degrees between two rotations a and b.
+---@field RotateTowards fun() @Rotates a rotation from towards to.
+---@field Dot fun() @The dot product between two rotations.
+---@field ToString fun() @Returns a formatted string for this quaternion.
+---@field Normalize fun() @Converts this quaternion to one with the same orientation but with a magnitude of 1.
+---@field operator_multiply fun() @Combines rotations lhs and rhs.
+---@field Lerp fun() @Interpolates between a and b by t and normalizes the result afterwards. The parameter t is clamped to the range [0, 1].
+---@field Euler fun() @Returns a rotation that rotates z degrees around the z axis, x degrees around the x axis, and y degrees around the y axis; applied in that order.
+---@field normalized fun() @Returns this quaternion with a magnitude of 1 (Read Only).
+---@field w fun() @W component of the Quaternion. Do not directly modify quaternions.
+---@field FromToRotation fun() @Creates a rotation which rotates from fromDirection to toDirection.

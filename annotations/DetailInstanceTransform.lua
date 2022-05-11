@@ -1,0 +1,7 @@
+---@class DetailInstanceTransform @Describes the transform of a Terrain detail object.
+---@field rotationY fun() @The angle, in radians, at which the detail object rotates around the Y-axis.
+---@field posZ fun() @The Z coordinate of the detail object in the Terrain's local space. To get the Z in world space, add this value to position Z of the Terrain.
+---@field posX fun() @The X coordinate of the detail object in the Terrain's local space. To get the X in world space, add this value to position X of the Terrain.
+---@field posY fun() @The Y coordinate of the detail object in the Terrain's local space. To get the Y in world space, add this value to position Y of the Terrain.
+---@field scaleY fun() @The Y scale value of the detail object.
+---@field scaleXZ fun() @The X and Z scale values of the detail object. These two values are always the same.

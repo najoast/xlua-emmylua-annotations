@@ -1,0 +1,3 @@
+---@class StandaloneBuildSubtarget @Desktop platform subtarget type.
+---@field Server fun() @Build a player that is optimized for running as a headless server.
+---@field Player fun() @Build the default Desktop player.

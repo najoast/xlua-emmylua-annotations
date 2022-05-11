@@ -1,0 +1,4 @@
+---@class LightingSettings.FilterType @The available filter kernels for the Progressive Lightmapper.
+---@field None fun() @When enabled, the lightmap uses no filtering.
+---@field ATrous fun() @When enabled, the lightmap uses an A-Trous filter.
+---@field Gaussian fun() @When enabled, the lightmap uses a Gaussian filter.

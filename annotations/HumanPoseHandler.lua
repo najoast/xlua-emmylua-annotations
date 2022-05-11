@@ -1,0 +1,8 @@
+---@class HumanPoseHandler @Use this class to create, read, and write the HumanPose for a humanoid avatar skeleton hierarchy or an avatar pose.
+---@field GetInternalHumanPose fun() @Gets the internal human pose stored in the human pose handler.
+---@field ctor fun() @Creates a human pose handler from an avatar and a root transform and either a list of joint paths.
+---@field SetInternalHumanPose fun() @Stores the specified human pose as the internal human pose inside the human pose handler.
+---@field SetInternalAvatarPose fun() @Converts an avatar pose to a human pose and stores it as the internal human pose inside the human pose handler.
+---@field GetInternalAvatarPose fun() @Gets the internal human pose stored in the human pose handler and converts it to an avatar pose.
+---@field GetHumanPose fun() @Computes a human pose from the avatar skeleton, stores the pose in the human pose handler, and returns the human pose.
+---@field SetHumanPose fun() @Stores the specified human pose inside the human pose handler.

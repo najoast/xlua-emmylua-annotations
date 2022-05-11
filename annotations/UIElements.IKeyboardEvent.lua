@@ -1,0 +1,9 @@
+---@class UIElements.IKeyboardEvent @This interface describes the data used by keyboard events.
+---@field ctrlKey fun() @Gets a boolean value that indicates whether the Ctrl key is pressed. True means the Ctrl key is pressed. False means it isn't.
+---@field character fun() @Gets the character entered.
+---@field commandKey fun() @Gets a boolean value that indicates whether the Windows/Cmd key is pressed. True means the Windows/Cmd key is pressed. False means it isn't.
+---@field shiftKey fun() @Gets a boolean value that indicates whether the Shift key is pressed. True means the Shift key is pressed. False means it isn't.
+---@field actionKey fun() @Gets a boolean value that indicates whether the platform-specific action key is pressed. True means the action key is pressed. False means it isn't.
+---@field altKey fun() @Gets a boolean value that indicates whether the Alt key is pressed. True means the Alt key is pressed. False means it isn't.
+---@field modifiers fun() @Gets flags that indicate whether modifier keys (Alt, Ctrl, Shift, Windows/Cmd) are pressed.
+---@field keyCode fun() @The key code.

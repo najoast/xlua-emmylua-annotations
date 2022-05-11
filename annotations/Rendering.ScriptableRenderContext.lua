@@ -1,0 +1,28 @@
+---@class Rendering.ScriptableRenderContext @Defines state and drawing commands that custom render pipelines use.
+---@field StartMultiEye fun() @Schedules a fine-grained beginning of stereo rendering on the ScriptableRenderContext.
+---@field Cull fun() @Performs culling based on the ScriptableCullingParameters typically obtained from the Camera currently being rendered.
+---@field EmitGeometryForCamera fun() @Emits UI geometry for rendering for the specified camera.
+---@field InvokeOnRenderObjectCallback fun() @Schedules an invocation of the OnRenderObject callback for MonoBehaviour scripts.
+---@field Submit fun() @Submits all the scheduled commands to the rendering loop for execution.
+---@field PrepareRendererListsAsync fun() @Starts to process the provided RendererLists in the background.
+---@field ExecuteCommandBuffer fun() @Schedules the execution of a custom graphics Command Buffer.
+---@field CreateRendererList fun() @Creates a new RendererList.
+---@field BeginScopedSubPass fun() @Schedules the beginning of a new sub pass within a render pass. If you call this in a using-statement, Unity executes EndSubPass automatically when exiting the using-block.Render passes can never be standalone, they must always contain at least one sub pass. Only one sub pass can be active at any time.
+---@field DrawUIOverlay fun() @Draw the UI overlay.
+---@field SubmitForRenderPassValidation fun() @This method submits all the scheduled commands to the rendering loop for validation. The validation checks whether render passes that were started with the BeginRenderPass call can execute the scheduled commands.
+---@field SetupCameraProperties fun() @Schedules the setup of Camera specific global Shader variables.
+---@field ExecuteCommandBufferAsync fun() @Schedules the execution of a Command Buffer on an async compute queue. The ComputeQueueType that you pass in determines the queue order.
+---@field StopMultiEye fun() @Schedules a stop of stereo rendering on the ScriptableRenderContext.
+---@field EndRenderPass fun() @Schedules the end of a currently active render pass.
+---@field QueryRendererListStatus fun() @Queries the status of a RendererList.
+---@field DrawRenderers fun() @Schedules the drawing of a set of visible objects, and optionally overrides the GPU's render state.
+---@field StereoEndRender fun() @Schedule notification of completion of stereo rendering on a single frame.
+---@field DrawGizmos fun() @Schedules the drawing of a subset of Gizmos (before or after post-processing) for the given Camera.
+---@field EmitWorldGeometryForSceneView fun() @Emits UI geometry into the Scene view for rendering.
+---@field BeginRenderPass fun() @Schedules the beginning of a new render pass. Only one render pass can be active at any time.
+---@field BeginSubPass fun() @Schedules the beginning of a new sub pass within a render pass. Render passes can never be standalone, they must always contain at least one sub pass. Only one sub pass can be active at any time.
+---@field DrawWireOverlay fun() @Schedules the drawing of a wireframe overlay for a given Scene view Camera.
+---@field EndSubPass fun() @Schedules the end of the currently active sub pass.
+---@field DrawShadows fun() @Schedules the drawing of shadow casters for a single Light.
+---@field BeginScopedRenderPass fun() @Schedules the beginning of a new render pass. If you call this a using-statement, Unity calls EndRenderPass automatically when exiting the using-block. Only one render pass can be active at any time.
+---@field DrawSkybox fun() @Schedules the drawing of the skybox.

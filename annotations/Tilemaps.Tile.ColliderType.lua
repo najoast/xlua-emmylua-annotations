@@ -1,0 +1,4 @@
+---@class Tilemaps.Tile.ColliderType @Enum for determining what collider shape is generated for this Tile by the TilemapCollider2D.
+---@field None fun() @No collider shape is generated for the Tile by the TilemapCollider2D.
+---@field Sprite fun() @The Sprite outline is used as the collider shape for the Tile by the TilemapCollider2D.
+---@field Grid fun() @The grid layout boundary outline is used as the collider shape for the Tile by the TilemapCollider2D.

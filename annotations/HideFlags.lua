@@ -1,0 +1,10 @@
+---@class HideFlags @Bit mask that controls object destruction, saving and visibility in inspectors.
+---@field DontSave fun() @The object will not be saved to the Scene. It will not be destroyed when a new Scene is loaded. It is a shortcut for HideFlags.DontSaveInBuild | HideFlags.DontSaveInEditor | HideFlags.DontUnloadUnusedAsset.
+---@field DontSaveInBuild fun() @The object will not be saved when building a player.
+---@field None fun() @A normal, visible object. This is the default.
+---@field DontUnloadUnusedAsset fun() @The object will not be unloaded by Resources.UnloadUnusedAssets.
+---@field NotEditable fun() @The object is not editable in the Inspector.
+---@field HideInHierarchy fun() @The object will not appear in the hierarchy.
+---@field DontSaveInEditor fun() @The object will not be saved to the Scene in the editor.
+---@field HideInInspector fun() @It is not possible to view it in the inspector.
+---@field HideAndDontSave fun() @The GameObject is not shown in the Hierarchy, not saved to to Scenes, and not unloaded by Resources.UnloadUnusedAssets.

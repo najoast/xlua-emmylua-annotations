@@ -1,0 +1,3 @@
+---@class Rendering.RenderTargetIdentifier @Identifies a RenderTexture for a Rendering.CommandBuffer.
+---@field AllDepthSlices fun() @All depth-slices of the render resource are bound for rendering. For textures which are neither array nor 3D, the default slice is bound.
+---@field ctor fun() @Creates a render target identifier.

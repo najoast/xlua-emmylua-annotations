@@ -1,0 +1,3 @@
+---@class Experimental.GraphView.ResizableElement @Instantiates a [ResizableElement] that you add as a child of the [VisualElement] that you want to resize.
+---@field ctor fun() @Constructor for ResizableElement.
+---@field UxmlFactory Experimental.GraphView.ResizableElement.UxmlFactory @Instantiates a ResizableElement with the data read from a UXML file.

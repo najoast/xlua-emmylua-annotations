@@ -1,0 +1,4 @@
+---@class TreePrototype @Simple class that contains a pointer to a tree prototype.
+---@field prefab fun() @Retrieves the actual GameObject used by the tree.
+---@field bendFactor fun() @Bend factor of the tree prototype.
+---@field navMeshLod fun() @The LOD index of a Tree LODGroup that Unity uses to generate a NavMesh. It uses this value only for Trees with a LODGroup, and ignores this value for regular Trees.

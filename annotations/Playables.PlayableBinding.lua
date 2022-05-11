@@ -1,0 +1,7 @@
+---@class Playables.PlayableBinding @Struct that holds information regarding an output of a PlayableAsset.
+---@field DefaultDuration fun() @The default duration used when a PlayableOutput has no fixed duration.
+---@field None fun() @A constant to represent a PlayableAsset has no bindings.
+---@field sourceObject fun() @A reference to a UnityEngine.Object that acts a key for this binding.
+---@field streamType fun() @The type of the output or input stream.
+---@field streamName fun() @The name of the output or input stream.
+---@field outputTargetType fun() @The type of target required by the PlayableOutput for this PlayableBinding.

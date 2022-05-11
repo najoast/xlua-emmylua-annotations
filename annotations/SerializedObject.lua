@@ -1,0 +1,19 @@
+---@class SerializedObject @SerializedObject and SerializedProperty are classes for editing serialized fields on Unity objects in a completely generic way. These classes automatically handle dirtying individual serialized fields so they will be processed by the Undo system and styled correctly for Prefab overrides when drawn in the Inspector.
+---@field isEditingMultipleObjects fun() @Does the serialized object represents multiple objects due to multi-object editing? (Read Only)
+---@field Update fun() @Update serialized object's representation.
+---@field forceChildVisibility fun() @Controls the visibility of the child hidden fields.
+---@field targetObjects fun() @The inspected objects (Read Only).
+---@field FindProperty fun() @Find serialized property by name.
+---@field maxArraySizeForMultiEditing fun() @Defines the maximum size beyond which arrays cannot be edited when multiple objects are selected.
+---@field targetObject fun() @The inspected object (Read Only).
+---@field SetIsDifferentCacheDirty fun() @Update hasMultipleDifferentValues cache on the next /Update()/ call.
+---@field hasModifiedProperties fun() @Is true when the SerializedObject has a modified property that has not been applied.
+---@field CopyFromSerializedProperty fun() @Copies a value from a SerializedProperty to the corresponding serialized property on the serialized object.
+---@field UpdateIfRequiredOrScript fun() @Update serialized object's representation, only if the object has been modified since the last call to Update or if it is a script.
+---@field UpdateIfDirtyOrScript fun() @This has been made obsolete. See SerializedObject.UpdateIfRequiredOrScript instead.
+---@field ApplyModifiedProperties fun() @Apply property modifications.
+---@field ctor fun() @Create SerializedObject for inspected object.
+---@field CopyFromSerializedPropertyIfDifferent fun() @Copies a changed value from a SerializedProperty to the corresponding serialized property on the serialized object.
+---@field ApplyModifiedPropertiesWithoutUndo fun() @Applies property modifications without registering an undo operation.
+---@field context fun() @The context used to store and resolve ExposedReference types. This is set by the SerializedObject constructor.
+---@field GetIterator fun() @Get the first serialized property.

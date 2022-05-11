@@ -1,0 +1,14 @@
+---@class Analytics.AnalyticsSessionInfo @Provides access to the Analytics session information for the current game instance.
+---@field sessionElapsedTime fun() @The time elapsed, in milliseconds, since the beginning of the current game session.
+---@field sessionFirstRun fun() @Reports whether the current session is the first session since the player installed the game or application.
+---@field customUserId fun() @Reports the current custom user ID.
+---@field sessionState fun() @The current state of the session.
+---@field SessionStateChanged fun() @Dispatched when the Analytics session state changes.
+---@field IdentityTokenChanged fun() @Defines the delegate signature to handle AnalyticsSettings.IdentityTokenChanged events.
+---@field userId fun() @A random GUID uniquely identifying sessions played on the same instance of your game or app.
+---@field sessionStateChanged fun() @Dispatched when the Analytics session state changes.
+---@field sessionId fun() @A random, unique GUID identifying the current game or app session.
+---@field identityToken fun() @The current user identity token that the Analytics server returns based on AnalyticsSessionInfo.userId.
+---@field sessionCount fun() @The number of sessions played since the app was installed.
+---@field customDeviceId fun() @Reports the current custom device ID.
+---@field identityTokenChanged fun() @Dispatched when AnalyticsSessionInfo.identityToken is updated by the server.

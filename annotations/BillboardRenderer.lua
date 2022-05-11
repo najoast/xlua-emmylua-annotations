@@ -1,0 +1,3 @@
+---@class BillboardRenderer @Renders a billboard from a BillboardAsset.
+---@field ctor fun() @Constructor.
+---@field billboard fun() @The BillboardAsset to render.

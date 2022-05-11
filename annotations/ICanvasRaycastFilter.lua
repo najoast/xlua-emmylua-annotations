@@ -1,0 +1,2 @@
+---@class ICanvasRaycastFilter @This element can filter raycasts. If the top level element is hit it can further 'check' if the location is valid.
+---@field IsRaycastLocationValid fun() @Given a point and a camera is the raycast valid.

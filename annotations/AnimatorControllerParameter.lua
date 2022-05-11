@@ -1,0 +1,7 @@
+---@class AnimatorControllerParameter @Used to communicate between scripting and the controller. Some parameters can be set in scripting and used by the controller, while other parameters are based on Custom Curves in Animation Clips and can be sampled using the scripting API.
+---@field defaultFloat fun() @The default float value for the parameter.
+---@field defaultBool fun() @The default bool value for the parameter.
+---@field type fun() @The type of the parameter.
+---@field nameHash fun() @Returns the hash of the parameter based on its name.
+---@field defaultInt fun() @The default int value for the parameter.
+---@field name fun() @The name of the parameter.

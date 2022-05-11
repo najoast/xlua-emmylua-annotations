@@ -1,0 +1,3 @@
+---@class BeforeRenderOrderAttribute @Use this BeforeRenderOrderAttribute when you need to specify a custom callback order for Application.onBeforeRender.
+---@field ctor fun() @When applied to methods, specifies the order called during Application.onBeforeRender events.
+---@field order fun() @The order, lowest to highest, that the Application.onBeforeRender event recievers will be called in.

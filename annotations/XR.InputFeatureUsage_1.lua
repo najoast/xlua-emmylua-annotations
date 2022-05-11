@@ -1,0 +1,4 @@
+---@class XR.InputFeatureUsage_1 @Defines a generic usage that maps to an input feature on a device.
+---@field name fun() @The string name of this usage feature; used internally to map to an input feature on a device.
+---@field ctor fun() @Construct a usage from a usage name.
+---@field operator_ fun() @Converts a generic InputFeatureUsage&lt;T&gt; into an InputFeatureUsage.

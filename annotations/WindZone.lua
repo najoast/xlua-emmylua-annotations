@@ -1,0 +1,8 @@
+---@class WindZone @Wind Zones add realism to the trees you create by making them wave their branches and leaves as if blown by the wind.
+---@field radius fun() @Radius of the Spherical Wind Zone (only active if the WindZoneMode is set to Spherical).
+---@field ctor fun() @The constructor.
+---@field windMain fun() @The primary wind force.
+---@field windTurbulence fun() @The turbulence wind force.
+---@field windPulseFrequency fun() @Defines the frequency of the wind changes.
+---@field windPulseMagnitude fun() @Defines how much the wind changes over time.
+---@field mode fun() @Defines the type of wind zone to be used (Spherical or Directional).

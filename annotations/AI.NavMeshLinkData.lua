@@ -1,0 +1,8 @@
+---@class AI.NavMeshLinkData @Used for runtime manipulation of links connecting polygons of the NavMesh.
+---@field startPosition fun() @Start position of the link.
+---@field width fun() @If positive, the link will be rectangle aligned along the line from start to end.
+---@field agentTypeID fun() @Specifies which agent type this link is available for.
+---@field bidirectional fun() @If true, the link can be traversed in both directions, otherwise only from start to end position.
+---@field costModifier fun() @If positive, overrides the pathfinder cost to traverse the link.
+---@field endPosition fun() @End position of the link.
+---@field area fun() @Area type of the link.

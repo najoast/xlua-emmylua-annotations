@@ -1,0 +1,3 @@
+---@class ParticleSystemCollisionType @The type of collisions to use for a given Particle System.
+---@field Planes fun() @Collide with a list of planes.
+---@field World fun() @Collide with the world geometry.

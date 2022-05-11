@@ -1,0 +1,5 @@
+---@class Networking.IMultipartFormSection @An interface for composition of data into multipart forms.
+---@field sectionData fun() @Returns the raw binary data contained in this section. Must not return null or a zero-length array.
+---@field sectionName fun() @Returns the name of this section, if any.
+---@field fileName fun() @Returns a string denoting the desired filename of this section on the destination server.
+---@field contentType fun() @Returns the value to use in the Content-Type header for this form section.

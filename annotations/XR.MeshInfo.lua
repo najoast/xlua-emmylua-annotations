@@ -1,0 +1,4 @@
+---@class XR.MeshInfo @Contains state information related to a tracked mesh.
+---@field MeshId fun() @The MeshId of the tracked mesh.
+---@field ChangeState fun() @The change state (e.g., Added, Removed) of the tracked mesh.
+---@field PriorityHint fun() @A hint that can be used to determine when this mesh should be processed.

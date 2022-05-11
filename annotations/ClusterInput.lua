@@ -1,0 +1,12 @@
+---@class ClusterInput @Interface for reading and writing inputs in a Unity Cluster.
+---@field GetButton fun() @Returns the binary value of a button.
+---@field AddInput fun() @Add a new VRPN input entry.
+---@field GetAxis fun() @Returns the axis value as a continous float.
+---@field SetButton fun() @Sets the button value for this input. Only works for input typed Custom.
+---@field SetTrackerRotation fun() @Sets the tracker rotation for this input. Only works for input typed Custom.
+---@field GetTrackerRotation fun() @Returns the rotation of a tracker as a Quaternion.
+---@field CheckConnectionToServer fun() @Check the connection status of the device to the VRPN server it connected to.
+---@field GetTrackerPosition fun() @Return the position of a tracker as a Vector3.
+---@field SetTrackerPosition fun() @Sets the tracker position for this input. Only works for input typed Custom.
+---@field EditInput fun() @Edit an input entry which added via ClusterInput.AddInput.
+---@field SetAxis fun() @Sets the axis value for this input. Only works for input typed Custom.

@@ -1,0 +1,6 @@
+---@class AI.NavMeshHit @Result information for NavMesh queries.
+---@field mask fun() @Mask specifying NavMesh area at point of hit.
+---@field position fun() @Position of hit.
+---@field distance fun() @Distance to the point of hit.
+---@field hit fun() @Flag set when hit.
+---@field normal fun() @Normal at the point of hit.

@@ -1,0 +1,4 @@
+---@class ModelImporterGenerateMaterials @Material generation options for ModelImporter.
+---@field None fun() @Do not generate materials.
+---@field PerTexture fun() @Generate a material for each texture used.
+---@field PerSourceMaterial fun() @Generate a material for each material in the source asset.

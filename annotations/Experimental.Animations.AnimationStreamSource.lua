@@ -1,0 +1,3 @@
+---@class Experimental.Animations.AnimationStreamSource @Describes how an AnimationStream is initialized
+---@field DefaultValues fun() @AnimationStream will be initialized with the default values from the Animator.
+---@field PreviousInputs fun() @AnimationStream will be initialized with the values from the previous AnimationPlayableOutput connected to the same Animator.

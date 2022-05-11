@@ -1,0 +1,5 @@
+---@class Playables.DataStreamType @Describes the type of information that flows in and out of a Playable. This also specifies that this Playable is connectable to others of the same type.
+---@field None fun() @Describes that the Playable does not have any particular type. This is use for Playables that execute script code, or that create their own playable graphs, such as the Sequence.
+---@field Animation fun() @Describes that the information flowing in and out of the Playable is of Animation type.
+---@field Audio fun() @Describes that the information flowing in and out of the Playable is of Audio type.
+---@field Texture fun() @Describes that the information flowing in and out of the Playable is of type Texture.

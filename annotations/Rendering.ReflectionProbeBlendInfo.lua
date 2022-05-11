@@ -1,0 +1,3 @@
+---@class Rendering.ReflectionProbeBlendInfo @ReflectionProbeBlendInfo contains information required for blending probes.
+---@field weight fun() @Specifies the weight used in the interpolation between two probes, value varies from 0.0 to 1.0.
+---@field probe fun() @Reflection Probe used in blending.

@@ -1,0 +1,11 @@
+---@class Rendering.RenderPipelineManager @Render Pipeline manager.
+---@field currentPipeline fun() @Returns the active RenderPipeline.
+---@field endCameraRendering fun() @Delegate that you can use to invoke custom code after Unity renders an individual Camera.
+---@field beginFrameRendering fun() @Delegate that you can use to invoke custom code at the start of RenderPipeline.Render.
+---@field activeRenderPipelineTypeChanged fun() @Delegate that you can use to invoke custom code when Unity changes the active render pipeline, and the new RenderPipeline has a different type to the old one.
+---@field beginCameraRendering fun() @Delegate that you can use to invoke custom code before Unity renders an individual Camera.
+---@field beginContextRendering fun() @Delegate that you can use to invoke custom code at the start of RenderPipeline.Render.
+---@field beginCameraRenderingObsolete fun() @Obsolete event, use beginCameraRendering instead.
+---@field endContextRendering fun() @Delegate that you can use to invoke custom code at the end of RenderPipeline.Render.
+---@field endFrameRendering fun() @Delegate that you can use to invoke custom code at the end of RenderPipeline.Render.
+---@field beginFrameRenderingObsolete fun() @Obsolete event, use beginFrameRendering instead.

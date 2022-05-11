@@ -1,0 +1,22 @@
+---@class ParticleSystem.TrailModule @Script interface for the TrailsModule.
+---@field minVertexDistance fun() @Set the minimum distance each trail can travel before the system adds a new vertex to it.
+---@field dieWithParticles fun() @Specifies whether trails disappear immediately when their owning particle dies. When false, each trail persists until all its points have naturally expired, based on its lifetime.
+---@field widthOverTrail fun() @The curve describing the width of each trail point.
+---@field sizeAffectsLifetime fun() @Set whether the particle size acts as a multiplier on top of the trail lifetime.
+---@field inheritParticleColor fun() @Toggle whether the trail inherits the particle color as its starting color.
+---@field worldSpace fun() @Drop new trail points in world space, regardless of Particle System Simulation Space.
+---@field widthOverTrailMultiplier fun() @A multiplier for ParticleSystem.TrailModule._widthOverTrail.
+---@field sizeAffectsWidth fun() @Set whether the particle size acts as a multiplier on top of the trail width.
+---@field lifetime fun() @The curve describing the trail lifetime, throughout the lifetime of the particle.
+---@field lifetimeMultiplier fun() @A multiplier for ParticleSystem.TrailModule._lifetime.
+---@field ribbonCount fun() @Select how many lines to create through the Particle System.
+---@field textureMode fun() @Choose whether the U coordinate of the trail Texture is tiled or stretched.
+---@field mode fun() @Choose how the system generates the particle trails.
+---@field colorOverLifetime fun() @The gradient that controls the trail colors during the lifetime of the attached particle.
+---@field generateLightingData fun() @Configures the trails to generate Normals and Tangents. With this data, Scene lighting can affect the trails via Normal Maps and the Unity Standard Shader, or your own custom-built Shaders.
+---@field colorOverTrail fun() @The gradient that controls the trail colors over the length of the trail.
+---@field enabled fun() @Specifies whether the TrailModule is enabled or disabled.
+---@field splitSubEmitterRibbons fun() @Specifies whether, if you use this system as a sub-emitter, ribbons connect particles from each parent particle independently.
+---@field ratio fun() @Choose what proportion of particles receive a trail.
+---@field attachRibbonsToTransform fun() @Adds an extra position to each ribbon, connecting it to the location of the Transform Component.
+---@field shadowBias fun() @Apply a shadow bias to prevent self-shadowing artifacts. The specified value is the proportion of the trail width at each segment.

@@ -1,0 +1,6 @@
+---@class HumanLimit @This class stores the rotation limits that define the muscle for a single human bone.
+---@field min fun() @The maximum negative rotation away from the initial value that this muscle can apply.
+---@field max fun() @The maximum rotation away from the initial value that this muscle can apply.
+---@field axisLength fun() @Length of the bone to which the limit is applied.
+---@field useDefaultValues fun() @Should this limit use the default values?
+---@field center fun() @The default orientation of a bone when no muscle action is applied.

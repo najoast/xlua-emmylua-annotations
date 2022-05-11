@@ -1,0 +1,2 @@
+---@class EditorGUI.DisabledScope @Create a group of controls that can be disabled.
+---@field ctor fun() @Create a new DisabledScope and begin the corresponding group.

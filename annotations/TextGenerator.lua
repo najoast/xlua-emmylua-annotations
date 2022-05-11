@@ -1,0 +1,22 @@
+---@class TextGenerator @Class that can be used to generate text for rendering.
+---@field GetCharactersArray fun() @Returns the current UICharInfo.
+---@field vertexCount fun() @Number of vertices generated.
+---@field GetCharacters fun() @Populate the given List with UICharInfo.
+---@field Populate fun() @Will generate the vertices and other data for the given string with the given settings.
+---@field GetPreferredHeight fun() @Given a string and settings, returns the preferred height for a container that would hold this text.
+---@field characterCountVisible fun() @The number of characters that have been generated and are included in the visible lines.
+---@field GetLines fun() @Populate the given list with UILineInfo.
+---@field GetVertices fun() @Populate the given list with generated Vertices.
+---@field GetVerticesArray fun() @Returns the current UIVertex array.
+---@field rectExtents fun() @Extents of the generated text in rect format.
+---@field verts fun() @Array of generated vertices.
+---@field PopulateWithErrors fun() @Will generate the vertices and other data for the given string with the given settings.
+---@field GetLinesArray fun() @Returns the current UILineInfo.
+---@field lineCount fun() @Number of text lines generated.
+---@field Invalidate fun() @Mark the text generator as invalid. This will force a full text generation the next time Populate is called.
+---@field GetPreferredWidth fun() @Given a string and settings, returns the preferred width for a container that would hold this text.
+---@field characterCount fun() @The number of characters that have been generated.
+---@field ctor fun() @Create a TextGenerator.
+---@field characters fun() @Array of generated characters.
+---@field fontSizeUsedForBestFit fun() @The size of the font that was found if using best fit mode.
+---@field lines fun() @Information about each generated text line.

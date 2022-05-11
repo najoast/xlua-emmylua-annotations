@@ -1,0 +1,10 @@
+---@class Scripting @nil
+---@field PreserveAttribute fun() @PreserveAttribute prevents byte code stripping from removing a class, method, field, or property.
+---@field RequiredInterfaceAttribute fun() @When a type is marked, all interface implementations of the specified types will be marked.
+---@field AlwaysLinkAssemblyAttribute fun() @Ensure an assembly is always processed during managed code stripping.
+---@field RequireAttributeUsagesAttribute fun() @Only allowed on attribute types. If the attribute type is marked, then so too will all CustomAttributes of that type.
+---@field RequireDerivedAttribute fun() @When the type is marked, all types derived from that type will also be marked.
+---@field RequiredMemberAttribute fun() @When a type is marked, all of it's members with [RequiredMember] will be marked.
+---@field RequireImplementorsAttribute fun() @When the interface type is marked, all types implementing that interface will be marked.
+---@field ManagedDebugger Scripting.ManagedDebugger @Representation of managed debugger in UnityEditor.
+---@field GarbageCollector Scripting.GarbageCollector @API to control the garbage collector on the Mono and IL2CPP scripting backends.

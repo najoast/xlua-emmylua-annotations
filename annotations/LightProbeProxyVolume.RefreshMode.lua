@@ -1,0 +1,4 @@
+---@class LightProbeProxyVolume.RefreshMode @An enum describing the way a Light Probe Proxy Volume refreshes in the Player.
+---@field ViaScripting fun() @Use this option to indicate that the Light Probe Proxy Volume is never to be automatically updated by Unity.
+---@field EveryFrame fun() @Causes Unity to update the Light Probe Proxy Volume every frame.
+---@field Automatic fun() @Automatically detects updates in Light Probes and triggers an update of the Light Probe volume.

@@ -1,0 +1,4 @@
+---@class WebGLDebugSymbolMode @An enum containing different modes for debug symbols.
+---@field Embedded fun() @Debug symbols are embedded into the wasm file.
+---@field Off fun() @No debug symbols are added to the build.
+---@field External fun() @Debug symbols are stored in an external file.

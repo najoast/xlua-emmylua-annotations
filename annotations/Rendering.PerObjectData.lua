@@ -1,0 +1,13 @@
+---@class Rendering.PerObjectData @What kind of per-object data to setup during rendering.
+---@field MotionVectors fun() @Setup per-object motion vectors.
+---@field LightData fun() @Setup per-object light data.
+---@field None fun() @Do not setup any particular per-object data besides the transformation matrix.
+---@field LightProbeProxyVolume fun() @Setup per-object light probe proxy volume data.
+---@field ReflectionProbeData fun() @Setup per-object reflection probe index offset and count.
+---@field ShadowMask fun() @Setup per-object shadowmask.
+---@field ReflectionProbes fun() @Setup per-object reflection probe data.
+---@field Lightmaps fun() @Setup per-object lightmaps.
+---@field OcclusionProbe fun() @Setup per-object occlusion probe data.
+---@field OcclusionProbeProxyVolume fun() @Setup per-object occlusion probe proxy volume data (occlusion in alpha channels).
+---@field LightIndices fun() @Setup per-object light indices.
+---@field LightProbe fun() @Setup per-object light probe SH data.

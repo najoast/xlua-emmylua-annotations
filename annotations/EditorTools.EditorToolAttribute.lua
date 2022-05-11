@@ -1,0 +1,2 @@
+---@class EditorTools.EditorToolAttribute @Registers an EditorTool as either a Global tool or a Component tool for a specific target type.
+---@field ctor fun() @Registers an EditorTool as either a Global tool or a CustomEditor tool.

@@ -1,0 +1,8 @@
+---@class MemoryProfiler.VirtualMachineInformation @Information about the virtual machine running executing the managed code inside the player.
+---@field allocationGranularity fun() @Allocation granularity in bytes used by the virtual machine allocator.
+---@field heapFormatVersion fun() @A version number that will change when the object layout inside the managed heap will change.
+---@field arrayHeaderSize fun() @Size in bytes of the header of an array object.
+---@field objectHeaderSize fun() @Size in bytes of the header of each managed object.
+---@field arrayBoundsOffsetInHeader fun() @Offset in bytes inside the object header of an array object where the bounds of the array is stored.
+---@field arraySizeOffsetInHeader fun() @Offset in bytes inside the object header of an array object where the size of the array is stored.
+---@field pointerSize fun() @Size in bytes of a pointer.

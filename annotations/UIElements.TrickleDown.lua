@@ -1,0 +1,3 @@
+---@class UIElements.TrickleDown @Use this enum to specify during which phases the event handler is executed.
+---@field NoTrickleDown fun() @The event handler should be executed during the AtTarget and BubbleUp phases.
+---@field TrickleDown fun() @The event handler should be executed during the AtTarget and TrickleDown phases.

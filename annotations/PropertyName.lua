@@ -1,0 +1,9 @@
+---@class PropertyName @Represents a string as an int for efficient lookup and comparison. Use this for common PropertyNames.Internally stores just an int to represent the string. A PropertyName can be created from a string but can not be converted back to a string. The same string always results in the same int representing that string. Thus this is a very efficient string representation in both memory and speed when all you need is comparison.PropertyName is serializable.ToString() is only implemented for debugging purposes in the editor it returns theName:3737 in the player it returns Unknown:3737.
+---@field ToString fun() @For debugging purposes only. Returns the string value representing the string in the Editor.Returns UnityEngine.PropertyName in the player.
+---@field operator_ne fun() @Determines whether two specified PropertyName have a different string value.
+---@field ctor fun() @Initializes the PropertyName using a string.
+---@field operator_string fun() @Converts the string passed into a PropertyName. See Also: PropertyName.ctor(System.
+---@field operator_eq fun() @Determines whether two specified PropertyName have the same string value. Because two PropertyNames initialized with the same string value always have the same name index, we can simply perform a comparison of two ints to find out if the string value equals.
+---@field GetHashCode fun() @Returns the hash code for this PropertyName.
+---@field IsNullOrEmpty fun() @Indicates whether the specified PropertyName is an Empty string.
+---@field Equals fun() @Determines whether this instance and a specified object, which must also be a PropertyName object, have the same value.

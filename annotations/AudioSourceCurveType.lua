@@ -1,0 +1,5 @@
+---@class AudioSourceCurveType @This defines the curve type of the different custom curves that can be queried and set within the AudioSource.
+---@field CustomRolloff fun() @Custom Volume Rolloff.
+---@field ReverbZoneMix fun() @Reverb Zone Mix.
+---@field SpatialBlend fun() @The Spatial Blend.
+---@field Spread fun() @The 3D Spread.

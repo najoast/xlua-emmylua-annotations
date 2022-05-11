@@ -1,0 +1,2 @@
+---@class Android.IPostGenerateGradleAndroidProject @Implement this interface to receive a callback after the Android Gradle project is generated. Inherited from UnityEditor.Build.IOrderedCallback.
+---@field OnPostGenerateGradleAndroidProject fun() @Implement this function to receive a callback after the Android Gradle project is generated and before building begins. It is not called when doing an Internal build.

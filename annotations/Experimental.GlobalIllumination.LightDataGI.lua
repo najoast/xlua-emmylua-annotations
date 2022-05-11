@@ -1,0 +1,19 @@
+---@class Experimental.GlobalIllumination.LightDataGI @The interop structure to pass light information to the light baking backends. There are helper structures for Directional, Point, Spot and Rectangle lights to correctly initialize this structure.
+---@field shape1 fun() @The height for rectangle lights.
+---@field shadow fun() @Set to 1 for shadow casting lights, 0 otherwise.
+---@field cookieID fun() @The cookie texture's instance id projected by the light.
+---@field Init fun() @Initialize the struct with the parameters from the given light type.
+---@field position fun() @The position of the light.
+---@field shape0 fun() @The light's sphere radius for point and spot lights, or the width for rectangle lights.
+---@field InitNoBake fun() @Initialize a light so that the baking backends ignore it.
+---@field cookieScale fun() @The uniform scale factor for downscaling cookies during lightmapping. Can be used as an optimization when full resolution cookies are not needed for indirect lighting.
+---@field instanceID fun() @The light's instanceID.
+---@field range fun() @The range of the light. Unused for directional lights.
+---@field type fun() @The type of the light.
+---@field color fun() @The color of the light.
+---@field orientation fun() @The orientation of the light.
+---@field falloff fun() @The falloff model to use for baking point and spot lights.
+---@field innerConeAngle fun() @The inner cone angle for spot lights.
+---@field mode fun() @The lightmap mode for the light.
+---@field indirectColor fun() @The indirect color of the light.
+---@field coneAngle fun() @The cone angle for spot lights.

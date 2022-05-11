@@ -1,0 +1,4 @@
+---@class StereoRenderingPath @Enum used to specify what stereo rendering path to use.
+---@field Instancing fun() @Single pass VR rendering ( via instanced rendering ).
+---@field SinglePass fun() @Single pass VR rendering ( via double-wide render texture ).
+---@field MultiPass fun() @Multiple pass VR rendering.

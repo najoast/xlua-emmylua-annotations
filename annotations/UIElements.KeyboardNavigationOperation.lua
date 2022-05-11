@@ -1,0 +1,11 @@
+---@class UIElements.KeyboardNavigationOperation @Represents an operation that the user is trying to accomplish through a specific input mechanism.
+---@field PageUp fun() @Moves the selection up one page (in a list which has scrollable area).
+---@field PageDown fun() @Moves the selection down one page (in a list which has scrollable area).
+---@field Next fun() @Selects the next item.
+---@field None fun() @Default value. Indicates an uninitialized enum value.
+---@field Submit fun() @Submits or concludes the current UI interaction.
+---@field End fun() @Selects the last element.
+---@field SelectAll fun() @Selects all UI selectable elements or text.
+---@field Begin fun() @Selects the first element.
+---@field Previous fun() @Selects the previous item.
+---@field Cancel fun() @Cancels the current UI interaction.

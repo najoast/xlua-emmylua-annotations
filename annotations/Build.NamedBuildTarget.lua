@@ -1,0 +1,16 @@
+---@class Build.NamedBuildTarget @Build Target by name.
+---@field PS4 fun() @PS4.
+---@field XboxOne fun() @Xbox One.
+---@field Stadia fun() @Stadia.
+---@field EmbeddedLinux fun() @EmbeddedLinux.
+---@field NintendoSwitch fun() @Nintendo Switch.
+---@field WindowsStoreApps fun() @Windows Store Apps.
+---@field Android fun() @Android.
+---@field WebGL fun() @WebGL.
+---@field Server fun() @Server.
+---@field tvOS fun() @TvOS.
+---@field TargetName fun() @Name of the build target.
+---@field Standalone fun() @Desktop Standalone.
+---@field CloudRendering fun() @CloudRendering.
+---@field Unknown fun() @Unknown.
+---@field iOS fun() @iOS.

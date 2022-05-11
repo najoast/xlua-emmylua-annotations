@@ -1,0 +1,2 @@
+---@class Experimental.Video.VideoPlayerExtensions @Extension methods for the Video.VideoPlayer class.
+---@field GetAudioSampleProvider fun() @Return the Experimental.Audio.AudioSampleProvider for the specified track, used to receive audio samples during playback.

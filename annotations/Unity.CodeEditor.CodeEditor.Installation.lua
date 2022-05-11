@@ -1,0 +1,3 @@
+---@class Unity.CodeEditor.CodeEditor.Installation @Data class for code editor installation.
+---@field Path fun() @The path for the code editor.
+---@field Name fun() @The name of the code editor.

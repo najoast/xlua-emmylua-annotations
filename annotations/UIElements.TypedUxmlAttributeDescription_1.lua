@@ -1,0 +1,4 @@
+---@class UIElements.TypedUxmlAttributeDescription_1 @Base class for all the uxml specific attributes.
+---@field defaultValue fun() @The default value to be used for that specific attribute.
+---@field GetValueFromBag fun() @Use this method to obtain the actual value of the attribute.
+---@field defaultValueAsString fun() @The string representation of the default value of the uxml attribute.

@@ -1,0 +1,3 @@
+---@class EditorGUIUtility.PropertyCallbackScope @Specifies a scope in which a callback gets called before each property is rendered.
+---@field ctor fun() @Begin an PropertyCallbackScope.
+---@field Dispose fun() @Releases the callback.

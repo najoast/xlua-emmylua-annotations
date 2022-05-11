@@ -1,0 +1,12 @@
+---@class Networking.QosType @Enumeration of all supported quality of service channel modes.
+---@field AllCostDelivery fun() @A reliable message that will be re-sent with a high frequency until it is acknowledged.
+---@field ReliableFragmented fun() @Each message is guaranteed to be delivered, also allowing fragmented messages with up to 32 fragments per message.
+---@field Unreliable fun() @There is no guarantee of delivery or ordering.
+---@field ReliableFragmentedSequenced fun() @Each message is guaranteed to be delivered in order, also allowing fragmented messages with up to 32 fragments per message.
+---@field UnreliableSequenced fun() @There is no guarantee of delivery and all unordered messages will be dropped. Example: VoIP.
+---@field UnreliableFragmentedSequenced fun() @There is garantee of ordering, no guarantee of delivery, but allowing fragmented messages with up to 32 fragments per message.
+---@field ReliableStateUpdate fun() @A reliable message. Note: Only the last message in the send buffer is sent. Only the most recent message in the receive buffer will be delivered.
+---@field UnreliableFragmented fun() @There is no guarantee of delivery or ordering, but allowing fragmented messages with up to 32 fragments per message.
+---@field StateUpdate fun() @An unreliable message. Only the last message in the send buffer is sent. Only the most recent message in the receive buffer will be delivered.
+---@field ReliableSequenced fun() @Each message is guaranteed to be delivered and in order.
+---@field Reliable fun() @Each message is guaranteed to be delivered but not guaranteed to be in order.

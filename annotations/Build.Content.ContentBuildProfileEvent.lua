@@ -1,0 +1,5 @@
+---@class Build.Content.ContentBuildProfileEvent @Details about a profile event captured using the ContentBuildInterface.BeginProfileCapture and ContentBuildInterface.EndProfileCapture APIs.
+---@field Metadata fun() @Additional metadata associated with the event.
+---@field Name fun() @Name of the event.
+---@field TimeMicroseconds fun() @Time in microseconds that the event has occurred relative to when the profile capture began.
+---@field Type fun() @Enum used to label the event's type.

@@ -1,0 +1,3 @@
+---@class Experimental.Rendering.RayTracingAccelerationStructure.ManagementMode @Defines whether Unity updates a RayTracingAccelerationStructure automatically, or if the user updates it manually via API.
+---@field Manual fun() @Gives user control over populating and updating the RayTracingAccelerationStructure.
+---@field Automatic fun() @Automatically populates and updates the RayTracingAccelerationStructure.

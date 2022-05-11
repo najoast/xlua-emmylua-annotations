@@ -1,0 +1,6 @@
+---@class ModelImporterGenerateAnimations @Animation generation options for ModelImporter. These options relate to the legacy Animation system, they should only be used when ModelImporter.animationType==ModelImporterAnimationType.Legacy.
+---@field InNodes fun() @Generate animations in the objects that animate.
+---@field GenerateAnimations fun() @Default animation import mode (All animations are stored in the root object).
+---@field None fun() @Do not generate animations.
+---@field InRoot fun() @Generate animations in the transform root objects.
+---@field InOriginalRoots fun() @Generate animations in the root objects of the animation package.

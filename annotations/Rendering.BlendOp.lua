@@ -1,0 +1,37 @@
+---@class Rendering.BlendOp @Blend operation.
+---@field HardLight fun() @Hard light (Advanced OpenGL blending).
+---@field Lighten fun() @Lighten (Advanced OpenGL blending).
+---@field LogicalClear fun() @Logical Clear (0).
+---@field Max fun() @Max.
+---@field LogicalAnd fun() @Logical AND (s &amp; d) (D3D11.1 only).
+---@field Exclusion fun() @Exclusion (Advanced OpenGL blending).
+---@field ColorBurn fun() @Color burn (Advanced OpenGL blending).
+---@field Add fun() @Add (s + d).
+---@field HSLLuminosity fun() @HSL luminosity (Advanced OpenGL blending).
+---@field Difference fun() @Difference (Advanced OpenGL blending).
+---@field LogicalOrReverse fun() @Logical reverse OR (s | !d) (D3D11.1 only).
+---@field HSLColor fun() @HSL color (Advanced OpenGL blending).
+---@field ColorDodge fun() @Color dodge (Advanced OpenGL blending).
+---@field LogicalXor fun() @Logical XOR (s XOR d) (D3D11.1 only).
+---@field LogicalAndReverse fun() @Logical reverse AND (s &amp; !d) (D3D11.1 only).
+---@field LogicalCopy fun() @Logical Copy (s) (D3D11.1 only).
+---@field LogicalNoop fun() @Logical No-op (d) (D3D11.1 only).
+---@field HSLHue fun() @HSL Hue (Advanced OpenGL blending).
+---@field Overlay fun() @Overlay (Advanced OpenGL blending).
+---@field LogicalOrInverted fun() @Logical inverted OR (!s | d) (D3D11.1 only).
+---@field LogicalNand fun() @Logical NAND !(s &amp; d). D3D11.1 only.
+---@field Multiply fun() @Multiply (Advanced OpenGL blending).
+---@field LogicalOr fun() @Logical OR (s | d) (D3D11.1 only).
+---@field Darken fun() @Darken (Advanced OpenGL blending).
+---@field Subtract fun() @Subtract.
+---@field LogicalNor fun() @Logical NOR !(s | d) (D3D11.1 only).
+---@field LogicalInvert fun() @Logical Inverse (!d) (D3D11.1 only).
+---@field LogicalAndInverted fun() @Logical inverted AND (!s &amp; d) (D3D11.1 only).
+---@field SoftLight fun() @Soft light (Advanced OpenGL blending).
+---@field Screen fun() @Screen (Advanced OpenGL blending).
+---@field ReverseSubtract fun() @Reverse subtract.
+---@field Min fun() @Min.
+---@field HSLSaturation fun() @HSL saturation (Advanced OpenGL blending).
+---@field LogicalSet fun() @Logical SET (1) (D3D11.1 only).
+---@field LogicalCopyInverted fun() @Logical inverted Copy (!s) (D3D11.1 only).
+---@field LogicalEquivalence fun() @Logical Equivalence !(s XOR d) (D3D11.1 only).

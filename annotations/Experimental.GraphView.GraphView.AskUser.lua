@@ -1,0 +1,3 @@
+---@class Experimental.GraphView.GraphView.AskUser @Whether or not to ask the user for certain actions like deleting selection.
+---@field DontAskUser fun() @Don't ask the user before doing certain actions like deleting selection.
+---@field AskUser fun() @Ask the user before doing certain actions like deleting selection.

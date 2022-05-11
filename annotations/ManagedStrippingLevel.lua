@@ -1,0 +1,6 @@
+---@class ManagedStrippingLevel @Defines how aggressively Unity strips unused managed (C#) code.
+---@field Disabled fun() @Do not strip any code.
+---@field Low fun() @Remove unreachable managed code to reduce build size and Mono/IL2CPP build times.
+---@field High fun() @UnityLinker will strip as much as possible. This will further reduce code size beyond what Medium can achieve. However, this additional reduction may come with tradeoffs. Possible side effects may include, managed code debugging of some methods may no longer work.  You may need to maintain a custom link.xml file, and some reflection code paths may not behave the same.
+---@field Minimal fun() @The class libraries, UnityEngine, and Windows Runtime assemblies will be stripped. All other assemblies are copied.
+---@field Medium fun() @Run UnityLinker in a less conservative mode than Low. This will further reduce code size beyond what Low can achieve. However, this additional reduction may come with tradeoffs. Possible side effects may include, having to maintain a custom link.xml file, and some reflection code paths may not behave the same.

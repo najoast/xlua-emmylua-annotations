@@ -1,0 +1,8 @@
+---@class Experimental.GraphView.BlackboardSection @GraphElement that represents a section of members in a Blackboard.
+---@field title fun() @The title of this BlackboardSection.
+---@field contentContainer fun() @The content container of this BlackboardSection.
+---@field ctor fun() @Constructs a BlackboardSection.
+---@field headerVisible fun() @Indicates whether the header of the BlackboardSection is visible.
+---@field canAcceptDrop fun() @Callback for indicating whether this BlackboardSection accepts the selected object.
+---@field CanAcceptDrop fun() @Indicates whether this BlackboardSection accepts the selected object.
+---@field CanAcceptDropDelegate fun() @Delegate for indicating whether this BlackboardSection accepts the selected object.

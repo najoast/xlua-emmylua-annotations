@@ -1,0 +1,5 @@
+---@class ScreenCapture @Functionality to take Screenshots.
+---@field CaptureScreenshotAsTexture fun() @Captures a screenshot of the game view into a Texture2D object.
+---@field StereoScreenCaptureMode ScreenCapture.StereoScreenCaptureMode @Enumeration specifying the eye texture to capture when using ScreenCapture.CaptureScreenshot and when stereo rendering is enabled.
+---@field CaptureScreenshotIntoRenderTexture fun() @Captures a screenshot of the game view into a RenderTexture object.
+---@field CaptureScreenshot fun() @Captures a screenshot at path filename as a PNG file.

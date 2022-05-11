@@ -1,0 +1,12 @@
+---@class iOS.CalendarUnit @Specify calendrical units.
+---@field Week fun() @Specifies the week unit.
+---@field Era fun() @Specifies the era unit.
+---@field Quarter fun() @Specifies the quarter of the calendar.
+---@field Minute fun() @Specifies the minute unit.
+---@field Day fun() @Specifies the day unit.
+---@field Hour fun() @Specifies the hour unit.
+---@field Second fun() @Specifies the second unit.
+---@field Month fun() @Specifies the month unit.
+---@field Year fun() @Specifies the year unit.
+---@field WeekdayOrdinal fun() @Specifies the ordinal weekday unit.
+---@field Weekday fun() @Specifies the weekday unit.

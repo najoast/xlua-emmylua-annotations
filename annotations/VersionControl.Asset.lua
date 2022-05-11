@@ -1,0 +1,17 @@
+---@class VersionControl.Asset @This class containes information about the version control state of an asset.
+---@field States VersionControl.Asset.States @Describes the various version control states an asset can have.
+---@field IsState fun() @Returns true if the version control state of the asset exactly matches the input state.
+---@field state fun() @Gets the version control state of the asset.
+---@field Load fun() @Loads the asset to memory.
+---@field assetPath fun() @Gets the path of the Asset relative to the project root. If the Asset is a meta file, the path to the meta file is returned.
+---@field path fun() @Gets the path of the asset.
+---@field locked fun() @Returns true if the asset is locked by the version control system.
+---@field Edit fun() @Opens the assets in an associated editor.
+---@field IsOneOfStates fun() @Returns true if the version control state of the assets is one of the input states.
+---@field name fun() @Get the name of the asset.
+---@field isInCurrentProject fun() @Returns true if the asset file exists and is in the current project.
+---@field isFolder fun() @Returns true if the asset is a folder.
+---@field metaPath fun() @Gets the path of the meta file for this Asset relative to the project root. If the Asset is a meta file, the path to the meta file is returned.
+---@field isMeta fun() @Returns true if the instance of the Asset class actually refers to a .meta file.
+---@field fullName fun() @Gets the full name of the asset including extension.
+---@field readOnly fun() @Returns true is the asset is read only.

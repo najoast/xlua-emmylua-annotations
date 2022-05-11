@@ -1,0 +1,9 @@
+---@class Jobs.TransformAccess @Position, rotation and scale of an object.
+---@field localScale fun() @The scale of the transform relative to the parent.
+---@field isValid fun() @Use this to determine whether this instance refers to a valid Transform.
+---@field rotation fun() @The rotation of the transform in world space stored as a Quaternion.
+---@field position fun() @The position of the transform in world space.
+---@field worldToLocalMatrix fun() @Matrix that transforms a point from world space into local space (Read Only).
+---@field localRotation fun() @The rotation of the transform relative to the parent transform's rotation.
+---@field localPosition fun() @The position of the transform relative to the parent.
+---@field localToWorldMatrix fun() @Matrix that transforms a point from local space into world space (Read Only).

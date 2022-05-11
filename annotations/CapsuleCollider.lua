@@ -1,0 +1,5 @@
+---@class CapsuleCollider @A capsule-shaped primitive collider.
+---@field direction fun() @The direction of the capsule.
+---@field center fun() @The center of the capsule, measured in the object's local space.
+---@field radius fun() @The radius of the sphere, measured in the object's local space.
+---@field height fun() @The height of the capsule measured in the object's local space.

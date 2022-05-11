@@ -1,0 +1,5 @@
+---@class Subsystem @A Subsystem is initialized from a SubsystemDescriptorWithProvider for a given Subsystem (Example, Input, Display, etc.) and provides an interface to interact with that given Subsystem until it is Destroyed. After a Subsystem is created it can be Started or Stopped to turn on and off functionality (and improve performance). The base type for subsystems only exposes this functionality; this class is designed to be a base class for derived classes that expose more functionality specific to a given Subsystem.            Note: initializing a second Subsystem from the same SubsystemDescriptor will return a reference to the existing Subsystem as only one Subsystem is currently allowed for a single Subsystem provider.This subsystem base-class is deprecated. If you are creating a new subsystem type, derive from SubsystemWithProvider instead.
+---@field Stop fun() @Stops an instance of a subsystem.
+---@field Start fun() @Starts an instance of a subsystem.
+---@field running fun() @Whether or not the subsystem is running.
+---@field Destroy fun() @Destroys this instance of a subsystem.

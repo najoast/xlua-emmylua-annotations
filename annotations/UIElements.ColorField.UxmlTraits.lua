@@ -1,0 +1,2 @@
+---@class UIElements.ColorField.UxmlTraits @Defines UxmlTraits for the ColorField.
+---@field Init fun() @Initialize ColorField properties using values from the attribute bag.

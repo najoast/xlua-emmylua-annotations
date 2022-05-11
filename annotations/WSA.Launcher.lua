@@ -1,0 +1,4 @@
+---@class WSA.Launcher @Class which is capable of launching user's default app for file type or a protocol. See also PlayerSettings where you can specify file or URI associations.
+---@field LaunchFile fun() @Launches the default app associated with specified file.
+---@field LaunchUri fun() @Starts the default app associated with the URI scheme name for the specified URI, using the specified options.
+---@field LaunchFileWithPicker fun() @Opens a dialog for picking the file.

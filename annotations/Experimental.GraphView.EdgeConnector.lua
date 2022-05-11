@@ -1,0 +1,2 @@
+---@class Experimental.GraphView.EdgeConnector @Manipulator for creating new edges.
+---@field edgeDragHelper fun() @Reference to the edge drag helper.

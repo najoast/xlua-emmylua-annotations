@@ -1,0 +1,4 @@
+---@class VersionControl.VersionControlManager @Manages version control systems.
+---@field SetVersionControl fun() @Sets the active version control system.
+---@field activeVersionControlObject fun() @The VersionControlObject representing active VCS.
+---@field versionControlDescriptors fun() @An array containing all available version control systems.

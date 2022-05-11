@@ -1,0 +1,5 @@
+---@class UIElements.PanelChangedEventBase_1 @Abstract base class for events notifying of a panel change.
+---@field Init fun() @Resets the event members to their initial values.
+---@field GetPooled fun() @Gets an event from the event pool and initializes it with the given values. Use this function instead of creating new events. Events obtained using this method need to be released back to the pool. You can use Dispose() to release them.
+---@field originPanel fun() @In the case of AttachToPanelEvent, the panel to which the event target element was attached. In the case of DetachFromPanelEvent, the panel from which the event target element is detached.
+---@field destinationPanel fun() @In the case of AttachToPanelEvent, the panel to which the event target element is now attached. In the case of DetachFromPanelEvent, the panel to which the event target element will be attached.

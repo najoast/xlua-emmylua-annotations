@@ -1,0 +1,72 @@
+---@class ArticulationBody @A body that forms part of a Physics articulation.
+---@field GetJointForces fun() @Reads back articulation body joint forces of the entire hierarchy to the supplied list of floats .
+---@field GetDriveTargets fun() @Reads back articulation body joint drive targets of the entire hierarchy to the supplied list of floats.
+---@field inertiaTensorRotation fun() @The rotation of the inertia tensor.
+---@field ResetCenterOfMass fun() @Resets the center of mass of the articulation body.
+---@field centerOfMass fun() @The center of mass of the body defined in local space.
+---@field dofCount fun() @The amount of degrees of freedom of a body.
+---@field maxDepenetrationVelocity fun() @The maximum velocity of an articulation body when moving out of penetrating state.
+---@field parentAnchorPosition fun() @Position of the anchor relative to this body's parent.
+---@field SetDriveTargets fun() @Assigns articulation body joint drive targets for the entire hierarchy of bodies.
+---@field SetDriveTargetVelocities fun() @Assigns articulation body joint drive target velocities for the entire hierarchy of bodies.
+---@field GetJointPositions fun() @Reads back articulation body joint positions of the entire hierarchy to the supplied list of floats .
+---@field worldCenterOfMass fun() @The center of mass of the body defined in world space (Read Only).
+---@field IsSleeping fun() @Indicates whether the articulation body is sleeping.
+---@field immovable fun() @Allows you to specify that this body is not movable.
+---@field SetJointPositions fun() @Assigns articulation body joint positions for the entire hierarchy of bodies.
+---@field AddForce fun() @Applies a force to the ArticulationBody.
+---@field AddRelativeTorque fun() @Applies a torque to the articulation body, relative to its local coordinate system.
+---@field jointVelocity fun() @The joint velocity in reduced coordinates.
+---@field GetRelativePointVelocity fun() @The velocity relative to the articulation body at the point relativePoint.
+---@field GetClosestPoint fun() @Return the point on the articulation body that is closest to a given one.
+---@field inertiaTensor fun() @The inertia tensor of this body.
+---@field anchorPosition fun() @Position of the anchor relative to this body.
+---@field AddTorque fun() @Add torque to the articulation body.
+---@field linearLockY fun() @The type of lock along Y axis of movement.
+---@field index fun() @The index of the body in the hierarchy of articulation bodies.
+---@field isRoot fun() @Indicates whether this body is the root body of the articulation (Read Only).
+---@field AddRelativeForce fun() @Applies a force to the Articulation Body, relative to its local coordinate system.
+---@field angularVelocity fun() @The angular velocity of the body defined in world space.
+---@field swingZLock fun() @The magnitude of the conical swing angle relative to Z axis.
+---@field maxLinearVelocity fun() @The maximum linear velocity of the articulation body measured in meters per second.
+---@field linearDamping fun() @Damping factor that affects how this body resists linear motion.
+---@field swingYLock fun() @The magnitude of the conical swing angle relative to Y axis.
+---@field jointFriction fun() @Allows you to specify the amount of friction that is applied as a result of the parent body moving relative to this body.
+---@field zDrive fun() @The properties of drive along or around Z.
+---@field TeleportRoot fun() @Teleport the root body of the articulation to a new pose.
+---@field GetDenseJacobian fun() @Calculates and writes dense Jacobian matrix of the articulation body hierarchy to the supplied struct.
+---@field useGravity fun() @Controls whether gravity affects this articulation body.
+---@field yDrive fun() @The properties of drive along or around Y.
+---@field xDrive fun() @The properties of drive along or around X.
+---@field WakeUp fun() @Forces an articulation body to wake up.
+---@field velocity fun() @Linear velocity of the body defined in world space.
+---@field angularDamping fun() @Damping factor that affects how this body resists rotations.
+---@field AddForceAtPosition fun() @Applies a force at a specific position, resulting in applying a torque and force on the object.
+---@field SnapAnchorToClosestContact fun() @Snap the anchor to the closest contact between the connected bodies.
+---@field twistLock fun() @The type of lock for twist movement.
+---@field maxJointVelocity fun() @The maximum joint velocity of the articulation body joint in reduced coordinates.
+---@field Sleep fun() @Forces an articulation body to sleep.
+---@field SetJointVelocities fun() @Assigns articulation body joint velocities for the entire hierarchy of bodies.
+---@field collisionDetectionMode fun() @The ArticulationBody's collision detection mode.
+---@field SetJointForces fun() @Assigns articulation body joint forces for the entire hierarchy of bodies.
+---@field ResetInertiaTensor fun() @Resets the inertia tensor value and rotation.
+---@field SetJointAccelerations fun() @Assigns articulation body joint accelerations for the entire hierarchy of bodies.
+---@field sleepThreshold fun() @The mass-normalized energy threshold, below which objects start going to sleep.
+---@field solverIterations fun() @The solverIterations determines how accurately articulation body joints and collision contacts are resolved.
+---@field GetPointVelocity fun() @Gets the velocity of the articulation body at the specified worldPoint in global space.
+---@field linearLockX fun() @The type of lock along X axis of movement.
+---@field maxAngularVelocity fun() @The maximimum angular velocity of the articulation body measured in radians per second.
+---@field GetDriveTargetVelocities fun() @Reads back articulation body joint drive target velocities of the entire hierarchy to the supplied list of floats .
+---@field solverVelocityIterations fun() @The solverVelocityIterations affects how accurately articulation body joints and collision contacts are resolved during bounce.
+---@field GetJointVelocities fun() @Reads back articulation body joint velocities of the entire hierarchy to the supplied list of floats .
+---@field GetJointAccelerations fun() @Reads back articulation body joint accelerations of the entire hierarchy to the supplied list of floats .
+---@field jointPosition fun() @The joint position in reduced coordinates.
+---@field GetDofStartIndices fun() @Calculates and reads back reduced coordinate data start indexes in reduced coordinate data buffer for every articulation body in the hierarchy.
+---@field jointForce fun() @The joint force in reduced coordinates.
+---@field mass fun() @The mass of this articulation body.
+---@field linearLockZ fun() @The type of lock along Z axis of movement.
+---@field jointAcceleration fun() @The joint acceleration in reduced coordinates.
+---@field matchAnchors fun() @Whether the parent anchor should be computed automatically or not.
+---@field parentAnchorRotation fun() @Rotation of the anchor relative to this body's parent.
+---@field anchorRotation fun() @Rotation of the anchor relative to this body.
+---@field jointType fun() @The type of joint connecting this body to its parent body.

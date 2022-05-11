@@ -1,0 +1,8 @@
+---@class CubemapFace @Cubemap face.
+---@field Unknown fun() @Cubemap face is unknown or unspecified.
+---@field NegativeY fun() @Downward facing side (-y).
+---@field PositiveY fun() @Upwards facing side (+y).
+---@field NegativeZ fun() @Backward facing side (-z).
+---@field PositiveX fun() @Right facing side (+x).
+---@field PositiveZ fun() @Forward facing side (+z).
+---@field NegativeX fun() @Left facing side (-x).

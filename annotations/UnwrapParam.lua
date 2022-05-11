@@ -1,0 +1,6 @@
+---@class UnwrapParam @Unwrapping settings.
+---@field SetDefaults fun() @Will set default values for params.
+---@field areaError fun() @Maximum allowed area distortion (0..1).
+---@field packMargin fun() @How much uv-islands will be padded.
+---@field hardAngle fun() @This angle (in degrees) or greater between triangles will cause seam to be created.
+---@field angleError fun() @Maximum allowed angle distortion (0..1).

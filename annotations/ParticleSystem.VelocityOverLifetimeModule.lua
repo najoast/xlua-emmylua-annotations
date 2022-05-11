@@ -1,0 +1,25 @@
+---@class ParticleSystem.VelocityOverLifetimeModule @Script interface for the VelocityOverLifetimeModule.
+---@field y fun() @Curve to control particle speed based on lifetime, on the y-axis.
+---@field speedModifierMultiplier fun() @A multiplier for ParticleSystem.VelocityOverLifetimeModule._speedModifier.
+---@field orbitalYMultiplier fun() @Speed multiplier along the y-axis.
+---@field orbitalY fun() @Curve to control particle speed based on lifetime, around the y-axis.
+---@field speedModifier fun() @Curve to control particle speed based on lifetime, without affecting the direction of the particles.
+---@field xMultiplier fun() @A multiplier for ParticleSystem.VelocityOverLifetimeModule._x
+---@field orbitalOffsetZ fun() @Specify a custom center of rotation for the orbital and radial velocities.
+---@field orbitalX fun() @Curve to control particle speed based on lifetime, around the x-axis.
+---@field orbitalXMultiplier fun() @Speed multiplier along the x-axis.
+---@field orbitalOffsetY fun() @Specify a custom center of rotation for the orbital and radial velocities.
+---@field zMultiplier fun() @A multiplier for ParticleSystem.VelocityOverLifetimeModule._z.
+---@field z fun() @Curve to control particle speed based on lifetime, on the z-axis.
+---@field yMultiplier fun() @A multiplier for ParticleSystem.VelocityOverLifetimeModule._y.
+---@field x fun() @Curve to control particle speed based on lifetime, on the x-axis.
+---@field space fun() @Specifies if the velocities are in local space (rotated with the transform) or world space.
+---@field orbitalOffsetYMultiplier fun() @A multiplier for _orbitalOffsetY.
+---@field orbitalZ fun() @Curve to control particle speed based on lifetime, around the z-axis.
+---@field orbitalOffsetXMultiplier fun() @A multiplier for _orbitalOffsetX.
+---@field orbitalZMultiplier fun() @Speed multiplier along the z-axis.
+---@field enabled fun() @Specifies whether the VelocityOverLifetimeModule is enabled or disabled.
+---@field orbitalOffsetZMultiplier fun() @A multiplier for _orbitalOffsetY.
+---@field radialMultiplier fun() @A multiplier for ParticleSystem.VelocityOverLifetimeModule._radial.
+---@field radial fun() @Curve to control particle speed based on lifetime, away from a center position.
+---@field orbitalOffsetX fun() @Specify a custom center of rotation for the orbital and radial velocities.

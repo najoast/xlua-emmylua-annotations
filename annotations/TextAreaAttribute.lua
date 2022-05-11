@@ -1,0 +1,4 @@
+---@class TextAreaAttribute @Attribute to make a string be edited with a height-flexible and scrollable text area.
+---@field minLines fun() @The minimum amount of lines the text area will use.
+---@field ctor fun() @Attribute to make a string be edited with a height-flexible and scrollable text area.
+---@field maxLines fun() @The maximum amount of lines the text area can show before it starts using a scrollbar.

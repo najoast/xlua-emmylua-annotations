@@ -1,0 +1,34 @@
+---@class AssetPostprocessor @AssetPostprocessor lets you hook into the import pipeline and run scripts prior or after importing assets.
+---@field OnPreprocessLightDescription fun() @Add this function to a subclass to recieve a notification when a light is imported from a Model Importer.
+---@field OnPostprocessTexture2DArray fun() @Add this function to a subclass to get a notification when a texture2DArray has completed importing just before Unity compresses it.
+---@field OnPostprocessAnimation fun() @This function is called when an AnimationClip has finished importing.
+---@field OnPostprocessGameObjectWithAnimatedUserProperties fun() @This function is called when the animation curves for a custom property are finished importing.
+---@field OnPostprocessModel fun() @Add this function to a subclass to get a notification when a model has completed importing.
+---@field OnPostprocessMeshHierarchy fun() @This function is called when a new transform hierarchy has finished importing.
+---@field OnPostprocessSpeedTree fun() @Add this function to a subclass to get a notification when a SpeedTree asset has completed importing.
+---@field LogWarning fun() @Logs an import warning to the console.
+---@field OnPostprocessGameObjectWithUserProperties fun() @Gets called for each GameObject that had at least one user property attached to it in the imported file.
+---@field OnPreprocessModel fun() @Add this function to a subclass to get a notification just before a model (.fbx, .mb file etc.) is imported.
+---@field OnPreprocessAsset fun() @Add this function to a subclass to get a notification just before any Asset is imported.
+---@field OnPreprocessMaterialDescription fun() @Add this function to a subclass to recieve a notification when a material is imported from a Model Importer.
+---@field OnPostprocessTexture fun() @Add this function to a subclass to get a notification when a texture2D has completed importing just before Unity compresses it.
+---@field OnPostprocessCubemap fun() @Add this function to a subclass to get a notification just before a cubemap texture has completed importing.
+---@field OnAssignMaterialModel fun() @Feeds a source material.
+---@field OnPostprocessSprites fun() @Add this function to a subclass to get a notification when an texture of sprite(s)  has completed importing.
+---@field OnPreprocessTexture fun() @Add this function to a subclass to get a notification just before the texture importer is run.
+---@field LogError fun() @Logs an import error message to the console.
+---@field OnPreprocessAudio fun() @Add this function to a subclass to get a notification just before an audio clip is being imported.
+---@field OnPreprocessAnimation fun() @Add this function to a subclass to get a notification just before animation from a model (.fbx, .mb file etc.) is imported.
+---@field OnPostprocessAllAssets fun() @This is called after importing of any number of assets is complete (when the Assets progress bar has reached the end).
+---@field assetPath fun() @The path name of the asset being imported.
+---@field GetVersion fun() @Returns the version of the asset postprocessor.
+---@field OnPostprocessPrefab fun() @Gets a notification when a Prefab completes importing.
+---@field OnPreprocessSpeedTree fun() @Add this function to a subclass to get a notification just before a SpeedTree asset (.spm file) is imported.
+---@field OnPostprocessAudio fun() @Add this function to a subclass to get a notification when an audio clip has completed importing.
+---@field OnPostprocessTexture3D fun() @Add this function to a subclass to get a notification when a texture3D has completed importing just before Unity compresses it.
+---@field OnPostprocessAssetbundleNameChanged fun() @Handler called when asset is assigned to a different asset bundle.
+---@field GetPostprocessOrder fun() @Override the order in which importers are processed.
+---@field OnPostprocessMaterial fun() @Add this function to a subclass to get a notification when a Material asset has completed importing.
+---@field OnPreprocessCameraDescription fun() @Add this function to a subclass to recieve a notification when a camera is imported from a Model Importer.
+---@field context fun() @The import context.
+---@field assetImporter fun() @Reference to the asset importer.

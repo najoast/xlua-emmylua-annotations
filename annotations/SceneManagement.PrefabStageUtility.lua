@@ -1,0 +1,4 @@
+---@class SceneManagement.PrefabStageUtility @Utility methods related to Prefab stages.
+---@field OpenPrefab fun() @Opens a Prefab Asset in Prefab Mode.
+---@field GetPrefabStage fun() @Get the Prefab stage which contains the given GameObject.
+---@field GetCurrentPrefabStage fun() @Get the current Prefab stage, or null if there is none.

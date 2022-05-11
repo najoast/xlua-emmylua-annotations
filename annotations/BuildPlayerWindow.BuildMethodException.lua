@@ -1,0 +1,2 @@
+---@class BuildPlayerWindow.BuildMethodException @Exceptions used to indicate abort or failure in the callbacks registered via BuildPlayerWindow.RegisterBuildPlayerHandler and BuildPlayerWindow.RegisterGetBuildPlayerOptionsHandler.
+---@field ctor fun() @Create a new BuildMethodException.

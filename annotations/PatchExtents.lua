@@ -1,0 +1,3 @@
+---@class PatchExtents @Structure containing minimum and maximum terrain patch height values.
+---@field min fun() @Minimum height of a terrain patch.
+---@field max fun() @Maximum height of a terrain patch.

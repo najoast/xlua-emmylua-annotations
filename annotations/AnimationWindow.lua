@@ -1,0 +1,9 @@
+---@class AnimationWindow @Use the AnimationWindow class to select and edit Animation clips.
+---@field frame fun() @The frame number at which the Animation window playhead is located.
+---@field recording fun() @This property toggles recording in the Animation window.
+---@field playing fun() @This property toggles animation playback in the Animation window.
+---@field previewing fun() @This property toggles previewing in the Animation window.
+---@field canPreview fun() @True if Animation window can enable preview mode. False otherwise. (Read Only)
+---@field time fun() @The time value at which the Animation window playhead is located.
+---@field animationClip fun() @The animation clip selected in the Animation window.
+---@field canRecord fun() @True if Animation window can enable recording mode. False otherwise. (Read Only)

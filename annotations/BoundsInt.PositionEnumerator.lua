@@ -1,0 +1,5 @@
+---@class BoundsInt.PositionEnumerator @An iterator that allows you to iterate over all positions within the BoundsInt.
+---@field MoveNext fun() @Moves the enumerator to the next position.
+---@field Current fun() @Current position of the enumerator.
+---@field Reset fun() @Resets this enumerator to its starting state.
+---@field GetEnumerator fun() @Returns this as an iterator that allows you to iterate over all positions within the BoundsInt.

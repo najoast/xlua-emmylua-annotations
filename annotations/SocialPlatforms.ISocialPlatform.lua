@@ -1,0 +1,12 @@
+---@class SocialPlatforms.ISocialPlatform @The generic Social API interface which implementations must inherit.
+---@field localUser fun() @See Social.localUser.
+---@field ShowAchievementsUI fun() @See Social.ShowAchievementsUI.
+---@field LoadAchievements fun() @See Social.LoadAchievements.
+---@field ReportProgress fun() @See Social.ReportProgress.
+---@field LoadAchievementDescriptions fun() @See Social.LoadAchievementDescriptions.
+---@field ReportScore fun() @See Social.ReportScore.
+---@field CreateAchievement fun() @See Social.CreateAchievement.
+---@field LoadUsers fun() @See Social.LoadUsers.
+---@field LoadScores fun() @See Social.LoadScores.
+---@field CreateLeaderboard fun() @See Social.CreateLeaderboard.
+---@field ShowLeaderboardUI fun() @See Social.ShowLeaderboardUI.

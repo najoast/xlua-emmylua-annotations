@@ -1,0 +1,20 @@
+---@class Experimental.AI.NavMeshQuery @Object used for doing navigation operations in a NavMeshWorld.
+---@field GetPortalPoints fun() @Obtains the end points of the line segment common to two adjacent NavMesh nodes.
+---@field MoveLocationsInSameAreas fun() @Translates a series of NavMesh locations to other positions without losing contact with the surface, given one common area filter for all of them.
+---@field ctor fun() @Creates the NavMeshQuery object and allocates memory to store NavMesh node information, if required.
+---@field GetPolygonType fun() @Returns whether the NavMesh node is a polygon or a link.
+---@field GetEdgesAndNeighbors fun() @Retrieves the vertices of a given node and the identifiers of all the navigation nodes to which it connects.
+---@field MapLocation fun() @Finds the closest point and PolygonId on the NavMesh for a given world position.
+---@field MoveLocations fun() @Translates a series of NavMesh locations to other positions without losing contact with the surface.
+---@field BeginFindPath fun() @Initiates a pathfinding operation between two locations on the NavMesh.
+---@field GetPathResult fun() @Copies into the provided array the list of NavMesh nodes that form the path found by the NavMeshQuery operation.
+---@field UpdateFindPath fun() @Continues a path search that is in progress.
+---@field Raycast fun() @Trace a line between two points on the NavMesh.
+---@field PolygonWorldToLocalMatrix fun() @Returns the inverse transformation matrix of the NavMesh surface that contains the specified NavMesh node (Read Only).
+---@field IsValid fun() @Returns true if the node referenced by the specified PolygonId is active in the NavMesh.
+---@field EndFindPath fun() @Obtains the number of nodes in the path that has been computed during a successful NavMeshQuery.UpdateFindPath operation.
+---@field PolygonLocalToWorldMatrix fun() @Returns the transformation matrix of the NavMesh surface that contains the specified NavMesh node (Read Only).
+---@field MoveLocation fun() @Translates a NavMesh location to another position without losing contact with the surface.
+---@field GetAgentTypeIdForPolygon fun() @Returns the identifier of the agent type the NavMesh was baked for or for which the link has been configured.
+---@field Dispose fun() @Destroys the NavMeshQuery and deallocates all memory used by it.
+---@field CreateLocation fun() @Returns a valid NavMeshLocation for a position and a polygon provided by the user.

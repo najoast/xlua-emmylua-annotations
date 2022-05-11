@@ -1,0 +1,5 @@
+---@class FullScreenMode @Platform agnostic fullscreen mode. Not all platforms support all modes.
+---@field ExclusiveFullScreen fun() @Exclusive Mode.
+---@field Windowed fun() @Windowed.
+---@field MaximizedWindow fun() @Maximized window.
+---@field FullScreenWindow fun() @Fullscreen window.

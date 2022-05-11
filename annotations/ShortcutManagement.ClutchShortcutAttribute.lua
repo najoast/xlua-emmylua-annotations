@@ -1,0 +1,2 @@
+---@class ShortcutManagement.ClutchShortcutAttribute @Attribute used to register a static method as the action for a clutch shortcut.
+---@field ctor fun() @Creates an attribute for a clutch shortcut with an ID, optional context, and optional default binding.

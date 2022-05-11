@@ -1,0 +1,2 @@
+---@class VersionControl.IIconOverlayExtension @Version control system extension that allows drawing icon overlays.
+---@field DrawOverlay fun() @Draws icon overlay.

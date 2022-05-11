@@ -1,0 +1,10 @@
+---@class SketchUpImportCamera @Structure to hold camera data extracted from a SketchUp file.
+---@field orthoSize fun() @The orthogonal projection size of the camera. This value only make sense if SketchUpImportCamera.isPerspective is false.
+---@field nearPlane fun() @The far clipping plane distance.
+---@field farPlane fun() @The near clipping plane distance.
+---@field isPerspective fun() @Indicate if the camera is using a perspective or orthogonal projection.
+---@field lookAt fun() @The position the camera is looking at.
+---@field up fun() @Up vector of the camera.
+---@field aspectRatio fun() @Aspect ratio of the camera.
+---@field position fun() @The position of the camera.
+---@field fieldOfView fun() @Field of view of the camera.

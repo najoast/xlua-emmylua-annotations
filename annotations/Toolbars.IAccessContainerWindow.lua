@@ -1,0 +1,2 @@
+---@class Toolbars.IAccessContainerWindow @Implement this interface to gain access to toolbar's container EditorWindow.
+---@field containerWindow fun() @EditorToolbar's container EditorWindow.

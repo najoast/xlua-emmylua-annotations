@@ -1,0 +1,2 @@
+---@class UIElements.Slider.UxmlTraits @Defines UxmlTraits for the Slider.
+---@field Init fun() @Initialize Slider properties using values from the attribute bag.

@@ -1,0 +1,8 @@
+---@class UIElements.ToolbarBreadcrumbs @Creates a breadcrumb UI element for the toolbar to help users navigate a hierarchy. For example, the visual scripting breadcrumb toolbar makes it easier to explore scripts because users can jump to any level of the script by clicking a breadcrumb item.
+---@field PopItem fun() @Removes the last item in the breadcrumb toolbar, which is the deepest item in the hierarchy.
+---@field ctor fun() @Constructs a breadcrumb UI element for the toolbar to help users navigate a hierarchy.
+---@field UxmlFactory fun() @Instantiates a ToolbarBreadcrumbs using the data read from a UXML file.
+---@field ussClassName fun() @A Unity style sheet (USS) class for the main ToolbarBreadcrumbs container.
+---@field PushItem fun() @Adds an item to the end of the breadcrumbs, which makes that item the deepest item in the hierarchy.
+---@field itemClassName fun() @A Unity style sheet (USS) class for individual items in a breadcrumb toolbar.
+---@field firstItemClassName fun() @A Unity style sheet (USS) class for the first element or item in a breadcrumb toolbar.

@@ -1,0 +1,3 @@
+---@class ScriptCompiler @Represents different C# compilers that can be used to compile C# scripts.
+---@field Roslyn fun() @Roslyn C# Compiler.
+---@field Mono fun() @Mono C# Compiler.

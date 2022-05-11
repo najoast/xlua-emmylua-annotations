@@ -1,0 +1,7 @@
+---@class Experimental.GraphView.EdgeDragHelper @EdgeDragHelper's constructor.
+---@field Reset fun() @Reset the state of the drag helper.
+---@field HandleMouseDown fun() @Handle mouse down event.
+---@field draggedPort fun() @The port the edge is being dragged from.
+---@field HandleMouseMove fun() @Handle mouse move event.
+---@field HandleMouseUp fun() @Handle mouse up event.
+---@field edgeCandidate fun() @The edge being dragged.

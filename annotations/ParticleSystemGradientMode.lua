@@ -1,0 +1,6 @@
+---@class ParticleSystemGradientMode @The particle gradient mode.
+---@field TwoGradients fun() @Use a random value between 2 color gradients for the ParticleSystem.MinMaxGradient.
+---@field Color fun() @Use a single color for the ParticleSystem.MinMaxGradient.
+---@field TwoColors fun() @Use a random value between 2 colors for the ParticleSystem.MinMaxGradient.
+---@field RandomColor fun() @Define a list of colors in the ParticleSystem.MinMaxGradient, to be chosen from at random.
+---@field Gradient fun() @Use a single color gradient for the ParticleSystem.MinMaxGradient.

@@ -1,0 +1,3 @@
+---@class InspectorNameAttribute @Use this attribute on enum value declarations to change the display name shown in the Inspector.
+---@field ctor fun() @Specify a display name for an enum value.
+---@field displayName fun() @Name to display in the Inspector.

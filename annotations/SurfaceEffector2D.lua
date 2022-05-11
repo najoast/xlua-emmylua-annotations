@@ -1,0 +1,7 @@
+---@class SurfaceEffector2D @Applies tangent forces along the surfaces of colliders.
+---@field forceScale fun() @The scale of the impulse force applied while attempting to reach the surface speed.
+---@field useFriction fun() @Should friction be used for any contact with the surface?
+---@field speed fun() @The speed to be maintained along the surface.
+---@field useBounce fun() @Should bounce be used for any contact with the surface?
+---@field speedVariation fun() @The speed variation (from zero to the variation) added to base speed to be applied.
+---@field useContactForce fun() @Should the impulse force but applied to the contact point?

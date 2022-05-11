@@ -1,0 +1,13 @@
+---@class Experimental.GraphView.Capabilities @Capabilities used by Manipulators to easily determine valid actions on a GraphElement.
+---@field Resizable fun() @The GraphElement is resizable.
+---@field Droppable fun() @The GraphElement can be dragged and dropped (using the Drag&amp;Drop events).
+---@field Collapsible fun() @The GraphElement can be collapsed.
+---@field Deletable fun() @The GraphElement can be deleted.
+---@field Snappable fun() @When Graph Snapping is enabled in Preferences, other GraphElements align with this GraphElement when the user drags them.
+---@field Stackable fun() @The GraphElement can be placed in StackNode containers.
+---@field Groupable fun() @The GraphElement can be grouped.
+---@field Ascendable fun() @The GraphElement will be brought to the front of its layer when it is selected.
+---@field Renamable fun() @The GraphElement is renamable.
+---@field Copiable fun() @The GraphElement can be copied.
+---@field Selectable fun() @The GraphElement is selectable.
+---@field Movable fun() @The GraphElement is movable.

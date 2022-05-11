@@ -1,0 +1,6 @@
+---@class Experimental.Rendering.RayTracingAccelerationStructure.RayTracingModeMask @An enum controlling which RayTracingAccelerationStructure.RayTracingModes a Renderer must have in order to be added to the RayTracingAccelerationStructure.
+---@field DynamicTransform fun() @Only add Renderers with RayTracingMode.DynamicTransform set to the RayTracingAccelerationStructure.
+---@field Everything fun() @Add all Renderers to the RayTracingAccelerationStructure except for those with that have RayTracingMode.Off.
+---@field Nothing fun() @Disable adding Renderers to this RayTracingAccelerationStructure.
+---@field Static fun() @Only add Renderers with RayTracingMode.Static set to the RayTracingAccelerationStructure.
+---@field DynamicGeometry fun() @Only add Renderers with RayTracingMode.DynamicGeometry set to the RayTracingAccelerationStructure.

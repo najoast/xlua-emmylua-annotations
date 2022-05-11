@@ -1,0 +1,89 @@
+---@class Physics2D @Global settings and helpers for 2D physics.
+---@field IsTouching fun() @Checks whether the passed Colliders are in contact or not.
+---@field CircleCast fun() @Casts a circle against Colliders in the Scene, returning the first Collider to contact with it.
+---@field deleteStopsCallbacks fun() @Set whether to continue or stop the proccesing of collision callbacks if any of the objects involved in the collision are deleted.
+---@field OverlapCircleAll fun() @Get a list of all Colliders that fall within a circular area.
+---@field velocityIterations fun() @The number of iterations of the physics solver when considering objects' velocities.
+---@field changeStopsCallbacks fun() @Set whether the reporting of collisions callbacks immediately stops if any of the objects involved in the collision are deleted or moved.
+---@field LinecastAll fun() @Casts a line against Colliders in the Scene.
+---@field OverlapCircleNonAlloc fun() @Get a list of all Colliders that fall within a circular area. Note: This method will be deprecated in a future build and it is recommended to use OverlapCircle instead.
+---@field GetRayIntersection fun() @Cast a 3D ray against the Colliders in the Scene returning the first Collider along the ray.
+---@field OverlapCapsule fun() @Checks if a Collider falls within a capsule area.
+---@field colliderAsleepColor fun() @The color used by the Gizmos to show all asleep Colliders (Collider is asleep when the body is asleep).
+---@field colliderAABBColor fun() @Set the color used by the Gizmos to show all Collider axis-aligned bounding boxes (AABBs).
+---@field showColliderContacts fun() @Should the Collider Gizmos show current contacts for each Collider?
+---@field OverlapAreaNonAlloc fun() @Get a list of all Colliders that fall within a specified area. Note: This method will be deprecated in a future build and it is recommended to use OverlapArea instead.
+---@field queriesStartInColliders fun() @Set the raycasts or linecasts that start inside Colliders to detect or not detect those Colliders.
+---@field CircleCastNonAlloc fun() @Casts a circle into the Scene, returning Colliders that contact with it into the provided results array. Note: This method will be deprecated in a future build and it is recommended to use CircleCast instead.
+---@field jobOptions fun() @A set of options that control how physics operates when using the job system to multithread the physics simulation.
+---@field BoxCast fun() @Casts a box against Colliders in the Scene, returning the first Collider to contact with it.
+---@field Distance fun() @Calculates the minimum distance between two Colliders.
+---@field positionIterations fun() @The number of iterations of the physics solver when considering objects' positions.
+---@field MaxPolygonShapeVertices fun() @The maximum number of vertices allowed per primitive polygon shape type (PhysicsShapeType2D.Polygon). (Read Only)
+---@field callbacksOnDisable fun() @Use this to control whether or not the appropriate OnCollisionExit2D or OnTriggerExit2D callbacks should be called when a Collider2D is disabled.
+---@field OverlapCollider fun() @Gets a list of all Colliders that overlap the given Collider.
+---@field CapsuleCast fun() @Casts a capsule against Colliders in the Scene, returning the first Collider to contact with it.
+---@field OverlapPoint fun() @Checks if a Collider overlaps a point in space.
+---@field CapsuleCastNonAlloc fun() @Casts a capsule into the Scene, returning Colliders that contact with it into the provided results array. Note: This method will be deprecated in a future build and it is recommended to use CapsuleCast instead.
+---@field minPenetrationForPenalty fun() @This property is obsolete.  You should use defaultContactOffset instead.
+---@field defaultPhysicsScene fun() @The PhysicsScene2D automatically created when Unity starts.
+---@field GetContacts fun() @Retrieves all Colliders in contact with the Collider.
+---@field angularSleepTolerance fun() @A Rigidbody cannot sleep if its angular velocity is above this tolerance threshold.
+---@field CircleCastAll fun() @Casts a circle against Colliders in the Scene, returning all Colliders that contact with it.
+---@field OverlapCapsuleAll fun() @Get a list of all Colliders that fall within a capsule area.
+---@field autoSyncTransforms fun() @Set whether to automatically sync changes to the Transform component with the physics engine.
+---@field GetIgnoreCollision fun() @Checks whether the collision detection system will ignore all collisions/triggers between collider1 and collider2 or not.
+---@field OverlapPointNonAlloc fun() @Get a list of all Colliders that overlap a point in space. Note: This method will be deprecated in a future build and it is recommended to use OverlapPoint instead.
+---@field BoxCastNonAlloc fun() @Casts a box into the Scene, returning Colliders that contact with it into the provided results array. Note: This method will be deprecated in a future build and it is recommended to use BoxCast instead.
+---@field contactArrowScale fun() @The scale of the contact arrow used by the Collider Gizmos.
+---@field maxLinearCorrection fun() @The maximum linear position correction used when solving constraints.  This helps to prevent overshoot.
+---@field autoSimulation fun() @Set whether the physics should be simulated automatically or not.
+---@field SyncTransforms fun() @Synchronizes.
+---@field Simulate fun() @Simulate physics in the Scene.
+---@field baumgarteScale fun() @The scale factor that controls how fast overlaps are resolved.
+---@field maxTranslationSpeed fun() @The maximum linear speed of a rigid-body per physics update.  Increasing this can cause numerical problems.
+---@field velocityThreshold fun() @Any collisions with a relative linear velocity below this threshold will be treated as inelastic.
+---@field RaycastNonAlloc fun() @Casts a ray into the Scene. Note: This method will be deprecated in a future build and it is recommended to use Raycast instead.
+---@field OverlapBox fun() @Checks if a Collider falls within a box area.
+---@field ClosestPoint fun() @Returns a point on the perimeter of the Collider that is closest to the specified position.
+---@field maxAngularCorrection fun() @The maximum angular position correction used when solving constraints.  This helps to prevent overshoot.
+---@field colliderAwakeColor fun() @The color used by the Gizmos to show all awake Colliders (Collider is awake when the body is awake).
+---@field RaycastAll fun() @Casts a ray against Colliders in the Scene, returning all Colliders that contact with it.
+---@field Raycast fun() @Casts a ray against Colliders in the Scene.
+---@field AllLayers fun() @Layer mask constant that includes all layers.
+---@field OverlapPointAll fun() @Get a list of all Colliders that overlap a point in space.
+---@field OverlapCircle fun() @Checks if a Collider falls within a circular area.
+---@field simulationMode fun() @Controls when Unity executes the 2D physics simulation.
+---@field BoxCastAll fun() @Casts a box against Colliders in the Scene, returning all Colliders that contact with it.
+---@field gravity fun() @Acceleration due to gravity.
+---@field IsTouchingLayers fun() @Checks whether the Collider is touching any Colliders on the specified layerMask or not.
+---@field raycastsStartInColliders fun() @Do ray/line casts that start inside a Collider(s) detect those Collider(s)?
+---@field OverlapAreaAll fun() @Get a list of all Colliders that fall within a rectangular area.
+---@field OverlapBoxAll fun() @Get a list of all Colliders that fall within a box area.
+---@field GetRayIntersectionNonAlloc fun() @Cast a 3D ray against the Colliders in the Scene returning the Colliders along the ray. Note: This method will be deprecated in a future build and it is recommended to use GetRayIntersection instead.
+---@field SetLayerCollisionMask fun() @Set the collision layer mask that indicates which layer(s) the specified layer can collide with.
+---@field OverlapCapsuleNonAlloc fun() @Get a list of all Colliders that fall within a capsule area. Note: This method will be deprecated in a future build and it is recommended to use OverlapCapsule instead.
+---@field alwaysShowColliders fun() @Enable to always show the Collider Gizmos even when they are not selected.
+---@field maxRotationSpeed fun() @The maximum angular speed of a rigid-body per physics update.  Increasing this can cause numerical problems.
+---@field IgnoreRaycastLayer fun() @Layer mask constant for the default layer that ignores raycasts.
+---@field IgnoreLayerCollision fun() @Choose whether to detect or ignore collisions between a specified pair of layers.
+---@field raycastsHitTriggers fun() @Set the raycasts to either detect or not detect Triggers.
+---@field colliderContactColor fun() @The color used by the Gizmos to show all Collider contacts.
+---@field LinecastNonAlloc fun() @Casts a line against Colliders in the Scene. Note: This method will be deprecated in a future build and it is recommended to use Linecast instead.
+---@field linearSleepTolerance fun() @A rigid-body cannot sleep if its linear velocity is above this tolerance.
+---@field OverlapArea fun() @Checks if a Collider falls within a rectangular area.
+---@field timeToSleep fun() @The time in seconds that a rigid-body must be still before it will go to sleep.
+---@field baumgarteTOIScale fun() @The scale factor that controls how fast TOI overlaps are resolved.
+---@field GetRayIntersectionAll fun() @Cast a 3D ray against the Colliders in the Scene returning all the Colliders along the ray.
+---@field IgnoreCollision fun() @Makes the collision detection system ignore all collisions/triggers between collider1 and collider2.
+---@field defaultContactOffset fun() @The default contact offset of the newly created Colliders.
+---@field GetLayerCollisionMask fun() @Get the collision layer mask that indicates which layer(s) the specified layer can collide with.
+---@field GetIgnoreLayerCollision fun() @Checks whether collisions between the specified layers be ignored or not.
+---@field Linecast fun() @Casts a line segment against Colliders in the Scene.
+---@field showColliderSleep fun() @Should the Collider Gizmos show the sleep-state for each Collider?
+---@field DefaultRaycastLayers fun() @Layer mask constant that includes all layers participating in raycasts by default.
+---@field reuseCollisionCallbacks fun() @Determines whether the garbage collector should reuse only a single instance of a Collision2D type for all collision callbacks.
+---@field queriesHitTriggers fun() @Do raycasts detect Colliders configured as triggers?
+---@field CapsuleCastAll fun() @Casts a capsule against Colliders in the Scene, returning all Colliders that contact with it.
+---@field OverlapBoxNonAlloc fun() @Get a list of all Colliders that fall within a box area. Note: This method will be deprecated in a future build and it is recommended to use OverlapBox instead.
+---@field showColliderAABB fun() @Should the Collider Gizmos show the AABBs for each Collider?

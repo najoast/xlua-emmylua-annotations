@@ -1,0 +1,14 @@
+---@class Animations.PositionConstraint @Constrains the position of an object relative to the position of one or more source objects.
+---@field sourceCount fun() @The number of sources set on the component (read-only).
+---@field translationOffset fun() @The offset from the constrained position.
+---@field SetSources fun() @Sets the list of sources on the component.
+---@field AddSource fun() @Adds a constraint source.
+---@field translationAxis fun() @The axes affected by the PositionConstraint.
+---@field locked fun() @Locks the offset and position at rest.
+---@field translationAtRest fun() @The translation used when the sources have a total weight of 0.
+---@field constraintActive fun() @Activates or deactivates the constraint.
+---@field RemoveSource fun() @Removes a source from the component.
+---@field SetSource fun() @Sets a source at a specified index.
+---@field GetSources fun() @Gets the list of sources.
+---@field GetSource fun() @Gets a constraint source by index.
+---@field weight fun() @The weight of the constraint component.

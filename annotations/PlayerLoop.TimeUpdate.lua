@@ -1,0 +1,2 @@
+---@class PlayerLoop.TimeUpdate @Update phase in the native player loop that waits for the operating system (OS) to flip the back buffer to the display and update the time in the engine.
+---@field WaitForLastPresentationAndUpdateTime fun() @Waits for the operating system (OS) to flip the back buffer to the display and update the time in the engine.

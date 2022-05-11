@@ -1,0 +1,3 @@
+---@class AI.NavMeshCollectGeometry @Used for specifying the type of geometry to collect. Used with NavMeshBuilder.CollectSources.
+---@field PhysicsColliders fun() @Collect geometry from the 3D physics collision representation.
+---@field RenderMeshes fun() @Collect meshes form the rendered geometry.

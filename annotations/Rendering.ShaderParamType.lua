@@ -1,0 +1,7 @@
+---@class Rendering.ShaderParamType @Options for the data type of a shader constant's members.
+---@field Int fun() @An integer.
+---@field UInt fun() @An unsigned integer.
+---@field Bool fun() @A boolean.
+---@field Half fun() @A half-precision float.
+---@field Float fun() @A float.
+---@field Short fun() @A short.

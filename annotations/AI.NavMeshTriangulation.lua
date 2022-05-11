@@ -1,0 +1,5 @@
+---@class AI.NavMeshTriangulation @Contains data describing a triangulation of a navmesh.
+---@field indices fun() @Triangle indices for the navmesh triangulation.
+---@field layers fun() @NavMeshLayer values for the navmesh triangulation.
+---@field areas fun() @NavMesh area indices for the navmesh triangulation.
+---@field vertices fun() @Vertices for the navmesh triangulation.

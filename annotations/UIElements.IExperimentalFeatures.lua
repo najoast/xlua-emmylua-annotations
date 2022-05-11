@@ -1,0 +1,2 @@
+---@class UIElements.IExperimentalFeatures @Give access to UIElement experimental features.
+---@field animation fun() @Returns the animation experimental interface.

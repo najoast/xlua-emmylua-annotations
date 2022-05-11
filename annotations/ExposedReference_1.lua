@@ -1,0 +1,4 @@
+---@class ExposedReference_1 @Creates a type whos value is resolvable at runtime.
+---@field Resolve fun() @Gets the value of the reference by resolving it given the ExposedPropertyResolver context object.
+---@field defaultValue fun() @The default value, in case the value cannot be resolved.
+---@field exposedName fun() @The name of the ExposedReference.

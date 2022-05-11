@@ -1,0 +1,9 @@
+---@class NVIDIA.DLSSCommandInitializationData @Represent the initialization state of a DLSSContext. You can only use and set this when calling GraphicsDevice.CreateFeature.
+---@field inputRTHeight fun() @The texture input height size of the input buffers in texels.
+---@field SetFlag fun() @Helper function. Controls the feature flags used by DLSS. See Also: NVIDIA.DLSSFeatureFlags.
+---@field outputRTHeight fun() @The output buffer height size in texels to upscale to.
+---@field GetFlag fun() @Helper function. Gets weither if a DLSS feature is set or unset. See Also: NVIDIA.DLSSFeatureFlags.
+---@field outputRTWidth fun() @The output buffer width size in texels to upscale to.
+---@field inputRTWidth fun() @The texture input width size of the input buffers in texels.
+---@field featureFlags fun() @Bit mask containing feature flags to be used for DLSS.
+---@field quality fun() @The quality property for DLSS.

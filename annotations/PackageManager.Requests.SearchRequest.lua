@@ -1,0 +1,2 @@
+---@class PackageManager.Requests.SearchRequest @Represents an asynchronous request to find a package.
+---@field PackageIdOrName fun() @The package id or name used in this search operation.

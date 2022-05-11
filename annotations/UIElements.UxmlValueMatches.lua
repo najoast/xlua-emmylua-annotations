@@ -1,0 +1,3 @@
+---@class UIElements.UxmlValueMatches @Restricts the value of an attribute to match a regular expression.
+---@field regex fun() @The regular expression that should be matched by the value.
+---@field Equals fun() @Indicates whether the current UxmlValueMatches object is equal to another object of the same type.

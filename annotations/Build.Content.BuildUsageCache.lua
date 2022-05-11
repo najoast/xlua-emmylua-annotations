@@ -1,0 +1,3 @@
+---@class Build.Content.BuildUsageCache @Caching object for the Scriptable Build Pipeline.
+---@field ctor fun() @Default contructor.
+---@field Dispose fun() @Dispose the BuildUsageCache destroying all internal state.

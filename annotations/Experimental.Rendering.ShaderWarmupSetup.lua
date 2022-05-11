@@ -1,0 +1,2 @@
+---@class Experimental.Rendering.ShaderWarmupSetup @The rendering configuration to use when prewarming shader variants.
+---@field vdecl fun() @The vertex data layout to use when prewarming shader variants.

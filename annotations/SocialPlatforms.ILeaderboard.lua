@@ -1,0 +1,12 @@
+---@class SocialPlatforms.ILeaderboard @The leaderboard contains the scores of all players for a particular game.
+---@field title fun() @The human readable title of this leaderboard.
+---@field scores fun() @The leaderboard scores returned by a query.
+---@field maxRange fun() @The total amount of scores the leaderboard contains.
+---@field range fun() @The rank range this leaderboard returns.
+---@field timeScope fun() @The time period/scope searched by this leaderboard.
+---@field id fun() @Unique identifier for this leaderboard.
+---@field LoadScores fun() @Load scores according to the filters set on this leaderboard.
+---@field SetUserFilter fun() @Only search for these user IDs.
+---@field loading fun() @The leaderboad is in the process of loading scores.
+---@field localUserScore fun() @The leaderboard score of the logged in user.
+---@field userScope fun() @The users scope searched by this leaderboard.

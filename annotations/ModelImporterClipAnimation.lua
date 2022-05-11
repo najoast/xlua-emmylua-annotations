@@ -1,0 +1,29 @@
+---@class ModelImporterClipAnimation @Animation clips to split animation into.
+---@field heightOffset fun() @Offset to the vertical root position.
+---@field lockRootHeightY fun() @Enable to make vertical root motion be baked into the movement of the bones. Disable to make vertical root motion be stored as root motion.
+---@field keepOriginalOrientation fun() @Keeps the vertical position as it is authored in the source file.
+---@field maskNeedsUpdating fun() @Returns true when the source AvatarMask has changed. This only happens when  ModelImporterClipAnimation.maskType is set to ClipAnimationMaskType.CopyFromOtherTo force a reload of the mask, simply set  ModelImporterClipAnimation.maskSource to the desired AvatarMask.
+---@field keepOriginalPositionY fun() @Keeps the vertical position as it is authored in the source file.
+---@field wrapMode fun() @The wrap mode of the animation.
+---@field ConfigureMaskFromClip fun() @Copy the current masking settings from the clip to an AvatarMask.
+---@field events fun() @AnimationEvents that will be added during the import process.
+---@field ConfigureClipFromMask fun() @Copy the mask settings from an AvatarMask to the clip configuration.
+---@field name fun() @Clip name.
+---@field rotationOffset fun() @Offset in degrees to the root rotation.
+---@field maskSource fun() @The AvatarMask used to mask transforms during the import process.
+---@field cycleOffset fun() @Offset to the cycle of a looping animation, if a different time in it is desired to be the start.
+---@field lockRootRotation fun() @Enable to make root rotation be baked into the movement of the bones. Disable to make root rotation be stored as root motion.
+---@field lastFrame fun() @Last frame of the clip.
+---@field heightFromFeet fun() @Keeps the feet aligned with the root transform position.
+---@field mirror fun() @Mirror left and right in this clip.
+---@field curves fun() @Additionnal curves that will be that will be added during the import process.
+---@field additiveReferencePoseFrame fun() @The additive reference pose frame.
+---@field takeName fun() @Take name.
+---@field maskType fun() @Define mask type.
+---@field firstFrame fun() @First frame of the clip.
+---@field loopTime fun() @Enable to make the clip loop.
+---@field loop fun() @Is the clip a looping animation?
+---@field loopPose fun() @Enable to make the motion loop seamlessly.
+---@field hasAdditiveReferencePose fun() @Enable to defines an additive reference pose.
+---@field keepOriginalPositionXZ fun() @Keeps the vertical position as it is authored in the source file.
+---@field lockRootPositionXZ fun() @Enable to make horizontal root motion be baked into the movement of the bones. Disable to make horizontal root motion be stored as root motion.

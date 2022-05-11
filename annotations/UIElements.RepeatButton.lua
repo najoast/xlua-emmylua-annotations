@@ -1,0 +1,6 @@
+---@class UIElements.RepeatButton @A button that executes an action repeatedly while it is pressed.
+---@field ctor fun() @Constructor.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field UxmlTraits UIElements.RepeatButton.UxmlTraits @Defines UxmlTraits for the RepeatButton.
+---@field UxmlFactory fun() @Instantiates a RepeatButton using the data read from a UXML file.
+---@field SetAction fun() @Set the action that should be executed when the button is pressed.

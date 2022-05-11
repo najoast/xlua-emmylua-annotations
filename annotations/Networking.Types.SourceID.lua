@@ -1,0 +1,2 @@
+---@class Networking.Types.SourceID @Identifies a specific game instance.
+---@field Invalid fun() @Invalid SourceID.

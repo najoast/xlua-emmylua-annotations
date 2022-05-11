@@ -1,0 +1,26 @@
+---@class GUISkin @Defines how GUI looks and behaves.
+---@field verticalScrollbarThumb fun() @Style used by default for the thumb that is dragged in GUI.VerticalScrollbar controls.
+---@field horizontalScrollbarLeftButton fun() @Style used by default for the left button on GUI.HorizontalScrollbar controls.
+---@field horizontalSliderThumb fun() @Style used by default for the thumb that is dragged in GUI.HorizontalSlider controls.
+---@field button fun() @Style used by default for GUI.Button controls.
+---@field customStyles fun() @Array of GUI styles for specific needs.
+---@field horizontalScrollbarRightButton fun() @Style used by default for the right button on GUI.HorizontalScrollbar controls.
+---@field textField fun() @Style used by default for GUI.TextField controls.
+---@field GetStyle fun() @Get a named GUIStyle.
+---@field FindStyle fun() @Try to search for a GUIStyle. This functions returns NULL and does not give an error.
+---@field window fun() @Style used by default for Window controls (See Also: GUI.Window).
+---@field textArea fun() @Style used by default for GUI.TextArea controls.
+---@field scrollView fun() @Style used by default for the background of ScrollView controls (see GUI.BeginScrollView).
+---@field horizontalSlider fun() @Style used by default for the background part of GUI.HorizontalSlider controls.
+---@field label fun() @Style used by default for GUI.Label controls.
+---@field verticalScrollbarUpButton fun() @Style used by default for the up button on GUI.VerticalScrollbar controls.
+---@field settings fun() @Generic settings for how controls should behave with this skin.
+---@field verticalScrollbarDownButton fun() @Style used by default for the down button on GUI.VerticalScrollbar controls.
+---@field horizontalScrollbar fun() @Style used by default for the background part of GUI.HorizontalScrollbar controls.
+---@field font fun() @The default font to use for all styles.
+---@field verticalScrollbar fun() @Style used by default for the background part of GUI.VerticalScrollbar controls.
+---@field toggle fun() @Style used by default for GUI.Toggle controls.
+---@field verticalSlider fun() @Style used by default for the background part of GUI.VerticalSlider controls.
+---@field horizontalScrollbarThumb fun() @Style used by default for the thumb that is dragged in GUI.HorizontalScrollbar controls.
+---@field verticalSliderThumb fun() @Style used by default for the thumb that is dragged in GUI.VerticalSlider controls.
+---@field box fun() @Style used by default for GUI.Box controls.

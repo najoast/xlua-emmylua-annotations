@@ -1,0 +1,7 @@
+---@class Rendering.VirtualTexturing.Resolver @Class responsable for virtual texturing feedback analysis.
+---@field CurrentHeight fun() @&gt;Height of the texture that the internal buffers can hold.
+---@field ctor fun() @Create a new VirtualTextureResolver object.
+---@field UpdateSize fun() @Update the internal buffers.
+---@field CurrentWidth fun() @Width of the texture that the internal buffers can hold.
+---@field Process fun() @Process the passed in feedback texture.
+---@field Dispose fun() @Disposes this object.

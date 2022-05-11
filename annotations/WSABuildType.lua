@@ -1,0 +1,4 @@
+---@class WSABuildType @Build configurations for Windows Store Visual Studio solutions.
+---@field Release fun() @Release configuration.Optimization enabled, profiler code enabled.
+---@field Debug fun() @Debug configuation.No optimizations, profiler code enabled.
+---@field Master fun() @Master configuation.Optimizations enabled, profiler code disabled. This configuration is used when submitting the application to Windows Store.

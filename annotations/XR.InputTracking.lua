@@ -1,0 +1,11 @@
+---@class XR.InputTracking @A collection of methods and properties for accessing XR input devices by their XR Node representation.
+---@field Recenter fun() @Center tracking to the current position and orientation of the HMD.
+---@field GetLocalPosition fun() @Note: This API has been marked as obsolete in code, and is no longer in use. Please use InputTracking.GetNodeStates and look for the XRNodeState with the corresponding XRNode type instead.Gets the position of a specific node.
+---@field GetNodeName fun() @Accepts the unique identifier for a tracked node and returns a friendly name for it.
+---@field nodeAdded fun() @Called when a tracked node is added to the underlying XR system.
+---@field trackingLost fun() @Called when a tracked node stops reporting tracking information.
+---@field disablePositionalTracking fun() @Disables positional tracking in XR. This takes effect the next time the head pose is sampled.  If set to true the camera only tracks headset rotation state.
+---@field GetLocalRotation fun() @Note: This API has been marked as obsolete in code, and is no longer in use. Please use InputTracking.GetNodeStates and look for the XRNodeState with the corresponding XRNode type instead.Gets the rotation of a specific node.
+---@field GetNodeStates fun() @Describes all currently connected XRNodes and provides available tracking states for each.
+---@field trackingAcquired fun() @Called when a tracked node begins reporting tracking information.
+---@field nodeRemoved fun() @Called when a tracked node is removed from the underlying XR system.

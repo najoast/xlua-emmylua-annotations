@@ -1,0 +1,3 @@
+---@class ParticleSystemEmissionType @The mode in which particles are emitted.
+---@field Distance fun() @Emit when emitter moves.
+---@field Time fun() @Emit over time.

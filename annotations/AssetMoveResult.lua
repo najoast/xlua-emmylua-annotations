@@ -1,0 +1,4 @@
+---@class AssetMoveResult @Result of Asset move
+---@field FailedMove fun() @Tells the internal implementation that the script could not move the assets.
+---@field DidMove fun() @Tells the internal implementation that the script moved the asset physically on disk.
+---@field DidNotMove fun() @Tells the internal implementation that the asset was not moved physically on disk by the script.

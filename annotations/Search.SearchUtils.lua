@@ -1,0 +1,14 @@
+---@class Search.SearchUtils @Provides various utility functions that are used by SearchProvider.
+---@field SelectMultipleItems fun() @Select and ping multiple objects in the Project Browser.
+---@field SplitEntryComponents fun() @Split an entry according to a specified list of separators.
+---@field MatchSearchGroups fun() @Helper function to match a string against the SearchContext. This will try to match the search query against each token of content (similar to the AddComponent menu workflow).
+---@field SplitCamelCase fun() @Tokenize a string each capital letter.
+---@field SplitFileEntryComponents fun() @Split a file entry according to a list of separators and find all the variations on the entry name.
+---@field GetHierarchyAssetPath fun() @Get the path of the scene (or prefab) containing a GameObject.
+---@field FetchGameObjects fun() @Utility function to fetch all the game objects in a particular scene.
+---@field entrySeparators fun() @Separators used to split an entry into indexable tokens.
+---@field GetObjectPath fun() @Get the path of a Unity Object. If it is a GameObject or a Component it is the &lt;see cref=SearchUtils.GetTransformPath(Transform)/&gt;. Else it is the asset name.
+---@field GetHierarchyPath fun() @Get the hierarchy path of a GameObject including the scene name if includeScene is set to true.
+---@field GetTransformPath fun() @Format the pretty name of a Transform component by appending all the parent hierarchy names.
+---@field GetAssetPath fun() @Returns the asset path of a search item if any.
+---@field FindShiftLeftVariations fun() @Extract all variations on a word. As an example: the word hello would have the following variations: h, he, hel, hell, hello.

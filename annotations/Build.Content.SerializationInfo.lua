@@ -1,0 +1,4 @@
+---@class Build.Content.SerializationInfo @Container for holding object serialization order information for a build.
+---@field serializationObject fun() @Source object to be serialzied to disk.
+---@field serializationIndex fun() @Order in which the object will be serialized to disk.
+---@field ctor fun() @Default constructor for an empty SerializationInfo.

@@ -1,0 +1,55 @@
+---@class Progress @The Progress utility class reports the progress of asynchronous tasks to Unity.
+---@field Item Progress.Item @A data structure that provides information about a progress indicator.
+---@field GetStepLabel fun() @Gets the label that displays a progress indicator's steps.
+---@field GetStartDateTime fun() @Gets the timestamp of when the progress indicator started.
+---@field Finish fun() @Marks the progress indicator as finished.
+---@field SetStepLabel fun() @Sets the label that displays a progress indicator's steps.
+---@field GetId fun() @Finds a progress indicator's unique ID using its index in the set of all available progress indicators.
+---@field ClearRemainingTime fun() @Resets the computation of a progress indicator's remaining time.
+---@field UnregisterPauseCallback fun() @Unregisters a previously registered progress pause callback.
+---@field running fun() @Returns true if there is at least one running progress indicator, false otherwise.
+---@field Start fun() @This method starts a new progress indicator.
+---@field TimeDisplayMode Progress.TimeDisplayMode @Specifies what kind of time information the progress indicator displays.
+---@field globalRemainingTime fun() @Returns the maximum time remaining for all running progress indicators.
+---@field Status Progress.Status @Indicates the status of a progress indicator's associated task.
+---@field GetProgress fun() @Gets a progress indicator's progress.
+---@field TaskReport fun() @This class reports progress when you start a task with Progress.RunTask(...).
+---@field IsPausable fun() @Indicates whether you can pause the progress indicator's task.
+---@field GetOptions fun() @Gets the options that you specified when you started the progress indicator.
+---@field Resume fun() @Resumes a paused progress indicator, and invokes the pause callback for the associated task.
+---@field UnregisterCancelCallback fun() @Unregisters a previously registered progress cancellation callback.
+---@field globalProgress fun() @Returns the global average progression of all running tasks.
+---@field GetStatus fun() @Gets the progress indicator's status.
+---@field ShowDetails fun() @Opens the progress window for background tasks.
+---@field added fun() @An event raised when a new progress indicator starts.
+---@field GetRunningProgressCount fun() @Gets the number of active or running progress indicators.
+---@field Options Progress.Options @Options that define how a progress indicator behaves.
+---@field GetCount fun() @Gets the number of available progress indicators.
+---@field SetPriority fun() @Sets a progress indicator's priority.
+---@field SetTimeDisplayMode fun() @Set a progress indicator's time display mode.
+---@field GetRemainingTime fun() @Gets a progress indicator's remaining time, in seconds.
+---@field GetDescription fun() @Gets a progress indicator's description.
+---@field GetPriority fun() @Gets a progress indicator's priority.
+---@field Report fun() @Reports a running progress indicator's current status.
+---@field GetCurrentStep fun() @Gets the current step for a progress indicator.
+---@field Remove fun() @Finishes and removes an active progress indicator.
+---@field GetParentId fun() @Gets the unique ID of the progress indicator's parent, if any.
+---@field GetTotalSteps fun() @Gets the total number of steps, from start to finish, for a progress indicator.
+---@field EnumerateItems fun() @Returns an enumerator to loop over all progress indicators.
+---@field TaskError fun() @This class is used to report an error when using Progress.RunTask(...).
+---@field GetTimeDisplayMode fun() @Get a progress indicator's time display mode.
+---@field GetName fun() @Gets a progress indicator's name.
+---@field SetRemainingTime fun() @Sets the progress indicator's remaining time, in seconds.
+---@field SetDescription fun() @Sets the progress indicator's description. To clear the description pass null.
+---@field removed fun() @An event raised when a progress indicator is removed.
+---@field RegisterPauseCallback fun() @Registers a callback that is called when the user pauses a running progress indicator's task.
+---@field Exists fun() @Checks whether a progress indicator with the specified ID exists.
+---@field RegisterCancelCallback fun() @Registers a callback that is called when the user cancels a running progress indicator's associated task.
+---@field GetUpdateDateTime fun() @Gets the time that the progress indicator last changed, or finished.
+---@field Priority Progress.Priority @An enumeration that defines task priorities.
+---@field Pause fun() @Pauses a runnning progress indicator, and invokes the pause callback for its task.
+---@field GetProgressById fun() @Gets information about a progress indicator.
+---@field GetCountPerStatus fun() @For each available status, gets the number of progress indicators with that status.
+---@field updated fun() @An event raised when a progress indicator's state updates.
+---@field IsCancellable fun() @Indicates whether you can cancel the progress indicator's associated task.
+---@field Cancel fun() @Cancels a runnning progress indicator, and invokes the cancel callback for the associated task.

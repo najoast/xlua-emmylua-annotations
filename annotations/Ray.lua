@@ -1,0 +1,6 @@
+---@class Ray @Representation of rays.
+---@field ToString fun() @Returns a formatted string for this ray.
+---@field ctor fun() @Creates a ray starting at origin along direction.
+---@field GetPoint fun() @Returns a point at distance units along the ray.
+---@field direction fun() @The direction of the ray.
+---@field origin fun() @The origin point of the ray.

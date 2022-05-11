@@ -1,0 +1,33 @@
+---@class Build.Content @nil
+---@field WriteSceneParameters Build.Content.WriteSceneParameters @This struct collects all the WriteSceneSerializedFile parameters in to a single place.
+---@field WriteResult Build.Content.WriteResult @Struct containing the results from the ContentBuildPipeline.WriteSerialziedFile and ContentBuildPipeline.WriteSceneSerialziedFile APIs.
+---@field BuildCompression Build.Content.BuildCompression @Struct containing settings that control the compression method of content.
+---@field ProfileEventType Build.Content.ProfileEventType @Options for labelling captured profile events using the ContentBuildInterface.BeginProfileCapture and ContentBuildInterface.EndProfileCapture APIs.
+---@field FileType Build.Content.FileType @Enum description of the type of file an object comes from.
+---@field WriteParameters Build.Content.WriteParameters @This struct collects all the WriteSerializedFile parameters in to a single place.
+---@field WriteManagerParameters Build.Content.WriteManagerParameters @Defines the write parameters for the ContentBuildInterface.WriteGameManagersSerializedFile function.
+---@field SerializationInfo Build.Content.SerializationInfo @Container for holding object serialization order information for a build.
+---@field SceneDependencyInfo Build.Content.SceneDependencyInfo @Scene dependency information generated from the ContentBuildInterface.PrepareScene API.
+---@field BuildUsageTagSet Build.Content.BuildUsageTagSet @Container for holding information about how objects are being used in a build.
+---@field SceneBundleInfo Build.Content.SceneBundleInfo @Container for holding asset loading information for a streamed Scene AssetBundle to be built.
+---@field CompressionLevel Build.Content.CompressionLevel @Enum to indicate if compression should emphasize speed or size.
+---@field WriteCommand Build.Content.WriteCommand @Container for holding information about a serialized file to be written.
+---@field SerializedLocation Build.Content.SerializedLocation @Struct containing information about where an object was serialized.
+---@field AssetBundleInfo Build.Content.AssetBundleInfo @Container for holding asset loading information for an AssetBundle to be built.
+---@field SceneLoadInfo Build.Content.SceneLoadInfo @Container for holding preload information for a given serialized Scene in an AssetBundle.
+---@field ResourceFile Build.Content.ResourceFile @Details about a specific file written by the ContentBuildInterface.WriteSerializedFile or ContentBuildInterface.WriteSceneSerializedFile APIs.
+---@field CompressionType Build.Content.CompressionType @Enum containing the types of compression supported for built content.
+---@field GameManagerDependencyInfo Build.Content.GameManagerDependencyInfo @Contains dependency information for internal Unity game manager classes. Call ContentBuildInterface.WriteGameManagersSerializedFile or ContentBuildInterface.CalculatePlayerDependenciesForGameManagers to get an instance of this class.
+---@field ContentBuildInterface Build.Content.ContentBuildInterface @Low level interface for building content for Unity.
+---@field ObjectSerializedInfo Build.Content.ObjectSerializedInfo @Struct containing details about how an object was serialized.
+---@field BuildUsageTagGlobal Build.Content.BuildUsageTagGlobal @Container for holding information about lighting information being used in a build.
+---@field BuildSettings Build.Content.BuildSettings @Struct containing information on how to build content.
+---@field PreloadInfo Build.Content.PreloadInfo @Container for holding a list of preload objects for a Scene to be built.
+---@field ObjectIdentifier Build.Content.ObjectIdentifier @Struct that identifies a specific object project wide.
+---@field ProfileCaptureOptions Build.Content.ProfileCaptureOptions @Options for filtering captured profile events using the ContentBuildInterface.BeginProfileCapture and ContentBuildInterface.EndProfileCapture APIs.
+---@field ContentBuildFlags Build.Content.ContentBuildFlags @Build options for content.
+---@field BuildUsageCache Build.Content.BuildUsageCache @Caching object for the Scriptable Build Pipeline.
+---@field ContentBuildProfileEvent Build.Content.ContentBuildProfileEvent @Details about a profile event captured using the ContentBuildInterface.BeginProfileCapture and ContentBuildInterface.EndProfileCapture APIs.
+---@field BuildReferenceMap Build.Content.BuildReferenceMap @Container for holding information about where objects will be serialized in a build.
+---@field DependencyType Build.Content.DependencyType @Dependency calculation flags to control what is returned, and how it operates.
+---@field AssetLoadInfo Build.Content.AssetLoadInfo @Container for holding preload information for a given serialized Asset.

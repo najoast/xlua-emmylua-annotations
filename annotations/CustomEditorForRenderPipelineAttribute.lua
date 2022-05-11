@@ -1,0 +1,2 @@
+---@class CustomEditorForRenderPipelineAttribute @Tells an Editor class which run-time type it's an editor for when the given RenderPipeline is activated.
+---@field ctor fun() @Defines which object type the custom editor class can edit.

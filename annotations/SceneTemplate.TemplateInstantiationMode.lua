@@ -1,0 +1,3 @@
+---@class SceneTemplate.TemplateInstantiationMode @An enumeration of options for handling a Scene dependency Asset when you instantiate a SceneTemplateAsset.
+---@field Clone fun() @Specifies that the dependency Asset is cloned when the SceneTemplateAsset is instantiated.
+---@field Reference fun() @Specifies that the dependency Asset is kept as a reference when the SceneTemplateAsset is instantiated.

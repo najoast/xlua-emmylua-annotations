@@ -1,0 +1,9 @@
+---@class Android.AndroidAssetPacks @Provides methods for handling Android asset packs.
+---@field GetAssetPackStateAsync fun() @Queries the state of Android asset packs.
+---@field GetCoreUnityAssetPackNames fun() @Gets the name of every core Unity asset pack built for this application that use either the fast-follow or on-demand delivery type.
+---@field CancelAssetPackDownload fun() @Cancels Android asset pack downloads.
+---@field coreUnityAssetPacksDownloaded fun() @Checks if all core Unity asset packs are downloaded.
+---@field RequestToUseMobileDataAsync fun() @Requests to use mobile data to download Android asset packs.
+---@field RemoveAssetPack fun() @Removes Android asset pack.
+---@field GetAssetPackPath fun() @Gets the full path to the location where the device stores the assets for the Android asset pack.
+---@field DownloadAssetPackAsync fun() @Downloads Android asset packs.

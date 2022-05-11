@@ -1,0 +1,38 @@
+---@class Playables.PlayableExtensions @Extensions for all the types that implements IPlayable.
+---@field SetLeadTime fun() @Sets the Playable lead time in seconds.
+---@field SetInputCount fun() @Changes the number of inputs supported by the Playable.
+---@field GetPlayState fun() @Returns the current PlayState of the Playable.
+---@field IsDone fun() @Returns a flag indicating that a playable has completed its operation.
+---@field AddInput fun() @Create a new input port and connect it to the output port of the given Playable.
+---@field GetPreviousTime fun() @Returns the previous local time of the Playable.
+---@field IsDelayed fun() @Returns whether or not the Playable has a delay.
+---@field SetDone fun() @Changes a flag indicating that a playable has completed its operation.
+---@field SetDelay fun() @Set a delay until the playable starts.
+---@field GetPropagateSetTime fun() @Returns the time propagation behavior of this Playable.
+---@field SetPlayState fun() @Changes the current PlayState of the Playable.
+---@field GetTime fun() @Returns the current local time of the Playable.
+---@field GetTraversalMode fun() @Returns the propagation mode for the multi-output playable.
+---@field SetSpeed fun() @Changes the speed multiplier that is applied to the the current Playable.
+---@field GetOutputCount fun() @Returns the number of outputs supported by the Playable.
+---@field SetPropagateSetTime fun() @Changes the time propagation behavior of this Playable.
+---@field GetSpeed fun() @Returns the speed multiplier that is applied to the the current Playable.
+---@field SetDuration fun() @Changes the duration of the Playable.
+---@field GetInput fun() @Returns the Playable connected at the given input port index.
+---@field Pause fun() @Tells to pause the Playable.
+---@field GetOutput fun() @Returns the Playable connected at the given output port index.
+---@field SetInputWeight fun() @Changes the weight of the Playable connected to the current Playable.
+---@field SetTime fun() @Changes the current local time of the Playable.
+---@field GetGraph fun() @Returns the PlayableGraph that owns this Playable.  A Playable can only be used in the graph that was used to create it.
+---@field GetInputWeight fun() @Returns the weight of the Playable connected at the given input port index.
+---@field DisconnectInput fun() @Disconnect the input port of a Playable.
+---@field GetLeadTime fun() @Returns the Playable lead time in seconds.
+---@field GetInputCount fun() @Returns the number of inputs supported by the Playable.
+---@field Destroy fun() @Destroys the current Playable.
+---@field SetTraversalMode fun() @Sets the propagation mode of PrepareFrame and ProcessFrame for the multi-output playable.
+---@field IsValid fun() @Returns the vality of the current Playable.
+---@field ConnectInput fun() @Connect the output port of a Playable to one of the input ports.
+---@field GetDelay fun() @Returns the delay of the playable.
+---@field SetOutputCount fun() @Changes the number of outputs supported by the Playable.
+---@field IsNull fun() @Returns true if the Playable is null, false otherwise.
+---@field GetDuration fun() @Returns the duration of the Playable.
+---@field Play fun() @Starts to play the Playable.

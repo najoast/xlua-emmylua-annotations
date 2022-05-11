@@ -1,0 +1,3 @@
+---@class UIElements.FocusInEvent @Event sent immediately before an element gains focus. This event trickles down and bubbles up. This event cannot be cancelled.
+---@field ctor fun() @Constructor.
+---@field Init fun() @Resets the event members to their initial values.

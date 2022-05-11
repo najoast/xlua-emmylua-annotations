@@ -1,0 +1,6 @@
+---@class Windows.WebCam.CameraParameters @When calling PhotoCapture.StartPhotoModeAsync, you must pass in a CameraParameters object that contains the various settings that the web camera will use.
+---@field cameraResolutionWidth fun() @A valid width resolution for use with the web camera.
+---@field frameRate fun() @The framerate at which to capture video.  This is only for use with VideoCapture.
+---@field hologramOpacity fun() @The opacity of captured holograms.
+---@field cameraResolutionHeight fun() @A valid height resolution for use with the web camera.
+---@field pixelFormat fun() @The pixel format used to capture and record your image data.

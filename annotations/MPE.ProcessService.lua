@@ -1,0 +1,13 @@
+---@class MPE.ProcessService @*This is an experimental feature.* The ProcessService allows you to start slave instance of UnityEditor, opened to the same Project as the master instance, with a specific RoleProviderAttribute.
+---@field Launch fun() @Launches a secondary instance of UnityEditor on the same project as the master instance.
+---@field Terminate fun() @Terminates an editor process.
+---@field DisableProfileConnection fun() @Closes the Profiler connection.
+---@field GetProcessState fun() @Gets the ProcessState of a given instance of UnityEditor.
+---@field ProcessExitedEvent fun() @An event triggered in a master instance of UnityEditor when you start a slave instance with ProcessService.Launch exit.
+---@field ReadParameter fun() @A utility function to read command line arguments passed to the current process.
+---@field SlaveProcessExitedEvent fun() @An event triggered in a master instance of UnityEditor when you start a slave instance with ProcessService.LaunchSlave exit.
+---@field level fun() @The ProcessLevel of the running instance of UnityEditor.
+---@field IsChannelServiceStarted fun() @Checks whether the ChannelService is already started.
+---@field roleName fun() @The role name of the running UnityEditor process. For more information about how to register handlers for a specific process role, see RoleProviderAttribute. For a UnityEditor process of ProcessLevel Master, the roleName is always empty.
+---@field EnableProfileConnection fun() @Enables a connection to the Profiler. The standalone Profiler uses this method.
+---@field HasCapability fun() @Checks whether the current process has a given capability.

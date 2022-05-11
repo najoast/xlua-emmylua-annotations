@@ -1,0 +1,18 @@
+---@class GridBrushBase @Base class for authoring data on a grid with grid painting tools like paint, erase, pick, select and fill.
+---@field FloodFill fun() @Flood fills data onto a grid given the starting coordinates of the cell.
+---@field ChangeZPosition fun() @Changes the Z position of the GridBrushBase.
+---@field Erase fun() @Erases data on a grid within the given bounds.
+---@field MoveEnd fun() @MoveEnd is called when user has ended the move of the area previously selected with the selection marquee.
+---@field BoxErase fun() @Erases data on a grid within the given bounds.
+---@field Paint fun() @Paints data into a grid within the given bounds.
+---@field BoxFill fun() @Box fills tiles and GameObjects into given bounds within the selected layers.
+---@field Rotate fun() @Rotates all tiles on the grid brush with the given RotationDirection.
+---@field ResetZPosition fun() @Resets Z position changes of the GridBrushBase.
+---@field MoveStart fun() @MoveEnd is called when user starts moving the area previously selected with the selection marquee.
+---@field Flip fun() @Flips the grid brush in the given FlipAxis.
+---@field Move fun() @Move is called when user moves the area previously selected with the selection marquee.
+---@field FlipAxis GridBrushBase.FlipAxis @Axis to flip tiles in the GridBrushBase by.
+---@field Tool GridBrushBase.Tool @Tool mode for the GridBrushBase.
+---@field RotationDirection GridBrushBase.RotationDirection @Rotate tiles in the GridBrushBase in this direction.
+---@field Select fun() @Select an area of a grid.
+---@field Pick fun() @Picks data from a grid given the coordinates of the cells.

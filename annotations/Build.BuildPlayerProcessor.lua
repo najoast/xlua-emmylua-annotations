@@ -1,0 +1,3 @@
+---@class Build.BuildPlayerProcessor @Extend BuildPlayerProcessor to receive callbacks during a player build.
+---@field PrepareForBuild fun() @Implement this function to receive a callback before a player build starts.
+---@field callbackOrder fun() @Returns the relative callback order for callbacks.  Callbacks with lower values are called before ones with higher values.

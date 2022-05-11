@@ -1,0 +1,3 @@
+---@class Effector2D @A base class for all 2D effectors.
+---@field useColliderMask fun() @Should the collider-mask be used or the global collision matrix?
+---@field colliderMask fun() @The mask used to select specific layers allowed to interact with the effector.

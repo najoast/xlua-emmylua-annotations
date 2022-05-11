@@ -1,0 +1,3 @@
+---@class PlayerSettings.WSAApplicationForegroundText @Values for the color style of the title text that appears within the Universal Windows Platform application tiles.
+---@field Light fun() @Uses light text within the Universal Windows Platform application tiles.
+---@field Dark fun() @Uses dark text within the Universal Windows Platform application tiles.

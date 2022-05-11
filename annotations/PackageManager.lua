@@ -1,0 +1,22 @@
+---@class PackageManager @nil
+---@field RegistryInfo PackageManager.RegistryInfo @Provides information about a package registry.
+---@field RepositoryInfo PackageManager.RepositoryInfo @Includes information about the repository that hosts the package.
+---@field PackageSource PackageManager.PackageSource @Source of packages.
+---@field IShouldIncludeInBuildCallback PackageManager.IShouldIncludeInBuildCallback @Interface used by the Package Manager to request build information about packages.
+---@field AuthorInfo PackageManager.AuthorInfo @Identifies the author of a package.
+---@field VersionsInfo PackageManager.VersionsInfo @Identifies the available versions of a package and which are the compatible, latest, and recommended versions.
+---@field Events PackageManager.Events @An Interface for accessing the package manager events.
+---@field BuildUtilities PackageManager.BuildUtilities @Utility class that allows packages to register build callbacks with the Unity Package Manager.
+---@field DependencyInfo PackageManager.DependencyInfo @Structure describing dependencies to other packages in PackageInfo.
+---@field LogLevel PackageManager.LogLevel @Describes different levels of log information the Package Manager supports.
+---@field Client PackageManager.Client @Use the Unity Package Manager Client class to manage the packages used in a project.
+---@field StatusCode PackageManager.StatusCode @Unity Package Manager operation status.
+---@field Requests PackageManager.Requests @nil
+---@field PackageCollection PackageManager.PackageCollection @A collection of PackageManager.PackageInfo objects.
+---@field Error PackageManager.Error @Structure describing the error of a package operation.
+---@field UI PackageManager.UI @nil
+---@field ErrorCode PackageManager.ErrorCode @Package operation Error.
+---@field PackOperationResult PackageManager.PackOperationResult @Structure describing the result of a Client.Pack operation.
+---@field PackageRegistrationEventArgs PackageManager.PackageRegistrationEventArgs @Structure describing the PackageManager.PackageInfo entries to register or unregister during the Package Manager registration process.
+---@field GitInfo PackageManager.GitInfo @Identifies a specific revision for a Git package using a Git commit hash.
+---@field PackageInfo PackageManager.PackageInfo @Structure describing a Unity Package.

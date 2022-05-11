@@ -1,0 +1,7 @@
+---@class iOSLaunchScreenType @iOS launch screen settings.
+---@field ImageAndBackgroundRelative fun() @Use a custom launch screen image specified in the iOS Player Settings or with PlayerSettings.iOS.SetLaunchScreenImage which will be scaled across the entire screen.
+---@field CustomStoryboard fun() @Use a specified custom Storyboard (.storyboard) file in Player Settings.
+---@field None fun() @Generate the Xcode project without any custom launch screens.
+---@field Default fun() @Use the default launch screen (dark blue background).
+---@field CustomXib fun() @Use a specified custom Interface Builder (.xib) file in Player Settings.
+---@field ImageAndBackgroundConstant fun() @Use a custom launch screen image specified in the iOS Player Settings or with PlayerSettings.iOS.SetLaunchScreenImage and use its original dimensions.

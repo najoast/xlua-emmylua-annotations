@@ -1,0 +1,13 @@
+---@class XR.InputDeviceCharacteristics @A set of bit flags describing XR.InputDevice characteristics.
+---@field Simulated6DOF fun() @The InputDevice reports software approximated, positional data.
+---@field Camera fun() @The InputDevice has a camera and associated camera tracking information.
+---@field HeadMounted fun() @The InputDevice is attached to the head.
+---@field None fun() @A default value specifying no flags.
+---@field TrackingReference fun() @The InputDevice is an unmoving reference object used to locate and track other objects in the world.
+---@field Right fun() @The InputDevice is associated with the right side of the user.
+---@field TrackedDevice fun() @The InputDevice provides 3DOF or 6DOF tracking data.
+---@field EyeTracking fun() @The InputDevice provides eye tracking information via an Eyes input feature.
+---@field Left fun() @The InputDevice is associated with the left side of the user.
+---@field HandTracking fun() @The InputDevice provides hand tracking information via a Hand input feature.
+---@field HeldInHand fun() @The InputDevice is held in the user's hand. Typically, a tracked controller.
+---@field Controller fun() @The InputDevice is a game controller.

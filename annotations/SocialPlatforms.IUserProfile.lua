@@ -1,0 +1,6 @@
+---@class SocialPlatforms.IUserProfile @Represents generic user instances, like friends of the local user.
+---@field image fun() @Avatar image of the user.
+---@field isFriend fun() @Is this user a friend of the current logged in user?
+---@field state fun() @Presence state of the user.
+---@field id fun() @This user's global unique identifier.
+---@field userName fun() @This user's username or alias.

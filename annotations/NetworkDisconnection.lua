@@ -1,0 +1,3 @@
+---@class NetworkDisconnection @The reason a disconnect event occured, like in OnDisconnectedFromServer.
+---@field Disconnected fun() @The connection to the system has been closed.
+---@field LostConnection fun() @The connection to the system has been lost, no reliable packets could be delivered.

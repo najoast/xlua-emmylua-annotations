@@ -1,0 +1,16 @@
+---@class Joint @Joint is the base class for all joints.
+---@field autoConfigureConnectedAnchor fun() @Should the connectedAnchor be calculated automatically?
+---@field breakTorque fun() @The torque that needs to be applied for this joint to break. To be able to break, a joint must be _Locked_ or _Limited_ on the axis of rotation where the torque is being applied. This means that some joints cannot break, such as an unconstrained Configurable Joint.
+---@field OnJointBreak fun() @Called when a joint attached to the same game object broke.
+---@field massScale fun() @The scale to apply to the inverse mass and inertia tensor of the body prior to solving the constraints.
+---@field enablePreprocessing fun() @Toggle preprocessing for this joint.
+---@field enableCollision fun() @Enable collision between bodies connected with the joint.
+---@field currentTorque fun() @The torque applied by the solver to satisfy all constraints.
+---@field currentForce fun() @The force applied by the solver to satisfy all constraints.
+---@field connectedBody fun() @A reference to another rigidbody this joint connects to.
+---@field connectedAnchor fun() @Position of the anchor relative to the connected Rigidbody.
+---@field connectedMassScale fun() @The scale to apply to the inverse mass and inertia tensor of the connected body prior to solving the constraints.
+---@field connectedArticulationBody fun() @A reference to an articulation body this joint connects to.
+---@field axis fun() @The Direction of the axis around which the body is constrained.
+---@field anchor fun() @The Position of the anchor around which the joints motion is constrained.
+---@field breakForce fun() @The force that needs to be applied for this joint to break.

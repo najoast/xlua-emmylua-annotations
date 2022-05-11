@@ -1,0 +1,11 @@
+---@class Callbacks @nil
+---@field RunAfterAssemblyAttribute Callbacks.RunAfterAssemblyAttribute @Add this attribute to a callback method to mark that this callback must be run after any callbacks that are part of the specified assembly.
+---@field RunAfterClassAttribute Callbacks.RunAfterClassAttribute @Add this attribute to a callback method to mark that this callback must be run after any callbacks that are part of the specified class.
+---@field RunBeforeAssemblyAttribute Callbacks.RunBeforeAssemblyAttribute @Add this attribute to a callback method to indicate that this callback must be run before any callbacks that are part of the specified assembly.
+---@field PostProcessSceneAttribute fun() @Add this attribute to a method to get a notification just after building the Scene.
+---@field OnOpenAssetAttributeMode Callbacks.OnOpenAssetAttributeMode @Indicates whether OnOpenAssetAttribute decorated method is a validation function that checks if asset opening is handled by Unity or a custom script.
+---@field RunAfterPackageAttribute Callbacks.RunAfterPackageAttribute @Add this attribute to a callback method to mark that this callback must be run after any callbacks that are part of the specified package.
+---@field PostProcessBuildAttribute fun() @Add this attribute to a method to get a notification just after building the player.
+---@field RunBeforePackageAttribute Callbacks.RunBeforePackageAttribute @Add this attribute to a callback method to mark that this callback must be run before any callbacks that are part of the specified package.
+---@field DidReloadScripts Callbacks.DidReloadScripts @Add this attribute to a method to get a notification after scripts have been reloaded.
+---@field RunBeforeClassAttribute Callbacks.RunBeforeClassAttribute @Add this attribute to a callback method to mark that this callback must be run before any callbacks that are part of the specified class.

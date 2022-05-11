@@ -1,0 +1,5 @@
+---@class ModelImporterAnimationCompression @Animation compression options for ModelImporter.
+---@field Off fun() @No animation compression.
+---@field KeyframeReduction fun() @Perform keyframe reduction.
+---@field Optimal fun() @Perform keyframe reduction and choose the best animation curve representation at runtime to reduce memory footprint (default).
+---@field KeyframeReductionAndCompression fun() @Perform keyframe reduction and compression.

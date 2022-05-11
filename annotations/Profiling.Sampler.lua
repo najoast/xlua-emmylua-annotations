@@ -1,0 +1,6 @@
+---@class Profiling.Sampler @Provides control over a CPU Profiler label.
+---@field Get fun() @Returns Sampler object for the specific CPU Profiler label.
+---@field name fun() @Sampler name. (Read Only)
+---@field GetRecorder fun() @Returns Recorder associated with the Sampler.
+---@field isValid fun() @Returns true if Sampler is valid. (Read Only)
+---@field GetNames fun() @Returns number and names of all registered Profiler labels.

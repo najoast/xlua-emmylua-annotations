@@ -1,0 +1,12 @@
+---@class AI.NavMeshBuilder @Navigation mesh builder interface.
+---@field ClearAllNavMeshes fun() @Clear all Navmeshes. (UnityEditor)
+---@field BuildNavMeshForMultipleScenes fun() @Builds the combined navmesh for the contents of multiple Scenes. (UnityEditor)
+---@field BuildNavMeshData fun() @Builds a NavMesh data object from the provided input sources. (UnityEngine)
+---@field Cancel fun() @Cancel Navmesh construction. (UnityEditor) See Also: NavMeshBuilder.BuildNavMeshAsync
+---@field UpdateNavMeshDataAsync fun() @Asynchronously and incrementally updates the NavMeshData based on the sources. (UnityEngine)
+---@field BuildNavMesh fun() @Build the Navmesh. (UnityEditor)
+---@field BuildNavMeshAsync fun() @Build the Navmesh Asyncronously. (UnityEditor)
+---@field CollectSourcesInStage fun() @Creates a list of build sources directly from the current geometry in the specified editor stage. (UnityEditor)
+---@field UpdateNavMeshData fun() @Incrementally updates the NavMeshData based on the sources. (UnityEngine)
+---@field CollectSources fun() @For convenience, you can create a list of build sources directly from the current geometry. (UnityEngine)
+---@field isRunning fun() @Returns true if an asynchronous build is still running. (UnityEditor)

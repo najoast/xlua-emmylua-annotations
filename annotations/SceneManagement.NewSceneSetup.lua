@@ -1,0 +1,3 @@
+---@class SceneManagement.NewSceneSetup @Used when creating a new Scene in the Editor.
+---@field EmptyScene fun() @No game objects are added to the new Scene.
+---@field DefaultGameObjects fun() @Adds default game objects to the new Scene (a light and camera).

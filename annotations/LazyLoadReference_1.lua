@@ -1,0 +1,8 @@
+---@class LazyLoadReference_1 @Serializable lazy reference to a UnityEngine.Object contained in an asset file.
+---@field isBroken fun() @Convenience property that checks whether the reference is broken: refers to an object that is either not available or not loadable.
+---@field operator_int fun() @Implicit conversion from instance ID to LazyLoadReference.
+---@field ctor fun() @Construct a new LazyLoadReference.
+---@field asset fun() @Accessor to the referenced asset.
+---@field isSet fun() @Determines if an asset is being targeted, regardless of whether the asset is available for loading.
+---@field instanceID fun() @Returns the instance id to the referenced asset.
+---@field operator_T fun() @Implicit conversion from asset reference to LazyLoadReference.

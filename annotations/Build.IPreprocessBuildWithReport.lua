@@ -1,0 +1,2 @@
+---@class Build.IPreprocessBuildWithReport @Implement this interface to receive a callback before the build is started.
+---@field OnPreprocessBuild fun() @Implement this function to receive a callback before the build is started.

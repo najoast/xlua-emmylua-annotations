@@ -1,0 +1,9 @@
+---@class StaticOcclusionCulling @StaticOcclusionCulling lets you perform static occlusion culling operations.
+---@field doesSceneHaveManualPortals fun() @Does the Scene contain any occlusion portals that were added manually rather than automatically?
+---@field Compute fun() @Used to generate static occlusion culling data.
+---@field Clear fun() @Clears the PVS of the opened Scene.
+---@field GenerateInBackground fun() @Used to compute static occlusion culling data asynchronously.
+---@field umbraDataSize fun() @Returns the size in bytes that the PVS data is currently taking up in this Scene on disk.
+---@field RemoveCacheFolder fun() @Removes temporary folder used when baking occlusion.
+---@field Cancel fun() @Used to cancel asynchronous generation of static occlusion culling data.
+---@field isRunning fun() @Used to check if asynchronous generation of static occlusion culling data is still running.

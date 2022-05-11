@@ -1,0 +1,13 @@
+---@class iOS.ADBannerView @ADBannerView is a wrapper around the ADBannerView class found in the Apple iAd framework and is only available on iOS.
+---@field size fun() @The size of the banner view.
+---@field ctor fun() @Creates a banner view with given type and auto-layout params.
+---@field IsAvailable fun() @Checks if the banner type is available (e.g. MediumRect is available only starting with ios6).
+---@field BannerWasLoadedDelegate fun() @Will be fired when banner loaded new ad.
+---@field visible fun() @Banner visibility. Initially banner is not visible.
+---@field loaded fun() @Checks if banner contents are loaded.
+---@field layout fun() @Banner layout.
+---@field BannerFailedToLoadDelegate fun() @Will be fired when banner ad failed to load.
+---@field Type iOS.ADBannerView.Type @The type of the banner view.
+---@field BannerWasClickedDelegate fun() @Will be fired when banner was clicked.
+---@field Layout iOS.ADBannerView.Layout @Specifies how banner should be layed out on screen.
+---@field position fun() @The position of the banner view.

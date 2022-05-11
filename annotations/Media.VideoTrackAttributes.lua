@@ -1,0 +1,6 @@
+---@class Media.VideoTrackAttributes @Descriptor for audio track format.
+---@field height fun() @Image height in pixels.
+---@field frameRate fun() @Frames per second.
+---@field bitRateMode fun() @VideoBitrateMode for the encoded video.
+---@field includeAlpha fun() @True if the track is to include the alpha channel found in the texture passed to AddFrame. False otherwise.
+---@field width fun() @Image width in pixels.

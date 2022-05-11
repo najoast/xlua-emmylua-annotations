@@ -1,0 +1,14 @@
+---@class Rendering.AttachmentDescriptor @A declaration of a single color or depth rendering surface to be attached into a RenderPass.
+---@field resolveTarget fun() @When the renderpass that uses this attachment ends, resolve the MSAA surface into the given target.
+---@field ctor fun() @Create a AttachmentDescriptor to be used with RenderPass.
+---@field storeAction fun() @The store action to use with this attachment when the RenderPass ends. Only used when either ConfigureTarget or ConfigureResolveTarget has been called.
+---@field ConfigureTarget fun() @Binds this AttachmentDescriptor to the given target surface.
+---@field clearDepth fun() @Currently assigned depth clear value for this attachment. Default value is 1.0.
+---@field clearColor fun() @The currently assigned clear color for this attachment. Default is black.
+---@field clearStencil fun() @Currently assigned stencil clear value for this attachment. Default is 0.
+---@field loadStoreTarget fun() @The surface to use as the backing storage for this AttachmentDescriptor.
+---@field ConfigureClear fun() @When the RenderPass starts, clear this attachment into the color or depth/stencil values given (depending on the format of this attachment). Changes loadAction to RenderBufferLoadAction.Clear.
+---@field ConfigureResolveTarget fun() @When the renderpass that uses this attachment ends, resolve the MSAA surface into the given target.
+---@field loadAction fun() @The load action to be used on this attachment when the RenderPass starts.
+---@field graphicsFormat fun() @The GraphicsFormat of this attachment. To use in place of format.
+---@field format fun() @The format of this attachment.

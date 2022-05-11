@@ -1,0 +1,4 @@
+---@class UIElements.StyleSheet @Style sheets are applied to visual elements in order to control the layout and visual appearance of the user interface.
+---@field importedWithErrors fun() @Whether there were errors encountered while importing the StyleSheet
+---@field importedWithWarnings fun() @Whether there were warnings encountered while importing the StyleSheet
+---@field contentHash fun() @A hash value computed from the stylesheet content.

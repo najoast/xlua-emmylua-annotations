@@ -1,0 +1,10 @@
+---@class UIElements.IVisualElementScheduledItem @Represents a scheduled task created with a VisualElement's schedule interface.
+---@field StartingIn fun() @Adds a delay to the first invokation.
+---@field ExecuteLater fun() @Cancels any previously scheduled execution of this item and re-schedules the item.
+---@field Every fun() @Repeats this action after a specified time.
+---@field Resume fun() @If not already active, will schedule this item on its VisualElement's scheduler.
+---@field Until fun() @Item will be unscheduled automatically when specified condition is met.
+---@field element fun() @Returns the VisualElement this object is associated with.
+---@field ForDuration fun() @After specified duration, the item will be automatically unscheduled.
+---@field Pause fun() @Removes this item from its VisualElement's scheduler.
+---@field isActive fun() @Will be true when this item is scheduled. Note that an item's callback will only be executed when it's VisualElement is attached to a panel.

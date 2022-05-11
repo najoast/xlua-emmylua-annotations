@@ -1,0 +1,2 @@
+---@class Experimental.GraphView.SearchTreeGroupEntry @This class describes group entries in the search tree. The search tree is displayed in the search window.
+---@field ctor fun() @

@@ -1,0 +1,12 @@
+---@class Rendering.BlendMode @Blend mode for controlling the blending.
+---@field OneMinusSrcColor fun() @Blend factor is (1 - Rs, 1 - Gs, 1 - Bs, 1 - As).
+---@field Zero fun() @Blend factor is  (0, 0, 0, 0).
+---@field SrcAlphaSaturate fun() @Blend factor is (f, f, f, 1); where f = min(As, 1 - Ad).
+---@field DstColor fun() @Blend factor is (Rd, Gd, Bd, Ad).
+---@field SrcAlpha fun() @Blend factor is (As, As, As, As).
+---@field OneMinusSrcAlpha fun() @Blend factor is (1 - As, 1 - As, 1 - As, 1 - As).
+---@field DstAlpha fun() @Blend factor is (Ad, Ad, Ad, Ad).
+---@field OneMinusDstColor fun() @Blend factor is (1 - Rd, 1 - Gd, 1 - Bd, 1 - Ad).
+---@field One fun() @Blend factor is (1, 1, 1, 1).
+---@field OneMinusDstAlpha fun() @Blend factor is (1 - Ad, 1 - Ad, 1 - Ad, 1 - Ad).
+---@field SrcColor fun() @Blend factor is (Rs, Gs, Bs, As).

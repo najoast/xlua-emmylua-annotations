@@ -1,0 +1,3 @@
+---@class UIElements.INotifyValueChangedExtensions @INotifyValueChangedExtensions is a set of extension methods useful for objects implementing INotifyValueChanged_1.
+---@field RegisterValueChangedCallback fun() @Registers this callback to receive ChangeEvent_1 when the value is changed.
+---@field UnregisterValueChangedCallback fun() @Unregisters this callback from receiving ChangeEvent_1 when the value is changed.

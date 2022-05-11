@@ -1,0 +1,2 @@
+---@class XR.XRInputSubsystemDescriptor @Information about an Input subsystem.
+---@field disablesLegacyInput fun() @When true, will suppress legacy support for Daydream, Oculus, OpenVR, and Windows MR built directly into the Unity runtime from generating input. This is useful when adding an XRInputSubsystem that supports these devices.

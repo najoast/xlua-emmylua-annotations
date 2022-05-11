@@ -1,0 +1,4 @@
+---@class Experimental.AI.NavMeshWorld @Assembles together a collection of NavMesh surfaces and links that are used as a whole for performing navigation operations.
+---@field AddDependency fun() @Tells the NavMesh world to halt any changes until the specified job is completed.
+---@field IsValid fun() @Returns true if the NavMeshWorld has been properly initialized.
+---@field GetDefaultWorld fun() @Returns a reference to the single NavMeshWorld that can currently exist and be used in Unity.

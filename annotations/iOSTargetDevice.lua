@@ -1,0 +1,4 @@
+---@class iOSTargetDevice @Target iOS device.
+---@field iPadOnly fun() @iPad Only.
+---@field iPhoneOnly fun() @iPhone/iPod Only.
+---@field iPhoneAndiPad fun() @Universal : iPhone/iPod + iPad.

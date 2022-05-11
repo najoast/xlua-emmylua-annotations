@@ -1,0 +1,30 @@
+---@class Animations.AnimatorControllerPlayable @An implementation of IPlayable that controls an animation RuntimeAnimatorController.
+---@field PlayInFixedTime fun() @Plays a state.
+---@field GetNextAnimatorStateInfo fun() @Returns an AnimatorStateInfo with the information on the next state.
+---@field GetNextAnimatorClipInfo fun() @Returns an array of all the AnimatorClipInfo in the next state of the given layer.
+---@field SetFloat fun() @Send float values to the AnimatorController to affect transitions.
+---@field SetLayerWeight fun() @Sets the weight of the layer at the given index.
+---@field IsParameterControlledByCurve fun() @Returns true if the parameter is controlled by a curve, false otherwise.
+---@field IsInTransition fun() @Returns true if there is a transition on the given layer, false otherwise.
+---@field ResetTrigger fun() @Resets the value of the given trigger parameter.
+---@field SetInteger fun() @Sets the value of the given integer parameter.
+---@field GetCurrentAnimatorClipInfoCount fun() @Returns the number of AnimatorClipInfo in the current state.
+---@field SetBool fun() @Sets the value of the given boolean parameter.
+---@field Play fun() @Plays a state.
+---@field HasState fun() @Returns true if the state exists in this layer, false otherwise.
+---@field GetParameter fun() @See AnimatorController.parameters.
+---@field GetNextAnimatorClipInfoCount fun() @Returns the number of AnimatorClipInfo in the next state.
+---@field GetFloat fun() @Returns the value of the given float parameter.
+---@field Create fun() @Creates an AnimatorControllerPlayable in the PlayableGraph.
+---@field GetCurrentAnimatorStateInfo fun() @Returns an AnimatorStateInfo with the information on the current state.
+---@field SetTrigger fun() @Sets the value of the given trigger parameter.
+---@field GetAnimatorTransitionInfo fun() @Returns an AnimatorTransitionInfo with the informations on the current transition.
+---@field GetCurrentAnimatorClipInfo fun() @Returns an array of all the AnimatorClipInfo in the current state of the given layer.
+---@field GetLayerWeight fun() @Returns the weight of the layer at the specified index.
+---@field GetBool fun() @Returns the value of the given boolean parameter.
+---@field GetLayerIndex fun() @Returns the index of the layer with the given name.
+---@field CrossFadeInFixedTime fun() @Creates a crossfade from the current state to any other state using times in seconds.
+---@field GetLayerName fun() @Returns the layer name.
+---@field CrossFade fun() @Creates a crossfade from the current state to any other state using normalized times.
+---@field Null fun() @Returns an invalid AnimatorControllerPlayable.
+---@field GetInteger fun() @Returns the value of the given integer parameter.

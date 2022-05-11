@@ -1,0 +1,5 @@
+---@class Media.MediaEncoder @Encodes images and audio samples into an audio or movie file.
+---@field AddFrame fun() @Appends a frame to the file's video track.
+---@field Dispose fun() @Finishes writing all tracks and closes the file being written.
+---@field AddSamples fun() @Appends sample frames to the specified audio track.
+---@field ctor fun() @Create a new encoder with various track arrangements.

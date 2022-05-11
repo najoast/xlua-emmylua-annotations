@@ -1,0 +1,24 @@
+---@class Build @nil
+---@field BuildPlayerProcessor Build.BuildPlayerProcessor @Extend BuildPlayerProcessor to receive callbacks during a player build.
+---@field IPreprocessBuild Build.IPreprocessBuild @This interface is obsolete. Use Build.IPreprocessBuildWithReport instead.
+---@field IActiveBuildTargetChanged Build.IActiveBuildTargetChanged @Implement this interface to receive a callback after the active build platform has changed.
+---@field NamedBuildTarget Build.NamedBuildTarget @Build Target by name.
+---@field IUnityLinkerProcessor Build.IUnityLinkerProcessor @Implement this interface to receive callbacks related to the running of UnityLinker.
+---@field IPreprocessBuildWithReport Build.IPreprocessBuildWithReport @Implement this interface to receive a callback before the build is started.
+---@field Content Build.Content @nil
+---@field Il2CppCodeGeneration Build.Il2CppCodeGeneration @Options to control code generation for IL2CPP compiler.
+---@field IFilterBuildAssemblies Build.IFilterBuildAssemblies @Implement this interface to receive a callback to filter assemblies away from the build.
+---@field Reporting Build.Reporting @nil
+---@field IPostprocessBuild Build.IPostprocessBuild @This interface is obsolete. Use Build.IPostprocessBuildWithReport instead.
+---@field IProcessSceneWithReport Build.IProcessSceneWithReport @Implement this interface to receive a callback for each Scene during the build.
+---@field BuildPlayerContext Build.BuildPlayerContext @Get a BuildPlayerContext object from a Build.BuildPlayerProcessor.PrepareForBuild callback.
+---@field Player Build.Player @nil
+---@field OverrideTextureCompression Build.OverrideTextureCompression @Sets which texture compression override to use when importing assets.
+---@field IPreprocessShaders Build.IPreprocessShaders @Implement this interface to receive a callback before a shader is compiled.
+---@field IPostprocessBuildWithReport Build.IPostprocessBuildWithReport @Implement this interface to receive a callback after the build is complete.
+---@field IProcessScene Build.IProcessScene @Implement this interface to receive a callback for each Scene during the build.
+---@field IPostBuildPlayerScriptDLLs Build.IPostBuildPlayerScriptDLLs @Implement this interface to receive a callback just after the player scripts have been compiled.
+---@field IPreprocessComputeShaders Build.IPreprocessComputeShaders @Implement this interface to receive a callback before a compute shader is compiled.
+---@field IIl2CppProcessor fun() @Implement this interface to receive callbacks related to the running of IL2CPP.
+---@field BuildFailedException Build.BuildFailedException @An exception class that represents a failed build.
+---@field IOrderedCallback Build.IOrderedCallback @Interface that provides control over callback order.

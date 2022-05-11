@@ -1,0 +1,4 @@
+---@class UIElements.StyleScale @Style value that can be either a Scale or a StyleKeyword.
+---@field value fun() @The Scale value.
+---@field ctor fun() @Creates a new StyleScale from either a Scale or a StyleKeyword.
+---@field keyword fun() @The style keyword.

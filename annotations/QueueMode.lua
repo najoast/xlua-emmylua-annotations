@@ -1,0 +1,3 @@
+---@class QueueMode @Used by Animation.Play function.
+---@field CompleteOthers fun() @Will start playing after all other animations have stopped playing.
+---@field PlayNow fun() @Starts playing immediately. This can be used if you just want to quickly create a duplicate animation.

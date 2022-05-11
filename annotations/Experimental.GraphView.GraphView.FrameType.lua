@@ -1,0 +1,4 @@
+---@class Experimental.GraphView.GraphView.FrameType @Type of framing.
+---@field All fun() @Focus view on all elements.
+---@field Origin fun() @Focus view on origin.
+---@field Selection fun() @Focus view on selection.

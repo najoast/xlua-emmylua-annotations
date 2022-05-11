@@ -1,0 +1,5 @@
+---@class Rendering.RendererUtils.RendererListStatus @Options that represent the result of a ScriptableRenderContext.QueryRendererList operation.
+---@field kRendererListInvalid fun() @The RendererList from the query operation is invalid.
+---@field kRendererListPopulated fun() @The RendererList is not empty.
+---@field kRendererListEmpty fun() @There are no GameObjects in the current view that match the RendererList's criteria.
+---@field kRendererListProcessing fun() @Unity is still processing the RendererList.

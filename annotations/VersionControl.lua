@@ -1,0 +1,28 @@
+---@class VersionControl @nil
+---@field ISettingsInspectorExtension VersionControl.ISettingsInspectorExtension @Version control system extension that allows extending Version Control settings inspector.
+---@field VersionControlDescriptor VersionControl.VersionControlDescriptor @Contains unique version control system name.
+---@field IPopupMenuExtension VersionControl.IPopupMenuExtension @Version control system extension that allows displaying VCS specific context menu.
+---@field IconOverlayType VersionControl.IconOverlayType @Type of icon overlay.
+---@field Asset VersionControl.Asset @This class containes information about the version control state of an asset.
+---@field SubmitResult VersionControl.SubmitResult @The status of an operation returned by the VCS.
+---@field ChangeSet VersionControl.ChangeSet @Wrapper around a changeset description and ID.
+---@field AssetList VersionControl.AssetList @A list of version control information about assets.
+---@field VersionControlUtils VersionControl.VersionControlUtils @Contains version control system specific utility methods.
+---@field IIconOverlayExtension VersionControl.IIconOverlayExtension @Version control system extension that allows drawing icon overlays.
+---@field MergeMethod VersionControl.MergeMethod @Which method to use when merging.
+---@field Provider VersionControl.Provider @This class provides access to the version control API.
+---@field VersionControlManager VersionControl.VersionControlManager @Manages version control systems.
+---@field IInspectorWindowExtension VersionControl.IInspectorWindowExtension @Version control system extension that allows extending inspector.
+---@field FileMode VersionControl.FileMode @Mode of the file.
+---@field CompletionAction VersionControl.CompletionAction @Different actions a version control task can do upon completion.
+---@field Task VersionControl.Task @A Task describes an instance of a version control operation.
+---@field ConfigField VersionControl.ConfigField @Describes the configuration fields of the version control that the user has selected in the Unity Editor.
+---@field RevertMode VersionControl.RevertMode @Defines the behaviour of the version control revert methods.
+---@field Message VersionControl.Message @Messages from the version control system.
+---@field ResolveMethod VersionControl.ResolveMethod @How assets should be resolved.
+---@field Plugin VersionControl.Plugin @The plug-in class describes the currently active version control plug-in and its configuration options.
+---@field OnlineState VersionControl.OnlineState @Represent the connection state of the version control provider.
+---@field VersionControlAttribute VersionControl.VersionControlAttribute @Allows you to mark a class as a version control system object.
+---@field ChangeSets fun() @A list of the ChangeSet class.
+---@field CheckoutMode VersionControl.CheckoutMode @What to checkout when starting the Checkout task through the version control Provider.
+---@field VersionControlObject VersionControl.VersionControlObject @The abstract base class for representing a version control system.

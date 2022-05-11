@@ -1,0 +1,9 @@
+---@class UIElements.TextValueField_1 @Base class for text fields.
+---@field ApplyInputDeviceDelta fun() @Modify the value using a 3D delta and a speed, typically coming from an input device.
+---@field StopDragging fun() @Indicates the user stopped the mouse dragging for text selection.
+---@field formatString fun() @The format string for the value.
+---@field SetValueWithoutNotify fun() @Allow to set the value without being notified.
+---@field StartDragging fun() @Indicates the user started the mouse dragging for text selection.
+---@field AddLabelDragger fun() @Method used to add a mouse dragger on the label for specific numeric fields.
+---@field TextValueInput UIElements.TextValueField_1.TextValueInput @This is the inner representation of the Text input.
+---@field value fun() @This is the value of the field.

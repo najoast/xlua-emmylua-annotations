@@ -1,0 +1,13 @@
+---@class DefaultLightingExplorerExtension @Default definition for the Lighting Explorer. Can be overridden completely or partially.
+---@field ctor fun() @Constructor.
+---@field Get2DLightColumns fun() @Gets column definitions for 2D Lights.
+---@field GetLightProbeColumns fun() @Returns column definitions for Light Probes.
+---@field GetContentTabs fun() @This returns all the default tabs for the Lighting Explorer.
+---@field GetEmissives fun() @Returns objects with an Emissive material.
+---@field GetLightColumns fun() @Returns column definitions for Lights.
+---@field Get2DLights fun() @Gets an array of all 2D lights in the scene.
+---@field GetReflectionProbes fun() @Returns Reflection Probes.
+---@field GetReflectionProbeColumns fun() @Returns column definitions for Reflection Probes.
+---@field GetLights fun() @Returns Lights.
+---@field GetLightProbes fun() @Returns Light Probes.
+---@field GetEmissivesColumns fun() @Returns column definitions for Emissives.

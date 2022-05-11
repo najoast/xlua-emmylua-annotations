@@ -1,0 +1,9 @@
+---@class RaycastHit2D @Information returned about an object detected by a raycast in 2D physics.
+---@field centroid fun() @The centroid of the primitive used to perform the cast.
+---@field fraction fun() @Fraction of the distance along the ray that the hit occurred.
+---@field transform fun() @The Transform of the object that was hit.
+---@field rigidbody fun() @The Rigidbody2D attached to the object that was hit.
+---@field distance fun() @The distance from the ray origin to the impact point.
+---@field normal fun() @The normal vector of the surface hit by the ray.
+---@field point fun() @The point in world space where the ray hit the collider's surface.
+---@field collider fun() @The collider hit by the ray.

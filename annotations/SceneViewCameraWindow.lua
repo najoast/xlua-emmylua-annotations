@@ -1,0 +1,5 @@
+---@class SceneViewCameraWindow @Use this class to instantiate a SceneViewCameraWindow window.
+---@field GetWindowSize fun() @Retrieves the dimensions of the SceneViewCameraWindow window.
+---@field additionalSettingsGui fun() @Subscribe to this event to receive a callback when the SceneViewCameraWindow.OnGUI function is called.
+---@field ctor fun() @Creates an instance of the SceneViewCameraWindow window.
+---@field OnGUI fun() @A callback used for drawing the GUI controls of the SceneViewCameraWindow window.

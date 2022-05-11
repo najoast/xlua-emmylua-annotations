@@ -1,0 +1,4 @@
+---@class AssemblyReloadEvents @This class has event dispatchers for assembly reload events.
+---@field afterAssemblyReload fun() @This event is dispatched just after Unity have reloaded all assemblies.
+---@field beforeAssemblyReload fun() @This event is dispatched just before Unity reloads all assemblies.
+---@field AssemblyReloadCallback fun() @Delegate used for assembly reload events.

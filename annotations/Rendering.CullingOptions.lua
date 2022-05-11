@@ -1,0 +1,9 @@
+---@class Rendering.CullingOptions @Flags used by ScriptableCullingParameters.cullingOptions to configure a culling operation.
+---@field Stereo fun() @When this flag is set, Unity culls both eyes together for stereo rendering.
+---@field ShadowCasters fun() @When this flag is set, Unity culls shadow casters as part of the culling operation.
+---@field None fun() @Unset all CullingOptions flags.
+---@field ForceEvenIfCameraIsNotActive fun() @When this flag is set, Unity performs the culling operation even if the Camera is not active.
+---@field NeedsReflectionProbes fun() @When this flag is set, Unity culls Reflection Probes as part of the culling operation.
+---@field OcclusionCull fun() @When this flag is set, Unity performs occlusion culling as part of the culling operation.
+---@field DisablePerObjectCulling fun() @When this flag is set, Unity does not perform per-object culling.
+---@field NeedsLighting fun() @When this flag is set, Unity culls Lights as part of the culling operation.

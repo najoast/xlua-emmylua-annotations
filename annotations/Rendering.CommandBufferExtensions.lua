@@ -1,0 +1,3 @@
+---@class Rendering.CommandBufferExtensions @Static class providing extension methods for CommandBuffer.
+---@field SwitchOutOfFastMemory fun() @Adds a command to remove a given render target from fast GPU memory.
+---@field SwitchIntoFastMemory fun() @Adds a command to put a given render target into fast GPU memory.

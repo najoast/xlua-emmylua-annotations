@@ -1,0 +1,9 @@
+---@class XR.InputDevices @An interface for accessing devices in the XR input subsytem.
+---@field deviceDisconnected fun() @Defines the delegate to use to register events when an InputDevice is disconnected.
+---@field GetDevicesWithRole fun() @Gets a list of active input devices available to the XR Input Subsystem that match the specified role.
+---@field GetDevicesWithCharacteristics fun() @Gets the list of active XR input devices that match the specified InputDeviceCharacteristics.
+---@field GetDevicesAtXRNode fun() @Gets a list of active input devices available to the XR Input Subsystem at a given XR.XRNode endpoint.
+---@field GetDevices fun() @Gets a list of active input devices available to the XR Input Subsystem.
+---@field deviceConfigChanged fun() @Defines the delegate to use to register events when an InputDevice's configuration changes.
+---@field deviceConnected fun() @Defines the delegate to use to register events when an InputDevice is connected.
+---@field GetDeviceAtXRNode fun() @Gets the input device at a given XR.XRNode endpoint.

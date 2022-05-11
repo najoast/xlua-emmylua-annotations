@@ -1,0 +1,3 @@
+---@class WSABuildAndRunDeployTarget @Specifies the Windows device to deploy and launch the UWP app on when using Build and Run from the Editor.
+---@field DevicePortal fun() @Runs the app on a remote Windows device using the Windows DevicePortal (WDP) transport.
+---@field LocalMachine fun() @Runs the app on the local Windows PC.

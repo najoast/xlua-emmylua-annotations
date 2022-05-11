@@ -1,0 +1,4 @@
+---@class JointSpring @JointSpring is used add a spring force to HingeJoint and PhysicMaterial.
+---@field damper fun() @The damper force uses to dampen the spring.
+---@field targetPosition fun() @The target position the joint attempts to reach.
+---@field spring fun() @The spring forces used to reach the target position.

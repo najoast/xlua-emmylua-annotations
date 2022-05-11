@@ -1,0 +1,11 @@
+---@class PlayerSettings.WSAImageScale @Options for the set of sizing values to apply to the Universal Windows Platform logo and icon images. These options specify variations for different screen sizes and resolutions.
+---@field 125 fun() @Uses a scale factor of 125%.
+---@field Target16 fun() @Targets a size of 16x16 pixels.
+---@field Target48 fun() @Targets a size of 48x48 pixels.
+---@field Target256 fun() @Targets a size of 256x256 pixels.
+---@field Target24 fun() @Targets a size of 24x24 pixels.
+---@field 100 fun() @Uses a scale factor of 100%.
+---@field 200 fun() @Uses a scale factor of 200%.
+---@field 150 fun() @Uses a scale factor of 150%.
+---@field 400 fun() @Uses a scale factor of 400%.
+---@field Target32 fun() @Targets a size of 32x32 pixels.

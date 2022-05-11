@@ -1,0 +1,14 @@
+---@class iOS.Xcode.MapsOptions @This enumerated type describes various navigational options that your app can use to receive route data from the Maps app. The values are flags, meaning they can be combined with | operator.
+---@field Bus fun() @Provide routing information for bus travel.
+---@field None fun() @No Maps routing information is necessary.
+---@field Train fun() @Provide routing information for train travel.
+---@field Pedestrian fun() @Provide routing information for pedestrian travel.
+---@field Car fun() @Provide routing information for car travel.
+---@field Subway fun() @Provide routing information for subway travel.
+---@field StreetCar fun() @Provide routing information for street car travel.
+---@field Other fun() @Provide routing information for other types of travel.
+---@field Bike fun() @Provide routing information for bicycle travel.
+---@field Ferry fun() @Provide routing information for ferry travel.
+---@field RideSharing fun() @Provide routing information for ride sharing travel.
+---@field Taxi fun() @Provide routing information for taxi travel.
+---@field Airplane fun() @Provide routing information for airplane travel.

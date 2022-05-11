@@ -1,0 +1,3 @@
+---@class LightmapBakeQuality @Bake quality setting for LightmapEditorSettings.
+---@field Low fun() @Low quality bake for preview renderings.
+---@field High fun() @High quality bake for final renderings.

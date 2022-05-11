@@ -1,0 +1,9 @@
+---@class UIElements.CallbackEventHandler @Interface for classes capable of having callbacks to handle events.
+---@field ExecuteDefaultActionAtTarget fun() @Executes logic after the callbacks registered on the event target have executed, unless the event is marked to prevent its default behaviour. EventBase{T}.PreventDefault.
+---@field HasBubbleUpHandlers fun() @Return true if event handlers for the event propagation BubbleUp phase have been attached on this object.
+---@field SendEvent fun() @Sends an event to the event handler.
+---@field HandleEvent fun() @Handle an event, most often by executing the callbacks associated with the event.
+---@field HasTrickleDownHandlers fun() @Returns true if event handlers, for the event propagation TrickleDown phase, are attached to this object.
+---@field RegisterCallback fun() @Adds an event handler to the instance. If the event handler has already been registered for the same phase (either TrickleDown or BubbleUp) then this method has no effect.
+---@field ExecuteDefaultAction fun() @Executes logic after the callbacks registered on the event target have executed, unless the event has been marked to prevent its default behaviour. EventBase{T}.PreventDefault.
+---@field UnregisterCallback fun() @Remove callback from the instance.

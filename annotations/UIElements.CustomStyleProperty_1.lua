@@ -1,0 +1,3 @@
+---@class UIElements.CustomStyleProperty_1 @Define a custom style property for an element to be retrieved with CustomStyleResolvedEvent.
+---@field ctor fun() @Creates custom property from a string.
+---@field name fun() @Name of the custom property.

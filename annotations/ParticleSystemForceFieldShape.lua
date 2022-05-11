@@ -1,0 +1,5 @@
+---@class ParticleSystemForceFieldShape @The type of shape used for influencing particles in the Force Field Component.
+---@field Cylinder fun() @Influence particles inside a cylinder shape.
+---@field Sphere fun() @Influence particles inside a sphere shape.
+---@field Hemisphere fun() @Influence particles inside a hemisphere shape.
+---@field Box fun() @Influence particles inside a box shape.

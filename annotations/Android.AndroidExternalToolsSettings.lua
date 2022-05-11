@@ -1,0 +1,8 @@
+---@class Android.AndroidExternalToolsSettings @A class containing properties to modify Android specific values in Edit -&gt; Preferences... -&gt; External Tools.
+---@field stopGradleDaemonsOnExit fun() @If enabled, all Gradle daemons will be stopped when closing the editor.
+---@field sdkRootPath fun() @Path to the Android SDK which is used when building Android applications.
+---@field jdkRootPath fun() @Path to the JDK which is used when building Android applications.
+---@field maxJvmHeapSize fun() @The maximum java heap size (in megabytes) that will be used for building Android applications (min value is 128).
+---@field ndkRootPath fun() @Path to the Android NDK which is used when building Android applications.
+---@field keystoresDedicatedLocation fun() @Path to a location dedicated to keystores for signing Android applications.
+---@field gradlePath fun() @Path to the Gradle which is used when building Android applications.

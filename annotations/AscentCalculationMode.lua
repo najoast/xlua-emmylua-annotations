@@ -1,0 +1,4 @@
+---@class AscentCalculationMode @Method used for calculating a font's ascent.
+---@field FaceAscender fun() @Ascender method.
+---@field FaceBoundingBox fun() @Bounding box method.
+---@field Legacy2x fun() @Legacy bounding box method.

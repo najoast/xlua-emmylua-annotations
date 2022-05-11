@@ -1,0 +1,12 @@
+---@class U2D.SpriteDataAccessExtensions @A list of methods designed for reading and writing to the rich internal data of a Sprite.
+---@field SetBindPoses fun() @Sets the bind poses for this Sprite.
+---@field GetBones fun() @Returns a list of SpriteBone in this Sprite.
+---@field GetIndices fun() @Returns a list of indices. This is the same as Sprite.triangle.
+---@field GetVertexCount fun() @Returns the number of vertices in this Sprite.
+---@field HasVertexAttribute fun() @Checks if a specific channel exists for this Sprite.
+---@field GetVertexAttribute fun() @Retrieves a strided accessor to the internal vertex attributes.
+---@field SetVertexCount fun() @Sets the vertex count. This resizes the internal buffer. It also preserves any configurations of VertexAttributes.
+---@field GetBindPoses fun() @Returns an array of BindPoses.
+---@field SetBones fun() @Sets the SpriteBones for this Sprite.
+---@field SetVertexAttribute fun() @Sets a specific channel of the VertexAttribute.
+---@field SetIndices fun() @Set the indices for this Sprite. This is the same as Sprite.triangle.

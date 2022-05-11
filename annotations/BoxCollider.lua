@@ -1,0 +1,3 @@
+---@class BoxCollider @A box-shaped primitive collider.
+---@field size fun() @The size of the box, measured in the object's local space.
+---@field center fun() @The center of the box, measured in the object's local space.

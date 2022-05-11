@@ -1,0 +1,16 @@
+---@class GUIUtility @Utility class for making new GUI controls.
+---@field keyboardControl fun() @The controlID of the control that has keyboard focus.
+---@field ScreenToGUIRect fun() @Convert a rect from screen space to GUI position.
+---@field ScreenToGUIPoint fun() @Convert a point from screen space to GUI position.
+---@field GUIToScreenRect fun() @Convert a rect from GUI position to screen space.
+---@field ExitGUI fun() @Puts the GUI in a state that will prevent all subsequent immediate mode GUI functions from evaluating for the remainder of the GUI loop by throwing an ExitGUIException.
+---@field hasModalWindow fun() @A global property, which is true if a ModalWindow is being displayed, false otherwise.
+---@field GetStateObject fun() @Get a state object from a controlID.
+---@field AlignRectToDevice fun() @Align a local space rectangle to the pixel grid.
+---@field GetControlID fun() @Get a unique ID for a control.
+---@field ScaleAroundPivot fun() @Helper function to scale the GUI around a point.
+---@field hotControl fun() @The controlID of the current hot control.
+---@field RotateAroundPivot fun() @Helper function to rotate the GUI around a point.
+---@field QueryStateObject fun() @Get an existing state object from a controlID.
+---@field GUIToScreenPoint fun() @Convert a point from GUI position to screen space.
+---@field systemCopyBuffer fun() @Get access to the system-wide clipboard.

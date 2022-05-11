@@ -1,0 +1,2 @@
+---@class ITerrainLayerCustomUI @Provides an interface to display a custom TerrainLayer UI in the Terrain Layers inspector.
+---@field OnTerrainLayerGUI fun() @Draws the custom GUI for the terrain layer.

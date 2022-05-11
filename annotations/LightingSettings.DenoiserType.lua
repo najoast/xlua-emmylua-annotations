@@ -1,0 +1,5 @@
+---@class LightingSettings.DenoiserType @The available denoisers for the Progressive Lightmapper.
+---@field None fun() @Use this to disable denoising for the lightmap.
+---@field OpenImage fun() @Intel Open Image Denoiser.
+---@field RadeonPro fun() @RadeonPro Denoiser.
+---@field Optix fun() @NVIDIA Optix Denoiser.

@@ -1,0 +1,8 @@
+---@class TakeInfo @A Takeinfo object contains all the information needed to describe a take.
+---@field bakeStartTime fun() @Start time in second.
+---@field name fun() @Take name as define from imported file.
+---@field bakeStopTime fun() @Stop time in second.
+---@field sampleRate fun() @Sample rate of the take.
+---@field stopTime fun() @Stop time in second.
+---@field startTime fun() @Start time in second.
+---@field defaultClipName fun() @This is the default clip name for the clip generated for this take.

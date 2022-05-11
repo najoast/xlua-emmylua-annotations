@@ -1,0 +1,2 @@
+---@class Experimental.Playables.TexturePlayableOutput @An IPlayableOutput implementation that will be used to manipulate textures.
+---@field Null fun() @Returns an invalid TexturePlayableOutput.

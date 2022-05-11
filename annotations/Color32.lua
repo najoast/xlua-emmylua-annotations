@@ -1,0 +1,12 @@
+---@class Color32 @Representation of RGBA colors in 32 bit format.
+---@field operator_Color fun() @Color32 can be implicitly converted to and from Color.
+---@field ctor fun() @Constructs a new Color32 with given r, g, b, a components.
+---@field Index_operator fun() @Access the red (r), green (g), blue (b), and alpha (a) color components using [0], [1], [2], [3] respectively.
+---@field operator_Color32 fun() @Color32 can be implicitly converted to and from Color.
+---@field a fun() @Alpha component of the color.
+---@field ToString fun() @Returns a formatted string for this color.
+---@field r fun() @Red component of the color.
+---@field LerpUnclamped fun() @Linearly interpolates between colors a and b by t.
+---@field Lerp fun() @Linearly interpolates between colors a and b by t.
+---@field g fun() @Green component of the color.
+---@field b fun() @Blue component of the color.

@@ -1,0 +1,5 @@
+---@class ProceduralTexture @Deprecated feature, no longer available
+---@field GetProceduralOutputType fun() @Deprecated feature, no longer available
+---@field hasAlpha fun() @Deprecated feature, no longer available
+---@field GetPixels32 fun() @Deprecated feature, no longer available
+---@field format fun() @Deprecated feature, no longer available

@@ -1,0 +1,9 @@
+---@class BuildPlayerOptions @Provide various options to control the behavior of BuildPipeline.BuildPlayer.
+---@field subtarget fun() @The Subtarget to build.
+---@field extraScriptingDefines fun() @User-specified preprocessor defines used while compiling assemblies for the player.
+---@field assetBundleManifestPath fun() @The path to an manifest file describing all of the asset bundles used in the build (optional).
+---@field locationPathName fun() @The path where the application will be built.
+---@field targetGroup fun() @The BuildTargetGroup to build.
+---@field target fun() @The BuildTarget to build.
+---@field options fun() @Additional BuildOptions, like whether to run the built player.
+---@field scenes fun() @The Scenes to be included in the build.

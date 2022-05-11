@@ -1,0 +1,6 @@
+---@class AndroidActivityIndicatorStyle @ActivityIndicator Style (Android Specific).
+---@field DontShow fun() @Do not show ActivityIndicator.
+---@field Small fun() @Small (android.R.attr.progressBarStyleSmall).
+---@field Large fun() @Large (android.R.attr.progressBarStyleLarge).
+---@field InversedLarge fun() @Large Inversed (android.R.attr.progressBarStyleLargeInverse).
+---@field InversedSmall fun() @Small Inversed (android.R.attr.progressBarStyleSmallInverse).

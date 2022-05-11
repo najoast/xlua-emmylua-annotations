@@ -1,0 +1,11 @@
+---@class UIElements.DropdownMenuAction @A menu action item.
+---@field ctor fun() @Constructor.
+---@field userData fun() @The userData object stored by the constructor.
+---@field UpdateActionStatus fun() @Update the status flag of this item by calling the item status callback.
+---@field status fun() @The status of the item.
+---@field name fun() @The name of the item. The name can be prefixed by its submenu path. Path components are delimited by forward slashes ('/').
+---@field Status UIElements.DropdownMenuAction.Status @Status of the menu item. The values of this enumeration should be used as flags.
+---@field AlwaysDisabled fun() @Status callback that always returns Status.Disabled.
+---@field eventInfo fun() @Provides information on the event that triggered the drop-down menu.
+---@field Execute fun() @Execute the callback associated with this item.
+---@field AlwaysEnabled fun() @Status callback that always returns Status.Enabled.

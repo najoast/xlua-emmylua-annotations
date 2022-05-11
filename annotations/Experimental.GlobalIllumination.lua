@@ -1,0 +1,18 @@
+---@class Experimental.GlobalIllumination @nil
+---@field FalloffType Experimental.GlobalIllumination.FalloffType @Available falloff models for baking.
+---@field Lightmapping Experimental.GlobalIllumination.Lightmapping @Interface to the light baking backends.
+---@field RectangleLight Experimental.GlobalIllumination.RectangleLight @A helper structure used to initialize a LightDataGI structure as a rectangle light.
+---@field SpotLightBoxShape Experimental.GlobalIllumination.SpotLightBoxShape @Use this Struct to help initialize a LightDataGI structure as a box-shaped spot light.
+---@field LightDataGI Experimental.GlobalIllumination.LightDataGI @The interop structure to pass light information to the light baking backends. There are helper structures for Directional, Point, Spot and Rectangle lights to correctly initialize this structure.
+---@field LightmapperUtils Experimental.GlobalIllumination.LightmapperUtils @Utility class for converting Unity Lights to light types recognized by the baking backends.
+---@field Cookie Experimental.GlobalIllumination.Cookie @A helper structure used to initialize a LightDataGI structure with cookie information.
+---@field RenderSettings Experimental.GlobalIllumination.RenderSettings @Experimental render settings features.
+---@field AngularFalloffType Experimental.GlobalIllumination.AngularFalloffType @Sets the method to use to compute the angular attenuation of spot lights.
+---@field SpotLightPyramidShape Experimental.GlobalIllumination.SpotLightPyramidShape @Use this Struct to help initialize a LightDataGI structure as a pyramid-shaped spot light.
+---@field SpotLight Experimental.GlobalIllumination.SpotLight @A helper structure used to initialize a LightDataGI structure as a spot light.
+---@field DiscLight Experimental.GlobalIllumination.DiscLight @A helper structure used to initialize a LightDataGI structure as a disc light.
+---@field DirectionalLight Experimental.GlobalIllumination.DirectionalLight @A helper structure used to initialize a LightDataGI structure as a directional light.
+---@field LightMode Experimental.GlobalIllumination.LightMode @The lightmode. A light can be real-time, mixed, baked or unknown. Unknown lights will be ignored by the baking backends.
+---@field LinearColor Experimental.GlobalIllumination.LinearColor @Contains normalized linear color values for red, green, blue in the range of 0 to 1, and an additional intensity value.
+---@field LightType Experimental.GlobalIllumination.LightType @The light type.
+---@field PointLight Experimental.GlobalIllumination.PointLight @A helper structure used to initialize a LightDataGI structure as a point light.

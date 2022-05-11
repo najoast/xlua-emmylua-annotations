@@ -1,0 +1,4 @@
+---@class RefreshRate @Represents the display refresh rate. This is how many frames the display can show per second.
+---@field denominator fun() @Denominator of the refresh rate fraction.
+---@field value fun() @The numerical value of the refresh rate in hertz.
+---@field numerator fun() @Numerator of the refresh rate fraction.

@@ -1,0 +1,7 @@
+---@class UIElements.Vector4Field @A Vector4 editor field.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field ctor fun() @Initializes and returns an instance of Vector4Field.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field UxmlFactory fun() @Instantiates a Vector4Field using the data read from a UXML file.
+---@field UxmlTraits UIElements.Vector4Field.UxmlTraits @Defines UxmlTraits for the Vector4Field.

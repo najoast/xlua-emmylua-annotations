@@ -1,0 +1,3 @@
+---@class UIElements.UxmlEnumeration @Restricts the value of an attribute to be taken from a list of values.
+---@field values fun() @The list of values the attribute can take.
+---@field Equals fun() @Indicates whether the current UxmlEnumeration object is equal to another object of the same type.

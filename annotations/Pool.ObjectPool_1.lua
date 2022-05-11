@@ -1,0 +1,9 @@
+---@class Pool.ObjectPool_1 @A stack based Pool.IObjectPool_1.
+---@field Get fun() @Get an instance from the pool. If the pool is empty then a new instance will be created.
+---@field CountAll fun() @The total number of active and inactive objects.
+---@field Clear fun() @Removes all pooled items. If the pool contains a destroy callback then it will be called for each item that is in the pool.
+---@field ctor fun() @Creates a new ObjectPool instance.
+---@field Release fun() @Returns the instance back to the pool.
+---@field Dispose fun() @Removes all pooled items. If the pool contains a destroy callback then it will be called for each item that is in the pool.
+---@field CountActive fun() @Number of objects that have been created by the pool but are currently in use and have not yet been returned.
+---@field CountInactive fun() @Number of objects that are currently available in the pool.

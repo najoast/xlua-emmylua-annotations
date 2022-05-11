@@ -1,0 +1,5 @@
+---@class GridLayout.CellLayout @The layout of the GridLayout.
+---@field Hexagon fun() @Hexagonal layout for cells in the GridLayout.
+---@field Isometric fun() @Isometric layout for cells in the GridLayout.
+---@field Rectangle fun() @Rectangular layout for cells in the GridLayout.
+---@field IsometricZAsY fun() @Isometric layout for cells in the GridLayout where any Z cell value set will be added as a Y value.

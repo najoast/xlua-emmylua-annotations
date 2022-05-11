@@ -1,0 +1,3 @@
+---@class SleepTimeout @Constants for special values of Screen.sleepTimeout.
+---@field NeverSleep fun() @Prevent screen dimming.
+---@field SystemSetting fun() @Set the sleep timeout to whatever the user has specified in the system settings.

@@ -1,0 +1,4 @@
+---@class tvOSTargetOSVersion @Supported tvOS deployment versions.
+---@field Unknown fun() @Unknown tvOS version, managed by user.
+---@field tvOS_9_1 fun() @Target tvOS 9.1.
+---@field tvOS_9_0 fun() @Target tvOS 9.0.

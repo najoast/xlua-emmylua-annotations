@@ -1,0 +1,3 @@
+---@class Playables.Notification @Default implementation for Playable notifications.
+---@field id fun() @The name that identifies this notification.
+---@field ctor fun() @Creates a new notification with the name specified in the argument.

@@ -1,0 +1,14 @@
+---@class AnimationEvent @AnimationEvent lets you call a script function similar to SendMessage as part of playing back an animation.
+---@field floatParameter fun() @Float parameter that is stored in the event and will be sent to the function.
+---@field functionName fun() @The name of the function that will be called.
+---@field ctor fun() @Creates a new animation event.
+---@field time fun() @The time at which the event will be fired off.
+---@field objectReferenceParameter fun() @Object reference parameter that is stored in the event and will be sent to the function.
+---@field animatorStateInfo fun() @The animator state info related to this event (Read Only).
+---@field messageOptions fun() @Function call options.
+---@field isFiredByAnimator fun() @Returns true if this Animation event has been fired by an Animator component.
+---@field isFiredByLegacy fun() @Returns true if this Animation event has been fired by an Animation component.
+---@field intParameter fun() @Int parameter that is stored in the event and will be sent to the function.
+---@field stringParameter fun() @String parameter that is stored in the event and will be sent to the function.
+---@field animationState fun() @The animation state that fired this event (Read Only).
+---@field animatorClipInfo fun() @The animator clip info related to this event (Read Only).

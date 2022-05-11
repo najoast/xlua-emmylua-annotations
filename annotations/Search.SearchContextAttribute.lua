@@ -1,0 +1,6 @@
+---@class Search.SearchContextAttribute @This attribute can be attached to a component object field in order to have the ObjectField use the advanced Object Picker.
+---@field providerIds fun() @A list of Search Provider IDs that will be used to create the search context.
+---@field ctor fun() @Search context constructor used to add some search context to an object field.
+---@field flags fun() @Search view flags used to open the Object Picker in various states.
+---@field query fun() @Initial search query used to open the Object Picker window.
+---@field instantiableProviders fun() @Search provider concrete types that will be instantiated and assigned to the Object Picker search context.

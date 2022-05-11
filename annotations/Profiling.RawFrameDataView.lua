@@ -1,0 +1,22 @@
+---@class Profiling.RawFrameDataView @Provides access to the Profiler data for a specific frame and thread.
+---@field GetSampleTimeNs fun() @Gets the duration of sample. The amount of time is expressed in nanoseconds.
+---@field GetSampleMetadataAsInt fun() @Gets sample metadata value as integer.
+---@field GetSampleChildrenCountRecursive fun() @Gets amount of direct and indirect child samples for the specific sample.
+---@field invalidSampleIndex fun() @This constant defines a sample index that does not match any valid Profiler Sample.
+---@field GetSampleMetadataAsFloat fun() @Gets sample metadata value as float.
+---@field FlowEvent Profiling.RawFrameDataView.FlowEvent @This struct describes profiler flow and its relation to the specific sample in the frame.
+---@field GetSampleMetadataAsLong fun() @Gets sample metadata value as long.
+---@field GetSampleChildrenCount fun() @Gets amount of child samples for the specific sample.
+---@field GetSampleMetadataAsString fun() @Gets sample metadata value as string.
+---@field GetSampleMarkerId fun() @Gets Profiler marker indentifier which uniquely identifies sample name.
+---@field GetFlowEvents fun() @Gets all flow events for the current frame and thread.
+---@field GetSampleTimeMs fun() @Gets the duration of sample. The amount of time is expressed in milliseconds.
+---@field GetSampleMetadataCount fun() @Gets metadata count associated with the specific sample.
+---@field GetSampleFlowEvents fun() @Gets the flow events that originate from the specific sample.
+---@field GetSampleCategoryIndex fun() @Gets Profiler marker category for the specific sample.
+---@field GetSampleStartTimeMs fun() @Gets the start time of the sample. The amount of time is expressed in milliseconds.
+---@field GetSampleName fun() @Gets the name of the specific sample.
+---@field GetSampleMetadataAsDouble fun() @Gets sample metadata value as double.
+---@field GetSampleFlags fun() @Gets Profiler marker flags for the specific sample.
+---@field GetSampleStartTimeNs fun() @Gets the start time of the sample. The amount of time is expressed in nanoseconds.
+---@field GetSampleCallstack fun() @Gets the callstack associated with the specified sample.

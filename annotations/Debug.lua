@@ -1,0 +1,20 @@
+---@class Debug @Class containing methods to ease debugging while developing a game.
+---@field isDebugBuild fun() @In the Build Settings dialog there is a check box called Development Build.
+---@field developerConsoleVisible fun() @Reports whether the development console is visible. The development console cannot be made to appear using:
+---@field ExtractStackTraceNoAlloc fun() @Populate an unmanaged buffer with the current managed call stack as a sequence of UTF-8 bytes, without allocating GC memory. Returns the number of bytes written into the buffer.
+---@field Log fun() @Logs a message to the Unity Console.
+---@field DrawRay fun() @Draws a line from start to start + dir in world coordinates.
+---@field LogError fun() @A variant of Debug.Log that logs an error message to the console.
+---@field LogAssertionFormat fun() @Logs a formatted assertion message to the Unity console.
+---@field LogFormat fun() @Logs a formatted message to the Unity Console.
+---@field LogException fun() @A variant of Debug.Log that logs an error message from an exception to the console.
+---@field LogAssertion fun() @A variant of Debug.Log that logs an assertion message to the console.
+---@field DrawLine fun() @Draws a line between specified start and end points.
+---@field LogWarning fun() @A variant of Debug.Log that logs a warning message to the console.
+---@field unityLogger fun() @Get default debug logger.
+---@field LogWarningFormat fun() @Logs a formatted warning message to the Unity Console.
+---@field Assert fun() @Assert a condition and logs an error message to the Unity console on failure.
+---@field ClearDeveloperConsole fun() @Clears errors from the developer console.
+---@field LogErrorFormat fun() @Logs a formatted error message to the Unity console.
+---@field AssertFormat fun() @Assert a condition and logs a formatted error message to the Unity console on failure.
+---@field Break fun() @Pauses the editor.

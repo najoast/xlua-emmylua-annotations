@@ -1,0 +1,3 @@
+---@class Android.AndroidHardwareType @AndroidHardwareType describes the type of Android device on which the app is running.
+---@field Generic fun() @The Generic category includes all other Android devices.
+---@field ChromeOS fun() @ChromeOS devices are capable of running Android apps and typically have a laptop form factor.

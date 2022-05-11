@@ -1,0 +1,7 @@
+---@class U2D.SpriteAtlas @Sprite Atlas is an asset created within Unity. It is part of the built-in sprite packing solution.
+---@field GetSprites fun() @Clone all the Sprite in this atlas and fill them into the supplied array.
+---@field spriteCount fun() @Get the total number of Sprite packed into this atlas.
+---@field CanBindTo fun() @Return true if Sprite is packed into this SpriteAtlas.
+---@field isVariant fun() @Return true if this SpriteAtlas is a variant.
+---@field tag fun() @Get the tag of this SpriteAtlas.
+---@field GetSprite fun() @Clone the first Sprite in this atlas that matches the name packed in this atlas and return it.

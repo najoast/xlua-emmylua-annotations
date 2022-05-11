@@ -1,0 +1,4 @@
+---@class IExposedPropertyTable @Interface for objects used as resolvers on ExposedReferences.
+---@field ClearReferenceValue fun() @Remove a value for the given reference.
+---@field GetReferenceValue fun() @Retrieves a value for the given identifier.
+---@field SetReferenceValue fun() @Assigns a value for an ExposedReference.

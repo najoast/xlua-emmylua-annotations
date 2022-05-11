@@ -1,0 +1,10 @@
+---@class BoxcastCommand @Use this struct to set up a box cast command to be performed asynchronously during a job.
+---@field orientation fun() @Rotation of the box.
+---@field ctor fun() @Creates a BoxcastCommand.
+---@field ScheduleBatch fun() @Schedules a batch of boxcasts to be performed in a job.
+---@field distance fun() @The maximum distance of the sweep.
+---@field physicsScene fun() @The physics scene this command is run in.
+---@field halfExtents fun() @Half the size of the box in each dimension.
+---@field direction fun() @The direction in which to sweep the box.
+---@field center fun() @Center of the box.
+---@field layerMask fun() @A LayerMask that is used to selectively ignore Colliders when casting a box.

@@ -1,0 +1,3 @@
+---@class Compilation.PrecompiledAssemblyException @An exception throw for Precompiled Assembly errors.
+---@field filePaths fun() @File paths for Precompiled Assemblies that caused the exception.
+---@field ctor fun() @Constructor.

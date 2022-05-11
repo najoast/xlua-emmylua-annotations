@@ -1,0 +1,3 @@
+---@class ShortcutManagement.ShortcutAttribute @Attribute used to register a static method as the action for an action shortcut.
+---@field ctor fun() @Creates an attribute for an action shortcut with an ID, optional context, and optional default binding.
+---@field displayName fun() @Optional override of the Shortcut ID when listing the Shortcut in the configuration interface.

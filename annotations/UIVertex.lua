@@ -1,0 +1,11 @@
+---@class UIVertex @Vertex class used by a Canvas for managing vertices.
+---@field tangent fun() @Tangent.
+---@field normal fun() @Normal.
+---@field uv0 fun() @The first texture coordinate set of the mesh. Used by UI elements by default.
+---@field uv2 fun() @The Third texture coordinate set of the mesh, if present.
+---@field uv fun() @Vertex UV.
+---@field color fun() @Vertex color.
+---@field position fun() @Vertex position.
+---@field simpleVert fun() @Simple UIVertex with sensible settings for use in the UI system.
+---@field uv3 fun() @The forth texture coordinate set of the mesh, if present.
+---@field uv1 fun() @The second texture coordinate set of the mesh, if present.

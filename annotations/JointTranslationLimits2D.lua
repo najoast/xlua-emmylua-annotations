@@ -1,0 +1,3 @@
+---@class JointTranslationLimits2D @Motion limits of a Rigidbody2D object along a SliderJoint2D.
+---@field min fun() @Minimum distance the Rigidbody2D object can move from the Slider Joint's anchor.
+---@field max fun() @Maximum distance the Rigidbody2D object can move from the Slider Joint's anchor.

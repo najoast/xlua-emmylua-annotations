@@ -1,0 +1,4 @@
+---@class UIElements.Manipulator @Base class for all Manipulator implementations.
+---@field target fun() @VisualElement being manipulated.
+---@field UnregisterCallbacksFromTarget fun() @Called to unregister event callbacks from the target element.
+---@field RegisterCallbacksOnTarget fun() @Called to register event callbacks on the target element.

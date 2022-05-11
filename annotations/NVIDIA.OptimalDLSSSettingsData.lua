@@ -1,0 +1,8 @@
+---@class NVIDIA.OptimalDLSSSettingsData @Represents the performance settings that DLSS recommends based on the system's graphics card and the size of the input and output color buffers. See Also: GraphicsDevice.GetOptimalSettings
+---@field minHeight fun() @The minimum height that DLSS recommends for dynamic resolution.
+---@field sharpness fun() @The sharpness value that DLSS recommends.
+---@field minWidth fun() @The minimum width that DLSS recommends for dynamic resolution.
+---@field outRenderWidth fun() @The width of the output render resolution that DLSS recommends.
+---@field maxHeight fun() @The maximum height that DLSS recommends for dynamic resolution.
+---@field maxWidth fun() @The maximum width that DLSS recommends for dynamic resolution.
+---@field outRenderHeight fun() @The height of the output render resolution that DLSS recommends.

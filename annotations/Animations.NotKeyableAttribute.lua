@@ -1,0 +1,2 @@
+---@class Animations.NotKeyableAttribute @Use this attribute in a script to mark a property as non-animatable.
+---@field ctor fun() @Use this attribute in a script to mark a property as non-animatable.

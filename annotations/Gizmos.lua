@@ -1,0 +1,16 @@
+---@class Gizmos @Gizmos are used to give visual debugging or setup aids in the Scene view.
+---@field DrawWireMesh fun() @Draws a wireframe mesh.
+---@field DrawWireCube fun() @Draw a wireframe box with center and size.
+---@field DrawSphere fun() @Draws a solid sphere with center and radius.
+---@field DrawCube fun() @Draw a solid box with center and size.
+---@field exposure fun() @Set a texture that contains the exposure correction for LightProbe gizmos. The value is sampled from the red channel in the middle of the texture.
+---@field DrawWireSphere fun() @Draws a wireframe sphere with center and radius.
+---@field DrawLine fun() @Draws a line starting at from towards to.
+---@field DrawIcon fun() @Draw an icon at a position in the Scene view.
+---@field color fun() @Sets the color for the gizmos that will be drawn next.
+---@field DrawFrustum fun() @Draw a camera frustum using the currently set Gizmos.matrix for it's location and rotation.
+---@field DrawGUITexture fun() @Draw a texture in the Scene.
+---@field DrawMesh fun() @Draws a mesh.
+---@field probeSize fun() @Set a scale for Light Probe gizmos. This scale will be used to render the spherical harmonic preview spheres.
+---@field matrix fun() @Sets the Matrix4x4 that the Unity Editor uses to draw Gizmos.
+---@field DrawRay fun() @Draws a ray starting at from to from + direction.

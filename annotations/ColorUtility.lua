@@ -1,0 +1,4 @@
+---@class ColorUtility @A collection of common color functions.
+---@field ToHtmlStringRGBA fun() @Returns the color as a hexadecimal string in the format RRGGBBAA.
+---@field ToHtmlStringRGB fun() @Returns the color as a hexadecimal string in the format RRGGBB.
+---@field TryParseHtmlString fun() @Attempts to convert a html color string.

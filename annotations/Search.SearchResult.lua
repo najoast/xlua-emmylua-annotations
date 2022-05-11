@@ -1,0 +1,10 @@
+---@class Search.SearchResult @Contains a SearchItem that was retrieved from a query.
+---@field ctor fun() @Creates a new SearchResult.
+---@field nil fun() @Represents a null search result.
+---@field score fun() @Relavance score of the result. A lower score indicates it is a more relevant result.
+---@field GetHashCode fun() @Computes the hash code for this SearchResult from its index property.
+---@field id fun() @ID of the document containing that result.
+---@field CompareTo fun() @Compares Search Results using their index values.
+---@field valid fun() @Checks if a search result is valid.
+---@field index fun() @Index of the document containing that result.
+---@field Equals fun() @Compare Search Result using their index values.

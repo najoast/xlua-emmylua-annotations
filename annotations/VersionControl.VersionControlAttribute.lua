@@ -1,0 +1,4 @@
+---@class VersionControl.VersionControlAttribute @Allows you to mark a class as a version control system object.
+---@field displayName fun() @Version control system display name.
+---@field ctor fun() @Constructs VersionControlAttribute.
+---@field name fun() @Version control system name.

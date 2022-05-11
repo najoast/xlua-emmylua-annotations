@@ -1,0 +1,6 @@
+---@class SearchService.ObjectSelectorTargetInfo @A structure that contains information about an item that is about to be shown.
+---@field targetObject fun() @If the object is already loaded in Unity, this is its instance. The instance can be null.
+---@field ctor fun() @Creates an ObjectSelectorTargetInfo.
+---@field type fun() @If the object is currently loaded in Unity, this is its underlying type. The type can be null.
+---@field LoadObject fun() @Loads an object instance if it is not already loaded in Unity. This can return null if the object is part of a Scene or Prefab that is not loaded.
+---@field globalObjectId fun() @The object's global identifier. It is always valid.

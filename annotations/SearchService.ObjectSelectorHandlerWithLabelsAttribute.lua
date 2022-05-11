@@ -1,0 +1,4 @@
+---@class SearchService.ObjectSelectorHandlerWithLabelsAttribute @A class attribute that allows you to define label constraints on a MonoBehavior or ScriptableObject's field in the object selector.
+---@field labels fun() @The labels to match.
+---@field matchAll fun() @Boolean that indicates whether all labels, or only one of them, should match. Default is true.
+---@field ctor fun() @Constructor used to declare the SearchService.ObjectSelectorHandlerWithLabelsAttribute on a field.

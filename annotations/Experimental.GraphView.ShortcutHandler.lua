@@ -1,0 +1,4 @@
+---@class Experimental.GraphView.ShortcutHandler @Shortcut handler.
+---@field RegisterCallbacksOnTarget fun() @Called to register click event callbacks on the target element.
+---@field ctor fun() @ShortcutHandler's constructor.
+---@field UnregisterCallbacksFromTarget fun() @Called to unregister event callbacks from the target element.

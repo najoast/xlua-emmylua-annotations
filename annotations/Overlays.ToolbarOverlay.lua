@@ -1,0 +1,4 @@
+---@class Overlays.ToolbarOverlay @ToolbarOverlay is an implementation of Overlay that provides a base for Overlays that can be placed in horizontal or vertical toolbars.
+---@field CreateHorizontalToolbarContent fun() @Creates the root VisualElement of the ToolbarOverlay's horizontal content.
+---@field CreatePanelContent fun() @Creates the root VisualElement of the ToolbarOverlay's content in panel layout.
+---@field CreateVerticalToolbarContent fun() @Creates the root VisualElement of the ToolbarOverlay's vertical content.

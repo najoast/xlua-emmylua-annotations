@@ -1,0 +1,5 @@
+---@class ApplicationSandboxType @Application sandbox type.
+---@field Unknown fun() @Application sandbox type is unknown.
+---@field NotSandboxed fun() @Application not running in a sandbox.
+---@field SandboxBroken fun() @Application is running in broken sandbox.
+---@field Sandboxed fun() @Application is running in a sandbox.

@@ -1,0 +1,7 @@
+---@class Networking.Utility @Networking Utility.
+---@field useRandomSourceID fun() @This property is deprecated and does not need to be set or referenced.
+---@field GetAppID fun() @Utility function to fetch the program's ID for UNET Cloud interfacing.
+---@field SetAccessTokenForNetwork fun() @Utility function that accepts the access token for a network after it's received from the server.
+---@field SetAppID fun() @Deprecated; Setting the AppID is no longer necessary. Please log in through the editor and set up the project there.
+---@field GetAccessTokenForNetwork fun() @Utility function to get this client's access token for a particular network, if it has been set.
+---@field GetSourceID fun() @Utility function to get the client's SourceID for unique identification.

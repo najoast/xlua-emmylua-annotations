@@ -1,0 +1,5 @@
+---@class TextureImporterRGBMMode @RGBM encoding mode for HDR textures in TextureImporter.
+---@field Off fun() @Do not perform RGBM encoding in TextureImporter.
+---@field Auto fun() @Do RGBM encoding when source data is HDR in TextureImporter.
+---@field On fun() @Do RGBM encoding in TextureImporter.
+---@field Encoded fun() @Source texture is already RGBM encoded in TextureImporter.

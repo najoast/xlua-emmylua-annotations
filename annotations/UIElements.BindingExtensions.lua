@@ -1,0 +1,7 @@
+---@class UIElements.BindingExtensions @Provides VisualElement extension methods that implement data binding between INotivyValueChanged fields and SerializedObjects.
+---@field prefabOverrideUssClassName fun() @USS class added to element when in prefab override mode.
+---@field TrackSerializedObjectValue fun() @Checks the object for changes at regular intervals. Executes the callback when the object value changes. If no callback is specified, a SerializedObjectChangeEvent is sent to the target element.
+---@field Unbind fun() @Disconnects all properties bound to fields in the element's hierarchy.
+---@field TrackPropertyValue fun() @Checks the property values for changes at regular intervals. Executes the callback when the property value changes. If no callback is specified, a SerializedPropertyChangeEvent is sent to the target element.
+---@field Bind fun() @Binds a SerializedObject to fields in the element hierarchy.
+---@field BindProperty fun() @Binds a property to a field and synchronizes their values. This method finds the property using the field's binding path.

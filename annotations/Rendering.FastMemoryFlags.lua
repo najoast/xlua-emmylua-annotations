@@ -1,0 +1,4 @@
+---@class Rendering.FastMemoryFlags @Control Fast Memory render target layout.
+---@field None fun() @Use the default fast memory layout.
+---@field SpillTop fun() @Sections of the render target not placed in fast memory will be taken from the top of the image.
+---@field SpillBottom fun() @Sections of the render target not placed in fast memory will be taken from the bottom of the image.

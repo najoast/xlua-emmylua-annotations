@@ -1,0 +1,3 @@
+---@class ParticleSystem.ColliderData @Script interface for particle Collider data.
+---@field GetColliderCount fun() @Returns how how many Colliders a particle is interacting with.
+---@field GetCollider fun() @Retrieve a specific Collider that a particle iss interacting with.

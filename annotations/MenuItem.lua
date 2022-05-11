@@ -1,0 +1,3 @@
+---@class MenuItem @The MenuItem attribute allows you to add menu items to the main menu and inspector context menus.
+---@field editorModes fun() @Specifies the Editor modes that the item is displayed for. If you don't specify any Editor modes, the item is only displayed for the default mode.
+---@field ctor fun() @Creates a menu item and invokes the static function following it, when the menu item is selected.

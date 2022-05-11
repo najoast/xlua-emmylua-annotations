@@ -1,0 +1,3 @@
+---@class SpaceAttribute @Use this PropertyAttribute to add some spacing in the Inspector.
+---@field height fun() @The spacing in pixels.
+---@field ctor fun() @Use this DecoratorDrawer to add some spacing in the Inspector.

@@ -1,0 +1,5 @@
+---@class Android.GetAssetPackStateAsyncOperation @Represents an asynchronous Android asset pack state request operation. AndroidAssetPacks.GetAssetPackStateAsync returns an instance of this class.
+---@field isDone fun() @Checks if the operation is finished.
+---@field size fun() @Gets the total size in bytes of all Android asset packs that had their status checked by this operation.
+---@field keepWaiting fun() @Checks if the operation is still running.
+---@field states fun() @Gets the states of all Android asset packs that had their status checked by this operation.

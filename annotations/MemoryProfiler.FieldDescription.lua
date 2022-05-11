@@ -1,0 +1,5 @@
+---@class MemoryProfiler.FieldDescription @Description of a field of a managed type.
+---@field isStatic fun() @Is this field static?
+---@field name fun() @Name of this field.
+---@field offset fun() @Offset of this field.
+---@field typeIndex fun() @The typeindex into PackedMemorySnapshot.typeDescriptions of the type this field belongs to.

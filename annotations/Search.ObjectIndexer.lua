@@ -1,0 +1,6 @@
+---@class Search.ObjectIndexer @A specialized Search.SearchIndexer which provides methods to index a Unity Object from custom indexers.
+---@field IndexWordComponents fun() @Splits a word into multiple variations.
+---@field IndexProperty fun() @Adds a property value to the index. A property is specified with a key and a string value. The value will be stored with multiple variations.
+---@field IndexPropertyComponents fun() @Indexes multiple variations of a property value.
+---@field IndexNumber fun() @Adds a key-number value pair to the index. The key won't be added with variations.
+---@field IndexWord fun() @Adds a new word coming from a specific document to the index. The word will be added with multiple variations allowing partial search.

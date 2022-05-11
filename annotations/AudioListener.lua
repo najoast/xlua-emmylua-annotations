@@ -1,0 +1,6 @@
+---@class AudioListener @Representation of a listener in 3D space.
+---@field pause fun() @The paused state of the audio system.
+---@field GetSpectrumData fun() @Provides a block of the listener (master)'s spectrum data.
+---@field GetOutputData fun() @Provides a block of the listener (master)'s output data.
+---@field velocityUpdateMode fun() @This lets you set whether the Audio Listener should be updated in the fixed or dynamic update.
+---@field volume fun() @Controls the game sound volume (0.0 to 1.0).

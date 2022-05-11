@@ -1,0 +1,4 @@
+---@class Rendering.GraphicsTier @An enum that represents graphics tiers.
+---@field Tier1 fun() @The lowest graphics tier. Corresponds to low-end devices.
+---@field Tier2 fun() @The medium graphics tier. Corresponds to mid-range devices.
+---@field Tier3 fun() @The highest graphics tier. Corresponds to high-end devices.

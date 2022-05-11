@@ -1,0 +1,2 @@
+---@class CustomPropertyDrawer @Tells a custom PropertyDrawer or DecoratorDrawer which run-time Serializable class or PropertyAttribute it's a drawer for.
+---@field ctor fun() @Tells a PropertyDrawer or DecoratorDrawer class which run-time class or attribute it's a drawer for.

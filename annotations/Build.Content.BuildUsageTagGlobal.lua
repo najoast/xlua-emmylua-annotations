@@ -1,0 +1,2 @@
+---@class Build.Content.BuildUsageTagGlobal @Container for holding information about lighting information being used in a build.
+---@field operator_bitwiseor fun() @Combines the usage data from another BuildUsageTagGlobal with this BuildUsageTagGlobal.

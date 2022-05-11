@@ -1,0 +1,4 @@
+---@class UIElements.StyleEnum_1 @Style value that can be either an enum or a StyleKeyword.
+---@field value fun() @The style value.
+---@field ctor fun() @Creates from either an enum or a StyleKeyword.
+---@field keyword fun() @The style keyword.

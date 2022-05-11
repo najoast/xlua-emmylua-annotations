@@ -1,0 +1,3 @@
+---@class UserAuthorization @Constants to pass to Application.RequestUserAuthorization.
+---@field WebCam fun() @Request permission to use any video input sources attached to the computer.
+---@field Microphone fun() @Request permission to use any audio input sources attached to the computer.

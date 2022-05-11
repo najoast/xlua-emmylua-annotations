@@ -1,0 +1,103 @@
+---@class ParticleSystem @Script interface for ParticleSystem. Unity's powerful and versatile particle system implementation.
+---@field lights fun() @Script interface for the LightsModule of a Particle System.
+---@field sizeBySpeed fun() @Script interface for the SizeBySpeedModule of a Particle System.
+---@field ColliderData ParticleSystem.ColliderData @Script interface for particle Collider data.
+---@field Emit fun() @Emit count particles immediately.
+---@field CustomDataModule ParticleSystem.CustomDataModule @Script interface for the CustomDataModule of a Particle System.
+---@field RotationBySpeedModule ParticleSystem.RotationBySpeedModule @Script interface for the RotationBySpeedModule.
+---@field Particle ParticleSystem.Particle @Script interface for a Particle.
+---@field TrailModule ParticleSystem.TrailModule @Script interface for the TrailsModule.
+---@field shape fun() @Script interface for the ShapeModule of a Particle System.
+---@field inheritVelocity fun() @Script interface for the InheritVelocityModule of a Particle System.
+---@field isStopped fun() @Determines whether the Particle System is in the stopped state.
+---@field forceOverLifetime fun() @Script interface for the ForceOverLifetimeModule of a Particle System.
+---@field MinMaxCurve ParticleSystem.MinMaxCurve @Script interface for a Min-Max Curve.
+---@field TriggerModule ParticleSystem.TriggerModule @Script interface for the TriggerModule.
+---@field duration fun() @The duration of the Particle System in seconds (Read Only).
+---@field proceduralSimulationSupported fun() @Does this system support Procedural Simulation?
+---@field subEmitters fun() @Script interface for the SubEmittersModule of a Particle System.
+---@field startLifetime fun() @The total lifetime in seconds that particles will have when emitted. When using curves, this value acts as a scale on the curve. This value is set in the particle when it is created by the Particle System.
+---@field automaticCullingEnabled fun() @Does this system support Automatic Culling?
+---@field Pause fun() @Pauses the system so no new particles are emitted and the existing particles are not updated.
+---@field isPaused fun() @Determines whether the Particle System is paused.
+---@field playOnAwake fun() @If set to true, the Particle System will automatically start playing on startup.
+---@field velocityOverLifetime fun() @Script interface for the VelocityOverLifetimeModule of a Particle System.
+---@field NoiseModule ParticleSystem.NoiseModule @Script interface for the NoiseModule.
+---@field startSpeed fun() @The initial speed of particles when emitted. When using curves, this value acts as a scale on the curve.
+---@field lifetimeByEmitterSpeed fun() @Script interface for the Particle System Lifetime By Emitter Speed module.
+---@field rotationBySpeed fun() @Script interface for the RotationBySpeedModule of a Particle System.
+---@field CollisionModule ParticleSystem.CollisionModule @Script interface for the CollisionMmodule of a Particle System.
+---@field randomSeed fun() @Override the random seed used for the Particle System emission.
+---@field Play fun() @Starts the Particle System.
+---@field ExternalForcesModule ParticleSystem.ExternalForcesModule @Script interface for the ExternalForcesModule of a Particle System.
+---@field GetCustomParticleData fun() @Get a stream of custom per-particle data.
+---@field colorOverLifetime fun() @Script interface for the ColorOverLifetimeModule of a Particle System.
+---@field emission fun() @Script interface for the EmissionModule of a Particle System.
+---@field colorBySpeed fun() @Script interface for the ColorByLifetimeModule of a Particle System.
+---@field trails fun() @Script interface for the TrailsModule of a Particle System.
+---@field isEmitting fun() @Determines whether the Particle System is emitting particles. A Particle System may stop emitting when its emission module has finished, it has been paused or if the system has been stopped using Stop with the StopEmitting flag. Resume emitting by calling Play.
+---@field VelocityOverLifetimeModule ParticleSystem.VelocityOverLifetimeModule @Script interface for the VelocityOverLifetimeModule.
+---@field TriggerSubEmitter fun() @Triggers the specified sub emitter on all particles of the Particle System.
+---@field Trails ParticleSystem.Trails @Script interface for storing the particle trail data.
+---@field SetCustomParticleData fun() @Set a stream of custom per-particle data.
+---@field playbackSpeed fun() @The playback speed of the Particle System. 1 is normal playback speed.
+---@field TextureSheetAnimationModule ParticleSystem.TextureSheetAnimationModule @Script interface for the TextureSheetAnimationModule.
+---@field SubEmittersModule ParticleSystem.SubEmittersModule @Script interface for the SubEmittersModule.
+---@field trigger fun() @Script interface for the TriggerModule of a Particle System.
+---@field AllocateCustomDataAttribute fun() @Ensures that the customData1 and customData2 particle attribute arrays are allocated.
+---@field Stop fun() @Stops playing the Particle System using the supplied stop behaviour.
+---@field PlaybackState fun() @Script interface for storing the particle playback state.
+---@field emissionRate fun() @The rate of particle emission.
+---@field noise fun() @Script interface for the NoiseModule of a Particle System.
+---@field SizeOverLifetimeModule ParticleSystem.SizeOverLifetimeModule @Script interface for the SizeOverLifetimeModule.
+---@field GetPlaybackState fun() @Returns all the data that relates to the current internal state of the Particle System.
+---@field Simulate fun() @Fast-forwards the Particle System by simulating particles over the given period of time, then pauses it.
+---@field ShapeModule ParticleSystem.ShapeModule @Script interface for the ShapeModule.
+---@field SetTrails fun() @Use this method with the results of an earlier call to ParticleSystem.GetTrails, in order to restore the Particle System to the state stored in the Trails object.
+---@field maxParticles fun() @The maximum number of particles to emit.
+---@field SetPlaybackState fun() @Use this method with the results of an earlier call to ParticleSystem.GetPlaybackState, in order to restore the Particle System to the state stored in the playbackState object.
+---@field enableEmission fun() @When set to false, the Particle System will not emit particles.
+---@field useAutoRandomSeed fun() @Controls whether the Particle System uses an automatically-generated random number to seed the random number generator.
+---@field Burst ParticleSystem.Burst @Script interface for a Burst.
+---@field GetTrails fun() @Returns all the data relating to the current internal state of the Particle System Trails.
+---@field startColor fun() @The initial color of particles when emitted.
+---@field ResetPreMappedBufferMemory fun() @Reset the cache of reserved graphics memory used for efficient rendering of Particle Systems.
+---@field RotationOverLifetimeModule ParticleSystem.RotationOverLifetimeModule @Script interface for the RotationOverLifetimeModule.
+---@field MinMaxGradient ParticleSystem.MinMaxGradient @Script interface for a Min-Max Gradient.
+---@field MainModule ParticleSystem.MainModule @Script interface for the MainModule of a Particle System.
+---@field isPlaying fun() @Determines whether the Particle System is playing.
+---@field EmitParams ParticleSystem.EmitParams @Script interface for Particle System emission parameters.
+---@field LimitVelocityOverLifetimeModule ParticleSystem.LimitVelocityOverLifetimeModule @Script interface for the Limit Velocity Over Lifetime module.
+---@field LightsModule ParticleSystem.LightsModule @Access the ParticleSystem Lights Module.
+---@field loop fun() @Determines whether the Particle System is looping.
+---@field IsAlive fun() @Does the Particle System contain any live particles, or will it produce more?
+---@field AllocateAxisOfRotationAttribute fun() @Ensures that the axisOfRotations particle attribute array is allocated.
+---@field ColorOverLifetimeModule ParticleSystem.ColorOverLifetimeModule @Script interface for the ColorOverLifetimeModule of a Particle System.
+---@field InheritVelocityModule ParticleSystem.InheritVelocityModule @The Inherit Velocity Module controls how the velocity of the emitter is transferred to the particles as they are emitted.
+---@field SizeBySpeedModule ParticleSystem.SizeBySpeedModule @Script interface for the SizeBySpeedModule.
+---@field startSize fun() @The initial size of particles when emitted. When using curves, this value acts as a scale on the curve.
+---@field ForceOverLifetimeModule ParticleSystem.ForceOverLifetimeModule @Script interface for the ForceOverLifetimeModule of a Particle System.
+---@field SetParticles fun() @Sets the particles of this Particle System.
+---@field rotationOverLifetime fun() @Script interface for the RotationOverLifetimeModule of a Particle System.
+---@field LifetimeByEmitterSpeedModule ParticleSystem.LifetimeByEmitterSpeedModule @The Lifetime By Emitter Speed Module controls the initial lifetime of each particle based on the speed of the emitter when the particle was spawned.
+---@field limitVelocityOverLifetime fun() @Script interface for the LimitVelocityOverLifetimeModule of a Particle System. .
+---@field startRotation fun() @The initial rotation of particles when emitted. When using curves, this value acts as a scale on the curve.
+---@field EmissionModule ParticleSystem.EmissionModule @Script interface for the EmissionModule of a Particle System.
+---@field SetMaximumPreMappedBufferCounts fun() @Limits the amount of graphics memory Unity reserves for efficient rendering of Particle Systems.
+---@field ColorBySpeedModule ParticleSystem.ColorBySpeedModule @Script interface for the ColorBySpeedModule of a Particle System.
+---@field Clear fun() @Remove all particles in the Particle System.
+---@field AllocateMeshIndexAttribute fun() @Ensures that the meshIndices particle attribute array is allocated.
+---@field textureSheetAnimation fun() @Script interface for the TextureSheetAnimationModule of a Particle System.
+---@field sizeOverLifetime fun() @Script interface for the SizeOverLifetimeModule of a Particle System.
+---@field particleCount fun() @The current number of particles (Read Only).
+---@field time fun() @Playback position in seconds.
+---@field collision fun() @Script interface for the CollisionModule of a Particle System.
+---@field gravityModifier fun() @Scale being applied to the gravity defined by Physics.gravity.
+---@field scalingMode fun() @The scaling mode applied to particle sizes and positions.
+---@field customData fun() @Script interface for the CustomDataModule of a Particle System.
+---@field startDelay fun() @Start delay in seconds.
+---@field externalForces fun() @Script interface for the ExternalForcesModule of a Particle System.
+---@field GetParticles fun() @Gets the particles of this Particle System.
+---@field startRotation3D fun() @The initial 3D rotation of particles when emitted. When using curves, this value acts as a scale on the curves.
+---@field simulationSpace fun() @This selects the space in which to simulate particles. It can be either world or local space.
+---@field main fun() @Access the main Particle System settings.

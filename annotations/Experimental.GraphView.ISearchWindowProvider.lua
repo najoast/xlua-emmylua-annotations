@@ -1,0 +1,3 @@
+---@class Experimental.GraphView.ISearchWindowProvider @This interface describes methods to manage a search session for graph nodes.
+---@field CreateSearchTree fun() @Generates data to populate the search window.
+---@field OnSelectEntry fun() @Selects an entry in the search tree list.

@@ -1,0 +1,3 @@
+---@class Experimental.GraphView.IResizable @Resizable interface.
+---@field OnStartResize fun() @Called when resize is started.
+---@field OnResized fun() @Called when resize is completed.

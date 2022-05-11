@@ -1,0 +1,4 @@
+---@class TextCore.LowLevel.GlyphPairAdjustmentRecord @The positional adjustment  values of a pair of glyphs.
+---@field firstAdjustmentRecord fun() @The positional adjustment values for the first glyph.
+---@field secondAdjustmentRecord fun() @The positional adjustment values for the second glyph.
+---@field ctor fun() @Constructor for new glyph pair adjustment record.

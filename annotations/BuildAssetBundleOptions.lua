@@ -1,0 +1,16 @@
+---@class BuildAssetBundleOptions @Asset Bundle building options.
+---@field ForceRebuildAssetBundle fun() @Force rebuild the assetBundles.
+---@field UncompressedAssetBundle fun() @Don't compress the data when creating the AssetBundle.
+---@field StrictMode fun() @Do not allow the build to succeed if any errors are reporting during it.
+---@field DryRunBuild fun() @Do a dry run build.
+---@field ChunkBasedCompression fun() @Use chunk-based LZ4 compression when creating the AssetBundle.
+---@field DisableLoadAssetByFileName fun() @Disables Asset Bundle LoadAsset by file name.
+---@field None fun() @Build assetBundle without any special option.
+---@field IgnoreTypeTreeChanges fun() @Ignore the type tree changes when doing the incremental build check.
+---@field DeterministicAssetBundle fun() @Builds an asset bundle using a hash for the id of the object stored in the asset bundle.
+---@field CollectDependencies fun() @Includes all dependencies.
+---@field CompleteAssets fun() @Forces inclusion of the entire asset.
+---@field AssetBundleStripUnityVersion fun() @Removes the Unity Version number in the Archive File &amp; Serialized File headers during the build.
+---@field DisableWriteTypeTree fun() @Do not include type information within the AssetBundle.
+---@field DisableLoadAssetByFileNameWithExtension fun() @Disables Asset Bundle LoadAsset by file name with extension.
+---@field AppendHashToAssetBundleName fun() @Append the hash to the assetBundle name.

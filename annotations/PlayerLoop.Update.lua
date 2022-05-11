@@ -1,0 +1,5 @@
+---@class PlayerLoop.Update @Update phase in the native player loop.
+---@field ScriptRunBehaviourUpdate fun() @A native engine system that the native player loop updates.
+---@field DirectorUpdate fun() @A native engine system that the native player loop updates.
+---@field ScriptRunDelayedDynamicFrameRate fun() @A native engine system that the native player loop updates.
+---@field ScriptRunDelayedTasks fun() @A native engine system that the native player loop updates.

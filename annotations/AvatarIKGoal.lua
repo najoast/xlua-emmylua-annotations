@@ -1,0 +1,5 @@
+---@class AvatarIKGoal @IK Goal.
+---@field LeftFoot fun() @The left foot.
+---@field RightHand fun() @The right hand.
+---@field RightFoot fun() @The right foot.
+---@field LeftHand fun() @The left hand.

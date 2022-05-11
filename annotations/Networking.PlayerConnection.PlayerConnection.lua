@@ -1,0 +1,13 @@
+---@class Networking.PlayerConnection.PlayerConnection @Used for handling the network connection from the Player to the Editor.
+---@field Send fun() @Sends data to the Editor.
+---@field UnregisterDisconnection fun() @Unregisters the disconnection callback.
+---@field BlockUntilRecvMsg fun() @Blocks the calling thread until either a message with the specified messageId is received or the specified time-out elapses.
+---@field Register fun() @Registers a listener for a specific message ID, with an Action to be executed whenever that message is received by the Editor.This ID must be the same as for messages sent from EditorConnection.Send().
+---@field UnregisterConnection fun() @Unregisters the connection callback.
+---@field isConnected fun() @Returns true when the Editor is connected to the Player.
+---@field instance fun() @Returns a singleton instance of a PlayerConnection.
+---@field RegisterConnection fun() @Registers a callback that is invoked when the Editor connects to the Player.
+---@field DisconnectAll fun() @This disconnects all of the active connections.
+---@field RegisterDisconnection fun() @Registers a callback to be called when Editor disconnects.
+---@field Unregister fun() @Deregisters a message listener.
+---@field TrySend fun() @Attempt to sends data to the Editor.

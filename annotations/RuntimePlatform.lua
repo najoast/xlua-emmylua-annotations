@@ -1,0 +1,26 @@
+---@class RuntimePlatform @The platform application is running. Returned by Application.platform.
+---@field WindowsEditor fun() @In the Unity editor on Windows.
+---@field OSXServer fun() @In the server on macOS.
+---@field OSXDashboardPlayer fun() @In the Dashboard widget on macOS.
+---@field OSXWebPlayer fun() @In the web player on macOS.
+---@field Android fun() @In the player on Android devices.
+---@field OSXEditor fun() @In the Unity editor on macOS.
+---@field PS5 fun() @In the player on the Playstation 5.
+---@field WSAPlayerARM fun() @In the player on Windows Store Apps when CPU architecture is ARM.
+---@field IPhonePlayer fun() @In the player on the iPhone.
+---@field OSXPlayer fun() @In the player on macOS.
+---@field PS4 fun() @In the player on the Playstation 4.
+---@field Stadia fun() @In the player on Stadia.
+---@field XboxOne fun() @In the player on Xbox One.
+---@field Switch fun() @In the player on Nintendo Switch.
+---@field WebGLPlayer fun() @In the player on WebGL
+---@field WindowsServer fun() @In the server on Windows.
+---@field LinuxEditor fun() @In the Unity editor on Linux.
+---@field LinuxPlayer fun() @In the player on Linux.
+---@field WSAPlayerX64 fun() @In the player on Windows Store Apps when CPU architecture is X64.
+---@field WindowsPlayer fun() @In the player on Windows.
+---@field WSAPlayerX86 fun() @In the player on Windows Store Apps when CPU architecture is X86.
+---@field LinuxServer fun() @In the server on Linux.
+---@field CloudRendering fun() @In the player on CloudRendering.
+---@field WindowsWebPlayer fun() @In the web player on Windows.
+---@field tvOS fun() @In the player on the Apple's tvOS.

@@ -1,0 +1,4 @@
+---@class ParticleSystemOverlapAction @What action to perform when the particle trigger module passes a test.
+---@field Ignore fun() @Do nothing.
+---@field Callback fun() @Send the OnParticleTrigger command to the Particle System's script.
+---@field Kill fun() @Kill all particles that pass this test.

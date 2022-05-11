@@ -1,0 +1,31 @@
+---@class BuildOptions @Building options. Multiple options can be combined together.
+---@field WaitForPlayerConnection fun() @Sets the Player to wait for player connection on player start.
+---@field IncludeTestAssemblies fun() @Build will include Assemblies for testing.
+---@field StrictMode fun() @Do not allow the build to succeed if any errors are reporting during it.
+---@field ForceOptimizeScriptCompilation fun() @Force full optimizations for script compilation in Development builds.
+---@field AllowDebugging fun() @Allow script debuggers to attach to the player remotely.
+---@field UncompressedAssetBundle fun() @Don't compress the data when creating the asset bundle.
+---@field AutoRunPlayer fun() @Run the built player.
+---@field EnableDeepProfilingSupport fun() @Enables Deep Profiling support in the player.
+---@field EnableHeadlessMode fun() @Options for building the standalone player in headless mode.
+---@field None fun() @Perform the specified build without any special settings or extra tasks.
+---@field WebPlayerOfflineDeployment fun() @Copy UnityObject.js alongside Web Player so it wouldn't have to be downloaded from internet.
+---@field ForceEnableAssertions fun() @Include assertions in the build. By default, the assertions are only included in development builds.
+---@field PatchPackage fun() @Patch a Development app package rather than completely rebuilding it.Supported platforms: Android.
+---@field ConnectWithProfiler fun() @Start the player with a connection to the profiler in the editor.
+---@field ShaderLivelinkSupport fun() @Enable Shader Livelink support.
+---@field NoUniqueIdentifier fun() @Will force the buildGUID to all zeros.
+---@field BuildScriptsOnly fun() @Only build the scripts in a Project.
+---@field CompressWithLz4 fun() @Use chunk-based LZ4 compression when building the Player.
+---@field ConnectToHost fun() @Sets the Player to connect to the Editor.
+---@field DetailedBuildReport fun() @Generates more information in the BuildReport.
+---@field SymlinkLibraries fun() @Symlink runtime libraries when generating iOS Xcode project. (Faster iteration time).
+---@field ShowBuiltPlayer fun() @Show the built player.
+---@field CompressWithLz4HC fun() @Use chunk-based LZ4 high-compression when building the Player.
+---@field BuildAdditionalStreamedScenes fun() @Build a compressed asset bundle that contains streamed Scenes loadable with the UnityWebRequest class.
+---@field EnableCodeCoverage fun() @Enables code coverage. You can use this as a complimentary way of enabling code coverage on platforms that do not support command line arguments.
+---@field AcceptExternalModificationsToPlayer fun() @Used when building Xcode (iOS) or Eclipse (Android) projects.
+---@field CustomConnectionID fun() @Determines if the player should be using the custom connection ID.
+---@field Development fun() @Build a development version of the player.
+---@field SymlinkSources fun() @Symlink sources when generating the project. This is useful if you're changing source files inside the generated project and want to bring the changes back into your Unity project or a package.
+---@field CleanBuildCache fun() @Clear all cached build results, resulting in a full rebuild of all scripts and all player data.

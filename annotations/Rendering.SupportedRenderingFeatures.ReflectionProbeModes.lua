@@ -1,0 +1,3 @@
+---@class Rendering.SupportedRenderingFeatures.ReflectionProbeModes @Supported modes for ReflectionProbes.
+---@field None fun() @Default reflection probe support.
+---@field Rotation fun() @Rotated reflection probes are supported.

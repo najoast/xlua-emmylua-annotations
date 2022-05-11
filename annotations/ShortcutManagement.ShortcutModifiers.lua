@@ -1,0 +1,6 @@
+---@class ShortcutManagement.ShortcutModifiers @Represents modifier keys for use in a shortcut binding.
+---@field Alt fun() @Alt key (or Option key on macOS).
+---@field None fun() @No modifier keys.
+---@field Control fun() @Marks that the Control key modifier is part of the key combination. Resolves to control key on Windows, macOS, and Linux.
+---@field Shift fun() @Shift key.
+---@field Action fun() @Control key on Windows and Linux. Command key on macOS.

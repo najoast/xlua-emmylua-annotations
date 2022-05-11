@@ -1,0 +1,18 @@
+---@class ObjectChangeEventStream @Represents a stream of events that describes the changes applied to objects in memory over the course of a frame.
+---@field GetChangeGameObjectOrComponentPropertiesEvent fun() @Retrieves the event data at the given index as a ChangeAssetObjectPropertiesEventArgs. Throws an exception if the event type requested does not match the event stored in the stream.
+---@field GetChangeGameObjectParentEvent fun() @Retrieves the event data at the given index as a ChangeGameObjectParentEventArgs. Throws an exception if the event type requested does not match the event stored in the stream.
+---@field GetChangeGameObjectStructureHierarchyEvent fun() @Retrieves the event data at the given index as a ChangeGameObjectStructureHierarchyEventArgs. Throws an exception if the event type requested does not match the event stored in the stream.
+---@field GetDestroyAssetObjectEvent fun() @Retrieves the event data at the given index as a DestroyAssetObjectEventArgs. Throws an exception if the event type requested does not match the event stored in the stream.
+---@field GetCreateGameObjectHierarchyEvent fun() @Retrieves the event data at the given index as a CreateGameObjectHierarchyEventArgs. Throws an exception if the event type requested does not match the event stored in the stream.
+---@field Builder ObjectChangeEventStream.Builder @Provides a way to construct an instance of ObjectChangeEventStream.
+---@field GetUpdatePrefabInstancesEvent fun() @Retrieves the event data at the given index as a UpdatePrefabInstancesEventArgs. Throws an exception if the event type requested does not match the event stored in the stream.
+---@field GetChangeGameObjectStructureEvent fun() @Retrieves the event data at the given index as a ChangeGameObjectStructureEventArgs. Throws an exception if the event type requested does not match the event stored in the stream.
+---@field GetEventType fun() @Returns the type of the event at the specified index.
+---@field Clone fun() @Creates a copy of this stream with the specified allocator.
+---@field isCreated fun() @Indicates whether the ObjectChangeEventStream has an allocated memory buffer.
+---@field GetDestroyGameObjectHierarchyEvent fun() @Retrieves the event data at the given index as a DestroyGameObjectHierarchyEventArgs. Throws an exception if the event type requested does not match the event stored in the stream.
+---@field GetCreateAssetObjectEvent fun() @Retrieves the event data at the given index as a CreateAssetObjectEventArgs. Throws an exception if the event type requested does not match the event stored in the stream.
+---@field length fun() @The number of events in the stream.
+---@field Dispose fun() @Releases the memory associated with this stream.
+---@field GetChangeSceneEvent fun() @Retrieves the event data at the given index as a ChangeSceneEventArgs. Throws an exception if the event type requested does not match the event stored in the stream.
+---@field GetChangeAssetObjectPropertiesEvent fun() @Retrieves the event data at the given index as a ChangeAssetObjectPropertiesEventArgs. Throws an exception if the event type requested does not match the event stored in the stream.

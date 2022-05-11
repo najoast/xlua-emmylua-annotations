@@ -1,0 +1,8 @@
+---@class PlayerSettings.Switch @Nintendo Switch Player settings.
+---@field Languages fun() @Player Settings for the Nintendo Switch platform.
+---@field TouchScreenUsage fun() @Player Settings for the Nintendo Switch platform.
+---@field ApplicationAttribute fun() @Player Settings for the Nintendo Switch platform.
+---@field StartupUserAccount fun() @Player Settings for the Nintendo Switch platform.
+---@field LogoHandling fun() @Player Settings for the Nintendo Switch platform.
+---@field RatingCategories fun() @Player Settings for the Nintendo Switch platform.
+---@field LogoType fun() @Player Settings for the Nintendo Switch platform.

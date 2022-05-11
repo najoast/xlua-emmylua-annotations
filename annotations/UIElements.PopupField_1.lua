@@ -1,0 +1,9 @@
+---@class UIElements.PopupField_1 @Generic popup selection field.
+---@field index fun() @The currently selected index in the popup menu.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field ctor fun() @Construct a PopupField.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field value fun() @The currently selected value in the popup menu.
+---@field formatListItemCallback fun() @Callback that provides a string representation used to populate the popup menu.
+---@field formatSelectedValueCallback fun() @Callback that provides a string representation used to display the selected value.

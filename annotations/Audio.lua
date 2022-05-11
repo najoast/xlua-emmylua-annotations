@@ -1,0 +1,9 @@
+---@class Audio @nil
+---@field AudioPlayableBinding Audio.AudioPlayableBinding @A PlayableBinding that contains information representing an AudioPlayableOutput.
+---@field AudioClipPlayable Audio.AudioClipPlayable @An implementation of IPlayable that controls an AudioClip.
+---@field AudioMixer Audio.AudioMixer @AudioMixer asset.
+---@field AudioPlayableOutput Audio.AudioPlayableOutput @A IPlayableOutput implementation that will be used to play audio.
+---@field AudioMixerSnapshot Audio.AudioMixerSnapshot @Object representing a snapshot in the mixer.
+---@field AudioMixerUpdateMode Audio.AudioMixerUpdateMode @The mode in which an AudioMixer should update its time.
+---@field AudioMixerPlayable fun() @An implementation of IPlayable that controls an audio mixer.
+---@field AudioMixerGroup fun() @Object representing a group in the mixer.

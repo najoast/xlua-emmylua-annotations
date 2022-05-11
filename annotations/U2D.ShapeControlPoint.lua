@@ -1,0 +1,5 @@
+---@class U2D.ShapeControlPoint @Data that describes the important points of the shape.
+---@field rightTangent fun() @The position of the right tangent point in the local space.
+---@field leftTangent fun() @The position of the left tangent in local space.
+---@field position fun() @The position of this point in the object's local space.
+---@field mode fun() @The various modes of the tangent handles. They could be continuous or broken.

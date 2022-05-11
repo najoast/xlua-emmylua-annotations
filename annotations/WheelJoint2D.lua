@@ -1,0 +1,9 @@
+---@class WheelJoint2D @The wheel joint allows the simulation of wheels by providing a constraining suspension motion with an optional motor.
+---@field jointAngle fun() @The current joint angle (in degrees) defined as the relative angle between the two Rigidbody2D that the joint connects to.
+---@field GetMotorTorque fun() @Gets the motor torque of the joint given the specified timestep.
+---@field jointLinearSpeed fun() @The current joint linear speed in meters/sec.
+---@field motor fun() @Parameters for a motor force that is applied automatically to the Rigibody2D along the line.
+---@field useMotor fun() @Should a motor force be applied automatically to the Rigidbody2D?
+---@field suspension fun() @Set the joint suspension configuration.
+---@field jointSpeed fun() @The current joint rotational speed in degrees/sec.
+---@field jointTranslation fun() @The current joint translation.

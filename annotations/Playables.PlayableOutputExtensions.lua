@@ -1,0 +1,16 @@
+---@class Playables.PlayableOutputExtensions @Extensions for all the types that implements IPlayableOutput.
+---@field SetWeight fun() @Sets the weight of the connection from the PlayableOutput to the source playable.
+---@field GetNotificationReceivers fun() @Retrieves the list of notification receivers currently registered on the output.
+---@field GetSourcePlayable fun() @Returns the source playable.
+---@field SetSourceOutputPort fun() @Sets the source playable's output connection index. For playables with multiple outputs, this determines which sub-branch of the source playable generates this output.
+---@field IsOutputNull fun() @Returns true if the PlayableOutput is null, false otherwise.
+---@field AddNotificationReceiver fun() @Registers a new receiver that listens for notifications.
+---@field SetSourcePlayable fun() @Sets which playable that computes the output and which sub-tree index.
+---@field PushNotification fun() @Queues a notification to be sent through the Playable system.
+---@field IsOutputValid fun() @
+---@field GetUserData fun() @Returns the opaque user data. This is the same value as the last last argument of ProcessFrame.
+---@field SetReferenceObject fun() @Sets the bound object to a new value. Used to associate an output to an object (Track asset in case of Timeline).
+---@field GetWeight fun() @Returns the weight of the connection from the PlayableOutput to the source playable.
+---@field RemoveNotificationReceiver fun() @Unregisters a receiver on the output.
+---@field SetUserData fun() @Sets the opaque user data. This same data is passed as the last argument to ProcessFrame.
+---@field GetSourceOutputPort fun() @Returns the source playable's output connection index.

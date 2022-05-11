@@ -1,0 +1,3 @@
+---@class PlayerSettings.VRWindowsMixedReality.DepthBufferFormat @Enumeration providing valid values for PlayerSettings.VRWindowsMixedReality.depthBufferFormat.
+---@field DepthBufferFormat16Bit fun() @Set the Windows Mixed Reality depth buffer to 16 bits of depth. This will decrease the amount of memory (and possibly increase performance) at the expense of depth testing and precision.
+---@field DepthBufferFormat24Bit fun() @Set the Windows Mixed Reality depth buffer to 24 bits of depth. This will improve depth testing and precision at the expense of more memory.

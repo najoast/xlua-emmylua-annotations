@@ -1,0 +1,2 @@
+---@class Windows.Input @Provides static methods for Windows specific input manipulation.
+---@field ForwardRawInput fun() @Forwards raw input events to Unity.

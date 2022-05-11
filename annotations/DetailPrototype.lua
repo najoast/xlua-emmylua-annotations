@@ -1,0 +1,17 @@
+---@class DetailPrototype @Detail prototype used by the Terrain GameObject.
+---@field minWidth fun() @Minimum width of the grass billboards (if render mode is GrassBillboard).
+---@field prototype fun() @GameObject used by the DetailPrototype.
+---@field prototypeTexture fun() @Texture used by the DetailPrototype.
+---@field dryColor fun() @Color when the DetailPrototypes are dry.
+---@field holeEdgePadding fun() @Controls how far away detail objects are from the edge of the hole area.
+---@field renderMode fun() @Render mode for the DetailPrototype.
+---@field noiseSpread fun() @Controls the spatial frequency of the noise pattern used to vary the scale and color of the detail objects.
+---@field Validate fun() @Returns true if the detail prototype is valid and the Terrain can accept it.
+---@field minHeight fun() @Minimum height of the grass billboards (if render mode is GrassBillboard).
+---@field usePrototypeMesh fun() @Indicates whether this detail prototype uses the Mesh object from the GameObject specified by prototype.
+---@field useInstancing fun() @Indicates whether this detail prototype uses  GPU Instancing for rendering.
+---@field noiseSeed fun() @Specifies the random seed value for detail object placement.
+---@field maxWidth fun() @Maximum width of the grass billboards (if render mode is GrassBillboard).
+---@field maxHeight fun() @Maximum height of the grass billboards (if render mode is GrassBillboard).
+---@field bendFactor fun() @Bend factor of the detailPrototype.
+---@field healthyColor fun() @Color when the DetailPrototypes are healthy.

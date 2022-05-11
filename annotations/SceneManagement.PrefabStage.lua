@@ -1,0 +1,15 @@
+---@class SceneManagement.PrefabStage @The PrefabStage class represents an editing context for Prefab Assets.
+---@field openedFromInstanceRoot fun() @The root of the Prefab instance that you opened Prefab Mode through.
+---@field prefabStageDirtied fun() @Callback that's invoked whenever a Prefab stage changes from unmodified to modified.
+---@field prefabContentsRoot fun() @The root GameObject of the loaded Prefab Asset contents.
+---@field prefabAssetPath fun() @The path of the Prefab Asset that is open in this Prefab stage.
+---@field IsPartOfPrefabContents fun() @Is this GameObject part of the loaded Prefab Asset contents in the Prefab stage?
+---@field mode fun() @The Prefab Stage can be opened either in isolation or in context.
+---@field Mode SceneManagement.PrefabStage.Mode @Specifies the mode that Unity uses to open a Prefab stage. You can open the stage either in isolation or in context.
+---@field prefabSaving fun() @Callback that's invoked whenever the contents of a Prefab stage is about to be saved.
+---@field prefabStageOpened fun() @Callback that's invoked whenever a Prefab stage has been opened.
+---@field prefabSaved fun() @Callback that is invoked whenever the contents of a Prefab stage has been saved.
+---@field prefabStageClosing fun() @Callback that's invoked whenever a Prefab stage is about to be opened.
+---@field ClearDirtiness fun() @Clear the dirtyness flag for the Prefab stage.
+---@field assetPath fun() @The asset path where the Prefab Asset file is stored, relative to the project root.
+---@field openedFromInstanceObject fun() @A GameObject inside the Prefab instance that you opened Prefab Mode through.

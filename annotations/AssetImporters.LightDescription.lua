@@ -1,0 +1,11 @@
+---@class AssetImporters.LightDescription @Represents light information from an imported file.
+---@field ctor fun() @Initializes and returns an instance of LightDescription.
+---@field GetStringPropertyNames fun() @Retrieves the property names of type string for this light.
+---@field TryGetProperty fun() @Retrieves the value of a specified light property.
+---@field GetIntPropertyNames fun() @Retrieves the property names of type int for this light.
+---@field TryGetAnimationCurve fun() @Retrieves the AnimationCurve for an animated light property in a specific AnimationClip.
+---@field HasAnimationCurveInClip fun() @Checks if a light property is animated in a specific AnimationClip.
+---@field GetVector4PropertyNames fun() @Retrieves the property names of type Vector4 for this light.
+---@field Dispose fun() @Disposes of the LightDescription instance. This clears any resources that the instance was using.
+---@field HasAnimationCurve fun() @Checks if a light property is animated in a any AnimationClip.
+---@field GetFloatPropertyNames fun() @Retrieves the property names of type float for this light.

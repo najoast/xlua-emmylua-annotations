@@ -1,0 +1,6 @@
+---@class UIOrientation @Default mobile device orientation.
+---@field Portrait fun() @Portrait.
+---@field AutoRotation fun() @Auto Rotation Enabled.
+---@field LandscapeRight fun() @Landscape: clockwise from Portrait.
+---@field LandscapeLeft fun() @Landscape : counter-clockwise from Portrait.
+---@field PortraitUpsideDown fun() @Portrait upside down.

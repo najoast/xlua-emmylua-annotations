@@ -1,0 +1,3 @@
+---@class iOSSdkVersion @Supported iOS SDK versions.
+---@field SimulatorSDK fun() @Simulator SDK.
+---@field DeviceSDK fun() @Device SDK.

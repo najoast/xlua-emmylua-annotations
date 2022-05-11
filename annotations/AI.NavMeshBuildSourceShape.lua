@@ -1,0 +1,7 @@
+---@class AI.NavMeshBuildSourceShape @Used with NavMeshBuildSource to define the shape for building NavMesh.
+---@field ModifierBox fun() @Describes a ModifierBox source for use with NavMeshBuildSource.
+---@field Terrain fun() @Describes a TerrainData source for use with NavMeshBuildSource.
+---@field Mesh fun() @Describes a Mesh source for use with NavMeshBuildSource. Mesh sources must be positioned within 100,000 units of the origin and must not exceed 100,000 units in any axis-aligned dimension.
+---@field Sphere fun() @Describes a sphere primitive for use with NavMeshBuildSource.
+---@field Capsule fun() @Describes a capsule primitive for use with NavMeshBuildSource.
+---@field Box fun() @Describes a box primitive for use with NavMeshBuildSource.

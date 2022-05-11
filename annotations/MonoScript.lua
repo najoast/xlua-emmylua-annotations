@@ -1,0 +1,4 @@
+---@class MonoScript @Representation of Script assets.
+---@field GetClass fun() @Returns the System.Type object of the class implemented by this script.
+---@field FromScriptableObject fun() @Returns the MonoScript object containing specified ScriptableObject.
+---@field FromMonoBehaviour fun() @Returns the MonoScript object containing specified MonoBehaviour.

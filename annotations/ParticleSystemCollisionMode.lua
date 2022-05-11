@@ -1,0 +1,3 @@
+---@class ParticleSystemCollisionMode @Whether to use 2D or 3D colliders for particle collisions.
+---@field Collision3D fun() @Use 3D colliders to collide particles against.
+---@field Collision2D fun() @Use 2D colliders to collide particles against.

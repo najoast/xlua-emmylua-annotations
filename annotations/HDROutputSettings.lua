@@ -1,0 +1,16 @@
+---@class HDROutputSettings @Provides access to HDR display settings and information.
+---@field displays fun() @The list of currently connected displays with possible HDR availability.
+---@field RequestHDRModeChange fun() @Use this function to request a change in the HDR Output Mode and in the value of HDROutputSettings.active.
+---@field SetPaperWhiteInNits fun() @Sets the base luminance of a white paper surface in nits or candela per square meter (cd/m2).
+---@field HDRModeChangeRequested fun() @Describes whether the user has requested to change the HDR Output Mode. It is true if this is the case, and false otherwise.
+---@field maxFullFrameToneMapLuminance fun() @Maximum input luminance at which gradation is preserved even when the entire screen is bright.
+---@field paperWhiteNits fun() @The base luminance of a white paper surface in nits or candela per square meter (cd/m2).
+---@field format fun() @The RenderTextureFormat of the display buffer for the active HDR display.
+---@field minToneMapLuminance fun() @Minimum input luminance at which gradation is identifiable.
+---@field maxToneMapLuminance fun() @Maximum input luminance at which gradation is preserved when 10% of the screen is bright.
+---@field automaticHDRTonemapping fun() @Describes whether Unity performs HDR tonemapping automatically.
+---@field main fun() @The HDROutputSettings for the main display.
+---@field graphicsFormat fun() @The Experimental.Rendering.GraphicsFormat of the display buffer for the active HDR display.
+---@field displayColorGamut fun() @The ColorGamut used to output to the active HDR display.
+---@field available fun() @Describes whether HDR is currently available on your primary display and that you have HDR enabled in your Unity Project. It is true if this is the case, and false otherwise.
+---@field active fun() @Describes whether HDR output is currently active on the display. It is true if this is the case, and @@false@ otherwise.

@@ -1,0 +1,41 @@
+---@class Progress.Item @A data structure that provides information about a progress indicator.
+---@field progress fun() @Returns the progress value of a progress indicator's associated task.
+---@field elapsedTime fun() @Returns the number of seconds that the progress indicator has been running for.
+---@field options fun() @Returns the option flags used to start the progress indicator.
+---@field status fun() @Returns the progress indicator's status.
+---@field indefinite fun() @Returns true if the progress indicator is indefinite.
+---@field Finish fun() @Marks the progress indicator as finished.
+---@field SetStepLabel fun() @Sets the label that displays the progress indicator's steps.
+---@field startTime fun() @Returns the time when the progress indicator started.
+---@field ClearRemainingTime fun() @Resets the computation of the progress indicator's remaining time.
+---@field running fun() @Returns true if the progress indicator is running and active.
+---@field currentStep fun() @Returns the current step for this progress indicator.
+---@field exists fun() @Checks whether the progress indicator exists.
+---@field description fun() @Returns the progress indicator's description.
+---@field responding fun() @Returns true if progress is ongoing, false if the progress indicator has not received any progress report for more than 5 seconds.
+---@field UnregisterCancelCallback fun() @Unregisters a previously registered progress cancellation callback.
+---@field parentId fun() @Returns the unique ID of the progress indicator's parent, or -1 if the progress indicator is not a child of another progress indicator.
+---@field Pause fun() @Pauses a running progress indicator.
+---@field SetPriority fun() @Sets the progress indicator's priority.
+---@field RegisterCancelCallback fun() @Registers a callback that is called when the user cancels a running progress indicator's associated task.
+---@field pausable fun() @Returns true if the progress indicator's task can be paused.
+---@field updateTime fun() @Returns the last time the progress indicator was updated.
+---@field UnregisterPauseCallback fun() @Unregisters a previously registered progress pause callback.
+---@field finished fun() @Returns true if the progress indicator is finished, but not removed.
+---@field SetTimeDisplayMode fun() @Set a progress indicator's time display mode.
+---@field Resume fun() @Resumes a paused progress indicator.
+---@field remainingTime fun() @Returns this progress indicator's remaining time to completion.
+---@field SetRemainingTime fun() @Sets the progress indicator's remaining time, in seconds.
+---@field SetDescription fun() @Sets the progress indicator's description. To clear the description pass null.
+---@field timeDisplayMode fun() @Returns the progress indicator's time display mode.
+---@field Report fun() @Reports the progress indicator's current status.
+---@field Remove fun() @Finishes and removes an active progress indicator.
+---@field stepLabel fun() @Returns the label that displays the progress indicator's steps.
+---@field RegisterPauseCallback fun() @Registers a callback that is called when a user pauses a running progress indicator's task.
+---@field name fun() @Returns the progress indicator's name.
+---@field id fun() @Returns the progress indicator's unique identifier.
+---@field totalSteps fun() @Returns the total number of steps, from start to finish, for this progress indicator.
+---@field cancellable fun() @Returns true if the progress indicator's associated event can be canceled.
+---@field paused fun() @Returns true if the progress indicator is paused.
+---@field priority fun() @Returns the progress indicator's priority.
+---@field Cancel fun() @Cancels a running progress indicator.

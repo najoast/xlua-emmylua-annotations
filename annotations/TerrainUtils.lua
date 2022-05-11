@@ -1,0 +1,4 @@
+---@class TerrainUtils @nil
+---@field TerrainMap TerrainUtils.TerrainMap @Type for mapping 2D (X,Z) tile coordinates to a Terrain object.
+---@field TerrainUtility TerrainUtils.TerrainUtility @Provides a set of utility functions that are used by the terrain tools.
+---@field TerrainTileCoord TerrainUtils.TerrainTileCoord @Specifies a set of 2D tile coordinates.

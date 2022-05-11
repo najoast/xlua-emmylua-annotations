@@ -1,0 +1,3 @@
+---@class ParticleSystemTrailMode @Choose how Particle Trails are generated.
+---@field PerParticle fun() @Makes a trail behind each particle as the particle moves.
+---@field Ribbon fun() @Draws a line between each particle, connecting the youngest particle to the oldest.

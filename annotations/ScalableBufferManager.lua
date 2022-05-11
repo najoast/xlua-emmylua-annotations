@@ -1,0 +1,4 @@
+---@class ScalableBufferManager @Scales render textures to support dynamic resolution if the target platform/graphics API supports it.
+---@field heightScaleFactor fun() @Height scale factor to control dynamic resolution.
+---@field widthScaleFactor fun() @Width scale factor to control dynamic resolution.
+---@field ResizeBuffers fun() @Function to resize all buffers marked as DynamicallyScalable.

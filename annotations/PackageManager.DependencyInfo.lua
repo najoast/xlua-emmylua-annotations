@@ -1,0 +1,3 @@
+---@class PackageManager.DependencyInfo @Structure describing dependencies to other packages in PackageInfo.
+---@field version fun() @The version of the dependency.
+---@field name fun() @The name of the dependency.

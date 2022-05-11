@@ -1,0 +1,4 @@
+---@class Search.QueryValidationOptions @Struct containing the available query validation options.
+---@field validateFilters fun() @Boolean indicating if filters should be validated. Default is false.
+---@field skipIncompleteFilters fun() @Boolean indicating if incomplete filters should be skipped.
+---@field skipUnknownFilters fun() @Boolean indicating if unknown filters should be skipped.

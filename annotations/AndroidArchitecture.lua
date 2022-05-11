@@ -1,0 +1,7 @@
+---@class AndroidArchitecture @Android CPU architecture.
+---@field X86_64 fun() @64-bit Intel architecture.
+---@field X86 fun() @32-bit Intel architecture.
+---@field None fun() @Invalid architecture.
+---@field ARM64 fun() @64-bit ARM architecture.
+---@field ARMv7 fun() @32-bit ARM architecture.
+---@field All fun() @All architectures.

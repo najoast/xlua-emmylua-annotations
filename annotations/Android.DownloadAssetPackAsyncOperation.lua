@@ -1,0 +1,6 @@
+---@class Android.DownloadAssetPackAsyncOperation @Represents an asynchronous Android asset pack download operation. AndroidAssetPacks.DownloadAssetPackAsync returns an instance of this class.
+---@field progress fun() @Gets the progress of the operation.
+---@field downloadFailedAssetPacks fun() @Gets the names of Android asset packs that failed to download.
+---@field keepWaiting fun() @Checks if the operation is still running.
+---@field isDone fun() @Checks if the operation is finished.
+---@field downloadedAssetPacks fun() @Gets the names of Android asset packs downloaded by this operation.

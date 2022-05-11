@@ -1,0 +1,2 @@
+---@class UIElements.UxmlTypeRestriction @Base class to restricts the value of an attribute.
+---@field Equals fun() @Indicates whether the current UxmlTypeRestriction object is equal to another object of the same type.

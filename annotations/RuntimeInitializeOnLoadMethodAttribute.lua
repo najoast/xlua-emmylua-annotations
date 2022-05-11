@@ -1,0 +1,3 @@
+---@class RuntimeInitializeOnLoadMethodAttribute @Allow a runtime class method to be initialized when a game is loaded at runtime      without action from the user.
+---@field ctor fun() @Creation of the runtime class used when Scenes are loaded.
+---@field loadType fun() @Set RuntimeInitializeOnLoadMethod type.

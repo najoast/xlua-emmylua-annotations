@@ -1,0 +1,2 @@
+---@class UIElements.Toggle.UxmlTraits @Defines UxmlTraits for the Toggle.
+---@field Init fun() @Initializes Toggle properties using values from the attribute bag.

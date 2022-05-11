@@ -1,0 +1,5 @@
+---@class UIElements.FontDefinition @Describes a VisualElement font.
+---@field fontAsset fun() @SDF font to use to display text. You cannot set this and FontDefinition.font at the same time.
+---@field font fun() @Font to use to display text. You cannot set this and FontDefinition.fontAsset at the same time.
+---@field FromSDFFont fun() @Create a FontDefinition from FontAsset.
+---@field FromFont fun() @Create a FontDefinition from Font.

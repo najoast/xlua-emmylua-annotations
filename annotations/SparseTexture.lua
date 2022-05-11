@@ -1,0 +1,8 @@
+---@class SparseTexture @Class for handling Sparse Textures.
+---@field UnloadTile fun() @Unload sparse texture tile.
+---@field isCreated fun() @Is the sparse texture actually created? (Read Only)
+---@field ctor fun() @Create a sparse texture.
+---@field UpdateTileRaw fun() @Update sparse texture tile with raw pixel values.
+---@field UpdateTile fun() @Update sparse texture tile with color values.
+---@field tileWidth fun() @Get sparse texture tile width (Read Only).
+---@field tileHeight fun() @Get sparse texture tile height (Read Only).

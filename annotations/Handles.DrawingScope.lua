@@ -1,0 +1,5 @@
+---@class Handles.DrawingScope @Disposable helper struct for automatically setting and reverting Handles.color and/or Handles.matrix.
+---@field Dispose fun() @Automatically reverts Handles.color and Handles.matrix to their values prior to entering the scope, when the scope is exited. You do not need to call this method manually.
+---@field originalColor fun() @The value of Handles.color at the time this DrawingScope was created.
+---@field ctor fun() @Create a new DrawingScope and set Handles.color and/or Handles.matrix to the specified values.
+---@field originalMatrix fun() @The value of Handles.matrix at the time this DrawingScope was created.

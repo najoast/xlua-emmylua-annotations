@@ -1,0 +1,7 @@
+---@class MeshRenderer @Renders meshes inserted by the MeshFilter or TextMesh.
+---@field additionalVertexStreams fun() @Vertex attributes in this mesh will override or add attributes of the primary mesh in the MeshRenderer.
+---@field receiveGI fun() @Determines how the object will receive global illumination. (Editor only)
+---@field stitchLightmapSeams fun() @When enabled, seams in baked lightmaps will get smoothed. (Editor only)
+---@field subMeshStartIndex fun() @Index of the first sub-mesh to use from the Mesh associated with this MeshRenderer (Read Only).
+---@field scaleInLightmap fun() @Specifies the relative lightmap resolution of this object. (Editor only)
+---@field enlightenVertexStream fun() @Vertex attributes that override the primary mesh when the MeshRenderer uses lightmaps in the Realtime Global Illumination system.

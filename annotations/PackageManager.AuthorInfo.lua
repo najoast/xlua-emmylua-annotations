@@ -1,0 +1,4 @@
+---@class PackageManager.AuthorInfo @Identifies the author of a package.
+---@field email fun() @The email address of the author (optional).
+---@field url fun() @The url address of the author (optional).
+---@field name fun() @The name of the author.

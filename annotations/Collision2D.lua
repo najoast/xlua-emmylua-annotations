@@ -1,0 +1,13 @@
+---@class Collision2D @Collision details returned by 2D physics callback functions.
+---@field collider fun() @The incoming Collider2D involved in the collision with the otherCollider.
+---@field otherCollider fun() @The other Collider2D involved in the collision with the collider.
+---@field otherRigidbody fun() @The other Rigidbody2D involved in the collision with the rigidbody.
+---@field gameObject fun() @The incoming GameObject involved in the collision.
+---@field rigidbody fun() @The incoming Rigidbody2D involved in the collision with the otherRigidbody.
+---@field transform fun() @The Transform of the incoming object involved in the collision.
+---@field contacts fun() @The specific points of contact with the incoming Collider2D. You should avoid using this as it produces memory garbage. Use GetContact or GetContacts instead.
+---@field enabled fun() @Indicates whether the collision response or reaction is enabled or disabled.
+---@field GetContacts fun() @Retrieves all contact points for contacts between collider and otherCollider.
+---@field contactCount fun() @Gets the number of contacts for this collision.
+---@field relativeVelocity fun() @The relative linear velocity of the two colliding objects (Read Only).
+---@field GetContact fun() @Gets the contact point at the specified index.

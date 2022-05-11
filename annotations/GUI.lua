@@ -1,0 +1,45 @@
+---@class GUI @The GUI class is the interface for Unity's GUI with manual positioning.
+---@field BeginScrollView fun() @Begin a scrolling view inside your GUI.
+---@field skin fun() @The global skin to use.
+---@field Button fun() @Make a single press button. The user clicks them and something happens immediately.
+---@field changed fun() @Returns true if any controls changed the value of the input data.
+---@field DrawTextureWithTexCoords fun() @Draw a texture within a rectangle with the given texture coordinates.
+---@field backgroundColor fun() @Global tinting color for all background elements rendered by the GUI.
+---@field depth fun() @The sorting depth of the currently executing GUI behaviour.
+---@field ToolbarButtonSize GUI.ToolbarButtonSize @Determines how toolbar button size is calculated.
+---@field UnfocusWindow fun() @Remove focus from all windows.
+---@field tooltip fun() @The tooltip of the control the mouse is currently over, or which has keyboard focus. (Read Only).
+---@field TextArea fun() @Make a Multi-line text area where the user can edit a string.
+---@field GroupScope GUI.GroupScope @Disposable helper class for managing BeginGroup / EndGroup.
+---@field enabled fun() @Is the GUI enabled?
+---@field VerticalSlider fun() @A vertical slider the user can drag to change a value between a min and a max.
+---@field ScrollViewScope GUI.ScrollViewScope @Disposable helper class for managing BeginScrollView / EndScrollView.
+---@field ModalWindow fun() @Show a Modal Window.
+---@field Box fun() @Create a Box on the GUI Layer.
+---@field FocusControl fun() @Move keyboard focus to a named control.
+---@field PasswordField fun() @Make a text field where the user can enter a password.
+---@field BeginGroup fun() @Begin a group. Must be matched with a call to EndGroup.
+---@field Window fun() @Make a popup window.
+---@field FocusWindow fun() @Make a window become the active window.
+---@field WindowFunction fun() @Callback to draw GUI within a window (used with GUI.Window).
+---@field DragWindow fun() @Make a window draggable.
+---@field DrawTexture fun() @Draw a texture within a rectangle.
+---@field VerticalScrollbar fun() @Make a vertical scrollbar. Scrollbars are what you use to scroll through a document. Most likely, you want to use scrollViews instead.
+---@field matrix fun() @The GUI transform matrix.
+---@field Toolbar fun() @Make a toolbar.
+---@field BringWindowToFront fun() @Bring a specific window to front of the floating windows.
+---@field SetNextControlName fun() @Set the name of the next control.
+---@field TextField fun() @Make a single-line text field where the user can edit a string.
+---@field EndScrollView fun() @Ends a scrollview started with a call to BeginScrollView.
+---@field Label fun() @Make a text or texture label on screen.
+---@field RepeatButton fun() @Make a button that is active as long as the user holds it down.
+---@field contentColor fun() @Tinting color for all text rendered by the GUI.
+---@field BringWindowToBack fun() @Bring a specific window to back of the floating windows.
+---@field HorizontalScrollbar fun() @Make a horizontal scrollbar. Scrollbars are what you use to scroll through a document. Most likely, you want to use scrollViews instead.
+---@field color fun() @Applies a global tint to the GUI. The tint affects backgrounds and text colors.
+---@field SelectionGrid fun() @Make a grid of buttons.
+---@field GetNameOfFocusedControl fun() @Get the name of named control that has focus.
+---@field ScrollTo fun() @Scrolls all enclosing scrollviews so they try to make position visible.
+---@field Toggle fun() @Make an on/off toggle button.
+---@field EndGroup fun() @End a group.
+---@field HorizontalSlider fun() @A horizontal slider the user can drag to change a value between a min and a max.

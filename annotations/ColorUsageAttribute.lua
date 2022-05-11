@@ -1,0 +1,8 @@
+---@class ColorUsageAttribute @Attribute used to configure the usage of the ColorField and Color Picker for a color.
+---@field ctor fun() @Attribute for Color fields. Used for configuring the GUI for the color.
+---@field minExposureValue fun() @Minimum exposure value allowed in the HDR Color Picker.
+---@field showAlpha fun() @If false then the alpha bar is hidden in the ColorField and the alpha value is not shown in the Color Picker.
+---@field minBrightness fun() @Minimum allowed HDR color component value when using the Color Picker.
+---@field maxBrightness fun() @Maximum allowed HDR color component value when using the HDR Color Picker.
+---@field maxExposureValue fun() @Maximum exposure value allowed in the HDR Color Picker.
+---@field hdr fun() @If set to true the Color is treated as a HDR color.

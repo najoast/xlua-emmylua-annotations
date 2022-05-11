@@ -1,0 +1,28 @@
+---@class TrailRenderer @The trail renderer is used to make trails behind objects in the Scene as they move about.
+---@field minVertexDistance fun() @Set the minimum distance the trail can travel before a new vertex is added to it.
+---@field numCornerVertices fun() @Set this to a value greater than 0, to get rounded corners between each segment of the trail.
+---@field startColor fun() @Set the color at the start of the trail.
+---@field positionCount fun() @Get the number of line segments in the trail.
+---@field endColor fun() @Set the color at the end of the trail.
+---@field widthCurve fun() @Set the curve describing the width of the trail at various points along its length.
+---@field emitting fun() @Creates trails when the GameObject moves.
+---@field GetPosition fun() @Get the position of a vertex in the trail.
+---@field autodestruct fun() @Does the GameObject of this Trail Renderer auto destruct?
+---@field colorGradient fun() @Set the color gradient describing the color of the trail at various points along its length.
+---@field endWidth fun() @The width of the trail at the end of the trail.
+---@field widthMultiplier fun() @Set an overall multiplier that is applied to the TrailRenderer.widthCurve to get the final width of the trail.
+---@field shadowBias fun() @Apply a shadow bias to prevent self-shadowing artifacts. The specified value is the proportion of the trail width at each segment.
+---@field SetPosition fun() @Set the position of a vertex in the trail.
+---@field BakeMesh fun() @Creates a snapshot of TrailRenderer and stores it in mesh.
+---@field GetPositions fun() @Get the positions of all vertices in the trail.
+---@field time fun() @How long does the trail take to fade out.
+---@field Clear fun() @Removes all points from the TrailRenderer.Useful for restarting a trail from a new position.
+---@field AddPositions fun() @Add an array of positions to the trail.
+---@field textureMode fun() @Choose whether the U coordinate of the trail texture is tiled or stretched.
+---@field alignment fun() @Select whether the trail will face the camera, or the orientation of the Transform Component.
+---@field AddPosition fun() @Adds a position to the trail.
+---@field numPositions fun() @Get the number of line segments in the trail.
+---@field startWidth fun() @The width of the trail at the spawning point.
+---@field SetPositions fun() @Sets the positions of all vertices in the trail.
+---@field generateLightingData fun() @Configures a trail to generate Normals and Tangents. With this data, Scene lighting can affect the trail via Normal Maps and the Unity Standard Shader, or your own custom-built Shaders.
+---@field numCapVertices fun() @Set this to a value greater than 0, to get rounded corners on each end of the trail.

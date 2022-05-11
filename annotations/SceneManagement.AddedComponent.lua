@@ -1,0 +1,5 @@
+---@class SceneManagement.AddedComponent @Class with information about a component that has been added to a Prefab instance.
+---@field Apply fun() @See PrefabOverride.Apply.
+---@field Revert fun() @See PrefabOverride.Revert.
+---@field GetAssetObject fun() @See PrefabOverride.GetAssetObject.
+---@field instanceComponent fun() @The added component on the Prefab instance.

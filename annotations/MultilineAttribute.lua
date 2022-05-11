@@ -1,0 +1,2 @@
+---@class MultilineAttribute @Attribute to make a string be edited with a multi-line textfield.
+---@field ctor fun() @Attribute used to make a string value be shown in a multiline textarea.

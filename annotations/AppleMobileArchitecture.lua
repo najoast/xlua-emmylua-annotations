@@ -1,0 +1,4 @@
+---@class AppleMobileArchitecture @Apple Mobile CPU architecture.
+---@field Universal fun() @All architectures.
+---@field ARM64 fun() @64-bit ARM architecture.
+---@field ARMv7 fun() @32-bit ARM architecture.

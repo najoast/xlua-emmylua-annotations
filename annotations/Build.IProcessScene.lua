@@ -1,0 +1,2 @@
+---@class Build.IProcessScene @Implement this interface to receive a callback for each Scene during the build.
+---@field OnProcessScene fun() @Implement this function to receive a callback for each Scene during the build.

@@ -1,0 +1,2 @@
+---@class Experimental.Playables.TexturePlayableBinding @A PlayableBinding that contains information representing a TexturePlayableOutput.
+---@field Create fun() @Creates a PlayableBinding that contains information representing a TexturePlayableOutput.

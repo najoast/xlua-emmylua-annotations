@@ -1,0 +1,6 @@
+---@class XR.TrackingOriginModeFlags @This enum provides context to where the 0,0,0 point of tracking for InputDevices is.
+---@field TrackingReference fun() @XRInputSubsystem tracks all InputDevices in reference to an InputDevice with the InputDeviceCharacteristics.TrackingReference flag set when set to TrackingOriginModeFlags.TrackingReference.
+---@field Unbounded fun() @XRInputSubsystem tracks all InputDevices in relation to a world anchor. This world anchor can change at any time, and is chosen by the runtime.
+---@field Device fun() @XRInputSubsystem tracks all InputDevices in reference to the first known location of a specific InputDevice when set to TrackingOriginModeFlags.Device.
+---@field Floor fun() @XRInputSubsystem tracks all InputDevices in reference to a point on the floor when set to TrackingOriginModeFlags.Floor.
+---@field Unknown fun() @TrackingOriginModeFlags.Unknown enumerates when the XRInputSubsystem was not able to set its tracking origin or has no tracking.

@@ -1,0 +1,9 @@
+---@class WheelHit @Contact information for the wheel, reported by WheelCollider.
+---@field sidewaysDir fun() @The sideways direction of the wheel.
+---@field collider fun() @The other Collider the wheel is hitting.
+---@field sidewaysSlip fun() @Tire slip in the sideways direction.
+---@field force fun() @The magnitude of the force being applied for the contact.
+---@field normal fun() @The normal at the point of contact.
+---@field point fun() @The point of contact between the wheel and the ground.
+---@field forwardSlip fun() @Tire slip in the rolling direction. Acceleration slip is negative, braking slip is positive.
+---@field forwardDir fun() @The direction the wheel is pointing in.

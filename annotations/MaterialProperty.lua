@@ -1,0 +1,16 @@
+---@class MaterialProperty @Describes information and value of a single shader property.
+---@field PropType MaterialProperty.PropType @Material property type.
+---@field hasMixedValue fun() @Does this property have multiple different values? (Read Only)
+---@field targets fun() @Material objects being edited by this property (Read Only).
+---@field colorValue fun() @Color value of the property.
+---@field flags fun() @Flags that control how property is displayed (Read Only).
+---@field rangeLimits fun() @Min/max limits of a ranged float property (Read Only).
+---@field PropFlags MaterialProperty.PropFlags @Flags that control how a MaterialProperty is displayed.
+---@field textureValue fun() @Texture value of the property.
+---@field name fun() @Name of the property (Read Only).
+---@field textureDimension fun() @Texture dimension (2D, Cubemap etc.) of the property (Read Only).
+---@field intValue fun() @Int value of the property.
+---@field type fun() @Type of the property (Read Only).
+---@field displayName fun() @Display name of the property (Read Only).
+---@field vectorValue fun() @Vector value of the property.
+---@field floatValue fun() @Float value of the property.

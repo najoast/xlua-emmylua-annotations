@@ -1,0 +1,1098 @@
+---@class CS
+---@field UnityEngine UnityEngine @All Unity APIs export to this package.
+
+---@class UnityEngine
+---@field EffectorForceMode2D EffectorForceMode2D @The mode used to apply Effector2D forces.
+---@field ArticulationDofLock ArticulationDofLock @The lock type applied to a particular degree of freedom of an articulation body.
+---@field EditorCurveBinding EditorCurveBinding @Defines how a curve is attached to an object that it controls.
+---@field DepthTextureMode DepthTextureMode @Depth texture generation mode for Camera.
+---@field MaterialGlobalIlluminationFlags MaterialGlobalIlluminationFlags @How the material interacts with lightmaps and lightprobes.
+---@field CullingGroupEvent CullingGroupEvent @Provides information about the current and previous states of one sphere in a CullingGroup.
+---@field ParticleSystemTriggerEventType ParticleSystemTriggerEventType @The different types of particle triggers.
+---@field CustomYieldInstruction CustomYieldInstruction @Base class for custom yield instructions to suspend coroutines.
+---@field TextAnchor TextAnchor @Where the anchor of the text is placed.
+---@field ProceduralProcessorUsage ProceduralProcessorUsage @Deprecated feature, no longer available
+---@field StackTraceLogType StackTraceLogType @Stack trace logging options.
+---@field JsonUtility JsonUtility @Utility functions for working with JSON data.
+---@field LightmapBakeQuality LightmapBakeQuality @Bake quality setting for LightmapEditorSettings.
+---@field TrailRenderer TrailRenderer @The trail renderer is used to make trails behind objects in the Scene as they move about.
+---@field IntegratedSubsystemDescriptor IntegratedSubsystemDescriptor @Information about a subsystem that can be queried before creating a subsystem instance.
+---@field ObjectNames ObjectNames @Helper class for constructing displayable names for objects.
+---@field ParticleSystemGameObjectFilter ParticleSystemGameObjectFilter @The particle GameObject filtering mode that specifies which objects are used by specific Particle System modules.
+---@field SocialPlatforms SocialPlatforms @nil
+---@field Lumin Lumin @nil
+---@field ModelImporterMaterialLocation ModelImporterMaterialLocation @Material import options for ModelImporter.
+---@field TargetJoint2D TargetJoint2D @The joint attempts to move a Rigidbody2D to a specific target position.
+---@field JointLimits JointLimits @JointLimits is used by the HingeJoint to limit the joints angle.
+---@field ArticulationBody ArticulationBody @A body that forms part of a Physics articulation.
+---@field SketchUpImportScene SketchUpImportScene @Structure to hold scene data extracted from a SketchUp file.
+---@field Shader Shader @Shader scripts used for all rendering.
+---@field AssetBundleManifest AssetBundleManifest @Manifest for all the AssetBundles in the build.
+---@field MeshColliderCookingOptions MeshColliderCookingOptions @Cooking options that are available with MeshCollider.
+---@field ForceMode2D ForceMode2D @Option for how to apply a force using Rigidbody2D.AddForce.
+---@field ShadowObjectsFilter ShadowObjectsFilter @The filters that Unity can use when it renders GameObjects in the shadow pass.
+---@field HumanBodyBones HumanBodyBones @Human Body Bones.
+---@field AndroidTargetDevices AndroidTargetDevices @Defines the types of devices on which an Android application is allowed to run. Used for the PlayerSettings.Android._androidTargetDevices property.
+---@field ArticulationReducedSpace ArticulationReducedSpace @Coordinates in reduced space.
+---@field ArticulationDrive ArticulationDrive @Drive applies forces and torques to the connected bodies.
+---@field NonSerialized NonSerialized @The NonSerialized attribute marks a variable to not be serialized.
+---@field VertexChannelCompressionFlags VertexChannelCompressionFlags @Use these enum flags to specify which elements of a vertex to compress.
+---@field SettingsProviderAttribute SettingsProviderAttribute @Attribute used to register a new SettingsProvider. Use this attribute to decorate a function that returns an instance of a SettingsProvider. If the function returns null, no SettingsProvider appears in the Settings window.
+---@field CustomRenderTextureManager CustomRenderTextureManager @Custom Render Texture Manager.
+---@field PrefabType PrefabType @The type of a Prefab object as returned by PrefabUtility.GetPrefabType.
+---@field TouchPhase TouchPhase @Describes phase of a finger touch.
+---@field DeviceSimulation DeviceSimulation @nil
+---@field Effector2D Effector2D @A base class for all 2D effectors.
+---@field SceneTemplate SceneTemplate @nil
+---@field Grid Grid @Grid is the base class for plotting a layout of uniformly spaced points and lines.
+---@field AnimatorCullingMode AnimatorCullingMode @Culling mode for the Animator.
+---@field AndroidBuildType AndroidBuildType @Build configurations for the generated project.
+---@field ShaderInfo ShaderInfo @Contains the following information about a shader:-If the shader has compilation errors or warnings.-If the shader is supported on the currently selected platform.-The name of the shader.
+---@field Networking Networking @nil
+---@field MatchTargetWeightMask MatchTargetWeightMask @Use this struct to specify the position and rotation weight mask for Animator.MatchTarget.
+---@field MaterialPropertyDrawer MaterialPropertyDrawer @Base class to derive custom material property drawers from.
+---@field OperatingSystemFamily OperatingSystemFamily @Enumeration for SystemInfo.operatingSystemFamily.
+---@field TextureImporterMipFilter TextureImporterMipFilter @Mip map filter for TextureImporter.
+---@field InitializeOnLoadAttribute InitializeOnLoadAttribute @Allows you to initialize an Editor class when Unity loads, and when your scripts are recompiled.
+---@field Overlays Overlays @nil
+---@field ParticleSystemRingBufferMode ParticleSystemRingBufferMode @Control how particles are removed from the Particle System.
+---@field LightBakingOutput LightBakingOutput @Struct describing the result of a Global Illumination bake for a given light.
+---@field ParticleSystemAnimationRowMode ParticleSystemAnimationRowMode @The mode used for selecting rows of an animation in the Texture Sheet Animation Module.
+---@field MenuCommand MenuCommand @Used to extract the context for a MenuItem.
+---@field RenderTextureDescriptor RenderTextureDescriptor @This struct contains all the information required to create a RenderTexture. It can be copied, cached, and reused to easily create RenderTextures that all share the same properties. Avoid using the default constructor as it does not initialize some flags with the recommended values.
+---@field RenderTextureCreationFlags RenderTextureCreationFlags @Set of flags that control the state of a newly-created RenderTexture.
+---@field Mesh Mesh @A class that allows you to create or modify meshes.
+---@field ScriptingImplementation ScriptingImplementation @Scripting implementation (backend).
+---@field DrawCameraMode DrawCameraMode @Drawing modes for Handles.DrawCamera.
+---@field AspectRatio AspectRatio @Aspect ratio.
+---@field SpringJoint SpringJoint @The spring joint ties together 2 rigid bodies, spring forces will be automatically applied to keep the object at the given distance.
+---@field TouchScreenKeyboard TouchScreenKeyboard @Interface for on-screen keyboards. Only native iPhone, Android, and Windows Store Apps are supported.
+---@field PlatformIcon PlatformIcon @Icon slot container.
+---@field AnimationClipPair AnimationClipPair @This class defines a pair of clips used by AnimatorOverrideController.
+---@field Compilation Compilation @nil
+---@field CustomRenderTexture CustomRenderTexture @Custom Render Textures are an extension to Render Textures that allow you to render directly to the Texture using a Shader.
+---@field ParticleSystemSubEmitterProperties ParticleSystemSubEmitterProperties @The properties of sub-emitter particles.
+---@field ModelImporterTangentSpaceMode ModelImporterTangentSpaceMode @Tangent space generation options for ModelImporter.
+---@field Physics Physics @Global physics properties and helper methods.
+---@field AndroidJavaObject AndroidJavaObject @AndroidJavaObject is the Unity representation of a generic instance of java.lang.Object.
+---@field ExitGUIException ExitGUIException @An exception that will prevent all subsequent immediate mode GUI functions from evaluating for the remainder of the GUI loop.
+---@field ParticleSystemTrailMode ParticleSystemTrailMode @Choose how Particle Trails are generated.
+---@field AndroidShowActivityIndicatorOnLoading AndroidShowActivityIndicatorOnLoading @Application should show ActivityIndicator when loading.
+---@field MeshUtility MeshUtility @Various utilities for mesh manipulation.
+---@field RuntimeInitializeOnLoadMethodAttribute RuntimeInitializeOnLoadMethodAttribute @Allow a runtime class method to be initialized when a game is loaded at runtime      without action from the user.
+---@field GradientMode GradientMode @Select how gradients will be evaluated.
+---@field ISubsystem ISubsystem @Interface implemented by both Subsystem and IntegratedSubsystem which provides control over the state of either.
+---@field ScreenOrientation ScreenOrientation @Describes screen orientation.
+---@field LightRenderMode LightRenderMode @How the Light is rendered.
+---@field ParticleSystemJobs ParticleSystemJobs @nil
+---@field CanAppendBuild CanAppendBuild @Whether you can append an existing build using BuildOptions.AcceptExternalModificationsToPlayer.
+---@field RefreshRate RefreshRate @Represents the display refresh rate. This is how many frames the display can show per second.
+---@field PointerType PointerType @Pointer types.
+---@field DynamicGI DynamicGI @Allows to control the dynamic Global Illumination.
+---@field SceneAsset SceneAsset @SceneAsset is used to reference Scene objects in the Editor.
+---@field CubemapFace CubemapFace @Cubemap face.
+---@field RuntimePlatform RuntimePlatform @The platform application is running. Returned by Application.platform.
+---@field PolygonCollider2D PolygonCollider2D @Collider for 2D physics representing an arbitrary polygon defined by its vertices.
+---@field ICanvasRaycastFilter ICanvasRaycastFilter @This element can filter raycasts. If the top level element is hit it can further 'check' if the location is valid.
+---@field ConfigurableJoint ConfigurableJoint @The configurable joint is an extremely flexible joint giving you complete control over rotation and linear motion.
+---@field CameraEditor CameraEditor @Unity Camera Editor.
+---@field Gizmos Gizmos @Gizmos are used to give visual debugging or setup aids in the Scene view.
+---@field ImageEffectAfterScale ImageEffectAfterScale @Any Image Effect with this attribute will be rendered after Dynamic Resolution stage.
+---@field ParticleSystemEmissionType ParticleSystemEmissionType @The mode in which particles are emitted.
+---@field SettingsProviderGroupAttribute SettingsProviderGroupAttribute @Attribute used to register multiple SettingsProvider items. Use this attribute to decorate a function that returns an array of SettingsProvider instances. If the function returns null, no SettingsProvider appears in the Settings window.
+---@field ResolutionDialogSetting ResolutionDialogSetting @Resolution dialog setting.
+---@field LightingExplorerTab LightingExplorerTab @Create custom tabs for the Lighting Explorer.
+---@field GridPalette GridPalette @GridPalette stores settings for Palette assets when shown in the Palette window.
+---@field LightingWindowEnvironmentSection LightingWindowEnvironmentSection @Base class for the Inspector that overrides the Environment section of the Lighting window.
+---@field Ray2D Ray2D @A ray in 2D space.
+---@field DurationUnit DurationUnit @Describe the unit of a duration.
+---@field AndroidGamepadSupportLevel AndroidGamepadSupportLevel @Gamepad support level for Android TV.
+---@field CacheServerMode CacheServerMode @Selects the cache server configuration mode.
+---@field AndroidInput AndroidInput @AndroidInput provides support for off-screen touch input, such as a touchpad.
+---@field ModelImporterMeshCompression ModelImporterMeshCompression @Mesh compression options for ModelImporter.
+---@field ProceduralLoadingBehavior ProceduralLoadingBehavior @Deprecated feature, no longer available
+---@field SpriteDrawMode SpriteDrawMode @SpriteRenderer draw mode.
+---@field ParticlePhysicsExtensions ParticlePhysicsExtensions @Method extension for Physics in Particle System.
+---@field Cache Cache @Data structure for cache. Please refer to See Also:Caching.AddCache for more information.
+---@field PhysicsSceneExtensions2D PhysicsSceneExtensions2D @Scene extensions to access the underlying physics scene.
+---@field AudioRolloffMode AudioRolloffMode @Rolloff modes that a 3D sound can have in an audio source.
+---@field ChangeGameObjectStructureHierarchyEventArgs ChangeGameObjectStructureHierarchyEventArgs @A change of this type indicates that the structure of a GameObject has changed and any GameObject in the hierarchy below it might have changed. This happens for example when Undo.RegisterFullObjectHierarchyUndo is used.
+---@field LayerMask LayerMask @Specifies Layers to use in a Physics.Raycast.
+---@field Camera Camera @A Camera is a device through which the player views the world.
+---@field AndroidPreferredInstallLocation AndroidPreferredInstallLocation @Preferred application install location.
+---@field RenderBuffer RenderBuffer @Color or depth buffer part of a RenderTexture.
+---@field ChangeSceneEventArgs ChangeSceneEventArgs @A change of this type indicates that an open scene has been changed (dirtied) without any more specific information available. This happens for example when EditorSceneManager.MarkSceneDirty is used.
+---@field AudioSettings AudioSettings @Controls the global audio settings from script.
+---@field GridBrushBase GridBrushBase @Base class for authoring data on a grid with grid painting tools like paint, erase, pick, select and fill.
+---@field HashUnsafeUtilities HashUnsafeUtilities @Utilities to compute hashes with unsafe code.
+---@field LocationInfo LocationInfo @Structure describing device location.
+---@field ArticulationJacobian ArticulationJacobian @The floating point dense Jacobian matrix of the articulation body hierarchy.
+---@field Security Security @Webplayer security related class. Not supported from 5.4.0 onwards.
+---@field SettingsProvider SettingsProvider @SettingsProvider is the configuration class that specifies how a Project setting or a preference should appear in the Settings or Preferences window.
+---@field Resolution Resolution @Represents a display resolution.
+---@field SleepTimeout SleepTimeout @Constants for special values of Screen.sleepTimeout.
+---@field iOSBuildType iOSBuildType @Build configurations for the generated Xcode project.
+---@field LOD LOD @Structure for building a LOD for passing to the SetLODs function.
+---@field SpringJoint2D SpringJoint2D @Joint that attempts to keep two Rigidbody2D objects a set distance apart by applying a force between them.
+---@field ModelImporterGenerateMaterials ModelImporterGenerateMaterials @Material generation options for ModelImporter.
+---@field Handheld Handheld @Interface into functionality unique to handheld devices.
+---@field SceneVisibilityManager SceneVisibilityManager @Manages Scene Visibility in the editor.
+---@field GeometryUtility GeometryUtility @Utility class for common geometric functions.
+---@field Network Network @The network class is at the heart of the network implementation and provides the core functions.
+---@field AnimationCurve AnimationCurve @Store a collection of Keyframes that can be evaluated over time.
+---@field RaycastHit RaycastHit @Structure used to get information back from a raycast.
+---@field CombineInstance CombineInstance @Struct used to describe meshes to be combined using Mesh.CombineMeshes.
+---@field ModelImporterMaterialName ModelImporterMaterialName @Material naming options for ModelImporter.
+---@field ArticulationJointType ArticulationJointType @The type of the joint that restricts movement of the two connected articulation bodies.
+---@field ImageEffectAllowedInSceneView ImageEffectAllowedInSceneView @Any Image Effect with this attribute can be rendered into the Scene view camera.
+---@field ClusterNetwork ClusterNetwork @A helper class that contains static method to inquire status of Unity Cluster.
+---@field Selection Selection @Access to the selection in the editor.
+---@field WaitForSeconds WaitForSeconds @Suspends the coroutine execution for the given amount of seconds using scaled time.
+---@field HingeJoint2D HingeJoint2D @Joint that allows a Rigidbody2D object to rotate around a point in space or a point on another object.
+---@field NPOTSupport NPOTSupport @NPOT textures support.
+---@field Quaternion Quaternion @Quaternions are used to represent rotations.
+---@field Light Light @Script interface for light components.
+---@field D3D9FullscreenMode D3D9FullscreenMode @Direct3D 9 fullscreen mode.
+---@field WheelHit WheelHit @Contact information for the wheel, reported by WheelCollider.
+---@field ImagePosition ImagePosition @How image and text is placed inside GUIStyle.
+---@field EdgeCollider2D EdgeCollider2D @Collider for 2D physics representing an arbitrary set of connected edges (lines) defined by its vertices.
+---@field EditorSnapSettings EditorSnapSettings @Control the behavior of handle snapping in the editor.
+---@field UnityAPICompatibilityVersionAttribute UnityAPICompatibilityVersionAttribute @Declares an assembly to be compatible (API wise) with a specific Unity API. Used by internal tools to avoid processing the assembly in order to decide whether assemblies may be using old Unity API.
+---@field TextureCompressionQuality TextureCompressionQuality @Compression Quality.
+---@field TerrainHeightmapSyncControl TerrainHeightmapSyncControl @Controls what Terrain heightmap data to synchronize when there are changes to the heightmap texture.
+---@field RigidbodyInterpolation2D RigidbodyInterpolation2D @Interpolation mode for Rigidbody2D objects.
+---@field Texture3D Texture3D @Class for handling 3D Textures, Use this to create 3D texture assets.
+---@field SpritePackingRotation SpritePackingRotation @Sprite rotation modes for the Sprite Packer.
+---@field FilePathAttribute FilePathAttribute @An attribute that specifies a file location relative to the Project folder or Unity's preferences folder. See Also: FilePathAttribute.Location.
+---@field IMECompositionMode IMECompositionMode @Controls IME input.
+---@field CacheServerConnectionChangedParameters CacheServerConnectionChangedParameters @Struct used for AssetDatabase.cacheServerConnectionChanged.
+---@field AnimatorRecorderMode AnimatorRecorderMode @The mode of the Animator's recorder.
+---@field HorizontalWrapMode HorizontalWrapMode @Wrapping modes for text that reaches the horizontal boundary.
+---@field Flare Flare @A flare asset. Read more about flares in the components reference.
+---@field CrashReportHandler CrashReportHandler @nil
+---@field Gradient Gradient @Gradient used for animating colors.
+---@field DetailRenderMode DetailRenderMode @Render mode for detail prototypes.
+---@field ScriptingRuntimeVersion ScriptingRuntimeVersion @Available scripting runtimes to be used by the Editor and Players.
+---@field ProceduralMaterial ProceduralMaterial @Deprecated feature, no longer available
+---@field EditorUserBuildSettings EditorUserBuildSettings @User build settings for the Editor
+---@field ImageEffectOpaque ImageEffectOpaque @Any Image Effect with this attribute will be rendered after opaque geometry but before transparent geometry.
+---@field CustomPreviewAttribute CustomPreviewAttribute @Adds an extra preview in the Inspector for the specified type.
+---@field iOSSdkVersion iOSSdkVersion @Supported iOS SDK versions.
+---@field Color32 Color32 @Representation of RGBA colors in 32 bit format.
+---@field AudioSpeakerMode AudioSpeakerMode @These are speaker types defined for use with AudioSettings.speakerMode.
+---@field ShaderGUI ShaderGUI @Abstract class to derive from for defining custom GUI for shader properties and for extending the material preview.
+---@field ISerializationCallbackReceiver ISerializationCallbackReceiver @Interface to receive callbacks upon serialization and deserialization.
+---@field AudioListener AudioListener @Representation of a listener in 3D space.
+---@field ParticleSystemMeshDistribution ParticleSystemMeshDistribution @Sets which method Unity uses to randomly assign Meshes to particles.
+---@field Tilemaps Tilemaps @nil
+---@field GizmoType GizmoType @Determines how a gizmo is drawn or picked in the Unity editor.
+---@field CursorMode CursorMode @Determines whether the mouse cursor is rendered using software rendering or, on supported platforms, hardware rendering.
+---@field WebCamTexture WebCamTexture @WebCam Textures are textures onto which the live video input is rendered.
+---@field GUILayoutUtility GUILayoutUtility @Utility functions for implementing and extending the GUILayout class.
+---@field Gyroscope Gyroscope @Interface into the Gyroscope.
+---@field PlatformIconKind PlatformIconKind @Icon kind wrapper.
+---@field RuntimeAnimatorController RuntimeAnimatorController @The runtime representation of the AnimatorController. Use this representation to change the Animator Controller during runtime.
+---@field VideoDeinterlaceMode VideoDeinterlaceMode @Describes how the fields in the image, if any, should be interpreted.
+---@field XboxBuildSubtarget XboxBuildSubtarget @Target Xbox build type.
+---@field ShadowProjection ShadowProjection @Shadow projection type for Quality Settings.
+---@field GenericMenu GenericMenu @GenericMenu lets you create custom context menus and dropdown menus.
+---@field PhysicsShapeGroup2D PhysicsShapeGroup2D @Represents a group of PhysicsShape2D and their geometry.
+---@field ModelImporterSkinWeights ModelImporterSkinWeights @Skin weights options for ModelImporter.
+---@field AndroidJavaProxy AndroidJavaProxy @This class can be used to implement any java interface. Any java vm method invocation matching the interface on the proxy object will automatically be passed to the c# implementation.
+---@field FileUtil FileUtil @Lets you do move, copy, delete operations over files or directories.
+---@field CapsulecastCommand CapsulecastCommand @Use this struct to set up a capsule cast command that is performed asynchronously during a job.
+---@field JointDriveMode JointDriveMode @The ConfigurableJoint attempts to attain position / velocity targets based on this flag.
+---@field PhysicsMaterial2D PhysicsMaterial2D @Asset type that defines the surface properties of a Collider2D.
+---@field GradientUsageAttribute GradientUsageAttribute @Attribute used to configure the usage of the GradientField and Gradient Editor for a gradient.
+---@field CircleCollider2D CircleCollider2D @Collider for 2D physics representing an circle.
+---@field CameraClearFlags CameraClearFlags @Values for Camera.clearFlags, determining what to clear when rendering a Camera.
+---@field FullScreenMovieScalingMode FullScreenMovieScalingMode @Describes scaling modes for displaying movies.
+---@field Color Color @Representation of RGBA colors.
+---@field AudioImporter AudioImporter @Audio importer lets you modify AudioClip import settings from editor scripts.
+---@field AudioEchoFilter AudioEchoFilter @The Audio Echo Filter repeats a sound after a given Delay, attenuating the repetitions based on the Decay Ratio.
+---@field NetworkStateSynchronization NetworkStateSynchronization @Different types of synchronization for the NetworkView component.
+---@field AnchoredJoint2D AnchoredJoint2D @Parent class for all joints that have anchor points.
+---@field Il2Cpp Il2Cpp @nil
+---@field VideoResizeMode VideoResizeMode @How the video clip's images will be resized during transcoding.
+---@field DestroyGameObjectHierarchyEventArgs DestroyGameObjectHierarchyEventArgs @A change of this type indicates that a GameObject and the entire hierarchy below it has been destroyed. This happens for example when Undo.DestroyObjectImmediate is used with an GameObject.
+---@field LightmapData LightmapData @Data of a lightmap.
+---@field ModelImporterMaterialImportMode ModelImporterMaterialImportMode @Material import options for ModelImporter.
+---@field GUI GUI @The GUI class is the interface for Unity's GUI with manual positioning.
+---@field ContextMenuItemAttribute ContextMenuItemAttribute @Use this attribute to add a context menu to a field that calls a  named method.
+---@field ContactPoint ContactPoint @Describes a contact point where the collision occurs.
+---@field CustomEditor CustomEditor @Tells an Editor class which run-time type it's an editor for.
+---@field DistanceJoint2D DistanceJoint2D @Joint that keeps two Rigidbody2D objects a fixed distance apart.
+---@field StandaloneBuildSubtarget StandaloneBuildSubtarget @Desktop platform subtarget type.
+---@field ChangeGameObjectParentEventArgs ChangeGameObjectParentEventArgs @A change of this type indicates that the parent of a GameObject has changed. This happens when Undo.SetTransformParent or SceneManager.MoveGameObjectToScene is used.
+---@field Highlighter Highlighter @Use this class to highlight elements in the editor for use in in-editor tutorials and similar.
+---@field GUIStyleState GUIStyleState @Specialized values for the given states used by GUIStyle objects.
+---@field AudioRenderer AudioRenderer @Allow recording the main output of the game or specific groups in the AudioMixer.
+---@field NetworkConnectionError NetworkConnectionError @Possible status messages returned by Network.Connect and in OnFailedToConnect in case the error was not immediate.
+---@field Localization Localization @nil
+---@field TerrainRenderFlags TerrainRenderFlags @Enum provding terrain rendering options.
+---@field CameraType CameraType @Describes different types of camera.
+---@field ShaderMessage ShaderMessage @Contains information about messages generated by Unity's Shader Compiler.
+---@field PlayerLoop PlayerLoop @nil
+---@field IntegratedSubsystem IntegratedSubsystem @An IntegratedSubsystem is initialized from an IntegratedSubsystemDescriptor for a given Subsystem (Example, Input, Environment, Display, etc.) and provides an interface to interact with that given IntegratedSubsystem until it is Destroyed. After an IntegratedSubsystem is created it can be Started or Stopped to turn on and off functionality (and preserve performance). The base type for IntegratedSubsystem only exposes this functionality; this class is designed to be a base class for derived classes that expose more functionality specific to a given IntegratedSubsystem.            Note: initializing a second IntegratedSubsystem from the same IntegratedSubsystemDescriptor will return a reference to the existing IntegratedSubsystem as only one IntegratedSubsystem is currently allowed for a single IntegratedSubsystem provider.
+---@field JointSuspension2D JointSuspension2D @Joint suspension is used to define how suspension works on a WheelJoint2D.
+---@field CanvasGroup CanvasGroup @A Canvas placable element that can be used to modify children Alpha, Raycasting, Enabled state.
+---@field SubsystemsImplementation SubsystemsImplementation @nil
+---@field Joint Joint @Joint is the base class for all joints.
+---@field BoneWeight1 BoneWeight1 @Describes a bone weight that affects a vertex in a mesh.
+---@field Microphone Microphone @Use this class to record to an AudioClip using a connected microphone.
+---@field PhysicsShapeType2D PhysicsShapeType2D @Options for indicate which primitive shape type is used to interpret geometry contained within a PhysicsShape2D object.
+---@field ProceduralTexture ProceduralTexture @Deprecated feature, no longer available
+---@field ObjectFactory ObjectFactory @Use the DefaultObject to create a new UnityEngine.Object in the editor.
+---@field CollisionFlags CollisionFlags @CollisionFlags is a bitmask returned by CharacterController.Move.
+---@field AppleTV AppleTV @nil
+---@field UnityEditor UnityEditor @The UnityEditor assembly implements the editor-specific APIs in Unity. It cannot be referenced by runtime code compiled into players.
+---@field PropertyModification PropertyModification @Defines a single modified property.
+---@field PivotMode PivotMode @Where is the tool handle placed.
+---@field UnityLinker UnityLinker @nil
+---@field AudioLowPassFilter AudioLowPassFilter @The Audio Low Pass Filter passes low frequencies of an AudioSource or all sounds reaching an AudioListener, while removing frequencies higher than the Cutoff Frequency.
+---@field DestroyAssetObjectEventArgs DestroyAssetObjectEventArgs @A change of this type indicates that an asset object has been destroyed. This happens for example when Undo.DestroyObjectImmediate is used with an instance of an asset (e.g. Texture).
+---@field PrefabUnpackMode PrefabUnpackMode @Enum used to determine how a Prefab should be unpacked.
+---@field iOSTargetDevice iOSTargetDevice @Target iOS device.
+---@field ProvisioningProfileType ProvisioningProfileType @The type of the iOS provisioning profile if manual signing is used.
+---@field DragAndDropVisualMode DragAndDropVisualMode @Visual indication mode for Drag &amp; Drop operation.
+---@field PropertyAttribute PropertyAttribute @Base class to derive custom property attributes from. Use this to create custom attributes for script variables.
+---@field SelectionBaseAttribute SelectionBaseAttribute @Add this attribute to a script class to mark its GameObject as a selection base object for Scene View picking.
+---@field IHasCustomMenu IHasCustomMenu @Defines a method to add custom menu items to an Editor Window.
+---@field Object Object @Base class for all objects Unity can reference.
+---@field UndoPropertyModification UndoPropertyModification @See Also: Undo.postprocessModifications.
+---@field RenderTargetSetup RenderTargetSetup @Fully describes setup of RenderTarget.
+---@field SearchService SearchService @nil
+---@field Renderer Renderer @General functionality for all renderers.
+---@field ExecuteInEditMode ExecuteInEditMode @Makes all instances of a script execute in Edit Mode.
+---@field RangeInt RangeInt @Describes an integer range.
+---@field FrameTimingManager FrameTimingManager @The FrameTimingManager allows the user to capture and access FrameTiming data for multple frames.
+---@field OcclusionPortal OcclusionPortal @The portal for dynamically changing occlusion at runtime.
+---@field ModelImporterGenerateAnimations ModelImporterGenerateAnimations @Animation generation options for ModelImporter. These options relate to the legacy Animation system, they should only be used when ModelImporter.animationType==ModelImporterAnimationType.Legacy.
+---@field Resources Resources @The Resources class allows you to find and access Objects including assets.
+---@field Sprite Sprite @Represents a Sprite object for use in 2D gameplay.
+---@field TextureImporterSettings TextureImporterSettings @Stores settings of a TextureImporter.
+---@field LightShape LightShape @Describes the shape of a spot light.
+---@field iOSBackgroundMode iOSBackgroundMode @Background modes supported by the application corresponding to project settings in Xcode.
+---@field HideFlags HideFlags @Bit mask that controls object destruction, saving and visibility in inspectors.
+---@field MacFullscreenMode MacFullscreenMode @Mac fullscreen mode.
+---@field RenderTexture RenderTexture @Render textures are textures that can be rendered to.
+---@field ProfilerWindow ProfilerWindow @Use the ProfilerWindow class for interactions with the Profiler Window such as checking which frame it currently shows and controlling the selected Profiler sample in the CPU or GPU Usage Modules.
+---@field ChangeGameObjectOrComponentPropertiesEventArgs ChangeGameObjectOrComponentPropertiesEventArgs @A change of this type indicates that a property of a GameObject or Component has changed. This happens for example when Undo.RecordObject is used with an instance of a Component.
+---@field WebGLWasmArithmeticExceptions WebGLWasmArithmeticExceptions @An enum containing different trapping modes for WebAssembly code.
+---@field DisplayInfo DisplayInfo @Represents a connected display.
+---@field EditorGUI EditorGUI @These work pretty much like the normal GUI functions - and also have matching implementations in EditorGUILayout.
+---@field GUITargetAttribute GUITargetAttribute @Allows to control for which display the OnGUI is called.
+---@field EditorSettings EditorSettings @User settings for Unity Editor.
+---@field PhysicsJobOptions2D PhysicsJobOptions2D @A set of options that control how physics operates when using the job system to multithread the physics simulation.
+---@field AudioSource AudioSource @A representation of audio sources in 3D.
+---@field PopupWindowContent PopupWindowContent @Class used to implement content for a popup window.
+---@field SerializeField SerializeField @Force Unity to serialize a private field.
+---@field FontRenderingMode FontRenderingMode @Font rendering mode constants for TrueTypeFontImporter.
+---@field AI AI @nil
+---@field CustomRenderTextureUpdateZoneSpace CustomRenderTextureUpdateZoneSpace @Space in which coordinates are provided for Update Zones.
+---@field WebCamKind WebCamKind @Enum representing the different types of web camera device.
+---@field PropertyName PropertyName @Represents a string as an int for efficient lookup and comparison. Use this for common PropertyNames.Internally stores just an int to represent the string. A PropertyName can be created from a string but can not be converted back to a string. The same string always results in the same int representing that string. Thus this is a very efficient string representation in both memory and speed when all you need is comparison.PropertyName is serializable.ToString() is only implemented for debugging purposes in the editor it returns theName:3737 in the player it returns Unknown:3737.
+---@field TerrainCollider TerrainCollider @A heightmap based collider.
+---@field ConfigurableJointMotion ConfigurableJointMotion @Constrains movement for a ConfigurableJoint along the 6 axes.
+---@field PhysicsScene PhysicsScene @Represents a single instance of a 3D physics Scene.
+---@field Space Space @The coordinate space in which to operate.
+---@field UIElements UIElements @nil
+---@field Vector3Int Vector3Int @Representation of 3D vectors and points using integers.
+---@field LocationService LocationService @Provides methods that allow an application to access the device's location.
+---@field AndroidBuildSystem AndroidBuildSystem @Type of Android build system.
+---@field RemoteSettings RemoteSettings @Provides access to your remote settings.
+---@field ParticleSystemScalingMode ParticleSystemScalingMode @Control how particle systems apply transform scale.
+---@field NetworkPeerType NetworkPeerType @Describes the status of the network interface peer type as returned by Network.peerType.
+---@field CanEditMultipleObjects CanEditMultipleObjects @Attribute used to make a custom editor support multi-object editing.
+---@field AudioSampleRateSetting AudioSampleRateSetting @The sample rate setting used within the AudioImporter. This defines the sample rate conversion of audio on import.
+---@field AudioClip AudioClip @A container for audio data.
+---@field WaitForSecondsRealtime WaitForSecondsRealtime @Suspends the coroutine execution for the given amount of seconds using unscaled time.
+---@field TooltipAttribute TooltipAttribute @Specify a tooltip for a field in the Inspector window.
+---@field ModelImporterNormalSmoothingSource ModelImporterNormalSmoothingSource @Source of smoothing information for calculation of normals in ModelImporter.
+---@field WebGLInput WebGLInput @WebGLInput provides support for WebGL-specific functionalities.
+---@field SurfaceEffector2D SurfaceEffector2D @Applies tangent forces along the surfaces of colliders.
+---@field GUIElement GUIElement @Base class for images &amp; text strings displayed in a GUI.
+---@field PreferenceItem PreferenceItem @(Obsolete: use the SettingsProvider class instead) The PreferenceItem attribute allows you to add preferences sections to the Preferences window.
+---@field TerrainLayerInspector TerrainLayerInspector @The default Inspector class for Terrain Layer.
+---@field CustomRenderTextureInitializationSource CustomRenderTextureInitializationSource @Specify the source of a Custom Render Texture initialization.
+---@field TerrainChangedFlags TerrainChangedFlags @Indicate the types of changes to the terrain in OnTerrainChanged callback.
+---@field BoxCollider2D BoxCollider2D @Collider for 2D physics representing an axis-aligned rectangle.
+---@field ParticleSystemGradientMode ParticleSystemGradientMode @The particle gradient mode.
+---@field ParticleSystemVertexStream ParticleSystemVertexStream @All possible Particle System vertex shader inputs.
+---@field BuildOptions BuildOptions @Building options. Multiple options can be combined together.
+---@field ParticleSystemSimulationSpace ParticleSystemSimulationSpace @The space to simulate particles in.
+---@field AnimationBlendMode AnimationBlendMode @Used by Animation.Play function.
+---@field TextureImporterType TextureImporterType @Select this to set basic parameters depending on the purpose of your texture.
+---@field DragAndDrop DragAndDrop @Editor drag &amp; drop operations.
+---@field VideoClipImporter VideoClipImporter @VideoClipImporter lets you modify Video.VideoClip import settings from Editor scripts.
+---@field Cloth Cloth @The Cloth class provides an interface to cloth simulation physics.
+---@field AssetPreview AssetPreview @Utility for fetching asset previews by instance ID of assets, See AssetPreview.GetAssetPreview. Since previews are loaded asynchronously methods are provided for requesting if all previews have been fully loaded, see AssetPreview.IsLoadingAssetPreviews. Loaded previews are stored in a cache, the size of the cache can be controlled by calling [AssetPreview.SetPreviewTextureCacheSize].
+---@field ShaderIncludePathAttribute ShaderIncludePathAttribute @This attribute is no longer supported.
+---@field GUIStyle GUIStyle @Styling information for GUI elements.
+---@field Vector2 Vector2 @Representation of 2D vectors and points.
+---@field ParticleSystemRenderMode ParticleSystemRenderMode @The rendering mode for particle systems.
+---@field SerializeReference SerializeReference @A scripting attribute that instructs Unity to serialize a field as a reference instead of as a value.
+---@field ModelImporterTangents ModelImporterTangents @Vertex tangent generation options for ModelImporter.
+---@field TextAlignment TextAlignment @How multiline text should be aligned.
+---@field CapsuleCollider2D CapsuleCollider2D @A capsule-shaped primitive collider.
+---@field Analytics Analytics @nil
+---@field ModelImporterNormals ModelImporterNormals @Normal generation options for ModelImporter.
+---@field MeshRenderer MeshRenderer @Renders meshes inserted by the MeshFilter or TextMesh.
+---@field ParticleSystemOverlapAction ParticleSystemOverlapAction @What action to perform when the particle trigger module passes a test.
+---@field CapsuleDirection2D CapsuleDirection2D @The direction that the capsule sides can extend.
+---@field EditorPrefs EditorPrefs @Stores and accesses Unity editor preferences.
+---@field HandleUtility HandleUtility @Helper functions for Scene View style 3D GUI.
+---@field PlayerPrefs PlayerPrefs @`PlayerPrefs` is a class that stores Player preferences between game sessions. It can store string, float and integer values into the user’s platform registry.
+---@field TakeInfo TakeInfo @A Takeinfo object contains all the information needed to describe a take.
+---@field RemoveAssetOptions RemoveAssetOptions @Options for removing assets
+---@field LightShadows LightShadows @Shadow casting options for a Light.
+---@field D3DHDRDisplayBitDepth D3DHDRDisplayBitDepth @The type for the number of bits to be used when an HDR display is active in each color channel of swap chain buffers. The bit count also defines the method Unity uses to render content to the display.
+---@field LightmapsModeLegacy LightmapsModeLegacy @Single, dual, or directional lightmaps rendering mode, used only in GIWorkflowMode.Legacy
+---@field CustomCollider2D CustomCollider2D @Represents a Collider2D that is configured by assigning PhysicsShape2D geometry to it via a PhysicsShapeGroup2D.
+---@field Physics2D Physics2D @Global settings and helpers for 2D physics.
+---@field GUISkin GUISkin @Defines how GUI looks and behaves.
+---@field TextureWrapMode TextureWrapMode @Wrap mode for textures.
+---@field Animations Animations @nil
+---@field AreaEffector2D AreaEffector2D @Applies forces within an area.
+---@field HideInInspector HideInInspector @Makes a variable not show up in the inspector but be serialized.
+---@field EditorAnalyticsSessionInfo EditorAnalyticsSessionInfo @Provides access to Editor Analytics session information.
+---@field RPCMode RPCMode @Option for who will receive an RPC, used by NetworkView.RPC.
+---@field AsyncOperation AsyncOperation @Asynchronous operation coroutine.
+---@field Subsystem Subsystem @A Subsystem is initialized from a SubsystemDescriptorWithProvider for a given Subsystem (Example, Input, Display, etc.) and provides an interface to interact with that given Subsystem until it is Destroyed. After a Subsystem is created it can be Started or Stopped to turn on and off functionality (and improve performance). The base type for subsystems only exposes this functionality; this class is designed to be a base class for derived classes that expose more functionality specific to a given Subsystem.            Note: initializing a second Subsystem from the same SubsystemDescriptor will return a reference to the existing Subsystem as only one Subsystem is currently allowed for a single Subsystem provider.This subsystem base-class is deprecated. If you are creating a new subsystem type, derive from SubsystemWithProvider instead.
+---@field SceneView SceneView @Use this class to manage SceneView settings, change the SceneView camera properties, subscribe to events, call SceneView methods, and render open scenes.
+---@field ParticleSystemCollisionMode ParticleSystemCollisionMode @Whether to use 2D or 3D colliders for particle collisions.
+---@field DDSImporter DDSImporter @Texture importer lets you modify Texture2D import settings for DDS textures from editor scripts.
+---@field CompressionType CompressionType @Compression Method for Asset Bundles.
+---@field FrameTiming FrameTiming @Struct containing basic FrameTimings and accompanying relevant data.
+---@field ParticleSystemRenderer ParticleSystemRenderer @Use this class to render particles on to the screen.
+---@field JointAngleLimits2D JointAngleLimits2D @Angular limits on the rotation of a Rigidbody2D object around a HingeJoint2D.
+---@field Keyframe Keyframe @A single keyframe that can be injected into an animation curve.
+---@field ArrayUtility ArrayUtility @Helpers for builtin arrays.
+---@field HumanPoseHandler HumanPoseHandler @Use this class to create, read, and write the HumanPose for a humanoid avatar skeleton hierarchy or an avatar pose.
+---@field CameraProjectionCache CameraProjectionCache @Project points from world to screen space.
+---@field AscentCalculationMode AscentCalculationMode @Method used for calculating a font's ascent.
+---@field ReplacePrefabOptions ReplacePrefabOptions @Flags for the PrefabUtility.ReplacePrefab function.
+---@field FullScreenMode FullScreenMode @Platform agnostic fullscreen mode. Not all platforms support all modes.
+---@field ExecuteAlways ExecuteAlways @Makes instances of a script always execute, both as part of Play Mode and when editing.
+---@field ProceduralCacheSize ProceduralCacheSize @Deprecated feature, no longer available
+---@field TextureImporterGenerateCubemap TextureImporterGenerateCubemap @Cubemap generation mode for TextureImporter.
+---@field ModifiableContactPair ModifiableContactPair @A light-weight proxy that allows to access the contact buffers directly.
+---@field BoneWeight BoneWeight @Describes 4 skinning bone weights that affect a vertex in a mesh.
+---@field DragAndDropWindowTarget DragAndDropWindowTarget @IDs for core windows. These are used by the DragAndDrop.RemoveHandler API.
+---@field HDROutputSettings HDROutputSettings @Provides access to HDR display settings and information.
+---@field SpaceAttribute SpaceAttribute @Use this PropertyAttribute to add some spacing in the Inspector.
+---@field HumanPartDof HumanPartDof @Enumeration of all the parts in a human.
+---@field Callbacks Callbacks @nil
+---@field Snapping Snapping @Snap values to rounded increments.
+---@field GUIContent GUIContent @The contents of a GUI element.
+---@field TextGenerationSettings TextGenerationSettings @A struct that stores the settings for TextGeneration.
+---@field GraphicsJobMode GraphicsJobMode @Enum used to specify the graphics jobs mode to use.
+---@field ModelImporterSecondaryUVMarginMethod ModelImporterSecondaryUVMarginMethod @Methods for handling margins during lightmap UV generation in ModelImporter.
+---@field SerializedPropertyType SerializedPropertyType @Type of a SerializedProperty.
+---@field AudioChorusFilter AudioChorusFilter @The Audio Chorus Filter takes an Audio Clip and processes it creating a chorus effect.
+---@field Collider2D Collider2D @Parent class for collider types used with 2D gameplay.
+---@field HierarchyDropFlags HierarchyDropFlags @Define how dragged objects should be dropped relative to already existing Hierarchy items.
+---@field PatchExtents PatchExtents @Structure containing minimum and maximum terrain patch height values.
+---@field Input Input @Interface into the Input system.
+---@field MonoScript MonoScript @Representation of Script assets.
+---@field Animation Animation @The animation component is used to play back animations.
+---@field PrimitiveType PrimitiveType @The various primitives that can be created using the GameObject.CreatePrimitive function.
+---@field ParticleCollisionEvent ParticleCollisionEvent @Information about a particle collision.
+---@field MasterServer MasterServer @The Master Server is used to make matchmaking between servers and clients easy.
+---@field TextureImporterCompression TextureImporterCompression @Select the kind of compression you want for your texture.
+---@field PhysicsUpdateBehaviour2D PhysicsUpdateBehaviour2D @A base type for 2D physics components that required a callback during FixedUpdate.
+---@field Behaviour Behaviour @Behaviours are Components that can be enabled or disabled.
+---@field HumanBone HumanBone @The mapping between a bone in the model and the conceptual bone in the Mecanim human anatomy.
+---@field iOSLaunchScreenImageType iOSLaunchScreenImageType @iOS launch screen settings.
+---@field ForceReserializeAssetsOptions ForceReserializeAssetsOptions @Options for AssetDatabase.ForceReserializeAssets.
+---@field ShadowResolution ShadowResolution @Default shadow resolution.
+---@field IApplyRevertPropertyContextMenuItemProvider IApplyRevertPropertyContextMenuItemProvider @Used to identify a MonoBehaviour that provides a hook into the apply/revert context menu for Prefabs open in Prefab Mode and non Prefabs.
+---@field PlayerConnectionInitiateMode PlayerConnectionInitiateMode @Describes how the player connects to the Editor.
+---@field Animator Animator @Interface to control the Mecanim animation system.
+---@field Editor Editor @Derive from this base class to create a custom inspector or editor for your custom object.
+---@field ScaleMode ScaleMode @Scaling mode to draw textures with.
+---@field ImageEffectUsesCommandBuffer ImageEffectUsesCommandBuffer @Use this attribute when image effects are implemented using Command Buffers.
+---@field Transform Transform @Position, rotation and scale of an object.
+---@field AndroidBlitType AndroidBlitType @Describes the method for how content is displayed on the screen.
+---@field ChangeAssetObjectPropertiesEventArgs ChangeAssetObjectPropertiesEventArgs @A change of this type indicates that a property of an asset object in memory has changed. This happens for example when Undo.RecordObject is used with an instance of an asset (e.g. Texture).
+---@field Apple Apple @nil
+---@field ModelImporter ModelImporter @Model importer lets you modify model import settings from editor scripts.
+---@field SparseTexture SparseTexture @Class for handling Sparse Textures.
+---@field SortingLayer SortingLayer @SortingLayer allows you to set the render order of multiple sprites easily. There is always a default SortingLayer named Default which all sprites are added to initially. Added more SortingLayers to easily control the order of rendering of groups of sprites. Layers can be ordered before or after the default layer.
+---@field Search Search @nil
+---@field AssetPathToGUIDOptions AssetPathToGUIDOptions @Asset path to GUID options.
+---@field AccelerationEvent AccelerationEvent @Structure describing acceleration status of the device.
+---@field GridLayout GridLayout @An abstract class that defines a grid layout.
+---@field GUILayout GUILayout @The GUILayout class is the interface for Unity gui with automatic layout.
+---@field NVIDIA NVIDIA @nil
+---@field LineAlignment LineAlignment @Control the direction lines face, when using the LineRenderer or TrailRenderer.
+---@field ParticleSystemCurveMode ParticleSystemCurveMode @The particle curve mode.
+---@field NonReorderableAttribute NonReorderableAttribute @Disables reordering of an array or list in the Inspector window.
+---@field ParticleSystemShapeMultiModeValue ParticleSystemShapeMultiModeValue @The mode used to generate new points in a shape.
+---@field AndroidSplashScreenScale AndroidSplashScreenScale @Android splash screen scale modes.
+---@field FrustumPlanes FrustumPlanes @This struct contains the view space coordinates of the near projection plane.
+---@field PointEffector2D PointEffector2D @Applies forces to attract/repulse against a point.
+---@field AudioCurveRendering AudioCurveRendering @Antialiased curve rendering functionality used by audio tools in the editor.
+---@field VFX VFX @nil
+---@field ConstantForce2D ConstantForce2D @Applies both linear and angular (torque) forces continuously to the rigidbody each physics update.
+---@field MeshCollider MeshCollider @A mesh collider allows you to do collision detection between meshes and primitives.
+---@field TextureImporterFormat TextureImporterFormat @Imported texture format for TextureImporter.
+---@field Events Events @nil
+---@field StereoRenderingPath StereoRenderingPath @Enum used to specify what stereo rendering path to use.
+---@field EditorBuildSettings EditorBuildSettings @This class allows you to modify the Editor Build Settings via script. See EditorBuildSettings.scenes for an example of how to use this class.See Also: EditorBuildSettingsScene, EditorBuildSettings.scenes.
+---@field LightmapsMode LightmapsMode @Lightmap (and lighting) configuration mode, controls how lightmaps interact with lighting and what kind of information they store.
+---@field TerrainData TerrainData @The TerrainData class stores heightmaps, detail mesh positions, tree instances, and terrain texture alpha maps.
+---@field StaticOcclusionCulling StaticOcclusionCulling @StaticOcclusionCulling lets you perform static occlusion culling operations.
+---@field Serializable Serializable @Indicates that a class or a struct can be serialized.
+---@field Event Event @A UnityGUI event.
+---@field SoftJointLimit SoftJointLimit @The limits defined by the CharacterJoint.
+---@field AssetBundleRequest AssetBundleRequest @Asynchronous load request from an AssetBundle.
+---@field TextureImporterAlphaSource TextureImporterAlphaSource @Select how the alpha of the imported texture is generated.
+---@field CubemapArray CubemapArray @Class for handling Cubemap arrays.
+---@field FogMode FogMode @Fog mode to use.
+---@field LogOption LogOption @Option flags for specifying special treatment of a log message.
+---@field FingerDof FingerDof @Enumeration of all the muscles in a finger.
+---@field LegDof LegDof @Enumeration of all the muscles in a leg.
+---@field SplashScreenStyle SplashScreenStyle @The style of builtin splash screen to use.
+---@field StaticBatchingUtility StaticBatchingUtility @StaticBatchingUtility can prepare your objects to take advantage of Unity's static batching.
+---@field Texture2DArray Texture2DArray @Class for handling 2D texture arrays.
+---@field Ray Ray @Representation of rays.
+---@field RenderTextureFormat RenderTextureFormat @Format of a RenderTexture.
+---@field Motion Motion @Base class for AnimationClips and BlendTrees.
+---@field ModelImporterAvatarSetup ModelImporterAvatarSetup @Set the Avatar generation mode for ModelImporter.
+---@field AssetModificationProcessor AssetModificationProcessor @AssetModificationProcessor lets you hook into saving of serialized assets and      scenes which are edited inside Unity.
+---@field DisallowMultipleComponent DisallowMultipleComponent @Prevents MonoBehaviour of same type (or subtype) to be added more than once to a GameObject.
+---@field ComputeShaderImporter ComputeShaderImporter @Define compute shader import settings in the Unity Editor.
+---@field ShaderImporter ShaderImporter @Shader importer lets you modify shader import settings from Editor scripts.
+---@field ArmDof ArmDof @Enumeration of all the muscles in an arm.
+---@field Rigidbody2D Rigidbody2D @Rigidbody physics component for 2D sprites.
+---@field Experimental Experimental @nil
+---@field HashUtilities HashUtilities @Utilities to compute hashes.
+---@field LightmapSettings LightmapSettings @Stores lightmaps of the Scene.
+---@field CreateAssetObjectEventArgs CreateAssetObjectEventArgs @A change of this type indicates that an asset object has been created. This happens for example when Undo.RegisterCreatedObjectUndo is used with an instance of an asset (e.g. Texture).
+---@field InspectorNameAttribute InspectorNameAttribute @Use this attribute on enum value declarations to change the display name shown in the Inspector.
+---@field ActionOnDotNetUnhandledException ActionOnDotNetUnhandledException @The behavior in case of unhandled .NET exception.
+---@field ModelImporterNormalCalculationMode ModelImporterNormalCalculationMode @Normal generation options for ModelImporter.
+---@field Material Material @The material class.
+---@field Collider Collider @A base class of all colliders.
+---@field MinAttribute MinAttribute @Attribute used to make a float or int variable in a script be restricted to a specific minimum value.
+---@field JointTranslationLimits2D JointTranslationLimits2D @Motion limits of a Rigidbody2D object along a SliderJoint2D.
+---@field Sysroot Sysroot @Base class for implementing sysroots and toolchains for IL2CPP
+---@field ObjectChangeEvents ObjectChangeEvents @Exposes events that allow you to track undoable changes to objects in the editor.
+---@field ScriptCompiler ScriptCompiler @Represents different C# compilers that can be used to compile C# scripts.
+---@field Plane Plane @Representation of a plane in 3D space.
+---@field GUILayoutOption GUILayoutOption @Class internally used to pass layout options into GUILayout functions. You don't use these directly, but construct them with the layouting functions in the GUILayout class.
+---@field BuoyancyEffector2D BuoyancyEffector2D @Applies forces to simulate buoyancy, fluid-flow and fluid drag.
+---@field AnimatorControllerParameter AnimatorControllerParameter @Used to communicate between scripting and the controller. Some parameters can be set in scripting and used by the controller, while other parameters are based on Custom Curves in Animation Clips and can be sampled using the scripting API.
+---@field ScriptableSingleton_1 ScriptableSingleton_1 @Generic class for storing Editor state.
+---@field InitializeOnLoadMethodAttribute InitializeOnLoadMethodAttribute @Allow an editor class method to be initialized when Unity loads without action from the user.
+---@field ParticleSystemNoiseQuality ParticleSystemNoiseQuality @The quality of the generated noise.
+---@field VRTextureUsage VRTextureUsage @This enum describes how the RenderTexture is used as a VR eye texture. Instead of using the values of this enum manually, use the value returned by eyeTextureDesc or other VR functions returning a RenderTextureDescriptor.
+---@field Tool Tool @Which tool is active in the editor.
+---@field VersionControl VersionControl @nil
+---@field CallbackOrderAttribute CallbackOrderAttribute @Base class for Attributes that require a callback index.
+---@field Pool Pool @nil
+---@field ParticleSystemTrailTextureMode ParticleSystemTrailTextureMode @Choose how textures are applied to Particle Trails.
+---@field MaterialPropertyBlock MaterialPropertyBlock @A block of material values to apply.
+---@field ForceMode ForceMode @Use ForceMode to specify how to apply a force using Rigidbody.AddForce or ArticulationBody.AddForce.
+---@field iOSAppInBackgroundBehavior iOSAppInBackgroundBehavior @Application behavior when entering background.
+---@field PhysicsVisualizationSettings PhysicsVisualizationSettings @This class contains the settings controlling the Physics Debug Visualization.
+---@field WSASubtarget WSASubtarget @Target device type for a Windows Store application to run on.
+---@field RPC RPC @Attribute for setting up RPC functions.
+---@field EditorStyles EditorStyles @Common GUIStyles used for EditorGUI controls.
+---@field TerrainCallbacks TerrainCallbacks @This static class provides events that Unity triggers when Terrain data changes.
+---@field ParticleSystemAnimationTimeMode ParticleSystemAnimationTimeMode @Control how animation frames are selected.
+---@field ParticleSystemMeshShapeType ParticleSystemMeshShapeType @The mesh emission type.
+---@field Collision2D Collision2D @Collision details returned by 2D physics callback functions.
+---@field AssetMoveResult AssetMoveResult @Result of Asset move
+---@field ColorPickerHDRConfig ColorPickerHDRConfig @Used as input to ColorField to configure the HDR color ranges in the ColorPicker.
+---@field ParticleSystemCollisionQuality ParticleSystemCollisionQuality @Quality of world collisions. Medium and low quality are approximate and may leak particles.
+---@field ReceiveGI ReceiveGI @This property only takes effect if you enable a global illumination setting such as Baked Global Illumination or Enlighten Realtime Global Illumination for the target Scene. When you enable ReceiveGI, you can determine whether illumination data at runtime will come from Light Probes or Lightmaps. When you set ReceiveGI to Lightmaps, the Mesh Renderer receives global illumination from lightmaps. That means the Renderer is included in lightmap atlases, possibly increasing their size, memory consumption and storage costs. Calculating global illumination values for texels in this Renderer also adds to bake times. When you set ReceiveGI to Light Probes, the Mesh Renderer is not assigned space in lightmap atlases. Instead it receives global illumination stored by Light Probes in the target Scene. This can reduce bake times by avoiding the memory consumption and storage cost associated with lightmaps. ReceiveGI is only editable if you enable StaticEditorFlags.ContributeGI for the GameObject associated with the target Mesh Renderer. Otherwise this property defaults to the Light Probes setting.
+---@field AudioHighPassFilter AudioHighPassFilter @The Audio High Pass Filter passes high frequencies of an AudioSource, and cuts off signals with frequencies lower than the Cutoff Frequency.
+---@field SphereCollider SphereCollider @A sphere-shaped primitive collider.
+---@field ImageEffectTransformsToLDR ImageEffectTransformsToLDR @When using HDR rendering it can sometime be desirable to switch to LDR rendering during ImageEffect rendering.
+---@field BoxcastCommand BoxcastCommand @Use this struct to set up a box cast command to be performed asynchronously during a job.
+---@field SpriteMask SpriteMask @A component for masking Sprites and Particles.
+---@field SecondarySpriteTexture SecondarySpriteTexture @Encapsulates a Texture2D and its shader property name to give Sprite-based renderers access to a secondary texture, in addition to the main Sprite texture.
+---@field RuntimeInitializeLoadType RuntimeInitializeLoadType @Set RuntimeInitializeOnLoadMethod type.
+---@field IMGUI IMGUI @nil
+---@field ShaderPrecisionModel ShaderPrecisionModel @Options for the shader precision model.
+---@field DelayedAttribute DelayedAttribute @Attribute used to make a float, int, or string variable in a script be delayed.
+---@field PlayerPrefsException PlayerPrefsException @An exception thrown by the PlayerPrefs class in a  web player build.
+---@field SpriteTileMode SpriteTileMode @Tiling mode for SpriteRenderer.tileMode.
+---@field Caching Caching @The Caching class lets you manage cached AssetBundles, downloaded using UnityWebRequestAssetBundle.GetAssetBundle().
+---@field PauseState PauseState @Enumeration specifying the current pause state of the Editor.See Also: PlayModeStateChange, EditorApplication.pauseStateChanged, EditorApplication.isPaused.
+---@field ShortcutManagement ShortcutManagement @nil
+---@field ChangeGameObjectStructureEventArgs ChangeGameObjectStructureEventArgs @A change of this type indicates that the structure of a GameObject has changed. This happens when a component is added to or removed from the GameObject using Undo.AddComponent or Undo.DestroyObjectImmediate.
+---@field RectTransformUtility RectTransformUtility @Utility class containing helper methods for working with  RectTransform.
+---@field Path Path @Performs operations on strings that contain file or directory path information.
+---@field IAnimationClipSource IAnimationClipSource @Use this interface to have a class provide its own list of Animation Clips to the Animation Window.  The class must inherit from MonoBehaviour.
+---@field GamepadSpeakerOutputType GamepadSpeakerOutputType @Gamepad audio output types.
+---@field PlatformEffector2D PlatformEffector2D @Applies platform behaviour such as one-way collisions etc.
+---@field WSAUWPBuildType WSAUWPBuildType @Determines the output build type when building to Universal Windows Platform.
+---@field WaitWhile WaitWhile @Suspends the coroutine execution until the supplied delegate evaluates to false.
+---@field CreateAssetMenuAttribute CreateAssetMenuAttribute @Mark a ScriptableObject-derived type to be automatically listed in the Assets/Create submenu, so that instances of the type can be easily created and stored in the project as .asset files.
+---@field RequireComponent RequireComponent @The RequireComponent attribute automatically adds required components as dependencies.
+---@field ParticleSystemCustomData ParticleSystemCustomData @Which stream of custom particle data to set.
+---@field ParticleSystemCullingMode ParticleSystemCullingMode @The action to perform when the Particle System is offscreen.
+---@field HyperLinkClickedEventArgs HyperLinkClickedEventArgs @Arguments for the event EditorGUI.hyperLinkClicked.
+---@field Vector2Int Vector2Int @Representation of 2D vectors and points using integers.
+---@field RotationDriveMode RotationDriveMode @Control ConfigurableJoint's rotation with either X &amp; YZ or Slerp Drive.
+---@field EditorGUILayout EditorGUILayout @Auto laid out version of EditorGUI.
+---@field Lightmapping Lightmapping @Allows to control the lightmapping job.
+---@field Compass Compass @Interface into compass functionality.
+---@field ParticleSystem ParticleSystem @Script interface for ParticleSystem. Unity's powerful and versatile particle system implementation.
+---@field ParticleSystemAnimationType ParticleSystemAnimationType @The animation type.
+---@field ShaderVariantCollection ShaderVariantCollection @ShaderVariantCollection records which shader variants are actually used in each shader.
+---@field ParticleSystemStopBehavior ParticleSystemStopBehavior @The behavior to apply when calling Stop.
+---@field HumanPose HumanPose @Retargetable humanoid pose.
+---@field ComputeBuffer ComputeBuffer @GPU data buffer, mostly for use with compute shaders.
+---@field ParticleSystemAnimationMode ParticleSystemAnimationMode @The animation mode.
+---@field TextAreaAttribute TextAreaAttribute @Attribute to make a string be edited with a height-flexible and scrollable text area.
+---@field Ping Ping @Ping any given IP address (given in dot notation).
+---@field AssetImporter AssetImporter @Base class from which asset importers for specific asset types derive.
+---@field AndroidJNIHelper AndroidJNIHelper @Helper interface for JNI interaction; signature creation and method lookups.Note: Using raw JNI functions requires advanced knowledge of the Android Java Native Interface (JNI). Please take note.
+---@field AndroidETC2FallbackOverride AndroidETC2FallbackOverride @This enumeration has values for different qualities to decompress an ETC2 texture on Android devices that don't support the ETC2 texture format.
+---@field Purchasing Purchasing @nil
+---@field iOSShowActivityIndicatorOnLoading iOSShowActivityIndicatorOnLoading @Activity Indicator on loading.
+---@field CameraEditorUtils CameraEditorUtils @Utilities for cameras.
+---@field LightType LightType @The type of a Light.
+---@field AndroidAssetPackImporter AndroidAssetPackImporter @Represents an Android asset pack directory in a project.
+---@field SpriteMetaData SpriteMetaData @Editor data used in producing a Sprite.
+---@field LogType LogType @The type of the log message in Debug.unityLogger.Log or delegate registered with Application.RegisterLogCallback.
+---@field GUIUtility GUIUtility @Utility class for making new GUI controls.
+---@field UILineInfo UILineInfo @Information about a generated line of text.
+---@field PrefabUtility PrefabUtility @Utility class for any Prefab related operations.
+---@field HumanLimit HumanLimit @This class stores the rotation limits that define the muscle for a single human bone.
+---@field MeshPreview MeshPreview @Use this class to render an interactive preview of a mesh.
+---@field Rigidbody Rigidbody @Control of an object's position through physics simulation.
+---@field MobileTextureSubtarget MobileTextureSubtarget @Compressed texture format for target build platform.
+---@field AvatarIKHint AvatarIKHint @IK Hint.
+---@field ProceduralOutputType ProceduralOutputType @Deprecated feature, no longer available
+---@field AssetBundleCreateRequest AssetBundleCreateRequest @Asynchronous create request for an AssetBundle.
+---@field Presets Presets @nil
+---@field ScreenCapture ScreenCapture @Functionality to take Screenshots.
+---@field MotionVectorGenerationMode MotionVectorGenerationMode @The type of motion vectors that should be generated.
+---@field DetailInstanceTransform DetailInstanceTransform @Describes the transform of a Terrain detail object.
+---@field TransparencySortMode TransparencySortMode @Transparent object sorting mode of a Camera.
+---@field PS4BuildSubtarget PS4BuildSubtarget @Type of build to generate.
+---@field JointMotor JointMotor @The JointMotor is used to motorize a joint.
+---@field AndroidMinification AndroidMinification @How to minify the java code of your binary.
+---@field MessageType MessageType @User message types.
+---@field TerrainLayerUtility TerrainLayerUtility @A set of helper functions for using terrain layers.
+---@field ShadowmaskMode ShadowmaskMode @The rendering mode of Shadowmask.
+---@field AssetDatabase AssetDatabase @An Interface for accessing assets and performing operations on assets.
+---@field BillboardAsset BillboardAsset @BillboardAsset describes how a billboard is rendered.
+---@field AdditionalCanvasShaderChannels AdditionalCanvasShaderChannels @Enum mask of possible shader channel properties that can also be included when the Canvas mesh is created.
+---@field FontStyle FontStyle @Font Style applied to GUI Texts, Text Meshes or GUIStyles.
+---@field ReflectionProbe ReflectionProbe @The reflection probe is used to capture the surroundings into a texture which is passed to the shaders and used for reflections.
+---@field CompressionLevel CompressionLevel @Compression Levels relate to how much time should be spent compressing Assets into an Asset Bundle.
+---@field PreprocessorOverride PreprocessorOverride @Sets the preprocessor that Unity uses to compile this shader.
+---@field HingeJoint HingeJoint @The HingeJoint groups together 2 rigid bodies, constraining them to move like connected by a hinge.
+---@field ViewTool ViewTool @Enum for Tools.viewTool.
+---@field IconKind IconKind @Icon kind.
+---@field AnimationEvent AnimationEvent @AnimationEvent lets you call a script function similar to SendMessage as part of playing back an animation.
+---@field GlobalObjectId GlobalObjectId @Struct providing an API for stable, project-global object identifiers.
+---@field AssetPipelineMode AssetPipelineMode @Selects the Assetpipeline mode to use.
+---@field SendMessageOptions SendMessageOptions @Options for how to send a message.
+---@field tvOSSdkVersion tvOSSdkVersion @Supported tvOS SDK versions.
+---@field NetworkLogLevel NetworkLogLevel @Describes different levels of log information the network layer supports.
+---@field CollisionDetectionMode CollisionDetectionMode @The collision detection mode constants used for Rigidbody.collisionDetectionMode.
+---@field LightEditor LightEditor @The class used to render the Light Editor when a Light is selected in the Unity Editor.
+---@field ResourcesAPI ResourcesAPI @Derive from this base class to provide alternative implementations to the C# behavior of specific Resources methods.
+---@field AnimatorControllerParameterType AnimatorControllerParameterType @The type of the parameter.
+---@field RigidbodyConstraints2D RigidbodyConstraints2D @Use these flags to constrain motion of the Rigidbody2D.
+---@field VerticalWrapMode VerticalWrapMode @Wrapping modes for text that reaches the vertical boundary.
+---@field TextureImporterPlatformSettings TextureImporterPlatformSettings @Stores platform specifics settings of a TextureImporter.
+---@field Avatar Avatar @Avatar definition.
+---@field AnimationWindow AnimationWindow @Use the AnimationWindow class to select and edit Animation clips.
+---@field VideoEncodeAspectRatio VideoEncodeAspectRatio @Methods to compensate for aspect ratio discrepancies between the source resolution and the wanted encoding size.
+---@field AnimationInfo AnimationInfo @Information about what animation clips is played and its weight.
+---@field Menu Menu @Menu class to manipulate the menu item.
+---@field RenderingPath RenderingPath @Rendering path of a Camera.
+---@field PhysicsSceneExtensions PhysicsSceneExtensions @Scene extensions to access the underlying physics scene.
+---@field DecoratorDrawer DecoratorDrawer @Base class to derive custom decorator drawers from.
+---@field ExposedReference_1 ExposedReference_1 @Creates a type whos value is resolvable at runtime.
+---@field TrueTypeFontImporter TrueTypeFontImporter @AssetImporter for importing Fonts.
+---@field MenuItem MenuItem @The MenuItem attribute allows you to add menu items to the main menu and inspector context menus.
+---@field TreeInstance TreeInstance @Contains information about a tree placed in the Terrain game object.
+---@field ISubsystemDescriptor ISubsystemDescriptor @A subsystem descriptor is metadata about a subsystem which can be inspected before loading / initializing a subsystem.
+---@field TestTools TestTools @nil
+---@field AndroidTargetDevice AndroidTargetDevice @Target Android device architecture.
+---@field AnimationClip AnimationClip @Stores keyframe based animations.
+---@field EditorApplication EditorApplication @Main Application class.
+---@field Social Social @Generic access to the Social API.
+---@field LightingDataAsset LightingDataAsset @The lighting data asset used by the active Scene.
+---@field HeadDof HeadDof @Enumeration of all the muscles in the head.
+---@field SharedBetweenAnimatorsAttribute SharedBetweenAnimatorsAttribute @SharedBetweenAnimatorsAttribute is an attribute that specify that this StateMachineBehaviour should be instantiate only once and shared among all Animator instance. This attribute reduce the memory footprint for each controller instance.
+---@field LowLevel LowLevel @nil
+---@field MonoBehaviour MonoBehaviour @MonoBehaviour is the base class from which every Unity script derives.
+---@field ParticleSystemCustomDataMode ParticleSystemCustomDataMode @Which mode CustomDataModule uses to generate its data.
+---@field SpriteImportMode SpriteImportMode @Texture importer modes for Sprite import.
+---@field MaterialProperty MaterialProperty @Describes information and value of a single shader property.
+---@field LightmapBakeType LightmapBakeType @Enum describing what part of a light contribution can be baked.
+---@field AnimatorStateInfo AnimatorStateInfo @Information about the current or next state.
+---@field Media Media @nil
+---@field SystemLanguage SystemLanguage @The language the user's operating system is running in. Returned by Application.systemLanguage.
+---@field ParticleSystemStopAction ParticleSystemStopAction @The action to perform when the Particle System stops.
+---@field PlayModeStateChange PlayModeStateChange @Enumeration specifying a change in the Editor's play mode state.See Also: PauseState, EditorApplication.playModeStateChanged, EditorApplication.isPlaying.
+---@field SpriteMaskInteraction SpriteMaskInteraction @This enum controls the mode under which the sprite will interact with the masking system.
+---@field GameObject GameObject @Base class for all entities in Unity Scenes.
+---@field EditorWindowTitleAttribute EditorWindowTitleAttribute @Use this class to set title text and icon for an Editor window.
+---@field U2D U2D @nil
+---@field MeshFilter MeshFilter @A class to access the Mesh of the mesh filter.
+---@field FontTextureCase FontTextureCase @Texture case constants for TrueTypeFontImporter.
+---@field SerializedObject SerializedObject @SerializedObject and SerializedProperty are classes for editing serialized fields on Unity objects in a completely generic way. These classes automatically handle dirtying individual serialized fields so they will be processed by the Undo system and styled correctly for Prefab overrides when drawn in the Inspector.
+---@field XR XR @nil
+---@field LODGroup LODGroup @LODGroup lets you group multiple Renderers into LOD levels.
+---@field MeshOptimizationFlags MeshOptimizationFlags @Options to control the optimization of mesh data during asset import.
+---@field ObjectPreview ObjectPreview @Base Class to derive from when creating Custom Previews.
+---@field PhysicMaterialCombine PhysicMaterialCombine @Describes how physics materials of the colliding objects are combined.The friction force as well as the residual bounce impulse are applied symmertrically to both of the colliders in contact, so each pair of overlapping colliders must have a single set of friction and bouciness settings. However, one can set arbitrary physics materials to any colliders. For that particular reason, there is a mechanism that allows the combination of two different sets of properties that correspond to each of the colliders in contact into one set to be used in the solver.Specifying Average, Maximum, Minimum or Multiply as the physics material combine mode, you directly set the function that is used to combine the settings corresponding to the two overlapping colliders into one set of settings that can be used to apply the material effect.Note that there is a special case when the two overlapping colliders have physics materials with different combine modes set. In this particular case, the function that has the highest priority is used. The priority order is as follows: Average &lt; Minimum &lt; Multiply &lt; Maximum. For example, if one material has Average set but the other one has Maximum, then the combine function to be used is Maximum, since it has higher priority.
+---@field BoundingSphere BoundingSphere @Describes a single bounding sphere for use by a CullingGroup.
+---@field ColorUtility ColorUtility @A collection of common color functions.
+---@field Accessibility Accessibility @nil
+---@field CompositeCollider2D CompositeCollider2D @A Collider that can merge other Colliders together.
+---@field MeshTopology MeshTopology @Topology of Mesh faces.
+---@field ObjectChangeEventStream ObjectChangeEventStream @Represents a stream of events that describes the changes applied to objects in memory over the course of a frame.
+---@field AnimationClipCurveData AnimationClipCurveData @An AnimationClipCurveData object contains all the information needed to identify a specific curve in an AnimationClip. The curve animates a specific property of a component / material attached to a game object / animated bone.
+---@field RenderTextureMemoryless RenderTextureMemoryless @Flags enumeration of the render texture memoryless modes.
+---@field OcclusionArea OcclusionArea @OcclusionArea is an area in which occlusion culling is performed.
+---@field HelpURLAttribute HelpURLAttribute @Provide a custom documentation URL for a class.
+---@field EditorJsonUtility EditorJsonUtility @Utility functions for working with JSON data and engine objects.
+---@field BuildPipeline BuildPipeline @Lets you programmatically build players or AssetBundles which can be loaded from the web.
+---@field AnimationModeDriver AnimationModeDriver @AnimationMode uses AnimationModeDriver to identify the animation driver.
+---@field MaterialEditorExtensions MaterialEditorExtensions @Extension methods for the Material asset type in the editor.
+---@field EventModifiers EventModifiers @Types of modifier key that can be active during a keystroke event.
+---@field ILightingExplorerExtension ILightingExplorerExtension @Interface for when you extend the Lighting Explorer. Used in full overrides of the default behavior.
+---@field UnityEngine UnityEngine @nil
+---@field SceneViewCameraWindow SceneViewCameraWindow @Use this class to instantiate a SceneViewCameraWindow window.
+---@field LineUtility LineUtility @A collection of common line functions.
+---@field ExcludeFromPresetAttribute ExcludeFromPresetAttribute @Add this attribute to a class to prevent creating a Preset from the instances of the class.
+---@field BoundsInt BoundsInt @Represents an axis aligned bounding box with all values as integers.
+---@field MaterialEditor MaterialEditor @The Unity Material Editor.
+---@field HDRDisplaySupportFlags HDRDisplaySupportFlags @A set of flags that describe the level of HDR display support available on the system.
+---@field SubsystemDescriptor SubsystemDescriptor @Information about a subsystem that can be queried before creating a subsystem instance.This subsystem descriptor base-class is deprecated. If you are creating a new subsystem type, derive from SubsystemDecriptorWithProvider instead.
+---@field AnimationUtility AnimationUtility @Editor utility functions for modifying animation clips.
+---@field ParticleSystemSortMode ParticleSystemSortMode @The sorting mode for particle systems.
+---@field AudioType AudioType @Type of the imported(native) data.
+---@field AudioClipLoadType AudioClipLoadType @Determines how the audio clip is loaded in.
+---@field TerrainTools TerrainTools @nil
+---@field NetworkReachability NetworkReachability @Describes network reachability options.
+---@field SpritePackerMode SpritePackerMode @Sprite Packer mode for the current project.
+---@field StrippingLevel StrippingLevel @Managed code stripping level.
+---@field AnimationState AnimationState @The AnimationState gives full control over animation blending.
+---@field UpdatePrefabInstancesEventArgs UpdatePrefabInstancesEventArgs @A change of this type indicates that prefab instances in an open scene have been updated due to a change to the source prefab.
+---@field UserAuthorization UserAuthorization @Constants to pass to Application.RequestUserAuthorization.
+---@field EditorGUIUtility EditorGUIUtility @Miscellaneous helper stuff for EditorGUI.
+---@field EffectorSelection2D EffectorSelection2D @Selects the source and/or target to be used by an Effector2D.
+---@field ExportPackageOptions ExportPackageOptions @Export package option. Multiple options can be combined together using the | operator.
+---@field SettingsService SettingsService @This class provides global APIs to interact with the Settings window.
+---@field ScalableBufferManager ScalableBufferManager @Scales render textures to support dynamic resolution if the target platform/graphics API supports it.
+---@field LODFadeMode LODFadeMode @The LOD (level of detail) fade modes. Modes other than LODFadeMode.None will result in Unity calculating a blend factor for blending/interpolating between two neighbouring LODs and pass it to your shader.
+---@field WaitUntil WaitUntil @Suspends the coroutine execution until the supplied delegate evaluates to true.
+---@field BuildAssetBundleOptions BuildAssetBundleOptions @Asset Bundle building options.
+---@field RigidbodyInterpolation RigidbodyInterpolation @Rigidbody interpolation mode.
+---@field PackageManager PackageManager @nil
+---@field BuildPlayerOptions BuildPlayerOptions @Provide various options to control the behavior of BuildPipeline.BuildPlayer.
+---@field D3D11FullscreenMode D3D11FullscreenMode @Direct3D 11 fullscreen mode.
+---@field ClusterInputType ClusterInputType @Values to determine the type of input value to be expect from one entry of ClusterInput.
+---@field WebGLCompressionFormat WebGLCompressionFormat @An enum containing different compression types.
+---@field InteractionMode InteractionMode @The mode of interaction, user or automated, that an API method is called with.
+---@field LightmapParameters LightmapParameters @Configures how Unity bakes lighting and can be assigned to a LightingSettings instance or asset.
+---@field ExpressionEvaluator ExpressionEvaluator @Evaluates simple math expressions; supports int / float and operators: + - * / % ^ ( ).
+---@field SkinnedMeshRenderer SkinnedMeshRenderer @The Skinned Mesh filter.
+---@field CachedAssetBundle CachedAssetBundle @Data structure for downloading AssetBundles to a customized cache path. See Also:UnityWebRequestAssetBundle.GetAssetBundle for more information.
+---@field BillboardRenderer BillboardRenderer @Renders a billboard from a BillboardAsset.
+---@field SerializedProperty SerializedProperty @SerializedProperty and SerializedObject are classes for editing properties on objects in a completely generic way that automatically handles undo, multi-object editing and Prefab overrides.
+---@field Help Help @Helper class to access Unity documentation.
+---@field AndroidSdkVersions AndroidSdkVersions @API levels that can be specified in scripts. Note that the lowest API level here strictly corresponds to the lowest supported API level, however these values should not be used to determine the highest supported API level.
+---@field MovieTexture MovieTexture @MovieTexture has been removed. Use VideoPlayer instead.
+---@field ILogger ILogger @Interface for custom logger implementation.
+---@field Coroutine Coroutine @MonoBehaviour.StartCoroutine returns a Coroutine. Instances of this class are only used to reference these coroutines, and do not hold any exposed properties or functions.
+---@field AndroidJavaRunnable AndroidJavaRunnable @AndroidJavaRunnable is the Unity representation of a java.lang.Runnable object.
+---@field Touch Touch @Structure describing the status of a finger touching the screen.
+---@field WWW WWW @Simple access to web pages.
+---@field ModelImporterIndexFormat ModelImporterIndexFormat @Format of the imported mesh index buffer data.
+---@field WebGLDebugSymbolMode WebGLDebugSymbolMode @An enum containing different modes for debug symbols.
+---@field JointLimitState2D JointLimitState2D @Represents the state of a joint limit.
+---@field WSA WSA @nil
+---@field WrapMode WrapMode @Determines how time is treated outside of the keyframed range of an AnimationClip or AnimationCurve.
+---@field WaitForFixedUpdate WaitForFixedUpdate @Waits until next fixed frame rate update function. See Also: FixedUpdate.
+---@field WindZone WindZone @Wind Zones add realism to the trees you create by making them wave their branches and leaves as if blown by the wind.
+---@field ManagedReferenceMissingType ManagedReferenceMissingType @Represents a managed reference object that has a missing type.
+---@field NormalMapEncoding NormalMapEncoding @Describes the encoding of normal maps.
+---@field Windows Windows @nil
+---@field ObjectChangeKind ObjectChangeKind @This enumeration describes the different kind of changes that can be tracked in an ObjectChangeEventStream. Each event has a corresponding type in ObjectChangeEvents.
+---@field NetworkViewID NetworkViewID @The NetworkViewID is a unique identifier for a network view instance in a multiplayer game.
+---@field WheelFrictionCurve WheelFrictionCurve @WheelFrictionCurve is used by the WheelCollider to describe friction properties of the wheel tire.
+---@field WheelCollider WheelCollider @A special collider for vehicle wheels.
+---@field WeightedMode WeightedMode @Sets which weights to use when calculating curve segments.
+---@field WebGLTextureSubtarget WebGLTextureSubtarget @Compressed texture format for target build platform.
+---@field WebGLLinkerTarget WebGLLinkerTarget @The build format options available when building to WebGL.
+---@field WebGLExceptionSupport WebGLExceptionSupport @Options for Exception support in WebGL.
+---@field CustomPropertyDrawer CustomPropertyDrawer @Tells a custom PropertyDrawer or DecoratorDrawer which run-time Serializable class or PropertyAttribute it's a drawer for.
+---@field WSABuildType WSABuildType @Build configurations for Windows Store Visual Studio solutions.
+---@field Toolbars Toolbars @nil
+---@field ScriptableWizard ScriptableWizard @Derive from this class to create an editor wizard.
+---@field PluginImporter PluginImporter @Represents a plugin importer.
+---@field DetailPrototype DetailPrototype @Detail prototype used by the Terrain GameObject.
+---@field WebCamDevice WebCamDevice @A structure describing the webcam device.
+---@field HeaderAttribute HeaderAttribute @Use this PropertyAttribute to add a header above some fields in the Inspector.
+---@field Mathf Mathf @A collection of common math functions.
+---@field WindZoneMode WindZoneMode @Modes a Wind Zone can have, either Spherical or Directional.
+---@field BatteryStatus BatteryStatus @Enumeration for SystemInfo.batteryStatus which represents the current status of the device's battery.
+---@field WaitForEndOfFrame WaitForEndOfFrame @Waits until the end of the frame after Unity has rendererd every Camera and GUI, just before displaying the frame on screen.
+---@field VideoSpatialQuality VideoSpatialQuality @Controls the imported clip's internal resize to save space at the cost of blurrier images.
+---@field VideoImporterTargetSettings VideoImporterTargetSettings @Importer settings that can have platform-specific values.
+---@field JointSpring JointSpring @JointSpring is used add a spring force to HingeJoint and PhysicMaterial.
+---@field VideoEncodingProfile VideoEncodingProfile @Options for the encoder profile.
+---@field VideoCodec VideoCodec @Video codec to use when importing video clips.
+---@field VideoBitrateMode VideoBitrateMode @Bit rate after the clip is transcoded.
+---@field iOS iOS @nil
+---@field Vector4 Vector4 @Representation of four-dimensional vectors.
+---@field Vector3 Vector3 @Representation of 3D vectors and points.
+---@field Unwrapping Unwrapping @This class holds everything you may need in regard to uv-unwrapping.
+---@field EditorSelectedRenderState EditorSelectedRenderState @The editor selected render mode for Scene View selection.
+---@field TextureImporterNPOTScale TextureImporterNPOTScale @Scaling mode for non power of two textures in TextureImporter.
+---@field UnwrapParam UnwrapParam @Unwrapping settings.
+---@field Unity Unity @nil
+---@field Undo Undo @Lets you register undo operations on specific objects you are about to perform changes on.
+---@field TextMesh TextMesh @A script interface for the text mesh component.
+---@field UIVertex UIVertex @Vertex class used by a Canvas for managing vertices.
+---@field DefaultLightingExplorerExtension DefaultLightingExplorerExtension @Default definition for the Lighting Explorer. Can be overridden completely or partially.
+---@field UIOrientation UIOrientation @Default mobile device orientation.
+---@field PrefabInstanceStatus PrefabInstanceStatus @Enum with status about whether a Prefab instance is properly connected to its asset.
+---@field Pose Pose @Representation of a Position, and a Rotation in 3D Space
+---@field LazyLoadReference_1 LazyLoadReference_1 @Serializable lazy reference to a UnityEngine.Object contained in an asset file.
+---@field UICharInfo UICharInfo @Class that specifies some information about a renderable character.
+---@field TypeCache TypeCache @Provides methods for fast type extraction from asssemblies loaded into the Unity Domain.
+---@field HumanTrait HumanTrait @Details of all the human bone and muscle types defined by Mecanim.
+---@field AudioDataLoadState AudioDataLoadState @Value describing the current load state of the audio data associated with an AudioClip.
+---@field tvOSTargetOSVersion tvOSTargetOSVersion @Supported tvOS deployment versions.
+---@field RectTransform RectTransform @Position, size, anchor and pivot information for a rectangle.
+---@field LightingExplorerExtensionAttribute LightingExplorerExtensionAttribute @An attribute to mark an extension class for the Lighting Explorer. Supports one extension per render pipeline.
+---@field CharacterJoint CharacterJoint @Character Joints are mainly used for Ragdoll effects.
+---@field DrivenTransformProperties DrivenTransformProperties @An enumeration of transform properties that can be driven on a RectTransform by an object.
+---@field DeviceType DeviceType @Enumeration for SystemInfo.deviceType, denotes a coarse grouping of kinds of devices.
+---@field tvOS tvOS @nil
+---@field DrivenRectTransformTracker DrivenRectTransformTracker @A component can be designed to drive a RectTransform. The DrivenRectTransformTracker struct is used to specify which RectTransforms it is driving.
+---@field TreePrototype TreePrototype @Simple class that contains a pointer to a tree prototype.
+---@field ScriptCallOptimizationLevel ScriptCallOptimizationLevel @Script call optimization level.
+---@field Tree Tree @Tree Component for the tree creator.
+---@field SliderJoint2D SliderJoint2D @Joint that restricts the motion of a Rigidbody2D object to a single line.
+---@field TransformUtils TransformUtils @Editor Transform Utility Class.
+---@field AssetPostprocessor AssetPostprocessor @AssetPostprocessor lets you hook into the import pipeline and run scripts prior or after importing assets.
+---@field Advertisements Advertisements @nil
+---@field LightProbeProxyVolume LightProbeProxyVolume @The Light Probe Proxy Volume component offers the possibility to use higher resolution lighting for large non-static GameObjects.
+---@field FFTWindow FFTWindow @Spectrum analysis windowing types.
+---@field TouchType TouchType @Describes whether a touch is direct, indirect (or remote), or from a stylus.
+---@field EditorUtility EditorUtility @Editor utility functions.
+---@field ParticleSystemEmitterVelocityMode ParticleSystemEmitterVelocityMode @Control how a Particle System calculates its velocity.
+---@field TouchScreenKeyboardType TouchScreenKeyboardType @Enumeration of the different types of supported touchscreen keyboards.
+---@field TextGenerator TextGenerator @Class that can be used to generate text for rendering.
+---@field WWWForm WWWForm @Helper class to generate form data to post to web servers using the UnityWebRequest or WWW classes.
+---@field Rect Rect @A 2D Rectangle defined by X and Y position, width and height.
+---@field MPE MPE @nil
+---@field TextAsset TextAsset @Represents a raw text or binary file asset.
+---@field Cursor Cursor @Cursor API for setting the cursor (mouse pointer).
+---@field TextureImporter TextureImporter @Texture importer lets you modify Texture2D import settings from editor scripts.
+---@field RenderSettings RenderSettings @The Render Settings contain values for a range of visual elements in your Scene, like fog and ambient light.
+---@field IHVImageFormatImporter IHVImageFormatImporter @Use IHVImageFormatImporter to modify Texture2D import settings for Textures in IHV (Independent Hardware Vendor) formats such as .DDS and .PVR from Editor scripts.
+---@field Diagnostics Diagnostics @nil
+---@field Time Time @Provides an interface to get time information from Unity.
+---@field ContextMenu ContextMenu @The ContextMenu attribute allows you to add commands to the context menu.
+---@field Playables Playables @nil
+---@field ImageConversion ImageConversion @This class provides utility and extension methods to convert image data from or to PNG, EXR, TGA, and JPEG formats.
+---@field AudioSourceCurveType AudioSourceCurveType @This defines the curve type of the different custom curves that can be queried and set within the AudioSource.
+---@field LightProbes LightProbes @Stores light probe data for all currently loaded Scenes.
+---@field FullScreenMovieControlMode FullScreenMovieControlMode @Describes options for displaying movie playback controls.
+---@field TextureImporterSingleChannelComponent TextureImporterSingleChannelComponent @Selects which Color/Alpha channel Single Channel Textures uses.
+---@field AnisotropicFiltering AnisotropicFiltering @Anisotropic filtering mode.
+---@field Display Display @Provides access to a display / screen for rendering operations.
+---@field ModelImporterAnimationCompression ModelImporterAnimationCompression @Animation compression options for ModelImporter.
+---@field TextureImporterRGBMMode TextureImporterRGBMMode @RGBM encoding mode for HDR textures in TextureImporter.
+---@field TextureImporterNormalFilter TextureImporterNormalFilter @Normal map filtering mode for TextureImporter.
+---@field ModelImporterHumanoidOversampling ModelImporterHumanoidOversampling @Humanoid Oversampling available multipliers.
+---@field AndroidCreateSymbols AndroidCreateSymbols @Defines the options available for choosing the type of symbol file to create in an Android build.
+---@field ColliderErrorState2D ColliderErrorState2D @Indicates what (if any) error was encountered when creating a 2D Collider.
+---@field ITerrainLayerCustomUI ITerrainLayerCustomUI @Provides an interface to display a custom TerrainLayer UI in the Terrain Layers inspector.
+---@field AvatarMask AvatarMask @AvatarMask is used to mask out humanoid body parts and transforms.
+---@field TextureImporterCubemapConvolution TextureImporterCubemapConvolution @Defines Cubemap convolution mode.
+---@field Device Device @nil
+---@field DefaultAsset DefaultAsset @DefaultAsset is used for assets that do not have a specific type (yet).
+---@field CustomGridBrushAttribute CustomGridBrushAttribute @Attribute to define the class as a grid brush and to make it available in the palette window.
+---@field AnimationMode AnimationMode @AnimationMode is used by the AnimationWindow to store properties modified      by the AnimationClip playback.
+---@field TextureFormat TextureFormat @Format used when creating textures from scripts.
+---@field AssetImporters AssetImporters @nil
+---@field ApiCompatibilityLevel ApiCompatibilityLevel @.NET API compatibility level.
+---@field Texture Texture @Base class for Texture handling.
+---@field ProceduralPropertyDescription ProceduralPropertyDescription @Deprecated feature, no longer available
+---@field ConnectionTesterStatus ConnectionTesterStatus @The various test results the connection tester may return with.
+---@field ShaderInclude ShaderInclude @Shader include file asset.
+---@field AudioConfiguration AudioConfiguration @Specifies the current properties or desired properties to be set for the audio system.
+---@field ParticleSystemSubEmitterType ParticleSystemSubEmitterType @The events that cause new particles to be spawned.
+---@field NetworkPlayer NetworkPlayer @The NetworkPlayer is a data structure with which you can locate another player over the network.
+---@field TextCore TextCore @nil
+---@field TextClipping TextClipping @Different methods for how the GUI system handles text being too large to fit the rectangle allocated.
+---@field KeyCode KeyCode @Key codes returned by Event.keyCode. These map directly to a physical key on the keyboard.
+---@field EventType EventType @Types of UnityGUI input and processing events.
+---@field TerrainUtils TerrainUtils @nil
+---@field ParticleSystemColliderQueryMode ParticleSystemColliderQueryMode @Whether collider information is available when using the [[ParticleSystem::GetTriggerParticles]] method.
+---@field RenderMode RenderMode @RenderMode for the Canvas.
+---@field AvatarMaskBodyPart AvatarMaskBodyPart @Avatar body part.
+---@field ClothSkinningCoefficient ClothSkinningCoefficient @The ClothSkinningCoefficient struct is used to set up how a Cloth component is allowed to move with respect to the SkinnedMeshRenderer it is attached to.
+---@field ModelImporterClipAnimation ModelImporterClipAnimation @Animation clips to split animation into.
+---@field ModifiableMassProperties ModifiableMassProperties @Mass-related modifiable properties of a contact pair.
+---@field TerrainLayer TerrainLayer @Description of a terrain layer.
+---@field ScriptableObject ScriptableObject @A class you can derive from if you want to create objects that don't need to be attached to game objects.
+---@field LocalizationAttribute LocalizationAttribute @An attribute to the assembly for Localization.
+---@field AssetSettingsProvider AssetSettingsProvider @AssetSettingsProvider is a specialization of the SettingsProvider class that converts legacy settings to Unified Settings. Legacy settings include any settings that used the Inspector to modify themselves, such as the *.asset files under the ProjectSettings folder. Under the hood, AssetSettingsProvider creates an Editor for specific Assets and builds the UI for the Settings window by wrapping the Editor.OnInspectorGUI function.Internally we use this class to wrap our existing settings.
+---@field Il2CppCompilerConfiguration Il2CppCompilerConfiguration @C++ compiler configuration used when compiling IL2CPP generated code.
+---@field TerrainExtensions TerrainExtensions @Extension methods to the Terrain class, used only for the UpdateGIMaterials method used by the Global Illumination System.
+---@field SelectionMode SelectionMode @SelectionMode can be used to tweak the selection returned by Selection.GetTransforms.
+---@field AssemblyReloadEvents AssemblyReloadEvents @This class has event dispatchers for assembly reload events.
+---@field StreamingController StreamingController @A StreamingController controls the streaming settings for an individual camera location.
+---@field Collision Collision @Describes a collision.
+---@field Terrain Terrain @The Terrain component renders the terrain.
+---@field Assertions Assertions @nil
+---@field Handles Handles @Custom 3D GUI controls and drawing in the Scene view.
+---@field ProceduralPropertyType ProceduralPropertyType @Deprecated feature, no longer available
+---@field PlayerSettings PlayerSettings @Player Settings is where you define various parameters for the final game that you will build in Unity. Some of these values are used in the Resolution Dialog that launches when you open a standalone game.
+---@field LightmapCompression LightmapCompression @A set of options for the level of compression the Editor uses for lightmaps.
+---@field ClothSphereColliderPair ClothSphereColliderPair @A pair of SphereColliders used to define shapes for Cloth objects to collide against.
+---@field SystemInfo SystemInfo @Access system and hardware information.
+---@field MemoryProfiler MemoryProfiler @nil
+---@field MouseCursor MouseCursor @Custom mouse cursor shapes used with EditorGUIUtility.AddCursorRect.
+---@field LightShadowCasterMode LightShadowCasterMode @Allows mixed lights to control shadow caster culling when Shadowmasks are present.
+---@field BuildTarget BuildTarget @Target build platform.
+---@field SceneManagement SceneManagement @nil
+---@field Screen Screen @Provides access to display information.
+---@field SubsystemManager SubsystemManager @Gives access to subsystems which provide additional functionality through plugins.
+---@field LODUtility LODUtility @LOD Utility Helpers.
+---@field LensFlare LensFlare @Script interface for a Lens flare component.
+---@field ComputeBufferMode ComputeBufferMode @Intended usage of the buffer.
+---@field AndroidJNI AndroidJNI @'Raw' JNI interface to Android Java VM from Unity scripting (C#).Note: Using raw JNI functions requires advanced knowledge of the Android Java Native Interface (JNI). Please take note.
+---@field Progress Progress @The Progress utility class reports the progress of asynchronous tasks to Unity.
+---@field ManagedStrippingLevel ManagedStrippingLevel @Defines how aggressively Unity strips unused managed (C#) code.
+---@field StereoTargetEyeMask StereoTargetEyeMask @Enum values for the Camera's targetEye property.
+---@field StatusQueryOptions StatusQueryOptions @Options for querying the version control system status of a file.
+---@field CloudProjectSettings CloudProjectSettings @Use this class to retrieve information about the currently selected project and the current Unity ID that is logged in.
+---@field StaticOcclusionCullingVisualization StaticOcclusionCullingVisualization @Used to visualize static occlusion culling at development time in Scene view.
+---@field AnimatorTransitionInfo AnimatorTransitionInfo @Information about the current transition.
+---@field StaticEditorFlags StaticEditorFlags @Describes which Unity systems consider the GameObject as static, and include the GameObject in their precomputations in the Unity Editor.
+---@field CrashReport CrashReport @Holds data for a single application crash event and provides access to all gathered crash reports.
+---@field ClipAnimationMaskType ClipAnimationMaskType @AnimationClip mask options for ModelImporterClipAnimation.
+---@field StateMachineBehaviour StateMachineBehaviour @StateMachineBehaviour is a component that can be added to a state machine state. It's the base class every script on a state derives from.
+---@field LineTextureMode LineTextureMode @Choose how textures are applied to Lines and Trails.
+---@field AudioImporterSampleSettings AudioImporterSampleSettings @This structure contains a collection of settings used to define how an AudioClip should be imported.This  structure is used with the AudioImporter to define how the AudioClip should be imported and treated during loading within the Scene.
+---@field AssetBundleLoadResult AssetBundleLoadResult @The result of an Asset Bundle Load or Recompress Operation.
+---@field iOSDeviceRequirement iOSDeviceRequirement @A device requirement description used for configuration of App Slicing.
+---@field GL GL @Low-level graphics library.
+---@field ExposedPropertyResolver ExposedPropertyResolver @Object that is used to resolve references to an ExposedReference field.
+---@field AssemblyIsEditorAssembly AssemblyIsEditorAssembly @Assembly level attribute. Any classes in an assembly with this attribute will be considered to be Editor Classes.
+---@field ColorUsageAttribute ColorUsageAttribute @Attribute used to configure the usage of the ColorField and Color Picker for a color.
+---@field RigidbodyType2D RigidbodyType2D @The physical behaviour type of the Rigidbody2D.
+---@field ParticleSystemForceField ParticleSystemForceField @Script interface for Particle System Force Fields.
+---@field MasterServerEvent MasterServerEvent @Describes status messages from the master server as returned in OnMasterServerEvent.
+---@field FrameDebugger FrameDebugger @Controls the Frame Debugger from a script.
+---@field LocalizationGroup LocalizationGroup @This provides an auto dispose Localization system. This can be called recursively.
+---@field SpriteSortPoint SpriteSortPoint @Determines the position of the Sprite used for sorting the Renderer.
+---@field Sprites Sprites @nil
+---@field ParticleSystemRenderSpace ParticleSystemRenderSpace @How particles are aligned when rendered.
+---@field Bounds Bounds @Represents an axis aligned bounding box.
+---@field Jobs Jobs @nil
+---@field SpriteRenderer SpriteRenderer @Renders a Sprite for 2D graphics.
+---@field BeforeRenderOrderAttribute BeforeRenderOrderAttribute @Use this BeforeRenderOrderAttribute when you need to specify a custom callback order for Application.onBeforeRender.
+---@field SpritePackingMode SpritePackingMode @Sprite packing modes for the Sprite Packer.
+---@field Projector Projector @A script interface for a projector component.
+---@field SpriteMeshType SpriteMeshType @Defines the type of mesh generated for a sprite.
+---@field SpriteAlignment SpriteAlignment @How a Sprite's graphic rectangle is aligned with its pivot point.
+---@field SplatPrototype SplatPrototype @A Splat prototype is just a texture that is used by the TerrainData.
+---@field LightProbeGroup LightProbeGroup @Light Probe Group.
+---@field MixedLightingMode MixedLightingMode @Enum describing what lighting mode to be used with Mixed lights.
+---@field SpeedTreeImporter SpeedTreeImporter @AssetImportor for importing SpeedTree model assets.
+---@field SoftJointLimitSpring SoftJointLimitSpring @The configuration of the spring attached to the joint's limits: linear and angular. Used by CharacterJoint and ConfigurableJoint.
+---@field Cubemap Cubemap @Class for handling cube maps, Use this to create or modify existing cube map assets.
+---@field AudioReverbZone AudioReverbZone @Reverb Zones are used when you want to create location based ambient effects in the Scene.
+---@field Application Application @Access to application run-time data.
+---@field LocalizationAsset LocalizationAsset @An asset to represent a table of localized strings for one specific locale.
+---@field ContactPoint2D ContactPoint2D @Details about a specific point of contact involved in a 2D physics collision.
+---@field CharacterInfo CharacterInfo @Specification for how to render a character from the font texture. See Font.characterInfo.
+---@field Random Random @Easily generate random data for games.
+---@field FocusType FocusType @Used by GUIUtility.GetControlID to inform the IMGUI system if a given control can get keyboard focus. This allows the IMGUI system to give focus appropriately when a user presses tab for cycling between controls.
+---@field BoxCollider BoxCollider @A box-shaped primitive collider.
+---@field EditorSkin EditorSkin @Enum that selects which skin to return from EditorGUIUtility.GetBuiltinSkin.
+---@field SnapAxis SnapAxis @Defines the axes that can be snapped.
+---@field Tools Tools @Class used to manipulate the tools used in Unity's Scene View.
+---@field GradientColorKey GradientColorKey @Color key used by Gradient.
+---@field Skybox Skybox @A script interface for the skybox component.
+---@field JointMotor2D JointMotor2D @Parameters for the optional motor force applied to a Joint2D.
+---@field SkinWeights SkinWeights @Skin weights.
+---@field AssetDeleteResult AssetDeleteResult @Result of Asset delete operation
+---@field BodyDof BodyDof @Enumeration of all the muscles in the body.
+---@field GUIDrawer GUIDrawer @Base class for PropertyDrawer and DecoratorDrawer.
+---@field Texture2D Texture2D @Class that represents textures in C# code.
+---@field EditorTools EditorTools @nil
+---@field AssetBundleBuild AssetBundleBuild @AssetBundle building map entry.
+---@field AudioReverbFilter AudioReverbFilter @The Audio Reverb Filter takes an Audio Clip and distorts it to create a custom reverb effect.
+---@field Hash128 Hash128 @Represents  a 128-bit hash value.
+---@field AnimatorUpdateMode AnimatorUpdateMode @The update mode of the Animator.
+---@field SketchUpImporter SketchUpImporter @Derives from AssetImporter to handle importing of SketchUp files.
+---@field CustomEditorForRenderPipelineAttribute CustomEditorForRenderPipelineAttribute @Tells an Editor class which run-time type it's an editor for when the given RenderPipeline is activated.
+---@field SketchUpImportCamera SketchUpImportCamera @Structure to hold camera data extracted from a SketchUp file.
+---@field SkeletonBone SkeletonBone @Details of the Transform name mapped to the skeleton bone of a model and its default position and rotation in the T-pose.
+---@field SimulationMode2D SimulationMode2D @A selection of modes that control when Unity executes the 2D physics simulation.
+---@field RelativeJoint2D RelativeJoint2D @Keeps two Rigidbody2D at their relative orientations.
+---@field ShadowQuality ShadowQuality @Determines which type of shadows should be used.
+---@field iOSTargetOSVersion iOSTargetOSVersion @Supported iOS deployment versions.
+---@field ParticleSystemVertexStreams ParticleSystemVertexStreams @All possible Particle System vertex shader inputs.
+---@field FrictionJoint2D FrictionJoint2D @Applies both force and torque to reduce both the linear and angular velocities to zero.
+---@field ShaderUtil ShaderUtil @Utility functions to assist with working with shaders from the editor.
+---@field LightingSettings LightingSettings @An object containing settings for precomputing lighting data, that Unity can serialize as a Lighting Settings Asset.
+---@field SettingsScope SettingsScope @Sets the scope of a SettingsProvider. The Scope determines where it appears in the UI. For example, whether it appears with the Project settings in the Settings window, or in the Preferences window, or in both windows.
+---@field PropertyDrawer PropertyDrawer @Base class to derive custom property drawers from. Use this to create custom drawers for your own Serializable classes or for script variables with custom PropertyAttributes.
+---@field AvatarTarget AvatarTarget @Target.
+---@field ShaderData ShaderData @This class describes a shader.
+---@field NetworkMessageInfo NetworkMessageInfo @This data structure contains information on a message just received from the network.
+---@field SessionState SessionState @SessionState is a Key-Value Store intended for storing and retrieving Editor session state that should survive assembly reloading.
+---@field JointProjectionMode JointProjectionMode @Determines how to snap physics joints back to its constrained position when it drifts off too much.
+---@field ParticleSystemShapeTextureChannel ParticleSystemShapeTextureChannel @The texture channel.
+---@field RangeAttribute RangeAttribute @Attribute used to make a float or int variable in a script be restricted to a specific range.
+---@field PivotRotation PivotRotation @How is the tool handle oriented.
+---@field AudioDistortionFilter AudioDistortionFilter @The Audio Distortion Filter distorts the sound from an AudioSource or sounds reaching the AudioListener.
+---@field Hashtable Hashtable @You can use a Hashtable to store key+value pairs.
+---@field SerializationUtility SerializationUtility @Utility functions related to Serialization.
+---@field Serialization Serialization @nil
+---@field AnimationCullingType AnimationCullingType @This enum controlls culling of Animation component.
+---@field SemanticMergeMode SemanticMergeMode @Behavior of semantic merge.
+---@field FilterMode FilterMode @Filtering mode for textures. Corresponds to the settings in a texture inspector.
+---@field PrefabAssetType PrefabAssetType @Enum indicating the type of Prefab Asset, such as Regular, Model and Variant.
+---@field Scripting Scripting @nil
+---@field Matrix4x4 Matrix4x4 @A standard 4x4 transformation matrix.
+---@field YieldInstruction YieldInstruction @Base class for all yield instructions.
+---@field BitStream BitStream @The BitStream class represents seralized variables, packed into a stream.
+---@field AssetBundle AssetBundle @AssetBundles let you stream additional assets via the UnityWebRequest class and instantiate them at runtime. AssetBundles are created via BuildPipeline.BuildAssetBundle.
+---@field AvatarBuilder AvatarBuilder @Class to build avatars from user scripts.
+---@field Joint2D Joint2D @Parent class for joints to connect Rigidbody2D objects.
+---@field RigidbodySleepMode2D RigidbodySleepMode2D @Settings for a Rigidbody2D's initial sleep state.
+---@field AndroidArchitecture AndroidArchitecture @Android CPU architecture.
+---@field PhysicMaterial PhysicMaterial @Physics material describes how to handle colliding objects (friction, bounciness).
+---@field AndroidJavaClass AndroidJavaClass @AndroidJavaClass is the Unity representation of a generic instance of java.lang.Class.
+---@field AnimatorUtility AnimatorUtility @Various utilities for animator manipulation.
+---@field ModelImporterAnimationType ModelImporterAnimationType @Animation mode for ModelImporter.
+---@field CreateGameObjectHierarchyEventArgs CreateGameObjectHierarchyEventArgs @A change of this type indicates that a GameObject has been created, possibly with additional objects below it in the hierarchy. This happens for example when Undo.RegisterCreatedObjectUndo is used with a GameObject.
+---@field CullingGroup CullingGroup @Describes a set of bounding spheres that should have their visibility and distances maintained.
+---@field ApplicationSandboxType ApplicationSandboxType @Application sandbox type.
+---@field BuildTargetGroup BuildTargetGroup @Build target group.
+---@field AnimatedValues AnimatedValues @nil
+---@field RigidbodyConstraints RigidbodyConstraints @Use these flags to constrain motion of Rigidbodies.
+---@field ComputeBufferType ComputeBufferType @ComputeBuffer type.
+---@field DialogOptOutDecisionType DialogOptOutDecisionType @The type of opt-out decision a user can make.
+---@field ResourceRequest ResourceRequest @Asynchronous load request from the Resources bundle.
+---@field AudioVelocityUpdateMode AudioVelocityUpdateMode @Describes when an AudioSource or AudioListener is updated.
+---@field RenderTextureReadWrite RenderTextureReadWrite @Color space conversion mode of a RenderTexture.
+---@field EditorBuildSettingsScene EditorBuildSettingsScene @Represents entries in the Scenes list, as displayed in the Build Settings window. This class contains the Scene path of a Scene and an enabled flag that indicates whether the Scene is enabled in the Build Settings window or not.You can use this class in combination with EditorBuildSettings.scenes to populate the list of Scenes included in the build via script. This is useful when you create custom editor scripts to automate your build pipeline.See EditorBuildSettings.scenes for an example script.
+---@field Rendering Rendering @nil
+---@field CrashReporting CrashReporting @nil
+---@field RenderParams RenderParams @Rendering parameters used by various rendering functions.
+---@field ClipAnimationInfoCurve ClipAnimationInfoCurve @Stores a curve and its name that will be used to create additionnal curves during the import process.
+---@field RendererExtensions RendererExtensions @Extension methods to the Renderer class, used only for the UpdateGIMaterials method used by the Global Illumination System.
+---@field InitializeOnEnterPlayModeAttribute InitializeOnEnterPlayModeAttribute @Allow an editor class method to be initialized when Unity enters Play Mode.
+---@field QueryTriggerInteraction QueryTriggerInteraction @Overrides the global Physics.queriesHitTriggers.
+---@field PreferBinarySerialization PreferBinarySerialization @Prefer ScriptableObject derived type to use binary serialization regardless of project's asset serialization mode.
+---@field AvatarIKGoal AvatarIKGoal @IK Goal.
+---@field Font Font @Script interface for font assets.
+---@field RectOffset RectOffset @Offsets for rectangles, borders, etc.
+---@field GUISettings GUISettings @General settings for how the GUI behaves.
+---@field RectInt RectInt @A 2D Rectangle defined by x, y, width, height with integers.
+---@field AudioReverbPreset AudioReverbPreset @Reverb presets used by the Reverb Zone class and the audio reverb filter.
+---@field FlareLayer FlareLayer @FlareLayer component.
+---@field RaycastHit2D RaycastHit2D @Information returned about an object detected by a raycast in 2D physics.
+---@field RaycastCommand RaycastCommand @Struct used to set up a raycast command to be performed asynchronously during a job.
+---@field HighlightSearchMode HighlightSearchMode @Used to specify how to find a given element in the editor to highlight.
+---@field iOSStatusBarStyle iOSStatusBarStyle @iOS status bar style.
+---@field L10n L10n @Class for text localization.
+---@field AnimatorClipInfo AnimatorClipInfo @Information about clip being played and blended by the Animator.
+---@field QueueMode QueueMode @Used by Animation.Play function.
+---@field QualitySettings QualitySettings @Script interface for Quality Settings.
+---@field iOSLaunchScreenType iOSLaunchScreenType @iOS launch screen settings.
+---@field Profiling Profiling @nil
+---@field GradientAlphaKey GradientAlphaKey @Alpha key used by Gradient.
+---@field IExposedPropertyTable IExposedPropertyTable @Interface for objects used as resolvers on ExposedReferences.
+---@field JointDrive JointDrive @How the joint's movement will behave along its local X axis.
+---@field LineRenderer LineRenderer @The line renderer is used to draw free-floating lines in 3D space.
+---@field EditorAnalytics EditorAnalytics @Editor API for the EditorAnalytics feature.
+---@field BuildPlayerWindow BuildPlayerWindow @The default build settings window.
+---@field MonoImporter MonoImporter @Represents a C# script in the project.
+---@field AssetBundleRecompressOperation AssetBundleRecompressOperation @Asynchronous AssetBundle recompression from one compression method and level to another.
+---@field ColorSpace ColorSpace @Color space for player settings.
+---@field PopupWindow PopupWindow @Class used to display popup windows that inherit from PopupWindowContent.
+---@field AnimatorOverrideController AnimatorOverrideController @Interface to control Animator Override Controller.
+---@field PlayMode PlayMode @Used by Animation.Play function.
+---@field TextureResizeAlgorithm TextureResizeAlgorithm @For Texture to be scaled down choose resize algorithm. ( Applyed only when Texture dimension is bigger than Max Size ).
+---@field LightmapEditorSettings LightmapEditorSettings @This class is now obsolete. Use LightingSettings.
+---@field CursorLockMode CursorLockMode @How the cursor should behave.
+---@field ILogHandler ILogHandler @Interface for custom log handler implementation.
+---@field ThreadPriority ThreadPriority @Priority of a thread.
+---@field ComputeShader ComputeShader @Compute Shader asset.
+---@field HostData HostData @This is the data structure for holding individual host information.
+---@field PhysicsShape2D PhysicsShape2D @Represents an efficient low-level physics shape used by the physics engine.
+---@field PhysicsScene2D PhysicsScene2D @Represents a single instance of a 2D physics Scene.
+---@field PhysicsDebugWindow PhysicsDebugWindow @Displays the Physics Debug Visualization options.The Physics Debug Visualization is only displayed if this window is visible.See Also: PhysicsVisualizationSettings.
+---@field Android Android @nil
+---@field LightingExplorerTableColumn LightingExplorerTableColumn @This is used when defining how a column should look and behave in the Lighting Explorer.
+---@field ColorGamut ColorGamut @Represents a color gamut.
+---@field Debug Debug @Class containing methods to ease debugging while developing a game.
+---@field EnterPlayModeOptions EnterPlayModeOptions @Determines the flags for the Enter Play Mode Options in the Unity Editor.
+---@field NetworkDisconnection NetworkDisconnection @The reason a disconnect event occured, like in OnDisconnectedFromServer.
+---@field TextureImporterShape TextureImporterShape @The shape of the imported texture.
+---@field AndroidETC2Fallback AndroidETC2Fallback @This enumeration has values for different qualities to decompress ETC2 textures on Android devices that don't support the ETC2 texture format.
+---@field ContactFilter2D ContactFilter2D @A set of parameters for filtering contact results. Define the angle by referring to their position in world space, where 0 degrees is parallel to the positive x-axis, 90 degrees is parallel to the positive y-axis, 180 degrees is parallel to the negative x-axis, and 270 degrees is parallel to the negative y-axis.
+---@field DeviceOrientation DeviceOrientation @Describes physical orientation of the device as determined by the OS.
+---@field AndroidActivityIndicatorStyle AndroidActivityIndicatorStyle @ActivityIndicator Style (Android Specific).
+---@field ColliderDistance2D ColliderDistance2D @Represents the separation or overlap of two Collider2D.
+---@field ProjectWindowCallback ProjectWindowCallback @nil
+---@field Audio Audio @nil
+---@field Graphics Graphics @Raw interface to Unity's drawing functions.
+---@field ApplicationInstallMode ApplicationInstallMode @Application installation mode (Read Only).
+---@field ParticleSystemForceFieldShape ParticleSystemForceFieldShape @The type of shape used for influencing particles in the Force Field Component.
+---@field Component Component @Base class for everything attached to GameObjects.
+---@field Logger Logger @Initializes a new instance of the Logger.
+---@field HumanDescription HumanDescription @Class that holds humanoid avatar parameters to pass to the AvatarBuilder.BuildHumanAvatar function.
+---@field DrawGizmo DrawGizmo @The DrawGizmo attribute allows you to supply a gizmo renderer for any Component.
+---@field ParticleSystemCollisionType ParticleSystemCollisionType @The type of collisions to use for a given Particle System.
+---@field CharacterController CharacterController @A CharacterController allows you to easily do movement constrained by collisions without having to deal with a rigidbody.
+---@field FixedJoint2D FixedJoint2D @Connects two Rigidbody2D together at their anchor points using a configurable spring.
+---@field CustomRenderTextureUpdateZone CustomRenderTextureUpdateZone @Structure describing an Update Zone.
+---@field CanvasRenderer CanvasRenderer @A component that will render to the screen after all normal rendering has completed when attached to a Canvas. Designed for GUI application.
+---@field WheelJoint2D WheelJoint2D @The wheel joint allows the simulation of wheels by providing a constraining suspension motion with an optional motor.
+---@field BuildCompression BuildCompression @Contains information about compression methods, compression levels and block sizes that are supported by Asset Bundle compression at build time and recompression at runtime.
+---@field NetworkView NetworkView @The network view is the binding material of multiplayer games.
+---@field MultilineAttribute MultilineAttribute @Attribute to make a string be edited with a multi-line textfield.
+---@field ConstantForce ConstantForce @A force applied constantly.
+---@field ControllerColliderHit ControllerColliderHit @ControllerColliderHit is used by CharacterController.OnControllerColliderHit to give detailed information about the collision and how to deal with it.
+---@field XcodeBuildConfig XcodeBuildConfig @Build configurations for the Xcode project Unity generates.
+---@field ModelImporterMaterialSearch ModelImporterMaterialSearch @Material search options for ModelImporter.
+---@field ParticleSystemInheritVelocityMode ParticleSystemInheritVelocityMode @How to apply emitter velocity to particles.
+---@field Build Build @nil
+---@field CollisionDetectionMode2D CollisionDetectionMode2D @Controls how collisions are detected when a Rigidbody2D moves.
+---@field CapsuleCollider CapsuleCollider @A capsule-shaped primitive collider.
+---@field LocationServiceStatus LocationServiceStatus @Describes the location service status for a device.
+---@field SpherecastCommand SpherecastCommand @Use this struct to set up a sphere cast command that is performed asynchronously during a job.
+---@field FixedJoint FixedJoint @The Fixed joint groups together 2 rigidbodies, making them stick together in their bound position.
+---@field CustomRenderTextureUpdateMode CustomRenderTextureUpdateMode @Frequency of update or initialization of a Custom Render Texture.
+---@field GameObjectUtility GameObjectUtility @GameObject utility functions.
+---@field AddComponentMenu AddComponentMenu @The AddComponentMenu attribute allows you to place a script anywhere in the Component menu, instead of just the Component-&gt;Scripts menu.
+---@field WSABuildAndRunDeployTarget WSABuildAndRunDeployTarget @Specifies the Windows device to deploy and launch the UWP app on when using Build and Run from the Editor.
+---@field Video Video @nil
+---@field ExcludeFromObjectFactoryAttribute ExcludeFromObjectFactoryAttribute @Add this attribute to a class to prevent the class and its inherited classes from being created with ObjectFactory methods.
+---@field ImportAssetOptions ImportAssetOptions @Asset importing options.
+---@field ClusterInput ClusterInput @Interface for reading and writing inputs in a Unity Cluster.
+---@field Canvas Canvas @Element that can be used for screen rendering.
+---@field IconAttribute IconAttribute @Attribute to specify an icon for a MonoBehaviour or ScriptableObject.
+---@field AppleMobileArchitecture AppleMobileArchitecture @Apple Mobile CPU architecture.
+---@field EditorWindow EditorWindow @Derive from this class to create an editor window.
+---@field SkinQuality SkinQuality @The maximum number of bones affecting a single vertex.
+---@field ParticleSystemShapeType ParticleSystemShapeType @The emission shape.
+---@field GraphicsBuffer GraphicsBuffer @GPU graphics data buffer, for working with geometry or compute shader data.
+---@field AudioCompressionFormat AudioCompressionFormat @An enum containing different compression types.

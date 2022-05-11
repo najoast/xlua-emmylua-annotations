@@ -1,0 +1,12 @@
+---@class PlatformEffector2D @Applies platform behaviour such as one-way collisions etc.
+---@field useOneWay fun() @Should the one-way collision behaviour be used?
+---@field sideBounce fun() @Whether bounce should be used on the platform sides or not.
+---@field useOneWayGrouping fun() @Ensures that all contacts controlled by the one-way behaviour act the same.
+---@field useSideFriction fun() @Should friction be used on the platform sides?
+---@field useSideBounce fun() @Should bounce be used on the platform sides?
+---@field surfaceArc fun() @The angle of an arc that defines the surface of the platform centered of the local 'up' of the effector.
+---@field sideAngleVariance fun() @The angle variance centered on the sides of the platform.  Zero angle only matches sides 90-degree to the platform top.
+---@field sideArc fun() @The angle of an arc that defines the sides of the platform centered on the local 'left' and 'right' of the effector. Any collision normals within this arc are considered for the 'side' behaviours.
+---@field oneWay fun() @Whether to use one-way collision behaviour or not.
+---@field rotationalOffset fun() @The rotational offset angle from the local 'up'.
+---@field sideFriction fun() @Whether friction should be used on the platform sides or not.

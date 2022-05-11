@@ -1,0 +1,11 @@
+---@class iOS.Xcode.PlistDocument @Represents an Apple property list document. Documentation on property lists can be found here. https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/PropertyList.html#//apple_ref/doc/uid/TP40008195-CH44
+---@field WriteToString fun() @Writes the document contents to a string.
+---@field ctor fun() @Creates a new property list document instance.
+---@field ReadFromString fun() @Reads the document from the given string.
+---@field WriteToStream fun() @Writes the document contents to the specified text writer.
+---@field Create fun() @Create a new property list Document.
+---@field ReadFromStream fun() @Reads the project from the given text reader.
+---@field ReadFromFile fun() @Reads the document from a file identified by the given path.
+---@field WriteToFile fun() @Writes the project contents to the specified file.
+---@field version fun() @The version of the property list document. At the moment Apple uses '1.0' for all property list files.
+---@field root fun() @The root element of the property list document.

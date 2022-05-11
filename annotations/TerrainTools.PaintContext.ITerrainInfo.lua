@@ -1,0 +1,9 @@
+---@class TerrainTools.PaintContext.ITerrainInfo @Interface that conveys information about a Terrain within the PaintContext area.
+---@field userData fun() @Modify this value, if required, to store and retrieve values relevant to the PaintContext operation.
+---@field gatherEnable fun() @Controls gathering from this Terrain within the PaintContext. The default is true.
+---@field clippedTerrainPixels fun() @PaintContext.pixelRect, clipped to this Terrain, in Terrain pixel coordinates. (Read Only)
+---@field paddedPCPixels fun() @Use this property to fill empty regions in PaintContext. It is the same as clippedPCPixels with padding around unconnected Terrain edges. (Read Only)
+---@field terrain fun() @The Terrain represented by this context. (Read Only)
+---@field paddedTerrainPixels fun() @Use this property to fill empty regions in PaintContext. It is the same as clippedTerrainPixels with padding around unconnected Terrain edges. (Read Only)
+---@field scatterEnable fun() @Controls scattering to this Terrain within the PaintContext. The default is true.
+---@field clippedPCPixels fun() @PaintContext.pixelRect, clipped to this Terrain, in PaintContext pixel coordinates. (Read Only)

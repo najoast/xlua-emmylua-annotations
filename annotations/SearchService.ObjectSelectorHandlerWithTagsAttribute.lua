@@ -1,0 +1,3 @@
+---@class SearchService.ObjectSelectorHandlerWithTagsAttribute @A class attribute that allows you to define tag constraints on a MonoBehavior or ScriptableObject's field in the object selector.
+---@field tags fun() @The tags to match. Because a GameObject can only have one tag, only one of them must be present.
+---@field ctor fun() @Constructor used to declare the SearchService.ObjectSelectorHandlerWithTagsAttribute on a field.

@@ -1,0 +1,3 @@
+---@class ShortcutManagement.ShortcutStage @Represents the stage at which a shortcut action was invoked.
+---@field End fun() @Represents that a shortcut action has ended.
+---@field Begin fun() @Represents that a shortcut action has begun.

@@ -1,0 +1,10 @@
+---@class CapsulecastCommand @Use this struct to set up a capsule cast command that is performed asynchronously during a job.
+---@field radius fun() @The radius of the capsule.
+---@field ctor fun() @Creates a CapsulecastCommand.
+---@field ScheduleBatch fun() @Schedules a batch of capsule casts which are performed in a job.
+---@field distance fun() @The maximum distance the capsule cast checks for collision.
+---@field physicsScene fun() @The physics scene this command is run in.
+---@field point2 fun() @The center of the sphere at the end of the capsule.
+---@field layerMask fun() @A LayerMask that selectively ignores Colliders when casting a capsule.
+---@field point1 fun() @The center of the sphere at the start of the capsule.
+---@field direction fun() @The direction of the capsule cast.

@@ -1,0 +1,55 @@
+---@class EditorWindow @Derive from this class to create an editor window.
+---@field Show fun() @Show the EditorWindow window.
+---@field SaveChanges fun() @Performs a save action on the contents of the window.
+---@field focusedWindow fun() @The EditorWindow which currently has keyboard focus. (Read Only)
+---@field minSize fun() @The minimum size of this window when it is floating or modal. The minimum size is not used when the window is docked.
+---@field position fun() @The desired position of the window in screen space.
+---@field DiscardChanges fun() @Discards unsaved changes to the contents of the window.
+---@field maximized fun() @Is this window maximized?
+---@field title fun() @The title of this window.
+---@field autoRepaintOnSceneChange fun() @Does the window automatically repaint whenever the Scene has changed?
+---@field Update fun() @Called multiple times per second on all visible windows.
+---@field ShowModalUtility fun() @Show the EditorWindow as a floating modal window.
+---@field Focus fun() @Moves keyboard focus to another EditorWindow.
+---@field OnProjectChange fun() @Handler for message that is sent whenever the state of the project changes.
+---@field Awake fun() @Called as the new window is opened.
+---@field OnLostFocus fun() @Called when the window loses keyboard focus.
+---@field TryGetOverlay fun() @Get an Overlay with matching ID from an EditorWindow canvas.
+---@field ShowModal fun() @Show modal editor window.
+---@field ShowAuxWindow fun() @Show the editor window in the auxiliary window.
+---@field maxSize fun() @The maximum size of this window when it is floating or modal. The maximum size is not used when the window is docked.
+---@field titleContent fun() @The GUIContent used for drawing the title of EditorWindows.
+---@field GetWindow fun() @Returns the first EditorWindow of type t which is currently on the screen.
+---@field CreateGUI fun() @CreateGUI is called when the EditorWindow's rootVisualElement is ready to be populated.
+---@field SendEvent fun() @Sends an Event to a window.
+---@field OnFocus fun() @Called when the window gets keyboard focus.
+---@field GetExtraPaneTypes fun() @Gets the extra panes associated with the window.
+---@field Repaint fun() @Make the window repaint.
+---@field mouseOverWindow fun() @The EditorWindow currently under the mouse cursor. (Read Only)
+---@field BeginWindows fun() @Mark the beginning area of all popup windows.
+---@field RemoveNotification fun() @Stop showing notification message.
+---@field ShowPopup fun() @Shows an Editor window using popup-style framing.
+---@field ShowNotification fun() @Show a notification message.
+---@field OnDestroy fun() @OnDestroy is called to close the EditorWindow window.
+---@field wantsLessLayoutEvents fun() @Specifies whether a layout pass is performed before all user events (for example, EventType.MouseDown or [[EventType, KeyDown]]), or is only performed before repaint events.
+---@field OnInspectorUpdate fun() @OnInspectorUpdate is called at 10 frames per second to give the inspector a chance to update.
+---@field OnBackingScaleFactorChanged fun() @Called when the UI scaling for this EditorWindow is changed.
+---@field OnHierarchyChange fun() @Handler for message that is sent when an object or group of objects in the hierarchy changes.
+---@field hasFocus fun() @Returns true if EditorWindow is focused.
+---@field OnDidOpenScene fun() @*undocumented*.
+---@field rootVisualElement fun() @Retrieves the root visual element of this window hierarchy.
+---@field hasUnsavedChanges fun() @This property specifies whether the Editor prompts the user to save or discard unsaved changes before the window closes.
+---@field OnGUI fun() @Implement your own editor GUI here.
+---@field OnSelectionChange fun() @Called whenever the selection has changed.
+---@field ShowUtility fun() @Show the EditorWindow as a floating utility window.
+---@field GetWindowWithRect fun() @Returns the first EditorWindow of type t which is currently on the screen.
+---@field HasOpenInstances fun() @Checks if an editor window is open.
+---@field CreateWindow fun() @Creates an EditorWindow of type T.
+---@field FocusWindowIfItsOpen fun() @Focuses the first found EditorWindow of specified type if it is open.
+---@field wantsMouseEnterLeaveWindow fun() @Checks whether MouseEnterWindow and MouseLeaveWindow events are received in the GUI in this Editor window.
+---@field ShowAsDropDown fun() @Shows a window with dropdown behaviour and styling.
+---@field EndWindows fun() @Close a window group started with EditorWindow.BeginWindows.
+---@field docked fun() @Returns true if EditorWindow is docked.
+---@field wantsMouseMove fun() @Checks whether MouseMove events are received in the GUI in this Editor window.
+---@field Close fun() @Close the editor window.
+---@field saveChangesMessage fun() @The message that displays to the user if they are prompted to save

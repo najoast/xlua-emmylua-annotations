@@ -1,0 +1,22 @@
+---@class RectInt @A 2D Rectangle defined by x, y, width, height with integers.
+---@field min fun() @The lower left corner of the rectangle; which is the minimal position of the rectangle along the x- and y-axes, when it is aligned to both axes.
+---@field x fun() @Left coordinate of the rectangle.
+---@field xMax fun() @Shows the maximum X value of the RectInt.
+---@field width fun() @Width of the rectangle.
+---@field max fun() @The upper right corner of the rectangle; which is the maximal position of the rectangle along the x- and y-axes, when it is aligned to both axes.
+---@field SetMinMax fun() @Sets the bounds to the min and max value of the rect.
+---@field position fun() @Returns the position (x, y) of the RectInt.
+---@field Equals fun() @Returns true if the given RectInt is equal to this RectInt.
+---@field height fun() @Height of the rectangle.
+---@field center fun() @Center coordinate of the rectangle.
+---@field allPositionsWithin fun() @A RectInt.PositionCollection that contains all positions within the RectInt.
+---@field yMin fun() @Show the minimum Y value of the RectInt.
+---@field Overlaps fun() @RectInts overlap if each RectInt Contains a shared point.
+---@field ToString fun() @Returns the x, y, width and height of the RectInt.
+---@field Contains fun() @Returns true if the given position is within the RectInt.
+---@field PositionEnumerator RectInt.PositionEnumerator @An iterator that allows you to iterate over all positions within the RectInt.
+---@field xMin fun() @Shows the minimum X value of the RectInt.
+---@field size fun() @Returns the width and height of the RectInt.
+---@field yMax fun() @Shows the maximum Y value of the RectInt.
+---@field ClampToBounds fun() @Clamps the position and size of the RectInt to the given bounds.
+---@field y fun() @Top coordinate of the rectangle.

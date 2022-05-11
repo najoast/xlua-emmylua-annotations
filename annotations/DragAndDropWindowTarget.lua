@@ -1,0 +1,5 @@
+---@class DragAndDropWindowTarget @IDs for core windows. These are used by the DragAndDrop.RemoveHandler API.
+---@field inspector fun() @ID to target the Inspector.
+---@field sceneView fun() @ID to target the Scene view.
+---@field hierarchy fun() @ID to target the Hierarchy.
+---@field projectBrowser fun() @ID to target the Project browser.

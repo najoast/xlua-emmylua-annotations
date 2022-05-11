@@ -1,0 +1,22 @@
+---@class AssetImporters.AssetImporterEditor @Default editor for all asset importer settings.
+---@field CanApply fun() @Determines if the modifications to import settings can be applied.
+---@field ApplyButton fun() @Implements the 'Apply' button of the inspector.
+---@field extraDataTarget fun() @The extra data object associated with the Editor.target.
+---@field OnInspectorGUI fun() @Override this method to create your own Inpsector GUI for a ScriptedImporter.
+---@field extraDataTargets fun() @An array of objects associated with each Editor.targets.
+---@field ApplyAndImport fun() @Saves the changes from the editor UI to the settings object and imports the asset.
+---@field extraDataSerializedObject fun() @A SerializedObject that represents the extraDataTarget or the extraDataTargets of the AssetImporterEditor.
+---@field useAssetDrawPreview fun() @Determines if the asset preview is handled by the AssetEditor or the Importer DrawPreview
+---@field ApplyRevertGUI fun() @Add's the 'Apply' and 'Revert' buttons to the editor.
+---@field OnEnable fun() @This function is called when the object is loaded.
+---@field showImportedObject fun() @Should imported object be shown as a separate editor?
+---@field OnDisable fun() @This function is called when the editor object goes out of scope.
+---@field Awake fun() @This function is called when the Editor script is started.
+---@field Apply fun() @Saves any changes from the Editor's control into the asset's import settings object.
+---@field ResetValues fun() @Reset the import settings to their last saved values.
+---@field RevertButton fun() @Implements the 'Revert' button of the inspector.
+---@field OnApplyRevertGUI fun() @Process the 'Apply' and 'Revert' buttons.
+---@field needsApplyRevert fun() @Whether the ApplyRevertGUI method is required to draw in the Inspector.
+---@field HasModified fun() @Determine if the import settings have been modified.
+---@field InitializeExtraDataInstance fun() @This method is called during the initialization process of the Editor, after Awake and before OnEnable.
+---@field extraDataType fun() @Override this property to return a type that inherits from ScriptableObject. This makes the AssetImporterEditor aware of serialized data outside of the Importer.

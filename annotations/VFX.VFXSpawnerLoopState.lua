@@ -1,0 +1,5 @@
+---@class VFX.VFXSpawnerLoopState @This enum describes the state of VFXSpawner.
+---@field DelayingAfterLoop fun() @If the VFXSpawner is in this state, then it is waiting after a loop has reached the end.
+---@field Finished fun() @If the VFXSpawner is in this state then it has finished and is currently awaiting a Play invocation. This is the default and final state.
+---@field Looping fun() @If the VFXSpawner is in this state, then it is currently looping. When in this state, VFX.VFXSpawnerState._playing is true.
+---@field DelayingBeforeLoop fun() @If the VFXSpawner is in this state, then it is waiting before it starts a loop.

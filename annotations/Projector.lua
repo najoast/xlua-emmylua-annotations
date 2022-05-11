@@ -1,0 +1,9 @@
+---@class Projector @A script interface for a projector component.
+---@field ignoreLayers fun() @Which object layers are ignored by the projector.
+---@field nearClipPlane fun() @The near clipping plane distance.
+---@field material fun() @The material that will be projected onto every object.
+---@field aspectRatio fun() @The aspect ratio of the projection.
+---@field fieldOfView fun() @The field of view of the projection in degrees.
+---@field orthographicSize fun() @Projection's half-size when in orthographic mode.
+---@field farClipPlane fun() @The far clipping plane distance.
+---@field orthographic fun() @Is the projection orthographic (true) or perspective (false)?

@@ -1,0 +1,7 @@
+---@class Rendering.VirtualTexturing.Streaming @Static class representing the Streaming Virtual Texturing system.
+---@field SetCPUCacheSize fun() @Sets the CPU cache size (in MegaBytes) used by Streaming Virtual Texturing.
+---@field RequestRegion fun() @Make a rectangle in UV space resident for a given Virtual Texture Stack.
+---@field GetGPUCacheSettings fun() @Gets the GPU cache settings used by Streaming Virtual Texturing.
+---@field GetCPUCacheSize fun() @Gets the CPU cache size (in MegaBytes) used by Streaming Virtual Texturing.
+---@field SetGPUCacheSettings fun() @Sets the GPU cache settings used by Streaming Virtual Texturing.
+---@field GetTextureStackSize fun() @Gets the width and height of a Virtual Texture Stack, in pixels.

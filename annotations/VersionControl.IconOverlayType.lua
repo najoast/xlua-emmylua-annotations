@@ -1,0 +1,4 @@
+---@class VersionControl.IconOverlayType @Type of icon overlay.
+---@field Project fun() @Project window icon overlay.
+---@field Other fun() @Other icon overlay.
+---@field Hierarchy fun() @Hierarchy window icon overlay.

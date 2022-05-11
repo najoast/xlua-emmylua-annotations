@@ -1,0 +1,28 @@
+---@class SceneManagement @nil
+---@field SceneManagerAPI SceneManagement.SceneManagerAPI @Derive from this base class to provide alternative implementations to the C# behavior of specific SceneManagement.SceneManager methods.
+---@field LocalPhysicsMode SceneManagement.LocalPhysicsMode @Provides options for 2D and 3D local physics.
+---@field EditorSceneManager SceneManagement.EditorSceneManager @Scene management in the Editor.
+---@field RemovedComponent SceneManagement.RemovedComponent @Class with information about a component that has been removed from a Prefab instance.
+---@field SceneCullingMasks SceneManagement.SceneCullingMasks @Masks that control what kind of Scene views and Game views Unity should render a GameObject in.
+---@field NewSceneMode SceneManagement.NewSceneMode @Used when creating a new Scene in the Editor.
+---@field NewSceneSetup SceneManagement.NewSceneSetup @Used when creating a new Scene in the Editor.
+---@field LoadSceneMode SceneManagement.LoadSceneMode @Used when loading a Scene in a player.
+---@field StageHandle SceneManagement.StageHandle @Struct that represents a stage handle.
+---@field PreviewSceneStage SceneManagement.PreviewSceneStage @The PreviewSceneStage class represents an editing context based on a single preview Scene.
+---@field SceneUtility SceneManagement.SceneUtility @Scene and Build Settings related utilities.
+---@field Stage SceneManagement.Stage @The Stage class represents an editing context which includes a collection of Scenes.
+---@field OpenSceneMode SceneManagement.OpenSceneMode @Used when opening a Scene in the Editor to specify how a Scene should be opened.
+---@field SceneSetup SceneManagement.SceneSetup @The setup information for a Scene in the SceneManager. This cannot be used in Play Mode.
+---@field CreateSceneParameters SceneManagement.CreateSceneParameters @This struct collects all the CreateScene parameters in to a single place.
+---@field SceneManager SceneManagement.SceneManager @Scene management at run-time.
+---@field Scene SceneManagement.Scene @Run-time data structure for *.unity file.
+---@field UnloadSceneOptions SceneManagement.UnloadSceneOptions @Scene unloading options passed to SceneManager.UnloadScene.
+---@field MainStage fun() @The Main Stage contains all the currently open regular Scenes and is always available.
+---@field LoadSceneParameters SceneManagement.LoadSceneParameters @This struct collects all the LoadScene parameters in to a single place.
+---@field PrefabStageUtility SceneManagement.PrefabStageUtility @Utility methods related to Prefab stages.
+---@field PrefabOverride SceneManagement.PrefabOverride @Class with information about a given override on a Prefab instance.
+---@field PrefabStage SceneManagement.PrefabStage @The PrefabStage class represents an editing context for Prefab Assets.
+---@field AddedComponent SceneManagement.AddedComponent @Class with information about a component that has been added to a Prefab instance.
+---@field StageUtility SceneManagement.StageUtility @Utility methods related to stages.
+---@field AddedGameObject SceneManagement.AddedGameObject @Class with information about a GameObject that has been added as a child under a Prefab instance.
+---@field ObjectOverride SceneManagement.ObjectOverride @Class with information about an object on a Prefab instance with overridden properties.

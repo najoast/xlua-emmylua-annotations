@@ -1,0 +1,2 @@
+---@class Rendering.GPUFence @This functionality is deprecated, and should no longer be used. Please use GraphicsFence.
+---@field passed fun() @This functionality is deprecated, and should no longer be used. Please use GraphicsFence.passed.

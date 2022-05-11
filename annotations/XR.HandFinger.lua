@@ -1,0 +1,6 @@
+---@class XR.HandFinger @Enumeration describing the AR rendering mode used with XR.Hand.
+---@field Thumb fun() @Thumb finger on a hand.
+---@field Pinky fun() @Pinky finger on a hand.
+---@field Middle fun() @Middle finger on a hand.
+---@field Index fun() @Index finger on a hand.
+---@field Ring fun() @Ring finger on a hand.

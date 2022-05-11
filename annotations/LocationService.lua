@@ -1,0 +1,6 @@
+---@class LocationService @Provides methods that allow an application to access the device's location.
+---@field lastData fun() @The last geographical location that the device registered.
+---@field Start fun() @Starts location service updates.
+---@field isEnabledByUser fun() @Indicates whether the device allows access the application to access the location service.
+---@field status fun() @Returns the location service status.
+---@field Stop fun() @Stops location service updates. This is useful to save battery power when the application doesn't require the location service.

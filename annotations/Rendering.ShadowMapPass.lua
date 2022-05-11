@@ -1,0 +1,15 @@
+---@class Rendering.ShadowMapPass @Allows precise control over which shadow map passes to execute Rendering.CommandBuffer objects attached using Light.AddCommandBuffer.
+---@field DirectionalCascade1 fun() @Second directional shadow map cascade.
+---@field PointlightNegativeX fun() @-X point light shadow cubemap face.
+---@field Directional fun() @All directional shadow map passes.
+---@field PointlightPositiveZ fun() @+Z point light shadow cubemap face.
+---@field PointlightNegativeZ fun() @-Z point light shadow cubemap face.
+---@field PointlightNegativeY fun() @-Y point light shadow cubemap face.
+---@field PointlightPositiveY fun() @+Y point light shadow cubemap face.
+---@field DirectionalCascade3 fun() @Fourth directional shadow map cascade.
+---@field DirectionalCascade0 fun() @First directional shadow map cascade.
+---@field PointlightPositiveX fun() @+X point light shadow cubemap face.
+---@field Pointlight fun() @All point light shadow passes.
+---@field Spotlight fun() @Spotlight shadow pass.
+---@field All fun() @All shadow map passes.
+---@field DirectionalCascade2 fun() @Third directional shadow map cascade.

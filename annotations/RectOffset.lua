@@ -1,0 +1,11 @@
+---@class RectOffset @Offsets for rectangles, borders, etc.
+---@field top fun() @Top edge size.
+---@field vertical fun() @Shortcut for top + bottom. (Read Only)
+---@field Add fun() @Add the border offsets to a rect.
+---@field Remove fun() @Remove the border offsets from a rect.
+---@field ToString fun() @Returns a formatted string for this RectOffset.
+---@field right fun() @Right edge size.
+---@field ctor fun() @Creates a new rectangle with offsets.
+---@field horizontal fun() @Shortcut for left + right. (Read Only)
+---@field bottom fun() @Bottom edge size.
+---@field left fun() @Left edge size.

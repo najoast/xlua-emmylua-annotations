@@ -1,0 +1,16 @@
+---@class Tools @Class used to manipulate the tools used in Unity's Scene View.
+---@field handleRect fun() @The rectangle used for the rect tool.
+---@field viewToolChanged fun() @Callback triggered when the view tool changes.
+---@field handlePosition fun() @The position of the tool handle in world space.
+---@field viewTool fun() @The option that is currently active for the View tool in the Scene view.
+---@field pivotModeChanged fun() @Callback triggered when the pivot mode changes.
+---@field handleRotation fun() @The rotation of the tool handle in world space.
+---@field hidden fun() @Hides the Tools(Move, Rotate, Resize) on the Scene view.
+---@field visibleLayers fun() @Which layers are visible in the Scene view.
+---@field pivotMode fun() @Are we in Center or Pivot mode.
+---@field viewToolActive fun() @Returns true if the active tool is a view or navigation tool.
+---@field rectBlueprintMode fun() @Is the rect handle in blueprint mode?
+---@field pivotRotation fun() @What's the rotation of the tool handle.
+---@field handleRectRotation fun() @The rotation of the rect tool handle in world space.
+---@field pivotRotationChanged fun() @Callback triggered when the pivot rotation changes.
+---@field current fun() @The tool that is currently selected for the Scene View.

@@ -1,0 +1,7 @@
+---@class TextCore.GlyphMetrics @A set of values that define the size, position and spacing of a glyph when performing text layout.
+---@field height fun() @The height of the glyph.
+---@field horizontalBearingX fun() @The horizontal distance from the current drawing position (origin) relative to the element's left bounding box edge (bbox).
+---@field horizontalAdvance fun() @The horizontal distance to increase (left to right) or decrease (right to left) the drawing position relative to the origin of the text element.
+---@field horizontalBearingY fun() @The vertical distance from the current baseline relative to the element's top bounding box edge (bbox).
+---@field width fun() @The width of the glyph.
+---@field ctor fun() @Constructs a new GlyphMetrics structure.

@@ -1,0 +1,8 @@
+---@class NetworkView @The network view is the binding material of multiplayer games.
+---@field observed fun() @The component the network view is observing.
+---@field owner fun() @The NetworkPlayer who owns this network view.
+---@field RPC fun() @Call a RPC function on all connected peers.
+---@field group fun() @The network group number of this network view.
+---@field stateSynchronization fun() @The type of NetworkStateSynchronization set for this network view.
+---@field viewID fun() @The ViewID of this network view.
+---@field isMine fun() @Is the network view controlled by this object?

@@ -1,0 +1,11 @@
+---@class AssetSettingsProvider @AssetSettingsProvider is a specialization of the SettingsProvider class that converts legacy settings to Unified Settings. Legacy settings include any settings that used the Inspector to modify themselves, such as the *.asset files under the ProjectSettings folder. Under the hood, AssetSettingsProvider creates an Editor for specific Assets and builds the UI for the Settings window by wrapping the Editor.OnInspectorGUI function.Internally we use this class to wrap our existing settings.
+---@field OnDeactivate fun() @Overrides SettingsProvider.OnDeactivate for this AssetSettingsProvider.
+---@field OnFooterBarGUI fun() @Overrides SettingsProvider.OnFooterBarGUI for this AssetSettingsProvider.
+---@field ctor fun() @Creates a new AssetSettingsProvider so you can wrap legacy settings (that is, settings that previously appeared in the Inspector).
+---@field CreateProviderFromResourcePath fun() @Create an AssetSettingsProvider from an asset resource path.
+---@field OnActivate fun() @Overrides SettingsProvider.OnActivate for this AssetSettingsProvider.
+---@field CreateProviderFromObject fun() @Create an AssetSettingsProvider from a settings object.
+---@field settingsEditor fun() @Editor providing UI to modify the settings.
+---@field OnTitleBarGUI fun() @Overrides SettingsProvider.OnTitleBarGUI for this AssetSettingsProvider. This draws the button bar that contains the add to preset and the help buttons.
+---@field CreateProviderFromAssetPath fun() @Create an AssetSettingsProvider from an asset path.
+---@field OnGUI fun() @Overrides SettingsProvider.OnGUI for this AssetSettingsProvider.

@@ -1,0 +1,10 @@
+---@class Rendering.VisibleLight @Holds data of a visible light.
+---@field intersectsNearPlane fun() @Light intersects near clipping plane.
+---@field localToWorldMatrix fun() @Light transformation matrix.
+---@field spotAngle fun() @Spot light angle.
+---@field screenRect fun() @Light's influence rectangle on screen.
+---@field finalColor fun() @Light color multiplied by intensity.
+---@field range fun() @Light range.
+---@field lightType fun() @Light type.
+---@field light fun() @Accessor to Light component.
+---@field intersectsFarPlane fun() @Light intersects far clipping plane.

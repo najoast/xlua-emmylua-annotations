@@ -1,0 +1,5 @@
+---@class ParticleSystemShapeTextureChannel @The texture channel.
+---@field Blue fun() @The blue channel.
+---@field Red fun() @The red channel.
+---@field Green fun() @The green channel.
+---@field Alpha fun() @The alpha channel.

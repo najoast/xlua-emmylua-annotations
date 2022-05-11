@@ -1,0 +1,67 @@
+---@class UIElements.VisualElement @Base class for objects that are part of the UIElements visual tree.
+---@field Sort fun() @Reorders child elements from this VisualElement contentContainer.
+---@field RemoveAt fun() @Remove the child element located at this position from this element's contentContainer
+---@field PlaceBehind fun() @Places this element right before the sibling element in their parent children list. If the element and the sibling position overlap, the element will be visually behind of its sibling.
+---@field disabledUssClassName fun() @USS class name of local disabled elements.
+---@field visible fun() @Indicates whether or not this element should be rendered.
+---@field Contains fun() @Checks if this element is an ancestor of the specified child element.
+---@field MarkDirtyRepaint fun() @Triggers a repaint of the VisualElement on the next frame.
+---@field viewDataKey fun() @Used for view data persistence (ie. tree expanded states, scroll position, zoom level).
+---@field worldBound fun() @AABB after applying the world transform to rect.
+---@field resolvedStyle fun() @Returns the VisualElement resolved style values.
+---@field transform fun() @Returns a transform object for this VisualElement. ITransform
+---@field SetEnabled fun() @Changes the VisualElement enabled state. A disabled VisualElement does not receive most events.
+---@field GetFirstAncestorOfType fun() @Walks up the hierarchy, starting from this element's parent, and returns the first VisualElement of this type
+---@field Children fun() @Returns the elements from its contentContainer.
+---@field Hierarchy UIElements.VisualElement.Hierarchy @Hierarchy is a struct allowing access to the hierarchy of visual elements
+---@field experimental fun() @Returns the UIElements experimental interfaces.
+---@field contentRect fun() @The rectangle of the content area of the element, in the local space of the element.
+---@field style fun() @Reference to the style object of this element.
+---@field PlaceInFront fun() @Places this element right after the sibling element in their parent children list. If the element and the sibling position overlap, the element will be visually in front of its sibling.
+---@field enabledSelf fun() @Returns true if the VisualElement is enabled locally.
+---@field SendToBack fun() @Sends this element to the beginning of its parent children list. The element will be visually behind any overlapping sibling elements.
+---@field parent fun() @The parent of this VisualElement.
+---@field BringToFront fun() @Brings this element to the end of its parent children list. The element will be visually in front of any overlapping sibling elements.
+---@field customStyle fun() @Returns the custom style properties accessor for this element.
+---@field Remove fun() @Removes this child from the hierarchy
+---@field RemoveFromHierarchy fun() @Removes this element from its parent hierarchy.
+---@field layout fun() @The position and size of the VisualElement relative to its parent, as computed by the layout system.
+---@field hierarchy fun() @Access to this element physical hierarchy
+---@field Add fun() @Add an element to this element's contentContainer
+---@field userData fun() @This property can be used to associate application-specific user data with this VisualElement.
+---@field FindAncestorUserData fun() @Searches up the hierarchy of this VisualElement and retrieves stored userData, if any is found.
+---@field enabledInHierarchy fun() @Returns true if the VisualElement is enabled in its own hierarchy.
+---@field ElementAt fun() @Retrieves the child element at a specific index.
+---@field generateVisualContent fun() @Called when the VisualElement visual contents need to be (re)generated.
+---@field RemoveFromClassList fun() @Removes a class from the class list of the element.
+---@field ToggleInClassList fun() @Toggles between adding and removing the given class name from the class list.
+---@field GetFirstOfType fun() @Walks up the hierarchy, starting from this element, and returns the first VisualElement of this type
+---@field ctor fun() @Initializes and returns an instance of VisualElement.
+---@field Index_operator fun() @Retrieves the child element at a specific index.
+---@field FindCommonAncestor fun() @Finds the lowest common ancestor between two VisualElements inside the VisualTree hierarchy.
+---@field UxmlFactory fun() @Instantiates a VisualElement using the data read from a UXML file.
+---@field UxmlTraits UIElements.VisualElement.UxmlTraits @Defines UxmlTraits for the VisualElement.
+---@field EnableInClassList fun() @Enables or disables the class with the given name.
+---@field worldTransform fun() @Returns a matrix that cumulates the following operations (in order): -Local Scaling -Local Rotation -Local Translation -Layout Translation -Parent worldTransform (recursive definition - consider identity when there is no parent)
+---@field pickingMode fun() @Determines if this element can be pick during mouseEvents or IPanel.Pick queries.
+---@field Insert fun() @Insert an element into this element's contentContainer
+---@field GetClasses fun() @Retrieve the classes for this element.
+---@field tooltip fun() @Text to display inside an information box after the user hovers the element for a small amount of time.
+---@field MeasureMode UIElements.VisualElement.MeasureMode @The modes available to measure VisualElement sizes.
+---@field SendEvent fun() @Sends an event to the event handler.
+---@field Clear fun() @Remove all child elements from this element's contentContainer
+---@field contentContainer fun() @child elements are added to this element, usually this
+---@field localBound fun() @AABB after applying the transform to the rect, but before applying the layout translation.
+---@field paddingRect fun() @The rectangle of the padding area of the element, in the local space of the element.
+---@field ClassListContains fun() @Searches for a class in the class list of this element.
+---@field visualTreeAssetSource fun() @Stores the asset reference, if the generated element is cloned from a VisualTreeAsset.
+---@field schedule fun() @Retrieves this VisualElement's IVisualElementScheduler
+---@field childCount fun() @Number of child elements in this object's contentContainer.
+---@field IndexOf fun() @Retrieves the child index of the specified VisualElement.
+---@field name fun() @The name of this VisualElement.
+---@field ClearClassList fun() @Removes all classes from the class list of this element. AddToClassList
+---@field ContainsPoint fun() @Checks if the specified point intersects with this VisualElement's layout.
+---@field panel fun() @The panel onto which this VisualElement is attached.
+---@field AddToClassList fun() @Adds a class to the class list of the element in order to assign styles from USS.
+---@field styleSheets fun() @Returns a VisualElementStyleSheetSet that manipulates style sheets attached to this element.
+---@field usageHints fun() @A combination of hint values that specify high-level intended usage patterns for the VisualElement. This property can only be set when the VisualElement is not yet part of a Panel. Once part of a Panel, this property becomes effectively read-only, and attempts to change it will throw an exception. The specification of proper UsageHints drives the system to make better decisions on how to process or accelerate certain operations based on the anticipated usage pattern. Note that those hints do not affect behavioral or visual results, but only affect the overall performance of the panel and the elements within. It's advised to always consider specifying the proper UsageHints, but keep in mind that some UsageHints might be internally ignored under certain conditions (e.g. due to hardware limitations on the target platform).

@@ -1,0 +1,5 @@
+---@class VersionControl.CheckoutMode @What to checkout when starting the Checkout task through the version control Provider.
+---@field Asset fun() @Checkout the asset only.
+---@field Both fun() @Checkout both asset and .meta file.
+---@field Meta fun() @Checkout .meta file only.
+---@field Exact fun() @Checkout only those assets provided in the asset list.

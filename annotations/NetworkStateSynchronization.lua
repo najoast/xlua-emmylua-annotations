@@ -1,0 +1,4 @@
+---@class NetworkStateSynchronization @Different types of synchronization for the NetworkView component.
+---@field ReliableDeltaCompressed fun() @All packets are sent reliable and ordered.
+---@field Off fun() @No state data will be synchronized.
+---@field Unreliable fun() @Brute force unreliable state sending.

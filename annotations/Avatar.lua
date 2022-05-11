@@ -1,0 +1,4 @@
+---@class Avatar @Avatar definition.
+---@field isHuman fun() @Return true if this avatar is a valid human avatar.
+---@field humanDescription fun() @Returns the HumanDescription used to create this Avatar.
+---@field isValid fun() @Return true if this avatar is a valid mecanim avatar. It can be a generic avatar or a human avatar.

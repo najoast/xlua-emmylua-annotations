@@ -1,0 +1,4 @@
+---@class UIElements.ContextualMenuManager @Use this class to display a contextual menu.
+---@field DisplayMenuIfEventMatches fun() @Checks if the event triggers the display of the contextual menu. This method also displays the menu.
+---@field DisplayMenu fun() @Displays the contextual menu.
+---@field DoDisplayMenu fun() @Displays the contextual menu.

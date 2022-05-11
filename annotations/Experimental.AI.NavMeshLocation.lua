@@ -1,0 +1,3 @@
+---@class Experimental.AI.NavMeshLocation @A world position that is guaranteed to be on the surface of the NavMesh.
+---@field position fun() @A world position that sits precisely on the surface of the NavMesh or along its links.
+---@field polygon fun() @Unique identifier for the node in the NavMesh to which the world position has been mapped.

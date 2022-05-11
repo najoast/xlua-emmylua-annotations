@@ -1,0 +1,4 @@
+---@class UIElements.PanelScreenMatchMode @Options that specify how to scale the panel area when the aspect ratio of the current screen resolution does not match the reference resolution. See PanelSettings.screenMatchMode.
+---@field Shrink fun() @Crops the panel area horizontally or vertically so the panel size never exceeds the reference resolution.
+---@field MatchWidthOrHeight fun() @Scales the panel area using width, height, or a mix of the two as a reference.
+---@field Expand fun() @Expand the panel area horizontally or vertically so the panel size is never smaller than the reference resolution.

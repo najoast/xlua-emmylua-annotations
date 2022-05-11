@@ -1,0 +1,11 @@
+---@class Rendering.ShaderPropertyFlags @Flags that control how a shader property behaves.
+---@field Gamma fun() @Signifies that values of this property are in gamma space. If the active color space is linear, Unity converts the values to linear space values.
+---@field MainTexture fun() @Signifies that value of this property contains the main texture of the Material.
+---@field NonModifiableTextureData fun() @You cannot edit this Texture property in the default Material Inspector.
+---@field None fun() @No flags are set.
+---@field NoScaleOffset fun() @Do not show UV scale/offset fields next to Textures in the default Material Inspector.
+---@field MainColor fun() @Signifies that value of this property contains the main color of the Material.
+---@field HDR fun() @Signifies that values of this property contain High Dynamic Range (HDR) data.
+---@field PerRendererData fun() @In the Material Inspector, Unity queries the value for this property from the Renderer's MaterialPropertyBlock, instead of from the Material. The value will also appear as read-only.
+---@field HideInInspector fun() @Signifies that Unity hides the property in the default Material Inspector.
+---@field Normal fun() @Signifies that values of this property contain Normal (normalized vector) data.

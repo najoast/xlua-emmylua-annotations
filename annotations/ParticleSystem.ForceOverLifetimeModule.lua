@@ -1,0 +1,10 @@
+---@class ParticleSystem.ForceOverLifetimeModule @Script interface for the ForceOverLifetimeModule of a Particle System.
+---@field y fun() @The curve defining particle forces in the y-axis.
+---@field x fun() @The curve that defines particle forces in the x-axis.
+---@field z fun() @The curve defining particle forces in the z-axis.
+---@field space fun() @Specifies whether the modules applies the forces in local or world space.
+---@field xMultiplier fun() @Defines the x-axis multiplier.
+---@field zMultiplier fun() @Defines the z-axis multiplier.
+---@field yMultiplier fun() @Defines the y-axis multiplier.
+---@field randomized fun() @When randomly selecting values between two curves or constants, this flag causes the system to choose a new random force on each frame.
+---@field enabled fun() @Specifies whether the ForceOverLifetimeModule is enabled or disabled.

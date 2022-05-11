@@ -1,0 +1,4 @@
+---@class Experimental.Rendering.SceneStateHash @This class contains hashes that represents the Scene state.
+---@field ambientProbeHash fun() @A hash representing the state of the ambient probe.
+---@field sceneObjectsHash fun() @A hash representing the state of Scene objects.
+---@field skySettingsHash fun() @A hash representing the settings of the sky.

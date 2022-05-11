@@ -1,0 +1,3 @@
+---@class PivotMode @Where is the tool handle placed.
+---@field Pivot fun() @The tool handle is on the pivot point of the active object.
+---@field Center fun() @The tool handle is at the graphical center of the selection.

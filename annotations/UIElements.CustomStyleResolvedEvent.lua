@@ -1,0 +1,2 @@
+---@class UIElements.CustomStyleResolvedEvent @Event sent after the custom style properties of a VisualElement have been resolved.
+---@field customStyle fun() @Returns the custom style properties accessor for the targeted VisualElement.

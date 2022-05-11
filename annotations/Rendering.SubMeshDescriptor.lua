@@ -1,0 +1,9 @@
+---@class Rendering.SubMeshDescriptor @Contains information about a single sub-mesh of a Mesh.
+---@field vertexCount fun() @Number of vertices used by the index buffer of this sub-mesh.
+---@field topology fun() @Face topology of this sub-mesh.
+---@field ctor fun() @Create a submesh descriptor.
+---@field bounds fun() @Bounding box of vertices in local space.
+---@field indexCount fun() @Index count for this sub-mesh face data.
+---@field indexStart fun() @Starting point inside the whole Mesh index buffer where the face index data is found.
+---@field firstVertex fun() @First vertex in the index buffer for this sub-mesh.
+---@field baseVertex fun() @Offset that is added to each value in the index buffer, to compute the final vertex index.

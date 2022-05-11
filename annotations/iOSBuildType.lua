@@ -1,0 +1,3 @@
+---@class iOSBuildType @Build configurations for the generated Xcode project.
+---@field Release fun() @Build configuration set to Release for the generated Xcode project with optimization enabled.
+---@field Debug fun() @Build configuration set to Debug for the generated Xcode project.

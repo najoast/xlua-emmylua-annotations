@@ -1,0 +1,2 @@
+---@class RequireComponent @The RequireComponent attribute automatically adds required components as dependencies.
+---@field ctor fun() @Require a single component.

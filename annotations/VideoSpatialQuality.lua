@@ -1,0 +1,4 @@
+---@class VideoSpatialQuality @Controls the imported clip's internal resize to save space at the cost of blurrier images.
+---@field LowSpatialQuality fun() @Scales width and height by 1/2.
+---@field MediumSpatialQuality fun() @Scales width and height by 3/4.
+---@field HighSpatialQuality fun() @No resize performed.

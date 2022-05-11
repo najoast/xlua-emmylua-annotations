@@ -1,0 +1,15 @@
+---@class Rendering.VertexAttribute @Possible attribute types that describe a vertex in a Mesh.
+---@field TexCoord3 fun() @Additional  texture coordinate.
+---@field Tangent fun() @Vertex tangent.
+---@field TexCoord0 fun() @Primary texture coordinate (UV).
+---@field BlendWeight fun() @Bone blend weights for skinned Meshes.
+---@field BlendIndices fun() @Bone indices for skinned Meshes.
+---@field TexCoord4 fun() @Additional  texture coordinate.
+---@field TexCoord7 fun() @Additional  texture coordinate.
+---@field Color fun() @Vertex color.
+---@field TexCoord2 fun() @Additional  texture coordinate.
+---@field Position fun() @Vertex position.
+---@field TexCoord6 fun() @Additional  texture coordinate.
+---@field Normal fun() @Vertex normal.
+---@field TexCoord1 fun() @Additional  texture coordinate.
+---@field TexCoord5 fun() @Additional  texture coordinate.

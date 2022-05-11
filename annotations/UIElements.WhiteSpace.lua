@@ -1,0 +1,3 @@
+---@class UIElements.WhiteSpace @Word wrapping over multiple lines if not enough space is available to draw the text of an element.
+---@field Normal fun() @Text will wrap when necessary.
+---@field NoWrap fun() @Text will never wrap to the next line.

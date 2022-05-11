@@ -1,0 +1,8 @@
+---@class ResourcesAPI @Derive from this base class to provide alternative implementations to the C# behavior of specific Resources methods.
+---@field overrideAPI fun() @The specific ResourcesAPI instance to use to handle overridden Resources methods.
+---@field Load fun() @Override for customizing the behavior of the Resources.Load function.
+---@field FindShaderByName fun() @Override for customizing the behavior of the Shader.Find function.
+---@field UnloadAsset fun() @Override for customizing the behavior of the Resources.Unload function.
+---@field FindObjectsOfTypeAll fun() @Override for customizing the behavior of the Resources.FindObjectsOfTypeAll function.
+---@field LoadAll fun() @Override for customizing the behavior of the Resources.LoadAll function.
+---@field LoadAsync fun() @Override for customizing the behavior of the Resources.LoadAsync function.

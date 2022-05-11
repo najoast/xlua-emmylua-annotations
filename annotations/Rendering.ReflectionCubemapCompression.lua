@@ -1,0 +1,4 @@
+---@class Rendering.ReflectionCubemapCompression @Determines how Unity will compress baked reflection cubemap.
+---@field Auto fun() @Baked Reflection cubemap will be compressed if compression format is suitable.
+---@field Compressed fun() @Baked Reflection cubemap will be compressed.
+---@field Uncompressed fun() @Baked Reflection cubemap will be left uncompressed.

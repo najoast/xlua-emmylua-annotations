@@ -1,0 +1,6 @@
+---@class UIElements.Justify @Defines the alignment along the main axis, how is extra space distributed.
+---@field FlexStart fun() @Items are packed toward the start line. Default Value.
+---@field FlexEnd fun() @Items are packed toward the end line.
+---@field SpaceBetween fun() @Items are evenly distributed in the line; first item is on the start line, last item on the end line.
+---@field SpaceAround fun() @Items are evenly distributed in the line with equal space around them.
+---@field Center fun() @Items are centered along the line.

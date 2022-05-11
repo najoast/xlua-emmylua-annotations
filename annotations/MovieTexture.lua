@@ -1,0 +1,9 @@
+---@class MovieTexture @MovieTexture has been removed. Use VideoPlayer instead.
+---@field audioClip fun() @MovieTexture has been removed. Use VideoPlayer instead.
+---@field Stop fun() @MovieTexture has been removed. Use VideoPlayer instead.
+---@field duration fun() @MovieTexture has been removed. Use VideoPlayer instead.
+---@field Pause fun() @MovieTexture has been removed. Use VideoPlayer instead.
+---@field isPlaying fun() @MovieTexture has been removed. Use VideoPlayer instead.
+---@field Play fun() @MovieTexture has been removed. Use VideoPlayer instead.
+---@field loop fun() @MovieTexture has been removed. Use VideoPlayer instead.
+---@field isReadyToPlay fun() @MovieTexture has been removed. Use VideoPlayer instead.

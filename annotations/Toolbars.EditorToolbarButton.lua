@@ -1,0 +1,4 @@
+---@class Toolbars.EditorToolbarButton @A clickable button used with EditorToolbarElementAttribute.
+---@field text fun() @The text associated with the element.
+---@field icon fun() @The icon associated with the element.
+---@field ctor fun() @Constructor.

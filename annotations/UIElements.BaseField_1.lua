@@ -1,0 +1,17 @@
+---@class UIElements.BaseField_1 @Abstract base class for controls.
+---@field noLabelVariantUssClassName fun() @USS class name of elements of this type, when there is no label.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field UxmlTraits UIElements.BaseField_1.UxmlTraits @Defines UxmlTraits for the BaseField.
+---@field UpdateMixedValueContent fun() @Update the field's visual content depending on showMixedValue.
+---@field label fun() @The string representing the label that will appear beside the field.
+---@field labelElement fun() @This is the Label object that appears beside the input for the field.
+---@field SetValueWithoutNotify fun() @Allow to set a value without being notified of the change, if any.
+---@field mixedValueLabel fun() @Read-only label used to give the appearance of editing multiple different values.
+---@field rawValue fun() @The value of the element.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field mixedValueLabelUssClassName fun() @USS class name of elements that show mixed values
+---@field alignedFieldUssClassName fun() @USS class name of elements that are aligned in a inspector element
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field value fun() @The value associated with the field.
+---@field labelDraggerVariantUssClassName fun() @USS class name of labels in elements of this type, when there is a dragger attached on them.
+---@field showMixedValue fun() @When set to true, gives the field the appearance of editing multiple different values.

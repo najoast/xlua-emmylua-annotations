@@ -1,0 +1,6 @@
+---@class Ray2D @A ray in 2D space.
+---@field ToString fun() @Returns a formatted string for this 2D ray.
+---@field ctor fun() @Creates a 2D ray starting at origin along direction.
+---@field GetPoint fun() @Get a point that lies a given distance along a ray.
+---@field direction fun() @The direction of the ray in world space.
+---@field origin fun() @The starting point of the ray in world space.

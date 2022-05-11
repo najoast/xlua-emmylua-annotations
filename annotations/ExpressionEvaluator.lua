@@ -1,0 +1,2 @@
+---@class ExpressionEvaluator @Evaluates simple math expressions; supports int / float and operators: + - * / % ^ ( ).
+---@field Evaluate fun() @Evaluates a math expression and returns the result.

@@ -1,0 +1,3 @@
+---@class PackageManager.GitInfo @Identifies a specific revision for a Git package using a Git commit hash.
+---@field hash fun() @Returns the resolved Git commit hash for the requested revision for this package.
+---@field revision fun() @Returns the requested Git revision for the Git package.

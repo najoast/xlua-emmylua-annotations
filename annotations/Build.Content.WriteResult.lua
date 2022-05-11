@@ -1,0 +1,5 @@
+---@class Build.Content.WriteResult @Struct containing the results from the ContentBuildPipeline.WriteSerialziedFile and ContentBuildPipeline.WriteSceneSerialziedFile APIs.
+---@field includedSerializeReferenceFQN fun() @SerializeReference instances fully qualified name which were included in the serialized file.
+---@field resourceFiles fun() @Collection of files written by the ContentBuildInterface.WriteSerializedFile or ContentBuildInterface.WriteSceneSerializedFile APIs.
+---@field includedTypes fun() @Types that were included in the serialized file.
+---@field serializedObjects fun() @Collection of objects written to the serialized file.

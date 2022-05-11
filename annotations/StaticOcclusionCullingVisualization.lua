@@ -1,0 +1,7 @@
+---@class StaticOcclusionCullingVisualization @Used to visualize static occlusion culling at development time in Scene view.
+---@field showOcclusionCulling fun() @If set to true, visualization of target volumes is enabled.
+---@field showVisibilityLines fun() @If set to true, visualization of portals is enabled.
+---@field showGeometryCulling fun() @If set to true, culling of geometry is enabled.
+---@field showPortals fun() @If set to true, visualization of portals is enabled.
+---@field showPreVisualization fun() @If set to true, the visualization lines of the PVS volumes will show all cells rather than cells after culling.
+---@field showViewVolumes fun() @If set to true, visualization of view volumes is enabled.

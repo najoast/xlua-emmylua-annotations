@@ -1,0 +1,6 @@
+---@class Build.Player.ScriptCompilationSettings @Struct containing information on how to build scripts.
+---@field subtarget fun() @Subtarget for which scripts will be compiled.
+---@field extraScriptingDefines fun() @User-specified preprocessor defines used while compiling assemblies.
+---@field options fun() @Specific compiler options to use when compiling scripts.
+---@field group fun() @Platform group for which scripts will be compiled.
+---@field target fun() @Platform group for which scripts will be compiled.

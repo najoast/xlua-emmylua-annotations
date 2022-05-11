@@ -1,0 +1,4 @@
+---@class Profiling.FrameDataView.MarkerMetadataInfo @Marker metadata descriptor.
+---@field name fun() @Metadata parameter name.
+---@field unit fun() @Metadata unit.
+---@field type fun() @Metadata type.

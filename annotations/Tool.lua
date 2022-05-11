@@ -1,0 +1,9 @@
+---@class Tool @Which tool is active in the editor.
+---@field Rect fun() @The rect tool is active.
+---@field Transform fun() @The transform tool is active.
+---@field Scale fun() @The scale tool is active.
+---@field Rotate fun() @The rotate tool is active.
+---@field None fun() @No tool is active. Set this to implement your own in-inspector toolbar (like the terrain editor does).
+---@field Custom fun() @Any tool that is not one of the built-in tools.
+---@field View fun() @The view tool is active - Use Tools.viewTool to find out which view tool we're talking about.
+---@field Move fun() @The move tool is active.

@@ -1,0 +1,2 @@
+---@class Build.IPostprocessBuildWithReport @Implement this interface to receive a callback after the build is complete.
+---@field OnPostprocessBuild fun() @Implement this function to receive a callback after the build is complete.

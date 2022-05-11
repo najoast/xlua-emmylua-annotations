@@ -1,0 +1,9 @@
+---@class Search.SearchColumnEventArgs @Search column event arguments are used by SearchColumn.getter, SearchColumn.drawer and SearchColumn.setter delegates.
+---@field item fun() @Search item currently being used for the event.
+---@field value fun() @Value obtained from SearchColumn.getter before calling SearchColumn.drawer.
+---@field selected fun() @Indicates if the search result is currently selected.
+---@field rect fun() @UnityEngine.Rect used to indicate the drawing boudaries of the SearchColumn.drawer event.
+---@field multiple fun() @Indicates if multiple search results are currently selected when processing the current event.
+---@field focused fun() @Indicates if the search column cell is currently focused.
+---@field context fun() @Search context being used for the current event.
+---@field column fun() @Search column being handled by the current event.

@@ -1,0 +1,7 @@
+---@class Rendering.LightEvent @Defines a place in light's rendering to attach Rendering.CommandBuffer objects to.
+---@field BeforeShadowMapPass fun() @Before shadowmap pass is rendered.
+---@field BeforeScreenspaceMask fun() @Before directional light screenspace shadow mask is computed.
+---@field AfterShadowMapPass fun() @After shadowmap pass is rendered.
+---@field AfterScreenspaceMask fun() @After directional light screenspace shadow mask is computed.
+---@field AfterShadowMap fun() @After shadowmap is rendered.
+---@field BeforeShadowMap fun() @Before shadowmap is rendered.

@@ -1,0 +1,24 @@
+---@class Rect @A 2D Rectangle defined by X and Y position, width and height.
+---@field y fun() @The Y coordinate of the rectangle.
+---@field x fun() @The X coordinate of the rectangle.
+---@field ctor fun() @Creates a new rectangle.
+---@field width fun() @The width of the rectangle, measured from the X position.
+---@field max fun() @The position of the maximum corner of the rectangle.
+---@field position fun() @The X and Y position of the rectangle.
+---@field NormalizedToPoint fun() @Returns a point inside a rectangle, given normalized coordinates.
+---@field height fun() @The height of the rectangle, measured from the Y position.
+---@field center fun() @The position of the center of the rectangle.
+---@field zero fun() @Shorthand for writing new Rect(0,0,0,0).
+---@field size fun() @The width and height of the rectangle.
+---@field yMin fun() @The minimum Y coordinate of the rectangle.
+---@field PointToNormalized fun() @Returns the normalized coordinates cooresponding the the point.
+---@field Overlaps fun() @Returns true if the other rectangle overlaps this one. If allowInverse is present and true, the widths and heights of the Rects are allowed to take negative values (ie, the min value is greater than the max), and the test will still work.
+---@field operator_eq fun() @Returns true if the rectangles are the same.
+---@field ToString fun() @Returns a formatted string for this Rect.
+---@field Contains fun() @Returns true if the x and y components of point is a point inside this rectangle. If allowInverse is present and true, the width and height of the Rect are allowed to take negative values (ie, the min value is greater than the max), and the test will still work.
+---@field MinMaxRect fun() @Creates a rectangle from min/max coordinate values.
+---@field xMin fun() @The minimum X coordinate of the rectangle.
+---@field Set fun() @Set components of an existing Rect.
+---@field yMax fun() @The maximum Y coordinate of the rectangle.
+---@field xMax fun() @The maximum X coordinate of the rectangle.
+---@field min fun() @The position of the minimum corner of the rectangle.

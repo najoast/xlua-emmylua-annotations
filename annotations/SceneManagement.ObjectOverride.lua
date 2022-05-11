@@ -1,0 +1,6 @@
+---@class SceneManagement.ObjectOverride @Class with information about an object on a Prefab instance with overridden properties.
+---@field Apply fun() @See PrefabOverride.Apply.
+---@field coupledOverride fun() @Access the coupled component modifications of the object being overidden, if present.
+---@field instanceObject fun() @The object on the Prefab instance.
+---@field Revert fun() @See PrefabOverride.Revert.
+---@field GetAssetObject fun() @See PrefabOverride.GetAssetObject.

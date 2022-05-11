@@ -1,0 +1,4 @@
+---@class SceneManagement.LoadSceneParameters @This struct collects all the LoadScene parameters in to a single place.
+---@field loadSceneMode fun() @See LoadSceneMode.
+---@field ctor fun() @Constructor for LoadSceneParameters. See SceneManager.LoadScene.
+---@field localPhysicsMode fun() @See SceneManagement.LocalPhysicsMode.

@@ -1,0 +1,3 @@
+---@class Animations.AnimationMixerPlayable @An implementation of IPlayable that controls an animation mixer.
+---@field Create fun() @Creates an AnimationMixerPlayable in the PlayableGraph.
+---@field Null fun() @Returns an invalid AnimationMixerPlayable.

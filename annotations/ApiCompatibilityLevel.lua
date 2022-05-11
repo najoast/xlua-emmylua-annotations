@@ -1,0 +1,9 @@
+---@class ApiCompatibilityLevel @.NET API compatibility level.
+---@field NET_2_0_Subset fun() @.NET 2.0 Subset.
+---@field NET_Web fun() @Web profile, formerly used only by Samsung TV.
+---@field NET_Unity_4_8 fun() @Profile that targets the union of the .NET Framework 4.8 and .NET Standard 2.1 API
+---@field NET_Standard fun() @Profile that targets the .NET Standard 2.1.
+---@field NET_4_6 fun() @Deprecated, use ApiCompatibilityLevel.NET_Unity_4_8 instead.
+---@field NET_Standard_2_0 fun() @Deprecated, use ApiCompatibilityLevel.NET_Standard instead.
+---@field NET_Micro fun() @Micro profile, used by Mono scripting backend on iOS, tvOS, and Android if stripping level is set to Use micro mscorlib.
+---@field NET_2_0 fun() @.NET 2.0.

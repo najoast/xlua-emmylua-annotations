@@ -1,0 +1,3 @@
+---@class iOS.Xcode.PlistElementString @Represents a string element in plist document.
+---@field ctor fun() @Creates new string element.
+---@field value fun() @The value stored in the string element.

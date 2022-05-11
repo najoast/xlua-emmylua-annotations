@@ -1,0 +1,2 @@
+---@class ExcludeFromObjectFactoryAttribute @Add this attribute to a class to prevent the class and its inherited classes from being created with ObjectFactory methods.
+---@field ctor fun() @Default constructor.

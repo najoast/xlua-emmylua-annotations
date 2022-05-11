@@ -1,0 +1,10 @@
+---@class CustomRenderTextureManager @Custom Render Texture Manager.
+---@field GetAllCustomRenderTextures fun() @Populate the list in parameter with all currently loaded custom render textures.
+---@field textureUnloaded fun() @Unity raises this event when it unloads a CustomRenderTexture.
+---@field initializeTriggered fun() @Unity raises this event when CustomRenderTexture.Initialize is called.
+---@field updateTriggered fun() @Unity raises this event when CustomRenderTexture.Update is called.
+---@field onInitializeTriggered fun() @Unity raises this event when CustomRenderTexture.Initialize is called.
+---@field onUpdateTriggered fun() @Unity raises this event when CustomRenderTexture.Update is called.
+---@field onTextureLoaded fun() @Unity raises this event when it loads a CustomRenderTexture.
+---@field onTextureUnloaded fun() @Unity raises this event when it unloads a CustomRenderTexture.
+---@field textureLoaded fun() @Unity raises this event when it loads a CustomRenderTexture.

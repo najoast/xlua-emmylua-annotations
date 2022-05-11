@@ -1,0 +1,9 @@
+---@class Rendering.ShaderType @Identifies the stage in the rendering pipeline.
+---@field Vertex fun() @Identifier for the vertex Shader stage.
+---@field Domain fun() @Identifier for the domain Shader stage.
+---@field Count fun() @The number of ShaderTypes that Unity supports.
+---@field Geometry fun() @Identifier for the geometry Shader stage.
+---@field Hull fun() @Identifier for the hull Shader stage.
+---@field Surface fun() @Identifier for the surface Shader stage.
+---@field Fragment fun() @Identifier for the fragment Shader stage.
+---@field RayTracing fun() @Identifier for the ray tracing Shader stage.

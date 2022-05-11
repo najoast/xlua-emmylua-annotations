@@ -1,0 +1,4 @@
+---@class ParticleSystemColliderQueryMode @Whether collider information is available when using the [[ParticleSystem::GetTriggerParticles]] method.
+---@field All fun() @[[ParticleSystem::GetTriggerParticles]] returns all colliders that each particle is interacting with.
+---@field One fun() @[[ParticleSystem::GetTriggerParticles]] may only return one collider that each particle is interacting with.
+---@field Disabled fun() @[[ParticleSystem::GetTriggerParticles]] does not return any information about which colliders each particle is interacting with.

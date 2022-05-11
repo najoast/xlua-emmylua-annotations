@@ -1,0 +1,8 @@
+---@class Handheld @Interface into functionality unique to handheld devices.
+---@field PlayFullScreenMovie fun() @Plays a full-screen movie.
+---@field GetActivityIndicatorStyle fun() @Gets the current activity indicator style.
+---@field Vibrate fun() @Triggers device vibration.
+---@field StartActivityIndicator fun() @Starts os activity indicator.
+---@field SetActivityIndicatorStyle fun() @Sets the desired activity indicator style.
+---@field StopActivityIndicator fun() @Stops os activity indicator.
+---@field use32BitDisplayBuffer fun() @Determines whether or not a 32-bit display buffer will be used.

@@ -1,0 +1,68 @@
+---@class Material @The material class.
+---@field GetPassName fun() @Returns the name of the shader pass at index pass.
+---@field SetFloat fun() @Sets a named float value.
+---@field SetTextureOffset fun() @Sets the placement offset of texture propertyName.
+---@field SetInteger fun() @Sets a named integer value.
+---@field shaderKeywords fun() @An array containing names of the local shader keywords that are currently enabled for this material.
+---@field SetColorArray fun() @Sets a color array property.
+---@field GetFloat fun() @Get a named float value.
+---@field IsKeywordEnabled fun() @Checks whether a local shader keyword is enabled for this material.
+---@field passCount fun() @How many passes are in this material (Read Only).
+---@field GetTextureScale fun() @Gets the placement scale of texture propertyName.
+---@field GetShaderPassEnabled fun() @Checks whether a given Shader pass is enabled on this Material.
+---@field globalIlluminationFlags fun() @Defines how the material should interact with lightmaps and lightprobes.
+---@field GetInteger fun() @Get a named integer value.
+---@field SetShaderPassEnabled fun() @Enables or disables a Shader pass on a per-Material level.
+---@field GetInt fun() @This method is deprecated. Use GetFloat or GetInteger instead.
+---@field GetTag fun() @Get the value of material's shader tag.
+---@field GetTexturePropertyNameIDs fun() @Return the name IDs of all texture properties exposed on this material.
+---@field FindPass fun() @Returns the index of the pass passName.
+---@field GetVectorArray fun() @Get a named vector array.
+---@field SetOverrideTag fun() @Sets an override tag/value on the material.
+---@field SetConstantBuffer fun() @Sets a ComputeBuffer or GraphicsBuffer as a named constant buffer for the material.
+---@field SetBuffer fun() @Sets a named buffer value.
+---@field EnableKeyword fun() @Enables a local shader keyword for this material.
+---@field HasBuffer fun() @Checks if the ShaderLab file assigned to the Material has a ComputeBuffer property with the given name.
+---@field HasInteger fun() @Checks if the ShaderLab file assigned to the Material has an Integer property with the given name.
+---@field ComputeCRC fun() @Computes a CRC hash value from the content of the material.
+---@field color fun() @The main color of the Material.
+---@field DisableKeyword fun() @Disables a local shader keyword for this material.
+---@field GetMatrixArray fun() @Get a named matrix array.
+---@field SetMatrixArray fun() @Sets a matrix array property.
+---@field GetTexture fun() @Get a named texture.
+---@field enabledKeywords fun() @An array containing the local shader keywords that are currently enabled for this material.
+---@field HasConstantBuffer fun() @Checks if the ShaderLab file assigned to the Material has a ConstantBuffer property with the given name.
+---@field HasVector fun() @Checks if the ShaderLab file assigned to the Material has a Vector property with the given name. This also works with the Vector Array property.
+---@field GetMatrix fun() @Get a named matrix value from the shader.
+---@field HasProperty fun() @Checks if the ShaderLab file assigned to the Material has a property with the given name.
+---@field CopyPropertiesFromMaterial fun() @Copy properties from other material into this material.
+---@field SetMatrix fun() @Sets a named matrix for the shader.
+---@field mainTextureOffset fun() @The offset of the main texture.
+---@field SetTexture fun() @Sets a named texture.
+---@field SetPass fun() @Activate the given pass for rendering.
+---@field mainTexture fun() @The main texture.
+---@field ctor fun() @
+---@field SetVector fun() @Sets a named vector value.
+---@field GetTexturePropertyNames fun() @Returns the names of all texture properties exposed on this material.
+---@field SetVectorArray fun() @Sets a vector array property.
+---@field GetFloatArray fun() @Get a named float array.
+---@field SetTextureScale fun() @Sets the placement scale of texture propertyName.
+---@field renderQueue fun() @Render queue of this material.
+---@field HasInt fun() @This method is deprecated. Use HasFloat or HasInteger instead.
+---@field shader fun() @The shader used by the material.
+---@field enableInstancing fun() @Gets and sets whether GPU instancing is enabled for this material.
+---@field GetTextureOffset fun() @Gets the placement offset of texture propertyName.
+---@field doubleSidedGI fun() @Gets and sets whether the Double Sided Global Illumination setting is enabled for this material.
+---@field GetColorArray fun() @Get a named color array.
+---@field SetKeyword fun() @Sets the state of a local shader keyword for this material.
+---@field SetColor fun() @Sets a named color value.
+---@field HasFloat fun() @Checks if the ShaderLab file assigned to the Material has a Float property with the given name. This also works with the Float Array property.
+---@field SetInt fun() @This method is deprecated. Use SetFloat or SetInteger instead.
+---@field SetFloatArray fun() @Sets a float array property.
+---@field GetColor fun() @Get a named color value.
+---@field HasColor fun() @Checks if the ShaderLab file assigned to the Material has a Color property with the given name.
+---@field mainTextureScale fun() @The scale of the main texture.
+---@field Lerp fun() @Interpolate properties between two materials.
+---@field HasTexture fun() @Checks if the ShaderLab file assigned to the Material has a Texture property with the given name.
+---@field HasMatrix fun() @Checks if the ShaderLab file assigned to the Material has a Matrix property with the given name. This also works with the Matrix Array property.
+---@field GetVector fun() @Get a named vector value.

@@ -1,0 +1,6 @@
+---@class Experimental.Playables @nil
+---@field TextureMixerPlayable Experimental.Playables.TextureMixerPlayable @An implementation of IPlayable that allows mixing two textures.
+---@field TexturePlayableOutput Experimental.Playables.TexturePlayableOutput @An IPlayableOutput implementation that will be used to manipulate textures.
+---@field MaterialEffectPlayable Experimental.Playables.MaterialEffectPlayable @An implementation of IPlayable that allows application of a Material shader to one or many texture inputs to produce a texture output.
+---@field TexturePlayableBinding Experimental.Playables.TexturePlayableBinding @A PlayableBinding that contains information representing a TexturePlayableOutput.
+---@field CameraPlayable Experimental.Playables.CameraPlayable @An implementation of IPlayable that produces a Camera texture.

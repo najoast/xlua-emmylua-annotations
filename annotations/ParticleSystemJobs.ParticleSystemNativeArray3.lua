@@ -1,0 +1,4 @@
+---@class ParticleSystemJobs.ParticleSystemNativeArray3 @A container to hold x, y, and z-axis data for particles.
+---@field y fun() @The y-axis value for each particle.
+---@field x fun() @The x-axis value for each particle.
+---@field z fun() @The z-axis value for each particle.

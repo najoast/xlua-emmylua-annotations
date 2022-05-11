@@ -1,0 +1,4 @@
+---@class PlayerSettings.SplashScreen.AnimationMode @The type of animation applied during the Splash Screen.
+---@field Custom fun() @Animates the Splash Screen using custom values from PlayerSettings.SplashScreen.animationBackgroundZoom and PlayerSettings.SplashScreen.animationLogoZoom.
+---@field Dolly fun() @Animates the Splash Screen with a simulated dolly effect.
+---@field Static fun() @No animation is applied to the Splash Screen logo or background.

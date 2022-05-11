@@ -1,0 +1,4 @@
+---@class Unity.Profiling.Editor.ProfilerCounterDescriptor @Provides a descriptor for a Profiler counter.
+---@field Name fun() @The name of the described Profiler counter.
+---@field ctor fun() @Initializes and returns an instance of ProfilerCounterDescriptor.
+---@field CategoryName fun() @The category name of the described Profiler counter.

@@ -1,0 +1,4 @@
+---@class Analytics.Gender @User Demographics: Gender of a user.
+---@field Unknown fun() @User Demographics: Unknown Gender of a user.
+---@field Female fun() @User Demographics: Female Gender of a user.
+---@field Male fun() @User Demographics: Male Gender of a user.

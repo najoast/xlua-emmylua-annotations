@@ -1,0 +1,4 @@
+---@class LightRenderMode @How the Light is rendered.
+---@field Auto fun() @Automatically choose the render mode.
+---@field ForceVertex fun() @Force the Light to be a vertex light.
+---@field ForcePixel fun() @Force the Light to be a pixel light.

@@ -1,0 +1,29 @@
+---@class AudioReverbPreset @Reverb presets used by the Reverb Zone class and the audio reverb filter.
+---@field SewerPipe fun() @Sewer pipe preset.
+---@field Drugged fun() @Drugged preset.
+---@field Dizzy fun() @Dizzy preset.
+---@field Plain fun() @Plain preset.
+---@field City fun() @City preset.
+---@field Room fun() @Room preset.
+---@field Forest fun() @Forest preset.
+---@field Alley fun() @Alley preset.
+---@field Mountains fun() @Mountains preset.
+---@field User fun() @User defined preset.
+---@field Concerthall fun() @Concert hall preset.
+---@field Cave fun() @Cave preset.
+---@field Auditorium fun() @Auditorium preset.
+---@field Livingroom fun() @Livingroom preset.
+---@field PaddedCell fun() @Padded cell preset.
+---@field Psychotic fun() @Psychotic preset.
+---@field ParkingLot fun() @Parking Lot preset.
+---@field Quarry fun() @Quarry preset.
+---@field Hangar fun() @Hangar preset.
+---@field Underwater fun() @Underwater presset.
+---@field Arena fun() @Arena preset.
+---@field Hallway fun() @Hallway preset.
+---@field CarpetedHallway fun() @Carpeted hallway preset.
+---@field StoneCorridor fun() @Stone corridor preset.
+---@field Off fun() @No reverb preset selected.
+---@field Stoneroom fun() @Stoneroom preset.
+---@field Generic fun() @Generic preset.
+---@field Bathroom fun() @Bathroom preset.

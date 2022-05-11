@@ -1,0 +1,7 @@
+---@class UIElements.Slider @A slider containing floating point values.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field ctor fun() @Constructor.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field UxmlFactory fun() @Instantiates a Slider using the data read from a UXML file.
+---@field UxmlTraits UIElements.Slider.UxmlTraits @Defines UxmlTraits for the Slider.

@@ -1,0 +1,8 @@
+---@class AreaEffector2D @Applies forces within an area.
+---@field forceAngle fun() @The angle of the force to be applied.
+---@field forceVariation fun() @The variation of the magnitude of the force to be applied.
+---@field drag fun() @The linear drag to apply to rigid-bodies.
+---@field useGlobalAngle fun() @Should the forceAngle use global space?
+---@field forceMagnitude fun() @The magnitude of the force to be applied.
+---@field forceTarget fun() @The target for where the effector applies any force.
+---@field angularDrag fun() @The angular drag to apply to rigid-bodies.

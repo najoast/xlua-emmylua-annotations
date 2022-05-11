@@ -1,0 +1,4 @@
+---@class iOS.Xcode.XcScheme.MetalValidation @Metal API Validation.
+---@field Extended fun() @Extended.
+---@field Enabled fun() @Enabled.
+---@field Disabled fun() @Disabled.

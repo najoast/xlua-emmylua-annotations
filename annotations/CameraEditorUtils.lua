@@ -1,0 +1,10 @@
+---@class CameraEditorUtils @Utilities for cameras.
+---@field GameViewAspectRatio fun() @The aspect ratio of the game view.
+---@field DrawFrustumGizmo fun() @Draw the frustrum gizmo of a camera.
+---@field TryGetSensorGateFrustum fun() @Calculate the frustrum corners from the sensor physical properties, without taking gate fitting into account.To get the actual frustum with gate fit adjustment, use CameraEditorUtils.TryGetFrustum.This method is equivalent to CameraEditorUtils.TryGetFrustum for non-physical cameras.Corners are calculated in this order: left bottom, left top, right top, right bottom.
+---@field PerspectiveClipToWorld fun() @Calculate the world space position of a point in clip space.The z component will be used to get the point at the distance z from the viewer.
+---@field HandleFrustum fun() @Draw the frustrum handles for a camera.
+---@field IsViewportRectValidToRender fun() @Check whether a viewport is valid.
+---@field TryGetFrustum fun() @Calculate the frustrum corners.Corners are calculated in this order: left bottom, left top, right top, right bottom.
+---@field GetFrustumPlaneAt fun() @Calculate the points of the frustrum plane facing the viewer at a specific distance.The points array will be filled with the calculated points in the following order: left bottom, left top, right top and right bottom.
+---@field GetFrustumAspectRatio fun() @Calculate the frustrum aspect ratio of a camera.

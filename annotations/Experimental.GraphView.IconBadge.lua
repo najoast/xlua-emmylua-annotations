@@ -1,0 +1,11 @@
+---@class Experimental.GraphView.IconBadge @A rectangular badge, usually attached to another visual element.
+---@field CreateError fun() @Creates an IconBadge with the error visual style.
+---@field ctor fun() @Creates a basic comment badge.
+---@field CreateComment fun() @Creates an IconBadge with the comment visual style.
+---@field distance fun() @Distance between the badge and its target element.
+---@field Detach fun() @Detaches this badge from its target.
+---@field visualStyle fun() @The visual style for the badge. Built-in values are error and comment.
+---@field alignment fun() @Relative alignment between the badge and its target. The alignment will influence icon and tip position.
+---@field target fun() @Target element to which this badge is attached.
+---@field AttachTo fun() @Attaches this badge to another element.
+---@field badgeText fun() @Text displayed next to the badge on mouse hover.

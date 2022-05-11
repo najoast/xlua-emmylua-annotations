@@ -1,0 +1,6 @@
+---@class PlayerSettings.SplashScreenLogo @A single logo that is shown during the Splash Screen. Controls the Sprite that is displayed and its duration.
+---@field unityLogo fun() @The Unity logo Sprite.
+---@field duration fun() @The total time in seconds for which the logo is shown. The minimum duration is 2 seconds.
+---@field logo fun() @The Sprite that is shown during this logo. If this is null, then no logo will be displayed for the duration.
+---@field CreateWithUnityLogo fun() @Creates a new Splash Screen logo with the provided duration and the unity logo.
+---@field Create fun() @Creates a new Splash Screen logo with the provided duration and logo Sprite.

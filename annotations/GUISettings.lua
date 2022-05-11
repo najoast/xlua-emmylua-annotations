@@ -1,0 +1,6 @@
+---@class GUISettings @General settings for how the GUI behaves.
+---@field cursorColor fun() @The color of the cursor in text fields.
+---@field cursorFlashSpeed fun() @The speed of text field cursor flashes.
+---@field doubleClickSelectsWord fun() @Should double-clicking select words in text fields.
+---@field selectionColor fun() @The color of the selection rect in text fields.
+---@field tripleClickSelectsLine fun() @Should triple-clicking select whole text in text fields.

@@ -1,0 +1,5 @@
+---@class UIElements.UxmlTraits @Describes a VisualElement derived class for the parsing of UXML files and the generation of UXML schema definition.
+---@field Init fun() @Initialize a VisualElement instance with values from the UXML element attributes.
+---@field uxmlChildElementsDescription fun() @Describes the types of element that can appear as children of this element in a UXML file.
+---@field uxmlAttributesDescription fun() @Describes the UXML attributes expected by the element. The attributes enumerated here will appear in the UXML schema.
+---@field canHaveAnyAttribute fun() @Must return true if the UXML element attributes are not restricted to the values enumerated by uxmlAttributesDescription.

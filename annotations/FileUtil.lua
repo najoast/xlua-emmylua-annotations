@@ -1,0 +1,10 @@
+---@class FileUtil @Lets you do move, copy, delete operations over files or directories.
+---@field MoveFileOrDirectory fun() @Moves a file or a directory from a given path to another path.
+---@field CopyFileOrDirectory fun() @Copies a file or a directory.
+---@field GetLogicalPath fun() @Converts a physical path to a logical path.
+---@field ReplaceDirectory fun() @Replaces a directory.
+---@field CopyFileOrDirectoryFollowSymlinks fun() @Copies the file or directory.
+---@field GetPhysicalPath fun() @Converts a logical path to a physical path.
+---@field GetUniqueTempPathInProject fun() @Returns a unique path in the Temp folder within your current project.
+---@field DeleteFileOrDirectory fun() @Deletes a file or a directory given a path.
+---@field ReplaceFile fun() @Replaces a file.

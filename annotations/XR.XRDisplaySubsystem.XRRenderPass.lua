@@ -1,0 +1,11 @@
+---@class XR.XRDisplaySubsystem.XRRenderPass @Contains configuration parameters about which view into the Scene the renderer should rasterize, and a render target (which can be a texture array) for the result of the rasterization.
+---@field shouldFillOutDepth fun() @When this is false an optimal renderer can avoid resolving the depth buffer.
+---@field motionVectorRenderTargetDesc fun() @The render texture description for the target texture for the motion-vector render pass.
+---@field renderTarget fun() @The output target for the render pass.
+---@field renderTargetDesc fun() @Descriptor that can be passed to RenderTexture.GetTemporary to create temporary textures that match the XR Display render target.
+---@field cullingPassIndex fun() @An index that a render pipeline can pass to XR.XRDisplaySubsystem.GetCullingParameters to obtain culling information.
+---@field GetRenderParameterCount fun() @The number of XRRenderParameter entries for this XRRenderPass.
+---@field renderPassIndex fun() @The index of the render pass (originally passed in to XRDisplaySubsystem.GetRenderPass).
+---@field GetRenderParameter fun() @Gets an XRRenderParameter for a specific XRRenderPass.
+---@field motionVectorRenderTarget fun() @The output render-texture target for the motion-vector generation render pass.
+---@field hasMotionVectorPass fun() @A boolean indicating if this render pass contains a motion-vector generation pass.

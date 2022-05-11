@@ -1,0 +1,43 @@
+---@class Texture2D @Class that represents textures in C# code.
+---@field normalTexture fun() @Gets a small Texture with pixels that represent surface normal vectors at a neutral position.
+---@field whiteTexture fun() @Gets a small Texture with all white pixels.
+---@field format fun() @The format of the pixel data in the texture (Read Only).
+---@field desiredMipmapLevel fun() @The mipmap level that the streaming system would load before memory budgets are applied.
+---@field CreateExternalTexture fun() @Creates a Unity Texture out of an externally created native texture object.
+---@field Compress fun() @Compress texture at runtime to DXT/BCn or ETC formats.
+---@field loadingMipmapLevel fun() @The mipmap level that the mipmap streaming system is in the process of loading.
+---@field ClearRequestedMipmapLevel fun() @Resets the requestedMipmapLevel field.
+---@field blackTexture fun() @Gets a small Texture with all black pixels.
+---@field ClearMinimumMipmapLevel fun() @Resets the minimumMipmapLevel field.
+---@field EXRFlags Texture2D.EXRFlags @Flags used to control the encoding to an EXR file.
+---@field Reinitialize fun() @Reinitializes the Texture to width by height, format to format and optionally creates mip maps.After reinitializing, Texture pixels will be undefined. This function is very similar to the Texture constructor,except it works on existing Texture object.Call Apply to actually upload the changed pixels to the graphics card.Texture.isReadable must be true.
+---@field SetPixel fun() @Sets pixel color at coordinates (x,y).
+---@field Apply fun() @Actually apply all previous SetPixel and SetPixels changes.
+---@field grayTexture fun() @Gets a small Texture with all gray pixels.
+---@field GenerateAtlas fun() @Packs a set of rectangles into a square atlas, with optional padding between rectangles.
+---@field ReadPixels fun() @Reads the pixels from the current render target (the screen, or a RenderTexture), and writes them to the texture.
+---@field GetPixelData fun() @Gets raw data from a Texture for reading or writing.
+---@field minimumMipmapLevel fun() @Restricts the mipmap streaming system to a minimum mip level for this Texture.
+---@field vtOnly fun() @Returns true if the VTOnly checkbox was checked when the texture was imported; otherwise returns false. For additional information, see TextureImporter.vtOnly.
+---@field SetPixels32 fun() @Set a block of pixel colors.
+---@field GetPixelBilinear fun() @Returns filtered pixel color at normalized coordinates (u, v).
+---@field SetPixels fun() @Set a block of pixel colors.
+---@field SetPixelData fun() @Set pixel values from raw preformatted data.
+---@field streamingMipmaps fun() @Determines whether mipmap streaming is enabled for this Texture.
+---@field Resize fun() @Resizes the texture.
+---@field redTexture fun() @Gets a small Texture with all red pixels.
+---@field PackTextures fun() @Packs multiple Textures into a texture atlas.
+---@field GetPixels fun() @Retrieves a copy of the the pixel color data for a given mip level. The colors are represented by Color structs.
+---@field IsRequestedMipmapLevelLoaded fun() @Checks to see whether the mipmap level set by requestedMipmapLevel has finished loading.
+---@field linearGrayTexture fun() @Gets a small Texture with all gray pixels.
+---@field GetPixel fun() @Returns pixel color at coordinates (x, y).
+---@field ctor fun() @Create a new empty texture.
+---@field alphaIsTransparency fun() @Indicates whether this texture was imported with TextureImporter.alphaIsTransparency enabled. This setting is available only in the Editor scripts. Note that changing this setting will have no effect; it must be enabled in TextureImporter instead.
+---@field GetRawTextureData fun() @Get raw data from a texture for reading or writing.
+---@field UpdateExternalTexture fun() @Updates Unity texture to use different native texture object.
+---@field requestedMipmapLevel fun() @The mipmap level to load.
+---@field loadedMipmapLevel fun() @The mipmap level that is currently loaded by the streaming system.
+---@field calculatedMipmapLevel fun() @The mipmap level calculated by the streaming system, which takes into account the streaming Cameras and the location of the objects containing this Texture. This is unaffected by requestedMipmapLevel or minimumMipmapLevel.
+---@field streamingMipmapsPriority fun() @Sets the relative priority for this Texture when reducing memory size to fit within the memory budget.
+---@field GetPixels32 fun() @Retrieves a copy of the pixel color data at a given mip level. The colors are represented by lower-precision Color32 structs.
+---@field LoadRawTextureData fun() @Fills texture pixels with raw preformatted data.

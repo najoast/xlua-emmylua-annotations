@@ -1,0 +1,2 @@
+---@class RendererExtensions @Extension methods to the Renderer class, used only for the UpdateGIMaterials method used by the Global Illumination System.
+---@field UpdateGIMaterials fun() @Schedules an update of the albedo and emissive Textures of a system that contains the Renderer.

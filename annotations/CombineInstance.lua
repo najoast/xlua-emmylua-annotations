@@ -1,0 +1,6 @@
+---@class CombineInstance @Struct used to describe meshes to be combined using Mesh.CombineMeshes.
+---@field realtimeLightmapScaleOffset fun() @The real-time lightmap UV scale and offset applied to the Mesh.
+---@field lightmapScaleOffset fun() @The baked lightmap UV scale and offset applied to the Mesh.
+---@field transform fun() @Matrix to transform the Mesh with before combining.
+---@field subMeshIndex fun() @Sub-Mesh index of the Mesh.
+---@field mesh fun() @Mesh to combine.

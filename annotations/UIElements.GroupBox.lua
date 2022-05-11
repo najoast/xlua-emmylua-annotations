@@ -1,0 +1,7 @@
+---@class UIElements.GroupBox @This is an enclosing container for a group of IGroupBoxOption. All group options within this container will interact together to allow a single selection, using the DefaultGroupManager. Default options are RadioButton, but users can provide other implementations. If no IGroupBox is found in the hierarchy, the default container will be the panel.
+---@field labelUssClassName fun() @USS class name for Labels in GroupBox elements.
+---@field ctor fun() @Creates a GroupBox with no label.
+---@field ussClassName fun() @USS class name for GroupBox elements.
+---@field text fun() @The title text of the box.
+---@field UxmlFactory fun() @Instantiates a GroupBox using data from a UXML file.
+---@field UxmlTraits UIElements.GroupBox.UxmlTraits @Defines UxmlTraits for the GroupBox.

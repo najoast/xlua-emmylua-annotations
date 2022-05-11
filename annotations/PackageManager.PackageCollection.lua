@@ -1,0 +1,2 @@
+---@class PackageManager.PackageCollection @A collection of PackageManager.PackageInfo objects.
+---@field error fun() @The error associated with the package collection.

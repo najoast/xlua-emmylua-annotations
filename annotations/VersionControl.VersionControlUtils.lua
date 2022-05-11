@@ -1,0 +1,2 @@
+---@class VersionControl.VersionControlUtils @Contains version control system specific utility methods.
+---@field IsPathVersioned fun() @Allows you to check whether the specified file is tracked by version control.

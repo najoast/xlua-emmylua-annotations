@@ -1,0 +1,7 @@
+---@class Experimental.GlobalIllumination.LinearColor @Contains normalized linear color values for red, green, blue in the range of 0 to 1, and an additional intensity value.
+---@field Convert fun() @Converts a Light's color value to a normalized linear color value, automatically handling gamma conversion if necessary.
+---@field intensity fun() @The intensity value used to scale the red, green and blue values.
+---@field Black fun() @Returns a black color.
+---@field blue fun() @The blue color value in the range of 0.0 to 1.0.
+---@field green fun() @The green color value in the range of 0.0 to 1.0.
+---@field red fun() @The red color value in the range of 0.0 to 1.0.

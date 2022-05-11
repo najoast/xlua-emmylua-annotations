@@ -1,0 +1,11 @@
+---@class UIElements.UxmlAttributeDescription @Base class for describing an XML attribute.
+---@field use fun() @Whether the attribute is optional, required or prohibited.
+---@field TryGetValueFromBag fun() @Tries to get the attribute value from the attribute bag.
+---@field defaultValueAsString fun() @The default value for the attribute, as a string.
+---@field name fun() @The attribute name.
+---@field Use UIElements.UxmlAttributeDescription.Use @An enum to describe attribute use.
+---@field type fun() @Attribute type.
+---@field obsoleteNames fun() @A list of obsolete names for this attribute.
+---@field typeNamespace fun() @Attribute namespace.
+---@field GetValueFromBag fun() @Get the attribute value from the attribute bag.
+---@field restriction fun() @Restrictions on the possible values of the attribute.

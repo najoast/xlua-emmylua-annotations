@@ -1,0 +1,2 @@
+---@class Playables.Playable @Playables are customizable runtime objects that can be connected together and are contained in a PlayableGraph to create complex behaviours.
+---@field Null fun() @Returns an invalid Playable.

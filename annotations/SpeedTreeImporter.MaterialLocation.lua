@@ -1,0 +1,3 @@
+---@class SpeedTreeImporter.MaterialLocation @Material import location options.
+---@field InPrefab fun() @Unity imports materials as sub-assets.
+---@field External fun() @Extract the materials and textures from the model.

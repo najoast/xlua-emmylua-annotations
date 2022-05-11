@@ -1,0 +1,8 @@
+---@class Events.UnityEventBase @Abstract base class for UnityEvents.
+---@field SetPersistentListenerState fun() @Modify the execution state of a persistent listener.
+---@field GetPersistentEventCount fun() @Get the number of registered persistent listeners.
+---@field RemoveAllListeners fun() @Remove all non-persisent (ie created from script) listeners  from the event.
+---@field GetValidMethodInfo fun() @Given an object, function name, and a list of argument types; find the method that matches.
+---@field GetPersistentTarget fun() @Get the target component of the listener at index index.
+---@field GetPersistentMethodName fun() @Get the target method name of the listener at index index.
+---@field GetPersistentListenerState fun() @Returns the execution state of a persistent listener.

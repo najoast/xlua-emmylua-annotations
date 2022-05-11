@@ -1,0 +1,3 @@
+---@class UIElements.FocusController @Class in charge of managing the focus inside a Panel.
+---@field ctor fun() @Constructor.
+---@field focusedElement fun() @The currently focused VisualElement.

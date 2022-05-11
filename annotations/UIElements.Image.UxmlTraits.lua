@@ -1,0 +1,2 @@
+---@class UIElements.Image.UxmlTraits @Defines UxmlTraits for the Image.
+---@field uxmlChildElementsDescription fun() @Returns an empty enumerable, as images generally do not have children.

@@ -1,0 +1,14 @@
+---@class Rendering.DrawingSettings @Settings for ScriptableRenderContext.DrawRenderers.
+---@field overrideMaterial fun() @Sets the Material to use for all drawers that would render in this group.
+---@field ctor fun() @Create a draw settings struct.
+---@field mainLightIndex fun() @Configures what light should be used as main light.
+---@field maxShaderPasses fun() @The maxiumum number of passes that can be rendered in 1 DrawRenderers call.
+---@field shaderPassName fun() @Which shader pass to use.
+---@field fallbackMaterial fun() @Sets the Material to use for any drawers in this group that don't meet the requirements.
+---@field SetShaderPassName fun() @Set the shader passes that this draw call can render.
+---@field GetShaderPassName fun() @Get the shader passes that this draw call can render.
+---@field sortingSettings fun() @How to sort objects during rendering.
+---@field enableInstancing fun() @Controls whether instancing is enabled.
+---@field overrideMaterialPassIndex fun() @Selects which pass of the override material to use.
+---@field perObjectData fun() @What kind of per-object data to setup during rendering.
+---@field enableDynamicBatching fun() @Controls whether dynamic batching is enabled.

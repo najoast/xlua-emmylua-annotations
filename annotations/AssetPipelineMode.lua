@@ -1,0 +1,3 @@
+---@class AssetPipelineMode @Selects the Assetpipeline mode to use.
+---@field Version2 fun() @Use this if you want to use assetpipeline version 2.
+---@field Version1 fun() @Use this if you want to use assetpipeline version 1.

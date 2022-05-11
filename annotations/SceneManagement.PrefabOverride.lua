@@ -1,0 +1,5 @@
+---@class SceneManagement.PrefabOverride @Class with information about a given override on a Prefab instance.
+---@field Apply fun() @Applies the override to the Prefab Asset at the given path.
+---@field FindApplyTargetAssetObject fun() @Finds the object in the Prefab Asset at the given path which will be applied to.
+---@field Revert fun() @Reverts the override on the Prefab instance.
+---@field GetAssetObject fun() @Returns the asset object of the override in the outermost Prefab that the Prefab instance comes from.

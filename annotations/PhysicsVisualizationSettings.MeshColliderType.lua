@@ -1,0 +1,3 @@
+---@class PhysicsVisualizationSettings.MeshColliderType @Is a MeshCollider convex.
+---@field NonConvex fun() @Corresponds to MeshCollider.convex is false.
+---@field Convex fun() @Corresponds to MeshCollider.convex is true.

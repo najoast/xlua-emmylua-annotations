@@ -1,0 +1,6 @@
+---@class AndroidShowActivityIndicatorOnLoading @Application should show ActivityIndicator when loading.
+---@field DontShow fun() @Don't Show.
+---@field Small fun() @Small.
+---@field Large fun() @Large.
+---@field InversedLarge fun() @Inversed Large.
+---@field InversedSmall fun() @Inversed Small.

@@ -1,0 +1,6 @@
+---@class LocalizationAsset @An asset to represent a table of localized strings for one specific locale.
+---@field SetLocalizedString fun() @Set the localized string for the specified key
+---@field ctor fun() @Creates a new empty LocalizationAsset object.
+---@field localeIsoCode fun() @ISO Code used to identify the locale. ex: en-uk, zh-hans, ja
+---@field GetLocalizedString fun() @Get the localized string for the specified key.
+---@field isEditorAsset fun() @Is this asset used to localize UI components of the Unity Editor

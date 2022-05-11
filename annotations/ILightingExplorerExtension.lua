@@ -1,0 +1,4 @@
+---@class ILightingExplorerExtension @Interface for when you extend the Lighting Explorer. Used in full overrides of the default behavior.
+---@field GetContentTabs fun() @Returns the tabs that you have selected to display in the Lighting Explorer.
+---@field OnDisable fun() @This is called when the Lighting Explorer OnDisable is called, or when you switch to another extension.
+---@field OnEnable fun() @This is called when the Lighting Explorer OnEnable is called, or when you switch to another extension.

@@ -1,0 +1,8 @@
+---@class UIElements.PointerId @A static class that holds pointer ID values.
+---@field mousePointerId fun() @The mouse pointer ID.
+---@field invalidPointerId fun() @Represents an invalid pointer ID value.
+---@field touchPointerCount fun() @The number of touch pointers the implementation supports.
+---@field touchPointerIdBase fun() @The base ID for touch pointers.
+---@field penPointerIdBase fun() @The base ID for pen pointers.
+---@field maxPointers fun() @The maximum number of pointers the implementation supports.
+---@field penPointerCount fun() @The number of pen pointers the implementation supports.

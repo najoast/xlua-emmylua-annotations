@@ -1,0 +1,4 @@
+---@class ScreenCapture.StereoScreenCaptureMode @Enumeration specifying the eye texture to capture when using ScreenCapture.CaptureScreenshot and when stereo rendering is enabled.
+---@field RightEye fun() @The Right Eye is captured.
+---@field BothEyes fun() @Both the left and right eyes are captured and composited into one image.
+---@field LeftEye fun() @The Left Eye is captured. This is the default setting for the CaptureScreenshot method.

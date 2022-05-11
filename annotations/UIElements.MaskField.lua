@@ -1,0 +1,9 @@
+---@class UIElements.MaskField @Make a field for masks.
+---@field formatSelectedValueCallback fun() @Callback that provides a string representation used to display the selected value.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.
+---@field ctor fun() @Initializes and returns an instance of MaskField.
+---@field UxmlFactory fun() @Instantiates a MaskField using the data read from a UXML file.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field formatListItemCallback fun() @Callback that provides a string representation used to populate the popup menu.
+---@field UxmlTraits UIElements.MaskField.UxmlTraits @Defines UxmlTraits for the MaskField.

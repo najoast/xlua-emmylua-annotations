@@ -1,0 +1,5 @@
+---@class Build.Reporting.PackedAssets @An extension to the BuildReport class that tracks how Assets contribute to the size of the build.
+---@field shortPath fun() @The file path to the Asset package, relative to the Data folder of the build.
+---@field contents fun() @An array of PackedAssetInfo objects that holds information about the Assets that are included in the PackedAssets bundle, such as packed Asset size and type.
+---@field file fun() @The identifier of the BuildFile that holds the contents of the packed Asset file.
+---@field overhead fun() @The header size of the packed Asset file.

@@ -1,0 +1,4 @@
+---@class EnterPlayModeOptions @Determines the flags for the Enter Play Mode Options in the Unity Editor.
+---@field None fun() @This makes Unity reload the .NET Application Domain and entire Scene when entering Play Mode.
+---@field DisableSceneReload fun() @When Scene Reload is disabled, Unity resets the Scene state and emulates all of the required post-processor calls when entering Play Mode, instead of reloading the whole Scene. This makes it quicker to switch to Play Mode, because there's no need to destroy, create and awaken all the Scene objects, and serialize and deserialize the Scene from disk.
+---@field DisableDomainReload fun() @When Domain Reload is disabled, scripts are not reloaded when entering Play Mode. This makes it quicker to switch to Play Mode, because there's no need to destroy, create and reload the .NET Application Domain.

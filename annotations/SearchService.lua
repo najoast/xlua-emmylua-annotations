@@ -1,0 +1,27 @@
+---@class SearchService @nil
+---@field ProjectSearchContext SearchService.ProjectSearchContext @A search context implementation for Project search engines. All methods that are called on a Project search engine, and expect a SearchService.ISearchContext, receive an object of this type.
+---@field Project SearchService.Project @Use this API to perform searches in the Project. Engines for this type of search implement the SearchService.IProjectSearchEngine interface.
+---@field ISearchEngineBase SearchService.ISearchEngineBase @The base interface for all search engines.
+---@field ObjectSelectorHandlerWithLabelsAttribute SearchService.ObjectSelectorHandlerWithLabelsAttribute @A class attribute that allows you to define label constraints on a MonoBehavior or ScriptableObject's field in the object selector.
+---@field ObjectSelectorEngineAttribute fun() @Use this class attribute to register ObjectSelector search engines automatically. Search engines with this attribute must implement the SearchService.IObjectSelectorEngine interface.
+---@field ObjectSelector SearchService.ObjectSelector @Use this API to select objects. Engines for this type of search implement the SearchService.IObjectSelectorEngine interface.
+---@field IProjectSearchEngine fun() @The interface for Project engines to implement. It inherits from SearchService.ISearchEngine_1.
+---@field SearchEngineScope SearchService.SearchEngineScope @An enumeration that contains the available search engine scopes.
+---@field ObjectSelectorHandlerAttribute SearchService.ObjectSelectorHandlerAttribute @A class attribute that allows you to define dynamic constraint on a MonoBehavior or ScriptableObject's field for the object selector.
+---@field ObjectSelectorHandlerWithTagsAttribute SearchService.ObjectSelectorHandlerWithTagsAttribute @A class attribute that allows you to define tag constraints on a MonoBehavior or ScriptableObject's field in the object selector.
+---@field IObjectSelectorEngine fun() @An interface that ObjectSelector engines implement. It inherits from SearchService.ISelectorEngine.
+---@field VisibleObjects SearchService.VisibleObjects @A bit field that contains the different categories of object that the object selector window can display.
+---@field ISelectorEngine SearchService.ISelectorEngine @The base interface for search engines that implement an object select operation.
+---@field SceneSearchEngineAttribute fun() @A class attribute that registers Scene search engines automatically. Search engines with this attribute must implement the SearchService.ISceneSearchEngine interface.
+---@field ISearchContext SearchService.ISearchContext @The base interface for search contexts.
+---@field ObjectSelectorSearch SearchService.ObjectSelectorSearch @Use this API to select objects. Engines for this type of search implement the SearchService.IObjectSelectorEngine interface.
+---@field ISceneSearchEngine fun() @The interface for Scene engines to implement. It inherits from SearchService.IFilterEngine_1.
+---@field ProjectSearch SearchService.ProjectSearch @Use this API to perform searches in the Project. Engines for this type of search implement the SearchService.IProjectSearchEngine interface.
+---@field SceneSearch SearchService.SceneSearch @Use this API to perform searches in the Scene. Engines for this type of search implement the SearchService.ISceneSearchEngine interface.
+---@field ObjectSelectorTargetInfo SearchService.ObjectSelectorTargetInfo @A structure that contains information about an item that is about to be shown.
+---@field ISearchEngine_1 SearchService.ISearchEngine_1 @The base interface for search engines that implement a search operation.
+---@field ProjectSearchEngineAttribute fun() @A class attribute that registers Project search engines automatically. Search engines with this attribute must implement the SearchService.IProjectSearchEngine interface.
+---@field Scene SearchService.Scene @Use this API to perform searches in the Scene. Engines for this type of search implement the SearchService.ISceneSearchEngine interface.
+---@field ObjectSelectorSearchContext SearchService.ObjectSelectorSearchContext @A search context implementation for ObjectSelector search engines. All methods that are called on an ObjectSelector search engine, and expect a SearchService.ISearchContext, receive an object of this type.
+---@field IFilterEngine_1 SearchService.IFilterEngine_1 @The base interface for search engines that implement a filter operation.
+---@field SceneSearchContext SearchService.SceneSearchContext @A search context implementation for Scene search engines. All methods that are called on a Scene search engine, and expect a SearchService.ISearchContext, receive an object of this type.

@@ -1,0 +1,3 @@
+---@class Experimental.GlobalIllumination.AngularFalloffType @Sets the method to use to compute the angular attenuation of spot lights.
+---@field LUT fun() @Uses a lookup table to calculate falloff and does not support the inner angle.
+---@field AnalyticAndInnerAngle fun() @No falloff inside inner angle then compute falloff using analytic formula.

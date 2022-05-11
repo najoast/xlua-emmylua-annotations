@@ -1,0 +1,2 @@
+---@class Search.SearchSelectorArgs @Search selector arguments used when the search selector callback is invoked.
+---@field current fun() @Current search item for which a value must be selected.

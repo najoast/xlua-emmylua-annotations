@@ -1,0 +1,5 @@
+---@class JointDrive @How the joint's movement will behave along its local X axis.
+---@field positionSpring fun() @Strength of a rubber-band pull toward the defined direction. Only used if mode includes Position.
+---@field maximumForce fun() @Amount of force applied to push the object toward the defined direction.
+---@field positionDamper fun() @Resistance strength against the Position Spring. Only used if mode includes Position.
+---@field mode fun() @Whether the drive should attempt to reach position, velocity, both or nothing.

@@ -1,0 +1,15 @@
+---@class Build.Content.ObjectIdentifier @Struct that identifies a specific object project wide.
+---@field operator_lt fun() @Returns true if the first ObjectIdentifier is less than the second ObjectIdentifier.
+---@field filePath fun() @The file path on disk that contains this object. (Only used for objects not known by the AssetDatabase).
+---@field fileType fun() @Type of file that contains this object.
+---@field localIdentifierInFile fun() @The index of the object inside a serialized file.
+---@field TryGetObjectIdentifier fun() @Tries to convert a persistent Object into an ObjectIdentifier.
+---@field GetHashCode fun() @Gets the hash code for the ObjectIdentifier.
+---@field ToString fun() @Returns a nicely formatted string for this ObjectIdentifier.
+---@field guid fun() @The specific asset that contains this object.
+---@field operator_gt fun() @Returns true if the first ObjectIdentifier is greater than the second ObjectIdentifier.
+---@field ToInstanceID fun() @Tries to return the InstanceID that represents this ObjectIdentifier.
+---@field operator_eq fun() @Returns true if the ObjectIdentifiers are the same.
+---@field ToObject fun() @Tries to find, load, and return the Object that represents this ObjectIdentifier.
+---@field operator_ne fun() @Returns true if the ObjectIdentifiers are different.
+---@field Equals fun() @Returns true if the objects are equal.

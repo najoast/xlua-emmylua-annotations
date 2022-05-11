@@ -1,0 +1,5 @@
+---@class DeviceType @Enumeration for SystemInfo.deviceType, denotes a coarse grouping of kinds of devices.
+---@field Desktop fun() @Desktop or laptop computer.
+---@field Handheld fun() @A handheld device like mobile phone or a tablet.
+---@field Unknown fun() @Device type is unknown. You should never see this in practice.
+---@field Console fun() @A stationary gaming console.

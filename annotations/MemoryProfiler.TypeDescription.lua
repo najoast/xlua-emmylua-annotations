@@ -1,0 +1,13 @@
+---@class MemoryProfiler.TypeDescription @Description of a managed type.
+---@field size fun() @Size in bytes of an instance of this type. If this type is an arraytype, this describes the amount of bytes a single element in the array will take up.
+---@field isValueType fun() @Is this type a value type? (if it's not a value type, it's a reference type)
+---@field staticFieldBytes fun() @The actual contents of the bytes that store this types static fields, at the point of time when the snapshot was taken.
+---@field fields fun() @An array containing descriptions of all fields of this type.
+---@field typeInfoAddress fun() @The address in memory that contains the description of this type inside the virtual machine. This can be used to match managed objects in the heap to their corresponding TypeDescription,  as the first pointer of a managed object points to its type description.
+---@field name fun() @Name of this type.
+---@field typeIndex fun() @The typeIndex of this type.  This index is an index into the PackedMemorySnapshot.typeDescriptions array.
+---@field TypeFlags MemoryProfiler.TypeDescription.TypeFlags @Equivalent of Profiling.TypeFlags in the old memory profiler API.
+---@field isArray fun() @Is this type an array?
+---@field baseOrElementTypeIndex fun() @The base type for this type, pointed to by an index into PackedMemorySnapshot.typeDescriptions.
+---@field assembly fun() @Name of the assembly this type was loaded from.
+---@field arrayRank fun() @If this is an arrayType, this will return the rank of the array. (1 for a 1-dimensional array, 2 for a 2-dimensional array, etc)

@@ -1,0 +1,4 @@
+---@class VersionControl.FileMode @Mode of the file.
+---@field None fun() @No mode set.
+---@field Binary fun() @Binary file.
+---@field Text fun() @Text file.

@@ -1,0 +1,8 @@
+---@class Animations.ChildMotion @Structure that represents a motion in the context of its parent blend tree.
+---@field cycleOffset fun() @Normalized time offset of the child.
+---@field timeScale fun() @The relative speed of the child.
+---@field threshold fun() @The threshold of the child. Used in 1D blend trees.
+---@field position fun() @The position of the child. Used in 2D blend trees.
+---@field mirror fun() @Mirror of the child.
+---@field motion fun() @The motion itself.
+---@field directBlendParameter fun() @The parameter used by the child when used in a BlendTree of type BlendTreeType.Direct.

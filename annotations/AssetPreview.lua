@@ -1,0 +1,7 @@
+---@class AssetPreview @Utility for fetching asset previews by instance ID of assets, See AssetPreview.GetAssetPreview. Since previews are loaded asynchronously methods are provided for requesting if all previews have been fully loaded, see AssetPreview.IsLoadingAssetPreviews. Loaded previews are stored in a cache, the size of the cache can be controlled by calling [AssetPreview.SetPreviewTextureCacheSize].
+---@field IsLoadingAssetPreviews fun() @Loading previews is asynchronous so it is useful to know if any requested previews are in the process of being loaded so client code e.g can repaint while waiting.
+---@field SetPreviewTextureCacheSize fun() @Set the asset preview cache to a size that can hold all visible previews on the screen at once.
+---@field IsLoadingAssetPreview fun() @Loading previews is asynchronous so it is useful to know if a specific asset preview is in the process of being loaded so client code e.g can repaint while waiting for the loading to finish.
+---@field GetMiniThumbnail fun() @Returns the thumbnail for an object (like the ones you see in the project view).
+---@field GetMiniTypeThumbnail fun() @Returns the thumbnail for the type.
+---@field GetAssetPreview fun() @Returns a preview texture for an asset.

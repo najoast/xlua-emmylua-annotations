@@ -1,0 +1,4 @@
+---@class Build.Content.SceneBundleInfo @Container for holding asset loading information for a streamed Scene AssetBundle to be built.
+---@field bundleScenes fun() @List of Scene loading information for an AssetBundle.
+---@field ctor fun() @Default constructor for an empty SceneBundleInfo.
+---@field bundleName fun() @Friendly AssetBundle name.

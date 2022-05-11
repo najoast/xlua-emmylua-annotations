@@ -1,0 +1,7 @@
+---@class Pool.LinkedPool_1 @A linked list version of Pool.IObjectPool_1.
+---@field Get fun() @Get an instance from the pool. If the pool is empty then a new instance will be created.
+---@field Clear fun() @Removes all pooled items. If the pool contains a destroy callback then it will be called for each item that is in the pool.
+---@field Release fun() @Returns the instance back to the pool.
+---@field Dispose fun() @Removes all pooled items. If the pool contains a destroy callback then it will be called for each item that is in the pool.
+---@field CountInactive fun() @Number of objects that are currently available in the pool.
+---@field ctor fun() @Creates a new LinkedPool instance.

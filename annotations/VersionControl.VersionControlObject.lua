@@ -1,0 +1,6 @@
+---@class VersionControl.VersionControlObject @The abstract base class for representing a version control system.
+---@field OnDeactivate fun() @Called when your version control system is deactivated.
+---@field isConnected fun() @Tests whether the VersionControlObject is connected to an underlying version control system.
+---@field OnActivate fun() @Called when your version control system is activated.
+---@field GetExtension fun() @Gets optional extension object.
+---@field Refresh fun() @Called when the cached state should be discarded and the new state should be retrieved from the underlying VCS.

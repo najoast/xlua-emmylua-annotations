@@ -1,0 +1,8 @@
+---@class Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription @Gets the description of a Profiler metric.
+---@field UnitType fun() @Gets the data unit type of the Profiler metric.
+---@field Name fun() @The name of the Profiler metric.
+---@field NameUtf8Len fun() @Name length excluding null terminator.
+---@field Flags fun() @Profiler marker flags of the metric.
+---@field NameUtf8 fun() @The name of the Profiler metric as a pointer to UTF-8 byte array.
+---@field DataType fun() @Gets the data value type of the Profiler metric.
+---@field Category fun() @Gets the ProfilerCategory value of the Profiler metric.

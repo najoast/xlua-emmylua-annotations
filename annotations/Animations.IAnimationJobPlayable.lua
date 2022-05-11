@@ -1,0 +1,3 @@
+---@class Animations.IAnimationJobPlayable @The interface defining an animation playable that uses IAnimationJob.
+---@field GetJobData fun() @Gets the job data contained in the playable.
+---@field SetJobData fun() @Sets a new job data in the playable.

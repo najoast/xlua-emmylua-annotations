@@ -1,0 +1,3 @@
+---@class PlayerSettings.WSAFileTypeAssociations @Represents the file types to register the application as a default handler for.
+---@field supportedFileTypes fun() @The set of file and content types your application supports.
+---@field name fun() @The name of the file type association. This is to organize and group file types.

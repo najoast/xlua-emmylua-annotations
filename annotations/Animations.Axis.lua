@@ -1,0 +1,5 @@
+---@class Animations.Axis @Represents the axes used in 3D space.
+---@field None fun() @Represents the case when no axis is specified.
+---@field X fun() @Represents the X axis.
+---@field Y fun() @Represents the Y axis.
+---@field Z fun() @Represents the Z axis.

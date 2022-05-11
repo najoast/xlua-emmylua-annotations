@@ -1,0 +1,10 @@
+---@class iOS.Xcode.PlistElementArray @Represents an array element in plist document.
+---@field AddBoolean fun() @Convenience function to append a new boolean element to values list.
+---@field ctor fun() @Creates new array element.
+---@field values fun() @The values stored in the array element.
+---@field AddDate fun() @Convenience function to append a new date element to values list.
+---@field AddString fun() @Convenience function to append a new string element to values list.
+---@field AddDict fun() @Convenience function to append a new dictionary to values list.
+---@field AddReal fun() @Convenience function to append a new real element to values list.
+---@field AddArray fun() @Convenience function to append a new array to values list.
+---@field AddInteger fun() @Convenience function to append a new integer element to values list.

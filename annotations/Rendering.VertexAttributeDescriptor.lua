@@ -1,0 +1,6 @@
+---@class Rendering.VertexAttributeDescriptor @Information about a single VertexAttribute of a Mesh vertex.
+---@field dimension fun() @Dimensionality of the vertex attribute.
+---@field ctor fun() @Create a VertexAttributeDescriptor structure.
+---@field stream fun() @Which vertex buffer stream the attribute should be in.
+---@field attribute fun() @The vertex attribute.
+---@field format fun() @Format of the vertex attribute.

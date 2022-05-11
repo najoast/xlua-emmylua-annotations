@@ -1,0 +1,4 @@
+---@class ParticleSystemSimulationSpace @The space to simulate particles in.
+---@field Custom fun() @Simulate particles relative to a custom transform component, defined by ParticleSystem.MainModule.customSimulationSpace.
+---@field World fun() @Simulate particles in world space.
+---@field Local fun() @Simulate particles in local space.

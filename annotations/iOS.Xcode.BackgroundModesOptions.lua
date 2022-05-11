@@ -1,0 +1,11 @@
+---@class iOS.Xcode.BackgroundModesOptions @This enumeration type describes the various actions an app can take while it is running in the background on iOS. The values are flags, meaning they can be combined with the | operator.
+---@field LocationUpdates fun() @The app keeps the user informed of their location.
+---@field NewsstandDownloads fun() @The app downloads Newsstand content.
+---@field None fun() @No background modes are necessary.
+---@field ActsAsABluetoothLEAccessory fun() @The app acts as a Bluetooth accessory.
+---@field AudioAirplayPiP fun() @The app plays or records audio while in the background.
+---@field VoiceOverIP fun() @The app provides Voice over IP functionality.
+---@field UsesBluetoothLEAccessory fun() @The app works with Bluetooth accessories.
+---@field BackgroundFetch fun() @The app downloads small amounts of data regularly.
+---@field RemoteNotifications fun() @The app needs to download content when a push notification arrives without delay.
+---@field ExternalAccessoryCommunication fun() @The app communicates with external hardware accessories.

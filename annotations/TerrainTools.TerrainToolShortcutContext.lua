@@ -1,0 +1,2 @@
+---@class TerrainTools.TerrainToolShortcutContext @The shortcut context that is active while editing Terrain.
+---@field SelectPaintTool fun() @Changes the selected Terrain paint tool.

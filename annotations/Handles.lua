@@ -1,0 +1,70 @@
+---@class Handles @Custom 3D GUI controls and drawing in the Scene view.
+---@field GetMainGameViewSize fun() @Get the width and height of the main game view.
+---@field FreeMoveHandle fun() @Make an unconstrained movement handle.
+---@field Disc fun() @Make a 3D disc that can be dragged with the mouse.
+---@field ArrowHandleCap fun() @Draw an arrow like those used by the move tool.
+---@field RotationHandle fun() @Make a Scene view rotation handle.
+---@field SizeFunction fun() @A delegate type for getting a handle's size based on its current position.
+---@field PositionHandle fun() @Make a position handle.
+---@field DrawTexture3DSDF fun() @Draws a 3D texture using Signed Distance Field rendering mode in 3D space.
+---@field UIColliderHandleColor fun() @Color to use for the Unity UI's padding visualization.
+---@field currentCamera fun() @Setup viewport and stuff for a current camera.
+---@field DrawBezier fun() @Draw textured bezier line through start and end points with the given tangents.
+---@field ScaleSlider fun() @Make a directional scale slider.
+---@field DrawSolidArc fun() @Draw a circular sector (pie piece) in 3D space.
+---@field DotHandleCap fun() @Draw a dot handle. Pass this into handle functions.
+---@field ClearCamera fun() @Clears the camera.
+---@field EndGUI fun() @End a 2D GUI block and get back to the 3D handle GUI.
+---@field CylinderHandleCap fun() @Draw a cylinder handle. Pass this into handle functions.
+---@field DrawGizmos fun() @Draw a subset of Gizmos (before or after postprocessing) for the given camera.
+---@field Slider fun() @Make a 3D slider that moves along one axis.
+---@field Slider2D fun() @Make a 3D slider that moves along a plane defined by two axes.
+---@field matrix fun() @Matrix for all handle operations.
+---@field TransformHandle fun() @Creates a transform handle.
+---@field DrawLines fun() @Draw a list of line segments.
+---@field DrawAAPolyLine fun() @Draw anti-aliased line specified with point array and width.
+---@field DrawDottedLine fun() @Draw a dotted line from p1 to p2.
+---@field DrawSolidRectangleWithOutline fun() @Draw a solid outlined rectangle in 3D space.
+---@field color fun() @Colors of the handles.
+---@field SnapValue fun() @Rounds value to the closest multiple of snap if snapping is active. Note that snap can only be positive.
+---@field preselectionColor fun() @Color to use to highlight an unselected handle currently under the mouse pointer.
+---@field DrawPolyLine fun() @Draw a line going through the list of points.
+---@field lighting fun() @Are handles lit?
+---@field MakeBezierPoints fun() @Retuns an array of points to representing the bezier curve.
+---@field lineThickness fun() @Retrieves the user preference setting that controls the thickness of tool handle lines. (Read Only)
+---@field DrawCamera fun() @Draws a camera inside a rectangle.
+---@field ShouldRenderGizmos fun() @Determines whether or not to draw Gizmos.
+---@field DrawWireCube fun() @Draw a wireframe box with center and size.
+---@field BeginGUI fun() @Begin a 2D GUI block inside the 3D handle GUI.
+---@field RadiusHandle fun() @Make a Scene view radius handle.
+---@field DrawDottedLines fun() @Draw a list of dotted line segments.
+---@field SphereHandleCap fun() @Draw a sphere handle. Pass this into handle functions.
+---@field zTest fun() @zTest of the handles.
+---@field ConeHandleCap fun() @Draw a cone handle. Pass this into handle functions.
+---@field DrawingScope Handles.DrawingScope @Disposable helper struct for automatically setting and reverting Handles.color and/or Handles.matrix.
+---@field ScaleValueHandle fun() @Make a 3D handle that scales a single float.
+---@field Button fun() @Make a 3D Button.
+---@field CubeHandleCap fun() @Draw a cube handle. Pass this into handle functions.
+---@field ScaleHandle fun() @Make a Scene view scale handle.
+---@field secondaryColor fun() @Soft color to use for for general things.
+---@field SetCamera fun() @Set the current camera so all Handles and Gizmos are draw with its settings.
+---@field CircleHandleCap fun() @Draw a circle handle. Pass this into handle functions.
+---@field DrawWireDisc fun() @Draws the outline of a flat disc in 3D space.
+---@field SnapToGrid fun() @Rounds each Transform.position to the closest multiple of EditorSnap.move.
+---@field DrawSelectionFrame fun() @Draw a camera facing selection frame.
+---@field RectangleHandleCap fun() @Draw a rectangle handle. Pass this into handle functions.
+---@field DrawTexture3DSlice fun() @Draws a 3D texture using Slice rendering mode in 3D space.
+---@field FreeRotateHandle fun() @Make an unconstrained rotation handle.
+---@field xAxisColor fun() @Color to use for handles that manipulates the X coordinate of something.
+---@field Label fun() @Make a text label positioned in 3D space.
+---@field CapFunction fun() @The function to use for drawing the handle e.g. Handles.RectangleCap.
+---@field DrawWireArc fun() @Draws a circular arc in 3D space.
+---@field DrawLine fun() @Draws a line from p1 to p2.
+---@field inverseMatrix fun() @The inverse of the matrix for all handle operations.
+---@field DrawSolidDisc fun() @Draw a solid flat disc in 3D space.
+---@field DrawAAConvexPolygon fun() @Draw anti-aliased convex polygon specified with point array.
+---@field yAxisColor fun() @Color to use for handles that manipulates the Y coordinate of something.
+---@field DrawTexture3DVolume fun() @Draws a 3D texture using Volume rendering mode in 3D space.
+---@field centerColor fun() @Color to use for handles that represent the center of something.
+---@field selectedColor fun() @Color to use for the currently active handle.
+---@field zAxisColor fun() @Color to use for handles that manipulates the Z coordinate of something.

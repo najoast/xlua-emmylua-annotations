@@ -1,0 +1,7 @@
+---@class UIElements.PropagationPhase @The propagation phases of an event.
+---@field BubbleUp fun() @The event is sent from the target element's parent back to the panel's root element.
+---@field DefaultAction fun() @The event is sent to the target element, which can then execute its final default actions for the event. Event handlers do not receive the event in this phase. Instead, ExecuteDefaultAction is called on the target element.
+---@field DefaultActionAtTarget fun() @The event is sent to the target element, which can then execute its default actions for the event at the target phase. Event handlers do not receive the event in this phase. Instead, ExecuteDefaultActionAtTarget is called on the target element.
+---@field AtTarget fun() @The event is sent to the target.
+---@field TrickleDown fun() @The event is sent from the panel's root element to the target element's parent.
+---@field None fun() @The event is not propagated.

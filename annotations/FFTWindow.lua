@@ -1,0 +1,7 @@
+---@class FFTWindow @Spectrum analysis windowing types.
+---@field BlackmanHarris fun() @W[n] = 0.35875 - (0.48829 * COS(1.0 * n/N)) + (0.14128 * COS(2.0 * n/N)) - (0.01168 * COS(3.0 * n/N)).
+---@field Triangle fun() @W[n] = TRI(2n/N).
+---@field Blackman fun() @W[n] = 0.42 - (0.5 * COS(n/N) ) + (0.08 * COS(2.0 * n/N) ).
+---@field Hanning fun() @W[n] = 0.5 * (1.0 - COS(n/N) ).
+---@field Rectangular fun() @W[n] = 1.0.
+---@field Hamming fun() @W[n] = 0.54 - (0.46 * COS(n/N) ).

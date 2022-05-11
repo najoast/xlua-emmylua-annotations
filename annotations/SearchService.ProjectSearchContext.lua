@@ -1,0 +1,5 @@
+---@class SearchService.ProjectSearchContext @A search context implementation for Project search engines. All methods that are called on a Project search engine, and expect a SearchService.ISearchContext, receive an object of this type.
+---@field requiredTypes fun() @An IEnumerable of types that contains the type constraints for this search.
+---@field guid fun() @A unique identifier for this search context.
+---@field requiredTypeNames fun() @An IEnumerable of strings that contains the type name constraints for this search.
+---@field engineScope fun() @An enum that identifies the scope of the current search. This property is automatically set to SearchService.Project.EngineScope.

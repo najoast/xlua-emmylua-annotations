@@ -1,0 +1,15 @@
+---@class Rendering.VirtualTexturing.Procedural @Static class representing the Procedural Virtual Texturing system.
+---@field GPUTextureStack Rendering.VirtualTexturing.Procedural.GPUTextureStack @Procedural virtual texturing stack where request data resides in GPU memory.
+---@field CPUTextureStackRequestLayerParameters Rendering.VirtualTexturing.Procedural.CPUTextureStackRequestLayerParameters @Per-layer properties of a ProceduralTextureRequest.
+---@field GetGPUCacheSettings fun() @Gets the Procedural Virtual Texturing GPU cache settings.
+---@field GetCPUCacheSize fun() @Gets the Procedural Virtual Texturing CPU cache size.
+---@field TextureStackRequestHandle_1 Rendering.VirtualTexturing.Procedural.TextureStackRequestHandle_1 @Handle for a (CPU or GPU) TextureStackRequest.
+---@field GPUTextureStackRequestLayerParameters Rendering.VirtualTexturing.Procedural.GPUTextureStackRequestLayerParameters @Per-layer properties of a request.
+---@field SetGPUCacheSettings fun() @Sets the Procedural Virtual Texturing GPU cache settings.
+---@field SetCPUCacheSize fun() @Sets the Procedural Virtual Texturing CPU cache size (in MegaBytes).
+---@field CPUTextureStackRequestParameters Rendering.VirtualTexturing.Procedural.CPUTextureStackRequestParameters @A single procedural virtual texture tile generation request, to be filled in CPU memory.
+---@field GPUTextureStackRequestParameters Rendering.VirtualTexturing.Procedural.GPUTextureStackRequestParameters @A single procedural virtual texture tile generation request, to be filled in GPU memory.
+---@field CPUTextureStack Rendering.VirtualTexturing.Procedural.CPUTextureStack @Procedural virtual texturing stack where request data resides in CPU memory.
+---@field TextureStackBase_1 Rendering.VirtualTexturing.Procedural.TextureStackBase_1 @Procedural virtual texturing stack.
+---@field CreationParameters Rendering.VirtualTexturing.Procedural.CreationParameters @Struct that contains all parameters required to create a ProceduralTextureStack.
+---@field RequestStatus Rendering.VirtualTexturing.Procedural.RequestStatus @The status that can be given to a request.

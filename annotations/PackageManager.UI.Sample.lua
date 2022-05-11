@@ -1,0 +1,10 @@
+---@class PackageManager.UI.Sample @Struct for Package Sample.
+---@field isImported fun() @Indicates if the sample has already been imported.
+---@field ImportOptions PackageManager.UI.Sample.ImportOptions @Sample import options.
+---@field importPath fun() @The full path to where the sample will be imported, under the project assets folder.
+---@field interactiveImport fun() @Indicates whether to show the import window when importing a sample that is an asset package (a .unitypackage file).
+---@field description fun() @The description of the package sample.
+---@field FindByPackage fun() @Finds a list of samples in a package based on a specific version.
+---@field displayName fun() @The display name of the package sample.
+---@field Import fun() @Imports the package sample into the `Assets` folder.
+---@field resolvedPath fun() @The full path to where the sample is on disk, inside the package that contains the sample.

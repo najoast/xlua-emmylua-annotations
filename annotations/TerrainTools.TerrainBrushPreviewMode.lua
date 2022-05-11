@@ -1,0 +1,3 @@
+---@class TerrainTools.TerrainBrushPreviewMode @Enum to specify whether DrawBrushPreview previews the source render texture or the destination render texture of a PaintContext.
+---@field SourceRenderTexture fun() @Specifies that TerrainTools.TerrainPaintUtilityEditor.DrawBrushPreview uses the source render texture of the PaintContext.
+---@field DestinationRenderTexture fun() @Specifies that TerrainTools.TerrainPaintUtilityEditor.DrawBrushPreview uses the destination render texture of the PaintContext.

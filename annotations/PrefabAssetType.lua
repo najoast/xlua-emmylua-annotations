@@ -1,0 +1,6 @@
+---@class PrefabAssetType @Enum indicating the type of Prefab Asset, such as Regular, Model and Variant.
+---@field MissingAsset fun() @The object being queried is part of a Prefab instance, but because the asset is missing the actual type of Prefab can’t be determined.
+---@field Variant fun() @The object being queried is part of a Prefab Variant.
+---@field Regular fun() @The object being queried is part of a regular Prefab.
+---@field Model fun() @The object being queried is part of a Model Prefab.
+---@field NotAPrefab fun() @The object being queried is not part of a Prefab at all.

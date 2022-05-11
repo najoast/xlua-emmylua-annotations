@@ -1,0 +1,3 @@
+---@class UICharInfo @Class that specifies some information about a renderable character.
+---@field charWidth fun() @Character width.
+---@field cursorPos fun() @Position of the character cursor in local (text generated) space.

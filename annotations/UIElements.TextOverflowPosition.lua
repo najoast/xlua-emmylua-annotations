@@ -1,0 +1,4 @@
+---@class UIElements.TextOverflowPosition @Specifies which part of the text the Element replaces with an ellipsis when textOverflow is set to TextOverflow.Ellipsis.
+---@field Middle fun() @The ellipsis replaces content in the middle of the text.
+---@field End fun() @The ellipsis replaces content at the end of the text. This is the default value.
+---@field Start fun() @The ellipsis replaces content at the beginning of the text.

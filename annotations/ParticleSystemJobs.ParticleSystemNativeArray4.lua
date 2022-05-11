@@ -1,0 +1,5 @@
+---@class ParticleSystemJobs.ParticleSystemNativeArray4 @A container to hold 4 arrays of data for particles.
+---@field y fun() @The y-axis value for each particle.
+---@field x fun() @The x-axis value for each particle.
+---@field w fun() @The w-axis value for each particle.
+---@field z fun() @The z-axis value for each particle.

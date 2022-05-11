@@ -1,0 +1,51 @@
+---@class EditorStyles @Common GUIStyles used for EditorGUI controls.
+---@field inspectorDefaultMargins fun() @Wrap content in a vertical group with this style to get the default margins used in the Inspector.
+---@field objectFieldThumb fun() @Style used for headings for the Select button in object fields.
+---@field objectFieldMiniThumb fun() @Style used for object fields that have a thumbnail (e.g Textures).
+---@field toolbarTextField fun() @Toolbar text field.
+---@field textField fun() @Style used for EditorGUI.TextField.
+---@field toolbarDropDown fun() @Toolbar Dropdown.
+---@field largeLabel fun() @Style for label with large font.
+---@field centeredGreyMiniLabel fun() @Style for label with small font which is centered and grey.
+---@field toolbarButton fun() @Style for Button and Toggles in toolbars.
+---@field whiteMiniLabel fun() @Style for white mini label.
+---@field label fun() @Style used for the labelled on all EditorGUI overloads that take a prefix label.
+---@field standardFont fun() @Standard font.
+---@field toolbarSearchField fun() @Toolbar search field.
+---@field helpBox fun() @Style used for background box for EditorGUI.HelpBox.
+---@field numberField fun() @Style used for field editors for numbers.
+---@field foldoutHeader fun() @Style used for headings for EditorGUILayout.BeginFoldoutHeaderGroup.
+---@field boldLabel fun() @Style for bold label.
+---@field selectionRect fun() @Style used to draw a marquee selection rect in the SceneView.
+---@field miniBoldFont fun() @Mini Bold font.
+---@field miniLabel fun() @Style for label with small font.
+---@field popup fun() @Style used for EditorGUI.Popup, EditorGUI.EnumPopup,.
+---@field foldoutHeaderIcon fun() @Style used for icon for EditorGUILayout.BeginFoldoutHeaderGroup.
+---@field miniButtonMid fun() @Style used for the middle buttons in a horizontal group.
+---@field wordWrappedMiniLabel fun() @Style for word wrapped mini label.
+---@field foldout fun() @Style used for headings for EditorGUI.Foldout.
+---@field boldFont fun() @Bold font.
+---@field whiteBoldLabel fun() @Style for white bold label.
+---@field whiteLargeLabel fun() @Style for white large label.
+---@field iconButton fun() @Style used for a standalone icon button.
+---@field layerMaskField fun() @Style used for headings for Layer masks.
+---@field whiteLabel fun() @Style for white label.
+---@field wordWrappedLabel fun() @Style for word wrapped label.
+---@field objectField fun() @Style used for headings for object fields.
+---@field toolbar fun() @Toolbar background from top of windows.
+---@field foldoutPreDrop fun() @Style used for headings for EditorGUI.Foldout.
+---@field toggle fun() @Style used for headings for EditorGUI.Toggle.
+---@field toolbarPopup fun() @Toolbar Popup.
+---@field miniBoldLabel fun() @Style for mini bold label.
+---@field miniButton fun() @Style used for a standalone small button.
+---@field miniTextField fun() @Smaller text field.
+---@field linkLabel fun() @Style used for links.
+---@field miniFont fun() @Mini font.
+---@field textArea fun() @Style used for EditorGUI.TextArea.
+---@field miniButtonLeft fun() @Style used for the leftmost button in a horizontal button group.
+---@field radioButton fun() @Style used for a radio button.
+---@field miniPullDown fun() @Style used for the drop-down controls.
+---@field inspectorFullWidthMargins fun() @Wrap content in a vertical group with this style to get full width margins in the Inspector.
+---@field miniButtonRight fun() @Style used for the rightmost button in a horizontal group.
+---@field colorField fun() @Style used for headings for Color fields.
+---@field toggleGroup fun() @Style used for headings for EditorGUILayout.BeginToggleGroup.

@@ -1,0 +1,6 @@
+---@class UIElements.UIDocument @Defines a Component that connects VisualElements to GameObjects. This makes it possible to render UI defined in UXML documents in the Game view.
+---@field rootVisualElement fun() @The root visual element where the UI hierarchy starts.
+---@field sortingOrder fun() @The order in which this UIDocument will show up on the hierarchy in relation to other UIDocuments either attached to the same PanelSettings, or with the same UIDocument parent.
+---@field parentUI fun() @If the GameObject that this UIDocument component is attached to has a parent GameObject, and that parent GameObject also has a UIDocument component attached to it, this value is set to the parent GameObject's UIDocument component automatically.
+---@field panelSettings fun() @Specifies the PanelSettings instance to connect this UIDocument component to.
+---@field visualTreeAsset fun() @The VisualTreeAsset loaded into the root visual element automatically.

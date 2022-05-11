@@ -1,0 +1,4 @@
+---@class AudioClipLoadType @Determines how the audio clip is loaded in.
+---@field CompressedInMemory fun() @The audio data of the clip will be kept in memory in compressed form.
+---@field Streaming fun() @Streams audio data from disk.
+---@field DecompressOnLoad fun() @The audio data is decompressed when the audio clip is loaded.

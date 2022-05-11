@@ -1,0 +1,9 @@
+---@class Rendering.StencilOp @Specifies the operation that's performed on the stencil buffer when rendering.
+---@field DecrementWrap fun() @Decrements the current stencil buffer value. Wraps stencil buffer value to the maximum representable unsigned value when decrementing a stencil buffer value of zero.
+---@field DecrementSaturate fun() @Decrements the current stencil buffer value. Clamps to 0.
+---@field Replace fun() @Replace the stencil buffer value with reference value (specified in the shader).
+---@field IncrementSaturate fun() @Increments the current stencil buffer value. Clamps to the maximum representable unsigned value.
+---@field IncrementWrap fun() @Increments the current stencil buffer value. Wraps stencil buffer value to zero when incrementing the maximum representable unsigned value.
+---@field Zero fun() @Sets the stencil buffer value to zero.
+---@field Invert fun() @Bitwise inverts the current stencil buffer value.
+---@field Keep fun() @Keeps the current stencil value.

@@ -1,0 +1,9 @@
+---@class Rendering.RenderQueueRange @Describes a material render queue range.
+---@field ctor fun() @Create a render queue range struct.
+---@field maximumBound fun() @Maximum value that can be used as a bound.
+---@field opaque fun() @A range that includes only opaque objects.
+---@field upperBound fun() @Inclusive upper bound for the range.
+---@field minimumBound fun() @Minimum value that can be used as a bound.
+---@field transparent fun() @A range that includes only transparent objects.
+---@field all fun() @A range that includes all objects.
+---@field lowerBound fun() @Inclusive lower bound for the range.

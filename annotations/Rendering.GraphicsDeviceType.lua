@@ -1,0 +1,20 @@
+---@class Rendering.GraphicsDeviceType @Graphics device API type.
+---@field XboxOne fun() @Xbox One graphics API using Direct3D 11.
+---@field Direct3D11 fun() @Direct3D 11 graphics API.
+---@field PlayStationMobile fun() @PlayStation Mobile (PSM) graphics API.
+---@field Direct3D9 fun() @Direct3D 9 graphics API.
+---@field OpenGLES3 fun() @OpenGL ES 3.0 graphics API. (deprecated on iOS and tvOS)
+---@field Vulkan fun() @Vulkan (EXPERIMENTAL).
+---@field OpenGL2 fun() @OpenGL 2.x graphics API. (deprecated, only available on Linux and MacOSX)
+---@field OpenGLES2 fun() @OpenGL ES 2.0 graphics API. (deprecated on iOS and tvOS)
+---@field Direct3D12 fun() @Direct3D 12 graphics API.
+---@field GameCoreXboxSeries fun() @Game Core XboxSeries graphics API using Direct3D 12.
+---@field GameCoreXboxOne fun() @Game Core Xbox One graphics API using Direct3D 12.
+---@field PlayStation4 fun() @PlayStation 4 graphics API.
+---@field N3DS fun() @Nintendo 3DS graphics API.
+---@field XboxOneD3D12 fun() @Xbox One graphics API using Direct3D 12.
+---@field Switch fun() @Nintendo Switch graphics API.
+---@field PlayStation3 fun() @PlayStation 3 graphics API.
+---@field Metal fun() @iOS Metal graphics API.
+---@field Null fun() @No graphics API.
+---@field OpenGLCore fun() @OpenGL (Core profile - GL3 or later) graphics API.

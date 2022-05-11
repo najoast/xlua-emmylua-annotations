@@ -1,0 +1,5 @@
+---@class ParticleSystem.InheritVelocityModule @The Inherit Velocity Module controls how the velocity of the emitter is transferred to the particles as they are emitted.
+---@field curve fun() @Curve to define how much of the emitter velocity the system applies during the lifetime of a particle.
+---@field mode fun() @Specifies how to apply emitter velocity to particles.
+---@field curveMultiplier fun() @Change the curve multiplier.
+---@field enabled fun() @Specifies whether the InheritVelocityModule is enabled or disabled.

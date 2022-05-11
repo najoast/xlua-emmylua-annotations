@@ -1,0 +1,3 @@
+---@class iOS.Xcode.PlistElementReal @Represents a real element in plist document.
+---@field ctor fun() @Creates new real element.
+---@field value fun() @The value stored in the real element.

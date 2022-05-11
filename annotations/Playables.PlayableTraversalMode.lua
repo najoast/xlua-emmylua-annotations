@@ -1,0 +1,3 @@
+---@class Playables.PlayableTraversalMode @Traversal mode for Playables.
+---@field Passthrough fun() @Causes the Playable to act as a passthrough for PrepareFrame and ProcessFrame. If the PlayableOutput being processed is connected to the n-th input port of the Playable, the Playable only propagates the n-th output port. Use this enum value in conjunction with PlayableOutput SetSourceOutputPort.
+---@field Mix fun() @Causes the Playable to prepare and process it's inputs when demanded by an output.

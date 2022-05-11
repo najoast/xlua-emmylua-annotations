@@ -1,0 +1,5 @@
+---@class Animations.AnimationStreamHandleUtility @Static class providing utility functions for animation stream handles.
+---@field WriteFloats fun() @Writes float properties from the buffer to the PropertyStreamHandle array (handles).
+---@field WriteInts fun() @Write integers from buffer to property stream handles.
+---@field ReadFloats fun() @Reads float properties from the PropertyStreamHandle array (handles) and stores the floats in the provided buffer. The buffer must have enough allocated space to store all values.
+---@field ReadInts fun() @Reads integer properties from the PropertyStreamHandle array (handles) and stores the integers in the provided buffer. The buffer must have enough allocated space to store all values.

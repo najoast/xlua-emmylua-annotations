@@ -1,0 +1,4 @@
+---@class NPOTSupport @NPOT textures support.
+---@field None fun() @NPOT textures are not supported. Will be upscaled/padded at loading time.
+---@field Full fun() @Full NPOT support.
+---@field Restricted fun() @Limited NPOT support: no mipmaps and clamp wrap mode will be forced.

@@ -1,0 +1,9 @@
+---@class Windows.WebCam @nil
+---@field WebCamMode Windows.WebCam.WebCamMode @Describes the active mode of the Web Camera resource.
+---@field WebCam Windows.WebCam.WebCam @Contains general information about the current state of the web camera.
+---@field VideoCapture Windows.WebCam.VideoCapture @Records a video from the web camera directly to disk.
+---@field PhotoCapture Windows.WebCam.PhotoCapture @Captures a photo from the web camera and stores it in memory or on disk.
+---@field PhotoCaptureFileOutputFormat Windows.WebCam.PhotoCaptureFileOutputFormat @Image Encoding Format.
+---@field PhotoCaptureFrame Windows.WebCam.PhotoCaptureFrame @Contains information captured from the web camera.
+---@field CameraParameters Windows.WebCam.CameraParameters @When calling PhotoCapture.StartPhotoModeAsync, you must pass in a CameraParameters object that contains the various settings that the web camera will use.
+---@field CapturePixelFormat Windows.WebCam.CapturePixelFormat @The encoded image or video pixel format to use for PhotoCapture and VideoCapture.

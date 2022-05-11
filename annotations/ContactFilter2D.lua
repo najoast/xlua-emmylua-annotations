@@ -1,0 +1,24 @@
+---@class ContactFilter2D @A set of parameters for filtering contact results. Define the angle by referring to their position in world space, where 0 degrees is parallel to the positive x-axis, 90 degrees is parallel to the positive y-axis, 180 degrees is parallel to the negative x-axis, and 270 degrees is parallel to the negative y-axis.
+---@field minNormalAngle fun() @Sets the contact filter to filter the results to only include contacts with collision normal angles that are greater than this angle.
+---@field maxNormalAngle fun() @Sets the contact filter to filter the results to only include contacts with collision normal angles that are less than this angle.
+---@field ClearNormalAngle fun() @Turns off normal angle filtering by setting useNormalAngle to false. The associated values of minNormalAngle and maxNormalAngle are not changed.
+---@field ClearDepth fun() @Turns off depth filtering by setting useDepth to false.  The associated values of minDepth and maxDepth are not changed.
+---@field useTriggers fun() @Sets to filter contact results based on trigger collider involvement.
+---@field useOutsideNormalAngle fun() @Sets the contact filter to filter within the minNormalAngle and maxNormalAngle range, or outside that range.
+---@field minDepth fun() @Sets the contact filter to filter the results to only include Collider2D with a Z coordinate (depth) greater than this value.
+---@field IsFilteringNormalAngle fun() @Checks if the angle of normal is within the normal angle range to be filtered.
+---@field SetLayerMask fun() @Sets the layerMask filter property using the layerMask parameter provided and also enables layer mask filtering by setting useLayerMask to true.
+---@field IsFilteringDepth fun() @Checks if the Transform for obj is within the depth range to be filtered.
+---@field useLayerMask fun() @Sets the contact filter to filter results by layer mask.
+---@field useDepth fun() @Sets the contact filter to filter the results by depth using minDepth and maxDepth.
+---@field ClearLayerMask fun() @Turns off layer mask filtering by setting useLayerMask to false.  The associated value of layerMask is not changed.
+---@field SetDepth fun() @Sets the minDepth and maxDepth filter properties and turns on depth filtering by setting useDepth to true.
+---@field IsFilteringTrigger fun() @Checks if the collider is a trigger and should be filtered by the useTriggers to be filtered.
+---@field useOutsideDepth fun() @Sets the contact filter to filter within the minDepth and maxDepth range, or outside that range.
+---@field NoFilter fun() @Sets the contact filter to not filter any ContactPoint2D.
+---@field SetNormalAngle fun() @Sets the minNormalAngle and maxNormalAngle filter properties and turns on normal angle filtering by setting useNormalAngle to true.
+---@field IsFilteringLayerMask fun() @Checks if the GameObject.layer for obj is included in the layerMask to be filtered.
+---@field layerMask fun() @Sets the contact filter to filter the results that only include Collider2D on the layers defined by the layer mask.
+---@field isFiltering fun() @Given the current state of the contact filter, determine whether it would filter anything.
+---@field maxDepth fun() @Sets the contact filter to filter the results to only include Collider2D with a Z coordinate (depth) less than this value.
+---@field useNormalAngle fun() @Sets the contact filter to filter the results by the collision's normal angle using minNormalAngle and maxNormalAngle.

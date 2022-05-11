@@ -1,0 +1,7 @@
+---@class XR.HapticCapabilities @Describes the haptic capabilities of the device at an XR.XRNode in the XR input subsystem.
+---@field bufferFrequencyHz fun() @The frequency (in Hz) that this device plays back buffered haptic data.
+---@field numChannels fun() @The number of channels that this device plays back haptic data.
+---@field supportsBuffer fun() @True if this device supports sending a haptic buffer.
+---@field supportsImpulse fun() @True if this device supports sending a haptic impulse.
+---@field bufferMaxSize fun() @The maximum amount of data that can be sent to an InputDevice via InputDevice.SendHapticBuffer.
+---@field bufferOptimalSize fun() @The optimal buffer size an InputDevice expects to be sent via InputDevice.SendHapticBuffer in order to provide a continuous rumble between individual frames.

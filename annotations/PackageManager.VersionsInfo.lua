@@ -1,0 +1,7 @@
+---@class PackageManager.VersionsInfo @Identifies the available versions of a package and which are the compatible, latest, and recommended versions.
+---@field verified fun() @A version of the package verified to work with the current version of Unity. If there is no verified version, then this property is an empty string.
+---@field compatible fun() @Versions of the package compatible with the current version of Unity.
+---@field all fun() @All available versions of the package.
+---@field recommended fun() @Obsolete. Use the VersionsInfo.verified property instead.
+---@field latestCompatible fun() @Latest version of the package compatible with the current version of Unity.
+---@field latest fun() @Latest version of the package.

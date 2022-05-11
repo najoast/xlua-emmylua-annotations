@@ -1,0 +1,5 @@
+---@class Experimental.GlobalIllumination.LightMode @The lightmode. A light can be real-time, mixed, baked or unknown. Unknown lights will be ignored by the baking backends.
+---@field Baked fun() @The light is fully baked and has no real-time component.
+---@field Realtime fun() @The light is real-time. No contribution will be baked in lightmaps or light probes.
+---@field Unknown fun() @The light should be ignored by the baking backends.
+---@field Mixed fun() @The light is mixed. Mixed lights are interpreted based on the global light mode setting in the lighting window.

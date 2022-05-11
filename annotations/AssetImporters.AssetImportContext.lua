@@ -1,0 +1,15 @@
+---@class AssetImporters.AssetImportContext @Defines the import context for scripted importers during an import event.
+---@field DependsOnSourceAsset fun() @Allows you to specify that an Asset depends directly on the source file of another Asset (as opposed to the import result of another asset).
+---@field SetMainObject fun() @Sets the main object for import.
+---@field assetPath fun() @The path of the source asset file to be imported.
+---@field LogImportWarning fun() @Logs a warning message encountered during import.
+---@field LogImportError fun() @Logs an error message encountered during import.
+---@field GetResultPath fun() @Returns the path where to store the result of an import for a given extension.
+---@field DependsOnArtifact fun() @Setup artifact dependency to an asset.
+---@field GetOutputArtifactFilePath fun() @Returns the path where to write a new Artifact File with the given fileName.
+---@field mainObject fun() @The main object set on the AssetImportContext.
+---@field GetArtifactFilePath fun() @Returns the path of the Artifact file that was created by another importer, and adds a dependency to that file.
+---@field GetObjects fun() @Gets the list of objects set on the AssetImportContext.
+---@field selectedBuildTarget fun() @Returns the current build target and creates a dependency on the target platform within a scripted importer.
+---@field AddObjectToAsset fun() @Adds an object to the result of the import operation.
+---@field DependsOnCustomDependency fun() @Allows you to specify that an Asset has a custom dependency.

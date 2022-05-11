@@ -1,0 +1,3 @@
+---@class Experimental.ArtifactID @Uniquely identifies a produced artifact such as an imported asset (e.g. result of importing a texture).
+---@field value fun() @The unique value.
+---@field isValid fun() @True if this ArtifactID is valid.

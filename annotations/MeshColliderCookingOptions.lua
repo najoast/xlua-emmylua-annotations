@@ -1,0 +1,7 @@
+---@class MeshColliderCookingOptions @Cooking options that are available with MeshCollider.
+---@field InflateConvexMesh fun() @Allow the physics engine to increase the volume of the input mesh in attempt to generate a valid convex mesh.
+---@field UseFastMidphase fun() @Determines whether to use the fast midphase structure that doesn't require R-trees (only available on Desktop targets).
+---@field None fun() @No optional cooking steps will be run.
+---@field WeldColocatedVertices fun() @Toggle the removal of equal vertices.
+---@field EnableMeshCleaning fun() @Toggle cleaning of the mesh.
+---@field CookForFasterSimulation fun() @Toggle between cooking for faster simulation or faster cooking time.

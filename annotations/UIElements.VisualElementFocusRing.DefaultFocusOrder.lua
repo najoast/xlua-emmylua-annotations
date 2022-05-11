@@ -1,0 +1,4 @@
+---@class UIElements.VisualElementFocusRing.DefaultFocusOrder @Ordering of elements in the focus ring.
+---@field ChildOrder fun() @Order elements using a depth-first pre-order traversal of the element tree.
+---@field PositionYX fun() @Order elements according to their position, first by Y, then by X.
+---@field PositionXY fun() @Order elements according to their position, first by X, then by Y.

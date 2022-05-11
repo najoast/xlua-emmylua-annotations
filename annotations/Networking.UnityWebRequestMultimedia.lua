@@ -1,0 +1,3 @@
+---@class Networking.UnityWebRequestMultimedia @Helpers for downloading multimedia files using UnityWebRequest.
+---@field GetMovieTexture fun() @MovieTexture has been removed. Use VideoPlayer instead.
+---@field GetAudioClip fun() @Create a UnityWebRequest to download an audio clip via HTTP GET and create an AudioClip based on the retrieved data.

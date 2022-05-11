@@ -1,0 +1,28 @@
+---@class Component @Base class for everything attached to GameObjects.
+---@field collider fun() @The Collider attached to this GameObject. (Null if there is none attached).
+---@field camera fun() @The Camera attached to this GameObject. (Null if there is none attached).
+---@field constantForce fun() @The ConstantForce attached to this GameObject. (Null if there is none attached).
+---@field audio fun() @The AudioSource attached to this GameObject. (Null if there is none attached).
+---@field gameObject fun() @The game object this component is attached to. A component is always attached to a game object.
+---@field rigidbody fun() @The Rigidbody attached to this GameObject. (Null if there is none attached).
+---@field transform fun() @The Transform attached to this GameObject.
+---@field SendMessageUpwards fun() @Calls the method named methodName on every MonoBehaviour in this game object and on every ancestor of the behaviour.
+---@field BroadcastMessage fun() @Calls the method named methodName on every MonoBehaviour in this game object or any of its children.
+---@field networkView fun() @The NetworkView attached to this GameObject (Read Only). (null if there is none attached).
+---@field light fun() @The Light attached to this GameObject. (Null if there is none attached).
+---@field rigidbody2D fun() @The Rigidbody2D that is attached to the Component's GameObject.
+---@field TryGetComponent fun() @Gets the component of the specified type, if it exists.
+---@field collider2D fun() @The Collider2D component attached to the object.
+---@field GetComponentInChildren fun() @Returns the Component of type in the GameObject or any of its children using depth first search.
+---@field GetComponentsInParent fun() @Returns all components of Type type in the GameObject or any of its parents.
+---@field GetComponentsInChildren fun() @Returns all components of Type type in the GameObject or any of its children using depth first search. Works recursively.
+---@field GetComponents fun() @Returns all components of Type type in the GameObject.
+---@field GetComponentInParent fun() @Returns the Component of type in the GameObject or any of its parents.
+---@field SendMessage fun() @Calls the method named methodName on every MonoBehaviour in this game object.
+---@field GetComponent fun() @Returns the component of type if the GameObject has one attached.
+---@field CompareTag fun() @Checks the GameObject's tag against the defined tag.
+---@field hingeJoint fun() @The HingeJoint attached to this GameObject. (Null if there is none attached).
+---@field particleSystem fun() @The ParticleSystem attached to this GameObject. (Null if there is none attached).
+---@field animation fun() @The Animation attached to this GameObject. (Null if there is none attached).
+---@field tag fun() @The tag of this game object.
+---@field renderer fun() @The Renderer attached to this GameObject. (Null if there is none attached).

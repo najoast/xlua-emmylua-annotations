@@ -1,0 +1,5 @@
+---@class MPE.RoleProviderAttribute @An attribute used to decorate function that defines how a slave process can interact with a main instance of Unity.
+---@field name fun() @The name of the RoleProvider. For example, StandaloneProfiler.
+---@field eventType fun() @The event that the process triggered.
+---@field ctor fun() @Constructor for a RoleProviderAttribute. Allows you to register a handler that is triggered when a specific ProcessEvent is triggered in a UnityEditor process of a specific ProcessLevel.
+---@field level fun() @The process level (either master or slave) that the handler is registered on.

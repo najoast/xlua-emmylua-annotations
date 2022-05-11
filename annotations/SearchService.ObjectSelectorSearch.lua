@@ -1,0 +1,4 @@
+---@class SearchService.ObjectSelectorSearch @Use this API to select objects. Engines for this type of search implement the SearchService.IObjectSelectorEngine interface.
+---@field RegisterEngine fun() @Registers an ObjectSelector search engine dynamically.
+---@field UnregisterEngine fun() @Unregisters a dynamically registered engine.
+---@field EngineScope fun() @A enum that indicates the search scope of ObjectSelectorSearch engines. Used by ObjectSelectorSearchContext.

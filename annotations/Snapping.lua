@@ -1,0 +1,2 @@
+---@class Snapping @Snap values to rounded increments.
+---@field Snap fun() @Rounds value to the closest multiple of snap.

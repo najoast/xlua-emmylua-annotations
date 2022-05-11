@@ -1,0 +1,5 @@
+---@class AI.NavMeshData @Contains and represents NavMesh data.
+---@field sourceBounds fun() @Returns the bounding volume of the input geometry used to build this NavMesh (Read Only).
+---@field rotation fun() @Gets or sets the orientation of the NavMesh data.
+---@field ctor fun() @Constructs a new object for representing a NavMesh for the default agent type.
+---@field position fun() @Gets or sets the world space position of the NavMesh data.

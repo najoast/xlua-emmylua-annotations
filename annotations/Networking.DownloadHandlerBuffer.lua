@@ -1,0 +1,3 @@
+---@class Networking.DownloadHandlerBuffer @A general-purpose DownloadHandler implementation which stores received data in a native byte buffer.
+---@field ctor fun() @Default constructor.
+---@field GetContent fun() @Returns a copy of the native-memory buffer interpreted as a UTF8 string.

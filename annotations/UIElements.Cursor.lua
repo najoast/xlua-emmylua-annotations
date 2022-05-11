@@ -1,0 +1,3 @@
+---@class UIElements.Cursor @Script interface for VisualElement cursor style property IStyle.cursor.
+---@field texture fun() @The texture to use for the cursor style. To use a texture as a cursor, import the texture with Read/Write enabled in the texture importer (or using the Cursor defaults).
+---@field hotspot fun() @The offset from the top left of the texture to use as the target point (must be within the bounds of the cursor).

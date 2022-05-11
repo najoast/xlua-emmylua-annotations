@@ -1,0 +1,10 @@
+---@class UIElements.DoubleField @Makes a text field for entering doubles.
+---@field labelUssClassName fun() @USS class name of labels in elements of this type.
+---@field ctor fun() @Constructor.
+---@field ussClassName fun() @USS class name of elements of this type.
+---@field UxmlFactory fun() @Instantiates a DoubleField using the data read from a UXML file.
+---@field UxmlTraits fun() @Defines UxmlTraits for the DoubleField.
+---@field ApplyInputDeviceDelta fun() @Modify the value using a 3D delta and a speed, typically coming from an input device.
+---@field StringToValue fun() @Converts a string to a double.
+---@field ValueToString fun() @Converts the given double to a string.
+---@field inputUssClassName fun() @USS class name of input elements in elements of this type.

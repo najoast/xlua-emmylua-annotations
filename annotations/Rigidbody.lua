@@ -1,0 +1,49 @@
+---@class Rigidbody @Control of an object's position through physics simulation.
+---@field solverIterations fun() @The solverIterations determines how accurately Rigidbody joints and collision contacts are resolved. Overrides Physics.defaultSolverIterations. Must be positive.
+---@field angularVelocity fun() @The angular velocity vector of the rigidbody measured in radians per second.
+---@field angularDrag fun() @The angular drag of the object.
+---@field inertiaTensorRotation fun() @The rotation of the inertia tensor.
+---@field ResetCenterOfMass fun() @Reset the center of mass of the rigidbody.
+---@field centerOfMass fun() @The center of mass relative to the transform's origin.
+---@field position fun() @The position of the rigidbody.
+---@field maxDepenetrationVelocity fun() @Maximum velocity of a rigidbody when moving out of penetrating state.
+---@field AddExplosionForce fun() @Applies a force to a rigidbody that simulates explosion effects.
+---@field Sleep fun() @Forces a rigidbody to sleep at least one frame.
+---@field MoveRotation fun() @Rotates the rigidbody to rotation.
+---@field solverVelocityIterations fun() @The solverVelocityIterations affects how how accurately Rigidbody joints and collision contacts are resolved. Overrides Physics.defaultSolverVelocityIterations. Must be positive.
+---@field OnCollisionExit fun() @OnCollisionExit is called when this collider/rigidbody has stopped touching another rigidbody/collider.
+---@field freezeRotation fun() @Controls whether physics will change the rotation of the object.
+---@field SweepTest fun() @Tests if a rigidbody would collide with anything, if it was moved through the Scene.
+---@field worldCenterOfMass fun() @The center of mass of the rigidbody in world space (Read Only).
+---@field IsSleeping fun() @Is the rigidbody sleeping?
+---@field useGravity fun() @Controls whether gravity affects this rigidbody.
+---@field SetDensity fun() @Sets the mass based on the attached colliders assuming a constant density.
+---@field velocity fun() @The velocity vector of the rigidbody. It represents the rate of change of Rigidbody position.
+---@field sleepVelocity fun() @The linear velocity below which objects start going to sleep. (Default 0.14) range { 0, infinity }.
+---@field sleepAngularVelocity fun() @The angular velocity below which objects start going to sleep.  (Default 0.14) range { 0, infinity }.
+---@field AddForce fun() @Adds a force to the Rigidbody.
+---@field AddRelativeTorque fun() @Adds a torque to the rigidbody relative to its coordinate system.
+---@field GetRelativePointVelocity fun() @The velocity relative to the rigidbody at the point relativePoint.
+---@field collisionDetectionMode fun() @The Rigidbody's collision detection mode.
+---@field WakeUp fun() @Forces a rigidbody to wake up.
+---@field ResetInertiaTensor fun() @Reset the inertia tensor value and rotation.
+---@field SweepTestAll fun() @Like Rigidbody.SweepTest, but returns all hits.
+---@field sleepThreshold fun() @The mass-normalized energy threshold, below which objects start going to sleep.
+---@field OnCollisionStay fun() @OnCollisionStay is called once per frame for every Collider or Rigidbody that touches another Collider or Rigidbody.
+---@field interpolation fun() @Interpolation allows you to smooth out the effect of running physics at a fixed frame rate.
+---@field OnCollisionEnter fun() @OnCollisionEnter is called when this collider/rigidbody has begun touching another rigidbody/collider.
+---@field useConeFriction fun() @Force cone friction to be used for this rigidbody.
+---@field AddRelativeForce fun() @Adds a force to the rigidbody relative to its coordinate system.
+---@field GetPointVelocity fun() @The velocity of the rigidbody at the point worldPoint in global space.
+---@field ClosestPointOnBounds fun() @The closest point to the bounding box of the attached colliders.
+---@field inertiaTensor fun() @The inertia tensor of this body, defined as a diagonal matrix in a reference frame positioned at this body's center of mass and rotated by Rigidbody.inertiaTensorRotation.
+---@field constraints fun() @Controls which degrees of freedom are allowed for the simulation of this Rigidbody.
+---@field detectCollisions fun() @Should collision detection be enabled? (By default always enabled).
+---@field AddTorque fun() @Adds a torque to the rigidbody.
+---@field mass fun() @The mass of the rigidbody.
+---@field drag fun() @The drag of the object.
+---@field MovePosition fun() @Moves the kinematic Rigidbody towards position.
+---@field maxAngularVelocity fun() @The maximimum angular velocity of the rigidbody measured in radians per second. (Default 7) range { 0, infinity }.
+---@field rotation fun() @The rotation of the Rigidbody.
+---@field AddForceAtPosition fun() @Applies force at position. As a result this will apply a torque and force on the object.
+---@field isKinematic fun() @Controls whether physics affects the rigidbody.

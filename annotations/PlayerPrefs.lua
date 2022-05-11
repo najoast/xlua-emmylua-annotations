@@ -1,0 +1,11 @@
+---@class PlayerPrefs @`PlayerPrefs` is a class that stores Player preferences between game sessions. It can store string, float and integer values into the user’s platform registry.
+---@field GetInt fun() @Returns the value corresponding to key in the preference file if it exists.
+---@field DeleteKey fun() @Removes the given key from the PlayerPrefs. If the key does not exist, DeleteKey has no impact.
+---@field SetString fun() @Sets a single string value for the preference identified by the given key. You can use PlayerPrefs.GetString to retrieve this value.
+---@field HasKey fun() @Returns true if the given key exists in PlayerPrefs, otherwise returns false.
+---@field SetInt fun() @Sets a single integer value for the preference identified by the given key. You can use PlayerPrefs.GetInt to retrieve this value.
+---@field SetFloat fun() @Sets the float value of the preference identified by the given key. You can use PlayerPrefs.GetFloat to retrieve this value.
+---@field GetFloat fun() @Returns the value corresponding to key in the preference file if it exists.
+---@field GetString fun() @Returns the value corresponding to key in the preference file if it exists.
+---@field DeleteAll fun() @Removes all keys and values from the preferences. Use with caution.
+---@field Save fun() @Writes all modified preferences to disk.

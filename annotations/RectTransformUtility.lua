@@ -1,0 +1,8 @@
+---@class RectTransformUtility @Utility class containing helper methods for working with  RectTransform.
+---@field PixelAdjustPoint fun() @Convert a given point in screen space into a pixel correct point.
+---@field PixelAdjustRect fun() @Given a rect transform, return the corner points in pixel accurate coordinates.
+---@field FlipLayoutOnAxis fun() @Flips the alignment of the RectTransform along the horizontal or vertical axis, and optionally its children as well.
+---@field RectangleContainsScreenPoint fun() @Does the RectTransform contain the screen point as seen from the given camera?
+---@field ScreenPointToWorldPointInRectangle fun() @Transform a screen space point to a position in world space that is on the plane of the given RectTransform.
+---@field ScreenPointToLocalPointInRectangle fun() @Transform a screen space point to a position in the local space of a RectTransform that is on the plane of its rectangle.
+---@field FlipLayoutAxes fun() @Flips the horizontal and vertical axes of the RectTransform size and alignment, and optionally its children as well.

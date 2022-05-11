@@ -1,0 +1,9 @@
+---@class Search.IndexingOptions @Use Indexing options to specify the contents of your search index.
+---@field Types fun() @Include additional types of information in your Asset index.
+---@field Extended fun() @Include extended information in your index such as sub objects in Scene and Prefab Assets.
+---@field Temporary fun() @Save the search index to a temporary folder that is not managed by Unity.
+---@field Dependencies fun() @Include Asset dependencies in your index.
+---@field All fun() @Apply all indexing options.
+---@field None fun() @Do not include additional indexing options.
+---@field Properties fun() @Include Asset serialized properties in your index.
+---@field Keep fun() @Use this option to save the created index as an Asset file.

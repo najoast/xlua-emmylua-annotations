@@ -1,0 +1,12 @@
+---@class AndroidJavaObject @AndroidJavaObject is the Unity representation of a generic instance of java.lang.Object.
+---@field GetRawObject fun() @Retrieves the raw jobject pointer to the Java object.Note: Using raw JNI functions requires advanced knowledge of the Android Java Native Interface (JNI). Please take note.
+---@field GetRawClass fun() @Retrieves the raw jclass pointer to the Java class.Note: Using raw JNI functions requires advanced knowledge of the Android Java Native Interface (JNI). Please take note.
+---@field ctor fun() @Construct an AndroidJavaObject based on the name of the class.
+---@field CloneReference fun() @Creates a clone of the C# object that references the same Java object.
+---@field CallStatic fun() @Call a static Java method on a class.
+---@field Get fun() @Get the value of a field in an object (non-static).
+---@field GetStatic fun() @Get the value of a static field in an object type.
+---@field Set fun() @Set the value of a field in an object (non-static).
+---@field Dispose fun() @IDisposable callback.
+---@field SetStatic fun() @Set the value of a static field in an object type.
+---@field Call fun() @Calls a Java method on an object (non-static).

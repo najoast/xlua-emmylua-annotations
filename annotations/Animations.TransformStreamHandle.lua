@@ -1,0 +1,21 @@
+---@class Animations.TransformStreamHandle @Position, rotation and scale of an object in the AnimationStream.
+---@field Resolve fun() @Bind this handle with an animated values from the AnimationStream.
+---@field GetLocalPosition fun() @Gets the position of the transform relative to the parent.
+---@field GetGlobalTR fun() @Gets the position and scaled rotation of the transform in world space.
+---@field SetLocalRotation fun() @Sets the rotation of the transform relative to the parent.
+---@field IsResolved fun() @Returns whether this handle is resolved.
+---@field GetPositionReadMask fun() @Gets the position read mask of the transform.
+---@field GetPosition fun() @Gets the position of the transform in world space.
+---@field GetLocalTRS fun() @Gets the position, rotation and scale of the transform relative to the parent.
+---@field GetLocalScale fun() @Gets the scale of the transform relative to the parent.
+---@field SetLocalPosition fun() @Sets the position of the transform relative to the parent.
+---@field SetRotation fun() @Sets the rotation of the transform in world space.
+---@field GetRotation fun() @Gets the rotation of the transform in world space.
+---@field SetPosition fun() @Sets the position of the transform in world space.
+---@field IsValid fun() @Returns whether this is a valid handle.
+---@field GetRotationReadMask fun() @Gets the rotation read mask of the transform.
+---@field SetLocalTRS fun() @Sets the position, rotation and scale of the transform relative to the parent.
+---@field SetLocalScale fun() @Sets the scale of the transform relative to the parent.
+---@field GetScaleReadMask fun() @Gets the scale read mask of the transform.
+---@field GetLocalRotation fun() @Gets the rotation of the transform relative to the parent.
+---@field SetGlobalTR fun() @Sets the position and rotation of the transform in world space.

@@ -1,0 +1,3 @@
+---@class UIElements.TextOverflow @Specifies how the text Element treats hidden overflow content.
+---@field Clip fun() @The Element clips overflow content and hides it. This is the default value.
+---@field Ellipsis fun() @The Element clips overflow content and hides it, but displays an ellipsis (...) to indicate that clipped content exists.

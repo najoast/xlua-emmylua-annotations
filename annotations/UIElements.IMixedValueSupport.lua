@@ -1,0 +1,2 @@
+---@class UIElements.IMixedValueSupport @An interface that allows value fields to visually represent a mixed value.
+---@field showMixedValue fun() @Indicates whether to enable the mixed value state on the value field.

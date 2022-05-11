@@ -1,0 +1,2 @@
+---@class Build.BuildFailedException @An exception class that represents a failed build.
+---@field ctor fun() @Constructs a BuildFailedException object.

@@ -1,0 +1,4 @@
+---@class Experimental.GraphView.Pill.UxmlTraits @Defines UxmlTraits for the Pill.
+---@field uxmlChildElementsDescription fun() @Returns an empty enumerable, as pill elements do not have children.
+---@field ctor fun() @Constructor.
+---@field Init fun() @Initialize Pill properties using values from the attribute bag.

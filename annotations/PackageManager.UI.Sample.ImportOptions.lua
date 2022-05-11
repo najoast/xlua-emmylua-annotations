@@ -1,0 +1,4 @@
+---@class PackageManager.UI.Sample.ImportOptions @Sample import options.
+---@field None fun() @None.
+---@field OverridePreviousImports fun() @Override previous imports of the sample.
+---@field HideImportWindow fun() @Hide the import window when importing a sample that is an asset package (a .unitypackage file).

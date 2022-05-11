@@ -1,0 +1,67 @@
+---@class TextureImporter @Texture importer lets you modify Texture2D import settings from editor scripts.
+---@field normalmap fun() @Determines whether this texture is a normal map.
+---@field alphaSource fun() @Select how the alpha of the imported texture is generated.
+---@field qualifiesForSpritePacking fun() @Returns true if this TextureImporter is setup for Sprite packing.
+---@field ReadTextureSettings fun() @Read texture settings into TextureImporterSettings class.
+---@field androidETC2FallbackOverride fun() @ETC2 texture decompression fallback override on Android devices that don't support ETC2.
+---@field SetTextureSettings fun() @Set texture importers settings from TextureImporterSettings class.
+---@field npotScale fun() @Scaling mode for non power of two textures.
+---@field GetPlatformTextureSettings fun() @Get platform specific texture settings.
+---@field GetDefaultPlatformTextureSettings fun() @Get the default platform specific texture settings.
+---@field isReadable fun() @Whether Unity stores an additional copy of the imported texture's pixel data in CPU-addressable memory.
+---@field sRGBTexture fun() @Determines whether this texture stores color data.
+---@field borderMipmap fun() @Keeps texture borders the same when generating mipmaps.
+---@field generateCubemap fun() @Cubemap generation mode.
+---@field lightmap fun() @Determines whether this texture is a lightmap.
+---@field generateMipsInLinearSpace fun() @Generates mipmaps with gamma correction.
+---@field filterMode fun() @Filtering mode of the texture.
+---@field normalmapFilter fun() @Normal map filtering mode.
+---@field convertToNormalmap fun() @Convert heightmap to normal map
+---@field spritePackingTag fun() @Selects the Sprite packing tag.
+---@field ignorePngGamma fun() @Ignore the Gamma attribute in PNG files. This property does not effect other file formats.
+---@field alphaIsTransparency fun() @If the provided alpha channel is transparency, enable this to prefilter the color to avoid filtering artifacts.
+---@field wrapMode fun() @Texture coordinate wrapping mode.
+---@field fadeout fun() @Fade out mip levels to gray color.
+---@field spritePixelsPerUnit fun() @The number of pixels in the sprite that correspond to one unit in world space.
+---@field spriteImportMode fun() @Selects Single or Manual import mode for Sprite textures.
+---@field GetSourceTextureWidthAndHeight fun() @Gets the source texture's width and height.
+---@field streamingMipmapsPriority fun() @Relative priority for this texture when reducing memory size in order to hit the memory budget.
+---@field allowAlphaSplitting fun() @Allows alpha splitting on relevant platforms for this texture.
+---@field GetAutomaticFormat fun() @Returns the TextureImporterFormat that would be automatically chosen for this platform.
+---@field spritePivot fun() @The point in the Sprite object's coordinate space where the graphic is located.
+---@field grayscaleToAlpha fun() @Generate alpha channel from intensity.
+---@field mipmapFilter fun() @Mipmap filtering mode.
+---@field secondarySpriteTextures fun() @Secondary textures for the imported Sprites.
+---@field SetAllowsAlphaSplitting fun() @Setter for the flag that allows Alpha splitting on the imported texture when needed (for example ETC1 compression for textures with transparency).
+---@field ClearPlatformTextureSettings fun() @Clear specific target platform settings.
+---@field anisoLevel fun() @Anisotropic filtering level of the texture.
+---@field wrapModeW fun() @Texture W coordinate wrapping mode for Texture3D.
+---@field DoesSourceTextureHaveAlpha fun() @Allows you to check whether the texture source image has an alpha channel.
+---@field textureCompression fun() @Compression of imported texture.
+---@field textureFormat fun() @Format of imported texture.
+---@field heightmapScale fun() @Amount of bumpyness in the heightmap.
+---@field GetAllowsAlphaSplitting fun() @Getter for the flag that allows Alpha splitting on the imported texture when needed (for example ETC1 compression for textures with transparency).
+---@field IsDefaultPlatformTextureFormatValid fun() @Validates TextureImporterFormat based on the type of the current format (TextureImporterType) and the default platform.
+---@field mipmapFadeDistanceEnd fun() @Mip level where texture is faded out completely.
+---@field IsPlatformTextureFormatValid fun() @Validates TextureImporterFormat based on a specified import type (TextureImporterType) and a specified build target (BuildTarget.).
+---@field vtOnly fun() @When enabled, this texture can solely be used in combination with a Texture Stack for Virtual Texturing. When enabled the texture is not guaranteed to be available as a Texture2D in the Player (e.g., not accessible from a script). When disabled, the Player includes the texture both as a Texture2D (e.g., accessible from script) and as a streamable texture in a Texture Stack.
+---@field SetPlatformTextureSettings fun() @Set specific target platform settings.
+---@field spriteBorder fun() @Border sizes of the generated sprites.
+---@field streamingMipmaps fun() @Enable mipmap streaming for this texture.
+---@field textureShape fun() @The shape of the imported texture.
+---@field ReadTextureImportInstructions fun() @Reads the active texture output instructions of this TextureImporter.
+---@field crunchedCompression fun() @Use crunched compression when available.
+---@field mipMapsPreserveCoverage fun() @Enables or disables coverage-preserving alpha mipmapping.
+---@field alphaTestReferenceValue fun() @Returns or assigns the alpha test reference value.
+---@field compressionQuality fun() @Quality of Texture Compression in the range [0..100].
+---@field mipmapFadeDistanceStart fun() @Mip level where texture begins to fade out.
+---@field wrapModeU fun() @Texture U coordinate wrapping mode.
+---@field linearTexture fun() @Determines whether this texture stores non-color data.
+---@field mipMapBias fun() @Mip map bias of the texture.
+---@field spritesheet fun() @Array representing the sections of the atlas corresponding to individual sprite graphics.
+---@field maxTextureSize fun() @Maximum texture size.
+---@field textureType fun() @Which type of texture are we dealing with here.
+---@field spritePixelsToUnits fun() @Scale factor for mapping pixels in the graphic to units in world space.
+---@field DoesSourceTextureHaveColor fun() @Does textures source image have RGB channels.
+---@field wrapModeV fun() @Texture V coordinate wrapping mode.
+---@field mipmapEnabled fun() @Generate Mip Maps.

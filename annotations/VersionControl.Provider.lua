@@ -1,0 +1,50 @@
+---@class VersionControl.Provider @This class provides access to the version control API.
+---@field SubmitIsValid fun() @Returns true if submitting the assets is a valid operation.
+---@field PreSubmitCallback fun() @Delegate for a user-supplied callback to be called before Version Control Submit.
+---@field GetActivePlugin fun() @Gets the current, user selected verson control Plugin.
+---@field ClearCache fun() @This will invalidate the cached state information for all assets.
+---@field Checkout fun() @Checkout an asset or a list of assets from the version control system.
+---@field DiffHead fun() @Starts a task for showing a diff of the given assest versus their head revision.
+---@field ResolveIsValid fun() @Tests if any of the assets in the list have the conflicted state and can be resolved.
+---@field preCheckoutCallback fun() @User-supplied callback to be called before Version Control check out operation.
+---@field Add fun() @Allows you to add files to version control via script.
+---@field GetAssetByGUID fun() @Returns version control information about an asset from a given GUID.
+---@field requiresNetwork fun() @This is true if a network connection is required by the currently selected version control plugin to perform any action.
+---@field ChangeSetMove fun() @Move an Asset or a list of Assets from their current changeset to a new changeset.
+---@field enabled fun() @Returns true if the version control provider is enabled and a valid Unity Pro License was found.
+---@field ChangeSets fun() @Gets a list of pending changesets owned by the current user.
+---@field CheckoutIsValid fun() @Given an asset or a  list of assets this function returns true if Provider.Checkout is a valid task to perform on at least one of the given assets.
+---@field offlineReason fun() @Returns the reason for the version control provider being offline (if it is offline).
+---@field hasCheckoutSupport fun() @This is true if the currently selected version control plugin supports the Checkout method.
+---@field GetActiveConfigFields fun() @Returns the configuration fields for the currently active version control plugin.
+---@field ChangeSetStatus fun() @Retrieves a list of assets belonging to a changeset.
+---@field Revert fun() @Reverts the specified assets by undoing any changes done since the last time you synced.
+---@field DiffIsValid fun() @Returns true if starting a Diff task is a valid operation for at least one asset in the given AssetList.
+---@field IsOpenForEdit fun() @Returns true if an asset can be edited.
+---@field preSubmitCallback fun() @User-supplied callback to be called before Version Control Submit operation.
+---@field GetAssetByPath fun() @Returns the version control information about an asset. Can be used with AssetList.Add to add assets to a list for further version control actions.
+---@field Submit fun() @Starts a task that submits the assets to version control.
+---@field LockIsValid fun() @Returns true if the Provider.Lock task can be executed on one or more assets from the given asset list.
+---@field Status fun() @Starts a task that will fetch the most recent status about the asset or assets from the revision control system.
+---@field RevertIsValid fun() @Returns true if Provider.Revert is a valid task to perform on at least one of the given assets in the list.
+---@field UnlockIsValid fun() @Returns true if unlocking the assets is a valid operation.
+---@field Resolve fun() @Starts a task that will resolve the conflicting assets in version control.
+---@field DeleteChangeSetsIsValid fun() @Tests if deleting the given changesets is a valid task to perform.
+---@field PreCheckoutCallback fun() @Delegate for a user-supplied callback to be called before Version Control Checkout.
+---@field Move fun() @Uses the version control plugin to move an asset from one path to another.
+---@field Merge fun() @Initiates a merge task to handle the merging of conflicting Assets. This invokes a merge tool, which you can set in the External Tools section of the Preferences window, on the conflicting Assets. When the merge task finishes, the AssetList only contains the Assets that the tool could merge.
+---@field Lock fun() @Attempt to lock an asset for exclusive editing.
+---@field onlineState fun() @Returns the OnlineState of the version control provider.
+---@field Incoming fun() @Starts a task that queries the version control server for incoming changes.
+---@field IncomingChangeSetAssets fun() @Given an incoming changeset this will start a task to query the version control server for which assets are part of the changeset.
+---@field hasLockingSupport fun() @This is true if the currently selected version control plugin supports the Lock and Unlock methods.
+---@field GetLatestIsValid fun() @The task tests the given asset list and returns true if Provider.GetLatest is valid operation for one or more assets.
+---@field UpdateSettings fun() @Starts a task that sends the version control settings to the version control system.
+---@field GetLatest fun() @Start a task for getting the latest version of an out of sync asset from the version control server.
+---@field DeleteChangeSets fun() @Starts a task that will attempt to delete the given changesets.
+---@field activeTask fun() @Gets the currently executing task.
+---@field GetAssetListFromSelection fun() @Returns the version control information about the currently selected Assets.
+---@field Delete fun() @Starts a task to delete an Asset or a list of Assets from the disk and from the version control system.
+---@field isActive fun() @Returns true if a version control plugin has been selected and configured correctly.
+---@field AddIsValid fun() @Given a list of assets this function returns true if Provider.Add is a valid task to perform on at least one of the assets in the list.
+---@field ChangeSetDescription fun() @Given a changeset only containing the changeset ID, this will start a task for quering the description of the changeset.

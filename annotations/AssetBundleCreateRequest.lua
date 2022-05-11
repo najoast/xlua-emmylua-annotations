@@ -1,0 +1,2 @@
+---@class AssetBundleCreateRequest @Asynchronous create request for an AssetBundle.
+---@field assetBundle fun() @Asset object being loaded (Read Only).

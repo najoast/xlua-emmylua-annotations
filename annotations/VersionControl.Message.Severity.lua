@@ -1,0 +1,5 @@
+---@class VersionControl.Message.Severity @Severity of a version control message.
+---@field Warning fun() @Warning message.
+---@field Error fun() @Error message.
+---@field Verbose fun() @Verbose message.
+---@field Info fun() @Informational message.

@@ -1,0 +1,4 @@
+---@class LightShadowCasterMode @Allows mixed lights to control shadow caster culling when Shadowmasks are present.
+---@field Default fun() @Use the global Shadowmask Mode from the quality settings.
+---@field NonLightmappedOnly fun() @Render only non-lightmapped objects into the shadow map. This corresponds with the Shadowmask mode.
+---@field Everything fun() @Render all shadow casters into the shadow map. This corresponds with the distance Shadowmask mode.

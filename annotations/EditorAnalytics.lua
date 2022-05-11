@@ -1,0 +1,6 @@
+---@class EditorAnalytics @Editor API for the EditorAnalytics feature.
+---@field RegisterEventWithLimit fun() @This API is used for registering an Editor Analytics event. Note: This API is for internal use only and is likely change in the future. Do not use in user code.
+---@field enabled fun() @Returns true when EditorAnalytics is enabled.
+---@field SendEventWithLimit fun() @This API is used to send an Editor Analytics event. Note: This API is for internal use only and is likely change in the future. Do not use in user code.
+---@field SetEventWithLimitPriority fun() @Use the API to set the event property. Note: This API is for internal use only and is likely change in the future. Do not use in user code.
+---@field SetEventWithLimitEndPoint fun() @Use this API to set the event end point URL. Note: This API is for internal use only and is likely change in the future. Do not use in user code.

@@ -1,0 +1,8 @@
+---@class VFX.VFXManager @Use this class to set a number of properties that control VisualEffect behavior within your Unity Project.
+---@field ProcessCameraCommand fun() @Use this method to process per-Camera VFX commands for the current frame.
+---@field SetCameraBuffer fun() @Use this method to set the buffer of a given type for this Camera. This allows the VFX Manager to use the buffer.
+---@field PrepareCamera fun() @Use this method to prepare per-Camera VFX commands for this frame.
+---@field ProcessCamera fun() @Use this method to prepare and process per-Camera VFX commands for this frame.
+---@field IsCameraBufferNeeded fun() @Queries which buffers the VFX Manager needs for the given Camera.
+---@field maxDeltaTime fun() @The maximum allowed delta time for an update interval. This limit affects fixedDeltaTime and deltaTime. The tick rate is in seconds.
+---@field fixedTimeStep fun() @The fixed interval in which the frame rate updates. The tick rate is in seconds.

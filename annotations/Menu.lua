@@ -1,0 +1,5 @@
+---@class Menu @Menu class to manipulate the menu item.
+---@field SetChecked fun() @Set the check status of the given menu.
+---@field GetEnabled fun() @Gets a menu item's enabled status.
+---@field ctor fun() @Default constructor.
+---@field GetChecked fun() @Get the check status of the given menu.

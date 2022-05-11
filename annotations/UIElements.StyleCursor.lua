@@ -1,0 +1,4 @@
+---@class UIElements.StyleCursor @Style value that can be either a Cursor or a StyleKeyword.
+---@field value fun() @The Cursor value.
+---@field ctor fun() @Creates from either a Cursor or StyleKeyword.
+---@field keyword fun() @The style keyword.

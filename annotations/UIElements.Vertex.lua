@@ -1,0 +1,5 @@
+---@class UIElements.Vertex @Represents a vertex of geometry for drawing content of VisualElement.
+---@field nearZ fun() @A special value representing the near clipping plane. Always use this value as the vertex position's z component when building 2D (flat) UI geometry.
+---@field uv fun() @The UV coordinate of the vertex.
+---@field tint fun() @A color value for the vertex.
+---@field position fun() @Describes the vertex's position.

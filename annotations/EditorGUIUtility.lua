@@ -1,0 +1,46 @@
+---@class EditorGUIUtility @Miscellaneous helper stuff for EditorGUI.
+---@field FindTexture fun() @Get a texture from its source filename.
+---@field GetIconForObject fun() @Gets the custom icon associated with an object. Only GameObjects and MonoScripts have associated custom icons.
+---@field editingTextField fun() @Is a text field currently editing text?
+---@field whiteTexture fun() @Get a white texture.
+---@field DrawRegionSwatch fun() @Draw swatch with a filled region between two SerializedProperty curves.
+---@field QueueGameViewInputEvent fun() @Send an input event into the game.
+---@field GetObjectPickerControlID fun() @The controlID of the currently showing object picker.
+---@field textFieldHasSelection fun() @True if a text field currently has focused and the text in it is selected.
+---@field ShowObjectPicker fun() @Show the object picker from code.
+---@field GetIconSize fun() @Get the size that has been set using SetIconSize.
+---@field systemCopyBuffer fun() @The system copy buffer.
+---@field CommandEvent fun() @Creates an event that can be sent to another window.
+---@field labelWidth fun() @The width in pixels reserved for labels of Editor GUI controls.
+---@field singleLineHeight fun() @Get the height used for a single Editor control such as a one-line EditorGUI.TextField or EditorGUI.Popup.
+---@field HasObjectThumbnail fun() @Does a given class have per-object thumbnails?
+---@field DrawColorSwatch fun() @Draw a color swatch.
+---@field DrawCurveSwatch fun() @Draw a curve swatch.
+---@field LoadRequired fun() @Load a required built-in resource.
+---@field SetIconForObject fun() @Sets a custom icon to associate with a GameObject or MonoScript. The custom icon is displayed in the Scene view and the Inspector.
+---@field GetMainWindowPosition fun() @Returns position of Unity Editor's main window.
+---@field fieldWidth fun() @The minimum width in pixels reserved for the fields of Editor GUI controls.
+---@field Load fun() @Load a built-in resource.
+---@field hierarchyMode fun() @Is the Editor GUI is hierarchy mode?
+---@field IconSizeScope EditorGUIUtility.IconSizeScope @Disposable scope helper for GetIconSize / SetIconSize.
+---@field LookLikeInspector fun() @Make all EditorGUI look like simplified outline view controls.
+---@field GetBuiltinSkin fun() @Get one of the built-in GUI skins, which can be the game view, inspector or Scene view skin as chosen by the parameter.
+---@field GetObjectPickerObject fun() @The object currently selected in the object picker.
+---@field SetMainWindowPosition fun() @Sets position of Unity Editor's main window.
+---@field SetIconSize fun() @Set icons rendered as part of GUIContent to be rendered at a specific size.
+---@field wideMode fun() @Is the Editor GUI currently in wide mode?
+---@field RenderGameViewCameras fun() @Render all ingame cameras.
+---@field LookLikeControls fun() @Make all EditorGUI look like regular controls.
+---@field PropertyCallbackScope EditorGUIUtility.PropertyCallbackScope @Specifies a scope in which a callback gets called before each property is rendered.
+---@field PointsToPixels fun() @Convert from point space to pixel space.
+---@field IsDisplayReferencedByCameras fun() @Check if any enabled camera can render to a particular display.
+---@field PixelsToPoints fun() @Convert from pixel space to point space.
+---@field standardVerticalSpacing fun() @Get the height used by default for vertical spacing between controls.
+---@field currentViewWidth fun() @The width of the GUI area for the current EditorWindow or other view. This Property should only be accessed within an OnGUI call.
+---@field ObjectContent fun() @Return a GUIContent object with the name and icon of an Object.
+---@field AddCursorRect fun() @Add a custom mouse pointer to a control.
+---@field PingObject fun() @Ping an object in the Scene like clicking it in an inspector.
+---@field isProSkin fun() @Is the user currently using the pro skin? (Read Only)
+---@field IconContent fun() @Fetch the GUIContent from the Unity builtin resources with the given name.
+---@field GetFlowLayoutedRects fun() @Layout list of string items left to right, top to bottom in the given area.
+---@field pixelsPerPoint fun() @The scale of GUI points relative to screen pixels for the current viewThis value is the number of screen pixels per point of interface space. For instance, 2.0 on retina displays. Note that the value may differ from one view to the next if the views are on monitors with different UI scales.

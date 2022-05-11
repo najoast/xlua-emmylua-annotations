@@ -1,0 +1,4 @@
+---@class VersionControl.ChangeSet @Wrapper around a changeset description and ID.
+---@field description fun() @Description of a changeset.
+---@field id fun() @Version control specific ID of a changeset.
+---@field defaultID fun() @The ID of  the default changeset.

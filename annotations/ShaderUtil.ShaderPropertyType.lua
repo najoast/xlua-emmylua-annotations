@@ -1,0 +1,7 @@
+---@class ShaderUtil.ShaderPropertyType @Type of a given texture property.
+---@field Color fun() @Color Property.
+---@field TexEnv fun() @Texture Property.
+---@field Vector fun() @Vector Property.
+---@field Int fun() @Int Property.
+---@field Float fun() @Float Property.
+---@field Range fun() @Range Property.

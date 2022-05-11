@@ -1,0 +1,7 @@
+---@class Gradient @Gradient used for animating colors.
+---@field Evaluate fun() @Calculate color at a given time.
+---@field ctor fun() @Create a new Gradient object.
+---@field alphaKeys fun() @All alpha keys defined in the gradient.
+---@field colorKeys fun() @All color keys defined in the gradient.
+---@field SetKeys fun() @Setup Gradient with an array of color keys and alpha keys.
+---@field mode fun() @Control how the gradient is evaluated.

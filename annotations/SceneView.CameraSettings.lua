@@ -1,0 +1,15 @@
+---@class SceneView.CameraSettings @Use this class to set SceneView Camera properties.
+---@field ctor fun() @Create a new CameraSettings object.
+---@field occlusionCulling fun() @Enables occlusion culling in the SceneView. This prevents Unity from rendering GameObjects that the Camera cannot see because they are hidden by other GameObjects.
+---@field defaultEasingDuration fun() @The default value for how long it takes for the speed of the SceneView Camera to accelerate to its initial full speed.
+---@field speedNormalized fun() @The normalized speed of the SceneView Camera, relative to the current minimum/maximum range. Valid values are between [0, 1].
+---@field dynamicClip fun() @When enabled, the SceneView Camera's near and far clipping planes are calculated relative to the viewport size of the Scene. When disabled, nearClip and farClip are used instead.
+---@field speedMin fun() @The minimum speed of the SceneView Camera. Valid values are between [0.0001, 9999].
+---@field speedMax fun() @The maximum speed of the SceneView Camera. Valid values are between [0.0002, 10000].
+---@field speed fun() @The speed of the SceneView Camera.
+---@field nearClip fun() @The closest point to the SceneView Camera where drawing occurs. The valid minimum value is 0.01.
+---@field easingEnabled fun() @Enables Camera movement easing in the SceneView. This makes the Camera ease in when it starts moving, and ease out when it stops.
+---@field farClip fun() @The furthest point from the SceneView Camera that drawing occurs. The valid minimum value is 0.02.
+---@field fieldOfView fun() @The height of the view angle for the SceneView Camera. Measured in degrees vertically, or along the local Y axis.
+---@field accelerationEnabled fun() @Enables Camera movement acceleration in the SceneView. This makes the Camera accelerate for the duration of movement.
+---@field easingDuration fun() @How long it takes for the speed of the SceneView Camera to accelerate to its initial full speed. Measured in seconds. Valid values are between [0.1, 2].

@@ -1,0 +1,6 @@
+---@class ColorPickerHDRConfig @Used as input to ColorField to configure the HDR color ranges in the ColorPicker.
+---@field minExposureValue fun() @Minimum exposure value allowed in the Color Picker.
+---@field ctor fun() @
+---@field minBrightness fun() @Minimum allowed color component value when using the ColorPicker.
+---@field maxExposureValue fun() @Maximum exposure value allowed in the Color Picker.
+---@field maxBrightness fun() @Maximum allowed color component value when using the ColorPicker.

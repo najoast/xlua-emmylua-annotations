@@ -1,0 +1,4 @@
+---@class Animations.CustomStreamPropertyType @The type of custom stream property to create using BindCustomStreamProperty
+---@field Bool fun() @A boolean value.
+---@field Int fun() @An integer value.
+---@field Float fun() @A float value.

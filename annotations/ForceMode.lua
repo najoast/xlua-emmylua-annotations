@@ -1,0 +1,5 @@
+---@class ForceMode @Use ForceMode to specify how to apply a force using Rigidbody.AddForce or ArticulationBody.AddForce.
+---@field VelocityChange fun() @Add an instant velocity change to the rigidbody, ignoring its mass.
+---@field Force fun() @Add a continuous force to the rigidbody, using its mass.
+---@field Impulse fun() @Add an instant force impulse to the rigidbody, using its mass.
+---@field Acceleration fun() @Add a continuous acceleration to the rigidbody, ignoring its mass.

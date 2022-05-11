@@ -1,0 +1,5 @@
+---@class ModelImporterMeshCompression @Mesh compression options for ModelImporter.
+---@field Low fun() @Low amount of mesh compression.
+---@field High fun() @High amount of mesh compression.
+---@field Off fun() @No mesh compression (default).
+---@field Medium fun() @Medium amount of mesh compression.

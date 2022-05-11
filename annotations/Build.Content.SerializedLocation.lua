@@ -1,0 +1,4 @@
+---@class Build.Content.SerializedLocation @Struct containing information about where an object was serialized.
+---@field size fun() @Size of the object's data.
+---@field offset fun() @Byte offset for the start of the object's data.
+---@field fileName fun() @File path on disk where the object was serialized.

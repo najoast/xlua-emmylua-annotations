@@ -1,0 +1,4 @@
+---@class Rendering.CullMode @Backface culling mode.
+---@field Off fun() @Disable culling.
+---@field Back fun() @Cull back-facing geometry.
+---@field Front fun() @Cull front-facing geometry.

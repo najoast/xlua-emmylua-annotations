@@ -1,0 +1,7 @@
+---@class iOS.SystemGestureDeferMode @Bit-mask used to control the deferring of system gestures on iOS.
+---@field TopEdge fun() @Identifies top screen edge.
+---@field LeftEdge fun() @Identifies left screen edge.
+---@field RightEdge fun() @Identifies right screen edge.
+---@field None fun() @Disables gesture deferring on all edges.
+---@field All fun() @Identifies all screen edges.
+---@field BottomEdge fun() @Identifies bottom screen edge.

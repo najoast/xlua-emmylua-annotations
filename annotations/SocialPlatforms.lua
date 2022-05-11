@@ -1,0 +1,14 @@
+---@class SocialPlatforms @nil
+---@field Impl fun() @nil
+---@field GameCenter fun() @nil
+---@field UserState SocialPlatforms.UserState @User presence state.
+---@field ILocalUser SocialPlatforms.ILocalUser @Represents the local or currently logged in user.
+---@field Range SocialPlatforms.Range @The score range a leaderboard query should include.
+---@field TimeScope fun() @The scope of time searched through when querying the leaderboard.
+---@field IScore SocialPlatforms.IScore @A game score.
+---@field IAchievement SocialPlatforms.IAchievement @Information for a user's achievement.
+---@field ISocialPlatform SocialPlatforms.ISocialPlatform @The generic Social API interface which implementations must inherit.
+---@field IAchievementDescription SocialPlatforms.IAchievementDescription @Static data describing an achievement.
+---@field IUserProfile SocialPlatforms.IUserProfile @Represents generic user instances, like friends of the local user.
+---@field ILeaderboard SocialPlatforms.ILeaderboard @The leaderboard contains the scores of all players for a particular game.
+---@field UserScope fun() @The scope of the users searched through when querying the leaderboard.

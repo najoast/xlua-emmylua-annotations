@@ -1,0 +1,5 @@
+---@class UIElements.ITransform @This interface provides access to a VisualElement transform data.
+---@field scale fun() @The scale of the VisualElement transform.
+---@field rotation fun() @The rotation of the VisualElement transform stored as a Quaternion.
+---@field matrix fun() @Transformation matrix calculated from the position, rotation and scale of the transform (Read Only).
+---@field position fun() @The position of the VisualElement transform.

@@ -1,0 +1,2 @@
+---@class CustomYieldInstruction @Base class for custom yield instructions to suspend coroutines.
+---@field keepWaiting fun() @Indicates if coroutine should be kept suspended.

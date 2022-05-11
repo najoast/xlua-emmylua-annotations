@@ -1,0 +1,2 @@
+---@class Rendering.EditorCameraUtils @Utilities for Camera rendering in the Editor.
+---@field RenderToCubemap fun() @Renders this Camera into a static cubemap.

@@ -1,0 +1,4 @@
+---@class PackageManager.Requests.Request @Tracks the state of an asynchronous Unity Package Manager (Upm) server operation.
+---@field Error fun() @The error returned by the request, if any.
+---@field Status fun() @The request status.
+---@field IsCompleted fun() @Whether the request is complete.

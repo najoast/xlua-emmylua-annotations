@@ -1,0 +1,6 @@
+---@class AssetBundleManifest @Manifest for all the AssetBundles in the build.
+---@field GetDirectDependencies fun() @Get the direct dependent AssetBundles for the given AssetBundle.
+---@field GetAllDependencies fun() @Get all the dependent AssetBundles for the given AssetBundle.
+---@field GetAllAssetBundles fun() @Get all the AssetBundles in the manifest.
+---@field GetAllAssetBundlesWithVariant fun() @Get all the AssetBundles with variant in the manifest.
+---@field GetAssetBundleHash fun() @Get the hash for the given AssetBundle.

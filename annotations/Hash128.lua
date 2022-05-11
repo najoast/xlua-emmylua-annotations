@@ -1,0 +1,7 @@
+---@class Hash128 @Represents  a 128-bit hash value.
+---@field Compute fun() @Compute a hash of input data.
+---@field isValid fun() @Returns true is the hash value is valid. (Read Only)
+---@field ctor fun() @Directly initialize a Hash128 with a 128-bit value.
+---@field Parse fun() @Convert a hex-encoded string into Hash128 value.
+---@field ToString fun() @Convert a Hash128 to string.
+---@field Append fun() @Hash new input data and combine with the current hash value.

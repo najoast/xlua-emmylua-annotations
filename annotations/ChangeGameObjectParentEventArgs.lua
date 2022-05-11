@@ -1,0 +1,7 @@
+---@class ChangeGameObjectParentEventArgs @A change of this type indicates that the parent of a GameObject has changed. This happens when Undo.SetTransformParent or SceneManager.MoveGameObjectToScene is used.
+---@field previousScene fun() @The scene containing the previous parent. This is useful to detect whether a GameObject was moved to another scene.
+---@field ctor fun() @Constructs a new instance.
+---@field previousParentInstanceId fun() @The instance ID of the GameObject that was the previous parent of the target. Note that this is not the instance ID of its Transform.
+---@field newParentInstanceId fun() @The instance ID of the GameObject that is the new parent of the target. Note that this is not the instance ID of its Transform.
+---@field newScene fun() @The Scene containing the new parent. This is useful to detect whether a GameObject was moved to another scene or moved to the root of a scene.
+---@field instanceId fun() @The instance ID of the GameObject whose parent changed. Note that this is not the instance ID of the Transform component.

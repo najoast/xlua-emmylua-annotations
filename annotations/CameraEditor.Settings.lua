@@ -1,0 +1,46 @@
+---@class CameraEditor.Settings @Contains all drawable elements of the CameraEditor.
+---@field allowMSAA fun() @Exposed SerializedProperty for the inspected Camera.
+---@field renderingPath fun() @Exposed SerializedProperty for the inspected Camera.
+---@field stereoSeparation fun() @Exposed SerializedProperty for the inspected Camera.
+---@field DrawCullingMask fun() @Draws the default [[CameraEditor] culling mask widget.
+---@field nearClippingPlane fun() @Exposed SerializedProperty for the inspected Camera.
+---@field sensorSize fun() @Exposed SerializedProperty for the inspected Camera.
+---@field farClippingPlane fun() @Exposed SerializedProperty for the inspected Camera.
+---@field DrawOcclusionCulling fun() @Draws the default [[CameraEditor] occlusion culling widget.
+---@field DrawRenderingPath fun() @Draws the default [[CameraEditor] rendering path widget.
+---@field targetDisplay fun() @Exposed SerializedProperty for the inspected Camera.
+---@field backgroundColor fun() @Exposed SerializedProperty for the inspected Camera.
+---@field depth fun() @Exposed SerializedProperty for the inspected Camera.
+---@field OnEnable fun() @Populate the settings object with data linked to the Camera SerializedObject.
+---@field DrawNormalizedViewPort fun() @Draws the default [[CameraEditor] viewport widget.
+---@field orthographicSize fun() @Exposed SerializedProperty for the inspected Camera.
+---@field DrawTargetEye fun() @Draws the default [[CameraEditor] target eye widget.
+---@field fovAxisMode fun() @Exposed SerializedProperty for the inspected Camera.
+---@field DrawDynamicResolution fun() @Draws the default [[CameraEditor] dynamic resolution widget.
+---@field DrawMultiDisplay fun() @Draws the default [[CameraEditor] muliple display widget.
+---@field verticalFOV fun() @Exposed SerializedProperty for the inspected Camera.
+---@field orthographic fun() @Exposed SerializedProperty for the inspected Camera.
+---@field Update fun() @See SerializedObject.Update.
+---@field clearFlags fun() @Exposed SerializedProperty for the inspected Camera.
+---@field HDR fun() @Exposed SerializedProperty for the inspected Camera.
+---@field DrawClippingPlanes fun() @Draws the default [[CameraEditor] clipping planes widget.
+---@field DrawDepth fun() @Draws the default [[CameraEditor] depth widget.
+---@field DrawTargetTexture fun() @Draws the default [[CameraEditor] target texture widget.
+---@field DrawProjection fun() @Draws the default [[CameraEditor] projection widget.
+---@field DrawMSAA fun() @Draws the default [[CameraEditor] MSAA widget.
+---@field DrawHDR fun() @Draws the default [[CameraEditor] HDR widget.
+---@field ApplyModifiedProperties fun() @See SerializedObject.ApplyModifiedProperties.
+---@field occlusionCulling fun() @Exposed SerializedProperty for the inspected Camera.
+---@field focalLength fun() @Exposed SerializedProperty for the inspected Camera.
+---@field DrawVR fun() @Draws the default [[CameraEditor] VR widget.
+---@field DrawClearFlags fun() @Draws the default [[CameraEditor] clear flags widget.
+---@field DrawCameraWarnings fun() @Draws the default [[CameraEditor] warnings issued by a camera.
+---@field lensShift fun() @Exposed SerializedProperty for the inspected Camera.
+---@field cullingMask fun() @Exposed SerializedProperty for the inspected Camera.
+---@field DrawBackgroundColor fun() @Draws the default [[CameraEditor] background color widget.
+---@field gateFit fun() @Exposed SerializedProperty for the inspected Camera.
+---@field normalizedViewPortRect fun() @Exposed SerializedProperty for the inspected Camera.
+---@field stereoConvergence fun() @Exposed SerializedProperty for the inspected Camera.
+---@field targetTexture fun() @Exposed SerializedProperty for the inspected Camera.
+---@field allowDynamicResolution fun() @Exposed SerializedProperty for the inspected Camera.
+---@field targetEye fun() @Exposed SerializedProperty for the inspected Camera.

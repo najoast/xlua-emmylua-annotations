@@ -1,0 +1,4 @@
+---@class AI.OffMeshLinkType @Link type specifier.
+---@field LinkTypeJumpAcross fun() @Horizontal jump.
+---@field LinkTypeManual fun() @Manually specified type of link.
+---@field LinkTypeDropDown fun() @Vertical drop.

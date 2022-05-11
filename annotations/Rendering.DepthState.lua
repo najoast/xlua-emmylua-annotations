@@ -1,0 +1,5 @@
+---@class Rendering.DepthState @Values for the depth state.
+---@field ctor fun() @Creates a new depth state with the given values.
+---@field defaultValue fun() @Default values for the depth state.
+---@field compareFunction fun() @How should depth testing be performed.
+---@field writeEnabled fun() @Controls whether pixels from this object are written to the depth buffer.

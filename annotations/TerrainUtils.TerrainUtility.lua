@@ -1,0 +1,2 @@
+---@class TerrainUtils.TerrainUtility @Provides a set of utility functions that are used by the terrain tools.
+---@field AutoConnect fun() @Automatically connects neighboring terrains.

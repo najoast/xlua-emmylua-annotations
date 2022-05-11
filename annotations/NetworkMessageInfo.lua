@@ -1,0 +1,4 @@
+---@class NetworkMessageInfo @This data structure contains information on a message just received from the network.
+---@field timestamp fun() @The time stamp when the Message was sent in seconds.
+---@field networkView fun() @The NetworkView who sent this message.
+---@field sender fun() @The player who sent this network message (owner).

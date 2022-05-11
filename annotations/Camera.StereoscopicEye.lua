@@ -1,0 +1,3 @@
+---@class Camera.StereoscopicEye @Enum used to specify either the left or the right eye of a stereoscopic camera.
+---@field Right fun() @Specifies the target to be the right eye.
+---@field Left fun() @Specifies the target to be the left eye.

@@ -1,0 +1,3 @@
+---@class CustomRenderTextureUpdateZoneSpace @Space in which coordinates are provided for Update Zones.
+---@field Pixel fun() @Coordinates are expressed in pixels. (0, 0) is top left (width, height) is bottom right.
+---@field Normalized fun() @Coordinates are normalized. (0, 0) is top left and (1, 1) is bottom right.

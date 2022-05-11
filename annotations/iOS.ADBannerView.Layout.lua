@@ -1,0 +1,13 @@
+---@class iOS.ADBannerView.Layout @Specifies how banner should be layed out on screen.
+---@field Manual fun() @Completely manual positioning.
+---@field Center fun() @Rect Banner: place exactly at screen center.
+---@field Bottom fun() @Traditional Banner: align to screen bottom.
+---@field BottomLeft fun() @Rect Banner: place in bottom-left corner.
+---@field CenterLeft fun() @Rect Banner: align to screen left, placing at the center.
+---@field TopRight fun() @Rect Banner: place in top-right corner.
+---@field Top fun() @Traditional Banner: align to screen top.
+---@field BottomRight fun() @Rect Banner: place in bottom-right corner.
+---@field TopCenter fun() @Rect Banner: align to screen top, placing at the center.
+---@field CenterRight fun() @Rect Banner: align to screen right, placing at the center.
+---@field TopLeft fun() @Rect Banner: place in top-left corner.
+---@field BottomCenter fun() @Rect Banner: align to screen bottom, placing at the center.

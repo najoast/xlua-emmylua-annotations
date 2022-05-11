@@ -1,0 +1,9 @@
+---@class Grid @Grid is the base class for plotting a layout of uniformly spaced points and lines.
+---@field cellSize fun() @The size of each cell in the Grid.
+---@field Swizzle fun() @Swizzles the given position with the given swizzle order.
+---@field InverseSwizzle fun() @Does the inverse swizzle of the given position for given swizzle order.
+---@field cellSwizzle fun() @The cell swizzle for the Grid.
+---@field GetCellCenterWorld fun() @Get the logical center coordinate of a grid cell in world space.
+---@field GetCellCenterLocal fun() @Get the logical center coordinate of a grid cell in local space.
+---@field cellGap fun() @The size of the gap between each cell in the Grid.
+---@field cellLayout fun() @The layout of the cells in the Grid.

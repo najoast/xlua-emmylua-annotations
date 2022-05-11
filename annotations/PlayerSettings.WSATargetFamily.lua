@@ -1,0 +1,8 @@
+---@class PlayerSettings.WSATargetFamily @Options for the set of Universal Windows Platform device families your application can directly support.
+---@field IoT fun() @Targets a device family that includes Internet-of-Things (IoT) devices.
+---@field Holographic fun() @Targets a device family that includes HoloLens devices.
+---@field Desktop fun() @Targets a device family that includes Desktop PCs, laptops, and tablet devices.
+---@field Team fun() @Targets a device family that includes the Surface Hub.
+---@field Mobile fun() @Targets a device family that includes smartphone devices.
+---@field IoTHeadless fun() @Targets a device family that includes Internet-of-Things (IoT) devices without any UI.
+---@field Xbox fun() @Targets a device family that includes Xbox consoles.

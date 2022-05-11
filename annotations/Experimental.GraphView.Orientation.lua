@@ -1,0 +1,3 @@
+---@class Experimental.GraphView.Orientation @Graph element orientation.
+---@field Vertical fun() @Vertical orientation used for nodes and connections flowing up or down.
+---@field Horizontal fun() @Horizontal orientation used for nodes and connections flowing to the left or right.

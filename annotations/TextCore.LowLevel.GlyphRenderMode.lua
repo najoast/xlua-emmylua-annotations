@@ -1,0 +1,11 @@
+---@class TextCore.LowLevel.GlyphRenderMode @The rendering modes used by the Font Engine to render glyphs.
+---@field SDFAA_HINTED fun() @Renders a signed distance field (SDF) representation of the glyph from an 8-bit or antialiased image of the glyph outline with hinting.
+---@field SDF32 fun() @Renders a signed distance field (SDF) representation of the glyph from a binary (1-bit monochrome) image of the glyph outline with no hinting.
+---@field RASTER_HINTED fun() @Renders a bitmap representation of the glyph from a binary (1-bit monochrome) image of the glyph outline with hinting.
+---@field SMOOTH_HINTED fun() @Renders a bitmap representation of the glyph from an 8-bit or antialiased image of the glyph outline with hinting.
+---@field SDF fun() @Renders a signed distance field (SDF) representation of the glyph from a binary (1-bit monochrome) image of the glyph outline with no hinting.
+---@field SDF8 fun() @Renders a signed distance field (SDF) representation of the glyph from a binary (1-bit monochrome) image of the glyph outline with no hinting.
+---@field SDFAA fun() @Renders a signed distance field (SDF) representation of the glyph from an 8-bit or antialiased image of the glyph outline with no hinting.
+---@field RASTER fun() @Renders a bitmap representation of the glyph from a binary (1-bit monochrome) image of the glyph outline with no hinting.
+---@field SDF16 fun() @Renders a signed distance field (SDF) representation of the glyph from a binary (1-bit monochrome) image of the glyph outline with no hinting.
+---@field SMOOTH fun() @Renders a bitmap representation of the glyph from an 8-bit or antialiased image of the glyph outline with no hinting.

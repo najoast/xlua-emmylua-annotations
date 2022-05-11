@@ -1,0 +1,8 @@
+---@class Events.PersistentListenerMode @THe mode that a listener is operating in.
+---@field EventDefined fun() @The listener will use the function binding specified by the even.
+---@field Int fun() @The listener will bind to one argument int functions.
+---@field Void fun() @The listener will bind to zero argument functions.
+---@field Bool fun() @The listener will bind to one argument bool functions.
+---@field Object fun() @The listener will bind to one argument Object functions.
+---@field Float fun() @The listener will bind to one argument float functions.
+---@field String fun() @The listener will bind to one argument string functions.

@@ -1,0 +1,7 @@
+---@class Microphone @Use this class to record to an AudioClip using a connected microphone.
+---@field IsRecording fun() @Query if a device is currently recording.
+---@field End fun() @Stops recording.
+---@field devices fun() @A list of available microphone devices, identified by name.
+---@field GetPosition fun() @Get the position in samples of the recording.
+---@field GetDeviceCaps fun() @Get the frequency capabilities of a device.
+---@field Start fun() @Start Recording with device.

@@ -1,0 +1,6 @@
+---@class GraphicsBuffer.IndirectDrawArgs @Defines the data layout for non-indexed indirect render calls.
+---@field size fun() @The size of the struct in bytes.
+---@field startVertex fun() @The first vertex to render.
+---@field instanceCount fun() @The number of instances to render.
+---@field vertexCountPerInstance fun() @The number of vertices per instance.
+---@field startInstance fun() @The first instance to render.

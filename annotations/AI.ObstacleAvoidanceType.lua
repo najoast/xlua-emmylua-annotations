@@ -1,0 +1,6 @@
+---@class AI.ObstacleAvoidanceType @Level of obstacle avoidance.
+---@field LowQualityObstacleAvoidance fun() @Enable simple avoidance. Low performance impact.
+---@field NoObstacleAvoidance fun() @Disable avoidance.
+---@field MedQualityObstacleAvoidance fun() @Medium avoidance. Medium performance impact.
+---@field GoodQualityObstacleAvoidance fun() @Good avoidance. High performance impact.
+---@field HighQualityObstacleAvoidance fun() @Enable highest precision. Highest performance impact.

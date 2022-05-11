@@ -1,0 +1,5 @@
+---@class U2D.AngleRangeInfo @Describes the information about the edge and how to tessellate it.
+---@field sprites fun() @The list of Sprites that are associated with this range.
+---@field order fun() @The render order of the edges that belong in this range.
+---@field end fun() @The maximum angle to be considered within this range.
+---@field start fun() @The minimum angle to be considered within this range.

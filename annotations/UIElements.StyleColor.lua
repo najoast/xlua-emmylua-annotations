@@ -1,0 +1,4 @@
+---@class UIElements.StyleColor @Style value that can be either a Color or a StyleKeyword.
+---@field value fun() @The Color value.
+---@field ctor fun() @Creates from either a Color or StyleKeyword.
+---@field keyword fun() @The style keyword.

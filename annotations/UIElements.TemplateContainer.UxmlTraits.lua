@@ -1,0 +1,3 @@
+---@class UIElements.TemplateContainer.UxmlTraits @Defines UxmlTraits for the TemplateContainer.
+---@field Init fun() @Initialize TemplateContainer properties using values from the attribute bag.
+---@field uxmlChildElementsDescription fun() @Returns an empty enumerable, as template instances do not have children.

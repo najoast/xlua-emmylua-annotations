@@ -1,0 +1,3 @@
+---@class Apple.FrameCaptureDestination @Destination of Frame CaptureThis is a wrapper for MTLCaptureDestination.
+---@field DevTools fun() @Capture in XCode itself.
+---@field GPUTraceDocument fun() @Capture to a GPU Trace document.

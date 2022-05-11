@@ -1,0 +1,10 @@
+---@class ConnectionTesterStatus @The various test results the connection tester may return with.
+---@field LimitedNATPunchthroughSymmetric fun() @Symmetric NAT type, cannot do NAT punchthrough to other symmetric types nor port restricted type.
+---@field NATpunchthroughAddressRestrictedCone fun() @Address-restricted cone type, NAT punchthrough fully supported.
+---@field LimitedNATPunchthroughPortRestricted fun() @Port-restricted NAT type, can do NAT punchthrough to everyone except symmetric.
+---@field PublicIPNoServerStarted fun() @Public IP address detected but server is not initialized and no port is listening.
+---@field Error fun() @Some unknown error occurred.
+---@field NATpunchthroughFullCone fun() @Full cone type, NAT punchthrough fully supported.
+---@field PublicIPIsConnectable fun() @Public IP address detected and game listen port is accessible to the internet.
+---@field Undetermined fun() @Test result undetermined, still in progress.
+---@field PublicIPPortBlocked fun() @Public IP address detected but the port is not connectable from the internet.

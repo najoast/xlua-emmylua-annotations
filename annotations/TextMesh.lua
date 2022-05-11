@@ -1,0 +1,13 @@
+---@class TextMesh @A script interface for the text mesh component.
+---@field lineSpacing fun() @How much space will be in-between lines of text.
+---@field fontSize fun() @The font size to use (for dynamic fonts).
+---@field fontStyle fun() @The font style to use (for dynamic fonts).
+---@field text fun() @The text that is displayed.
+---@field tabSize fun() @How much space will be inserted for a tab 't' character. This is a multiplum of the 'spacebar' character offset.
+---@field color fun() @The color used to render the text.
+---@field characterSize fun() @The size of each character (This scales the whole text).
+---@field offsetZ fun() @How far should the text be offset from the transform.position.z when drawing.
+---@field anchor fun() @Which point of the text shares the position of the Transform.
+---@field font fun() @The Font used.
+---@field richText fun() @Enable HTML-style tags for Text Formatting Markup.
+---@field alignment fun() @How lines of text are aligned (Left, Right, Center).

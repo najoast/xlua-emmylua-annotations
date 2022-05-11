@@ -1,0 +1,6 @@
+---@class Profiling.FrameDataView.MarkerInfo @Marker descriptor structure.
+---@field metadataInfo fun() @Metadata information.
+---@field id fun() @Marker identifier.
+---@field flags fun() @Marker flags.
+---@field name fun() @Marker name.
+---@field category fun() @Marker category.

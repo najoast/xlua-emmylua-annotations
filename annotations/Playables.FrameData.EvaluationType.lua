@@ -1,0 +1,3 @@
+---@class Playables.FrameData.EvaluationType @Describes the cause for the evaluation of a PlayableGraph.
+---@field Evaluate fun() @Indicates the graph was updated due to a call to PlayableGraph.Evaluate.
+---@field Playback fun() @Indicates the graph was called by the runtime during normal playback due to PlayableGraph.Play being called.

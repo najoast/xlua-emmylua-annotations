@@ -1,0 +1,7 @@
+---@class Rendering.ShaderPropertyType @Type of a given shader property.
+---@field Color fun() @The property holds a Vector4 value representing a color.
+---@field Texture fun() @The property holds a Texture object.
+---@field Vector fun() @The property holds a Vector4 value.
+---@field Int fun() @The property holds an integer number value.
+---@field Float fun() @The property holds a floating number value.
+---@field Range fun() @The property holds a floating number value in a certain range.

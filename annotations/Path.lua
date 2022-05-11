@@ -1,0 +1,8 @@
+---@class Path @Performs operations on strings that contain file or directory path information.
+---@field DirectorySeparatorChar fun() @The default character used to separate directory levels. (Read Only)
+---@field AltDirectorySeparatorChar fun() @An alternate character used to separate directory levels. (Read Only)
+---@field GetFileNameWithoutExtension fun() @Returns the file base component of the specified path string without the extension.
+---@field GetFileName fun() @Returns the file name, including the extension if any, of the specified path string.
+---@field GetExtension fun() @Returns the extension component of the specified path string.
+---@field Combine fun() @Concatenates two path strings.
+---@field GetDirectoryName fun() @Returns the directory name component of the specified path string.

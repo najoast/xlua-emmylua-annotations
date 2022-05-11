@@ -1,0 +1,2 @@
+---@class Windows.WebCam.WebCam @Contains general information about the current state of the web camera.
+---@field Mode fun() @Specifies what mode the Web Camera is currently in.

@@ -1,0 +1,54 @@
+---@class PhysicsVisualizationSettings @This class contains the settings controlling the Physics Debug Visualization.
+---@field useSceneCam fun() @Controls whether the SceneView or the GameView camera is used. Not shown in the UI.
+---@field SetShowBoxColliders fun() @Should BoxColliders be shown.
+---@field GetShowArticulationBodies fun() @Should Articulation Bodies be shown by the Physics Visualizer.
+---@field forceOverdraw fun() @Forcing the drawing of Colliders on top of any other geometry, regardless of depth.
+---@field HasMouseHighlight fun() @Returns true if there currently is any kind of physics object highlighted.
+---@field staticColor fun() @Color for Colliders that do not have a Rigidbody component.
+---@field UpdateMouseHighlight fun() @Updates the mouse-over highlight at the given mouse position in screen space.
+---@field SetShowTriggers fun() @Should the triggers be considered by the display filter.
+---@field GetShowRigidbodies fun() @Should any Rigidbodies be considered by the display filter.
+---@field GetShowStaticColliders fun() @Should the Colliders without a Rigidbody component be considered by the display filter.
+---@field SetShowTerrainColliders fun() @Should TerrainColliders be shown.
+---@field enableMouseSelect fun() @Enables the mouse-over highlighting and mouse selection modes.
+---@field kinematicColor fun() @Color for kinematic Rigidbodies.
+---@field SetShowArticulationBodies fun() @Should Articulation Bodies be shown by the Physics Visualizer.
+---@field GetShowCapsuleColliders fun() @Should CapsuleColliders be shown.
+---@field SetShowCollisionLayerMask fun() @Should the mask representing the layers be considered by the display filter.
+---@field SetShowRigidbodies fun() @Should any Rigidbodies be considered by the display filter.
+---@field showCollisionGeometry fun() @Should the PhysicsDebugWindow display the collision geometry.
+---@field triggerColor fun() @Color for Colliders that are Triggers.
+---@field SetShowKinematicBodies fun() @Should the kinematic Rigidbodies be considered by the display filter.
+---@field FilterWorkflow PhysicsVisualizationSettings.FilterWorkflow @Decides whether the Workflow in the Physics Debug window should be inclusive (ShowSelectedItems) or exclusive (HideSelectedItems).
+---@field devOptions fun() @Shows extra options used to develop and debug the physics visualization.
+---@field SetShowMeshColliders fun() @Should MeshColliders be shown.
+---@field SetShowPhysicsSceneMask fun() @Should the scene mask be considered by the display filter.
+---@field dirtyCount fun() @Dirty marker used for refreshing the GUI.
+---@field GetShowTerrainColliders fun() @Should TerrainColliders be shown.
+---@field GetShowKinematicBodies fun() @Should the kinematic Rigidbodies be considered by the display filter.
+---@field MeshColliderType PhysicsVisualizationSettings.MeshColliderType @Is a MeshCollider convex.
+---@field ClearMouseHighlight fun() @Clears the highlighted Collider.
+---@field SetShowStaticColliders fun() @Should the Colliders without a Rigidbody component be considered by the display filter.
+---@field GetShowCollisionLayerMask fun() @Should the mask representing the layers be considered by the display filter.
+---@field SetShowSleepingBodies fun() @Should sleeping Rigidbodies and Articulation Bodies be considered by the display filter.
+---@field SetShowCollisionLayer fun() @Should the given layer be considered by the display filter.
+---@field SetShowCapsuleColliders fun() @Should CapsuleColliders be shown.
+---@field terrainTilesMax fun() @Maximum number of mesh tiles available to draw all Terrain Colliders.
+---@field GetShowPhysicsSceneMask fun() @Return a mask representing scenes that are enabled by display filter
+---@field GetShowMeshColliders fun() @Should MeshColliders be shown.
+---@field rigidbodyColor fun() @Color for Rigidbodies, primarily active ones.
+---@field sleepingBodyColor fun() @Color for Rigidbodies that are controlled by the physics simulator, but are not currently being simulated.
+---@field SetShowForAllFilters fun() @Enables or disables all filtering items.
+---@field Reset fun() @Resets the visualization options to their default state.
+---@field DeinitDebugDraw fun() @Deinitializes the physics debug visualization system and tracking of changes Colliders.
+---@field GetShowTriggers fun() @Should the triggers be considered by the display filter.
+---@field articulationBodyColor fun() @Color for Articulation Bodies.
+---@field colorVariance fun() @Used to disinguish neighboring Colliders.
+---@field baseAlpha fun() @Alpha amount used for transparency blending.
+---@field SetShowSphereColliders fun() @Should SphereColliders be shown.
+---@field InitDebugDraw fun() @Initializes the physics debug visualization system. The system must be initialized for any physics objects to be visualized. It is normally initialized by the PhysicsDebugWindow.
+---@field GetShowSphereColliders fun() @Should SphereColliders be shown.
+---@field GetShowSleepingBodies fun() @Should the sleeping Rigidbodies be considered by the display filter.
+---@field GetShowCollisionLayer fun() @Should the given layer be considered by the display filter.
+---@field viewDistance fun() @Colliders within this distance will be displayed.
+---@field GetShowBoxColliders fun() @Should BoxColliders be shown.

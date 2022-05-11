@@ -1,0 +1,5 @@
+---@class UIElements.AngleUnit @Unit of measurement used to express the value of an Angle.
+---@field Turn fun() @Interprets the measurement of an angle, expressed as a number of turns. One full circle is one turn.
+---@field Gradian fun() @Interprets the measurement of an angle in gradians. One full circle is 400 gradians
+---@field Radian fun() @Interprets the measurement of an angle in radians. One full circle is 2Pi radians which approximates to 6.2832 radians
+---@field Degree fun() @Interprets an angle as degrees.

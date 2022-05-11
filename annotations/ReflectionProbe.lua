@@ -1,0 +1,36 @@
+---@class ReflectionProbe @The reflection probe is used to capture the surroundings into a texture which is passed to the shaders and used for reflections.
+---@field bakedTexture fun() @Reference to the baked texture of the reflection probe's surrounding.
+---@field boxProjection fun() @Should this reflection probe use box projection?
+---@field backgroundColor fun() @The color with which the texture of reflection probe will be cleared.
+---@field center fun() @The center of the box area in which reflections will be applied to the objects. Measured in the probes's local space.
+---@field renderDynamicObjects fun() @Specifies whether Unity should render non-static GameObjects into the Reflection Probe. If you set this to true, Unity renders non-static GameObjects into the Reflection Probe. If you set this to false, Unity does not render non-static GameObjects into the Reflection Probe. Unity only takes this property into account if the Reflection Probe's Type is Custom.
+---@field nearClipPlane fun() @The near clipping plane distance when rendering the probe.
+---@field defaultTexture fun() @The surface texture of the default reflection probe that captures the environment contribution. Read only.
+---@field bounds fun() @The bounding volume of the reflection probe (Read Only).
+---@field UpdateCachedState fun() @Updates the culling system with the ReflectionProbe's current state. This ensures that Unity correctly culls the ReflectionProbe during rendering if you implement your own runtime reflection system.
+---@field customBakedTexture fun() @Reference to the baked texture of the reflection probe's surrounding. Use this to assign custom reflection texture.
+---@field Reset fun() @Revert all ReflectionProbe parameters to default.
+---@field importance fun() @Reflection probe importance.
+---@field hdr fun() @Should this reflection probe use HDR rendering?
+---@field defaultReflectionTexture fun() @Adds a delegate to get notifications when the default specular Cubemap is changed.
+---@field RenderProbe fun() @Refreshes the probe's cubemap.
+---@field ReflectionProbeEvent ReflectionProbe.ReflectionProbeEvent @Types of events that occur when ReflectionProbe components are used in a Scene.
+---@field IsFinishedRendering fun() @Checks if a probe has finished a time-sliced render.
+---@field defaultTextureHDRDecodeValues fun() @HDR decode values of the default reflection probe texture.
+---@field shadowDistance fun() @Shadow drawing distance when rendering the probe.
+---@field size fun() @The size of the box area in which reflections will be applied to the objects. Measured in the probes's local space.
+---@field texture fun() @Texture which is passed to the shader of the objects in the vicinity of the reflection probe (Read Only).
+---@field timeSlicingMode fun() @Sets this probe time-slicing modeSee Also: ReflectionProbeTimeSlicingMode.
+---@field textureHDRDecodeValues fun() @HDR decode values of the reflection probe texture.
+---@field resolution fun() @Resolution of the underlying reflection texture in pixels.
+---@field realtimeTexture fun() @Reference to the real-time texture of the reflection probe's surroundings. Use this to assign a RenderTexture to use for real-time reflection.
+---@field clearFlags fun() @How the reflection probe clears the background.
+---@field mode fun() @Should reflection probe texture be generated in the Editor (ReflectionProbeMode.Baked) or should probe use custom specified texure (ReflectionProbeMode.Custom)?
+---@field cullingMask fun() @This is used to render parts of the reflecion probe's surrounding selectively.
+---@field blendDistance fun() @Distance around probe used for blending (used in deferred probes).
+---@field reflectionProbeChanged fun() @Adds a delegate to get notifications when a Reflection Probe is added to a Scene or removed from a Scene.
+---@field BlendCubemap fun() @Utility method to blend 2 cubemaps into a target render texture.
+---@field refreshMode fun() @Sets the way the probe will refresh.See Also: ReflectionProbeRefreshMode.
+---@field defaultReflectionSet fun() @Adds a delegate to get notifications when the default specular Cubemap is changed.
+---@field farClipPlane fun() @The far clipping plane distance when rendering the probe.
+---@field intensity fun() @The intensity modifier that is applied to the texture of reflection probe in the shader.

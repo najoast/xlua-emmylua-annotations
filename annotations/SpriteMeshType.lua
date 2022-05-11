@@ -1,0 +1,3 @@
+---@class SpriteMeshType @Defines the type of mesh generated for a sprite.
+---@field Tight fun() @Tight mesh based on pixel alpha values. As many excess pixels are cropped as possible.
+---@field FullRect fun() @Rectangle mesh equal to the user specified sprite size.

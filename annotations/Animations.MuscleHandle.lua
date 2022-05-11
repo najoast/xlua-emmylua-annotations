@@ -1,0 +1,7 @@
+---@class Animations.MuscleHandle @Handle for a muscle in the AnimationHumanStream.
+---@field name fun() @The name of the muscle. (Read Only)
+---@field muscleHandleCount fun() @The total number of DoF parts in a humanoid. (Read Only)
+---@field dof fun() @The muscle human sub-part. (Read Only)
+---@field GetMuscleHandles fun() @Fills the array with all the possible muscle handles on a humanoid.
+---@field ctor fun() @The different constructors that creates the muscle handle.
+---@field humanPartDof fun() @The muscle human part. (Read Only)

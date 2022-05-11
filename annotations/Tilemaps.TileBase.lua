@@ -1,0 +1,5 @@
+---@class Tilemaps.TileBase @Base class for a tile in the Tilemap.
+---@field RefreshTile fun() @This method is called when the tile is refreshed.
+---@field StartUp fun() @StartUp is called on the first frame of the running Scene.
+---@field GetTileData fun() @Retrieves any tile rendering data from the scripted tile.
+---@field GetTileAnimationData fun() @Retrieves any tile animation data from the scripted tile.

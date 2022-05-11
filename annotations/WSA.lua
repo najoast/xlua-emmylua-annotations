@@ -1,0 +1,15 @@
+---@class WSA @nil
+---@field Folder fun() @List of accessible folders on Windows Store Apps.
+---@field Toast WSA.Toast @Represents a toast notification in Windows Store Apps.
+---@field WindowSizeChanged fun() @This event occurs when window rendering size changes.
+---@field TileTemplate fun() @Templates for various tile styles.
+---@field TileForegroundText fun() @Style for foreground text on a secondary tile.
+---@field WindowActivationState WSA.WindowActivationState @Specifies the set of reasons that a windowActivated event was raised.
+---@field Application WSA.Application @Provides essential methods related to Window Store application.
+---@field WindowActivated fun() @This event occurs when window completes activation or deactivation, it also fires up when you snap and unsnap the application.
+---@field AppCallbackItem fun() @Delegate that can be invoked on specific thread.
+---@field SecondaryTileData WSA.SecondaryTileData @Defines the default look of secondary tile.
+---@field Tile WSA.Tile @Represents tile on Windows start screen
+---@field ToastTemplate fun() @Templates for various toast styles.
+---@field Cursor WSA.Cursor @Cursor API for Windows Store Apps.
+---@field Launcher WSA.Launcher @Class which is capable of launching user's default app for file type or a protocol. See also PlayerSettings where you can specify file or URI associations.

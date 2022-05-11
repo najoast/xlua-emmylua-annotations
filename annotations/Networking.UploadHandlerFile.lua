@@ -1,0 +1,2 @@
+---@class Networking.UploadHandlerFile @A specialized UploadHandler that reads data from a given file and sends raw bytes to the server as the request body.
+---@field ctor fun() @Create a new upload handler to send data from the given file to the server.

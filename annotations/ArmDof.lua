@@ -1,0 +1,11 @@
+---@class ArmDof @Enumeration of all the muscles in an arm.
+---@field ArmFrontBack fun() @The arm front-back muscle.
+---@field ForeArmRollInOut fun() @The forearm roll in-out muscle.
+---@field LastArmDof fun() @The last value of the ArmDof enum.
+---@field HandInOut fun() @The hand in-out muscle.
+---@field HandDownUp fun() @The hand down-up muscle.
+---@field ShoulderFrontBack fun() @The shoulder front-back muscle.
+---@field ArmDownUp fun() @The arm down-up muscle.
+---@field ForeArmCloseOpen fun() @The forearm close-open muscle.
+---@field ArmRollInOut fun() @The arm roll in-out muscle.
+---@field ShoulderDownUp fun() @The shoulder down-up muscle.

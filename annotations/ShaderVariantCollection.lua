@@ -1,0 +1,11 @@
+---@class ShaderVariantCollection @ShaderVariantCollection records which shader variants are actually used in each shader.
+---@field shaderCount fun() @Number of shaders in this collection (Read Only).
+---@field ctor fun() @Create a new empty shader variant collection.
+---@field Add fun() @Adds a new shader variant to the collection.
+---@field Remove fun() @Adds shader variant from the collection.
+---@field Contains fun() @Checks if a shader variant is in the collection.
+---@field variantCount fun() @Number of total varians in this collection (Read Only).
+---@field WarmUp fun() @Prewarms all shader variants in this shader variant collection.
+---@field ShaderVariant ShaderVariantCollection.ShaderVariant @Identifies a specific variant of a shader.
+---@field Clear fun() @Remove all shader variants from the collection.
+---@field isWarmedUp fun() @Is this ShaderVariantCollection already warmed up? (Read Only)

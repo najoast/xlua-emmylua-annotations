@@ -1,0 +1,29 @@
+---@class Playables @nil
+---@field IPlayable fun() @Interface implemented by all C# Playable implementations.
+---@field PlayableTraversalMode Playables.PlayableTraversalMode @Traversal mode for Playables.
+---@field DirectorWrapMode Playables.DirectorWrapMode @Wrap mode for Playables.
+---@field PlayableOutput Playables.PlayableOutput @See: Playables.IPlayableOutput.
+---@field PlayableOutputEditorExtensions Playables.PlayableOutputEditorExtensions @Editor extensions for all types that implement IPlayableOutput.
+---@field Utility Playables.Utility @Editor utility functions for the Playable graph and its nodes.
+---@field ScriptPlayableOutput Playables.ScriptPlayableOutput @A IPlayableOutput implementation that contains a script output for the a PlayableGraph.
+---@field Playable Playables.Playable @Playables are customizable runtime objects that can be connected together and are contained in a PlayableGraph to create complex behaviours.
+---@field IPlayableAsset Playables.IPlayableAsset @Interface that permits a class to inject playables into a graph.
+---@field FrameData Playables.FrameData @This structure contains the frame information a Playable receives in Playable.PrepareFrame.
+---@field DirectorUpdateMode Playables.DirectorUpdateMode @Defines what time source is used to update a Director graph.
+---@field ScriptPlayableBinding Playables.ScriptPlayableBinding @A PlayableBinding that contains information representing a ScriptingPlayableOutput.
+---@field INotification Playables.INotification @The base interface for all notifications sent through the playable system.
+---@field PlayState Playables.PlayState @Status of a Playable.
+---@field PlayableOutputExtensions Playables.PlayableOutputExtensions @Extensions for all the types that implements IPlayableOutput.
+---@field PlayableExtensions Playables.PlayableExtensions @Extensions for all the types that implements IPlayable.
+---@field PlayableBinding Playables.PlayableBinding @Struct that holds information regarding an output of a PlayableAsset.
+---@field Notification Playables.Notification @Default implementation for Playable notifications.
+---@field PlayableAsset Playables.PlayableAsset @A base class for assets that can be used to instantiate a Playable at runtime.
+---@field AnimationPlayableUtilities Playables.AnimationPlayableUtilities @Implements high-level utility methods to simplify use of the Playable API with Animations.
+---@field PlayableGraph Playables.PlayableGraph @Use the PlayableGraph to manage Playable creations and destructions.
+---@field PlayableDirector Playables.PlayableDirector @Instantiates a PlayableAsset and controls playback of Playable objects.
+---@field PlayableBehaviour Playables.PlayableBehaviour @PlayableBehaviour is the base class from which every custom playable script derives.
+---@field IPlayableBehaviour fun() @Interface implemented by all C# Playable Behaviour implementations.
+---@field INotificationReceiver Playables.INotificationReceiver @Implement this interface to create a class that will receives notifications from PlayableOutput.
+---@field IPlayableOutput fun() @Interface implemented by all C# Playable output implementations.
+---@field DataStreamType Playables.DataStreamType @Describes the type of information that flows in and out of a Playable. This also specifies that this Playable is connectable to others of the same type.
+---@field ScriptPlayable_1 fun() @A IPlayable implementation that contains a PlayableBehaviour for the PlayableGraph. PlayableBehaviour can be used to write custom Playable that implement their own PrepareFrame callback.

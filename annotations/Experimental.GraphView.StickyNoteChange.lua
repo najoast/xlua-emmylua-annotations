@@ -1,0 +1,6 @@
+---@class Experimental.GraphView.StickyNoteChange @Enum that specifies the type of change to the [StickyNote].
+---@field Title fun() @Specifies that the title of the [StickyNote] has changed.
+---@field Contents fun() @Specify that the content of the [StickyNote] has changed.
+---@field Position fun() @Specify that the position of the [StickyNote] has changed.
+---@field Theme fun() @Specifies that the visual theme of the [StickyNote] has changed.
+---@field FontSize fun() @Specify that the size of the font used by the [StickyNote] has changed.

@@ -1,0 +1,6 @@
+---@class UIElements.StylePropertyName @Defines the name of a style property.
+---@field ctor fun() @Initializes and returns an instance of StylePropertyName from a string.
+---@field operator_string fun() @Implicit string operator.
+---@field operator_eq fun() @Determines if the StylePropertyNames are equal.
+---@field IsNullOrEmpty fun() @Checks if the StylePropertyName is null or empty.
+---@field operator_ne fun() @Determines if the StylePropertyNames are not equal.

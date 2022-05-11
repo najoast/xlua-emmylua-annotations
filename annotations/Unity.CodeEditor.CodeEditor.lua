@@ -1,0 +1,15 @@
+---@class Unity.CodeEditor.CodeEditor @Handles interaction with the code editor.
+---@field OSOpenFile fun() @Open an application with a quoted string of arguments.
+---@field Editor fun() @A singleton instance of CodeEditor. The Unity Editor references this instance to handle code editor callbacks.
+---@field CurrentInstallation fun() @Returns the current CodeEditor.Installation instance for the code editor.
+---@field ParseArgument fun() @Parse a string using the rules defined under External Tools.
+---@field Installation Unity.CodeEditor.CodeEditor.Installation @Data class for code editor installation.
+---@field CurrentCodeEditor fun() @Returns the current IExternalCodeEditor instance for the code editor.
+---@field GetFoundScriptEditorPaths fun() @Collects all installations from registered instances of IExternalCodeEditor. This is done using IExternalCodeEditor.Installations.
+---@field Register fun() @Register an instance of IExternalCodeEditor to use when populating Preferences/External Tools menu. Calls ref::Initialize if you select the instance.
+---@field CurrentEditorPath fun() @The path to the external code editor that Unity uses used to open script assets.
+---@field SetCodeEditor fun() @Sets the path to the code editor that Unity uses to open script assets.
+---@field QuoteForProcessStart fun() @Quotes a string to pass to Process.Start as a single argument, and appends it to this string builder.
+---@field GetInstallationForPath fun() @Each registered code editor package has an instance of IExternalCodeEditor. This method invokes IExternalCodeEditor.TryGetInstallationForPath on that instance. It finds the first instance that returns a valid installation, and returns the installation.
+---@field Unregister fun() @Remove an instance of IExternalCodeEditor from the list of registered code editors. Calls ref::Initialize if you select the instance.
+---@field GetCodeEditorForPath fun() @Each registered code editor package has an instance of IExternalCodeEditor. This method invokes IExternalCodeEditor.TryGetInstallationForPath on that instance. It returns the first instance that returns a valid installation.

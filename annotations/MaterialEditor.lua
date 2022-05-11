@@ -1,0 +1,61 @@
+---@class MaterialEditor @The Unity Material Editor.
+---@field TexturePropertyMiniThumbnail fun() @Draw a property field for a texture shader property that only takes up a single line height.
+---@field TextureProperty fun() @Draw a property field for a texture shader property.
+---@field BeginAnimatedCheck fun() @Creates a Property wrapper, useful for making regular GUI controls work with MaterialProperty.
+---@field TextureScaleOffsetProperty fun() @Draws tiling and offset properties for a texture.
+---@field GetMaterialPropertyNames fun() @Gets the shader property names of the materials you pass in.
+---@field GetTextureOffset fun() @Get the value of a given texture offset for a given texture property.
+---@field OnInspectorGUI fun() @Implement specific MaterialEditor GUI code here. If you want to simply extend the existing editor call the base OnInspectorGUI () before doing any custom GUI code.
+---@field GetLeftAlignedFieldRect fun() @Utility method for GUI layouting ShaderGUI.
+---@field TexturePropertyWithHDRColor fun() @Method for showing a texture property control with a HDR color field and its color brightness float field.
+---@field VectorProperty fun() @Draw a property field for a vector shader property.
+---@field TexturePropertyTwoLines fun() @Method for showing a compact layout of properties.
+---@field SetTextureScale fun() @Set the scale of a given texture property.
+---@field RegisterPropertyChangeUndo fun() @Call this when you change a material property. It will add an undo for the action.
+---@field EnableInstancingField fun() @Display UI for editing material's render queue setting.
+---@field ApplyMaterialPropertyDrawers fun() @Apply initial MaterialPropertyDrawer values.
+---@field customShaderGUI fun() @Returns the custom ShaderGUI implemented by the shader.
+---@field kMiniTextureFieldLabelIndentLevel fun() @Useful for indenting shader properties that need the same indent as mini texture field.
+---@field IsInstancingEnabled fun() @Determines whether the Enable Instancing checkbox is checked.
+---@field TextureCompatibilityWarning fun() @Checks if particular property has incorrect type of texture specified by the material, displays appropriate warning and suggests the user to automatically fix the problem.
+---@field Awake fun() @Called when the Editor is woken up.
+---@field ShaderProperty fun() @Handes UI for one shader property.
+---@field GetRightAlignedFieldRect fun() @Utility method for GUI layouting ShaderGUI.
+---@field SetTextureOffset fun() @Set the offset of a given texture property.
+---@field GetTextureScale fun() @Get the value of a given texture scale for a given texture property.
+---@field GetDefaultPropertyHeight fun() @Calculate height needed for the property, ignoring custom drawers.
+---@field SetShader fun() @Set the shader of the material.
+---@field PropertiesChanged fun() @Whenever a material property is changed call this function. This will rebuild the inspector and validate the properties.
+---@field DefaultPreviewGUI fun() @Default handling of preview area for materials.
+---@field SetDefaultGUIWidths fun() @Set EditorGUIUtility.fieldWidth and labelWidth to the default values that PropertiesGUI uses.
+---@field RequiresConstantRepaint fun() @Does this edit require to be repainted constantly in its current state?
+---@field GetMaterialProperties fun() @Get shader property information of the materials you pass in.
+---@field DoubleSidedGIField fun() @Display UI for editing a material's Double Sided Global Illumination setting.Returns true if the UI is indeed displayed i.e. the material supports the Double Sided Global Illumination setting.+See Also: Material.doubleSidedGI.
+---@field RenderQueueField fun() @Display UI for editing material's render queue setting.
+---@field OnShaderChanged fun() @A callback that is invoked when a Material's Shader is changed in the Inspector.
+---@field PropertiesGUI fun() @Render the standard material properties. This method will either render properties using a IShaderGUI instance if found otherwise it uses PropertiesDefaultGUI.
+---@field RangeProperty fun() @Draw a range slider for a range shader property.
+---@field GetFlexibleRectBetweenLabelAndField fun() @Utility method for GUI layouting ShaderGUI.
+---@field PropertiesDefaultGUI fun() @Default rendering of shader properties.
+---@field GetFlexibleRectBetweenFieldAndRightEdge fun() @Utility method for GUI layouting ShaderGUI. Used e.g for the rect after a left aligned Color field.
+---@field LightmapEmissionFlagsProperty fun() @Draws the UI for setting the global illumination flag of a material.
+---@field GetMaterialProperty fun() @Get information about a single shader property.
+---@field OnEnable fun() @Called when the editor is enabled, if overridden please call the base OnEnable() to ensure that the material inspector is set up properly.
+---@field isVisible fun() @Is the current material expanded.
+---@field TexturePropertySingleLine fun() @Method for showing a texture property control with additional inlined properites.
+---@field LightmapEmissionProperty fun() @This function will draw the UI for the lightmap emission property. (None, Realtime, baked)See Also: MaterialLightmapFlags.
+---@field GetTexturePropertyCustomArea fun() @Returns the free rect below the label and before the large thumb object field. Is used for e.g. tiling and offset properties.
+---@field FloatProperty fun() @Draw a property field for a float shader property.
+---@field HelpBoxWithButton fun() @Make a help box with a message and button. Returns true, if button was pressed.
+---@field FixupEmissiveFlag fun() @Returns a properly set global illlumination flag based on the passed in flag and the given color.
+---@field OnPreviewGUI fun() @Custom preview for Image component.
+---@field OnDisable fun() @Called when the editor is disabled, if overridden please call the base OnDisable() to ensure that the material inspector is set up properly.
+---@field IntegerProperty fun() @Draw a property field for an integer shader property.
+---@field GetRectAfterLabelWidth fun() @Utility method for GUI layouting ShaderGUI. This is the rect after the label which can be used for multiple properties. The input rect can be fetched by calling: EditorGUILayout.GetControlRect.
+---@field EmissionEnabledProperty fun() @This function will draw the UI for controlling whether emission is enabled or not on a material.
+---@field DefaultShaderProperty fun() @Handles UI for one shader property ignoring any custom drawers.
+---@field DefaultPreviewSettingsGUI fun() @Default toolbar for material preview area.
+---@field HasPreviewGUI fun() @Can this component be Previewed in its current state?
+---@field GetPropertyHeight fun() @Calculate height needed for the property.
+---@field EndAnimatedCheck fun() @Ends a Property wrapper started with BeginAnimatedCheck.
+---@field ColorProperty fun() @Draw a property field for a color shader property.

@@ -1,0 +1,5 @@
+---@class AI.NavMeshQueryFilter @Specifies which agent type and areas to consider when searching the NavMesh.
+---@field areaMask fun() @A bitmask representing the traversable area types.
+---@field GetAreaCost fun() @Returns the area cost multiplier for the given area type for this filter.
+---@field SetAreaCost fun() @Sets the pathfinding cost multiplier for this filter for a given area type.
+---@field agentTypeID fun() @The agent type ID, specifying which navigation meshes to consider for the query functions.

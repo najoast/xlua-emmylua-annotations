@@ -1,0 +1,22 @@
+---@class CustomRenderTexture @Custom Render Textures are an extension to Render Textures that allow you to render directly to the Texture using a Shader.
+---@field material fun() @The Material that Unity uses to initialize the content of a Custom Render Texture.
+---@field updateZoneSpace fun() @The space in which Unity expresses update zones. You can set this to Normalized or Pixel space.
+---@field initializationSource fun() @Determine if Unity initializes the Custom Render Texture with a Texture and a Color or a Material.
+---@field ClearUpdateZones fun() @Clear all Update Zones.
+---@field initializationMode fun() @Determine how Unity initializes a texture.
+---@field initializationColor fun() @The color that Unity uses to initialize a Custom Render Texture. Unity ignores this parameter if an initializationMaterial is set.
+---@field updateMode fun() @Determine how Unity updates the Custom Render Texture.
+---@field cubemapFaceMask fun() @The bit field that you can use to enable or disable update on each of the cubemap faces. The bit order from least to most significant bit is as follows: +X, -X, +Y, -Y, +Z, -Z.
+---@field initializationMaterial fun() @The Material that Unity uses to initialize a Custom Render Texture. Initialization texture and color are ignored if you have set this parameter.
+---@field updatePeriod fun() @The period in seconds that Unity updates real-time Custom Render Textures. A value of 0.0 means Unity updates real-time Custom Render Textures every frame.
+---@field EnsureDoubleBufferConsistency fun() @Updates the internal Render Texture that a Custom Render Texture uses for double buffering, so that it matches the size and format of the Custom Render Texture.
+---@field Update fun() @Triggers an update of the Custom Render Texture.
+---@field shaderPass fun() @The Shader Pass Unity uses to update the Custom Render Texture.
+---@field doubleBuffered fun() @When this parameter is set to true, Unity double-buffers the Custom Render Texture so that you can access it during its own update.
+---@field SetUpdateZones fun() @Setup the list of Update Zones for the Custom Render Texture.
+---@field GetDoubleBufferRenderTexture fun() @Gets the Render Texture that this Custom Render Texture uses for double buffering.
+---@field GetUpdateZones fun() @Returns the list of Update Zones.
+---@field wrapUpdateZones fun() @When this parameter is set to true, Unity wraps Update zones around the border of the Custom Render Texture. Otherwise, Unity clamps Update zones at the border of the Custom Render Texture.
+---@field Initialize fun() @Initializes the Custom Render Texture at the start of the next frame. Unity calls /Initialise()/ before /CustomRenderTexture.Update/.
+---@field ctor fun() @Create a new Custom Render Texture.
+---@field initializationTexture fun() @The Texture that Unity uses to initialize a Custom Render Texture, multiplied by the initialization color. Unity ignores this parameter if an initializationMaterial is set.

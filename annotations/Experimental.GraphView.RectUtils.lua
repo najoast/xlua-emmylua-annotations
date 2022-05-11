@@ -1,0 +1,5 @@
+---@class Experimental.GraphView.RectUtils @Utilities for rectangle selections.
+---@field Encompass fun() @Create rectangle that encompasses two rectangles.
+---@field IntersectsSegment fun() @Check if a line segment overlaps a rectangle.
+---@field ctor fun() @RectUtils' constructor.
+---@field Inflate fun() @Creates and returns an enlarged copy of the specified rectangle. The copy is enlarged by the specified amounts.

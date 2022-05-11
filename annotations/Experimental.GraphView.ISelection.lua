@@ -1,0 +1,5 @@
+---@class Experimental.GraphView.ISelection @Selection interface.
+---@field RemoveFromSelection fun() @Remove element from selection.
+---@field AddToSelection fun() @Add element to selection.
+---@field selection fun() @Get the selection.
+---@field ClearSelection fun() @Clear selection.

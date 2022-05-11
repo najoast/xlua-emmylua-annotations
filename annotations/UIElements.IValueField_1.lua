@@ -1,0 +1,5 @@
+---@class UIElements.IValueField_1 @Base interface for UIElements text value fields.
+---@field StartDragging fun() @Indicate when the mouse dragging is starting.
+---@field value fun() @The value of the field.
+---@field ApplyInputDeviceDelta fun() @Modify the value using a 3D delta and a speed, typically coming from an input device.
+---@field StopDragging fun() @Indicate when the mouse dragging is ending.

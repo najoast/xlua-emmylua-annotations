@@ -1,0 +1,3 @@
+---@class JointAngleLimits2D @Angular limits on the rotation of a Rigidbody2D object around a HingeJoint2D.
+---@field min fun() @Lower angular limit of rotation.
+---@field max fun() @Upper angular limit of rotation.

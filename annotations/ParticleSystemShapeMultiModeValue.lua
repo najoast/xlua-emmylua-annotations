@@ -1,0 +1,5 @@
+---@class ParticleSystemShapeMultiModeValue @The mode used to generate new points in a shape.
+---@field Random fun() @Generate points randomly. (Default)
+---@field PingPong fun() @Animate the emission point around the shape, alternating between clockwise and counter-clockwise directions.
+---@field Loop fun() @Animate the emission point around the shape.
+---@field BurstSpread fun() @Distribute new particles around the shape evenly.

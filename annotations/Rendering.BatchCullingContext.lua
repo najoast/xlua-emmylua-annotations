@@ -1,0 +1,8 @@
+---@class Rendering.BatchCullingContext @Culling context for a batch.
+---@field visibleIndices fun() @Array of visible indices for all the batches in the group.
+---@field visibleIndicesY fun() @Array of uints containing extra data for the visible indices for all the batches in the group. Elements in this array correspond to elements in Rendering.BatchCullingContext.visibleIndices.
+---@field batchVisibility fun() @Visibility information for the batch.
+---@field cullingMatrix fun() @Culling matrix.
+---@field nearPlane fun() @The near frustum plane for this culling context.
+---@field lodParameters fun() @See Also: LODParameters.
+---@field cullingPlanes fun() @Planes to cull against.

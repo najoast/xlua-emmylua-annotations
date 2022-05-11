@@ -1,0 +1,29 @@
+---@class RenderTextureFormat @Format of a RenderTexture.
+---@field R8 fun() @Single channel (R) render texture format, 8 bit integer.
+---@field BGR101010_XR fun() @Color render texture format, 10 bit per channel, extended range.
+---@field BGRA10101010_XR fun() @Color render texture format, 10 bit per channel, extended range.
+---@field RG32 fun() @Two color (RG) render texture format, 16 bits per channel, fixed point, unsigned normalized.
+---@field ARGB1555 fun() @Color render texture format, 1 bit for Alpha channel, 5 bits for Red, Green and Blue channels.
+---@field ARGB64 fun() @Four color render texture format, 16 bits per channel, fixed point, unsigned normalized.
+---@field DefaultHDR fun() @Default HDR color render texture format: will be chosen accordingly to Frame Buffer format and Platform.
+---@field ARGB4444 fun() @Color render texture format, 4 bit per channel.
+---@field RGInt fun() @Two channel (RG) render texture format, 32 bit signed integer per channel.
+---@field ARGB2101010 fun() @Color render texture format. 10 bits for colors, 2 bits for alpha.
+---@field RInt fun() @Scalar (R) render texture format, 32 bit signed integer.
+---@field Depth fun() @A depth render texture format.
+---@field RHalf fun() @Scalar (R) render texture format, 16 bit floating point.
+---@field Shadowmap fun() @A native shadowmap render texture format.
+---@field RGHalf fun() @Two color (RG) render texture format, 16 bit floating point per channel.
+---@field BGRA32 fun() @Color render texture format, 8 bits per channel.
+---@field RGFloat fun() @Two color (RG) render texture format, 32 bit floating point per channel.
+---@field ARGBInt fun() @Four channel (ARGB) render texture format, 32 bit signed integer per channel.
+---@field RGBAUShort fun() @Four channel (RGBA) render texture format, 16 bit unsigned integer per channel.
+---@field RG16 fun() @Two channel (RG) render texture format, 8 bits per channel.
+---@field RGB111110Float fun() @Color render texture format. R and G channels are 11 bit floating point, B channel is 10 bit floating point.
+---@field ARGBHalf fun() @Color render texture format, 16 bit floating point per channel.
+---@field R16 fun() @Single channel (R) render texture format, 16 bit integer.
+---@field RGB565 fun() @Color render texture format.
+---@field RFloat fun() @Scalar (R) render texture format, 32 bit floating point.
+---@field Default fun() @Default color render texture format: will be chosen accordingly to Frame Buffer format and Platform.
+---@field ARGBFloat fun() @Color render texture format, 32 bit floating point per channel.
+---@field ARGB32 fun() @Color render texture format, 8 bits per channel.

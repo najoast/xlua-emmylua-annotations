@@ -1,0 +1,3 @@
+---@class UIElements.TimeUnit @Describes how to interpret a TimeValue.
+---@field Millisecond fun() @Interprets the time value as milliseconds.
+---@field Second fun() @Interprets the time value as seconds.

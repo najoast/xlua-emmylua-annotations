@@ -1,0 +1,4 @@
+---@class Build.Content.AssetBundleInfo @Container for holding asset loading information for an AssetBundle to be built.
+---@field bundleAssets fun() @List of asset loading information for an AssetBundle.
+---@field ctor fun() @Default constructor for an empty AssetBundleInfo.
+---@field bundleName fun() @Friendly AssetBundle name.

@@ -1,0 +1,4 @@
+---@class Media.H264EncoderAttributes @Descriptor for H.264 encoder attributes.
+---@field gopSize fun() @The maximum size of a group of pictures, in frames.
+---@field numConsecutiveBFrames fun() @The maximum number of consecutive B frames between I and P frames.
+---@field profile fun() @The VideoEncodingProfile for the encoded video.

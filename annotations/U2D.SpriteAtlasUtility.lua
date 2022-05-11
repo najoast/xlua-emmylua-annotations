@@ -1,0 +1,3 @@
+---@class U2D.SpriteAtlasUtility @Utility methods to pack atlases in the Project.
+---@field PackAllAtlases fun() @Pack all the SpriteAtlas Assets in the Project for the particular BuildTarget.
+---@field PackAtlases fun() @Pack all the provided SpriteAtlas for the particular BuildTarget.

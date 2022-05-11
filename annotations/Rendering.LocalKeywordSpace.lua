@@ -1,0 +1,7 @@
+---@class Rendering.LocalKeywordSpace @Represents the local keyword space of a Shader or ComputeShader.
+---@field keywordNames fun() @An array containing the names of all local shader keywords in this local keyword space. (Read Only)
+---@field operator_eq fun() @Returns true if the local shader keyword spaces are the same. Otherwise, returns false.
+---@field keywords fun() @An array containing all Rendering.LocalKeyword structs in this local keyword space. (Read Only)
+---@field keywordCount fun() @The number of local shader keywords in this local keyword space. (Read Only)
+---@field operator_ne fun() @Returns true if the local shader keyword spaces are not the same. Otherwise, returns false.
+---@field FindKeyword fun() @Searches for a local shader keyword with a given name in the keyword space.

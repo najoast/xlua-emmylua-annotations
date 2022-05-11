@@ -1,0 +1,29 @@
+---@class Editor @Derive from this base class to create a custom inspector or editor for your custom object.
+---@field CreateCachedEditorWithContext fun() @Creates a cached editor using a context object.
+---@field targets fun() @An array of all the object being inspected.
+---@field CreateEditorWithContext fun() @Make a custom editor for targetObject or targetObjects with a context object.
+---@field DrawFoldoutInspector fun() @Draws the inspector GUI with a foldout header for target.
+---@field OnInspectorGUI fun() @Implement this function to make a custom inspector.
+---@field HasFrameBounds fun() @Validates whether custom bounds can be calculated for this editor.
+---@field OnInteractivePreviewGUI fun() @Implement to create your own interactive custom preview. Interactive custom previews are used in the preview area of the inspector and the object selector.
+---@field GetInfoString fun() @Implement this method to show asset information on top of the asset preview.
+---@field DrawPreview fun() @The first entry point for Preview Drawing.
+---@field Repaint fun() @Redraw any inspectors that shows this editor.
+---@field finishedDefaultHeaderGUI fun() @An event raised while drawing the header of the Inspector window, after the default header items have been drawn.
+---@field RequiresConstantRepaint fun() @Checks if this editor requires constant repaints in its current state.
+---@field ShouldHideOpenButton fun() @Returns the visibility setting of the open button in the Inspector.
+---@field UseDefaultMargins fun() @Override this method in subclasses to return false if you don't want default margins.
+---@field CreateInspectorGUI fun() @Implement this method to make a custom UIElements inspector.
+---@field OnSceneGUI fun() @Enables the Editor to handle an event in the Scene view.
+---@field CreateEditor fun() @Make a custom editor for targetObject or targetObjects.
+---@field OnPreviewGUI fun() @Implement to create your own custom preview for the preview area of the inspector, the headers of the primary editor, and the object selector.
+---@field DrawDefaultInspector fun() @Draws the built-in inspector.
+---@field CreateCachedEditor fun() @On return previousEditor is an editor for targetObject or targetObjects. The function either returns if the editor is already tracking the objects, or destroys the previous editor and creates a new one.
+---@field OnPreviewSettings fun() @Override this method if you want to show custom controls in the preview header.
+---@field RenderStaticPreview fun() @Override this method if you want to render a static preview.
+---@field GetPreviewTitle fun() @Override this method if you want to change the label of the Preview area.
+---@field OnGetFrameBounds fun() @Gets custom bounds for the target of this editor.
+---@field HasPreviewGUI fun() @Override this method in subclasses if you implement OnPreviewGUI.
+---@field target fun() @The object being inspected.
+---@field serializedObject fun() @A SerializedObject representing the object or objects being inspected.
+---@field DrawHeader fun() @Call this function to draw the header of the editor.

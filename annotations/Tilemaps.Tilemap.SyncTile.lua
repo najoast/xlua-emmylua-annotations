@@ -1,0 +1,4 @@
+---@class Tilemaps.Tilemap.SyncTile @A Struct for containing changes to a Tile when it has been changed on a Tilemap.
+---@field tile fun() @The Tile at the given position on the Tilemap.
+---@field tileData fun() @The properties of the Tile at the given position on the Tilemap.
+---@field position fun() @The position of the Tile on a Tilemap which has changed.

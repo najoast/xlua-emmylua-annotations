@@ -1,0 +1,7 @@
+---@class Animations.CurveFilterOptions @The keyframe reduction settings for compressing animation curves.
+---@field rotationError fun() @The amount the rotation animation curve is allowed to deviate from its original curve. This amount is expressed as a number of degrees. It should be a positive value between 0 and 180.
+---@field keyframeReduction fun() @Whether to apply keyframe reduction.
+---@field positionError fun() @The amount the position animation curve is allowed to deviate from its original curve. This amount is expressed as a percentage: a positive value between 0 and 100.
+---@field unrollRotation fun() @Whether to apply rotation unrolling. This option is enabled by default.
+---@field floatError fun() @The amount the float animation curve is allowed to deviate from its original curve. This amount is expressed as a percentage: a positive value between 0 and 100.
+---@field scaleError fun() @The amount the scale animation curve is allowed to deviate from its original curve. This amount is expressed as a percentage: a positive value between 0 and 100.

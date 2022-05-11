@@ -1,0 +1,5 @@
+---@class LightmapCompression @A set of options for the level of compression the Editor uses for lightmaps.
+---@field None fun() @Does not compress lightmaps.
+---@field NormalQuality fun() @Compresses lightmaps in a medium-quality format. Provides better visual results better than Low Quality but not as good as High Quality. This is a good trade-off between memory usage and visual quality.
+---@field HighQuality fun() @Compresses lightmaps in a high-quality format. Requires more memory and storage than Normal Quality, but provides better visual results.
+---@field LowQuality fun() @Compresses lightmaps in a low-quality format. This may use less memory and storage than Normal Quality, but can also introduce visual artifacts.

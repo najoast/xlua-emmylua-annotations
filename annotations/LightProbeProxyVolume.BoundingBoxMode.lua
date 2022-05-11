@@ -1,0 +1,4 @@
+---@class LightProbeProxyVolume.BoundingBoxMode @The bounding box mode for generating a grid of interpolated Light Probes.
+---@field AutomaticLocal fun() @The bounding box encloses the current Renderer and all the relevant Renderers down the hierarchy, in local space.
+---@field Custom fun() @A custom local-space bounding box is used. The user is able to edit the bounding box.
+---@field AutomaticWorld fun() @The bounding box encloses the current Renderer and all the relevant Renderers down the hierarchy, in world space.

@@ -1,0 +1,5 @@
+---@class Camera.RenderRequest @A request that can be used for making specific rendering requests.
+---@field result fun() @The result of the request.
+---@field isValid fun() @Is this request properly formed.
+---@field outputSpace fun() @Defines in which space render requests will be be outputted.
+---@field mode fun() @The type of request.

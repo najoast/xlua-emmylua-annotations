@@ -1,0 +1,24 @@
+---@class UIElements.IPointerEvent @This interface describes properties available to pointer events.
+---@field tangentialPressure fun() @Gets the pressure applied to an additional pressure-sensitive control on the stylus.
+---@field pressure fun() @Gets the amount of pressure currently applied by a touch.
+---@field shiftKey fun() @Gets a boolean value that indicates whether the Shift key is pressed. True means the Shift key is pressed. False means it isn't.
+---@field pressedButtons fun() @Gets a bitmask that describes the buttons that are currently pressed.
+---@field altKey fun() @Gets a boolean value that indicates whether the Alt key is pressed. True means the Alt key is pressed. False means it isn't.
+---@field pointerType fun() @Gets the type of pointer that created the event.
+---@field button fun() @Gets a value that indicates which mouse button was pressed: 0 is the left button, 1 is the right button, 2 is the middle button.
+---@field position fun() @Gets the pointer position in the Screen or World coordinate system.
+---@field actionKey fun() @Gets a boolean value that indicates whether the platform-specific action key is pressed. True means the action key is pressed. False means it isn't.
+---@field azimuthAngle fun() @Gets the angle of the stylus relative to the x-axis, in radians.
+---@field localPosition fun() @Gets the pointer position in the current target's coordinate system.
+---@field commandKey fun() @Gets a boolean value that indicates whether the Windows/Cmd key is pressed. True means the Windows/Cmd key is pressed. False means it isn't.
+---@field isPrimary fun() @Gets a boolean value that indicates whether the pointer is a primary pointer. True means the pointer is a primary pointer. False means it isn't.
+---@field radiusVariance fun() @Gets the accuracy of the touch radius.
+---@field modifiers fun() @Gets flags that indicate whether modifier keys (Alt, Ctrl, Shift, Windows/Cmd) are pressed.
+---@field ctrlKey fun() @Gets a boolean value that indicates whether the Ctrl key is pressed. True means the Ctrl key is pressed. False means it isn't.
+---@field twist fun() @Gets the rotation of the stylus around its axis, in radians.
+---@field pointerId fun() @Gets the identifier of the pointer that sends the event.
+---@field deltaPosition fun() @Gets the difference between the pointer's position during the previous mouse event and its position during the current mouse event.
+---@field radius fun() @Gets an estimate of the radius of a touch.
+---@field clickCount fun() @Gets the number of times the button was pressed.
+---@field deltaTime fun() @Gets the amount of time that has elapsed since the last recorded change in pointer values, in seconds.
+---@field altitudeAngle fun() @Gets the angle of the stylus relative to the surface, in radians

@@ -1,0 +1,12 @@
+---@class AvatarMask @AvatarMask is used to mask out humanoid body parts and transforms.
+---@field ctor fun() @Creates a new AvatarMask.
+---@field SetHumanoidBodyPartActive fun() @Sets the humanoid body part at the given index to active or not.
+---@field AddTransformPath fun() @Adds a transform path into the AvatarMask.
+---@field GetTransformActive fun() @Returns true if the transform at the given index is active.
+---@field GetHumanoidBodyPartActive fun() @Returns true if the humanoid body part at the given index is active.
+---@field humanoidBodyPartCount fun() @The number of humanoid body parts.
+---@field SetTransformPath fun() @Sets the path of the transform at the given index.
+---@field SetTransformActive fun() @Sets the tranform at the given index to active or not.
+---@field GetTransformPath fun() @Returns the path of the transform at the given index.
+---@field RemoveTransformPath fun() @Removes a transform path from the AvatarMask.
+---@field transformCount fun() @Number of transforms.

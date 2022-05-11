@@ -1,0 +1,26 @@
+---@class AssetBundle @AssetBundles let you stream additional assets via the UnityWebRequest class and instantiate them at runtime. AssetBundles are created via BuildPipeline.BuildAssetBundle.
+---@field LoadAllAssets fun() @Loads all assets contained in the asset bundle that inherit from type.
+---@field GetAllScenePaths fun() @Return all the Scene asset paths (paths to *.unity assets) in the AssetBundle.
+---@field LoadAsset fun() @Loads asset with name from the bundle.
+---@field UnloadAllAssetBundles fun() @Unloads all currently loaded AssetBundles.
+---@field LoadFromFileAsync fun() @Asynchronously loads an AssetBundle from a file on disk.
+---@field LoadFromFile fun() @Synchronously loads an AssetBundle from a file on disk.
+---@field GetAllAssetNames fun() @Return all asset names in the AssetBundle.
+---@field CreateFromMemoryImmediate fun() @Synchronously create an AssetBundle from a memory region.
+---@field LoadAssetWithSubAssets fun() @Loads asset and sub assets with name from the bundle.
+---@field LoadAssetWithSubAssetsAsync fun() @Loads asset with sub assets with name from the bundle asynchronously.
+---@field Unload fun() @Unloads an AssetBundle freeing its data.
+---@field LoadFromMemory fun() @Synchronously create an AssetBundle from a memory region.
+---@field GetAllLoadedAssetBundles fun() @To use when you need to get a list of all the currently loaded Asset Bundles.
+---@field CreateFromMemory fun() @Asynchronously create an AssetBundle from a memory region.
+---@field CreateFromFile fun() @Loads an asset bundle from a disk.
+---@field RecompressAssetBundleAsync fun() @Asynchronously recompress a downloaded/stored AssetBundle from one BuildCompression to another.
+---@field LoadFromStreamAsync fun() @Asynchronously loads an AssetBundle from a managed Stream.
+---@field isStreamedSceneAssetBundle fun() @Return true if the AssetBundle is a streamed Scene AssetBundle.
+---@field Contains fun() @Check if an AssetBundle contains a specific object.
+---@field LoadAllAssetsAsync fun() @Loads all assets contained in the asset bundle asynchronously.
+---@field LoadFromMemoryAsync fun() @Asynchronously create an AssetBundle from a memory region.
+---@field LoadAssetAsync fun() @Asynchronously loads asset with name from the bundle.
+---@field memoryBudgetKB fun() @Controls the size of the shared AssetBundle loading cache. Default value is 1MB.
+---@field LoadFromStream fun() @Synchronously loads an AssetBundle from a managed Stream.
+---@field UnloadAsync fun() @Unloads assets in the bundle.

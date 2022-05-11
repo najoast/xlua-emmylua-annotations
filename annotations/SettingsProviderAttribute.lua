@@ -1,0 +1,2 @@
+---@class SettingsProviderAttribute @Attribute used to register a new SettingsProvider. Use this attribute to decorate a function that returns an instance of a SettingsProvider. If the function returns null, no SettingsProvider appears in the Settings window.
+---@field ctor fun() @Creates a new SettingsProviderAttribute used to register new SettingsProvider.

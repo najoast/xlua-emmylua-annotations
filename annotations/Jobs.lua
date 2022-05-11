@@ -1,0 +1,5 @@
+---@class Jobs @nil
+---@field IJobParallelForTransformExtensions Jobs.IJobParallelForTransformExtensions @Extension methods for IJobParallelForTransform.
+---@field TransformAccess Jobs.TransformAccess @Position, rotation and scale of an object.
+---@field IJobParallelForTransform Jobs.IJobParallelForTransform @IJobParallelForTransform.
+---@field TransformAccessArray Jobs.TransformAccessArray @TransformAccessArray.

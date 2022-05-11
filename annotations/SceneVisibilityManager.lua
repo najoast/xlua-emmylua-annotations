@@ -1,0 +1,24 @@
+---@class SceneVisibilityManager @Manages Scene Visibility in the editor.
+---@field Isolate fun() @Isolates a GameObject and its descendants.
+---@field DisablePicking fun() @Disables picking on a GameObject, or an Array of GameObjects, and their descendants.
+---@field AreAnyDescendantsHidden fun() @Checks whether any descendants are hidden.
+---@field IsHidden fun() @Checks the hidden state of a GameObject and, optionally, its descendants.
+---@field IsPickingDisabledOnAnyDescendant fun() @Checks whether any descendants have picking disabled.
+---@field HideAll fun() @Hides all GameObjects.
+---@field visibilityChanged fun() @The event raised whenever the visibility of a GameObject changes.
+---@field IsCurrentStageIsolated fun() @Checks whether the current stage is in Isolation mode.
+---@field ExitIsolation fun() @Exits Isolation Mode.
+---@field pickingChanged fun() @The event raised whenever the picking state of a GameObject changes.
+---@field ToggleVisibility fun() @Toggles the visible state of a GameObject.
+---@field TogglePicking fun() @Toggles the picking ability of a GameObject.
+---@field ShowAll fun() @Shows all GameObjects.
+---@field Show fun() @Shows a GameObject, or an array of GameObjects, and its descendants.
+---@field EnableAllPicking fun() @Enables picking on all GameObjects.
+---@field DisableAllPicking fun() @Disables picking on all GameObjects.
+---@field IsPickingDisabledOnAllDescendants fun() @Checks whether all the descendants of a GameObject have picking disabled.
+---@field Hide fun() @Hides a GameObject, or an Array of GameObjects,  and their descendants.
+---@field IsPickingDisabled fun() @Checks the picking state of a GameObject and, optionally, its descendants.
+---@field EnablePicking fun() @Enables picking on a GameObject, or an array of GameObjects, and its descendants.
+---@field AreAllDescendantsVisible fun() @Checks whether all the descendants are visible.
+---@field AreAllDescendantsHidden fun() @Checks whether all the descendants of a GameObject are hidden.
+---@field IsPickingEnabledOnAllDescendants fun() @Checks whether all the descendants are pickable.

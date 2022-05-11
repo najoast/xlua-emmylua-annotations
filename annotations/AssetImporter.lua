@@ -1,0 +1,14 @@
+---@class AssetImporter @Base class from which asset importers for specific asset types derive.
+---@field assetBundleName fun() @Get or set the AssetBundle name.
+---@field userData fun() @Get or set any user data.
+---@field SetAssetBundleNameAndVariant fun() @Set the AssetBundle name and variant.
+---@field SupportsRemappedAssetType fun() @Checks if the AssetImporter supports remapping the given asset type.
+---@field SourceAssetIdentifier AssetImporter.SourceAssetIdentifier @Represents a unique identifier for a sub-asset embedded in an imported Asset (such as an FBX file).
+---@field assetBundleVariant fun() @Get or set the AssetBundle variant.
+---@field RemoveRemap fun() @Removes an item from the map of external objects.
+---@field GetExternalObjectMap fun() @Gets a copy of the external object map used by the AssetImporter.
+---@field SaveAndReimport fun() @Save asset importer settings if asset importer is dirty.
+---@field GetAtPath fun() @Retrieves the asset importer for the asset at path.
+---@field importSettingsMissing fun() @The value is true when no meta file is provided with the imported asset.
+---@field assetPath fun() @The path name of the asset for this importer. (Read Only)
+---@field AddRemap fun() @Map a sub-asset from an imported asset (such as an FBX file) to an external Asset of the same type.

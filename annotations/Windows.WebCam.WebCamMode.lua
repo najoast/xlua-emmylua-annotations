@@ -1,0 +1,4 @@
+---@class Windows.WebCam.WebCamMode @Describes the active mode of the Web Camera resource.
+---@field None fun() @Resource is not in use.
+---@field PhotoMode fun() @Resource is in Photo Mode.
+---@field VideoMode fun() @Resource is in Video Mode.

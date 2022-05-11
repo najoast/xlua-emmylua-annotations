@@ -1,0 +1,13 @@
+---@class Social @Generic access to the Social API.
+---@field localUser fun() @The local user (potentially not logged in).
+---@field ShowAchievementsUI fun() @Show a default/system view of the games achievements.
+---@field LoadAchievementDescriptions fun() @Loads the achievement descriptions accociated with this application.
+---@field ShowLeaderboardUI fun() @Show a default/system view of the games leaderboards.
+---@field LoadScores fun() @Load a default set of scores from the given leaderboard.
+---@field ReportScore fun() @Report a score to a specific leaderboard.
+---@field ReportProgress fun() @Reports the progress of an achievement.
+---@field CreateAchievement fun() @Create an IAchievement instance.
+---@field CreateLeaderboard fun() @Create an ILeaderboard instance.
+---@field LoadUsers fun() @Load the user profiles accociated with the given array of user IDs.
+---@field LoadAchievements fun() @Load the achievements the logged in user has already achieved or reported progress on.
+---@field Active fun() @This is the currently active social platform.

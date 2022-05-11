@@ -1,0 +1,4 @@
+---@class ModelImporterMaterialImportMode @Material import options for ModelImporter.
+---@field None fun() @The model importer does not import materials.
+---@field ImportViaMaterialDescription fun() @Enables the PreprocessMaterialDescription AssetPostprocessor on the current importer.
+---@field ImportStandard fun() @The model importer imports materials in standard mode.

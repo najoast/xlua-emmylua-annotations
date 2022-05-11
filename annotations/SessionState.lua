@@ -1,0 +1,19 @@
+---@class SessionState @SessionState is a Key-Value Store intended for storing and retrieving Editor session state that should survive assembly reloading.
+---@field EraseVector3 fun() @Erase a Vector3 entry in the key-value store.
+---@field EraseString fun() @Erase a String entry in the key-value store.
+---@field SetFloat fun() @Store a Float value.
+---@field EraseBool fun() @Erase a Boolean entry in the key-value store.
+---@field SetIntArray fun() @Store an Integer array.
+---@field GetString fun() @Retrieve a String value.
+---@field SetInt fun() @Store an Integer value.
+---@field GetVector3 fun() @Retrieve a Vector3.
+---@field GetInt fun() @Retrieve an Integer value.
+---@field SetString fun() @Store a String value.
+---@field GetIntArray fun() @Retrieve an Integer array.
+---@field GetBool fun() @Retrieve a Boolean value.
+---@field EraseFloat fun() @Erase a Float entry in the key-value store.
+---@field GetFloat fun() @Retrieve a Float value.
+---@field EraseIntArray fun() @Erase an Integer array entry in the key-value store.
+---@field SetBool fun() @Store a Boolean value.
+---@field SetVector3 fun() @Store a Vector3.
+---@field EraseInt fun() @Erase an Integer entry in the key-value store.

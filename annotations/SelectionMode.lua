@@ -1,0 +1,8 @@
+---@class SelectionMode @SelectionMode can be used to tweak the selection returned by Selection.GetTransforms.
+---@field ExcludePrefab fun() @Excludes any Prefabs from the selection.
+---@field DeepAssets fun() @If the selection contains folders, also include all assets and subfolders within that folder in the file hierarchy.
+---@field Unfiltered fun() @Return the whole selection.
+---@field Deep fun() @Return the selection and all child transforms of the selection.
+---@field Assets fun() @Only return objects that are assets in the Asset directory.
+---@field TopLevel fun() @Only return the topmost selected transform. A selected child of another selected transform will be filtered out.
+---@field Editable fun() @Excludes any objects which shall not be modified.

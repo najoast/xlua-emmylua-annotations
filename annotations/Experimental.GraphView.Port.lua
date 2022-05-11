@@ -1,0 +1,30 @@
+---@class Experimental.GraphView.Port @GraphView Port class.
+---@field orientation fun() @Port's orientation.
+---@field portName fun() @Port name.
+---@field collapsed fun() @Port's collapsed state.
+---@field Disconnect fun() @Disconnect edge from port.
+---@field OnStopEdgeDragging fun() @Called when an edge dragging ends.
+---@field node fun() @Port's node.
+---@field OnStartEdgeDragging fun() @Called when an edge is dragged.
+---@field edgeConnector fun() @Reference to the edge connector.
+---@field GetGlobalCenter fun() @Get the port's center.
+---@field direction fun() @Port's direction.
+---@field connections fun() @All the port's current connections.
+---@field Connect fun() @Connect and edge to the port.
+---@field OnCustomStyleResolved fun() @Called when the custom style properties are resolved.
+---@field ConnectTo fun() @Creates an edge between this port and the 'other' port.
+---@field DisconnectAll fun() @Disconnect all edges from port.
+---@field showInMiniMap fun() @Whether the element is shown in the minimap. For Port, this property is always set to false.
+---@field disabledPortColor fun() @The color of the port when disabled.
+---@field ContainsPoint fun() @Check if point is on top of port. Used for selection and hover.
+---@field visualClass fun() @The name of the uss class to use to style the port.
+---@field Capacity Experimental.GraphView.Port.Capacity @Specify how many edges a port can have connected.
+---@field connected fun() @Port's connected state.
+---@field portType fun() @Port type.
+---@field source fun() @Port's source.
+---@field Create fun() @Factory method for creating a port.
+---@field highlight fun() @Is the port highlighted.
+---@field capacity fun() @Specify how many edges a port can have connected.
+---@field portColor fun() @The color of the port.
+---@field allowMultiDrag fun() @When this property is set to true, you can select multiple edges connected to this port, and drag them all at the same time (for example, to disconnect them and reconnect them to another port). When this property is set to false, you can only drag one connected edge at a time.
+---@field portCapLit fun() @Is the port cap lit or not.

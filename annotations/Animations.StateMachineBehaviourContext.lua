@@ -1,0 +1,4 @@
+---@class Animations.StateMachineBehaviourContext @This class contains all the owner's information for this State Machine Behaviour.
+---@field animatorController fun() @The Animations.AnimatorController that owns this state machine behaviour.
+---@field animatorObject fun() @The object that owns this state machine behaviour. Could be an Animations.AnimatorState or Animations.AnimatorStateMachine.
+---@field layerIndex fun() @The animator's layer index that owns this state machine behaviour.

@@ -1,0 +1,10 @@
+---@class Resources @The Resources class allows you to find and access Objects including assets.
+---@field LoadAll fun() @Loads all assets in a folder or file at path in a Resources folder.
+---@field Load fun() @Loads the asset of the requested type stored at path in a Resources folder.
+---@field UnloadUnusedAssets fun() @Unloads assets that are not used.
+---@field InstanceIDToObjectList fun() @Translates an array of instance IDs to a list of Object references.
+---@field LoadAsync fun() @Asynchronously loads an asset stored at path in a Resources folder.
+---@field FindObjectsOfTypeAll fun() @Returns a list of all objects of Type T.
+---@field LoadAssetAtPath fun() @Returns a resource at an asset path (Editor Only).
+---@field InstanceIDToObject fun() @Translates an instance ID to an object reference.
+---@field UnloadAsset fun() @Unloads assetToUnload from memory.

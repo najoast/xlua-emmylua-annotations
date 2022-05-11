@@ -1,0 +1,5 @@
+---@class Search.QueryToken @Represents a token of a query string.
+---@field length fun() @The length of the token. Can be different than the length of the text.
+---@field text fun() @The text representing the token.
+---@field ctor fun() @Creates a token from a string and a position.
+---@field position fun() @The position of the token in the query string.

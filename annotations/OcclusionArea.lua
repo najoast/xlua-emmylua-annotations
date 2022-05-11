@@ -1,0 +1,3 @@
+---@class OcclusionArea @OcclusionArea is an area in which occlusion culling is performed.
+---@field size fun() @Size that the occlusion area will have.
+---@field center fun() @Center of the occlusion area relative to the transform.

@@ -1,0 +1,13 @@
+---@class VFX.VFXSpawnerState @The spawn state of a Spawn system.
+---@field loopState fun() @The current state of VFXSpawnerState.
+---@field delayBeforeLoop fun() @The current delay time that the VFXSpawner waits for before it starts a loop.
+---@field loopIndex fun() @The current index of loop.
+---@field loopDuration fun() @The duration of the looping state.
+---@field deltaTime fun() @The current delta time.
+---@field vfxEventAttribute fun() @Gets the modifiable current event attribute (Read Only).
+---@field totalTime fun() @The accumulated delta time since the last Play event.
+---@field spawnCount fun() @The current Spawn count.
+---@field newLoop fun() @This boolean indicates if a new loop has just started.
+---@field playing fun() @The current playing state.
+---@field delayAfterLoop fun() @The current delay time that the VFXSpawner waits for after it finishes a loop.
+---@field loopCount fun() @The current loop count.

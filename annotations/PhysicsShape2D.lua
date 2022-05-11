@@ -1,0 +1,9 @@
+---@class PhysicsShape2D @Represents an efficient low-level physics shape used by the physics engine.
+---@field vertexStartIndex fun() @The start index for the geometry of this shape within the PhysicsShapeGroup2D.
+---@field radius fun() @The radius of the shape.
+---@field adjacentEnd fun() @Defines the position of a virtual point adjacent to the end vertex of an edge shape.
+---@field adjacentStart fun() @Defines the position of a virtual point adjacent to the start vertex of an edge shape.
+---@field vertexCount fun() @The total number of vertices used to represent the shape type.
+---@field shapeType fun() @The shape type determines how the vertices and radius are used by this PhysicsShape2D.
+---@field useAdjacentStart fun() @When the value is true, then the shape will use the adjacentStart feature. When the value is false, then the shape will not use the adjacentStart feature.
+---@field useAdjacentEnd fun() @When the value is true, then the shape will use the adjacentEnd feature. When the value is false, then the shape will not use the adjacentEnd feature.

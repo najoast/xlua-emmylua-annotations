@@ -1,0 +1,5 @@
+---@class UIElements.TemplateContainer @Represents the root VisualElement of UXML file.
+---@field templateSource fun() @Stores the template asset reference, if the generated element is cloned from a VisualTreeAsset as a Template declaration inside another VisualTreeAsset.
+---@field UxmlFactory fun() @Instantiates and clones a TemplateContainer using the data read from a UXML file.
+---@field templateId fun() @The local ID of the template in the parent UXML file (Read Only).
+---@field UxmlTraits UIElements.TemplateContainer.UxmlTraits @Defines UxmlTraits for the TemplateContainer.

@@ -1,0 +1,3 @@
+---@class iOS.OnDemandResources @On Demand Resources API.
+---@field PreloadAsync fun() @Creates an On Demand Resources (ODR) request.
+---@field enabled fun() @Indicates whether player was built with Use On Demand Resources player setting enabled.

@@ -1,0 +1,52 @@
+---@class Animations @nil
+---@field AnimatorStateMachine Animations.AnimatorStateMachine @A graph controlling the interaction of states. Each state references a motion.
+---@field AnimationPlayableOutput Animations.AnimationPlayableOutput @A IPlayableOutput implementation that connects the PlayableGraph to an Animator in the Scene.
+---@field AnimatorTransition Animations.AnimatorTransition @Transitions define when and how the state machine switch from on state to another. AnimatorTransition always originate from a StateMachine or a StateMachine entry. They do not define timing parameters.
+---@field IAnimationJobPlayable Animations.IAnimationJobPlayable @The interface defining an animation playable that uses IAnimationJob.
+---@field AnimatorControllerLayer Animations.AnimatorControllerLayer @The Animation Layer contains a state machine that controls animations of a model or part of it.
+---@field AnimatorStateTransition Animations.AnimatorStateTransition @Transitions define when and how the state machine switch from one state to another. AnimatorStateTransition always originate from an Animator State (or AnyState) and have timing parameters.
+---@field AnimationPlayableBinding Animations.AnimationPlayableBinding @A PlayableBinding that contains information representing an AnimationPlayableOutput.
+---@field ChildMotion Animations.ChildMotion @Structure that represents a motion in the context of its parent blend tree.
+---@field AnimatorConditionMode Animations.AnimatorConditionMode @The mode of the condition.
+---@field TransitionInterruptionSource Animations.TransitionInterruptionSource @Which AnimatorState transitions can interrupt the Transition.
+---@field AnimationMixerPlayable Animations.AnimationMixerPlayable @An implementation of IPlayable that controls an animation mixer.
+---@field TransformStreamHandle Animations.TransformStreamHandle @Position, rotation and scale of an object in the AnimationStream.
+---@field TransformSceneHandle Animations.TransformSceneHandle @Handle to read position, rotation and scale of an object in the Scene.
+---@field StateMachineBehaviourContext Animations.StateMachineBehaviourContext @This class contains all the owner's information for this State Machine Behaviour.
+---@field PropertySceneHandle Animations.PropertySceneHandle @Handle to read a Component property on an object in the Scene.
+---@field RotationConstraint Animations.RotationConstraint @Constrains the rotation of an object relative to the rotation of one or more source objects.
+---@field BlendTree Animations.BlendTree @Blend trees are used to blend continuously animation between their childs. They can either be 1D or 2D.
+---@field BlendTreeType Animations.BlendTreeType @The type of blending algorithm that the blend tree uses.
+---@field AnimationSceneHandleUtility Animations.AnimationSceneHandleUtility @Static class providing utility functions for animation scene handles.
+---@field AnimatorJobExtensions Animations.AnimatorJobExtensions @Static class providing extension methods for Animator and the animation C# jobs.
+---@field PropertyStreamHandle Animations.PropertyStreamHandle @Handle for a Component property on an object in the AnimationStream.
+---@field ScaleConstraint Animations.ScaleConstraint @Constrains the scale of an object relative to the scale of one or more source objects.
+---@field AnimatorCondition Animations.AnimatorCondition @Condition that is used to determine if a transition must be taken.
+---@field PositionConstraint Animations.PositionConstraint @Constrains the position of an object relative to the position of one or more source objects.
+---@field ParentConstraint Animations.ParentConstraint @Constrains the orientation and translation of an object to one or more source objects. The constrained object behaves as if it is in the hierarchy of the sources.
+---@field DiscreteEvaluationAttribute Animations.DiscreteEvaluationAttribute @Use this attribute to indicate that a property will be evaluated as a discrete value during animation playback.
+---@field ChildAnimatorState Animations.ChildAnimatorState @Structure that represents a state in the context of its parent state machine.
+---@field AnimationLayerMixerPlayable Animations.AnimationLayerMixerPlayable @An implementation of IPlayable that controls an animation layer mixer.
+---@field NotKeyableAttribute Animations.NotKeyableAttribute @Use this attribute in a script to mark a property as non-animatable.
+---@field MuscleHandle Animations.MuscleHandle @Handle for a muscle in the AnimationHumanStream.
+---@field LookAtConstraint Animations.LookAtConstraint @Constrains the orientation of an object relative to the position of one or more source objects, such that the object is facing the average position of the sources.                The LookAtConstraint is a simplified Animations.AimConstraint typically used with a Camera.
+---@field IConstraint Animations.IConstraint @The common interface for constraint components.
+---@field AnimationStream Animations.AnimationStream @The stream of animation data passed from one Playable to another.
+---@field AnimatorState Animations.AnimatorState @States are the basic building blocks of a state machine. Each state contains a Motion ( AnimationClip or BlendTree) which will play while the character is in that state. When an event in the game triggers a state transition, the character will be left in a new state whose animation sequence will then take over.
+---@field IAnimationWindowPreview Animations.IAnimationWindowPreview @Allows a class to modify how an AnimationClip is sampled in the Animation window by providing its own Playable nodes to the Animation window PlayableGraph. The class must also inherit from MonoBehaviour.
+---@field AimConstraint Animations.AimConstraint @Constrains the orientation of an object relative to the position of one or more source objects, such that the object is facing the average position of the sources.
+---@field AnimatorControllerPlayable Animations.AnimatorControllerPlayable @An implementation of IPlayable that controls an animation RuntimeAnimatorController.
+---@field AnimationHumanStream Animations.AnimationHumanStream @The humanoid stream of animation data passed from one Playable to another.
+---@field ChildAnimatorStateMachine Animations.ChildAnimatorStateMachine @Structure that represents a state machine in the context of its parent state machine.
+---@field ConstraintSource Animations.ConstraintSource @Represents a source for the constraint.
+---@field AnimatorLayerBlendingMode Animations.AnimatorLayerBlendingMode @Specifies how the layer is blended with the previous layers.
+---@field AnimationStreamHandleUtility Animations.AnimationStreamHandleUtility @Static class providing utility functions for animation stream handles.
+---@field AnimationClipPlayable Animations.AnimationClipPlayable @A Playable that controls an AnimationClip.
+---@field AnimatorController Animations.AnimatorController @The Animator Controller controls animation through layers with state machines, controlled by parameters.
+---@field AnimatorTransitionBase Animations.AnimatorTransitionBase @Base class for animator transitions. Transitions define when and how the state machine switches from one state to another.
+---@field CustomStreamPropertyType Animations.CustomStreamPropertyType @The type of custom stream property to create using BindCustomStreamProperty
+---@field CurveFilterOptions Animations.CurveFilterOptions @The keyframe reduction settings for compressing animation curves.
+---@field GameObjectRecorder Animations.GameObjectRecorder @Records the changing properties of a GameObject as the Scene runs and saves the information into an AnimationClip.
+---@field Axis Animations.Axis @Represents the axes used in 3D space.
+---@field AnimationScriptPlayable Animations.AnimationScriptPlayable @A Playable that can run a custom, multi-threaded animation job.
+---@field IAnimationJob Animations.IAnimationJob @The interface defining an animation job to use with an IAnimationJobPlayable.

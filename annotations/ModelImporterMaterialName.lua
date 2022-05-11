@@ -1,0 +1,5 @@
+---@class ModelImporterMaterialName @Material naming options for ModelImporter.
+---@field BasedOnModelNameAndMaterialName fun() @Use material names in the form &lt;modelFileName&gt;-&lt;materialName&gt;.mat.
+---@field BasedOnMaterialName fun() @Use a material name of the form &lt;materialName&gt;.mat.
+---@field BasedOnTextureName fun() @Use material names in the form &lt;textureName&gt;.mat.
+---@field BasedOnTextureName_Or_ModelNameAndMaterialName fun() @&lt;textureName&gt;.mat or &lt;modelFileName&gt;-&lt;materialName&gt;.mat material name.

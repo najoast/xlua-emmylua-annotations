@@ -1,0 +1,5 @@
+---@class iOS.OnDemandResourcesRequest @Represents a request for On Demand Resources (ODR). It's an AsyncOperation and can be yielded in a coroutine.
+---@field loadingPriority fun() @Sets the priority for request.
+---@field error fun() @Returns an error after operation is complete.
+---@field GetResourcePath fun() @Gets file system's path to the resource available in On Demand Resources (ODR) request.
+---@field Dispose fun() @Release all resources kept alive by On Demand Resources (ODR) request.

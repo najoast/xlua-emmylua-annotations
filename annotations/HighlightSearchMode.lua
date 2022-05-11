@@ -1,0 +1,6 @@
+---@class HighlightSearchMode @Used to specify how to find a given element in the editor to highlight.
+---@field Identifier fun() @Highlights an element with a given identifier text.
+---@field Content fun() @Highlights an element containing text using the text as identifier.
+---@field None fun() @Highlights nothing.
+---@field Auto fun() @Highlights the first element found using any of the search modes.
+---@field PrefixLabel fun() @Highlights an entire editor control using its label text as identifier.

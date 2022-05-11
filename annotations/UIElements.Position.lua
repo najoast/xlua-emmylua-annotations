@@ -1,0 +1,3 @@
+---@class UIElements.Position @Defaines how the position values are interpreted by the layout engine.
+---@field Relative fun() @The element is positioned in relation to its default box as calculated by layout.
+---@field Absolute fun() @The element is positioned in relation to its parent box and does not contribute to the layout anymore.

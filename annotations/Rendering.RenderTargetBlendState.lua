@@ -1,0 +1,10 @@
+---@class Rendering.RenderTargetBlendState @Values for the blend state.
+---@field defaultValue fun() @Default values for the blend state.
+---@field destinationAlphaBlendMode fun() @Blend factor used for the alpha (A) channel of the destination.
+---@field writeMask fun() @Specifies which color components will get written into the target framebuffer.
+---@field colorBlendOperation fun() @Operation used for blending the color (RGB) channel.
+---@field alphaBlendOperation fun() @Operation used for blending the alpha (A) channel.
+---@field sourceColorBlendMode fun() @Blend factor used for the color (RGB) channel of the source.
+---@field ctor fun() @Creates a new blend state with the given values.
+---@field sourceAlphaBlendMode fun() @Blend factor used for the alpha (A) channel of the source.
+---@field destinationColorBlendMode fun() @Blend factor used for the color (RGB) channel of the destination.

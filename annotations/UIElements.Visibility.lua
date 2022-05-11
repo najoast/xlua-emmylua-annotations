@@ -1,0 +1,3 @@
+---@class UIElements.Visibility @Specifies whether or not a VisualElement is visible.
+---@field Visible fun() @The VisualElement is visible. Default Value.
+---@field Hidden fun() @The VisualElement is hidden. Hidden VisualElements will take up space in their parent layout if their positionType is set to PositionType.Relative. Use the display property to both hide and remove a VisualElement from the parent VisualElement layout.

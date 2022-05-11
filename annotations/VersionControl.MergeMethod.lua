@@ -1,0 +1,4 @@
+---@class VersionControl.MergeMethod @Which method to use when merging.
+---@field MergeNone fun() @Don't merge any changes.
+---@field MergeAll fun() @Merge all changes.
+---@field MergeNonConflicting fun() @Merge non-conflicting changes.

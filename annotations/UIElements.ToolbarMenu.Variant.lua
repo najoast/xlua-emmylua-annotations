@@ -1,0 +1,3 @@
+---@class UIElements.ToolbarMenu.Variant @Display styles for the menu.
+---@field Popup fun() @Display the menu using the popup style.
+---@field Default fun() @Display the menu using the default style.

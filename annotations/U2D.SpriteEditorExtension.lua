@@ -1,0 +1,3 @@
+---@class U2D.SpriteEditorExtension @Sprite extension methods that are accessible in Editor only.
+---@field SetSpriteID fun() @Sets a Sprite's Global Unique Identifier (GUID) for easy identification later.
+---@field GetSpriteID fun() @Gets the Sprite's GUID.

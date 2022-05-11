@@ -1,0 +1,40 @@
+---@class Graphics @Raw interface to Unity's drawing functions.
+---@field activeDepthBuffer fun() @Currently active depth/stencil buffer (Read Only).
+---@field DrawProceduralNow fun() @Draws procedural geometry on the GPU.
+---@field DrawProceduralIndirectNow fun() @Draws procedural geometry on the GPU.
+---@field RenderMesh fun() @Renders a mesh with given rendering parameters.
+---@field WaitOnGPUFence fun() @This functionality is deprecated, and should no longer be used. Please use Graphics.WaitOnAsyncGraphicsFence.
+---@field CopyBuffer fun() @Copies the contents of one GraphicsBuffer into another.
+---@field RenderPrimitivesIndexed fun() @Renders indexed primitives with GPU instancing and a custom shader.
+---@field CreateAsyncGraphicsFence fun() @Shortcut for calling Graphics.CreateGraphicsFence with GraphicsFenceType.AsyncQueueSynchronization as the first parameter.
+---@field BlitMultiTap fun() @Copies source texture into destination, for multi-tap shader.
+---@field DrawProceduralIndirect fun() @Draws procedural geometry on the GPU.
+---@field activeColorGamut fun() @Returns the currently active color gamut.
+---@field RenderPrimitives fun() @Renders non-indexed primitives with GPU instancing and a custom shader.
+---@field activeTier fun() @The GraphicsTier for the current device.
+---@field CreateGraphicsFence fun() @Creates a GraphicsFence which will be passed after the last Blit, Clear, Draw, Dispatch or Texture Copy command prior to this call has been completed on the GPU.
+---@field DrawMeshInstancedIndirect fun() @Draws the same mesh multiple times using GPU instancing.
+---@field DrawMeshInstancedProcedural fun() @Draws the same mesh multiple times using GPU instancing.This is similar to Graphics.DrawMeshInstancedIndirect, except that when the instance count is known from script, it can be supplied directly using this method, rather than via a ComputeBuffer.
+---@field Blit fun() @Copies source texture into destination render texture with a shader.
+---@field minOpenGLESVersion fun() @The minimum OpenGL ES version. The value is specified in PlayerSettings.
+---@field ExecuteCommandBuffer fun() @Execute a command buffer.
+---@field DrawTexture fun() @Draw a texture in screen coordinates.
+---@field CopyTexture fun() @Copy texture contents.
+---@field preserveFramebufferAlpha fun() @True when rendering over native UI is enabled in Player Settings (readonly).
+---@field ClearRandomWriteTargets fun() @Clear random write targets for Shader Model 4.5 level pixel shaders.
+---@field activeColorBuffer fun() @Currently active color buffer (Read Only).
+---@field RenderMeshInstanced fun() @Renders multiple instances of a mesh using GPU instancing.
+---@field SetRenderTarget fun() @Sets current render target.
+---@field RenderPrimitivesIndirect fun() @Renders primitives with GPU instancing and a custom shader using rendering command arguments from commandBuffer.
+---@field SetRandomWriteTarget fun() @Set random write target for Shader Model 4.5 level pixel shaders.
+---@field ExecuteCommandBufferAsync fun() @Executes a command buffer on an async compute queue with the queue selected based on the ComputeQueueType parameter passed.
+---@field RenderMeshPrimitives fun() @Renders multiple instances of a Mesh using GPU instancing and a custom shader.
+---@field RenderPrimitivesIndexedIndirect fun() @Renders indexed primitives with GPU instancing and a custom shader with rendering command arguments from commandBuffer.
+---@field CreateGPUFence fun() @This functionality is deprecated, and should no longer be used. Please use Graphics.CreateGraphicsFence.
+---@field WaitOnAsyncGraphicsFence fun() @Instructs the GPU's processing of the graphics queue to wait until the given GraphicsFence is passed.
+---@field DrawMeshInstanced fun() @Draws the same mesh multiple times using GPU instancing.
+---@field DrawProcedural fun() @Draws procedural geometry on the GPU.
+---@field DrawMeshNow fun() @Draw a mesh immediately.
+---@field RenderMeshIndirect fun() @Renders multiple instances of a mesh using GPU instancing and rendering command arguments from commandBuffer.
+---@field ConvertTexture fun() @This function provides an efficient way to convert between textures of different formats and dimensions.The destination texture format should be uncompressed and correspond to a supported RenderTextureFormat.
+---@field DrawMesh fun() @Draw a mesh.

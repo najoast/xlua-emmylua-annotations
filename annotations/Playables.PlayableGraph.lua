@@ -1,0 +1,26 @@
+---@class Playables.PlayableGraph @Use the PlayableGraph to manage Playable creations and destructions.
+---@field SetTimeUpdateMode fun() @Changes how time is incremented when playing back.
+---@field GetOutput fun() @Get PlayableOutput at the given index in the graph.
+---@field Disconnect fun() @Disconnects the Playable. The connections determine the topology of the PlayableGraph and how it is evaluated.
+---@field Stop fun() @Stops the graph, if it is playing.
+---@field IsValid fun() @Returns true if the PlayableGraph has been properly constructed using PlayableGraph.CreateGraph and is not deleted.
+---@field Play fun() @Plays the graph.
+---@field DestroyOutput fun() @Destroys the PlayableOutput.
+---@field DestroySubgraph fun() @Destroys the Playable and all its inputs, recursively.
+---@field SetResolver fun() @Changes the table used by the graph to resolve ExposedReferences.
+---@field GetRootPlayableCount fun() @Returns the number of Playable owned by the Graph that have no connected outputs.
+---@field IsDone fun() @Indicates that a graph has completed its operations.
+---@field DestroyPlayable fun() @Destroys the Playable.
+---@field GetResolver fun() @Returns the table used by the graph to resolve ExposedReferences.
+---@field GetOutputCountByType fun() @Get the number of PlayableOutput of the requested type in the graph.
+---@field GetOutputByType fun() @Get PlayableOutput of the requested type at the given index in the graph.
+---@field GetEditorName fun() @Returns the name of the PlayableGraph.
+---@field GetOutputCount fun() @Returns the number of PlayableOutput in the graph.
+---@field Evaluate fun() @Evaluates all the PlayableOutputs in the graph, and updates all the connected Playables in the graph.
+---@field GetPlayableCount fun() @Returns the number of Playable owned by the Graph.
+---@field Create fun() @Creates a PlayableGraph.
+---@field GetTimeUpdateMode fun() @Returns how time is incremented when playing back.
+---@field IsPlaying fun() @Indicates that a graph is presently running.
+---@field GetRootPlayable fun() @Returns the Playable with no output connections at the given index.
+---@field Destroy fun() @Destroys the graph.
+---@field Connect fun() @Connects two Playable instances.

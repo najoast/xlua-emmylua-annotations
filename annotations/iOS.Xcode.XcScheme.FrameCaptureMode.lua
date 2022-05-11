@@ -1,0 +1,3 @@
+---@class iOS.Xcode.XcScheme.FrameCaptureMode @Frame Capture mode.
+---@field Metal fun() @Metal.
+---@field Disabled fun() @Disabled.

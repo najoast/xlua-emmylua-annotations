@@ -1,0 +1,5 @@
+---@class ConstantForce @A force applied constantly.
+---@field torque fun() @The torque applied to the rigidbody every frame.
+---@field relativeForce fun() @The force - relative to the rigid bodies coordinate system - applied every frame.
+---@field relativeTorque fun() @The torque - relative to the rigid bodies coordinate system - applied every frame.
+---@field force fun() @The force applied to the rigidbody every frame.

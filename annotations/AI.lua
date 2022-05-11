@@ -1,0 +1,28 @@
+---@class AI @nil
+---@field NavMeshBuildDebugSettings AI.NavMeshBuildDebugSettings @Specify which of the temporary data generated while building the NavMesh should be retained in memory after the process has completed.
+---@field ObstacleAvoidanceType AI.ObstacleAvoidanceType @Level of obstacle avoidance.
+---@field NavMeshPathStatus AI.NavMeshPathStatus @Status of path.
+---@field NavMeshAgent AI.NavMeshAgent @Navigation mesh agent.
+---@field OffMeshLink AI.OffMeshLink @Link allowing movement outside the planar navigation mesh.
+---@field NavMeshBuildDebugFlags AI.NavMeshBuildDebugFlags @Bitmask used for operating with debug data from the NavMesh build process.
+---@field NavMeshData AI.NavMeshData @Contains and represents NavMesh data.
+---@field NavMeshTriangulation AI.NavMeshTriangulation @Contains data describing a triangulation of a navmesh.
+---@field NavMeshLinkInstance AI.NavMeshLinkInstance @An instance representing a link available for pathfinding.
+---@field NavMeshBuilder AI.NavMeshBuilder @Navigation mesh builder interface.
+---@field NavMeshBuildSource AI.NavMeshBuildSource @The input to the NavMesh builder is a list of NavMesh build sources.
+---@field NavMeshBuildSourceShape AI.NavMeshBuildSourceShape @Used with NavMeshBuildSource to define the shape for building NavMesh.
+---@field NavMeshLinkData AI.NavMeshLinkData @Used for runtime manipulation of links connecting polygons of the NavMesh.
+---@field NavMeshCollectGeometry AI.NavMeshCollectGeometry @Used for specifying the type of geometry to collect. Used with NavMeshBuilder.CollectSources.
+---@field OffMeshLinkType AI.OffMeshLinkType @Link type specifier.
+---@field OffMeshLinkData AI.OffMeshLinkData @State of OffMeshLink.
+---@field NavMeshHit AI.NavMeshHit @Result information for NavMesh queries.
+---@field NavMeshObstacle AI.NavMeshObstacle @An obstacle for NavMeshAgents to avoid.
+---@field NavMeshObstacleShape AI.NavMeshObstacleShape @Shape of the obstacle.
+---@field NavMeshBuildMarkup AI.NavMeshBuildMarkup @The NavMesh build markup allows you to control how certain objects are treated during the NavMesh build process, specifically when collecting sources for building.
+---@field NavMeshPath AI.NavMeshPath @A path as calculated by the navigation system.
+---@field NavMeshQueryFilter AI.NavMeshQueryFilter @Specifies which agent type and areas to consider when searching the NavMesh.
+---@field NavMeshVisualizationSettings AI.NavMeshVisualizationSettings @Represents the visualization state of the navigation debug graphics.
+---@field NavMeshEditorHelpers AI.NavMeshEditorHelpers @NavMesh utility functionality effective only in the Editor.
+---@field NavMesh AI.NavMesh @Singleton class to access the baked NavMesh.
+---@field NavMeshDataInstance AI.NavMeshDataInstance @The instance is returned when adding NavMesh data.
+---@field NavMeshBuildSettings AI.NavMeshBuildSettings @The NavMeshBuildSettings struct allows you to specify a collection of settings which describe the dimensions and limitations of a particular agent type.

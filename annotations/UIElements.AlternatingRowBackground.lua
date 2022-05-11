@@ -1,0 +1,4 @@
+---@class UIElements.AlternatingRowBackground @Options to display alternating background colors for ListView rows.
+---@field All fun() @Alternate background colors for all rows, regardless of whether they have content. The background color continues to alternate for empty lines.
+---@field None fun() @Do not alternate background colors for rows.
+---@field ContentOnly fun() @Alternate background colors only for rows that have content. The background color does not alternate for empty lines.

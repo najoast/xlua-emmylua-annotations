@@ -1,0 +1,3 @@
+---@class VersionControl.Plugin @The plug-in class describes the currently active version control plug-in and its configuration options.
+---@field configFields fun() @Configuration fields of the plugin.
+---@field name fun() @The name of the currently active version control.

@@ -1,0 +1,5 @@
+---@class Experimental.GraphView.ClickSelector @Selects element on single click.
+---@field UnregisterCallbacksFromTarget fun() @Called to unregister event callbacks from the target element.
+---@field OnMouseDown fun() @Called on mouse down event.
+---@field ctor fun() @Constructor for ClickSelector.
+---@field RegisterCallbacksOnTarget fun() @Called to register click event callbacks on the target element.

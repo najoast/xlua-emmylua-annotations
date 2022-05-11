@@ -1,0 +1,6 @@
+---@class Build.Content.AssetLoadInfo @Container for holding preload information for a given serialized Asset.
+---@field ctor fun() @Default constructor for an empty AssetLoadInfo.
+---@field referencedObjects fun() @List of objects that an asset references.
+---@field asset fun() @GUID for the given asset.
+---@field includedObjects fun() @List of objects that an asset contains in its source file.
+---@field address fun() @Friendly name used to load the built asset.

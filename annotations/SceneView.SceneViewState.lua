@@ -1,0 +1,21 @@
+---@class SceneView.SceneViewState @A collection of graphic settings for this SceneView. All graphic settings are boolean.
+---@field ctor fun() @Creates a new SceneViewState with either default values or values from another SceneViewState.
+---@field particleSystemsEnabled fun() @Whether particle systems render in this SceneView.
+---@field showVisualEffectGraphs fun() @Whether visual effect graphs rendering is enabled in this SceneView.
+---@field showSkybox fun() @Whether the skybox rendering is enabled in this SceneView.
+---@field flaresEnabled fun() @Whether lens flares render in this SceneView.
+---@field alwaysRefreshEnabled fun() @Whether to redraw SceneView at a fixed interval.
+---@field showFlares fun() @Whether lens flare rendering is enabled in this SceneView.
+---@field showImageEffects fun() @Whether image effects (post processing) rendering is enabled in this SceneView.
+---@field materialUpdateEnabled fun() @Whether animated materials render in this SceneView.
+---@field fogEnabled fun() @Whether fog renders in this SceneView.
+---@field fxEnabled fun() @Whether to render (when enabled) effects in this SceneView.
+---@field skyboxEnabled fun() @Whether the skybox renders in this SceneView.
+---@field showFog fun() @Whether fog rendering is enabled in this SceneView.
+---@field showParticleSystems fun() @Whether particle systems rendering is enabled in this SceneView.
+---@field SetAllEnabled fun() @Sets all graphic settings, for this SceneViewState, to either true or false.
+---@field visualEffectGraphsEnabled fun() @Whether visual effect graphs render in this SceneView.
+---@field showMaterialUpdate fun() @Whether animated materials rendering is enabled in this SceneView.
+---@field alwaysRefresh fun() @Whether to redraw SceneView at a fixed interval.
+---@field allEnabled fun() @Whether all graphic settings are enabled for this SceneViewState.
+---@field imageEffectsEnabled fun() @Whether image effects (post processing) render in this SceneView.

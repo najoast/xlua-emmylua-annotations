@@ -1,0 +1,8 @@
+---@class UIElements.EnumFlagsField @Makes a dropdown for switching between enum flag values that are marked with the Flags attribute.
+---@field labelUssClassName fun() @USS class name for labels of this type.
+---@field ctor fun() @Constructs an EnumFlagsField with a default value, and initializes its underlying type.
+---@field inputUssClassName fun() @USS class name for input elements of this type.
+---@field ussClassName fun() @USS class name for elements of this type.
+---@field Init fun() @Initializes the EnumFlagsField with a default value, and initializes its underlying type.
+---@field UxmlFactory fun() @Instantiates a EnumFlagsField using the data read from a UXML file.
+---@field UxmlTraits fun() @Defines UxmlTraits for the EnumFlagsField.

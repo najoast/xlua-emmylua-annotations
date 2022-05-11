@@ -1,0 +1,16 @@
+---@class Experimental.Rendering.RayTracingAccelerationStructure @A data structure used to represent the Renderers in the Scene for GPU ray tracing.
+---@field UpdateInstanceTransform fun() @Updates the transform of the instance associated with the Renderer passed as argument.
+---@field GetSize fun() @Returns the total size of this RayTracingAccelerationStructure on the GPU in bytes.
+---@field RemoveInstance fun() @Removes a ray tracing instance associated with a Renderer from this RayTracingAccelerationStructure.
+---@field Build fun() @Builds this RayTracingAccelerationStructure on the GPU.
+---@field RayTracingModeMask Experimental.Rendering.RayTracingAccelerationStructure.RayTracingModeMask @An enum controlling which RayTracingAccelerationStructure.RayTracingModes a Renderer must have in order to be added to the RayTracingAccelerationStructure.
+---@field UpdateInstanceMask fun() @Updates the instance mask of a ray tracing instance associated with the Renderer passed as argument.
+---@field GetInstanceCount fun() @Returns the number of ray tracing instances in the acceleration structure.
+---@field UpdateInstanceID fun() @Updates the instance ID of a ray tracing instance associated with the Renderer passed as argument.
+---@field Update fun() @Updates the transforms of all instances in this RayTracingAccelerationStructure.
+---@field Release fun() @See Also: RayTracingAccelerationStructure.Dispose.
+---@field RASSettings Experimental.Rendering.RayTracingAccelerationStructure.RASSettings @Defines whether a RayTracingAccelerationStructure is updated by the user or by the Engine, and whether to mask certain object layers or RayTracingModes.
+---@field ManagementMode Experimental.Rendering.RayTracingAccelerationStructure.ManagementMode @Defines whether Unity updates a RayTracingAccelerationStructure automatically, or if the user updates it manually via API.
+---@field AddInstance fun() @Adds a ray tracing instance associated with a Renderer to this RayTracingAccelerationStructure.
+---@field ctor fun() @Creates a RayTracingAccelerationStructure with the given RayTracingAccelerationStructure.RASSettings.
+---@field Dispose fun() @Destroys this RayTracingAccelerationStructure.

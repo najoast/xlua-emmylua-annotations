@@ -1,0 +1,11 @@
+---@class TypeCache.FieldInfoCollection @Represents a read-only collection of FieldInfo and implements an IList interface.
+---@field IndexOf fun() @Gets the first occurrence of an item in the FieldInfoCollection.
+---@field IsReadOnly fun() @Whether the FieldInfoCollection is read-only. This property is always set to true.
+---@field CopyTo fun() @Copies the collection to an array.
+---@field Index_operator fun() @Gets the element at the specified index.
+---@field Enumerator TypeCache.FieldInfoCollection.Enumerator @Enumerates the elements of a ''FieldInfoCollection''.
+---@field GetEnumerator fun() @Gets an enumerator that iterates through a FieldInfoCollection.
+---@field IsSynchronized fun() @Whether the FieldInfoCollection is synchronized. This property is always set to true.
+---@field Contains fun() @Determines whether an element is in the FieldInfoCollection.
+---@field Count fun() @The number of elements in FieldInfoCollection.
+---@field IsFixedSize fun() @Whether the FieldInfoCollection is of a fixed size. This property is always set to true.

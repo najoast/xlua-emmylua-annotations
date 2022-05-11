@@ -1,0 +1,2 @@
+---@class Build.IPreprocessBuild @This interface is obsolete. Use Build.IPreprocessBuildWithReport instead.
+---@field OnPreprocessBuild fun() @This method is obsolete. Use Build.IPreprocessBuildWithReport.OnPreprocessBuild instead.

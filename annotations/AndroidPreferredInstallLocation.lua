@@ -1,0 +1,4 @@
+---@class AndroidPreferredInstallLocation @Preferred application install location.
+---@field Auto fun() @Let the OS decide, app doesn't have any preferences.
+---@field PreferExternal fun() @Prefer external, if possible. Install to internal otherwise.
+---@field ForceInternal fun() @Force installation into internal memory. Needed for things like Live Wallpapers.

@@ -1,0 +1,3 @@
+---@class SubsystemDescriptor @Information about a subsystem that can be queried before creating a subsystem instance.This subsystem descriptor base-class is deprecated. If you are creating a new subsystem type, derive from SubsystemDecriptorWithProvider instead.
+---@field id fun() @A unique string that identifies the subsystem that this Descriptor can create.
+---@field subsystemImplementationType fun() @The System.Type of the subsystem implementation associated with this descriptor.

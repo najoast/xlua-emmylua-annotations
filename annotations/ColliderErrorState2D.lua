@@ -1,0 +1,4 @@
+---@class ColliderErrorState2D @Indicates what (if any) error was encountered when creating a 2D Collider.
+---@field None fun() @Indicates that no error was encountered, therefore the 2D Collider was created successfully.
+---@field RemovedShapes fun() @Indicates that some physics shapes were not created by the 2D Collider because the state of 2D Collider resulted in vertices too close or an area that is too small for the physics engine to handle.
+---@field NoShapes fun() @Indicates that no physics shapes were created by the 2D Collider because the state of 2D Collider resulted in vertices too close or an area that is too small for the physics engine to handle.

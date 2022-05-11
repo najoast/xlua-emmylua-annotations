@@ -1,0 +1,4 @@
+---@class PackageManager.StatusCode @Unity Package Manager operation status.
+---@field Success fun() @Package manager operation completed successfully.
+---@field InProgress fun() @Package manager operation is in progress.
+---@field Failure fun() @Package manager operation failed.

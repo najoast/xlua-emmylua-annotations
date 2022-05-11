@@ -1,0 +1,2 @@
+---@class L10n @Class for text localization.
+---@field Tr fun() @This function referes a po file like ja.po as an asset. Asmdef and [assembly: UnityEditor.Localization] is needed.

@@ -1,0 +1,5 @@
+---@class Resolution @Represents a display resolution.
+---@field height fun() @Resolution height in pixels.
+---@field ToString fun() @Returns a nicely formatted string of the resolution.
+---@field refreshRate fun() @Resolution's vertical refresh rate in Hz.
+---@field width fun() @Resolution width in pixels.

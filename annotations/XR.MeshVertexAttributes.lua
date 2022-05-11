@@ -1,0 +1,6 @@
+---@class XR.MeshVertexAttributes @A set of vertex attributes.
+---@field Tangents fun() @Vertex tangents
+---@field UVs fun() @Vertex UVs
+---@field Normals fun() @Vertex normals
+---@field Colors fun() @Vertex normals
+---@field None fun() @No vertex attributes

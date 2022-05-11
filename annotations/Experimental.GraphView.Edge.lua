@@ -1,0 +1,20 @@
+---@class Experimental.GraphView.Edge @The GraphView edge element.
+---@field edgeControl fun() @The VisualElement child of Edge that draws the lines and does the hit detection.
+---@field ctor fun() @Edge's constructor.
+---@field output fun() @Connected output port.
+---@field CreateEdgeControl fun() @Create the EdgeControl.
+---@field ContainsPoint fun() @Checks if point is on top of edge.
+---@field edgeWidth fun() @Edge width.
+---@field UpdateEdgeControl fun() @Update the edge's EdgeControl.
+---@field PointsAndTangents fun() @The edge's points and tangents.
+---@field Overlaps fun() @Check if edge overlaps rectangle.
+---@field OnPortChanged fun() @Called when a port on the edge is changed.
+---@field defaultColor fun() @Default edge color.
+---@field candidatePosition fun() @The edge's end position while it's being created.
+---@field input fun() @Connected input port.
+---@field DrawEdge fun() @Draw the edge's lines.
+---@field OnCustomStyleResolved fun() @Called when the custom style properties are resolved.
+---@field showInMiniMap fun() @Whether the GraphElement is shown in the minimap. For Edge, this property is always set to false.
+---@field isGhostEdge fun() @Is this edge a ghost edge, which is the edge that appears snapped to a nearby port while an edge is being created.
+---@field selectedColor fun() @Color of edge while selected.
+---@field ghostColor fun() @The color of the ghost edge, which is the edge that appears snapped to a nearby port while an edge is being created.

@@ -1,0 +1,4 @@
+---@class RenderTextureReadWrite @Color space conversion mode of a RenderTexture.
+---@field Default fun() @Default color space conversion based on project settings.
+---@field sRGB fun() @Render texture contains sRGB (color) data, perform Linear&lt;-&gt;sRGB conversions on it.
+---@field Linear fun() @Render texture contains linear (non-color) data; don't perform color conversions on it.

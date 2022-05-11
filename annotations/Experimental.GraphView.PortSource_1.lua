@@ -1,0 +1,2 @@
+---@class Experimental.GraphView.PortSource_1 @Port source.
+---@field ctor fun() @Port source constructor.

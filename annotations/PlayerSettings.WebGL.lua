@@ -1,0 +1,13 @@
+---@class PlayerSettings.WebGL @WebGL specific player settings.
+---@field threadsSupport fun() @Enable Multithreading support.
+---@field linkerTarget fun() @Allows you to specify the web build format that is used when you build your project.
+---@field exceptionSupport fun() @Exception support for WebGL builds.
+---@field wasmArithmeticExceptions fun() @The trapping mode for WebAssembly code.
+---@field dataCaching fun() @Enables automatic caching of unityweb files.
+---@field debugSymbolMode fun() @Enables generation of debug symbols file in the build output directory. Supported options: embedded debug symbols and debug symbols in external file.
+---@field nameFilesAsHashes fun() @Enables using MD5 hash of the uncompressed file contents as a filename for each file in the build.
+---@field template fun() @Path to the WebGL template asset.
+---@field decompressionFallback fun() @Include decompression fallback code for build files in the loader.
+---@field memorySize fun() @Memory size for WebGL builds in Megabyte.
+---@field compressionFormat fun() @CompressionFormat defines the compression type that the WebGL resources are encoded to.
+---@field debugSymbols fun() @Enables generation of debug symbols file in the build output directory. This property has been deprecated and replaced by debugSymbolMode property.

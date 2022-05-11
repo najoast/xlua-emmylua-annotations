@@ -1,0 +1,3 @@
+---@class EffectorSelection2D @Selects the source and/or target to be used by an Effector2D.
+---@field Rigidbody fun() @The source/target is defined by the Rigidbody2D.
+---@field Collider fun() @The source/target is defined by the Collider2D.

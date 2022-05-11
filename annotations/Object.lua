@@ -1,0 +1,16 @@
+---@class Object @Base class for all objects Unity can reference.
+---@field FindObjectsOfTypeIncludingAssets fun() @Returns a list of all active and inactive loaded objects of Type type, including assets.
+---@field FindObjectsOfTypeAll fun() @Returns a list of all active and inactive loaded objects of Type type.
+---@field operator_ne fun() @Compares if two objects refer to a different object.
+---@field operator_eq fun() @Compares two object references to see if they refer to the same object.
+---@field DestroyImmediate fun() @Destroys the object obj immediately. You are strongly recommended to use Destroy instead.
+---@field Destroy fun() @Removes a GameObject, component or asset.
+---@field hideFlags fun() @Should the object be hidden, saved with the Scene or modifiable by the user?
+---@field ToString fun() @Returns the name of the object.
+---@field name fun() @The name of the object.
+---@field FindObjectOfType fun() @Returns the first active loaded object of Type type.
+---@field GetInstanceID fun() @Gets  the instance ID of the object.
+---@field Instantiate fun() @Clones the object original and returns the clone.
+---@field operator_Object fun() @Does the object exist?
+---@field FindObjectsOfType fun() @Gets a list of all loaded objects of Type type.
+---@field DontDestroyOnLoad fun() @Do not destroy the target Object when loading a new Scene.

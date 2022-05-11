@@ -1,0 +1,4 @@
+---@class ModelImporterAvatarSetup @Set the Avatar generation mode for ModelImporter.
+---@field CopyFromOther fun() @Copy the Avatar from another model.
+---@field NoAvatar fun() @Disable Avatar creation for this model.
+---@field CreateFromThisModel fun() @Create the Avatar from this model and save it as a sub-asset.

@@ -1,0 +1,10 @@
+---@class UIElements.VisualElementStyleSheetSet @This structure manipulates the set of StyleSheet objects attached to the owner VisualElement.
+---@field Clear fun() @Removes all style sheets for the owner element.
+---@field Add fun() @Adds a style sheet for the owner element.
+---@field operator_eq fun() @Compares instances of the VisualElementStyleSheetSet struct for equality.
+---@field Remove fun() @Removes a style sheet for the owner element.
+---@field Contains fun() @Looks for the specified StyleSheet
+---@field count fun() @Number of style sheets attached to the owner element.
+---@field Index_operator fun() @Reads the value at the specified index in the list of StyleSheet objects attached of the element
+---@field operator_ne fun() @Compares instances of the VisualElementStyleSheetSet struct for inequality.
+---@field Equals fun() @Compares instances of the VisualElementStyleSheetSet struct for equality.

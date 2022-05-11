@@ -1,0 +1,28 @@
+---@class Rendering.ScriptableCullingParameters @Parameters that configure a culling operation in the Scriptable Render Pipeline.
+---@field maximumCullingPlaneCount fun() @Maximum amount of culling planes that can be specified.
+---@field conservativeEnclosingSphere fun() @This property enables a conservative method for calculating the size and position of the minimal enclosing sphere around the frustum cascade corner points for shadow culling.
+---@field lodParameters fun() @LODParameters for culling.
+---@field GetLayerCullingDistance fun() @Get the distance for the culling of a specific layer.
+---@field cameraProperties fun() @Camera Properties used for culling.
+---@field SetLayerCullingDistance fun() @Set the distance for the culling of a specific layer.
+---@field maximumPortalCullingJobs fun() @This parameter controls how many active jobs contribute to occlusion culling.
+---@field SetCullingPlane fun() @Set the culling plane at a given index.
+---@field cullingPlaneCount fun() @Number of culling planes to use.
+---@field cullingMask fun() @The mask for the culling operation.
+---@field stereoProjectionMatrix fun() @The projection matrix generated for single-pass stereo culling.
+---@field GetCullingPlane fun() @Fetch the culling plane at the given index.
+---@field shadowNearPlaneOffset fun() @Offset to apply to the near camera plane when performing shadow map rendering.
+---@field stereoViewMatrix fun() @The view matrix generated for single-pass stereo culling.
+---@field stereoSeparationDistance fun() @Distance between the virtual eyes.
+---@field cullingMatrix fun() @The matrix for the culling operation.
+---@field cullingOptions fun() @Flags to configure a culling operation in the Scriptable Render Pipeline.
+---@field layerCount fun() @The amount of layers available.
+---@field shadowDistance fun() @Shadow distance to use for the cull.
+---@field reflectionProbeSortingCriteria fun() @Reflection Probe Sort options for the cull.
+---@field origin fun() @Position for the origin of the cull.
+---@field accurateOcclusionThreshold fun() @This parameter determines query distance for occlusion culling.
+---@field isOrthographic fun() @Is the cull orthographic.
+---@field numIterationsEnclosingSphere fun() @
+---@field cullingJobsLowerLimit fun() @The lower limit to the value ScriptableCullingParameters.maximumPortalCullingJobs.
+---@field cullingJobsUpperLimit fun() @The upper limit to the value ScriptableCullingParameters.maximumPortalCullingJobs.
+---@field maximumVisibleLights fun() @This parameter controls how many visible lights are allowed.

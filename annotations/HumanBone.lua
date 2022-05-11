@@ -1,0 +1,4 @@
+---@class HumanBone @The mapping between a bone in the model and the conceptual bone in the Mecanim human anatomy.
+---@field limit fun() @The rotation limits that define the muscle for this bone.
+---@field humanName fun() @The name of the Mecanim human bone to which the bone from the model is mapped.
+---@field boneName fun() @The name of the bone to which the Mecanim human bone is mapped.

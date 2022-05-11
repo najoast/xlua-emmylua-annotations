@@ -1,0 +1,2 @@
+---@class UIElements.RectIntField.UxmlTraits @Defines UxmlTraits for the RectIntField.
+---@field Init fun() @Initializes the UxmlTraits for the RectIntField.

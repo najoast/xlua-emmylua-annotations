@@ -1,0 +1,10 @@
+---@class Android.AndroidAssetPackStatus @Values that indicate the status of an Android asset pack.
+---@field Downloading fun() @Indicates that the device is downloading the Android asset pack.
+---@field WaitingForWifi fun() @Indicates that the device has paused the Android asset pack download until it connects to the WiFi network.
+---@field Transferring fun() @Indicates that the device has downloaded the Android asset pack and is unpacking the asset pack to its final location.
+---@field Unknown fun() @Indicates that the Android asset pack is not available for the application.
+---@field Pending fun() @Indicates that the Android asset pack status should soon change.
+---@field NotInstalled fun() @Indicates that the Android asset pack is not installed.
+---@field Canceled fun() @Indicates that the Android asset pack download is canceled.
+---@field Failed fun() @Indicates that the device failed to download the Android asset pack.
+---@field Completed fun() @Indicates that the device has downloaded the Android asset pack and the asset pack is available to the application.

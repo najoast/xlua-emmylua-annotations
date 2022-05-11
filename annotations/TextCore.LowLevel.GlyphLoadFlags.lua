@@ -1,0 +1,11 @@
+---@class TextCore.LowLevel.GlyphLoadFlags @The various options (flags) used by the FontEngine when loading glyphs from a font face.
+---@field LOAD_DEFAULT fun() @Load glyph metrics and bitmap representation if available for the current face size.
+---@field LOAD_NO_BITMAP fun() @Load glyphs and ignore embedded bitmap strikes.
+---@field LOAD_MONOCHROME fun() @Load glyph metrics and render outline using 1-bit monochrome.
+---@field LOAD_NO_AUTOHINT fun() @Load glyphs using the font's native hinter.
+---@field LOAD_RENDER fun() @Load glyph metrics and render outline using 8-bit or antialiased image of the glyph.
+---@field LOAD_NO_HINTING fun() @Load glyphs without hinting.
+---@field LOAD_FORCE_AUTOHINT fun() @Load glyphs using the auto hinter instead of the font's native hinter.
+---@field LOAD_NO_SCALE fun() @Load glyphs at default font units without scaling. This flag implies LOAD_NO_HINTING and LOAD_NO_BITMAP and unsets LOAD_RENDER.
+---@field LOAD_BITMAP_METRICS_ONLY fun() @Load glyph metrics without allocating and loading the bitmap data.
+---@field LOAD_COMPUTE_METRICS fun() @Load glyph metrics without using the 'hdmx' table. This flag is mostly used to validate font data.

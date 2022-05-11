@@ -1,0 +1,4 @@
+---@class AnimatorRecorderMode @The mode of the Animator's recorder.
+---@field Playback fun() @The Animator recorder is in Playback.
+---@field Record fun() @The Animator recorder is in Record.
+---@field Offline fun() @The Animator recorder is offline.

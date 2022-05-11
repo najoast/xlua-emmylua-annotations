@@ -1,0 +1,6 @@
+---@class DisplayInfo @Represents a connected display.
+---@field height fun() @The display height in pixels.
+---@field name fun() @Human-friendly display name.
+---@field refreshRate fun() @The current refresh rate of the display.
+---@field width fun() @The display width in pixels.
+---@field workArea fun() @Specifies the work area rectangle of the display relative to the top left corner. For example, it excludes the area covered by the macOS Dock or the Windows Taskbar.

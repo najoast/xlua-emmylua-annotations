@@ -1,0 +1,3 @@
+---@class PhysicsVisualizationSettings.FilterWorkflow @Decides whether the Workflow in the Physics Debug window should be inclusive (ShowSelectedItems) or exclusive (HideSelectedItems).
+---@field HideSelectedItems fun() @With HideSelectedItems you can hide selected filter items in order to easily discard uninteresting Collider properties thereby making overview and navigation easier.
+---@field ShowSelectedItems fun() @With ShowSelectedItems and the Select None button is it easy to monitor very specific Colliders.

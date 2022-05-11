@@ -1,0 +1,9 @@
+---@class VersionControl.CompletionAction @Different actions a version control task can do upon completion.
+---@field OnCheckoutCompleted fun() @Show or update the checkout failure window.
+---@field OnChangeSetsPendingWindow fun() @Update the pending changesets with the result of the task upon completion.
+---@field OnIncomingPendingWindow fun() @Update incoming changes window with the result of the task upon completion.
+---@field OnGotLatestPendingWindow fun() @Refreshes the incoming and pensing changes window upon task completion.
+---@field OnAddedChangeWindow fun() @Refresh windows upon task completion.
+---@field UpdatePendingWindow fun() @Update the list of pending changes when a task completes.
+---@field OnChangeContentsPendingWindow fun() @Update the content of a pending changeset with the result of the task upon completion.
+---@field OnSubmittedChangeWindow fun() @Refresh the submit window with the result of the task upon completion.

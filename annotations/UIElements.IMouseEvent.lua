@@ -1,0 +1,13 @@
+---@class UIElements.IMouseEvent @Interface for mouse events.
+---@field mouseDelta fun() @Mouse position difference between the last mouse event and this one.
+---@field commandKey fun() @Return true if the Windows/Command key is pressed.
+---@field clickCount fun() @The number of times the button is pressed.
+---@field altKey fun() @Return true if the Alt key is pressed.
+---@field modifiers fun() @Flag set holding the pressed modifier keys (Alt, Ctrl, Shift, Windows/Command).
+---@field ctrlKey fun() @Return true if the Ctrl key is pressed.
+---@field shiftKey fun() @Return true if the Shift key is pressed.
+---@field pressedButtons fun() @A bitmask that describes the currently pressed buttons.
+---@field actionKey fun() @Returns true if the platform-specific action key is pressed. This key is Cmd on macOS, and Ctrl on all other platforms.
+---@field mousePosition fun() @The mouse position in the panel coordinate system.
+---@field button fun() @Integer that indicates which mouse button is pressed: 0 is the left button, 1 is the right button, 2 is the middle button.
+---@field localMousePosition fun() @The mouse position in the current target coordinate system.

@@ -1,0 +1,7 @@
+---@class EditorCurveBinding @Defines how a curve is attached to an object that it controls.
+---@field propertyName fun() @The name of the property to be animated.
+---@field PPtrCurve fun() @Creates a preconfigured binding for a curve that points to an Object.
+---@field type fun() @The type of the property to be animated.
+---@field path fun() @The transform path of the object that is animated.
+---@field FloatCurve fun() @Creates a preconfigured binding for a float curve.
+---@field DiscreteCurve fun() @Creates a preconfigured binding for a curve where values should not be interpolated.

@@ -1,0 +1,3 @@
+---@class Video.VideoTimeSource @Time source followed by the Video.VideoPlayer when reading content.
+---@field GameTimeSource fun() @The unscaled game time as defined by Time.realtimeSinceStartup.
+---@field AudioDSPTimeSource fun() @The audio hardware clock.

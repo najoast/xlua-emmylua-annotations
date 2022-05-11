@@ -1,0 +1,4 @@
+---@class UIElements.ImmediateModeElement @VisualElement that can implement custom immediate mode rendering.
+---@field ImmediateRepaint fun() @Invoked during the repaint phase.
+---@field ctor fun() @Constructor.
+---@field cullingEnabled fun() @When this property is set to true, the Element does not repaint itself when it is outside the viewport.

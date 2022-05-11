@@ -1,0 +1,6 @@
+---@class Rendering.PlatformShaderSettings @Used to set up shader settings, per-platform and per-shader-hardware-tier.
+---@field reflectionProbeBoxProjection fun() @Allows you to specify whether Reflection Probes Box Projection should be used.
+---@field cascadedShadowMaps fun() @Allows you to specify whether cascaded shadow maps should be used.
+---@field standardShaderQuality fun() @Allows you to select Standard Shader Quality.
+---@field singlePassStereoRendering fun() @Allows you to specify whether shaders support single-pass stereo rendering.
+---@field reflectionProbeBlending fun() @Allows you to specify whether Reflection Probes Blending should be enabled.

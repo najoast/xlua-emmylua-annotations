@@ -1,0 +1,10 @@
+---@class PlayerSettings.PS4.PS4RemotePlayKeyAssignment @Remote Play key assignment.
+---@field PatternA fun() @Remote Play key layout configuration A.
+---@field PatternF fun() @Remote Play key layout configuration F.
+---@field None fun() @No Remote play key assignment.
+---@field PatternG fun() @Remote Play key layout configuration G.
+---@field PatternD fun() @Remote Play key layout configuration D.
+---@field PatternB fun() @Remote Play key layout configuration B.
+---@field PatternH fun() @Remote Play key layout configuration H.
+---@field PatternC fun() @Remote Play key layout configuration C.
+---@field PatternE fun() @Remote Play key layout configuration E.

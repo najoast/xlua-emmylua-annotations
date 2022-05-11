@@ -1,0 +1,3 @@
+---@class UIElements.DisplayStyle @Defines how an element is displayed in the layout.
+---@field None fun() @The element is not visible and absent from the layout.
+---@field Flex fun() @The element displays normally.

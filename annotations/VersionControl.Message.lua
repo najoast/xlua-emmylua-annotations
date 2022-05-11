@@ -1,0 +1,5 @@
+---@class VersionControl.Message @Messages from the version control system.
+---@field message fun() @The message text.
+---@field severity fun() @The severity of the message.
+---@field Show fun() @Write the message to the console.
+---@field Severity VersionControl.Message.Severity @Severity of a version control message.

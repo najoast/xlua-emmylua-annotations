@@ -1,0 +1,4 @@
+---@class VersionControl.AssetList @A list of version control information about assets.
+---@field FilterChildren fun() @Create an optimised list of assets by removing children of folders in the same list.
+---@field Filter fun() @Based on the current list and the states a new list is returned which only contains the assets with the requested states.
+---@field FilterCount fun() @Count the list of assets by given a set of states.

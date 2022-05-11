@@ -1,0 +1,3 @@
+---@class ParticleSystemAnimationMode @The animation mode.
+---@field Grid fun() @Use a regular grid to construct a sequence of animation frames.
+---@field Sprites fun() @Use a list of sprites to construct a sequence of animation frames.

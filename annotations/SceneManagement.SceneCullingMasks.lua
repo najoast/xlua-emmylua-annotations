@@ -1,0 +1,4 @@
+---@class SceneManagement.SceneCullingMasks @Masks that control what kind of Scene views and Game views Unity should render a GameObject in.
+---@field DefaultSceneCullingMask fun() @Specifies the default culling mask for a Scene.  Use the bits from this Scene culling mask for objects that you want to render in both in the Game view and the Scene view.
+---@field GameViewObjects fun() @The bits from this mask specify GameObjects that Unity should render in Game view.
+---@field MainStageSceneViewObjects fun() @The bits from this mask specify GameObjects that Unity should render in Scene views showing the main stage.

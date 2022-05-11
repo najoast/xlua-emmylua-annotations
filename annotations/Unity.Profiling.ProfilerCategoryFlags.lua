@@ -1,0 +1,3 @@
+---@class Unity.Profiling.ProfilerCategoryFlags @Options for determining if a Profiler category is built into Unity by default.
+---@field Builtin fun() @Use this flag to determine that a Profiler category is built into the Unity Editor by default.
+---@field None fun() @Use this flag to determine that a Profiler category is not built into Unity by default.

@@ -1,0 +1,23 @@
+---@class ParticleSystem.Particle @Script interface for a Particle.
+---@field startLifetime fun() @The starting lifetime of the particle.
+---@field velocity fun() @The velocity of the particle.
+---@field totalVelocity fun() @The total velocity of the particle.
+---@field axisOfRotation fun() @Mesh particles rotate around this axis.
+---@field angularVelocity fun() @The angular velocity of the particle.
+---@field animatedVelocity fun() @The animated velocity of the particle.
+---@field angularVelocity3D fun() @The 3D angular velocity of the particle.
+---@field randomValue fun() @The random value of the particle.
+---@field randomSeed fun() @The random seed of the particle.
+---@field GetCurrentSize fun() @Calculate the current size of the particle by applying the relevant curves to its startSize property.
+---@field lifetime fun() @The lifetime of the particle.
+---@field SetMeshIndex fun() @Sets the Mesh index of the particle, used for choosing which Mesh a particle is rendered with.
+---@field GetMeshIndex fun() @Calculate the Mesh index of the particle, used for choosing which Mesh a particle is rendered with.
+---@field GetCurrentSize3D fun() @Calculate the current 3D size of the particle by applying the relevant curves to its startSize3D property.
+---@field startSize3D fun() @The initial 3D size of the particle. The current size of the particle is calculated procedurally based on this value and the active size modules.
+---@field GetCurrentColor fun() @Calculate the current color of the particle by applying the relevant curves to its startColor property.
+---@field startColor fun() @The initial color of the particle. The current color of the particle is calculated procedurally based on this value and the active color modules.
+---@field position fun() @The position of the particle.
+---@field rotation3D fun() @The 3D rotation of the particle.
+---@field rotation fun() @The rotation of the particle.
+---@field startSize fun() @The initial size of the particle. The current size of the particle is calculated procedurally based on this value and the active size modules.
+---@field remainingLifetime fun() @The remaining lifetime of the particle.

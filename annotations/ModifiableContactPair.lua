@@ -1,0 +1,29 @@
+---@class ModifiableContactPair @A light-weight proxy that allows to access the contact buffers directly.
+---@field GetBounciness fun() @Get the restitution value for the specified contact point in this contact pair.
+---@field colliderInstanceID fun() @Instance ID of the first Collider in this contact pair.
+---@field otherColliderInstanceID fun() @Instance ID of the second collider in this contact pair.
+---@field GetDynamicFriction fun() @Get the value of the dynamic friction for a specified contact point in this contact pair.
+---@field otherPosition fun() @World-space position of the second collider in this contact pair as seen by the solver.
+---@field GetNormal fun() @Get the normal at a particular contact point in this contact pair.
+---@field GetFaceIndex fun() @Get the index of a face a particular contact point belongs to in this contact pair. Use this with Mesh.triangles.
+---@field position fun() @World-space position of the first collider in this contact pair as seen by the solver.
+---@field SetTargetVelocity fun() @Set the target velocity the solver should aim reaching at a particular contact point in this contact pair.
+---@field SetStaticFriction fun() @Set the static friction coefficient at a particular point of the contact pair.
+---@field SetSeparation fun() @Set the separation value at a particular contact point in this contact pair.
+---@field GetMaxImpulse fun() @Get the maximum impulse that the solver can apply at a particular contact point in this contact pair.
+---@field SetDynamicFriction fun() @Set the value of the dynamic friction for a specified contact point in this contact pair.
+---@field SetPoint fun() @Set the location of a particular contact point in this contact pair.
+---@field SetNormal fun() @Set the normal at a particular contact point in this contact pair.
+---@field SetMaxImpulse fun() @Set the maximum impulse that the solver can apply at a particular contact point in this contact pair.
+---@field SetBounciness fun() @Set the restitution value for the specified contact point in this contact pair.
+---@field massProperties fun() @Mass-related properties of this contact pair, such as the mass ratio.
+---@field IgnoreContact fun() @Ignore the specified contact point in this contact pair.
+---@field GetSeparation fun() @Get the separation value at a particular contact point in this contact pair.
+---@field bodyInstanceID fun() @Instance ID of the first body in this contact pair.
+---@field GetStaticFriction fun() @Get the static friction coefficient at a particular point of the contact pair.
+---@field otherRotation fun() @World-space rotation of the second collider in this contact pair as seen by the solver.
+---@field contactCount fun() @The amount of the contact points generated for this contact pair.
+---@field otherBodyInstanceID fun() @Instance ID of the second body in this contact pair.
+---@field rotation fun() @World-space rotation of the first collider in this contact pair as seen by the solver.
+---@field GetPoint fun() @Get the location of a particular contact point in this contact pair.
+---@field GetTargetVelocity fun() @Get the target velocity the solver should aim reaching at a particular contact point in this contact pair.

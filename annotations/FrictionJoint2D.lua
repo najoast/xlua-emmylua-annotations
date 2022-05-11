@@ -1,0 +1,3 @@
+---@class FrictionJoint2D @Applies both force and torque to reduce both the linear and angular velocities to zero.
+---@field maxForce fun() @The maximum force that can be generated when trying to maintain the friction joint constraint.
+---@field maxTorque fun() @The maximum torque that can be generated when trying to maintain the friction joint constraint.

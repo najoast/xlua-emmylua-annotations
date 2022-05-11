@@ -1,0 +1,4 @@
+---@class Search.Query_1 @Provides methods to define an operation that can be used to filter a data set.
+---@field Apply fun() @Applies the filtering on an IEnumerable data set.
+---@field Test fun() @Tests the query on a single object. Returns true if the test passes.
+---@field returnPayloadIfEmpty fun() @Boolean. Indicates if the original payload should be returned when the query is empty.

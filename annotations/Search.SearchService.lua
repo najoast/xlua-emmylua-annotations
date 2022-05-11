@@ -1,0 +1,16 @@
+---@class Search.SearchService @Principal Search API to initiate searches and fetch results.
+---@field CreateIndex fun() @Create a new search index.
+---@field SetActive fun() @Activates or deactivates a search provider. Call Refresh after this to take effect on the next search.
+---@field GetAction fun() @Returns the search action for a given search provider and search action ID.
+---@field ShowWindow fun() @Creates a new search window.
+---@field ShowPicker fun() @Open a search item picker window.
+---@field ShowContextual fun() @Open the search window using a specific context (activating specific filters).
+---@field Request fun() @Executes a search request that will fetch search results asynchronously.
+---@field Providers fun() @Returns the list of all search providers (active or not).
+---@field OrderedProviders fun() @Returns the list of search providers sorted by priority.
+---@field GetProvider fun() @Returns the data of a search provider given its ID.
+---@field CreateContext fun() @Creates context from a list of search provider IDs.
+---@field Refresh fun() @Clears everything and reloads all search providers. Use with care. Useful for unit tests.
+---@field GetItems fun() @Initiates a search and returns all search items matching the search context. Other items can be found later using asynchronous searches.
+---@field RefreshWindows fun() @Refresh all currently opened Search windows.
+---@field IsIndexReady fun() @Indicates if a search index is ready to be used.

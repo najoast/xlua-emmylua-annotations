@@ -1,0 +1,6 @@
+---@class CanvasGroup @A Canvas placable element that can be used to modify children Alpha, Raycasting, Enabled state.
+---@field interactable fun() @Is the group interactable (are the elements beneath the group enabled).
+---@field alpha fun() @Set the alpha of the group.
+---@field ignoreParentGroups fun() @Should the group ignore parent groups?
+---@field IsRaycastLocationValid fun() @Returns true if the Group allows raycasts.
+---@field blocksRaycasts fun() @Does this group block raycasting (allow collision).

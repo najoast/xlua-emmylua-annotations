@@ -1,0 +1,5 @@
+---@class PackageManager.UI.IPackageManagerExtension @Interface for Package Manager UI Extension.
+---@field CreateExtensionUI fun() @Creates the extension UI visual element.
+---@field OnPackageAddedOrUpdated fun() @Called by the Package Manager UI when a package is added or updated.
+---@field OnPackageRemoved fun() @Called by the Package Manager UI when a package is removed.
+---@field OnPackageSelectionChange fun() @Called by the Package Manager UI when the package selection changed.

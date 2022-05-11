@@ -1,0 +1,4 @@
+---@class Toolbars.EditorToolbarElementAttribute @The EditorToolbarElement attribute allows you to make available a specific VisualElement for use in an Editor Toolbar.
+---@field ctor fun() @The EditorToolbarElement attribute allows you to make available a specific VisualElement for use in an Editor Toolbar.
+---@field targetWindows fun() @Targeted contexts.
+---@field id fun() @Element's ID.

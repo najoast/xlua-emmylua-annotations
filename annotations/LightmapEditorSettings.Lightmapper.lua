@@ -1,0 +1,4 @@
+---@class LightmapEditorSettings.Lightmapper @This enum is now obsolete. Use LightingSettings.Lightmapper.
+---@field Enlighten fun() @This type is now obsolete. Use LightingSettings.Lightmapper.
+---@field ProgressiveCPU fun() @This type is now obsolete. Use LightingSettings.Lightmapper.
+---@field ProgressiveGPU fun() @This type is now obsolete. Use LightingSettings.Lightmapper.

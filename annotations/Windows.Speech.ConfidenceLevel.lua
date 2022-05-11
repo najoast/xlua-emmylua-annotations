@@ -1,0 +1,5 @@
+---@class Windows.Speech.ConfidenceLevel @Used by KeywordRecognizer, GrammarRecognizer, DictationRecognizer. Phrases under the specified minimum level will be ignored.
+---@field Low fun() @Low confidence level.
+---@field High fun() @High confidence level.
+---@field Rejected fun() @Everything is rejected.
+---@field Medium fun() @Medium confidence level.

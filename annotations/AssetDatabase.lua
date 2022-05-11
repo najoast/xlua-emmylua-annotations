@@ -1,0 +1,107 @@
+---@class AssetDatabase @An Interface for accessing assets and performing operations on assets.
+---@field IsMainAsset fun() @Is asset a main asset in the project window?
+---@field GUIDFromAssetPath fun() @Get the GUID for the asset at path.
+---@field MakeEditable fun() @Makes a file open for editing in version control.
+---@field GetAssetDependencyHash fun() @Returns the hash of all the dependencies of an asset.
+---@field ImportAsset fun() @Import asset at path.
+---@field GetAssetPathsFromAssetBundle fun() @Returns an array containing the paths of all assets marked with the specified Asset Bundle name.
+---@field AllowAutoRefresh fun() @Decrements an internal counter which Unity uses to determine whether to allow automatic AssetDatabase refreshing behavior.
+---@field importPackageCancelled fun() @Callback raised whenever a package import is cancelled by the user.
+---@field CanOpenForEdit fun() @Query whether an Asset file can be opened for editing in version control and is not exclusively locked by another user or otherwise unavailable.
+---@field importPackageFailed fun() @Callback raised whenever a package import failed.
+---@field AddObjectToAsset fun() @Adds objectToAdd to an existing asset at path.
+---@field ExtractAsset fun() @Creates an external Asset from an object (such as a Material) by extracting it from within an imported asset (such as an FBX file).
+---@field GetCachedIcon fun() @Retrieves an icon for the asset at the given asset path.
+---@field StartAssetEditing fun() @Starts importing Assets into the Asset Database. This lets you group several Asset imports together into one larger import.Note:Calling AssetDatabase.StartAssetEditing() places the Asset Database in a state that will prevent imports until AssetDatabase.StopAssetEditing() is called.This means that if an exception occurs between the two function calls, the AssetDatabase will be unresponsive.Therefore, it is highly recommended that you place calls to AssetDatabase.StartAssetEditing() and AssetDatabase.StopAssetEditing() insideeither a try..catch block, or a try..finally block as needed.
+---@field SaveAssets fun() @Writes all unsaved asset changes to disk.
+---@field importPackageCompleted fun() @Callback raised whenever a package import successfully completes.
+---@field Contains fun() @Is object an asset?
+---@field GetImplicitAssetBundleVariantName fun() @Returns the name of the AssetBundle Variant that a given asset belongs to.
+---@field GetCacheServerEnableUpload fun() @Gets the Cache Server Upload option from Editor Settings.
+---@field IsConnectedToCacheServer fun() @Checks connection status of the Cache Server.
+---@field CloseCacheServerConnection fun() @Closes an active cache server connection. If no connection is active, then it does nothing.
+---@field LoadAllAssetRepresentationsAtPath fun() @Returns all sub Assets at assetPath.
+---@field GetLabels fun() @Returns all labels attached to a given asset.
+---@field GetAssetPathsFromAssetBundleAndAssetName fun() @Get the Asset paths for all Assets tagged with assetBundleName and                named assetName.
+---@field SetLabels fun() @Replaces that list of labels on an asset.
+---@field DeleteAsset fun() @Deletes the specified asset or folder.
+---@field DesiredWorkerCount fun() @The desired number of processes to use when importing assets, during an asset database refresh.
+---@field SaveAssetIfDirty fun() @Writes all unsaved changes to the specified asset to disk.
+---@field GetAllAssetBundleNames fun() @Return all the AssetBundle names in the asset database.
+---@field IsSubAsset fun() @Does the asset form part of another asset?
+---@field AssetPathToGUID fun() @Get the GUID for the asset at path.
+---@field GetAssetPathFromTextMetaFilePath fun() @Gets the path to the asset file associated with a text .meta file.
+---@field GetCacheServerAddress fun() @Gets the IP address of the Cache Server in Editor Settings.
+---@field GetMainAssetTypeAtPath fun() @Returns the type of the main asset object at assetPath.
+---@field IsMainAssetAtPathLoaded fun() @Returns true if the main asset object at assetPath is loaded in memory.
+---@field ExportPackage fun() @Exports the assets identified by assetPathNames to a unitypackage file in fileName.
+---@field GetCacheServerNamespacePrefix fun() @Gets the Cache Server Namespace prefix set in Editor Settings.
+---@field MoveAssetsToTrash fun() @Lets you move multiple assets or folders to trash at once with performance benefits under version control.
+---@field ForceReserializeAssets fun() @Forcibly load and re-serialize the given assets, flushing any outstanding data changes to disk.
+---@field ActiveRefreshImportMode fun() @Gets the refresh import mode currently in use by the asset database.
+---@field CanConnectToCacheServer fun() @Checks the availability of the Cache Server.
+---@field LoadAllAssetsAtPath fun() @Returns an array of all Assets at assetPath.
+---@field GetImplicitAssetBundleName fun() @Returns the name of the AssetBundle that a given asset belongs to.
+---@field DeleteAssets fun() @Lets you delete multiple assets or folders at once with performance benefits under version control.
+---@field GlobalArtifactProcessedVersion fun() @Changes whenever a new artifact is added to the artifact database.
+---@field IsDirectoryMonitoringEnabled fun() @Reports whether Directory Monitoring is enabled.
+---@field GetAssetBundleDependencies fun() @Given an assetBundleName, returns the list of AssetBundles that it depends on.
+---@field LoadMainAssetAtPath fun() @Returns the main asset object at assetPath.The main Asset is the Asset at the root of a hierarchy (such as a Maya file which may contain multiples meshes and GameObjects).
+---@field UnregisterCustomDependencyPrefixFilter fun() @Removes custom dependencies that match the prefixFilter.
+---@field FindAssets fun() @Search the asset database using the search filter string.
+---@field TryGetGUIDAndLocalFileIdentifier fun() @Get the GUID and local file id from an object instance id.
+---@field IsOpenForEdit fun() @Query whether an Asset file is open for editing in version control.
+---@field RefreshSettings fun() @Apply pending Editor Settings changes to the Asset pipeline.
+---@field SetMainObject fun() @Specifies which object in the asset file should become the main object after the next import.
+---@field SetImporterOverride fun() @Sets a specific importer to use for the asset.
+---@field RemoveAssetBundleName fun() @Remove the assetBundle name from the asset database. The forceRemove flag is used to indicate if you want to remove it even it's in use.
+---@field ResetCacheServerReconnectTimer fun() @Resets the internal cache server connection reconnect timer values. The default delay timer value is 1 second, and the max delay value is 5 minutes. Everytime a connection attempt fails it will double the delay timer value, until a maximum time of the max value.
+---@field GetAssetPath fun() @Returns the path name relative to the project folder where the asset is stored.
+---@field IsForeignAsset fun() @Determines whether the Asset is a foreign Asset.
+---@field ImportPackage fun() @Imports package at packagePath into the current project.
+---@field ReleaseCachedFileHandles fun() @Calling this function will release file handles internally cached by Unity. This allows modifying asset or meta files safely thus avoiding potential file sharing IO errors.
+---@field GetAvailableImporterTypes fun() @Gets the importer types associated with a given Asset type.
+---@field RemoveUnusedAssetBundleNames fun() @Remove all the unused assetBundle names in the asset database.
+---@field CanOpenAssetInEditor fun() @Checks if Unity can open an asset in the Editor.
+---@field cacheServerConnectionChanged fun() @Unity raises this event when Cache Server connection is changed.
+---@field RemoveObjectFromAsset fun() @Removes object from its asset (See Also: AssetDatabase.AddObjectToAsset).
+---@field RefreshImportMode AssetDatabase.RefreshImportMode @Options for controlling the Editor's use of parallel processes when it imports assets during an asset database refresh.
+---@field RegisterCustomDependency fun() @Allows you to register a custom dependency that Assets can be dependent on. If you register a custom dependency, and specify that an Asset is dependent on it, then the Asset will get re-imported if the custom dependency changes.
+---@field Refresh fun() @Import any changed assets.
+---@field GetAssetOrScenePath fun() @Returns the path name relative to the project folder where the asset is stored.
+---@field OpenAsset fun() @Opens the asset with associated application.
+---@field GenerateUniqueAssetPath fun() @Creates a new unique path for an asset.
+---@field MoveAssetToTrash fun() @Moves the specified asset  or folder to the OS trash.
+---@field MoveAsset fun() @Move an asset file (or folder) from one folder to another.
+---@field ValidateMoveAsset fun() @Checks if an asset file can be moved from one folder to another. (Without actually moving the file).
+---@field DisallowAutoRefresh fun() @Increments an internal counter which Unity uses to determine whether to allow automatic AssetDatabase refreshing behavior.
+---@field LoadAssetAtPath fun() @Returns the first asset object of type type at given path assetPath.
+---@field WriteImportSettingsIfDirty fun() @Writes the import settings to disk.
+---@field StopAssetEditing fun() @Stops importing Assets into the Asset Database. This lets you group several Asset imports together into one larger import.Note:Calling AssetDatabase.StartAssetEditing() places the Asset Database in a state that will prevent imports until AssetDatabase.StopAssetEditing() is called.This means that if an exception occurs between the two function calls, the AssetDatabase will be unresponsive.Therefore, it is highly recommended that you place calls to AssetDatabase.StartAssetEditing() and AssetDatabase.StopAssetEditing() insideeither a try..catch block, or a try..finally block as needed.
+---@field GetImporterOverride fun() @Returns the type of the override importer.
+---@field GUIDToAssetPath fun() @Gets the corresponding asset path for the supplied GUID, or an empty string if the GUID can't be found.
+---@field IsNativeAsset fun() @Determines whether the Asset is a native Asset.
+---@field GetCurrentCacheServerIp fun() @Gets the IP address of the Cache Server currently in use by the Editor.
+---@field RenameAsset fun() @Rename an asset file.
+---@field IsValidFolder fun() @Given a path to a folder, returns true if it exists, false otherwise.
+---@field IsCacheServerEnabled fun() @Checks whether the Cache Server is enabled in Project Settings.
+---@field ImportPackageFailedCallback fun() @Delegate to be called from AssetDatabase.ImportPackage callbacks. packageName is the name of the package that raised the callback. errorMessage is the reason for the failure.
+---@field GetCacheServerEnableDownload fun() @Gets the Cache Server Download option from Editor Settings.
+---@field ImportPackageCallback fun() @Delegate to be called from AssetDatabase.ImportPackage callbacks. packageName is the name of the package that raised the callback.
+---@field ForceToDesiredWorkerCount fun() @Forces the Editor to use the desired amount of worker processes. Unity will either spawn new worker processes or shut down idle worker processes to reach the desired number.
+---@field ClearLabels fun() @Removes all labels attached to an asset.
+---@field GetTextMetaDataPathFromAssetPath fun() @Gets the path to the text .meta file associated with an asset.
+---@field GetDependencies fun() @Returns an array of all the assets that are dependencies of the asset at the specified pathName.Note: GetDependencies() gets the Assets that are referenced by other Assets. For example, a Scene could contain many GameObjects with a Material attached to them. In this case,  GetDependencies() will return the path to the Material Assets, but not the GameObjects as those are not Assets on your disk.
+---@field GlobalArtifactDependencyVersion fun() @Changes during Refresh if anything has changed that can invalidate any artifact.
+---@field GetUnusedAssetBundleNames fun() @Return all the unused assetBundle names in the asset database.
+---@field ClearImporterOverride fun() @Clears the importer override for the asset.
+---@field GetSubFolders fun() @Given a path to a directory in the Assets folder, relative to the project folder, this method will return an array of all its subdirectories.
+---@field CreateAsset fun() @Creates a new native Unity asset.
+---@field CopyAsset fun() @Duplicates the asset at path and stores it at newPath.
+---@field GetTypeFromPathAndFileID fun() @Gets an object's type from an Asset path and a local file identifier.
+---@field GetCacheServerPort fun() @Gets the Port number of the Cache Server in Editor Settings.
+---@field GetTextMetaFilePathFromAssetPath fun() @Gets the path to the text .meta file associated with an asset.
+---@field importPackageStarted fun() @Callback raised whenever a package import starts.
+---@field CreateFolder fun() @Creates a new folder, in the specified parent folder.The parent folder string must start with the Assets folder, and all folders within the parent folder string must already exist. For example, when specifying AssetsParentFolder1/Parentfolder2, the new folder will be created in ParentFolder2 only if ParentFolder1 and ParentFolder2 already exist.
+---@field IsMetaFileOpenForEdit fun() @Query whether an asset's metadata (.meta) file is open for edit in version control.
+---@field onImportPackageItemsCompleted fun() @Callback raised whenever a package import successfully completes that lists the items selected to be imported.

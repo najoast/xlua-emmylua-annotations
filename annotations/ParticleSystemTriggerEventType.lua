@@ -1,0 +1,5 @@
+---@class ParticleSystemTriggerEventType @The different types of particle triggers.
+---@field Inside fun() @Trigger when particles are inside the collision volume.
+---@field Outside fun() @Trigger when particles are outside the collision volume.
+---@field Exit fun() @Trigger when particles leave the collision volume.
+---@field Enter fun() @Trigger when particles enter the collision volume.

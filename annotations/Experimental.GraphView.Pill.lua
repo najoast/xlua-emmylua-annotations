@@ -1,0 +1,9 @@
+---@class Experimental.GraphView.Pill @The Pill class includes methods for creating and managing a VisualElement that resembles a capsule. The Pill class includes text, an icon, and two optional child VisualElements: one to the left of the pill, and one to the right of the pill.
+---@field UxmlTraits Experimental.GraphView.Pill.UxmlTraits @Defines UxmlTraits for the Pill.
+---@field right fun() @The VisualElement to the right of the pill.
+---@field ctor fun() @Constructs a pill with its optional left and right child VisualElements.
+---@field highlighted fun() @Returns whether the pill is highlighted.
+---@field text fun() @The text of the pill.
+---@field UxmlFactory Experimental.GraphView.Pill.UxmlFactory @Instantiates a Pill using the data read from a UXML file.
+---@field icon fun() @The icon of the pill.
+---@field left fun() @The VisualElement to the left of the pill.

@@ -1,0 +1,22 @@
+---@class Unity.Profiling.ProfilerCategory @Use to specify category for instrumentation Profiler markers.
+---@field VirtualTexturing fun() @Virtual Texturing system Profiler category.
+---@field ctor fun() @Use to construct ProfilerCategory by category name.
+---@field Internal fun() @Internal Unity systems Profiler category.
+---@field Loading fun() @Loading system Profiler category.
+---@field Audio fun() @Audio system Profiler category.
+---@field Network fun() @Networking system Profiler category.
+---@field Scripts fun() @Generic C# code Profiler category.
+---@field FileIO fun() @File IO Profiler category.
+---@field Gui fun() @UI Profiler category.
+---@field Particles fun() @Particle system Profiler category.
+---@field Vr fun() @VR systen Profiler category.
+---@field Video fun() @Video system Profiler category.
+---@field Memory fun() @Memory allocation Profiler category.
+---@field Physics fun() @Physics system Profiler category.
+---@field Input fun() @Input system Profiler category.
+---@field Name fun() @Gets Profiler category name.
+---@field Color fun() @Gets Profiler category color.
+---@field Render fun() @Rendering system Profiler category.
+---@field Animation fun() @Animation Profiler category.
+---@field Ai fun() @AI and NavMesh Profiler category.
+---@field Lighting fun() @Global Illumination Profiler category.

@@ -1,0 +1,3 @@
+---@class Unity.CodeEditor @nil
+---@field CodeEditor Unity.CodeEditor.CodeEditor @Handles interaction with the code editor.
+---@field IExternalCodeEditor Unity.CodeEditor.IExternalCodeEditor @Defines the responsibilities of handling external script editor integration into UnityEditor.

@@ -1,0 +1,4 @@
+---@class Rendering.VirtualTexturing.Procedural.TextureStackRequestHandle_1 @Handle for a (CPU or GPU) TextureStackRequest.
+---@field CompleteRequest fun() @Complete the request with a given status.
+---@field CompleteRequests fun() @Complete a number of requests with a given status.
+---@field GetRequestParameters fun() @Fetch the actual (CPU or GPU) request associated with this handle.

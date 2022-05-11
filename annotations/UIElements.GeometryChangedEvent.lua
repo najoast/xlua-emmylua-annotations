@@ -1,0 +1,6 @@
+---@class UIElements.GeometryChangedEvent @This event is sent after layout calculations, when the position or the dimension of an element changes.
+---@field GetPooled fun() @Gets an event from the event pool, and initializes it with the specified values. Use this method instead of instancing new events. Use Dispose() to release events back to the event pool.
+---@field ctor fun() @Constructor.
+---@field newRect fun() @Gets the elements's new dimensions.
+---@field oldRect fun() @Gets the element's old dimensions.
+---@field Init fun() @Resets the event values to their initial values.

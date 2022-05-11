@@ -1,0 +1,42 @@
+---@class UnityEngine @nil
+---@field JSONSerializeModule fun() @The JSONSerialize module provides the JsonUtility class which lets you serialize Unity Objects to JSON format.
+---@field ClothModule fun() @The Cloth module implements cloth physics simulation through the Cloth component.
+---@field TextRenderingModule fun() @The TextRendering module provides access to Unity's text rendering system.
+---@field AndroidJNIModule fun() @AndroidJNI module allows you to call Java code.
+---@field TilemapModule fun() @The Tilemap module implements the Tilemap class.
+---@field ParticleSystemModule fun() @The ParticleSystem module implements Unity's Particle System.
+---@field WindModule fun() @The Wind module implements the WindZone component which can affect terrain rendering and particle simulations.
+---@field TerrainModule fun() @The Terrain module implements Unity's Terrain rendering engine available through the Terrain component.
+---@field VRModule fun() @The VR module implements support for virtual reality devices in Unity.
+---@field CoreModule fun() @The Core module implements basic classes required for Unity to function.
+---@field XRModule fun() @The XR module contains the VR and AR related platform support functionality.
+---@field NVIDIAModule fun() @A module that contains API you can use to interact with NVIDIA graphics cards.
+---@field UnityWebRequestAssetBundleModule fun() @The UnityWebRequestAssetBundle module provides the DownloadHandlerAssetBundle class to use UnityWebRequest to download Asset Bundles.
+---@field SharedInternalsModule fun() @SharedInternals is a module used internally to provide low-level functionality needed by other modules.
+---@field GameCenterModule fun() @The GameCenter module provides APIs to use Apple's GameCenter service.
+---@field UnityAnalyticsModule fun() @The UnityAnalytics module implements APIs required to use Unity Analytics.
+---@field UnityWebRequestModule fun() @The UnityWebRequest module lets you communicate with http services.
+---@field UIElementsModule fun() @The UIElements module implements the UIElements retained mode UI framework.
+---@field AssetBundleModule fun() @The AssetBundle module implements the AssetBundle class and related APIs to load data from AssetBundles.
+---@field WebGLModule fun() @The PS4 module implements WebGL-specific API.
+---@field UmbraModule fun() @The Umbra module implements Unity's occlusion culling system.
+---@field VirtualTexturingModule fun() @Module that implements virtual texturing.
+---@field UnityWebRequestAudioModule fun() @The UnityWebRequestAudio module provides the DownloadHandlerAudioClip class to use UnityWebRequest to download AudioClips.
+---@field UnityWebRequestWWWModule fun() @The UnityWebRequestWWW module implements the legacy WWW lets you communicate with http services.
+---@field VideoModule fun() @The Video module lets you play back video files in your content.
+---@field VehiclesModule fun() @The Vehicles module implements vehicle physics simulation through the WheelCollider component.
+---@field AudioModule fun() @The Audio module implements Unity's audio system.
+---@field UnityWebRequestTextureModule fun() @The UnityWebRequestTexture module provides the DownloadHandlerTexture class to use UnityWebRequest to download Textures.
+---@field AIModule fun() @The AI module implements the path finding features in Unity.
+---@field PhysicsModule fun() @The Physics module implements 3D physics in Unity.
+---@field TLSModule fun() @TLS module allows you to make tls connections.
+---@field Physics2DModule fun() @The Physics2d module implements 2D physics in Unity.
+---@field AnimationModule fun() @The Animation module implements Unity's animation system.
+---@field IMGUIModule fun() @The IMGUI module provides Unity's immediate mode GUI solution for creating in-game and editor user interfaces.
+---@field InputLegacyModule fun() @The InputLegacy module implements the Input class used to read player Input.
+---@field SubsystemsModule fun() @The Subsystem module contains the definitions and runtime support for general subsystems in Unity.
+---@field DirectorModule fun() @The Director module implements the PlayableDirector class.
+---@field TerrainPhysicsModule fun() @The TerrainPhysics module connects the Terrain and Physics modules by implementing the TerrainCollider component.
+---@field ScreenCaptureModule fun() @The ScreenCapture module provides functionality to take screen shots using the ScreenCapture class.
+---@field UIModule fun() @The UI module implements basic components required for Unity's UI system
+---@field ImageConversionModule fun() @The ImageConversion module implements the ImageConversion class which provides helper methods to convert images from and to PNG, JPEG or EXR formats.

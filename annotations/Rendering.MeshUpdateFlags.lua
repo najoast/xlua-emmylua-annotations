@@ -1,0 +1,6 @@
+---@class Rendering.MeshUpdateFlags @Mesh data update flags.
+---@field DontValidateIndices fun() @Indicates that Unity should not check index values when you use Mesh.SetIndexBufferData to modify a Mesh's data.
+---@field DontRecalculateBounds fun() @Indicates that Unity should not recalculate the bounds when you set Mesh data using Mesh.SetSubMesh.
+---@field DontResetBoneBounds fun() @Indicates that Unity should not reset skinned mesh bone bounds when you modify Mesh data using Mesh.SetVertexBufferData or Mesh.SetIndexBufferData.
+---@field Default fun() @Indicates that Unity should perform the default checks and validation when you update a Mesh's data.
+---@field DontNotifyMeshUsers fun() @Indicates that Unity should not notify Renderer components about a possible Mesh bounds change, when you modify Mesh data.

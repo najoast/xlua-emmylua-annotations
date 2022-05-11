@@ -1,0 +1,6 @@
+---@class GUIContent @The contents of a GUI element.
+---@field image fun() @The icon image contained.
+---@field ctor fun() @Constructor for GUIContent in all shapes and sizes.
+---@field text fun() @The text contained.
+---@field tooltip fun() @The tooltip of this element.
+---@field none fun() @Shorthand for empty content.

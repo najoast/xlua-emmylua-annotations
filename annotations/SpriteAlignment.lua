@@ -1,0 +1,11 @@
+---@class SpriteAlignment @How a Sprite's graphic rectangle is aligned with its pivot point.
+---@field Center fun() @Pivot is at the center of the graphic rectangle.
+---@field BottomCenter fun() @Pivot is at the center of the bottom edge of the graphic rectangle.
+---@field BottomLeft fun() @Pivot is at the bottom left corner of the graphic rectangle.
+---@field LeftCenter fun() @Pivot is at the center of the left edge of the graphic rectangle.
+---@field TopRight fun() @Pivot is at the top right corner of the graphic rectangle.
+---@field BottomRight fun() @Pivot is at the bottom right corner of the graphic rectangle.
+---@field Custom fun() @Pivot is at a custom position within the graphic rectangle.
+---@field RightCenter fun() @Pivot is at the center of the right edge of the graphic rectangle.
+---@field TopLeft fun() @Pivot is at the top left corner of the graphic rectangle.
+---@field TopCenter fun() @Pivot is at the center of the top edge of the graphic rectangle.

@@ -1,0 +1,7 @@
+---@class GridLayout.CellSwizzle @Swizzles cell positions to other positions.
+---@field ZXY fun() @Swizzles the cell positions from XYZ to ZXY.
+---@field ZYX fun() @Swizzles the cell positions from XYZ to ZYX.
+---@field YZX fun() @Swizzles the cell positions from XYZ to YZX.
+---@field YXZ fun() @Swizzles the cell positions from XYZ to YXZ.
+---@field XYZ fun() @Keeps the cell positions at XYZ.
+---@field XZY fun() @Swizzles the cell positions from XYZ to XZY.

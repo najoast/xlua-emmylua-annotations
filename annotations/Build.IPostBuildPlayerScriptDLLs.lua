@@ -1,0 +1,2 @@
+---@class Build.IPostBuildPlayerScriptDLLs @Implement this interface to receive a callback just after the player scripts have been compiled.
+---@field OnPostBuildPlayerScriptDLLs fun() @Implement this interface to receive a callback just after the player scripts have been compiled.

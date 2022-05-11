@@ -1,0 +1,2 @@
+---@class LODUtility @LOD Utility Helpers.
+---@field CalculateLODGroupBoundingBox fun() @Recalculate the bounding region for the given LODGroup.

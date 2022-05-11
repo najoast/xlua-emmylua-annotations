@@ -1,0 +1,26 @@
+---@class WWW @Simple access to web pages.
+---@field progress fun() @How far has the download progressed (Read Only).
+---@field threadPriority fun() @Obsolete, has no effect.
+---@field ctor fun() @Creates a WWW request with the given URL.
+---@field uploadProgress fun() @How far has the upload progressed (Read Only).
+---@field isDone fun() @Is the download already finished? (Read Only)
+---@field bytesDownloaded fun() @The number of bytes downloaded by this WWW query (read only).
+---@field EscapeURL fun() @Escapes characters in a string to ensure they are URL-friendly.
+---@field GetAudioClip fun() @OBSOLETE. Use UnityWebRequestMultimedia.GetAudioClip().
+---@field LoadImageIntoTexture fun() @Replaces the contents of an existing Texture2D with an image from the downloaded data.
+---@field oggVorbis fun() @Load an Ogg Vorbis file into the audio clip.
+---@field text fun() @Returns the contents of the fetched web page as a string (Read Only).
+---@field url fun() @The URL of this WWW request (Read Only).
+---@field bytes fun() @Returns the contents of the fetched web page as a byte array (Read Only).
+---@field UnEscapeURL fun() @Converts URL-friendly escape sequences back to normal text.
+---@field texture fun() @Returns a Texture2D generated from the downloaded data (Read Only).
+---@field LoadFromCacheOrDownload fun() @Loads an AssetBundle with the specified version number from the cache. If the AssetBundle is not currently cached, it will automatically be downloaded and stored in the cache for future retrieval from local storage.
+---@field GetAudioClipCompressed fun() @OBSOLETE. Use UnityWebRequestMultimedia.GetAudioClip().
+---@field movie fun() @MovieTexture has been removed. Use VideoPlayer instead.
+---@field responseHeaders fun() @Dictionary of headers returned by the request.
+---@field error fun() @Returns an error message if there was an error during the download (Read Only).
+---@field textureNonReadable fun() @Returns a non-readable Texture2D generated from the downloaded data (Read Only).
+---@field GetMovieTexture fun() @MovieTexture has been removed. Use VideoPlayer instead.
+---@field Dispose fun() @Disposes of an existing WWW object.
+---@field assetBundle fun() @Streams an AssetBundle that can contain any kind of asset from the project folder.
+---@field audioClip fun() @Returns a AudioClip generated from the downloaded data (Read Only).

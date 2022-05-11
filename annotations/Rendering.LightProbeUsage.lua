@@ -1,0 +1,5 @@
+---@class Rendering.LightProbeUsage @Light probe interpolation type.
+---@field BlendProbes fun() @Simple light probe interpolation is used.
+---@field UseProxyVolume fun() @Uses a 3D grid of interpolated light probes.
+---@field Off fun() @Light Probes are not used. The Scene's ambient probe is provided to the shader.
+---@field CustomProvided fun() @The light probe shader uniform values are extracted from the material property block set on the renderer.

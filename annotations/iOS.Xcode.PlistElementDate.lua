@@ -1,0 +1,3 @@
+---@class iOS.Xcode.PlistElementDate @Represents a date element in plist document.
+---@field ctor fun() @Creates new date element.
+---@field value fun() @The value stored in the date element.

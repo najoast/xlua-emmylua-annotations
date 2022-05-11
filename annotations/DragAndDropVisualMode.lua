@@ -1,0 +1,7 @@
+---@class DragAndDropVisualMode @Visual indication mode for Drag &amp; Drop operation.
+---@field Link fun() @Link dragged objects to target.
+---@field Rejected fun() @Rejected drag operation.
+---@field None fun() @No indication (drag should not be performed).
+---@field Copy fun() @Copy dragged objects.
+---@field Generic fun() @Generic drag operation.
+---@field Move fun() @Move dragged objects.

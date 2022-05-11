@@ -1,0 +1,7 @@
+---@class Unity.Profiling.ProfilerMarker @Performance marker used for profiling arbitrary code blocks.
+---@field Begin fun() @Begin profiling a piece of code marked with a custom name defined by this instance of ProfilerMarker.
+---@field ctor fun() @Constructs a new performance marker for code instrumentation.
+---@field AutoScope fun() @Helper IDisposable struct for use with ProfilerMarker.Auto.
+---@field Auto fun() @Creates a helper struct for the scoped using blocks.
+---@field Handle fun() @Gets native handle of the ProfilerMarker.
+---@field End fun() @End profiling a piece of code marked with a custom name defined by this instance of ProfilerMarker.

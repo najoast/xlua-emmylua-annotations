@@ -1,0 +1,3 @@
+---@class ParticleSystemInheritVelocityMode @How to apply emitter velocity to particles.
+---@field Initial fun() @Each particle inherits the emitter's velocity on the frame when it was initially emitted.
+---@field Current fun() @Each particle's velocity is set to the emitter's current velocity value, every frame.

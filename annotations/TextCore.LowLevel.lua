@@ -1,0 +1,9 @@
+---@class TextCore.LowLevel @nil
+---@field GlyphLoadFlags TextCore.LowLevel.GlyphLoadFlags @The various options (flags) used by the FontEngine when loading glyphs from a font face.
+---@field FontEngineError TextCore.LowLevel.FontEngineError @Error code returned by the various FontEngine functions.
+---@field GlyphPairAdjustmentRecord TextCore.LowLevel.GlyphPairAdjustmentRecord @The positional adjustment  values of a pair of glyphs.
+---@field GlyphRenderMode TextCore.LowLevel.GlyphRenderMode @The rendering modes used by the Font Engine to render glyphs.
+---@field FontEngine TextCore.LowLevel.FontEngine @The FontEngine is used to access data from source font files. This includes information about individual characters, glyphs and relevant metrics typically used in the process of text parsing, layout and rendering.The types of font files supported are TrueType (.ttf, .ttc) and OpenType (.otf).The FontEngine is also used to raster the visual representation of characters known as glyphs in a given font atlas texture.
+---@field GlyphValueRecord TextCore.LowLevel.GlyphValueRecord @The values used to adjust the position of a glyph or set of glyphs.
+---@field GlyphPackingMode TextCore.LowLevel.GlyphPackingMode @The modes available when packing glyphs into an atlas texture.
+---@field GlyphAdjustmentRecord TextCore.LowLevel.GlyphAdjustmentRecord @The positional adjustment values of a glyph.

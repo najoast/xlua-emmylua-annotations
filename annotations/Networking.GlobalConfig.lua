@@ -1,0 +1,15 @@
+---@class Networking.GlobalConfig @Defines global paramters for network library.
+---@field ReactorMaximumSentMessages fun() @Defines the initial size of the send queue. Messages are placed in this queue ready to be sent in packets to their destination.
+---@field MinTimerTimeout fun() @Defines the minimum timeout in milliseconds recognised by the system. The default value is 1 ms.
+---@field ctor fun() @Create new global config object.
+---@field MaxTimerTimeout fun() @Defines the maximum timeout in milliseconds for any configuration. The default value is 12 seconds (12000ms).
+---@field ThreadAwakeTimeout fun() @Defines (1) for select reactor, minimum time period, when system will check if there are any messages for send (2) for fixrate reactor, minimum interval of time, when system will check for sending and receiving messages.
+---@field MaxPacketSize fun() @Defines maximum possible packet size in bytes for all network connections.
+---@field ThreadPoolSize fun() @Defines how many worker threads are available to handle incoming and outgoing messages.
+---@field MinNetSimulatorTimeout fun() @Deprecated. Defines the minimal timeout for network simulator. You cannot set up any delay less than this value. See Also: MinTimerTimeout.
+---@field ReactorModel fun() @Defines reactor model for the network library.
+---@field ReactorMaximumReceivedMessages fun() @This property determines the initial size of the queue that holds messages received by Unity Multiplayer before they are processed.
+---@field ConnectionReadyForSend fun() @Defines the callback delegate which you can use to get a notification when a connection is ready to send data.
+---@field NetworkEventAvailable fun() @Defines the callback delegate which you can use to get a notification when the host (defined by hostID) has a network event. The callback is called for all event types except Networking.NetworkEventType.Nothing.See Also: Networking.NetworkEventType
+---@field MaxNetSimulatorTimeout fun() @Deprecated. Defines maximum delay for network simulator. See Also: MaxTimerTimeout.
+---@field MaxHosts fun() @Defines how many hosts you can use. Default Value = 16. Max value = 128.

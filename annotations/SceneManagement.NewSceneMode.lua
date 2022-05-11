@@ -1,0 +1,3 @@
+---@class SceneManagement.NewSceneMode @Used when creating a new Scene in the Editor.
+---@field Single fun() @All current open Scenes are closed and the newly created Scene are opened.
+---@field Additive fun() @The newly created Scene is added to the current open Scenes.

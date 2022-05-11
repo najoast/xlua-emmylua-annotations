@@ -1,0 +1,9 @@
+---@class Analytics.AnalyticsResult @Analytics API result.
+---@field InvalidData fun() @Analytics API result: Invalid argument value.
+---@field TooManyRequests fun() @Analytics API result: Too many requests.
+---@field Ok fun() @Analytics API result: Success.
+---@field SizeLimitReached fun() @Analytics API result: Argument size limit.
+---@field UnsupportedPlatform fun() @Analytics API result: This platform doesn't support Analytics.
+---@field TooManyItems fun() @Analytics API result: Too many parameters.
+---@field NotInitialized fun() @Analytics API result: Analytics not initialized.
+---@field AnalyticsDisabled fun() @Analytics API result: Analytics is disabled.

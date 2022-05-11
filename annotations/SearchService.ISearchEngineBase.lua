@@ -1,0 +1,6 @@
+---@class SearchService.ISearchEngineBase @The base interface for all search engines.
+---@field name fun() @The name displayed in the Preferences window in the Unity Editor. This name is used to store the active engine in the preferences.
+---@field EndSession fun() @A function called at the end of a search session.
+---@field BeginSearch fun() @A function called at the beginning of each search.
+---@field EndSearch fun() @A function called at the end of a search.
+---@field BeginSession fun() @A function called at the beginning of a search session.

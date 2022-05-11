@@ -1,0 +1,3 @@
+---@class PlayerSettings.SplashScreen.UnityLogoStyle @The style to use for the Unity logo during the Splash Screen.
+---@field LightOnDark fun() @A white Unity logo with a dark background.
+---@field DarkOnLight fun() @A dark Unity logo with a light background.

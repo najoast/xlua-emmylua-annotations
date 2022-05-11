@@ -1,0 +1,11 @@
+---@class BodyDof @Enumeration of all the muscles in the body.
+---@field UpperChestLeftRight fun() @The upper chest left-right muscle.
+---@field LastBodyDof fun() @The last value of the BodyDof enum.
+---@field SpineLeftRight fun() @The spine left-right muscle.
+---@field UpperChestRollLeftRight fun() @The upper chest roll left-right muscle.
+---@field ChestFrontBack fun() @The chest front-back muscle.
+---@field SpineFrontBack fun() @The spine front-back muscle.
+---@field ChestLeftRight fun() @The chest left-right muscle.
+---@field ChestRollLeftRight fun() @The chest roll left-right muscle.
+---@field SpineRollLeftRight fun() @The spine roll left-right muscle.
+---@field UpperChestFrontBack fun() @The upper chest front-back muscle.

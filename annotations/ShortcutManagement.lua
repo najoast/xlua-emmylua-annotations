@@ -1,0 +1,13 @@
+---@class ShortcutManagement @nil
+---@field IShortcutManager ShortcutManagement.IShortcutManager @Represents a manager that configures a particular instance of the shortcuts system.
+---@field ShortcutBaseAttribute fun() @Abstract base class for ShortcutManagement.ShortcutAttribute and ShortcutManagement.ClutchShortcutAttribute.
+---@field ShortcutAttribute ShortcutManagement.ShortcutAttribute @Attribute used to register a static method as the action for an action shortcut.
+---@field ClutchShortcutAttribute ShortcutManagement.ClutchShortcutAttribute @Attribute used to register a static method as the action for a clutch shortcut.
+---@field ShortcutBindingChangedEventArgs ShortcutManagement.ShortcutBindingChangedEventArgs @Provides data for the ShortcutManagement.IShortcutManager.shortcutBindingChanged event.
+---@field ActiveProfileChangedEventArgs ShortcutManagement.ActiveProfileChangedEventArgs @Provides data for the ShortcutManagement.IShortcutManager.activeProfileChanged event.
+---@field ShortcutStage ShortcutManagement.ShortcutStage @Represents the stage at which a shortcut action was invoked.
+---@field ShortcutModifiers ShortcutManagement.ShortcutModifiers @Represents modifier keys for use in a shortcut binding.
+---@field ShortcutManager ShortcutManagement.ShortcutManager @Provides access to an instance of ShortcutManagement.IShortcutManager for managing shortcuts.
+---@field ShortcutArguments ShortcutManagement.ShortcutArguments @Provides data for shortcut action methods invoked by the shortcut system.
+---@field KeyCombination ShortcutManagement.KeyCombination @Represents a combination of a non-modifier key and zero or more modifier keys.
+---@field ShortcutBinding ShortcutManagement.ShortcutBinding @Represents a key binding used to trigger a shortcut.

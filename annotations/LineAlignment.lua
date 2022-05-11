@@ -1,0 +1,4 @@
+---@class LineAlignment @Control the direction lines face, when using the LineRenderer or TrailRenderer.
+---@field View fun() @Lines face the camera.
+---@field TransformZ fun() @Lines face the Z axis of the Transform Component.
+---@field Local fun() @Lines face the direction of the Transform Component.

@@ -1,0 +1,22 @@
+---@class LightmapParameters @Configures how Unity bakes lighting and can be assigned to a LightingSettings instance or asset.
+---@field pushoff fun() @The distance to offset the ray origin from the geometry when performing ray tracing, in modelling units. Unity applies the offset to all baked lighting: direct lighting, indirect lighting, environment lighting and ambient occlusion.
+---@field backFaceTolerance fun() @The percentage of rays shot from a ray origin that must hit front faces to be considered usable.
+---@field modellingTolerance fun() @Maximum size of gaps that can be ignored for GI (multiplier on pixel size).
+---@field AOAntiAliasingSamples fun() @The maximum number of times to supersample a texel to reduce aliasing in AO.
+---@field bakedLightmapTag fun() @BakedLightmapTag is an integer that affects the assignment to baked lightmaps. Objects with different values for bakedLightmapTag are guaranteed to not be assigned to the same lightmap even if the other baking parameters are the same.
+---@field directLightQuality fun() @The number of rays used for lights with an area. Allows for accurate soft shadowing.
+---@field stitchEdges fun() @Whether pairs of edges should be stitched together.
+---@field antiAliasingSamples fun() @The maximum number of times to supersample a texel to reduce aliasing.
+---@field irradianceQuality fun() @The number of rays to cast for computing irradiance form factors.
+---@field resolution fun() @The texel resolution per meter used for real-time lightmaps. This value is multiplied by LightingSettings.indirectResolution.
+---@field SetLightmapParametersForLightingSettings fun() @Sets the LightmapParameters for the specified LightingSettings.
+---@field AOQuality fun() @The number of rays to cast for computing ambient occlusion.
+---@field GetLightmapParametersForLightingSettings fun() @Returns the assigned LightmapParameters for the specified LightingSettings.
+---@field AssignToLightingSettings fun() @Assignes itself to a LightingSettings instance or asset.
+---@field limitLightmapCount fun() @If enabled, objects sharing the same lightmap parameters will be packed into LightmapParameters.maxLightmapCount lightmaps.
+---@field systemTag fun() @System tag is an integer identifier. It lets you force an object into a different Enlighten Realtime Global Illumination system even though all the other parameters are the same.
+---@field irradianceBudget fun() @The amount of data used for Enlighten Realtime Global Illumination texels. Specifies how detailed view of the Scene a texel has. Small values mean more averaged out lighting.
+---@field blurRadius fun() @The radius (in texels) of the post-processing filter that blurs baked direct lighting.
+---@field isTransparent fun() @If enabled, the object appears transparent during GlobalIllumination lighting calculations.
+---@field clusterResolution fun() @Controls the resolution at which Enlighten Realtime Global Illumination stores and can transfer input light.
+---@field maxLightmapCount fun() @The maximum number of lightmaps created for objects sharing the same lightmap parameters. This property is ignored if LightmapParameters.limitLightmapCount is false.

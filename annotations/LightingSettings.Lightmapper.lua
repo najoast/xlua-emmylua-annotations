@@ -1,0 +1,4 @@
+---@class LightingSettings.Lightmapper @Backends available for baking lighting.
+---@field Enlighten fun() @Backend for baking lighting with Enlighten Baked Global Illumination, based on the Enlighten radiosity middleware.
+---@field ProgressiveCPU fun() @Backend for baking lighting using the CPU. Uses a progressive path tracing algorithm.
+---@field ProgressiveGPU fun() @Backend for baking lighting using the GPU. Uses a progressive path tracing algorithm.

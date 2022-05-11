@@ -1,0 +1,6 @@
+---@class LightingExplorerTableColumn @This is used when defining how a column should look and behave in the Lighting Explorer.
+---@field ctor fun() @Constructor.
+---@field CopyPropertiesDelegate fun() @A delegate for copying of properties.
+---@field ComparePropertiesDelegate fun() @A delegate for comparison of properties for sorting.
+---@field DataType LightingExplorerTableColumn.DataType @A data type that defines the default behaviors for how to draw and compare items in the columns.
+---@field OnGUIDelegate fun() @A delegate for how to draw the property.

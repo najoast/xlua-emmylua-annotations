@@ -1,0 +1,9 @@
+---@class Rendering.RenderTargetBinding @Describes a render target with one or more color buffers, a depth/stencil buffer and the associated load/store-actions that are applied when the render target is active.
+---@field depthStoreAction fun() @Store action for the depth/stencil buffer.
+---@field flags fun() @Optional flags.
+---@field ctor fun() @Constructs RenderTargetBinding.
+---@field depthLoadAction fun() @Load action for the depth/stencil buffer.
+---@field colorLoadActions fun() @Load actions for color buffers.
+---@field depthRenderTarget fun() @Depth/stencil buffer to use as render target.
+---@field colorStoreActions fun() @Store actions for color buffers.
+---@field colorRenderTargets fun() @Color buffers to use as render targets.

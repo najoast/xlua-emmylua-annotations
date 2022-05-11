@@ -1,0 +1,3 @@
+---@class ClothSkinningCoefficient @The ClothSkinningCoefficient struct is used to set up how a Cloth component is allowed to move with respect to the SkinnedMeshRenderer it is attached to.
+---@field maxDistance fun() @Distance a vertex is allowed to travel from the skinned mesh vertex position.
+---@field collisionSphereDistance fun() @Definition of a sphere a vertex is not allowed to enter. This allows collision against the animated cloth.

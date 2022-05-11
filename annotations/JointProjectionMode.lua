@@ -1,0 +1,4 @@
+---@class JointProjectionMode @Determines how to snap physics joints back to its constrained position when it drifts off too much.
+---@field None fun() @Don't snap at all.
+---@field PositionOnly fun() @Snap Position only.
+---@field PositionAndRotation fun() @Snap both position and rotation.

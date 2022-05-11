@@ -1,0 +1,34 @@
+---@class Rendering.SupportedRenderingFeatures @Describes the rendering features supported by a given render pipeline.
+---@field editableMaterialRenderQueue fun() @Determines whether the Scriptable Render Pipeline will override the default Material’s Render Queue settings and, if true, hides the Render Queue property in the Inspector.
+---@field motionVectors fun() @Are motion vectors supported?
+---@field rendererProbes fun() @Determines whether the Renderer supports probe lighting.
+---@field reflectionProbes fun() @Are reflection probes supported?
+---@field overridesMaximumLODLevel fun() @Specifies whether the renderer overrides the maximum LOD level settings in the Quality Settings Panel. If It does, the renderer does not need the built-in UI for maximum LOD level settings.
+---@field particleSystemInstancing fun() @Determines if the renderer supports Particle System GPU instancing.
+---@field ReflectionProbeModes Rendering.SupportedRenderingFeatures.ReflectionProbeModes @Supported modes for ReflectionProbes.
+---@field ReflectionProbeSupportFlags fun() @Supported modes for ReflectionProbes.
+---@field shadowmaskMessage fun() @A message that tells the user where the Shadowmask settings are located.
+---@field reflectionProbesBlendDistance fun() @If this property is true, the blend distance field in the Reflection Probe Inspector window is editable.
+---@field overridesEnvironmentLighting fun() @Determines if the renderer will override the Environment Lighting and will no longer need the built-in UI for it.
+---@field lightProbeProxyVolumes fun() @Are light probe proxy volumes supported?
+---@field enlighten fun() @Determines if Enlighten Realtime Global Illumination lightmapper is supported by the currently selected pipeline. If it is not supported, Enlighten-specific settings do not appear in the Editor, which then defaults to the CPU Lightmapper.
+---@field overridesRealtimeReflectionProbes fun() @Specifies whether the render pipeline overrides the real-time Reflection Probes settings in the Quality settings. If It does, the render pipeline does not need the built-in UI for real-time Reflection Probes settings.
+---@field mixedLightingModes fun() @Specifies what LightmapMixedBakeModes that are supported. Please define a SupportedRenderingFeatures.defaultMixedLightingModes in case multiple modes are supported.
+---@field terrainDetailUnsupported fun() @Determines if the renderer supports terrain detail rendering.
+---@field lightmapBakeTypes fun() @What baking types are supported. The unsupported ones will be hidden from the UI. See LightmapBakeType.
+---@field defaultMixedLightingModes fun() @This is the fallback mode if the mode the user had previously selected is no longer available. See SupportedRenderingFeatures.mixedLightingModes.
+---@field rendersUIOverlay fun() @Determines whether the function to render UI overlays is called by SRP and not by the engine.
+---@field LightmapMixedBakeModes Rendering.SupportedRenderingFeatures.LightmapMixedBakeModes @Same as MixedLightingMode for baking, but is used to determine what is supported by the pipeline.
+---@field lightmapsModes fun() @Specifies what modes are supported. Has to be at least one. See LightmapsMode.
+---@field reflectionProbeModes fun() @Flags for supported reflection probes.
+---@field overridesLODBias fun() @Specifies whether the renderer overrides the LOD bias settings in the Quality Settings Panel. If It does, the renderer does not need the built-in UI for LOD bias settings.
+---@field rendererPriority fun() @Determines if the renderer supports renderer priority sorting.
+---@field overridesOtherLightingSettings fun() @Determines if the renderer will override halo and flare settings in the Lighting Panel and will no longer need the built-in UI for it.
+---@field overridesFog fun() @Determines if the renderer will override the fog settings in the Lighting Panel and will no longer need the built-in UI for it.
+---@field receiveShadows fun() @Can renderers support receiving shadows?
+---@field autoAmbientProbeBaking fun() @Determines if this renderer supports automatic ambient probe generation.
+---@field active fun() @Get / Set a SupportedRenderingFeatures.
+---@field autoDefaultReflectionProbeBaking fun() @Determines if this renderer supports automatic default reflection probe generation.
+---@field enlightenLightmapper fun() @Determines if Enlighten Baked Global Illumination lightmapper is supported. If it is not supported, Enlighten-specific settings do not appear in the Editor, which then defaults to the CPU Lightmapper.
+---@field overrideShadowmaskMessage fun() @Describes where the Shadowmask settings are located if SupportedRenderingFeatures.overridesShadowmask is set to true.
+---@field overridesShadowmask fun() @Specifies whether the render pipeline overrides the Shadowmask settings in the Quality settings.

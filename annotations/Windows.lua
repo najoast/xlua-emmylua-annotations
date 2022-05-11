@@ -1,0 +1,9 @@
+---@class Windows @nil
+---@field WebCam Windows.WebCam @nil
+---@field Crypto Windows.Crypto @Class representing cryptography algorithms.
+---@field LicenseInformation Windows.LicenseInformation @This class provides information regarding application's trial status and allows initiating application purchase.
+---@field Speech Windows.Speech @nil
+---@field CrashReporting Windows.CrashReporting @Exposes useful information related to crash reporting on Windows platforms.
+---@field Directory Windows.Directory @Exposes static methods for directory operations.
+---@field File Windows.File @Provides static methods for file operations.
+---@field Input Windows.Input @Provides static methods for Windows specific input manipulation.

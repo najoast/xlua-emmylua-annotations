@@ -1,0 +1,5 @@
+---@class FontStyle @Font Style applied to GUI Texts, Text Meshes or GUIStyles.
+---@field Normal fun() @No special style is applied.
+---@field Italic fun() @Italic style applied to your texts.
+---@field BoldAndItalic fun() @Bold and Italic styles applied to your texts.
+---@field Bold fun() @Bold style applied to your texts.

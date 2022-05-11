@@ -1,0 +1,8 @@
+---@class UIElements.MeshWriteData @A class that represents the vertex and index data allocated for drawing the content of a VisualElement.
+---@field SetAllVertices fun() @Fills the values of the allocated vertices with values copied directly from an array. When this method is called, it is not possible to use SetNextVertex to fill the allocated vertices array.
+---@field SetAllIndices fun() @Fills the values of the allocated indices with values copied directly from an array. Each 3 consecutive indices form a single triangle.
+---@field vertexCount fun() @The number of vertices successfully allocated for VisualElement content drawing.
+---@field indexCount fun() @The number of indices successfully allocated for VisualElement content drawing.
+---@field SetNextVertex fun() @Assigns the value of the next vertex of the allocated vertices list.
+---@field SetNextIndex fun() @Assigns the value of the next index of the allocated indices list.
+---@field uvRegion fun() @A rectangle describing the UV region holding the texture passed to MeshGenerationContext.Allocate.

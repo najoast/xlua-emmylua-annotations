@@ -1,0 +1,3 @@
+---@class AssetPathToGUIDOptions @Asset path to GUID options.
+---@field IncludeRecentlyDeletedAssets fun() @Return a GUID if the asset exists, or has recently been deleted.
+---@field OnlyExistingAssets fun() @Return a GUID only if the asset exists on disk.

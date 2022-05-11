@@ -1,0 +1,10 @@
+---@class Build.Content.BuildReferenceMap @Container for holding information about where objects will be serialized in a build.
+---@field AddMappings fun() @Adds mappings for a set of Objects to where they will be serialized out to the build.
+---@field ctor fun() @Default constructor for an empty BuildReferenceMap.
+---@field GetObjectData fun() @ISerializable method for serialization support outside of Unity's internal serialization system.
+---@field GetHashCode fun() @Gets the hash code for the BuildReferenceMap.
+---@field GetHash128 fun() @Gets the hash for the BuildReferenceMap.
+---@field FilterToSubset fun() @Filters this BuildReferenceMap instance to remove references to any objects that are not in the array of ObjectIdentifiers specified by objectIds.
+---@field AddMapping fun() @Adds a mapping for a single Object to where it will be serialized out to the build.
+---@field Dispose fun() @Dispose the BuildReferenceMap destroying all internal state.
+---@field Equals fun() @Returns true if the objects are equal.

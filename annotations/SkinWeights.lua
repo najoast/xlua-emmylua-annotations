@@ -1,0 +1,5 @@
+---@class SkinWeights @Skin weights.
+---@field Unlimited fun() @An unlimited number of bones affect each vertex.
+---@field FourBones fun() @Four bones affect each vertex.
+---@field TwoBones fun() @Two bones affect each vertex.
+---@field OneBone fun() @One bone affects each vertex.

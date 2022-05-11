@@ -1,0 +1,3 @@
+---@class Compilation.ReferencesOptions @Options to control the Unity References to other assembly definition files that Unity uses during compilation.
+---@field None fun() @Default options.
+---@field UseEngineModules fun() @Use UnityEngine modules when compiling.

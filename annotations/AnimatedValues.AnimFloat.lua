@@ -1,0 +1,3 @@
+---@class AnimatedValues.AnimFloat @An animated float value.
+---@field ctor fun() @Constructor.
+---@field GetValue fun() @Type specific implementation of BaseAnimValue_1.GetValue.

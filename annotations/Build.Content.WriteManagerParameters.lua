@@ -1,0 +1,4 @@
+---@class Build.Content.WriteManagerParameters @Defines the write parameters for the ContentBuildInterface.WriteGameManagersSerializedFile function.
+---@field settings fun() @The settings to use when writing the serialized file.
+---@field globalUsage fun() @The global lighting information to use when writing the serialized file.
+---@field referenceMap fun() @The set of external objects that can be referenced by this serialized file.

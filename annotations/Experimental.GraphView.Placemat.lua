@@ -1,0 +1,16 @@
+---@class Experimental.GraphView.Placemat @Allows interactive manipulation of elements (drag, hide) over a virtual placemat.
+---@field BuildContextualMenu fun() @Adds menu items to the placemat contextual menu.
+---@field ExpandedPosition fun() @The rect representing the expanded placemat, regardless of the current collapsed state.
+---@field ctor fun() @Constructor.
+---@field UncollapsedSize fun() @The size of the placemat when expanded.
+---@field CollapsedSize fun() @The size of the placemat when collapsed.
+---@field ZOrder fun() @The Z order of the placemat in the PlacematContainer.
+---@field StartEditTitle fun() @Sets the focus to the title of placemat and sets the title for editing.
+---@field SetPosition fun() @Sets the placemat position
+---@field Color fun() @The color of the placemat.
+---@field SetCollapsedElements fun() @Sets the list of collapsed elements. This method is not meant to be called.
+---@field CollapsedElements fun() @The list of elements hidden by the placemat when collapsed. The list is empty when the placemat is expanded.
+---@field MinSizePolicy Experimental.GraphView.Placemat.MinSizePolicy @Determines the behavior of the CalculateSelectedNodeBounds method.
+---@field title fun() @The title of the placemat.
+---@field Collapsed fun() @Whether the placemat is collapsed (true) or expanded (false).
+---@field ComputeElementBounds fun() @Calculates the bounds of a list of graph elements.

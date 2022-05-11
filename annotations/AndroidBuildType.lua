@@ -1,0 +1,4 @@
+---@class AndroidBuildType @Build configurations for the generated project.
+---@field Release fun() @Build configuration set to Release for the generated project.
+---@field Debug fun() @Build configuration set to Debug for the generated project.
+---@field Development fun() @Build configuration set to Development for the generated project.

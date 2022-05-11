@@ -1,0 +1,5 @@
+---@class SpringJoint2D @Joint that attempts to keep two Rigidbody2D objects a set distance apart by applying a force between them.
+---@field distance fun() @The distance the spring will try to keep between the two objects.
+---@field frequency fun() @The frequency at which the spring oscillates around the distance distance between the objects.
+---@field dampingRatio fun() @The amount by which the spring force is reduced in proportion to the movement speed.
+---@field autoConfigureDistance fun() @Should the distance be calculated automatically?

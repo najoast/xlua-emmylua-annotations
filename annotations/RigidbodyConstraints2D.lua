@@ -1,0 +1,7 @@
+---@class RigidbodyConstraints2D @Use these flags to constrain motion of the Rigidbody2D.
+---@field FreezeRotation fun() @Freeze rotation along the Z-axis.
+---@field FreezePosition fun() @Freeze motion along the X-axis and Y-axis.
+---@field None fun() @No constraints.
+---@field FreezePositionY fun() @Freeze motion along the Y-axis.
+---@field FreezePositionX fun() @Freeze motion along the X-axis.
+---@field FreezeAll fun() @Freeze rotation and motion along all axes.

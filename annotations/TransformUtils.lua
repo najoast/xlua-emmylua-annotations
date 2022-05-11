@@ -1,0 +1,3 @@
+---@class TransformUtils @Editor Transform Utility Class.
+---@field SetInspectorRotation fun() @Sets the rotation of a transform as it would be set by the Transform Inspector window.
+---@field GetInspectorRotation fun() @Returns the rotation of a transform as it is shown in the Transform Inspector window.

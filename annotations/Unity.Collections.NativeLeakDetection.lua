@@ -1,0 +1,2 @@
+---@class Unity.Collections.NativeLeakDetection @Static class for native leak detection settings.
+---@field Mode fun() @Set whether native memory leak detection should be enabled or disabled.

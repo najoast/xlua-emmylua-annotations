@@ -1,0 +1,8 @@
+---@class Networking.Types @nil
+---@field NodeID Networking.Types.NodeID @The NodeID is the ID used in Relay matches to track nodes in a network.
+---@field SourceID Networking.Types.SourceID @Identifies a specific game instance.
+---@field NetworkAccessLevel Networking.Types.NetworkAccessLevel @Describes the access levels granted to this client.
+---@field AppID Networking.Types.AppID @The AppID identifies the application on the Unity Cloud or UNET servers.
+---@field HostPriority Networking.Types.HostPriority @An Enum representing the priority of a client in a match, starting at 0 and increasing.
+---@field NetworkID Networking.Types.NetworkID @Network ID, used for match making.
+---@field NetworkAccessToken Networking.Types.NetworkAccessToken @Access token used to authenticate a client session for the purposes of allowing or disallowing match operations requested by that client.

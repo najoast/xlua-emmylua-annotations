@@ -1,0 +1,5 @@
+---@class CompressionType @Compression Method for Asset Bundles.
+---@field None fun() @Uncompressed Asset Bundles are larger than compressed Asset Bundles, but they are the fastest to access once downloaded.
+---@field Lz4 fun() @LZ4 compression results in larger compressed files than LZMA, but does not require the entire bundle to be decompressed before use.
+---@field Lz4HC fun() @LZ4HC is a high compression variant of LZ4. LZ4HC compression results in larger compressed files than LZMA, but does not require the entire bundle to be decompressed before use.
+---@field Lzma fun() @LZMA compression results in smaller compressed Asset Bundles but they must be entirely decompressed before use.

@@ -1,0 +1,2 @@
+---@class Android.AndroidAssetPackUseMobileDataRequestResult @Represents the choice of an end user that indicates if your application can use mobile data to download Android asset packs.
+---@field allowed fun() @Indicates if mobile data can be used to download Android asset packs.

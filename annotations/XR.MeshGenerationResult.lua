@@ -1,0 +1,10 @@
+---@class XR.MeshGenerationResult @Contains event information related to a generated mesh.
+---@field MeshId fun() @The MeshId of the tracked mesh that was generated.
+---@field MeshCollider fun() @If the generation was successful, physics data has been written to this MeshCollider.
+---@field Status fun() @The MeshGenerationStatus of the mesh generation task.
+---@field Timestamp fun() @The timestamp associated with the generated mesh.
+---@field Position fun() @The position associated with the generated mesh relative to the session origin.
+---@field Rotation fun() @The rotation associated with the generated mesh relative to the session origin.
+---@field Attributes fun() @The MeshVertexAttributes that were written to the MeshGenerationResult.Mesh.
+---@field Mesh fun() @If the generation was successful, data has been written to this Mesh.
+---@field Scale fun() @The scale associated with the generated mesh relative to the session origin.

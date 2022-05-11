@@ -1,0 +1,4 @@
+---@class AndroidTargetDevices @Defines the types of devices on which an Android application is allowed to run. Used for the PlayerSettings.Android._androidTargetDevices property.
+---@field ChromeOSDevicesOnly fun() @The Android build is only allowed to run on Chrome OS devices.
+---@field PhonesTabletsAndTVDevicesOnly fun() @The Android build is only allowed to run on Android phones, tablets, and TV devices, not on any type of Chrome OS device.
+---@field AllDevices fun() @The Android build is allowed to run on all target devices.

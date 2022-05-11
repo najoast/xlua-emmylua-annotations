@@ -1,0 +1,16 @@
+---@class XR.XRNodeState @Describes the state of a node tracked by a XR system.
+---@field velocity fun() @Sets the vector representing the current velocity of the tracked node.
+---@field TryGetVelocity fun() @Attempt to retrieve a vector representing the current velocity of the tracked node.
+---@field acceleration fun() @Sets the vector representing the current acceleration of the tracked node.
+---@field TryGetPosition fun() @Attempt to retrieve a vector representing the current position of the tracked node.
+---@field angularVelocity fun() @Sets the vector representing the current angular velocity of the tracked node.
+---@field uniqueID fun() @The unique identifier of the tracked node.
+---@field nodeType fun() @The type of the tracked node as specified in XR.XRNode.
+---@field TryGetRotation fun() @Attempt to retrieve a quaternion representing the current rotation of the tracked node.
+---@field TryGetAcceleration fun() @Attempt to retrieve a vector representing the current acceleration of the tracked node.
+---@field TryGetAngularVelocity fun() @Attempt to retrieve a Vector3 representing the current angular velocity of the tracked node.
+---@field position fun() @Sets the vector representing the current position of the tracked node.
+---@field angularAcceleration fun() @Sets the vector representing the current angular acceleration of the tracked node.
+---@field rotation fun() @Sets the quaternion representing the current rotation of the tracked node.
+---@field TryGetAngularAcceleration fun() @Attempt to retrieve a Vector3 representing the current angular acceleration of the tracked node.
+---@field tracked fun() @Set to true if the node is presently being tracked by the underlying XR system,and false if the node is not presently being tracked by the underlying XR system.

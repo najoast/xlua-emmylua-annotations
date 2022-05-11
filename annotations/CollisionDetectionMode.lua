@@ -1,0 +1,5 @@
+---@class CollisionDetectionMode @The collision detection mode constants used for Rigidbody.collisionDetectionMode.
+---@field ContinuousDynamic fun() @Continuous collision detection is on for colliding with static and dynamic geometry.
+---@field Discrete fun() @Continuous collision detection is off for this Rigidbody.
+---@field Continuous fun() @Continuous collision detection is on for colliding with static mesh geometry.
+---@field ContinuousSpeculative fun() @Speculative continuous collision detection is on for static and dynamic geometries

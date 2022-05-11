@@ -1,0 +1,5 @@
+---@class VersionControl.SubmitResult @The status of an operation returned by the VCS.
+---@field UnaddedFiles fun() @Files were unable to be added.
+---@field ConflictingFiles fun() @Files conflicted.
+---@field OK fun() @Submission worked.
+---@field Error fun() @An error was returned.

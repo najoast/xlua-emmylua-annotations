@@ -1,0 +1,18 @@
+---@class iOS.Xcode @nil
+---@field Extensions fun() @nil
+---@field PBXCapabilityType iOS.Xcode.PBXCapabilityType @Represents what a capability modifies in a PBXProject.
+---@field PlistElementReal iOS.Xcode.PlistElementReal @Represents a real element in plist document.
+---@field PlistElementInteger iOS.Xcode.PlistElementInteger @Represents an integer element in plist document.
+---@field PlistElementDict iOS.Xcode.PlistElementDict @Represents a dictionary element in plist document.
+---@field MapsOptions iOS.Xcode.MapsOptions @This enumerated type describes various navigational options that your app can use to receive route data from the Maps app. The values are flags, meaning they can be combined with | operator.
+---@field PlistElementString iOS.Xcode.PlistElementString @Represents a string element in plist document.
+---@field PlistDocument iOS.Xcode.PlistDocument @Represents an Apple property list document. Documentation on property lists can be found here. https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/PropertyList.html#//apple_ref/doc/uid/TP40008195-CH44
+---@field PlistElementDate iOS.Xcode.PlistElementDate @Represents a date element in plist document.
+---@field BackgroundModesOptions iOS.Xcode.BackgroundModesOptions @This enumeration type describes the various actions an app can take while it is running in the background on iOS. The values are flags, meaning they can be combined with the | operator.
+---@field PBXProject iOS.Xcode.PBXProject @Represents an Xcode project (pbxproj file).
+---@field PlistElement iOS.Xcode.PlistElement @Represents a plist element.
+---@field ProjectCapabilityManager iOS.Xcode.ProjectCapabilityManager @This class allows you to add and modify the specifics of Xcode project capabilities. If you wish to simply enable a capability and edit the capabilities options in Xcode use iOS.Xcode instead.
+---@field XcScheme iOS.Xcode.XcScheme @Represents an Xcode scheme (xcscheme file).
+---@field PlistElementBoolean iOS.Xcode.PlistElementBoolean @Represents a boolean element in plist document.
+---@field PlistElementArray iOS.Xcode.PlistElementArray @Represents an array element in plist document.
+---@field PBXSourceTree iOS.Xcode.PBXSourceTree @Specifies source trees for files.

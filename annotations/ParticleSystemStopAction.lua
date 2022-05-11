@@ -1,0 +1,5 @@
+---@class ParticleSystemStopAction @The action to perform when the Particle System stops.
+---@field None fun() @Do nothing.
+---@field Callback fun() @Call MonoBehaviour.OnParticleSystemStopped on all scripts attached to the same GameObject.
+---@field Disable fun() @Disable the GameObject containing the Particle System.
+---@field Destroy fun() @Destroy the GameObject containing the Particle System.

@@ -1,0 +1,8 @@
+---@class Search.SearchQueryError @Represents a query parsing error.
+---@field provider fun() @Which search provider logged this error.
+---@field reason fun() @The reason for the error.
+---@field type fun() @The type of query error.
+---@field length fun() @Length of the block that was being parsed.
+---@field ctor fun() @Creates a new SearchQueryError.
+---@field context fun() @The context in which this error was logged.
+---@field index fun() @Index where the error occurred.

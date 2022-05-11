@@ -1,0 +1,5 @@
+---@class UIElements.UxmlAttributeDescription.Use @An enum to describe attribute use.
+---@field None fun() @There is no restriction on the use of this attribute with the element.
+---@field Prohibited fun() @The attribute should not appear for the element.
+---@field Optional fun() @The attribute is optional for the element.
+---@field Required fun() @The attribute must appear in the element tag.

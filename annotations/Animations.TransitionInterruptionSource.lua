@@ -1,0 +1,6 @@
+---@class Animations.TransitionInterruptionSource @Which AnimatorState transitions can interrupt the Transition.
+---@field Source fun() @The Transition can be interrupted by transitions in the source AnimatorState.
+---@field SourceThenDestination fun() @The Transition can be interrupted by transitions in the source or the destination AnimatorState.
+---@field None fun() @The Transition cannot be interrupted. Formely know as Atomic.
+---@field DestinationThenSource fun() @The Transition can be interrupted by transitions in the source or the destination AnimatorState.
+---@field Destination fun() @The Transition can be interrupted by transitions in the destination AnimatorState.

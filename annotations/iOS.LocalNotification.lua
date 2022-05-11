@@ -1,0 +1,15 @@
+---@class iOS.LocalNotification @iOS.LocalNotification is a wrapper around the UILocalNotification class found in the Apple UIKit framework and is only available on iPhone/iPad/iPod Touch.
+---@field timeZone fun() @The time zone of the notification's fire date.
+---@field applicationIconBadgeNumber fun() @The number to display as the application's icon badge.
+---@field ctor fun() @Creates a new local notification.
+---@field defaultSoundName fun() @The default system sound. (Read Only)
+---@field alertAction fun() @The title of the action button or slider.
+---@field userInfo fun() @A dictionary for passing custom information to the notified application.
+---@field hasAction fun() @A boolean value that controls whether the alert action is visible or not.
+---@field soundName fun() @The name of the sound file to play when an alert is displayed.
+---@field fireDate fun() @The date and time when the system should deliver the notification.
+---@field repeatInterval fun() @The calendar interval at which to reschedule the notification.
+---@field alertLaunchImage fun() @Identifies the image used as the launch image when the user taps the action button.
+---@field repeatCalendar fun() @The calendar type (Gregorian, Chinese, etc) to use for rescheduling the notification.
+---@field alertTitle fun() @A short description of the reason for the alert.
+---@field alertBody fun() @The message displayed in the notification alert.

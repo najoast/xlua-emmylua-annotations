@@ -1,0 +1,6 @@
+---@class Texture2D.EXRFlags @Flags used to control the encoding to an EXR file.
+---@field OutputAsFloat fun() @The texture will be exported as a 32-bit float EXR file (default is 16-bit).
+---@field CompressRLE fun() @The texture will use RLE (Run Length Encoding) EXR compression format (similar to Targa RLE compression).
+---@field None fun() @No flag. This will result in an uncompressed 16-bit float EXR file.
+---@field CompressZIP fun() @The texture will use the EXR ZIP compression format.
+---@field CompressPIZ fun() @This texture will use Wavelet compression. This is best used for grainy images.

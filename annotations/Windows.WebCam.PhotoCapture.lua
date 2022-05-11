@@ -1,0 +1,15 @@
+---@class Windows.WebCam.PhotoCapture @Captures a photo from the web camera and stores it in memory or on disk.
+---@field SupportedResolutions fun() @A list of all the supported device resolutions for taking pictures.
+---@field OnCapturedToMemoryCallback fun() @Called when a photo has been captured to memory.
+---@field StopPhotoModeAsync fun() @Asynchronously stops photo mode.
+---@field TakePhotoAsync fun() @Asynchronously captures a photo from the web camera and saves it to disk.
+---@field CaptureResultType Windows.WebCam.PhotoCapture.CaptureResultType @Contains the result of the capture request.
+---@field OnCaptureResourceCreatedCallback fun() @Called when a PhotoCapture resource has been created.
+---@field OnPhotoModeStartedCallback fun() @Called when photo mode has been started.
+---@field StartPhotoModeAsync fun() @Asynchronously starts photo mode.
+---@field GetUnsafePointerToVideoDeviceController fun() @Provides a COM pointer to the native IVideoDeviceController.
+---@field OnPhotoModeStoppedCallback fun() @Called when photo mode has been stopped.
+---@field PhotoCaptureResult Windows.WebCam.PhotoCapture.PhotoCaptureResult @A data container that contains the result information of a photo capture operation.
+---@field Dispose fun() @Dispose must be called to shutdown the PhotoCapture instance.
+---@field CreateAsync fun() @Asynchronously creates an instance of a PhotoCapture object that can be used to capture photos.
+---@field OnCapturedToDiskCallback fun() @Called when a photo has been saved to the file system.

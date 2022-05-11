@@ -1,0 +1,3 @@
+---@class BuildPlayerWindow.DefaultBuildMethods @Default build methods for the BuildPlayerWindow.
+---@field GetBuildPlayerOptions fun() @The built-in, default handler for calculating build player options. Can be used to provide default functionality in a custom build player window.
+---@field BuildPlayer fun() @The built-in, default handler for executing a player build. Can be used to provide default functionality in a custom build player window.

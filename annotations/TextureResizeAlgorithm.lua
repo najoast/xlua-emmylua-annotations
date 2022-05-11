@@ -1,0 +1,3 @@
+---@class TextureResizeAlgorithm @For Texture to be scaled down choose resize algorithm. ( Applyed only when Texture dimension is bigger than Max Size ).
+---@field Bilinear fun() @Might provide better result than Mitchell for some noise textures preserving more sharp details.
+---@field Mitchell fun() @Default high quality resize algorithm.

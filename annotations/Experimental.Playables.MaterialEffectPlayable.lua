@@ -1,0 +1,2 @@
+---@class Experimental.Playables.MaterialEffectPlayable @An implementation of IPlayable that allows application of a Material shader to one or many texture inputs to produce a texture output.
+---@field Create fun() @Creates a MaterialEffectPlayable in the PlayableGraph.

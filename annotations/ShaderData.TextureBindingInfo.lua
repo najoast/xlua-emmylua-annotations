@@ -1,0 +1,7 @@
+---@class ShaderData.TextureBindingInfo @Provides resource layout information about a texture binding.
+---@field ArraySize fun() @The number of elements in this texture binding. If the value is greater than 1, the texture binding is an array. (Read Only)
+---@field Name fun() @The name of the texture binding (Read Only).
+---@field Dim fun() @The texture binding's type (Read Only).
+---@field Multisampled fun() @Indicates if the texture is multisampled (Read Only).
+---@field Index fun() @The index of the texture binding (Read Only). Depending on the platform, this value represents different things.
+---@field SamplerIndex fun() @The index of the sampler for this texture binding (Read Only). Depending on the platform, this value represents different things.

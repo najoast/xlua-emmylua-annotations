@@ -1,0 +1,7 @@
+---@class Rendering.RenderStateMask @Specifies which parts of the render state that is overriden.
+---@field Stencil fun() @When set, the stencil state and reference value is overridden.
+---@field Nothing fun() @No render states are overridden.
+---@field Everything fun() @When set, all render states are overridden.
+---@field Raster fun() @When set, the raster state is overridden.
+---@field Blend fun() @When set, the blend state is overridden.
+---@field Depth fun() @When set, the depth state is overridden.

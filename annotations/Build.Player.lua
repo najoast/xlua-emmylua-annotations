@@ -1,0 +1,6 @@
+---@class Build.Player @nil
+---@field PlayerBuildInterface Build.Player.PlayerBuildInterface @Low level interface for building scripts for Unity.
+---@field ScriptCompilationSettings Build.Player.ScriptCompilationSettings @Struct containing information on how to build scripts.
+---@field ScriptCompilationResult Build.Player.ScriptCompilationResult @Struct with result information returned from the PlayerBuildInterface.CompilePlayerScripts API.
+---@field ScriptCompilationOptions Build.Player.ScriptCompilationOptions @Script compilation options.
+---@field TypeDB Build.Player.TypeDB @Container for holding information about script type and property data.

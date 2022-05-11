@@ -1,0 +1,8 @@
+---@class TreeInstance @Contains information about a tree placed in the Terrain game object.
+---@field color fun() @Color of this instance.
+---@field heightScale fun() @Height scale of this instance (compared to the prototype's size).
+---@field position fun() @Position of the tree.
+---@field lightmapColor fun() @Lightmap color calculated for this instance.
+---@field rotation fun() @Read-only.Rotation of the tree on X-Z plane (in radians).
+---@field prototypeIndex fun() @Index of this instance in the TerrainData.treePrototypes array.
+---@field widthScale fun() @Width scale of this instance (compared to the prototype's size).

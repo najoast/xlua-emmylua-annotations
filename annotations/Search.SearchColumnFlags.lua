@@ -1,0 +1,11 @@
+---@class Search.SearchColumnFlags @Search column flags are used to set multiple states.
+---@field CanHide fun() @Indicates that the user can manually hide the search column in the Search Table view.
+---@field SortedDescending fun() @Indicates that the search column in the Search Table view is sorted in descending order. If not defined, it means the column is sorted in ascending order.
+---@field Sorted fun() @Indicates that the search column in the Search Table view is currently sorted.
+---@field None fun() @Indicates that no column options are used.
+---@field CanSort fun() @Indicates that the user can sort the search column in the Search Table view.
+---@field TextAlignmentRight fun() @Indicates that the search column in the Search Table view is aligning text to the right.
+---@field TextAlignmentCenter fun() @Indicates that the search column in the Search Table view is aligning text in the middle.
+---@field Default fun() @Defines a default set of options for common usages.
+---@field TextAlignmentLeft fun() @Indicates that the search column in the Search Table view is aligning text to the left.
+---@field Hidden fun() @Indicates that the search column is currently hidden in the Search Table view.

@@ -1,0 +1,2 @@
+---@class Networking.Types.NetworkID @Network ID, used for match making.
+---@field Invalid fun() @Invalid NetworkID.

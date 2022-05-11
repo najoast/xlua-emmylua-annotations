@@ -1,0 +1,4 @@
+---@class VideoBitrateMode @Bit rate after the clip is transcoded.
+---@field Low fun() @Low value, safe for slower internet connections or clips where visual quality is not critical.
+---@field High fun() @High value, possibly exceeding typical internet connection capabilities.
+---@field Medium fun() @Typical bit rate supported by internet connections.

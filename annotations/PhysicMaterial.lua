@@ -1,0 +1,10 @@
+---@class PhysicMaterial @Physics material describes how to handle colliding objects (friction, bounciness).
+---@field dynamicFriction2 fun() @If anisotropic friction is enabled, dynamicFriction2 will be applied along frictionDirection2.
+---@field dynamicFriction fun() @The friction used when already moving.  This value is usually between 0 and 1.
+---@field bounciness fun() @How bouncy is the surface? A value of 0 will not bounce. A value of 1 will bounce without any loss of energy.
+---@field frictionCombine fun() @Determines how the friction is combined.
+---@field staticFriction2 fun() @If anisotropic friction is enabled, staticFriction2 will be applied along frictionDirection2.
+---@field staticFriction fun() @The friction coefficient used when an object is lying on a surface.
+---@field frictionDirection2 fun() @The direction of anisotropy. Anisotropic friction is enabled if the vector is not zero.
+---@field ctor fun() @Creates a new material.
+---@field bounceCombine fun() @Determines how the bounciness is combined.

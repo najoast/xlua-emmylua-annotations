@@ -1,0 +1,4 @@
+---@class Build.Content.GameManagerDependencyInfo @Contains dependency information for internal Unity game manager classes. Call ContentBuildInterface.WriteGameManagersSerializedFile or ContentBuildInterface.CalculatePlayerDependenciesForGameManagers to get an instance of this class.
+---@field referencedObjects fun() @The project-wide identifiers for any objects referenced by the manager classes in the managerObjects list.
+---@field managerObjects fun() @The project-wide identifiers for the game manager classes referenced in this collection of dependency information.
+---@field includedTypes fun() @The project-wide identifiers for the game manager classes referenced in this collection of dependency information.

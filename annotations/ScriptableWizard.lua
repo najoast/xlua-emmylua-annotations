@@ -1,0 +1,11 @@
+---@class ScriptableWizard @Derive from this class to create an editor wizard.
+---@field DrawWizardGUI fun() @Will be called for drawing contents when the ScriptableWizard needs to update its GUI.
+---@field errorString fun() @Allows you to set the error text of the wizard.
+---@field DisplayWizard fun() @Creates a wizard.
+---@field otherButtonName fun() @Allows you to set the text shown on the optional other button of the wizard. Leave this parameter out to leave the button out.
+---@field isValid fun() @Allows you to enable and disable the wizard create button, so that the user can not click it.
+---@field OnWizardCreate fun() @This is called when the user clicks on the Create button.
+---@field createButtonName fun() @Allows you to set the text shown on the create button of the wizard.
+---@field OnWizardUpdate fun() @This is called when the wizard is opened or whenever the user changes something in the wizard.
+---@field OnWizardOtherButton fun() @Allows you to provide an action when the user clicks on the other button.
+---@field helpString fun() @Allows you to set the help text of the wizard.

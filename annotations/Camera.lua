@@ -1,0 +1,132 @@
+---@class Camera @A Camera is a device through which the player views the world.
+---@field OnPostRender fun() @Event function that Unity calls after a Camera renders the scene.
+---@field stereoActiveEye fun() @Returns the eye that is currently rendering.If called when stereo is not enabled it will return Camera.MonoOrStereoscopicEye.Mono.If called during a camera rendering callback such as OnRenderImage it will return the currently rendering eye.If called outside of a rendering callback and stereo is enabled, it will return the default eye which is Camera.MonoOrStereoscopicEye.Left.
+---@field CameraCallback fun() @Delegate type for camera callbacks.
+---@field nonJitteredProjectionMatrix fun() @Get or set the raw projection matrix with no camera offset (no jittering).
+---@field usePhysicalProperties fun() @Enable [UsePhysicalProperties] to use physical camera properties to compute the field of view and the frustum.
+---@field targetDisplay fun() @Set the target display for this Camera.
+---@field RenderRequest Camera.RenderRequest @A request that can be used for making specific rendering requests.
+---@field depth fun() @Camera's depth in the camera rendering order.
+---@field ResetTransparencySortSettings fun() @Resets this Camera's transparency sort settings to the default. Default transparency settings are taken from GraphicsSettings instead of directly from this Camera.
+---@field previousViewProjectionMatrix fun() @Get the view projection matrix used on the last frame.
+---@field pixelWidth fun() @How wide is the camera in pixels (not accounting for dynamic resolution scaling) (Read Only).
+---@field nearClipPlane fun() @The distance of the near clipping plane from the the Camera, in world units.
+---@field targetTexture fun() @Destination render texture.
+---@field OnPreRender fun() @Event function that Unity calls before a Camera renders the scene.
+---@field FocalLengthToFieldOfView fun() @Converts focal length to field of view.
+---@field ResetCullingMatrix fun() @Make culling queries reflect the camera's built in parameters.
+---@field depthTextureMode fun() @How and if camera generates a depth texture.
+---@field aspect fun() @The aspect ratio (width divided by height).
+---@field FieldOfViewToFocalLength fun() @Converts field of view to focal length. Use either sensor height and vertical field of view or sensor width and horizontal field of view.
+---@field cameraToWorldMatrix fun() @Matrix that transforms from camera space to world space (Read Only).
+---@field GateFitMode Camera.GateFitMode @Enum used to specify how the sensor gate (sensor frame) defined by Camera.sensorSize fits into the resolution gate (render frame).
+---@field MonoOrStereoscopicEye Camera.MonoOrStereoscopicEye @A Camera eye corresponding to the left or right human eye for stereoscopic rendering, or neither for non-stereoscopic rendering.A single Camera can render both left and right views in a single frame. Therefore, this enum describes which eye the Camera is currently rendering when returned by Camera.stereoActiveEye during a rendering callback (such as Camera.OnRenderImage), or which eye to act on when passed into a function.The default value is Camera.MonoOrStereoscopicEye.Left, so Camera.MonoOrStereoscopicEye.Left may be returned by some methods or properties when called outside of rendering if stereoscopic rendering is enabled.
+---@field OnRenderImage fun() @Event function that Unity calls after a Camera has finished rendering, that allows you to modify the Camera's final image.
+---@field CopyStereoDeviceProjectionMatrixToNonJittered fun() @Sets the non-jittered projection matrix, sourced from the VR SDK.
+---@field lensShift fun() @The lens offset of the camera. The lens shift is relative to the sensor size. For example, a lens shift of 0.5 offsets the sensor by half its horizontal size.
+---@field onPreRender fun() @Delegate that you can use to execute custom code before a Camera renders the scene.
+---@field stereoConvergence fun() @Distance to a point where virtual eyes converge.
+---@field farClipPlane fun() @The distance of the far clipping plane from the Camera, in world units.
+---@field SetStereoViewMatrices fun() @Set custom view matrices for both eyes.
+---@field renderingPath fun() @The rendering path that should be used, if possible.
+---@field useOcclusionCulling fun() @Whether or not the Camera will use occlusion culling during rendering.
+---@field CalculateProjectionMatrixFromPhysicalProperties fun() @Calculates the projection matrix from focal length, sensor size, lens shift, near plane distance, far plane distance, and Gate fit parameters.                    To calculate the projection matrix without taking Gate fit into account, use  Camera.GateFitMode. See Also: Camera.GateFitParameters
+---@field SetReplacementShader fun() @Make the camera render with shader replacement.
+---@field SetStereoProjectionMatrix fun() @Sets a custom projection matrix for a specific stereoscopic eye.
+---@field scaledPixelHeight fun() @How tall is the camera in pixels (accounting for dynamic resolution scaling) (Read Only).
+---@field current fun() @The camera we are currently rendering with, for low-level render control only (Read Only).
+---@field allCamerasCount fun() @The number of cameras in the current Scene.
+---@field cullingMatrix fun() @Sets a custom matrix for the camera to use for all culling queries.
+---@field eventMask fun() @Mask to select which layers can trigger events on the camera.
+---@field RemoveCommandBuffers fun() @Remove command buffers from execution at a specified place.
+---@field GetStereoProjectionMatrix fun() @Gets the projection matrix of a specific left or right stereoscopic eye.
+---@field CopyFrom fun() @Makes this camera's settings match other camera.
+---@field velocity fun() @Get the world-space speed of the camera (Read Only).
+---@field GetAllCameras fun() @Fills an array of Camera with the current cameras in the Scene, without allocating a new array.
+---@field ResetAspect fun() @Revert the aspect ratio to the screen's aspect ratio.
+---@field FieldOfViewAxis Camera.FieldOfViewAxis @Enumerates which axis to use when expressing the value for the field of view.                The default value is Camera.FieldOfViewAxis.Vertical.
+---@field SetTargetBuffers fun() @Sets the Camera to render to the chosen buffers of one or more RenderTextures.
+---@field OnRenderObject fun() @OnRenderObject is called after camera has rendered the Scene.
+---@field RemoveAllCommandBuffers fun() @Remove all command buffers set on this camera.
+---@field actualRenderingPath fun() @The rendering path that is currently being used (Read Only).
+---@field clearStencilAfterLightingPass fun() @Should the camera clear the stencil buffer after the deferred light pass?
+---@field layerCullDistances fun() @Per-layer culling distances.
+---@field stereoMirrorMode fun() @Render only once and use resulting image for both eyes.
+---@field ScreenPointToRay fun() @Returns a ray going from camera through a screen point.
+---@field SetStereoViewMatrix fun() @Sets a custom view matrix for a specific stereoscopic eye.
+---@field projectionMatrix fun() @Set a custom projection matrix.
+---@field GetStereoViewMatrix fun() @Gets the left or right view matrix of a specific stereoscopic eye.
+---@field pixelHeight fun() @How tall is the camera in pixels (not accounting for dynamic resolution scaling) (Read Only).
+---@field GetStereoNonJitteredProjectionMatrix fun() @Gets the non-jittered projection matrix of a specific left or right stereoscopic eye.
+---@field onPreCull fun() @Delegate that you can use to execute custom code before a Camera culls the scene.
+---@field ViewportToScreenPoint fun() @Transforms position from viewport space into screen space.
+---@field ResetStereoProjectionMatrices fun() @Reset the camera to using the Unity computed projection matrices for all stereoscopic eyes.
+---@field scene fun() @If not null, the camera will only render the contents of the specified Scene.
+---@field RenderRequestOutputSpace Camera.RenderRequestOutputSpace @Defines in which space render requests will be be outputted.
+---@field fieldOfView fun() @The vertical field of view of the Camera, in degrees.
+---@field ResetFieldOfView fun() @Reset to the default field of view.
+---@field GetGateFittedLensShift fun() @Retrieves the effective lens offset of the camera, including GateFit.                    Fitting the sensor gate and the resolution gate has an impact on the final obliqueness of the projection. If the sensor gate aspect ratio is the same as the resolution gate aspect ratio, then this method returns the same value as the lenshift property. If the camera is not in physical mode, then this methods returns Vector2.zero.
+---@field ResetWorldToCameraMatrix fun() @Make the rendering position reflect the camera's position in the Scene.
+---@field TryGetCullingParameters fun() @Get culling parameters for a camera.
+---@field OnPreCull fun() @Event function that Unity calls before a Camera culls the scene.
+---@field CalculateFrustumCorners fun() @Given viewport coordinates, calculates the view space vectors pointing to the four frustum corners at the specified camera depth.
+---@field transparencySortMode fun() @Transparent object sorting mode.
+---@field overrideSceneCullingMask fun() @Sets the culling maks used to determine which objects from which Scenes to draw.See EditorSceneManager.SetSceneCullingMask.
+---@field pixelRect fun() @Where on the screen is the camera rendered in pixel coordinates.
+---@field transparencySortAxis fun() @An axis that describes the direction along which the distances of objects are measured for the purpose of sorting.
+---@field allowMSAA fun() @MSAA rendering.
+---@field focalLength fun() @The camera focal length, expressed in millimeters. To use this property, enable UsePhysicalProperties.
+---@field AddCommandBufferAsync fun() @Adds a command buffer to the GPU's async compute queues and executes that command buffer when graphics processing reaches a given point.
+---@field VerticalToHorizontalFieldOfView fun() @Converts the vertical field of view (FOV) to the horizontal FOV, based on the value of the aspect ratio parameter.
+---@field OnWillRenderObject fun() @OnWillRenderObject is called for each camera if the object is visible.
+---@field forceIntoRenderTexture fun() @Should camera rendering be forced into a RenderTexture.
+---@field CalculateObliqueMatrix fun() @Calculates and returns oblique near-plane projection matrix.
+---@field areVRStereoViewMatricesWithinSingleCullTolerance fun() @Determines whether the stereo view matrices are suitable to allow for a single pass cull.
+---@field WorldToViewportPoint fun() @Transforms position from world space into viewport space.
+---@field SubmitRenderRequests fun() @Submit a number of Camera.RenderRequests.
+---@field RenderWithShader fun() @Render the camera with shader replacement.
+---@field cullingMask fun() @This is used to render parts of the Scene selectively.
+---@field ViewportPointToRay fun() @Returns a ray going from camera through a viewport point.
+---@field orthographicSize fun() @Camera's half-size when in orthographic mode.
+---@field Render fun() @Render the camera manually.
+---@field RemoveCommandBuffer fun() @Remove command buffer from execution at a specified place.
+---@field sensorSize fun() @The size of the camera sensor, expressed in millimeters.
+---@field GetCommandBuffers fun() @Get command buffers to be executed at a specified place.
+---@field WorldToScreenPoint fun() @Transforms position from world space into screen space.
+---@field backgroundColor fun() @The color with which the screen will be cleared.
+---@field stereoEnabled fun() @Stereoscopic rendering.
+---@field StereoscopicEye Camera.StereoscopicEye @Enum used to specify either the left or the right eye of a stereoscopic camera.
+---@field ViewportToWorldPoint fun() @Transforms position from viewport space into world space.
+---@field orthographic fun() @Is the camera orthographic (true) or perspective (false)?
+---@field ResetStereoViewMatrices fun() @Reset the camera to using the Unity computed view matrices for all stereoscopic eyes.
+---@field onPostRender fun() @Delegate that you can use to execute custom code after a Camera renders the scene.
+---@field SetStereoProjectionMatrices fun() @Sets custom projection matrices for both the left and right stereoscopic eyes.
+---@field ScreenToWorldPoint fun() @Transforms a point from screen space into world space, where world space is defined as the coordinate system at the very top of your game's hierarchy.
+---@field ScreenToViewportPoint fun() @Transforms position from screen space into viewport space.
+---@field commandBufferCount fun() @Number of command buffers set up on this camera (Read Only).
+---@field opaqueSortMode fun() @Opaque object sorting mode.
+---@field hdr fun() @High dynamic range rendering.
+---@field stereoTargetEye fun() @Defines which eye of a VR display the Camera renders into.
+---@field scaledPixelWidth fun() @How wide is the camera in pixels (accounting for dynamic resolution scaling) (Read Only).
+---@field clearFlags fun() @How the camera clears the background.
+---@field ResetReplacementShader fun() @Remove shader replacement from camera.
+---@field ResetProjectionMatrix fun() @Make the projection reflect normal camera's parameters.
+---@field allowHDR fun() @High dynamic range rendering.
+---@field Reset fun() @Revert all camera parameters to default.
+---@field rect fun() @Where on the screen is the camera rendered in normalized coordinates.
+---@field layerCullSpherical fun() @How to perform per-layer culling for a Camera.
+---@field allCameras fun() @Returns all enabled cameras in the Scene.
+---@field RenderToCubemap fun() @Render into a static cubemap from this camera.
+---@field GetGateFittedFieldOfView fun() @Retrieves the effective vertical field of view of the camera, including GateFit.                    Fitting the sensor gate and the resolution gate has an impact on the final field of view. If the sensor gate aspect ratio is the same as the resolution gate aspect ratio or if the camera is not in physical mode, then this method returns the same value as the fieldofview property.
+---@field cameraType fun() @Identifies what kind of camera this is, using the CameraType enum.
+---@field RenderRequestMode Camera.RenderRequestMode @Modes available for submitting when making a render request.
+---@field stereoSeparation fun() @The distance between the virtual eyes. Use this to query or set the current eye separation. Note that most VR devices provide this value, in which case setting the value will have no effect.
+---@field AddCommandBuffer fun() @Add a command buffer to be executed at a specified place.
+---@field useJitteredProjectionMatrixForTransparentRendering fun() @Should the jittered matrix be used for transparency rendering?
+---@field GateFitParameters Camera.GateFitParameters @Wrapper for gate fit parameters
+---@field gateFit fun() @There are two gates for a camera, the sensor gate and the resolution gate. The physical camera sensor gate is defined by the sensorSize property, the resolution gate is defined by the render target area.
+---@field worldToCameraMatrix fun() @Matrix that transforms from world to camera space.
+---@field HorizontalToVerticalFieldOfView fun() @Converts the horizontal field of view (FOV) to the vertical FOV, based on the value of the aspect ratio parameter.
+---@field activeTexture fun() @Gets the temporary RenderTexture target for this Camera.
+---@field allowDynamicResolution fun() @Dynamic Resolution Scaling.
+---@field main fun() @The first enabled Camera component that is tagged MainCamera (Read Only).

@@ -1,0 +1,14 @@
+---@class Video.VideoClip @A container for video data.
+---@field height fun() @The height of the images in the video clip in pixels. (Read Only).
+---@field frameRate fun() @The frame rate of the clip in frames/second. (Read Only).
+---@field frameCount fun() @The length of the VideoClip in frames. (Read Only).
+---@field width fun() @The width of the images in the video clip in pixels. (Read Only).
+---@field originalPath fun() @The video clip path in the project's assets. (Read Only).
+---@field GetAudioSampleRate fun() @Get the audio track sampling rate in Hertz.
+---@field audioTrackCount fun() @Number of audio tracks in the clip.
+---@field pixelAspectRatioDenominator fun() @Denominator of the pixel aspect ratio (num:den). (Read Only).
+---@field pixelAspectRatioNumerator fun() @Numerator of the pixel aspect ratio (num:den). (Read Only).
+---@field length fun() @The length of the video clip in seconds. (Read Only).
+---@field GetAudioLanguage fun() @Get the audio track language.  Can be unknown.
+---@field GetAudioChannelCount fun() @The number of channels in the audio track.  E.g. 2 for a stereo track.
+---@field sRGB fun() @Whether the imported clip contains sRGB color data (Read Only).

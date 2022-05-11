@@ -1,0 +1,14 @@
+---@class Animations.RotationConstraint @Constrains the rotation of an object relative to the rotation of one or more source objects.
+---@field sourceCount fun() @The number of sources set on the component (read-only).
+---@field rotationAtRest fun() @The rotation used when the sources have a total weight of 0.
+---@field SetSources fun() @Sets the list of sources on the component.
+---@field AddSource fun() @Adds a constraint source.
+---@field locked fun() @Locks the offset and rotation at rest.
+---@field GetSource fun() @Gets a constraint source by index.
+---@field rotationAxis fun() @The axes affected by the RotationConstraint.
+---@field constraintActive fun() @Activates or deactivates the constraint.
+---@field RemoveSource fun() @Removes a source from the component.
+---@field SetSource fun() @Sets a source at a specified index.
+---@field GetSources fun() @Gets the list of sources.
+---@field rotationOffset fun() @The offset from the constrained rotation.
+---@field weight fun() @The weight of the constraint component.

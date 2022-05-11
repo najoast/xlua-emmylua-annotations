@@ -1,0 +1,6 @@
+---@class Networking.NetworkEventType @Event that is returned when calling the Networking.NetworkTransport.Receive and Networking.NetworkTransport.ReceiveFromHost functions.
+---@field Nothing fun() @No new event was received.
+---@field DataEvent fun() @Data event received. Indicating that data was received.
+---@field DisconnectEvent fun() @Disconnection event received.
+---@field ConnectEvent fun() @Connection event received. Indicating that a new connection was established.
+---@field BroadcastEvent fun() @Broadcast discovery event received.To obtain sender connection info and possible complimentary message from them, call Networking.NetworkTransport.GetBroadcastConnectionInfo() and Networking.NetworkTransport.GetBroadcastConnectionMessage() functions.

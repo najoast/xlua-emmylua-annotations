@@ -1,0 +1,3 @@
+---@class VFX.VFXOutputEventArgs @This struct holds information about an output event.
+---@field nameId fun() @Stores the nameId of the source output event context that triggered this event.
+---@field eventAttribute fun() @Stores the current event attribute.

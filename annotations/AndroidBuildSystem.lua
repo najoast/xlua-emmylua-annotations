@@ -1,0 +1,4 @@
+---@class AndroidBuildSystem @Type of Android build system.
+---@field ADT fun() @Export ADT (legacy) project. This option is obsolete and no longer supported - please use AndroidBuildSystem.Gradle export instead.
+---@field Gradle fun() @Build APK using Gradle or export Gradle project.
+---@field Internal fun() @Build APK using internal build system.

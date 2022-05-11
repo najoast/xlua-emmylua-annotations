@@ -1,0 +1,2 @@
+---@class Animations.DiscreteEvaluationAttribute @Use this attribute to indicate that a property will be evaluated as a discrete value during animation playback.
+---@field ctor fun() @Use this attribute to indicate that a property will be evaluated as a discrete value during animation playback.

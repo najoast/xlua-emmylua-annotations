@@ -1,0 +1,3 @@
+---@class TextureImporterNormalFilter @Normal map filtering mode for TextureImporter.
+---@field Sobel fun() @Sobel normal map filter.
+---@field Standard fun() @Standard normal map filter.

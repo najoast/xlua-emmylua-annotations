@@ -1,0 +1,3 @@
+---@class AssetDatabase.RefreshImportMode @Options for controlling the Editor's use of parallel processes when it imports assets during an asset database refresh.
+---@field OutOfProcessPerQueue fun() @As many assets as possible are imported in parallel, in import worker processes. Importer queues and dependencies reported by the importer are respected.
+---@field InProcess fun() @All assets are imported in the Editor process, and sequentially.

@@ -1,0 +1,11 @@
+---@class AudioImporter @Audio importer lets you modify AudioClip import settings from editor scripts.
+---@field preloadAudioData fun() @Preloads audio data of the clip when the clip asset is loaded. When this flag is off, scripts have to call AudioClip.LoadAudioData() to load the data before the clip can be played. Properties like length, channels and format are available before the audio data has been loaded.
+---@field GetOverrideSampleSettings fun() @Return the current override settings for the given platform.
+---@field compressionBitrate fun() @Compression bitrate.
+---@field defaultSampleSettings fun() @The default sample settings for the AudioClip importer.
+---@field ContainsSampleSettingsOverride fun() @Returns whether a given build target has its sample settings currently overridden.
+---@field SetOverrideSampleSettings fun() @Sets the override sample settings for the given platform.
+---@field forceToMono fun() @Force audioclips to mono?
+---@field ClearSampleSettingOverride fun() @Clears the sample settings override for the given platform.
+---@field ambisonic fun() @When this flag is set, the audio clip will be treated as being ambisonic.
+---@field loadInBackground fun() @Corresponding to the Load In Background flag in the AudioClip inspector, when this flag is set, the loading of the clip will happen delayed without blocking the main thread.

@@ -1,0 +1,3 @@
+---@class Experimental.GraphView.PlacematContainer.CycleDirection @Use to set the placemat cycling direction.
+---@field Down fun() @Set the placemat cycle direction to down. Use when cycling a placemat down.
+---@field Up fun() @Set the placemat cycle direction to up. Use when cycling a placemat up.

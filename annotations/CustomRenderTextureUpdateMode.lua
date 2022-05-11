@@ -1,0 +1,4 @@
+---@class CustomRenderTextureUpdateMode @Frequency of update or initialization of a Custom Render Texture.
+---@field OnLoad fun() @Initialization/Update will occur once at load time and then can be triggered again by script.
+---@field OnDemand fun() @Initialization/Update will only occur when triggered by the script.
+---@field Realtime fun() @Initialization/Update will occur at every frame.

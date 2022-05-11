@@ -1,0 +1,3 @@
+---@class Rendering.SplashScreen.StopBehavior @The behavior to apply when calling Stop.
+---@field StopImmediate fun() @Immediately stop rendering the SplashScreen.
+---@field FadeOut fun() @Jumps to the final stage of the Splash Screen and performs a fade from the background to the game.

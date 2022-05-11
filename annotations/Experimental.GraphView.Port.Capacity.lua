@@ -1,0 +1,3 @@
+---@class Experimental.GraphView.Port.Capacity @Specify how many edges a port can have connected.
+---@field Multi fun() @Port can have multiple connections.
+---@field Single fun() @Port can only have a single connection.

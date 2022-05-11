@@ -1,0 +1,5 @@
+---@class Build.Reporting.BuildFile @Contains information about a single file produced by the build process.
+---@field size fun() @The total size of the file, in bytes.
+---@field path fun() @The absolute path of the file produced by the build process.
+---@field id fun() @The unique indentifier of the build file.
+---@field role fun() @The role the file plays in the build output.

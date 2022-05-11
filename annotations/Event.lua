@@ -1,0 +1,28 @@
+---@class Event @A UnityGUI event.
+---@field commandName fun() @The name of an ExecuteCommand or ValidateCommand Event.
+---@field mousePosition fun() @The mouse position.
+---@field GetTypeForControl fun() @Get a filtered event type for a given control ID.
+---@field pointerType fun() @The type of pointer that created this event (for example, mouse, touch screen, pen).
+---@field button fun() @Which mouse button was pressed.
+---@field isMouse fun() @Is this event a mouse event? (Read Only)
+---@field type fun() @The type of event.
+---@field Use fun() @Use this event.
+---@field current fun() @The current event that's being processed right now.
+---@field PopEvent fun() @Get the next queued [Event] from the event system.
+---@field KeyboardEvent fun() @Create a keyboard event.
+---@field alt fun() @Is Alt/Option key held down? (Read Only)
+---@field character fun() @The character typed.
+---@field GetEventCount fun() @Returns the current number of events that are stored in the event queue.
+---@field displayIndex fun() @Index of display that the event belongs to.
+---@field command fun() @Is Command/Windows key held down? (Read Only)
+---@field delta fun() @The relative movement of the mouse compared to last event.
+---@field modifiers fun() @Which modifier keys are held down.
+---@field shift fun() @Is Shift held down? (Read Only)
+---@field pressure fun() @How hard stylus pressure is applied.
+---@field capsLock fun() @Is Caps Lock on? (Read Only)
+---@field functionKey fun() @Is the current keypress a function key? (Read Only)
+---@field numeric fun() @Is the current keypress on the numeric keyboard? (Read Only)
+---@field keyCode fun() @The raw key code for keyboard events.
+---@field clickCount fun() @How many consecutive mouse clicks have we received.
+---@field control fun() @Is Control key held down? (Read Only)
+---@field isKey fun() @Is this event a keyboard event? (Read Only)

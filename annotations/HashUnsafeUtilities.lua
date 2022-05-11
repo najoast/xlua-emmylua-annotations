@@ -1,0 +1,2 @@
+---@class HashUnsafeUtilities @Utilities to compute hashes with unsafe code.
+---@field ComputeHash128 fun() @Compute a 128 bit hash based on a data.

@@ -1,0 +1,5 @@
+---@class SkinQuality @The maximum number of bones affecting a single vertex.
+---@field Bone4 fun() @Use 4 bones to deform a single vertex.
+---@field Auto fun() @Chooses the number of bones from the number current QualitySettings. (Default)
+---@field Bone2 fun() @Use 2 bones to deform a single vertex. (The most important bones will be used).
+---@field Bone1 fun() @Use only 1 bone to deform a single vertex. (The most important bone will be used).

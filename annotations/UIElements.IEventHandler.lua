@@ -1,0 +1,5 @@
+---@class UIElements.IEventHandler @Interface for class capable of handling events.
+---@field HasTrickleDownHandlers fun() @Returns true if event handlers, for the event propagation TrickleDown phase, are attached to this object.
+---@field SendEvent fun() @Sends an event to the event handler.
+---@field HasBubbleUpHandlers fun() @Returns true if event handlers for the event propagation BubbleUp phase, have been attached on this object.
+---@field HandleEvent fun() @Handle an event.

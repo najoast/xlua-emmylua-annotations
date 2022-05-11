@@ -1,0 +1,8 @@
+---@class FrameTiming @Struct containing basic FrameTimings and accompanying relevant data.
+---@field cpuTimePresentCalled fun() @This is the CPU clock time at the point Present was called for the current frame.
+---@field heightScale fun() @This was the height scale factor of the Dynamic Resolution system(if used) for the given frame and the linked frame timings.
+---@field cpuFrameTime fun() @The CPU time for a given frame, in ms.
+---@field cpuTimeFrameComplete fun() @This is the CPU clock time at the point GPU finished rendering the frame and interrupted the CPU.
+---@field syncInterval fun() @This was the vsync mode for the given frame and the linked frame timings.
+---@field widthScale fun() @This was the width scale factor of the Dynamic Resolution system(if used) for the given frame and the linked frame timings.
+---@field gpuFrameTime fun() @The GPU time for a given frame, in ms.

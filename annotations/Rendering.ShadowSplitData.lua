@@ -1,0 +1,7 @@
+---@class Rendering.ShadowSplitData @Describes the culling information for a given shadow split (e.g. directional cascade).
+---@field maximumCullingPlaneCount fun() @The maximum number of culling planes.
+---@field cullingSphere fun() @The culling sphere.  The first three components of the vector describe the sphere center, and the last component specifies the radius.
+---@field GetCullingPlane fun() @Gets a culling plane.
+---@field cullingPlaneCount fun() @The number of culling planes.
+---@field shadowCascadeBlendCullingFactor fun() @A multiplier applied to the radius of the culling sphere.Values must be in the range 0 to 1. With higher values, Unity culls more objects. Lower makes the cascades share more rendered objects. Using lower values allows blending between different cascades as they then share objects.
+---@field SetCullingPlane fun() @Sets a culling plane.

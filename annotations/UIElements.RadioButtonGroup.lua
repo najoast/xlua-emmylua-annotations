@@ -1,0 +1,6 @@
+---@class UIElements.RadioButtonGroup @A control that allows single selection out of a logical group of RadioButton elements. Selecting one will deselect the others.
+---@field ctor fun() @Initializes and returns an instance of RadioButtonGroup.
+---@field ussClassName fun() @USS class name for RadioButtonGroup elements.
+---@field choices fun() @The list of available choices in the group.
+---@field UxmlFactory fun() @Instantiates a RadioButtonGroup using data from a UXML file.
+---@field UxmlTraits UIElements.RadioButtonGroup.UxmlTraits @Defines UxmlTraits for the RadioButtonGroup.

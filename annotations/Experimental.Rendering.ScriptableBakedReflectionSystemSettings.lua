@@ -1,0 +1,2 @@
+---@class Experimental.Rendering.ScriptableBakedReflectionSystemSettings @Global settings for the scriptable baked reflection system.
+---@field system fun() @The currently active ScriptableBakedReflectionSystem, see IScriptableBakedReflectionSystem.

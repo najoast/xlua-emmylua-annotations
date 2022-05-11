@@ -1,0 +1,4 @@
+---@class ClusterNetwork @A helper class that contains static method to inquire status of Unity Cluster.
+---@field isMasterOfCluster fun() @Check whether the current instance is a master node in the cluster network.
+---@field isDisconnected fun() @Check whether the current instance is disconnected from the cluster network.
+---@field nodeIndex fun() @To acquire or set the node index of the current machine from the cluster network.

@@ -1,0 +1,4 @@
+---@class Unity.Profiling.Editor.ProfilerModuleMetadataAttribute @Provides metadata related to a ProfilerModule, such as its name and icon path.
+---@field DisplayName fun() @The attributed Profiler module’s display name.
+---@field ctor fun() @Initializes and returns an instance of ProfilerModuleMetadataAttribute.
+---@field IconPath fun() @The path to the attributed Profiler module’s icon.

@@ -1,0 +1,4 @@
+---@class UIElements.StyleTextShadow @Style value that can be either a TextShadow or a StyleKeyword.
+---@field value fun() @The TextShadow value.
+---@field ctor fun() @Creates from either a TextShadow or StyleKeyword.
+---@field keyword fun() @The style keyword.

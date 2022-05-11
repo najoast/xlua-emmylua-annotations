@@ -1,0 +1,2 @@
+---@class Search.SearchProposition @Search propositions are used to display choices to the user to add new filters to a search query.
+---@field ctor fun() @Create a new search proposition.

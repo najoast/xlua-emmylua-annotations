@@ -1,0 +1,3 @@
+---@class AnimationClipPair @This class defines a pair of clips used by AnimatorOverrideController.
+---@field overrideClip fun() @The override animation clip.
+---@field originalClip fun() @The original clip from the controller.

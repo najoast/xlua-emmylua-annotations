@@ -1,0 +1,2 @@
+---@class IntegratedSubsystemDescriptor @Information about a subsystem that can be queried before creating a subsystem instance.
+---@field id fun() @A unique string that identifies the subsystem that this Descriptor can create.

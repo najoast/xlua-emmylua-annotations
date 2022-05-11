@@ -1,0 +1,8 @@
+---@class Rendering.VirtualTexturing.Procedural.GPUTextureStackRequestParameters @A single procedural virtual texture tile generation request, to be filled in GPU memory.
+---@field numLayers fun() @Number of layers inside the request.
+---@field x fun() @X offset of the requested rectangle.
+---@field level fun() @Miplevel of the requested rectangle.
+---@field GetLayer fun() @Get the request properties of one of the requested layers.
+---@field y fun() @Y offset of the requested rectangle.
+---@field width fun() @Width of the requested rectangle.
+---@field height fun() @Height of the requested rectangle.

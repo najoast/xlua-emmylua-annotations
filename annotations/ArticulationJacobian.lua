@@ -1,0 +1,6 @@
+---@class ArticulationJacobian @The floating point dense Jacobian matrix of the articulation body hierarchy.
+---@field elements fun() @List of floats representing Jacobian matrix.
+---@field rows fun() @Number of rows of the matrix is equal to the number of articulation bodies in hierarchy times 6: 3 rows of linear/positional DOF and 3 rows of angular/rotational DOF for each body.
+---@field Index_operator fun() @Gets the [row, col] element of the matrix.
+---@field columns fun() @Number of columns of the matrix is equal to the total number of all joint degrees of freedom(DOF), plus 6 if ArticulationBody.immovable is false.
+---@field ctor fun() @Initializes nRows X nCols Jacobian matrix to zeroes.

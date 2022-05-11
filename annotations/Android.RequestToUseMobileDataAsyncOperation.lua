@@ -1,0 +1,4 @@
+---@class Android.RequestToUseMobileDataAsyncOperation @Represents an asynchronous operation that requests to use mobile data to download Android asset packs.
+---@field isDone fun() @Checks if the operation is finished.
+---@field keepWaiting fun() @Checks if the operation is still running.
+---@field result fun() @Indicates whether the end user allowed the application to use mobile data to download Android asset packs.

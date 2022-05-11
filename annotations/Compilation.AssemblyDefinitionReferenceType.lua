@@ -1,0 +1,3 @@
+---@class Compilation.AssemblyDefinitionReferenceType @Assembly definition file reference type.
+---@field Name fun() @Assembly definition file assembly name reference.
+---@field Guid fun() @Assembly definition file GUID reference.

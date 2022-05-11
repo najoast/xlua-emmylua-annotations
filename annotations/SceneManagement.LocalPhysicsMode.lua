@@ -1,0 +1,4 @@
+---@class SceneManagement.LocalPhysicsMode @Provides options for 2D and 3D local physics.
+---@field None fun() @No local 2D or 3D physics Scene will be created.
+---@field Physics2D fun() @A local 2D physics Scene will be created and owned by the Scene.
+---@field Physics3D fun() @A local 3D physics Scene will be created and owned by the Scene.

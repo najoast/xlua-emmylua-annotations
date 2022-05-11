@@ -1,0 +1,9 @@
+---@class IHVImageFormatImporter @Use IHVImageFormatImporter to modify Texture2D import settings for Textures in IHV (Independent Hardware Vendor) formats such as .DDS and .PVR from Editor scripts.
+---@field wrapMode fun() @Texture coordinate wrapping mode.
+---@field wrapModeW fun() @Texture W coordinate wrapping mode for Texture3D.
+---@field wrapModeV fun() @Texture V coordinate wrapping mode.
+---@field wrapModeU fun() @Texture U coordinate wrapping mode.
+---@field streamingMipmapsPriority fun() @Relative priority for this texture when reducing memory size in order to hit the memory budget.
+---@field isReadable fun() @Is texture data readable from scripts.
+---@field streamingMipmaps fun() @Enable mipmap streaming for this texture.
+---@field filterMode fun() @Filtering mode of the texture.

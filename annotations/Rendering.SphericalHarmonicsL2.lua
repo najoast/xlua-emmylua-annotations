@@ -1,0 +1,10 @@
+---@class Rendering.SphericalHarmonicsL2 @Spherical harmonics up to the second order (3 bands, 9 coefficients).
+---@field AddDirectionalLight fun() @Add directional light to probe data.
+---@field Clear fun() @Clears SH probe to zero.
+---@field Index_operator fun() @Access individual SH coefficients.
+---@field operator_eq fun() @Returns true if SH probes are equal.
+---@field Evaluate fun() @Evaluates the Spherical Harmonics for each of the given directions. The result from the first direction is written into the first element of results, the result from the second direction is written into the second element of results, and so on. The array size of directions and results must match and directions must be normalized.
+---@field AddAmbientLight fun() @Add ambient lighting to probe data.
+---@field operator_add fun() @Adds two SH probes.
+---@field operator_ne fun() @Returns true if SH probes are different.
+---@field operator_multiply fun() @Scales SH by a given factor.

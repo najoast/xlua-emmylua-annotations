@@ -1,0 +1,4 @@
+---@class MatchTargetWeightMask @Use this struct to specify the position and rotation weight mask for Animator.MatchTarget.
+---@field rotationWeight fun() @Rotation weight.
+---@field ctor fun() @MatchTargetWeightMask contructor.
+---@field positionXYZWeight fun() @Position XYZ weight.

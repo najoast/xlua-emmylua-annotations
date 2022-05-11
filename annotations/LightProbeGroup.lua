@@ -1,0 +1,3 @@
+---@class LightProbeGroup @Light Probe Group.
+---@field dering fun() @Removes ringing from probes if enabled.
+---@field probePositions fun() @Editor only function to access and modify probe positions.

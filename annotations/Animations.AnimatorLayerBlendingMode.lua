@@ -1,0 +1,3 @@
+---@class Animations.AnimatorLayerBlendingMode @Specifies how the layer is blended with the previous layers.
+---@field Override fun() @Animations overrides to the previous layers.
+---@field Additive fun() @Animations are added to the previous layers.

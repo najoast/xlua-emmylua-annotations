@@ -1,0 +1,3 @@
+---@class ModelImporterSecondaryUVMarginMethod @Methods for handling margins during lightmap UV generation in ModelImporter.
+---@field Manual fun() @Specify pack margin manually.
+---@field Calculate fun() @Calculate suitable lightmap UV margins based on expected lightmap resolution and object scale.

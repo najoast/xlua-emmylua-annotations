@@ -1,0 +1,9 @@
+---@class Windows.Speech.PhraseRecognitionSystem @Phrase recognition system is responsible for managing phrase recognizers and dispatching recognition events to them.
+---@field StatusDelegate fun() @Delegate for OnStatusChanged event.
+---@field Restart fun() @Attempts to restart the phrase recognition system.
+---@field Shutdown fun() @Shuts phrase recognition system down.
+---@field isSupported fun() @Returns whether speech recognition is supported on the machine that the application is running on.
+---@field OnStatusChanged fun() @Event which occurs when the status of the phrase recognition system changes.
+---@field OnError fun() @Event that gets invoked when phrase recognition system encounters an error.
+---@field Status fun() @Returns the current status of the phrase recognition system.
+---@field ErrorDelegate fun() @Delegate for OnError event.

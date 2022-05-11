@@ -1,0 +1,13 @@
+---@class EditorTools.ToolManager @This class manipulates editor tools in the Scene view.
+---@field SetActiveTool fun() @Sets the active EditorTool.
+---@field activeContextType fun() @Gets the type of EditorToolContext that is currently active. The default value is GameObjectToolContext.
+---@field SetActiveContext fun() @Sets the active EditorToolContext.
+---@field RestorePreviousTool fun() @Sets the last-used EditorTool as the active tool.
+---@field activeToolType fun() @Gets the type of the EditorTool that is currently active.
+---@field activeContextChanged fun() @Defines an event handler for when the active EditorToolContext changes.
+---@field RestorePreviousPersistentTool fun() @Sets the last-used global EditorTool as the active tool.
+---@field IsActiveTool fun() @Test if an EditorTool is currently the active tool.
+---@field IsActiveContext fun() @Test if an EditorToolContext is currently the active tool context.
+---@field activeContextChanging fun() @Defines an event handler for when the active EditorToolContext will change.
+---@field activeToolChanged fun() @Defines an event handler for when the active tool changes.
+---@field activeToolChanging fun() @Defines an event handler for when the active tool changes.

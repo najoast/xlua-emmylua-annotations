@@ -1,0 +1,8 @@
+---@class TextCore.Glyph @A Glyph is the visual representation of a text element or character.
+---@field ctor fun() @Constructor for a new glyph.
+---@field Compare fun() @Compares two glyphs to determine if they have the same values.
+---@field metrics fun() @The metrics that define the size, position and spacing of a glyph when performing text layout.
+---@field atlasIndex fun() @The index of the atlas texture that contains this glyph.
+---@field glyphRect fun() @A rectangle that defines the position of a glyph within an atlas texture.
+---@field index fun() @The index of the glyph in the source font file.
+---@field scale fun() @The relative scale of the glyph. The default value is 1.0.

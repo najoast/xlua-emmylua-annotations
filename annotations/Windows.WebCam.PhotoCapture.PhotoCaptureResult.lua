@@ -1,0 +1,4 @@
+---@class Windows.WebCam.PhotoCapture.PhotoCaptureResult @A data container that contains the result information of a photo capture operation.
+---@field success fun() @Indicates whether or not the operation was successful.
+---@field resultType fun() @A generic result that indicates whether or not the PhotoCapture operation succeeded.
+---@field hResult fun() @The specific HResult value.

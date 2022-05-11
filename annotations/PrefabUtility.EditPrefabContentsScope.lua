@@ -1,0 +1,4 @@
+---@class PrefabUtility.EditPrefabContentsScope @Disposable helper struct for automatically loading the contents of a Prefab file, saving the contents and unloading the contents again.
+---@field assetPath fun() @File path of the Prefab asset.
+---@field ctor fun() @
+---@field prefabContentsRoot fun() @The root GameObject of the Prefab contents.

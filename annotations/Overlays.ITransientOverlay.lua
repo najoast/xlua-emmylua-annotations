@@ -1,0 +1,2 @@
+---@class Overlays.ITransientOverlay @Transient Overlays are a type of Overlay that is not controlled by a user, and only drawn in the active Scene View when requested by the visible property. Implementing ITransientOverlay in an Overlay class designates it for this special behavior.
+---@field visible fun() @Use visible to enable or disable the rendering of this Overlay.

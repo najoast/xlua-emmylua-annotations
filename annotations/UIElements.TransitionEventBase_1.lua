@@ -1,0 +1,5 @@
+---@class UIElements.TransitionEventBase_1 @Transition events abstract base class.
+---@field GetPooled fun() @Gets an event from the event pool and initializes it with the given values. Use this function instead of creating new events. Events obtained from this method should be released back to the pool using Dispose().
+---@field elapsedTime fun() @The number of seconds the transition has been running, excluding delay phase time.
+---@field stylePropertyNames fun() @The names of the properties associated with the transition.
+---@field AffectsProperty fun() @Determines whether the ITransitionEvent affects the specified property.

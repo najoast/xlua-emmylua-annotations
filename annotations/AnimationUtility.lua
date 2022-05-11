@@ -1,0 +1,31 @@
+---@class AnimationUtility @Editor utility functions for modifying animation clips.
+---@field CalculateTransformPath fun() @Retrieves the path from the root transform to the target transform.
+---@field GetEditorCurve fun() @Retrieves the float curve that the binding points to.
+---@field TangentMode AnimationUtility.TangentMode @Tangent constraints on Keyframe.
+---@field GetGenerateMotionCurves fun() @Retrives whether the animation clip is set to generate root motion curves.
+---@field SetObjectReferenceCurves fun() @Adds, modifies, or removes object references curve in an animation clip.
+---@field GetObjectReferenceCurve fun() @Retrieves the object reference curve that the binding points to.
+---@field SetAnimationClips fun() @Sets the array of animation clips to be referenced in the Animation component.
+---@field GetKeyLeftTangentMode fun() @Retrieves the left tangent mode of the keyframe at a specific index.
+---@field SetObjectReferenceCurve fun() @Adds, modifies, or removes an object reference curve in an animation clip.
+---@field SetKeyRightTangentMode fun() @Change the specified keyframe tangent mode.
+---@field GetAnimatableBindings fun() @Retrieves the animatable bindings for a specific GameObject.
+---@field OnCurveWasModified fun() @Triggered when an animation curve, in an animation clip, has been modified.
+---@field GetAllCurves fun() @Retrieves all curves from a specific animation clip.
+---@field SetKeyBroken fun() @Change the specified keyframe broken tangent flag.
+---@field SetAnimationEvents fun() @Replaces all animation events in the animation clip.
+---@field SetGenerateMotionCurves fun() @Sets whether the animation clip generates root motion curves.
+---@field SetAdditiveReferencePose fun() @Sets the additive reference pose from referenceClip at time for animation clip clip.
+---@field onCurveWasModified fun() @Called when an animation curve, in an animation clip, is modified.
+---@field GetFloatValue fun() @Retrieves the current float value by sampling a curve value on a specific GameObject.
+---@field SetKeyLeftTangentMode fun() @Change the specified keyframe tangent mode.
+---@field GetKeyRightTangentMode fun() @Retrieves the right tangent mode of the keyframe at a specific index.
+---@field SetEditorCurve fun() @Adds, modifies, or removes an editor float curve in an animation clip.
+---@field GetObjectReferenceCurveBindings fun() @Retrieves the object reference curve bindings stored in the animation clip.
+---@field SetEditorCurves fun() @Adds, modifies, or removes multiple editor float curves in an animation clip.
+---@field GetKeyBroken fun() @Retrieves the broken tangent flag for a specfic keyframe.
+---@field GetAnimatedObject fun() @Retrieves the animated object that the binding points to.
+---@field GetAnimationClips fun() @Retrieves an array of animation clips associated with a GameObject or component.
+---@field CurveModifiedType fun() @Describes the type of modification that caused OnCurveWasModified to fire.
+---@field GetCurveBindings fun() @Retrieves the float curve bindings in an animation clip.
+---@field GetAnimationEvents fun() @Retrieves all animation events associated with an animation clip.

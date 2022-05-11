@@ -1,0 +1,5 @@
+---@class VRTextureUsage @This enum describes how the RenderTexture is used as a VR eye texture. Instead of using the values of this enum manually, use the value returned by eyeTextureDesc or other VR functions returning a RenderTextureDescriptor.
+---@field None fun() @The RenderTexture is not a VR eye texture. No special rendering behavior will occur.
+---@field DeviceSpecific fun() @The texture used by an external XR provider.  The provider is responsible for defining the texture's layout and use.
+---@field OneEye fun() @This texture corresponds to a single eye on a stereoscopic display.
+---@field TwoEyes fun() @This texture corresponds to two eyes on a stereoscopic display. This will be taken into account when using Graphics.Blit and other rendering functions.

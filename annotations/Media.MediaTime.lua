@@ -1,0 +1,6 @@
+---@class Media.MediaTime @Time representation for use with media containers.
+---@field count fun() @The sample count for the time value.
+---@field ctor fun() @Creates a time value with an integer number of seconds, using 1Hz for the rate.
+---@field rate fun() @The rate used for converting the count into seconds.
+---@field operator_ fun() @Returns the time value expressed as a floating point number of seconds.
+---@field Invalid fun() @Invalid time value.

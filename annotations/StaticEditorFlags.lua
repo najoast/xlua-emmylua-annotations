@@ -1,0 +1,9 @@
+---@class StaticEditorFlags @Describes which Unity systems consider the GameObject as static, and include the GameObject in their precomputations in the Unity Editor.
+---@field OccludeeStatic fun() @Mark the GameObject as a Static Occludee in the occlusion culling system.
+---@field NavigationStatic fun() @Include the GameObject when precomputing navigation data.
+---@field ContributeGI fun() @Include the target Mesh Renderer in global illumination calculations.
+---@field ReflectionProbeStatic fun() @Include this GameObject when when precomputing data for Reflection Probes whose Type property is set to Baked.
+---@field LightmapStatic fun() @Include the GameObject when precomputing lighting data.
+---@field OffMeshLinkGeneration fun() @Attempt to generate an Off-Mesh Link that starts from this GameObject when precomputing navigation data.
+---@field BatchingStatic fun() @Combine the GameObject's Mesh with other eligible Meshes, to potentially reduce runtime rendering costs.
+---@field OccluderStatic fun() @Mark the GameObject as a Static Occluder in the occlusion culling system.

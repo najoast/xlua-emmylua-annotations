@@ -1,0 +1,5 @@
+---@class Rendering.SynchronisationStageFlags @Describes the various stages of GPU processing against which the GraphicsFence can be set and waited against.
+---@field ComputeProcessing fun() @All compute shader dispatch operations.
+---@field VertexProcessing fun() @All aspects of vertex processing in the GPU.
+---@field PixelProcessing fun() @All aspects of pixel processing in the GPU.
+---@field AllGPUOperations fun() @All previous GPU operations (vertex, pixel and compute).

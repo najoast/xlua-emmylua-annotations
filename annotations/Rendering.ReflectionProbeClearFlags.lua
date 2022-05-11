@@ -1,0 +1,3 @@
+---@class Rendering.ReflectionProbeClearFlags @Values for ReflectionProbe.clearFlags, determining what to clear when rendering a ReflectionProbe.
+---@field SolidColor fun() @Clear with a background color.
+---@field Skybox fun() @Clear with the skybox.

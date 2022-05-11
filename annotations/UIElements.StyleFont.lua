@@ -1,0 +1,4 @@
+---@class UIElements.StyleFont @Style value that can be either a Font or a StyleKeyword.
+---@field value fun() @The Font value.
+---@field ctor fun() @Creates from a Font or StyleKeyword.
+---@field keyword fun() @The style keyword.

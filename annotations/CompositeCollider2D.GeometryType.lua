@@ -1,0 +1,3 @@
+---@class CompositeCollider2D.GeometryType @Specifies the type of geometry the Composite Collider generates.
+---@field Polygons fun() @Sets the Composite Collider to generate closed outlines for the merged Collider geometry consisting of convex polygon shapes.
+---@field Outlines fun() @Sets the Composite Collider to generate closed outlines for the merged Collider geometry consisting of only edges.

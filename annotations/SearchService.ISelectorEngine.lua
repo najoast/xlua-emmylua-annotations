@@ -1,0 +1,3 @@
+---@class SearchService.ISelectorEngine @The base interface for search engines that implement an object select operation.
+---@field SelectObject fun() @This function is called when a window must be opened to perform a search and select operation.
+---@field SetSearchFilter fun() @This function is called when the initial search text for the object selector window is set.

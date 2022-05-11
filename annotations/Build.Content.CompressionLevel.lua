@@ -1,0 +1,7 @@
+---@class Build.Content.CompressionLevel @Enum to indicate if compression should emphasize speed or size.
+---@field Fastest fun() @Content should be compressed as fast as possible.
+---@field Normal fun() @Content should be ballanced between size and speed.
+---@field None fun() @None. Defaults to Normal.
+---@field High fun() @Content should be compressed small.
+---@field Maximum fun() @Content should be compressed as small as possible.
+---@field Fast fun() @Content should be compressed as fast.

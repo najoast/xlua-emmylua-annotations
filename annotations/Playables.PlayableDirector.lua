@@ -1,0 +1,27 @@
+---@class Playables.PlayableDirector @Instantiates a PlayableAsset and controls playback of Playable objects.
+---@field SetGenericBinding fun() @Sets the binding of a reference object from a PlayableBinding.
+---@field stopped fun() @Event that is raised when a PlayableDirector component has stopped.
+---@field DeferredEvaluate fun() @Tells the PlayableDirector to evaluate it's PlayableGraph on the next update.
+---@field Pause fun() @Pauses playback of the currently running playable.
+---@field playOnAwake fun() @Whether the playable asset will start playing back as soon as the component awakes.
+---@field timeUpdateMode fun() @Controls how time is incremented when playing back.
+---@field Stop fun() @Stops playback of the current Playable and destroys the corresponding graph.
+---@field GetReferenceValue fun() @Retreives an ExposedReference binding.
+---@field SetReferenceValue fun() @Sets an ExposedReference value.
+---@field GetGenericBinding fun() @Returns a binding to a reference object.
+---@field RebuildGraph fun() @Discards the existing PlayableGraph and creates a new instance.
+---@field ClearGenericBinding fun() @Clears the binding of a reference object.
+---@field state fun() @The current playing state of the component. (Read Only)
+---@field extrapolationMode fun() @Controls how the time is incremented when it goes beyond the duration of the playable.
+---@field Play fun() @Instatiates a Playable using the provided PlayableAsset and starts playback.
+---@field time fun() @The component's current time. This value is incremented according to the PlayableDirector.timeUpdateMode when it is playing. You can also change this value manually.
+---@field playableAsset fun() @The PlayableAsset that is used to instantiate a playable for playback.
+---@field Resume fun() @Resume playing a paused playable.
+---@field initialTime fun() @The time at which the Playable should start when first played.
+---@field Evaluate fun() @Evaluates the currently playing Playable at  the current time.
+---@field duration fun() @The duration of the Playable in seconds.
+---@field RebindPlayableGraphOutputs fun() @Rebinds each PlayableOutput of the PlayableGraph.
+---@field ClearReferenceValue fun() @Clears an exposed reference value.
+---@field paused fun() @Event that is raised when a PlayableDirector component has paused.
+---@field played fun() @Event that is raised when a PlayableDirector component has begun playing.
+---@field playableGraph fun() @The PlayableGraph created by the PlayableDirector.

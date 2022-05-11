@@ -1,0 +1,5 @@
+---@class MPE.ProcessEvent @Enum that represents the events a RoleProvider can receive.
+---@field Shutdown fun() @A new Process is about to shut down.
+---@field AfterDomainReload fun() @Domain reload occurs.
+---@field Create fun() @A new Process is created.
+---@field Initialize fun() @A new Process is initialized.

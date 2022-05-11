@@ -1,0 +1,5 @@
+---@class VFX.VFXCameraBufferTypes @This enumeration describes Camera buffer types.
+---@field None fun() @No Buffer.
+---@field Color fun() @The Camera's color buffer.
+---@field Normal fun() @The Camera's normal buffer.
+---@field Depth fun() @The Camera's depth buffer.

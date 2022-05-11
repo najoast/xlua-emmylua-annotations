@@ -1,0 +1,11 @@
+---@class PhysicsScene @Represents a single instance of a 3D physics Scene.
+---@field SphereCast fun() @Casts a sphere along a ray and returns detailed information on what was hit.
+---@field BoxCast fun() @Casts the box along a ray and returns detailed information on what was hit.
+---@field OverlapCapsule fun() @Check the given capsule against the physics world and return all overlapping colliders in the user-provided buffer.
+---@field IsEmpty fun() @Gets whether the physics Scene is empty or not.
+---@field OverlapBox fun() @Find all colliders touching or inside of the given box, and store them into the buffer.
+---@field Raycast fun() @Casts a ray, from point origin, in direction direction, of length maxDistance, against all colliders in the Scene.
+---@field IsValid fun() @Gets whether the physics Scene is valid or not.
+---@field CapsuleCast fun() @Casts a capsule against all colliders in this physics scene and returns detailed information on what was hit.
+---@field OverlapSphere fun() @Computes and stores colliders touching or inside the sphere into the provided buffer.
+---@field Simulate fun() @Simulate physics associated with this PhysicsScene.

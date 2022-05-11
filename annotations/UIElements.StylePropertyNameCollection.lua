@@ -1,0 +1,4 @@
+---@class UIElements.StylePropertyNameCollection @Collection of StylePropertyName.
+---@field Contains fun() @Determines whether a StylePropertyNameCollection contains the specified element.
+---@field Enumerator UIElements.StylePropertyNameCollection.Enumerator @Enumerates the elements of a StylePropertyNameCollection.
+---@field GetEnumerator fun() @Returns an enumerator that iterates through the StylePropertyNameCollection.

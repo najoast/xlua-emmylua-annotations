@@ -1,0 +1,2 @@
+---@class CompressionLevel @Compression Levels relate to how much time should be spent compressing Assets into an Asset Bundle.
+---@field None fun() @No compression.

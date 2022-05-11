@@ -1,0 +1,11 @@
+---@class Networking.Match.MatchInfoSnapshot @A class describing the match information as a snapshot at the time the request was processed on the MatchMaker.
+---@field currentSize fun() @The current number of players in the match.
+---@field averageEloScore fun() @The average Elo score of the match.
+---@field matchAttributes fun() @The collection of match attributes on this match.
+---@field name fun() @The text name for this match.
+---@field networkId fun() @The network ID for this match.
+---@field isPrivate fun() @Describes if the match is private. Private matches are unlisted in ListMatch results.
+---@field maxSize fun() @The maximum number of players this match can grow to.
+---@field directConnectInfos fun() @The collection of direct connect info classes describing direct connection information supplied to the MatchMaker.
+---@field hostNodeId fun() @The NodeID of the host for this match.
+---@field MatchInfoDirectConnectSnapshot Networking.Match.MatchInfoSnapshot.MatchInfoDirectConnectSnapshot @A class describing one member of a match and what direct connect information other clients have supplied.

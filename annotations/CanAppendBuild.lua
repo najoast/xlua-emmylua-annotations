@@ -1,0 +1,4 @@
+---@class CanAppendBuild @Whether you can append an existing build using BuildOptions.AcceptExternalModificationsToPlayer.
+---@field Unsupported fun() @The target platform does not support appending builds.
+---@field No fun() @The target platform supports appending builds, and the build is not in a valid state.
+---@field Yes fun() @The target platform supports appending builds, and the build can be appended.

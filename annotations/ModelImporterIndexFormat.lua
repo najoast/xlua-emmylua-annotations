@@ -1,0 +1,4 @@
+---@class ModelImporterIndexFormat @Format of the imported mesh index buffer data.
+---@field Auto fun() @Use 16 or 32 bit index buffer depending on mesh size.
+---@field UInt32 fun() @Use 32 bit index buffer.
+---@field UInt16 fun() @Use 16 bit index buffer.

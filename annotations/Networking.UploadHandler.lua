@@ -1,0 +1,5 @@
+---@class Networking.UploadHandler @Helper object for UnityWebRequests. Manages the buffering and transmission of body data during HTTP requests.
+---@field data fun() @The raw data which will be transmitted to the remote server as body data. (Read Only)
+---@field Dispose fun() @Signals that this UploadHandler is no longer being used, and should clean up any resources it is using.
+---@field contentType fun() @Determines the default Content-Type header which will be transmitted with the outbound HTTP request.
+---@field progress fun() @Returns the proportion of data uploaded to the remote server compared to the total amount of data to upload. (Read Only)

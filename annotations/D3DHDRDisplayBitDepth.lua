@@ -1,0 +1,3 @@
+---@class D3DHDRDisplayBitDepth @The type for the number of bits to be used when an HDR display is active in each color channel of swap chain buffers. The bit count also defines the method Unity uses to render content to the display.
+---@field D3DHDRDisplayBitDepth10 fun() @Unity will use R10G10B10A2 buffer format and Rec2020 primaries with ST2084 PQ encoding.
+---@field D3DHDRDisplayBitDepth16 fun() @Unity will use R16G16B16A16 buffer format and Rec709 primaries with linear color (no encoding).

@@ -1,0 +1,3 @@
+---@class AudioHighPassFilter @The Audio High Pass Filter passes high frequencies of an AudioSource, and cuts off signals with frequencies lower than the Cutoff Frequency.
+---@field cutoffFrequency fun() @Highpass cutoff frequency in hz. 10.0 to 22000.0. Default = 5000.0.
+---@field highpassResonanceQ fun() @Determines how much the filter's self-resonance isdampened.

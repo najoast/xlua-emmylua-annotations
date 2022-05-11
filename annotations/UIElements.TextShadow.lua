@@ -1,0 +1,4 @@
+---@class UIElements.TextShadow @Script interface for VisualElement text-shadow style property IStyle.textShadow.
+---@field color fun() @The color of the shadow.
+---@field offset fun() @The offset of the shadow.
+---@field blurRadius fun() @The blur radius of the shadow.

@@ -1,0 +1,26 @@
+---@class Rendering.CameraEvent @Defines a place in camera's rendering to attach Rendering.CommandBuffer objects to.
+---@field BeforeDepthTexture fun() @Before camera's depth texture is generated.
+---@field AfterHaloAndLensFlares fun() @After halo and lens flares.
+---@field AfterSkybox fun() @After skybox is drawn.
+---@field AfterImageEffectsOpaque fun() @After image effects that happen between opaque &amp; transparent objects.
+---@field BeforeForwardAlpha fun() @Before transparent objects in forward rendering.
+---@field AfterForwardAlpha fun() @After transparent objects in forward rendering.
+---@field AfterForwardOpaque fun() @After opaque objects in forward rendering.
+---@field AfterDepthNormalsTexture fun() @After camera's depth+normals texture is generated.
+---@field AfterEverything fun() @After camera has done rendering everything.
+---@field AfterReflections fun() @After reflections pass in deferred rendering.
+---@field BeforeSkybox fun() @Before skybox is drawn.
+---@field BeforeReflections fun() @Before reflections pass in deferred rendering.
+---@field BeforeForwardOpaque fun() @Before opaque objects in forward rendering.
+---@field BeforeHaloAndLensFlares fun() @Before halo and lens flares.
+---@field BeforeLighting fun() @Before lighting pass in deferred rendering.
+---@field BeforeImageEffects fun() @Before image effects.
+---@field BeforeImageEffectsOpaque fun() @Before image effects that happen between opaque &amp; transparent objects.
+---@field BeforeGBuffer fun() @Before deferred rendering G-buffer is rendered.
+---@field BeforeFinalPass fun() @Before final geometry pass in deferred lighting.
+---@field BeforeDepthNormalsTexture fun() @Before camera's depth+normals texture is generated.
+---@field AfterGBuffer fun() @After deferred rendering G-buffer is rendered.
+---@field AfterLighting fun() @After lighting pass in deferred rendering.
+---@field AfterFinalPass fun() @After final geometry pass in deferred lighting.
+---@field AfterImageEffects fun() @After image effects.
+---@field AfterDepthTexture fun() @After camera's depth texture is generated.

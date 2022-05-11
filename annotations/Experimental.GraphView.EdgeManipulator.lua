@@ -1,0 +1,8 @@
+---@class Experimental.GraphView.EdgeManipulator @Edge manipulator used to drag edges off ports and reconnect them elsewhere.
+---@field OnMouseMove fun() @Handle mouse move event.
+---@field ctor fun() @EdgeManipulator's constructor.
+---@field OnKeyDown fun() @Handle key down event.
+---@field RegisterCallbacksOnTarget fun() @Called to register click event callbacks on the target element.
+---@field OnMouseDown fun() @Handle mouse down event.
+---@field UnregisterCallbacksFromTarget fun() @Called to unregister event callbacks from the target element.
+---@field OnMouseUp fun() @Handle mouse up event.

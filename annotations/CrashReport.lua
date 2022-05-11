@@ -1,0 +1,7 @@
+---@class CrashReport @Holds data for a single application crash event and provides access to all gathered crash reports.
+---@field reports fun() @Returns all currently available reports in a new array.
+---@field lastReport fun() @Returns last crash report, or null if no reports are available.
+---@field text fun() @Crash report data as formatted text.
+---@field time fun() @Time, when the crash occured.
+---@field Remove fun() @Remove report from available reports list.
+---@field RemoveAll fun() @Remove all reports from available reports list.

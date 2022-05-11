@@ -1,0 +1,4 @@
+---@class UIElements.IBinding @Base interface for Binding objects.
+---@field Release fun() @Disconnects the field from its bound property
+---@field Update fun() @Called at regular intervals to synchronize bound properties to their IBindable counterparts. Called before the Update() method.
+---@field PreUpdate fun() @Called at regular intervals to synchronize bound properties to their IBindable counterparts. Called before the Update() method.

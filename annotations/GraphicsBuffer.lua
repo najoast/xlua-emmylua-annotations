@@ -1,0 +1,16 @@
+---@class GraphicsBuffer @GPU graphics data buffer, for working with geometry or compute shader data.
+---@field Target GraphicsBuffer.Target @The intended usage of a GraphicsBuffer.
+---@field ctor fun() @Create a Graphics Buffer.
+---@field IndirectDrawIndexedArgs GraphicsBuffer.IndirectDrawIndexedArgs @Defines the data layout for indexed indirect render calls.
+---@field Release fun() @Release a Graphics Buffer.
+---@field GetNativeBufferPtr fun() @Retrieve a native (underlying graphics API) pointer to the buffer.
+---@field GetData fun() @Read data values from the buffer into an array. The array can only use blittable types.
+---@field stride fun() @Size of one element in the buffer (Read Only).
+---@field SetData fun() @Set the buffer with values from an array.
+---@field name fun() @The debug label for the graphics buffer (setter only).
+---@field count fun() @Number of elements in the buffer (Read Only).
+---@field SetCounterValue fun() @Sets counter value of append/consume buffer.
+---@field IndirectDrawArgs GraphicsBuffer.IndirectDrawArgs @Defines the data layout for non-indexed indirect render calls.
+---@field target fun() @Usage target, which specifies the intended usage of this GraphicsBuffer (Read Only).
+---@field IsValid fun() @Returns true if this graphics buffer is valid, or false otherwise.
+---@field CopyCount fun() @Copy the counter value of a GraphicsBuffer into another buffer.

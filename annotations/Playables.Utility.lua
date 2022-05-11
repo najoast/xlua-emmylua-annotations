@@ -1,0 +1,4 @@
+---@class Playables.Utility @Editor utility functions for the Playable graph and its nodes.
+---@field graphCreated fun() @Event triggered whenever a new PlayableGraph is created.
+---@field destroyingGraph fun() @Event triggered whenever a PlayableGraph is being destroyed.
+---@field GetAllGraphs fun() @Returns all existing PlayableGraphs.

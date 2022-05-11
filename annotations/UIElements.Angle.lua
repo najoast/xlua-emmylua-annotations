@@ -1,0 +1,6 @@
+---@class UIElements.Angle @Represents an angle value.
+---@field ctor fun() @Creates an Angle from a float and an optionnal AngleUnit.
+---@field Degrees fun() @Creates a percentage Angle from a float.
+---@field value fun() @The angle value.
+---@field unit fun() @The unit of the value property.
+---@field ToDegrees fun() @Returns the value of the angle, expressed in degrees.

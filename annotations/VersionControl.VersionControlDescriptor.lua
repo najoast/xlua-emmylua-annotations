@@ -1,0 +1,3 @@
+---@class VersionControl.VersionControlDescriptor @Contains unique version control system name.
+---@field name fun() @Version control system name.
+---@field displayName fun() @Version control system display name.

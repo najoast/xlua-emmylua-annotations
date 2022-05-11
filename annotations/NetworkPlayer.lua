@@ -1,0 +1,6 @@
+---@class NetworkPlayer @The NetworkPlayer is a data structure with which you can locate another player over the network.
+---@field externalPort fun() @Returns the external port of the network interface.
+---@field port fun() @The port of this player.
+---@field guid fun() @The GUID for this player, used when connecting with NAT punchthrough.
+---@field externalIP fun() @Returns the external IP address of the network interface.
+---@field ipAddress fun() @The IP address of this player.

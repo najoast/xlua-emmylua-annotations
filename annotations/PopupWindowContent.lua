@@ -1,0 +1,6 @@
+---@class PopupWindowContent @Class used to implement content for a popup window.
+---@field GetWindowSize fun() @The size of the popup window.
+---@field OnGUI fun() @Callback for drawing GUI controls for the popup window.
+---@field OnClose fun() @Callback when the popup window is closed.
+---@field OnOpen fun() @Callback when the popup window is opened.
+---@field editorWindow fun() @The EditorWindow that contains the popup content.

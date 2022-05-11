@@ -1,0 +1,4 @@
+---@class BoundingSphere @Describes a single bounding sphere for use by a CullingGroup.
+---@field radius fun() @The radius of the BoundingSphere.
+---@field ctor fun() @Initializes a BoundingSphere.
+---@field position fun() @The position of the center of the BoundingSphere.

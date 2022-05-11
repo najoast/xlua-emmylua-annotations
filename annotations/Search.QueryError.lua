@@ -1,0 +1,5 @@
+---@class Search.QueryError @A QueryError holds the definition of a query parsing error.
+---@field length fun() @Length of the block that was being parsed.
+---@field ctor fun() @Construct a new QueryError.
+---@field index fun() @Index where the error happened.
+---@field reason fun() @Reason why the parsing failed.

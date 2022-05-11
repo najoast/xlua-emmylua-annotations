@@ -1,0 +1,2 @@
+---@class Build.IPostprocessBuild @This interface is obsolete. Use Build.IPostprocessBuildWithReport instead.
+---@field OnPostprocessBuild fun() @This method is obsolete. Use Build.IPostprocessBuildWithReport.OnPostprocessBuild instead.

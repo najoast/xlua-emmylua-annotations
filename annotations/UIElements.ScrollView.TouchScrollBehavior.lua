@@ -1,0 +1,4 @@
+---@class UIElements.ScrollView.TouchScrollBehavior @The behavior to use when a user tries to scroll past the end of the ScrollView content using a touch interaction.
+---@field Elastic fun() @The content position can overshoot the ScrollView boundaries, but then snaps back within them.
+---@field Clamped fun() @The content position is clamped to the ScrollView boundaries.
+---@field Unrestricted fun() @The content position can move past the ScrollView boundaries.

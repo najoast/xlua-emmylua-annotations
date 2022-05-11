@@ -1,0 +1,28 @@
+---@class Experimental.GraphView.GraphElement @Base class for main GraphView VisualElements.
+---@field IsSelected fun() @The GraphElement is currently selected in specific container.
+---@field OnSelected fun() @Called when the GraphElement is selected.
+---@field selected fun() @True if the GraphElement is currently selected.
+---@field IsResizable fun() @The GraphElement is resizable.
+---@field layer fun() @The GraphElement's layer in the graph.
+---@field ResetLayer fun() @Reset the GraphElement to its original layer.
+---@field Unselect fun() @Deselect the GraphElement.
+---@field GetPosition fun() @Get the GraphElement position.
+---@field SetPosition fun() @Set the GraphElement position.
+---@field Select fun() @Select the GraphElement.
+---@field OnCustomStyleResolved fun() @Called when the custom style properties are resolved.
+---@field elementTypeColor fun() @The color used for the MiniMap view.
+---@field IsAscendable fun() @Checks if the GraphElement is automatically brought to front when selected.
+---@field OnUnselected fun() @Called when the GraphElement is unselected.
+---@field IsStackable fun() @Checks whether the GraphElement is stackable.
+---@field IsSelectable fun() @The GraphElement is selectable.
+---@field GetGlobalCenter fun() @Get the GraphElement's center point.
+---@field IsGroupable fun() @Checks whether the GraphElement is groupable.
+---@field IsDroppable fun() @The GraphElement is drag&amp;droppable.
+---@field showInMiniMap fun() @Whether the element is shown in the minimap.
+---@field IsRenamable fun() @The GraphElement is renamable.
+---@field IsCopiable fun() @Checks whether the GraphElement is copiable.
+---@field HitTest fun() @See if point is over the GraphElement.
+---@field title fun() @The GraphElement's title.
+---@field IsSnappable fun() @Checks whether the GraphElement is snappable.
+---@field IsMovable fun() @The GraphElement is movable.
+---@field capabilities fun() @The GraphElement's capabilities.

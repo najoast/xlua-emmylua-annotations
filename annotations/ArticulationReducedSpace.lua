@@ -1,0 +1,4 @@
+---@class ArticulationReducedSpace @Coordinates in reduced space.
+---@field Index_operator fun() @Gets the coordinate along or about a specific degree of freedom.
+---@field ctor fun() @Stores coordinates in reduced space.
+---@field dofCount fun() @The number of degrees of freedom of a body.

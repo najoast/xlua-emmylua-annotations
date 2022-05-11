@@ -1,0 +1,5 @@
+---@class Rendering.ReflectionProbeSortingCriteria @Visible reflection probes sorting options.
+---@field None fun() @Do not sort reflection probes.
+---@field ImportanceThenSize fun() @Sort probes by importance, then by size.
+---@field Size fun() @Sort probes from largest to smallest.
+---@field Importance fun() @Sort probes by importance.

@@ -1,0 +1,10 @@
+---@class TextAnchor @Where the anchor of the text is placed.
+---@field MiddleLeft fun() @Text is anchored in left side, centered vertically.
+---@field MiddleRight fun() @Text is anchored in right side, centered vertically.
+---@field LowerLeft fun() @Text is anchored in lower left corner.
+---@field LowerCenter fun() @Text is anchored in lower side, centered horizontally.
+---@field UpperLeft fun() @Text is anchored in upper left corner.
+---@field LowerRight fun() @Text is anchored in lower right corner.
+---@field MiddleCenter fun() @Text is centered both horizontally and vertically.
+---@field UpperRight fun() @Text is anchored in upper right corner.
+---@field UpperCenter fun() @Text is anchored in upper side, centered horizontally.

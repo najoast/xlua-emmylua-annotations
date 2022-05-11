@@ -1,0 +1,10 @@
+---@class Rendering.CompareFunction @Depth or stencil comparison function.
+---@field Equal fun() @Pass depth or stencil test when values are equal.
+---@field LessEqual fun() @Pass depth or stencil test when new value is less or equal than old one.
+---@field Always fun() @Always pass depth or stencil test.
+---@field Greater fun() @Pass depth or stencil test when new value is greater than old one.
+---@field Disabled fun() @Depth or stencil test is disabled.
+---@field GreaterEqual fun() @Pass depth or stencil test when new value is greater or equal than old one.
+---@field Less fun() @Pass depth or stencil test when new value is less than old one.
+---@field Never fun() @Never pass depth or stencil test.
+---@field NotEqual fun() @Pass depth or stencil test when values are different.

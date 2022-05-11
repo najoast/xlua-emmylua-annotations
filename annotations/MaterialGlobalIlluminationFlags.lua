@@ -1,0 +1,6 @@
+---@class MaterialGlobalIlluminationFlags @How the material interacts with lightmaps and lightprobes.
+---@field BakedEmissive fun() @The emissive lighting affects baked Global Illumination. It emits lighting into baked lightmaps and baked lightprobes.
+---@field AnyEmissive fun() @Helper Mask to be used to query the enum only based on whether Enlighten Realtime Global Illumination or baked GI is set, ignoring all other bits.
+---@field None fun() @The emissive lighting does not affect Global Illumination at all.
+---@field EmissiveIsBlack fun() @The emissive lighting is guaranteed to be black. This lets the lightmapping system know that it doesn't have to extract emissive lighting information from the material and can simply assume it is completely black.
+---@field RealtimeEmissive fun() @The emissive lighting will affect Enlighten Realtime Global Illumination. It emits lighting into real-time lightmaps and real-time Light Probes.

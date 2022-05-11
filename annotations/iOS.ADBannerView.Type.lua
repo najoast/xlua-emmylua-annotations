@@ -1,0 +1,3 @@
+---@class iOS.ADBannerView.Type @The type of the banner view.
+---@field MediumRect fun() @Rect Banner (300x250).
+---@field Banner fun() @Traditional Banner (it takes full screen width).

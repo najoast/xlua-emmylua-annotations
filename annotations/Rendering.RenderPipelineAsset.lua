@@ -1,0 +1,25 @@
+---@class Rendering.RenderPipelineAsset @An asset that produces a specific IRenderPipeline.
+---@field prefixedRenderingLayerMaskNames fun() @Returns the names of the Rendering Layer Masks for this pipeline, with each name prefixed by a unique numerical ID.
+---@field defaultShader fun() @Return the default Shader for this pipeline.
+---@field defaultSpeedTree7Shader fun() @Return the default SpeedTree v7 Shader for this pipeline.
+---@field defaultUIMaterial fun() @Return the default UI Material for this pipeline.
+---@field OnValidate fun() @Default implementation of OnValidate for RenderPipelineAsset. See MonoBehaviour.OnValidate
+---@field autodeskInteractiveTransparentShader fun() @Retrieves the default Autodesk Interactive transparent Shader for this pipeline.
+---@field default2DMaskMaterial fun() @Gets the default 2D Mask Material used by Sprite Masks in Universal Render Pipeline.
+---@field defaultTerrainMaterial fun() @Return the default Terrain  Material for this pipeline.
+---@field defaultSpeedTree8Shader fun() @Return the default SpeedTree v8 Shader for this pipeline.
+---@field autodeskInteractiveShader fun() @Retrieves the default Autodesk Interactive Shader for this pipeline.
+---@field defaultLineMaterial fun() @Return the default Line Material for this pipeline.
+---@field defaultUIETC1SupportedMaterial fun() @Return the default UI ETC1  Material for this pipeline.
+---@field OnDisable fun() @Default implementation of OnDisable for RenderPipelineAsset. See ScriptableObject.OnDisable
+---@field CreatePipeline fun() @Create a IRenderPipeline specific to this asset.
+---@field defaultParticleMaterial fun() @Return the default particle Material for this pipeline.
+---@field default2DMaterial fun() @Return the default 2D Material for this pipeline.
+---@field terrainBrushPassIndex fun() @The render index for the terrain brush in the editor.
+---@field terrainDetailLitShader fun() @Return the detail lit Shader for this pipeline.
+---@field terrainDetailGrassShader fun() @Return the detail grass Shader for this pipeline.
+---@field autodeskInteractiveMaskedShader fun() @Retrieves the default Autodesk Interactive masked Shader for this pipeline.
+---@field terrainDetailGrassBillboardShader fun() @Return the detail grass billboard Shader for this pipeline.
+---@field renderingLayerMaskNames fun() @Returns the names of the Rendering Layer Masks for this pipeline.
+---@field defaultMaterial fun() @Return the default Material for this pipeline.
+---@field defaultUIOverdrawMaterial fun() @Return the default UI overdraw Material for this pipeline.

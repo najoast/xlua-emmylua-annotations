@@ -1,0 +1,4 @@
+---@class Windows.WebCam.PhotoCapture.CaptureResultType @Contains the result of the capture request.
+---@field Error fun() @Specifies that an error has occurred.
+---@field UnknownError fun() @Specifies that an unknown error occurred.
+---@field Success fun() @Specifies that the desired operation was successful.

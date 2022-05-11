@@ -1,0 +1,6 @@
+---@class ModelImporterNormalCalculationMode @Normal generation options for ModelImporter.
+---@field AngleWeighted fun() @The normals are weighted by the vertex angle on each face.
+---@field Unweighted_Legacy fun() @The normals are unweighted. This option uses the legacy algorithm for handling hard edges.
+---@field AreaWeighted fun() @The normals are weighted by the face area.
+---@field Unweighted fun() @The normals are not weighted.
+---@field AreaAndAngleWeighted fun() @The normals are weighted by both the face area and the vertex angle on each face.

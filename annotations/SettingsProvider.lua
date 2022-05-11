@@ -1,0 +1,24 @@
+---@class SettingsProvider @SettingsProvider is the configuration class that specifies how a Project setting or a preference should appear in the Settings or Preferences window.
+---@field OnFooterBarGUI fun() @Use this function to override drawing the footer for the SettingsProvider using IMGUI.
+---@field GetSearchKeywordsFromGUIContentProperties fun() @Extract search keywords from all public static memebers in a specific Type.
+---@field HasSearchInterest fun() @Checks whether the SettingsProvider should appear when the user types something in the Settings window search box. SettingsProvider tries to match the search terms (even partially) to any of the SettingsProvider.keywords. The search is case insensitive.
+---@field OnActivate fun() @Use this function to implement a handler for when the user clicks on the Settings in the Settings window. You can fetch a settings Asset or set up UIElements UI from this function.
+---@field inspectorUpdateHandler fun() @Overrides SettingsProvider.OnInspectorUpdate.
+---@field OnTitleBarGUI fun() @Use this function to override drawing the title for the SettingsProvider using IMGUI. This allows you to add custom UI (such as a toolbar button) next to the title. AssetSettingsProvider uses this mecanism to display the add to preset and the help buttons.
+---@field footerBarGuiHandler fun() @Overrides SettingsProvider.OnFooterBarGUI.
+---@field scope fun() @Gets the Scope of the SettingsProvider. The Scope determines whether the SettingsProvider appears in the Preferences window (SettingsScope.User) or the Settings window (SettingsScope.Project).
+---@field OnDeactivate fun() @Use this function to implement a handler for when the user clicks on another setting or when the Settings window closes.
+---@field GetSearchKeywordsFromSerializedObject fun() @Extract search keywords from from the serialized properties of a SerializedObject.
+---@field titleBarGuiHandler fun() @Overrides SettingsProvider.OnTitleBarGUI.
+---@field label fun() @Gets or sets the display name of the SettingsProvider as it appears in the Settings window. If not set, the Settings window uses last token of SettingsProvider.settingsPath instead.
+---@field Repaint fun() @Request the SettingsWindow for a repaint.
+---@field OnInspectorUpdate fun() @OnInspectorUpdate is called at 10 frames per second to give the inspector a chance to update. See EditorWindow.OnInspectorUpdate for more details.
+---@field deactivateHandler fun() @Overrides SettingsProvider.OnDeactivate.
+---@field OnGUI fun() @Use this function to draw the UI based on IMGUI. This assumes you haven't added any children to the rootElement passed to the OnActivate function.
+---@field ctor fun() @Creates a new SettingsProvider.
+---@field settingsPath fun() @Gets Path used to place the SettingsProvider in the tree view of the Settings window. The path should be unique among all other settings paths and should use / as its separator.
+---@field hasSearchInterestHandler fun() @Overrides SettingsProvider.HasSearchInterest.
+---@field guiHandler fun() @Overrides SettingsProvider.OnGUI.
+---@field activateHandler fun() @Overrides SettingsProvider.OnActivate.
+---@field GetSearchKeywordsFromPath fun() @Extract search keywords from the serialized properties of an Asset at a specific path.
+---@field keywords fun() @Gets or sets the list of keywords to compare against what the user is searching for. When the user enters values in the search box on the Settings window, SettingsProvider.HasSearchInterest tries to match those keywords to this list.

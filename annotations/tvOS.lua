@@ -1,0 +1,4 @@
+---@class tvOS @nil
+---@field Device tvOS.Device @Interface into tvOS specific functionality.
+---@field Remote tvOS.Remote @A class for Apple TV remote input configuration.
+---@field DeviceGeneration tvOS.DeviceGeneration @iOS device generation.

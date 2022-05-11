@@ -1,0 +1,17 @@
+---@class Android @nil
+---@field RequestToUseMobileDataAsyncOperation Android.RequestToUseMobileDataAsyncOperation @Represents an asynchronous operation that requests to use mobile data to download Android asset packs.
+---@field DownloadAssetPackAsyncOperation Android.DownloadAssetPackAsyncOperation @Represents an asynchronous Android asset pack download operation. AndroidAssetPacks.DownloadAssetPackAsync returns an instance of this class.
+---@field GetAssetPackStateAsyncOperation Android.GetAssetPackStateAsyncOperation @Represents an asynchronous Android asset pack state request operation. AndroidAssetPacks.GetAssetPackStateAsync returns an instance of this class.
+---@field AndroidAssetPackState Android.AndroidAssetPackState @Represents the state of a single Android asset pack.
+---@field AndroidPlatformIconKind Android.AndroidPlatformIconKind @Contains all Android PlatformIconKind supported by Unity.
+---@field AndroidAssetPackError Android.AndroidAssetPackError @Values that indicate the type of Android asset pack error when the status is either AndroidAssetPackStatus.Failed or AndroidAssetPackStatus.Unknown.
+---@field AndroidExternalToolsSettings Android.AndroidExternalToolsSettings @A class containing properties to modify Android specific values in Edit -&gt; Preferences... -&gt; External Tools.
+---@field AndroidAssetPacks Android.AndroidAssetPacks @Provides methods for handling Android asset packs.
+---@field Permission Android.Permission @Structure describing a permission that requires user authorization.
+---@field IPostGenerateGradleAndroidProject Android.IPostGenerateGradleAndroidProject @Implement this interface to receive a callback after the Android Gradle project is generated. Inherited from UnityEditor.Build.IOrderedCallback.
+---@field PermissionCallbacks Android.PermissionCallbacks @Contains callbacks invoked when permission request is executed using Permission.RequestUserPermission.
+---@field AndroidAssetPackStatus Android.AndroidAssetPackStatus @Values that indicate the status of an Android asset pack.
+---@field AndroidDevice Android.AndroidDevice @Interface into Android specific functionality.
+---@field AndroidAssetPackInfo Android.AndroidAssetPackInfo @Represents the download progress of a single Android asset pack.
+---@field AndroidAssetPackUseMobileDataRequestResult Android.AndroidAssetPackUseMobileDataRequestResult @Represents the choice of an end user that indicates if your application can use mobile data to download Android asset packs.
+---@field AndroidHardwareType Android.AndroidHardwareType @AndroidHardwareType describes the type of Android device on which the app is running.

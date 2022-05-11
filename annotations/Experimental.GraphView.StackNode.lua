@@ -1,0 +1,22 @@
+---@class Experimental.GraphView.StackNode @Use this class to customize StackNodes and to manage dragging GraphElements over StackNodes.
+---@field DragPerform fun() @This method is automatically called when a drop event occurs.
+---@field ctor fun() @StackNode constructor.
+---@field DragEnter fun() @This method is automatically called when a drag leave event occurs.
+---@field OnStartDragging fun() @This method is automatically called when an element of the stack is about to be dragged out of it.
+---@field AddElement fun() @Adds the specified GraphElement to the StackNode.
+---@field GetInsertionIndex fun() @Retrieves the insertion index in the StackNode if an item is dropped at the specified world position.
+---@field CanAcceptDrop fun() @Indicates whether this StackNode accepts the current drop event.
+---@field DragLeave fun() @This method is automatically called when a drag leave event occurs.
+---@field dragEntered fun() @Indicates if items from this stack are currently being dragged.
+---@field contentContainer fun() @The content container of this StackNode.
+---@field RemoveElement fun() @Removes the specified GraphElement from this StackNode.
+---@field OnSeparatorContextualMenuEvent fun() @This method is automatically called when a contextual menu is about to appear on a StackNode separator.
+---@field OnCustomStyleResolved fun() @Called when the custom style properties are resolved.
+---@field InsertElement fun() @Inserts the specified GraphElement at the specified index in this StackNode.
+---@field hasMultipleSelectionSupport fun() @Returns true if the StackNode supports multiselection.
+---@field CollectElements fun() @Retrieves the set of nodes contained in this stack and its edges. The retrieved graph elements match a specific condition.
+---@field headerContainer fun() @Use this property to customize the header for this StackNode.
+---@field AcceptsElement fun() @Checks whether the specified GraphElement can be added to this StackNode.
+---@field DragUpdated fun() @This method is automatically called when a drag updated event occurs.
+---@field dropPreviewTemplate fun() @Use this property to customize the preview that appears when GraphElements are dragged over the StackNode.
+---@field DragExited fun() @This method is automatically called when a drag exit event occurs.

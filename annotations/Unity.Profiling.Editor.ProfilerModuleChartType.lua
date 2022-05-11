@@ -1,0 +1,3 @@
+---@class Unity.Profiling.Editor.ProfilerModuleChartType @Options for a Profiler module’s chart type.
+---@field StackedTimeArea fun() @Display a stacked-area chart.
+---@field Line fun() @Display a line chart.

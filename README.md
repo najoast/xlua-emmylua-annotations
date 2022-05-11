@@ -1,7 +1,7 @@
 # xlua emmylua annotations
 [中文文档](README_cn.md)
 
-This project can generate the emmylua markup of xlua according to the Unity documentation, so as to achieve the purpose of automatic prompting during coding.
+This project can generate the emmylua annotations of xlua according to the Unity documentation, so as to achieve the purpose of automatic prompting during coding.
 
 After Unity is installed, the API documentation will be installed in the `..Unity/Hub/Editor/2021.3.1f1c1/Editor/Data/Documentation/en/ScriptReference` directory. This project generates tags by parsing the information in it.
 

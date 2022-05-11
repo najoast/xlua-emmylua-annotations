@@ -42,18 +42,12 @@ end
     }
 ]]
 local pageTrees = {}
--- local pageIndexes = {}
 for k, v in ipairs(indexData.pages) do
     local page = v[1]
-    -- pageIndexes[page] = k
-    -- print(page)
     local pageCells = strings.split(page, ".", "-")
     table.insert(pageCells, { indexData.info[k][1] })
-    -- print(strings.dump(v))
     tables.treeset(pageTrees, table.unpack(pageCells))
 end
-
--- print(strings.dump(pageTrees))
 
 local function genEmmyluaAnnotations(key, t, outputPath)
     local outputFileName = string.format("%s/%s.lua", outputPath, key)
@@ -94,11 +88,11 @@ end
 do
     local f = assert(io.open(outputPath .. "/CS.Engine.lua", "w"))
     f:write("---@class CS\n")
-    f:write("---@field UnityEngine UnityEngine @All Unity APIs export to this package.\n\n")
+    f:write("---@field UnityEngine UnityEngine @All Unity APIs export to this package.\n")
+    f:write("CS = CS\n\n")
     f:write("---@class UnityEngine\n")
     for k, v in pairs(pageTrees) do
         f:write(string.format("---@field %s %s @%s\n", k, k, v[1]))
     end
-    -- f:write("\n---@type CS\n_G.CS")
     f:close()
 end

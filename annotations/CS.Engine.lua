@@ -1,5 +1,6 @@
 ---@class CS
 ---@field UnityEngine UnityEngine @All Unity APIs export to this package.
+CS = CS
 
 ---@class UnityEngine
 ---@field EffectorForceMode2D EffectorForceMode2D @The mode used to apply Effector2D forces.

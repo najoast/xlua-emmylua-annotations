@@ -1,5 +1,5 @@
 # xlua emmylua annotations
-[English](README_en.md)
+[中文文档](README_cn.md)
 
 This project can generate the emmylua markup of xlua according to the Unity documentation, so as to achieve the purpose of automatic prompting during coding.
 

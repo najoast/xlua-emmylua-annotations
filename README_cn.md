@@ -1,5 +1,4 @@
 # xlua emmylua annotations
-[English](README_en.md)
 
 本项目可以根据 Unity 文档生成 xlua 的 emmylua 标记，以达到编码时能自动提示的目的。
 
@@ -14,3 +13,5 @@ For example:
 ```
 
 注：必须在 Linux 环境执行，代码里的路径使用的都是 `/`，没考虑 Windows 的 `\`， 如果是在 Windows 平台，可以在 WSL 内执行。
+
+TODO：解析每个接口的 html 页面，生成函数的参数和返回值。
